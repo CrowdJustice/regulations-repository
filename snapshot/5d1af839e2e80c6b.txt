@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="A bobsledder, an orchid grower, and a former Councillor of The Law Society of NSW are among several legal figures to feature in the 2026 King’s Birthday Honours List. President of The Law Society Ronan MacSweeney said the honours recognise the significant achievements of solicitors and other legal figures in the law and in the life of their communities." />
+<link rel="canonical" href="https://www.lawsociety.com.au/resources/news-and-media/service-to-the-law-recognised" />
+<meta name="google-site-verification" content="iT0W-m2oJhLdgg7OpX5E0j4aTCGtneKdPBJo8P_8Tko" />
+<meta name="silktide-cms" content="snu8ZwUHNFCUkl3zZsS2z2IeIBI0JxyX3+RP7+RXvNR2bpJjfY/xA1WVjNjbw8zmIHeOTiSYIJIoSCGwTwSBoBJwhXwmwEOyIayBxWD579mL64KdHhg2X5Yc2TWbtyhTzla7j46DTQGFOBlAvIzVvaKBGKGLh1DzMcXCo0Yipzk=" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta class="swiftype" name="domain-identifier" data-type="string" content="law-society" />
+<meta class="swiftype" name="entity" data-type="string" content="node" />
+<meta class="swiftype" name="bundle" data-type="string" content="page" />
+<meta class="swiftype" name="title" data-type="string" content="Service to the law recognised " />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/sites/default/files/LSNSW_Favicon_16x16.png" type="image/png" />
+
+    <title>Service to the law recognised | The Law Society of NSW</title>
+
+    <!-- Silktide START -->
+    <script defer src="https://analytics.silktide.com/445e5bc981fafc93cd10ea6ab05e012e.js"></script>
+    <script>
+      (function (s,i,l,k,y) {
+        s[i] = s[i] || y;
+        s[l] = s[l] || [];
+        s[k] = function(e, p) { p = p || {}; p.event = e; s[l].push(p); };
+        s[k]('page_load');
+      })(window, 'stConfig', 'stEvents', 'silktide', {});
+    </script>
+    <!-- Silktide END -->
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Z95zIp1YpqC6G74Iy_LPQ4iblLBVxwwhARj8g9KbFT8.css?delta=0&amp;language=en&amp;theme=law_society_main&amp;include=eJxtj1FyBCEIRC_k6JEsdJgdsiiW4E68fZytrfwkP1A8uukiS8eQpTSpWE19EjG1Di0m6J1k2wrW4fIt2_towB6-4NsxXFElE9qMBaiGB0sC3tQmU32s_ZRhcSfN8sI-w7qfhR1rXE26hjzUpLwNqDfXiw6bDaMi9HyGhRJLfn5md8cBx4I7QVwhTw2HVIMLVQr63yf-E_5F3k4s6HQ07AfpGajSsk41LCGBonsRXhre1RfZB-MPPCd3Cg" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_VMOn1m_xmSKvC7bIl57bEESX_UrgiLJTnkkcmj7fxTI.css?delta=2&amp;language=en&amp;theme=law_society_main&amp;include=eJxtj1FyBCEIRC_k6JEsdJgdsiiW4E68fZytrfwkP1A8uukiS8eQpTSpWE19EjG1Di0m6J1k2wrW4fIt2_towB6-4NsxXFElE9qMBaiGB0sC3tQmU32s_ZRhcSfN8sI-w7qfhR1rXE26hjzUpLwNqDfXiw6bDaMi9HyGhRJLfn5md8cBx4I7QVwhTw2HVIMLVQr63yf-E_5F3k4s6HQ07AfpGajSsk41LCGBonsRXhre1RfZB-MPPCd3Cg" />
+<link rel="stylesheet" media="all" href="/colors/style" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_3sHeWct6SVeXQuOm3ewBDe-B0Tx2cx7lWoqLZONpU9o.css?delta=4&amp;language=en&amp;theme=law_society_main&amp;include=eJxtj1FyBCEIRC_k6JEsdJgdsiiW4E68fZytrfwkP1A8uukiS8eQpTSpWE19EjG1Di0m6J1k2wrW4fIt2_towB6-4NsxXFElE9qMBaiGB0sC3tQmU32s_ZRhcSfN8sI-w7qfhR1rXE26hjzUpLwNqDfXiw6bDaMi9HyGhRJLfn5md8cBx4I7QVwhTw2HVIMLVQr63yf-E_5F3k4s6HQ07AfpGajSsk41LCGBonsRXhre1RfZB-MPPCd3Cg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Vft6V8RWu3OFkN1iczs27JG9OY1w0GRR2mDZnM4rD3g.css?delta=5&amp;language=en&amp;theme=law_society_main&amp;include=eJxtj1FyBCEIRC_k6JEsdJgdsiiW4E68fZytrfwkP1A8uukiS8eQpTSpWE19EjG1Di0m6J1k2wrW4fIt2_towB6-4NsxXFElE9qMBaiGB0sC3tQmU32s_ZRhcSfN8sI-w7qfhR1rXE26hjzUpLwNqDfXiw6bDaMi9HyGhRJLfn5md8cBx4I7QVwhTw2HVIMLVQr63yf-E_5F3k4s6HQ07AfpGajSsk41LCGBonsRXhre1RfZB-MPPCd3Cg" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/4644","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","gtag":{"tagId":"G-XWKWTVFLMV","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1kG1yxCAIhi9k4pEcNMTYRckIbmpP3ySzszPNpn8QnhfkwzOraIXVeag1sfUVYQq1ZW_8VYvEHmgQ7ZRKNIEr2sB55YJFZbzmD0PG0kxkjoROIdq4m2s8whd8_4XZEGxOOCTU7jKkYkOFnz5gjJ_SZSqCzk3dlCTwE2u3-3SByZC4_eEqNjRRzmcBysFlS7P2FZ0g1LDYHXni8HjF5mgH5DJOCdze5CF25qKwoXDG8X2Cu8RPNOqCGY20FeucZLFv74655dgiFT3_v9ElA5GEilju9cOT5uU_dWVJmniv7qKYrQdB80y4iT3tmHlqhL_Brdy6","theme":"law_society_main","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes","blocklist_classes":"customScripts\ncustomPixels","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-PLTJV94","GTM-N2BZHGFN"]},"field_group":{"html_element":{"mode":"teaser","context":"view","settings":{"classes":"group_logo","id":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width","accordionButton":0},"supposition":true,"supersubs":true}}},"user":{"uid":0,"permissionsHash":"d13bec55cfcde7f14894299f89e7f5f78c69bbd1615fee71bf6a9a581dd5e57c"}}</script>
+<script src="/sites/default/files/js/js_S0Hc3cmMTiE7uzAw30nqwfWGv70rfGN-FcDJn653zro.js?scope=header&amp;delta=0&amp;language=en&amp;theme=law_society_main&amp;include=eJx1idEOgjAMRX8I3Cct3VJKtazLWsT59WJiTIj4cnPuOaRKgtGBAu0z0PFf4AqPo1wGgS2aZkbvcQEuITd49hGJfhOJJpDRvAuXvVu0jSfvFaMhtDyHXSXRfPv8wdaKbWKbw5fOXJz1jo2LY_HTbguIWG6I5by_ydZk_2pVY2ctL3SBdI8"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tobbit"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tobbit"></script>
+
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first page-node-4644 path-node node--type-page">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLTJV94"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2BZHGFN"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner" aria-label="Site header">
+        <nav class="navbar navbar-expand-md top-bar-menu navbar-expand-xl navbar-dark bg-dark d-none d-xl-block" id="navbar-main">
+    <div class="container max-container">
+      <div class="row justify-content-around no-gutters w-100">
+        <div class="col-12 d-flex">
+                                        <div class="form-inline mr-auto">
+                    <div class="row region region-top-header">
+    
+<nav role="navigation" aria-labelledby="block-topbarmenu-menu" id="block-topbarmenu" class="block block-menu navigation menu--top-bar-menu top-bar-menu">
+            
+  <h2 class="sr-only" id="block-topbarmenu-menu">Top bar menu</h2>
+  
+
+        
+              <ul id="block-topbarmenu" block="block-topbarmenu" class="clearfix nav">
+    
+          
+      <li class="nav-item menu-item--collapsed">
+        
+                  <a href="/about-us" target="_self" class="nav-link" data-drupal-link-system-path="node/35">About Us</a>
+              </li>
+          
+      <li class="nav-item menu-item--collapsed">
+        
+                  <a href="/register-of-solicitors" target="_self" class="nav-link" data-drupal-link-system-path="node/694">Register of Solicitors</a>
+              </li>
+          
+      <li class="nav-item">
+        
+                  <a href="https://www.lawsociety.com.au/shop-dcs" target="_self" class="nav-link">Shop &amp; DCS</a>
+              </li>
+          
+      <li class="nav-item">
+        
+                  <a href="/resources/publications/forms-directory" class="nav-link" data-drupal-link-system-path="node/401">Forms Directory</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                </div>
+              
+                              <div class="form-inline navbar-form d-flex justify-content-end">
+                    <div class="row region region-top-header-form">
+    <nav role="navigation" aria-labelledby="block-law-society-main-account-menu-menu" id="block-law-society-main-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="sr-only" id="block-law-society-main-account-menu-menu">User account menu</h2>
+  
+
+        
+        <ul id="block-law-society-main-account-menu" block="block-law-society-main-account-menu" class="clearfix menu nav navbar-nav account-menu">
+            
+      
+                    
+              <li class="nav-item">
+                              
+                      <a href="https://www.lawsociety.com.au/membership" target="_blank" class="nav-link">Membership</a>
+                  </li>
+                
+      
+                                      
+              <li class="nav-item">
+                              
+                      <a href="/lawid/auto-connect" class="nav-link" data-drupal-link-system-path="lawid/auto-connect">Login</a>
+                  </li>
+            </ul>
+    
+
+
+
+  </nav>
+
+  </div>
+
+                </div>
+                                          </div>
+      </div>
+    </div>
+  </nav>
+
+    
+      <div class="headroom no-admin-bar w-100">
+      <div class="container max-container">
+      <div class="row header-menu-container">
+        <div class="col-md-2 header-container" >
+          <div class="row px-3 align-items-center header-inner">
+            <div class="mr-auto logo-container">
+                          <a href="/" title="Home" rel="home" class="site-logo d-inline-block">
+      <img src="/themes/custom/law_society_theme/img/logo.svg" alt="Home" class="nav-logo max-width-175"/>
+      <img src="/themes/custom/law_society_theme/img/logo-sticky.svg" alt="Home" class="nav-logo-sticky" />
+    </a>
+    
+  
+            </div>
+            <div class="">
+                <div class="row region region-header-form">
+    <div id="block-swiftype-mobile-search" class="block block-ls-swiftype-search block-swiftype-search-block">
+  
+    
+      <div class="content">
+      <div class="swiftype-search-block">
+  <form class="swiftype-autocomplete-search" autocomplete="off">
+    <button class="mobile-search-button">Open</button>
+    <div class="search-field">
+      <input type="text" placeholder="Type a word" name="query" class="search-input" />
+      <button class="submit-search">Search</button>
+    </div>
+  </form>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+            </div>
+            <div class="ml-3 hamburger-container">
+              <button class="navbar-toggler d-xl-none collapsed" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 padding-left menu-container">
+          <div class="menu-wrap navbar-collapse collapse" id="CollapsingNavbar">
+                  <div class="row no-gutters primary-menu justify-content-end">
+      
+<div id="block-mainnavigation-2" class="block block-superfish block-superfishmain col-11 d-none d-xl-block">
+  
+    
+      <div class="content">
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none d-flex justify-content-between menu" role="menu" aria-label="Menu">
+  
+            
+  <li id="main-menu-link-contentcf6951e5-964a-4c50-8320-c60dab2bcc1e--2" class="sf-depth-1 menuparent">
+              <a href="/practising-law-in-NSW" class="sf-depth-1 menuparent">Practising law in NSW</a>
+                  <ul>      
+            
+  <li id="main-menu-link-content797daaba-9460-4ea8-afd0-345cdccfb2af--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-nsw/aml-ctf-hub" class="sf-depth-2 menuparent">AML and CTF Hub</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content70415e7c-89f3-4988-aaf7-24d57a5e6bcf--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-NSW/AML-CTF-hub/Guides" class="sf-depth-3">Implementation Guides</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content6f2ca9a2-81a3-4ce0-ab21-d70750fa8bf0--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/am-i-captured" class="sf-depth-3">Am I captured?</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content6ea8c367-91ab-4ffe-b215-b2297e28008a--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/your-obligations" class="sf-depth-3">Your obligations</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentc5923bba-a2ac-4b29-83bd-d8f70ce4a786--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/amlctf-framework" class="sf-depth-3">AML/CTF Framework</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentb8a6011b-d713-4705-99f9-fbcd95fd6c55--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/resources-and-events" class="sf-depth-3">Resources and Events</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content21e44c7a-bc8b-42e8-ba99-ed5eb66908fc--2" class="sf-depth-3 sf-no-children">
+              <a href="https://www.lawsociety.com.au/practising-law-nsw/aml-ctf-hub/austrac-educational-resources" class="sf-depth-3 sf-external">AUSTRAC educational resources</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content22178f03-da85-4e4e-820c-c9ff9ed2b217--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-NSW/AML-CTF-hub/complying-your-amlctf-obligations" class="sf-depth-3">CPD Course: Complying with your AML/CTF obligations</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta551e603-5d14-4fd7-b762-f1f94d281100--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-NSW/AML-CTF-hub/privacy-policy" class="sf-depth-3">Privacy</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentbebb0f76-e4ce-4f2d-a459-8f323d162956--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/client-awareness-resources" class="sf-depth-3">Client Awareness Resources</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content60e74834-5700-418d-9266-f1ca28eac55c--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/amlctf-video-library" class="sf-depth-3">AML/CTF Video Library</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content67cd4ae6-717d-4c53-8756-27b6d6bb4f24--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/policy-and-submissions" class="sf-depth-3">Policy and submissions</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta0470bc9-8cfe-4ce0-bdc1-f8f169f4c8f6--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/aml-and-ctf-hub/articles" class="sf-depth-3">AML Articles</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content0737446e-0d6c-45c0-9351-78e88fc4c77b--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-nsw/growth-and-wellbeing-hub" class="sf-depth-2 menuparent">Growth and Wellbeing Hub</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content1d3e9239-d59e-42dc-8612-492cfab14e64--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/growth-and-wellbeing-hub/growth-wellbeing-articles" class="sf-depth-3">Growth &amp; Wellbeing Articles</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentc388c3f3-c68d-4ddc-b754-e3f6e93a7b97--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/growth-and-wellbeing-hub/leadership-development-program" class="sf-depth-3">Leadership Development Program</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content3dc8ad08-221e-47d2-a236-8e595b6d9116--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/PCAP" class="sf-depth-3">Professional Conduct Advisory Panel (PCAP)</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content4e7d2ca9-6605-4c52-b7f8-43771f3e5d5b--2" class="sf-depth-3 sf-no-children">
+              <a href="/sowell" class="sf-depth-3">SoWell 1800 592 296</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta515385c-5e36-4c04-bb76-48c83b0cb879--2" class="sf-depth-3 sf-no-children">
+              <a href="/professional-development/mentoring-programs" class="sf-depth-3">Mentoring Programs</a>
+                      </li>
+
+
+      </ul>              </li>
+
+  
+  <li id="main-menu-link-content559b5c44-5617-46be-ada7-e07056fef4ec--2" class="sf-depth-2 sf-no-children">
+              <a href="/practising-law-nsw/scam-alert-trademarkip-rights-emails" class="sf-depth-2">Scam Alert: Trademark/IP rights emails</a>
+                      </li>
+
+            
+  <li id="main-menu-link-content795e9558-1f42-4fce-96bf-11987d6a1c0a--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW" class="sf-depth-2 menuparent">Working as a solicitor in NSW</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentd5910911-524f-4347-a256-db5882a2e840--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate" class="sf-depth-3">Your practising certificate</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content781b41e5-91d7-4f4f-8d9b-d0f4f6c29a18--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/practice-structures" class="sf-depth-3">Practice structures</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content814e5b6a-90f1-4e9f-a8f4-24a847eff302--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/working-solicitor-nsw/practising-foreign-law-nsw" class="sf-depth-3">Practising foreign law in NSW</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente51f1376-34ad-4b83-8c52-8850f09e02f7--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/professional-indemnity-insurance" class="sf-depth-3">Professional indemnity insurance</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentaf31661b-b3df-4cda-a254-da1a5c640897--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/supervised-legal-practice" class="sf-depth-3">Supervised legal practice</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente1d79739-7beb-47d3-a23f-a9e38ca42edb--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/supervised-legal-practice/Remote-supervision" class="sf-depth-3">Remote supervision</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentf2bcdbf9-11cc-4393-82f1-fb8c2f86b802--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD" class="sf-depth-3">Continuing Professional Development</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentaf3fd92a-adcd-483f-8d01-ca928691b2f5--2" class="sf-depth-3 sf-no-children">
+              <a href="/resources/practice-resources/my-practice-area" class="sf-depth-3">My Practice Area</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content506f59ac-20d3-49b1-a7f2-3d3d7c4bd9bd--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/scheme" class="sf-depth-3">Professional Standards Scheme</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content84756c8b-df33-4b94-83fc-2d20ce13309b--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-in-NSW/rules-and-legislation" class="sf-depth-2 menuparent">Rules and legislation</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentea647421-0df8-4853-8b1d-e51d9274cfed--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/rules-and-legislation/legal-profession-uniform-law" class="sf-depth-3">Legal Profession Uniform Law</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentb35db27d-53bc-4166-a4cb-1992de3fd44d--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/rules-and-legislation/rules" class="sf-depth-3">Legislation and rules</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content6ce15981-5ad6-4290-85fb-bdb07ff0ef1d--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/rules-and-legislation/show-cause-events" class="sf-depth-3">Offences and show cause events</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-contentd8c3247e-96e1-4654-9c54-43fffc83cf3d--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-in-NSW/professional-support-unit" class="sf-depth-2 menuparent">Professional Support Unit</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content4d6f76b5-0f3b-4a41-94e9-eac92b4bd32f--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/ethics-and-compliance/costs" class="sf-depth-3">Costs</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content5ba81eaa-a75f-4db1-84bd-48095cf09da6--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/ethics-and-compliance/ethics/education" class="sf-depth-3">Education</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content4d9c3143-393a-4a34-9f92-f8c0d5163a55--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/ethics-and-compliance/ethics" class="sf-depth-3">Ethics</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content7506c72b-4577-4725-9d2c-241af5f0483c--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/ethics-and-compliance/regulatory-compliance" class="sf-depth-3">Regulatory compliance</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-contente803c41f-f026-460b-874d-fcb10395c283--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-in-NSW/trust-money-and-fidelity-funds" class="sf-depth-2 menuparent">Trust money and fidelity fund</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content5ef39ad2-008f-4371-bd23-5bb0a7fbc699--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/trust-money-and-fidelity-fund/trust-account-irregularity-reporting" class="sf-depth-3">Trust Account Irregularity Reporting</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content7bbbe7ee-2869-48f9-a6d2-11dfb27d3aeb--2" class="sf-depth-2 menuparent">
+              <a href="/practising-law-in-NSW/complaints-and-discipline" class="sf-depth-2 menuparent">Complaints and discipline</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content1afb1ca9-dd7e-4162-9038-6872ae6ea47b--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/bullying-discrimination-and-sexual-harassment" class="sf-depth-3">Bullying, discrimination and sexual harassment</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentecdc8ff5-3b2a-47de-8c10-c84adf91eb1e--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/complaints-process" class="sf-depth-3">Complaints process</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content7a6aa704-634f-40c1-b22b-733acc6f42c3--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/disqualified-lay-associates" class="sf-depth-3">Disqualified lay associates</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content71d4229e-2908-4f21-823f-afff2616dcb9--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/external-intervention" class="sf-depth-3">External intervention</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content6e8a653f-153e-47af-9e36-9253d94946ff--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/complaints-and-discipline/our-regulatory-approach" class="sf-depth-3">Our Regulatory Approach</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta86824fe-f0f2-4ee9-828f-37d3481d070c--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-nsw/complaints-and-discipline/policy-complaints-solicitors-about-solicitors" class="sf-depth-3">Policy – Complaints by solicitors about solicitors</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentee6cc38c-e953-40b0-b44a-fe721b892753--2" class="sf-depth-3 sf-no-children">
+              <a href="/practising-law-in-NSW/complaints-and-discipline/unqualified-practitioners" class="sf-depth-3">Unqualified practitioners</a>
+                      </li>
+
+
+      </ul>              </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content4668c9e8-3d0f-4261-8467-da858062339c--2" class="active-trail sf-depth-1 menuparent">
+              <a href="/publications-and-resources" target="_self" class="text-hover-grey sf-depth-1 menuparent">Publications and Resources</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content9662d6f1-ba9f-4f5b-81c3-904b5f760c9a--2" class="sf-depth-2 sf-no-children">
+              <a href="/publications-and-resources/policy-submissions-2026" class="sf-depth-2">Policy Submissions 2026</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content53e24843-a010-45a1-8e7f-447a5ed17274--2" class="sf-depth-2 sf-no-children">
+              <a href="/ruleoflaw" class="sf-depth-2">Rule of Law</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentb4af4f9b-a42b-4232-ab5d-9e84579483a4--2" class="sf-depth-2 sf-no-children">
+              <a href="/publications-and-resources/AI-legal-professionals" class="sf-depth-2">AI for legal professionals</a>
+                      </li>
+
+            
+  <li id="main-menu-link-content1884b579-8db9-435d-bbab-d731ab8843ab--2" class="sf-depth-2 menuparent">
+              <a href="/publications-and-resources/practice-support-hub" class="sf-depth-2 menuparent">Practice Support Hub</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content1913c662-5def-4e24-8625-09197d180d75--2" class="sf-depth-3 sf-no-children">
+              <a href="/practice-support-hub/practice-resources" class="sf-depth-3">Practice resources</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content3844f329-ee84-4d5a-9521-25e2660463a7--2" class="sf-depth-2 menuparent">
+              <a href="/news-and-publications/publications" target="_self" class="sf-depth-2 menuparent">Publications</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentc4b0a738-4df9-406f-a140-45437f35ff45--2" class="sf-depth-3 sf-no-children">
+              <a href="/news-and-publications/publications/in-the-house-online/in-the-house-archive" class="sf-depth-3">In the House</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content42c68b7d-a0da-4190-9612-a44eeaafded0--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/publications/monday-briefs-online" class="sf-depth-3">Monday Briefs online</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentefb82f99-42de-46f9-8ca5-d7302a3b50f6--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/publications/public-record-archive" class="sf-depth-3">Public Record</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content86997e0d-10ad-4186-bdce-641420ae97c5--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/publications/tendering-sensitive-or-intimate-images-family-law-matters" class="sf-depth-3">Tendering Sensitive or Intimate Images in Family Law Matters</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta1636937-3dd3-416e-9d12-279016345c3c--2" class="sf-depth-3 sf-no-children">
+              <a href="/news-and-publications/publications/climate-change-litigation-briefing-paper" class="sf-depth-3">Climate change litigation briefing paper</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentaec134e1-3dae-42d0-aefb-d501bb0d5006--2" class="sf-depth-3 sf-no-children">
+              <a href="/sydney-legal-hub" class="sf-depth-3">Making the case: Sydney as a global legal hub</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content199200bd-8d91-4305-9192-d86d69fbb734--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/law-students/resources" class="sf-depth-3">Students and Young Lawyers publications</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-contentd4258e4a-358e-4b77-8582-c34f3262e1df--2" class="active-trail sf-depth-2 menuparent">
+              <a href="/resources/news-and-media" target="_self" class="sf-depth-2 menuparent">News &amp; Media Releases</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content90602c78-3d84-4671-8b9f-c75156ddde6c--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/public-inquiry-nsw-human-rights-act" class="sf-depth-3">A public inquiry into a NSW Human Rights Act</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content2b0885e3-e4d6-47c2-9d12-b7ffdbc77072--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/new-tools-protect-and-strengthen-our-rule-law" class="sf-depth-3">New tools to protect and strengthen our rule of law</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content37f01b45-2428-4629-a14b-06e624c210fc--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/framework-solicitor-career-success" class="sf-depth-3">A Framework for solicitor career success</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente3f1f9c6-04d2-45bf-9611-257c69371f5f--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/accurate-knowledge-power-ballot-box" class="sf-depth-3">Accurate knowledge is power at the ballot box</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentbbf03d58-ded5-4bdc-a372-ff668840421c--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/bondi-beach-terror-incident" class="sf-depth-3">Bondi Beach terror incident</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content43049924-7fc0-4de3-873e-d5b7040a7325--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/flood-victims-warrior-takes-top-legal-honour" class="sf-depth-3">Flood victims’ warrior takes top legal honour</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content155a1852-a674-49f9-86d2-c5bc02efea72--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/foundation-boost-indigenous-legal-practitioners" class="sf-depth-3">Foundation to boost Indigenous legal practitioners</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente90f8402-74da-4235-a0b2-95bb91f84578--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/fundamental-importance-independent-odpp" class="sf-depth-3">Fundamental importance of an independent ODPP</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentee8695cf-3a20-4e3b-a824-fa6923983849--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/honours-recognise-crucial-role-law" class="sf-depth-3">Honours recognise crucial role of the law</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content03f65e03-1bde-403b-b3c2-cabaed3e37f4--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/lawyers-bulwark-vulnerable-flawed-system" class="sf-depth-3">Lawyers a bulwark for the vulnerable in flawed system</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente0fad8ac-f1cd-47aa-842c-2acefb003e65--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/legal-profession-unites-public-inquiry-nsw-human" class="sf-depth-3">Legal profession unites for public inquiry into a NSW Human Rights Act</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content7b66a068-158b-4e59-8d05-c751ca8227f6--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/maurie-stack-oam" class="sf-depth-3">Maurie Stack OAM</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content981dca94-1c84-4f6c-948f-17b346de0cb8--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/nsw-budget-takes-big-steps-keep-children-safe" class="sf-depth-3">NSW Budget takes big steps to keep children safe</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content70591899-a7e8-4dbd-8a6a-ae9357a0e308--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/new-magistrates-welcome-boost-efficient-justice" class="sf-depth-3">New magistrates a welcome boost to efficient justice</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content7ca14271-15ba-409c-ba5f-42a40719e63a--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/positive-justice-investments-can-help-community" class="sf-depth-3">Positive justice investments can help community safety</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content3ed615f2-2bef-4fed-ac97-85c650b4e653--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/rushed-workers-comp-changes-need-compromise-and" class="sf-depth-3">Rushed workers comp changes need compromise and a pause</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content20f07ef6-f4d7-4837-958e-e84b69238b81--2" class="active-trail sf-depth-3 sf-no-children">
+              <a href="/resources/news-and-media/service-to-the-law-recognised" class="is-active sf-depth-3">Service to the law recognised</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content45876add-a1f7-4d24-b42c-2afb3e098acc--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/solicitors-mental-health-help-expands-couples" class="sf-depth-3">Solicitors’ mental health help expands to couples</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content81be827b-6a90-48b9-9d74-e5579a011492--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/solicitors-mental-health-help-expands-couples-0" class="sf-depth-3">Solicitors’ mental health help expands to couples</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content44d879d8-cb90-4666-900f-b05f77378026--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/aboriginal-and-torres-strait-islander-deaths" class="sf-depth-3">Statement President of the Law Society of NSW, Jennifer Ball Aboriginal and Torres Strait Islander deaths in custody</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentd421e590-1bec-43f5-ad93-58f7f5f97897--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/updated-principles-strengthen-legal-representation-children" class="sf-depth-3">Updated principles strengthen legal representation for children</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contente83e672b-a859-4323-9d95-171ee1a649e1--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/wollongong-legal-legend-inspires-next-generation" class="sf-depth-3">Wollongong legal legend inspires next generation of lawyers</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenteea6700c-7bea-4057-a06d-9bec78f20b9f--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/forever-chemicals-legal-warrior-share-his-fight" class="sf-depth-3">‘Forever chemicals’ legal warrior to share his fight for justice</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content08f4d073-8656-448a-88c1-22e21f2f6b1d--2" class="sf-depth-3 sf-no-children">
+              <a href="/publications-and-resources/news-media-releases/tireless-advocate-children-honoured" class="sf-depth-3">Tireless advocate for children honoured</a>
+                      </li>
+
+
+      </ul>              </li>
+
+  
+  <li id="main-menu-link-content8ae53262-e395-4660-a7c5-04e21e21ffaf--2" class="sf-depth-2 sf-no-children">
+              <a href="https://eshop.lawsociety.com.au/product-category/handbooks-guides-books?_ga=2.32832766.1130811922.1603058819-1532257396.1540963665" target="_blank" class="sf-depth-2 sf-external">Handbooks, guides and books</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content4a7fa432-b266-4ff6-84fd-4c78d36397e6--2" class="sf-depth-1 menuparent">
+              <a href="/professional-development" class="sf-depth-1 menuparent">Professional development</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content260977dc-d338-4839-ac15-9b20909b6d8e--2" class="sf-depth-2 sf-no-children">
+              <a href="/Law-Society-of-New-South-Wales-Solicitor-Capability-Framework" class="sf-depth-2">The Law Society of New South Wales Solicitor Capability Framework</a>
+                      </li>
+
+            
+  <li id="main-menu-link-content7ad83f88-c154-4c52-b1fa-3b20c0c614f4--2" class="sf-depth-2 menuparent">
+              <a href="https://www.lawsociety.com.au/CPD" class="sf-depth-2 sf-external menuparent">CPD</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentdcb90fcc-77b5-42ec-9c65-9dfc75afb9af--2" class="sf-depth-3 sf-no-children">
+              <a href="https://www.lawinform.com.au" class="sf-depth-3 sf-external">LawInform</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content1d256a7a-25a7-48cb-9b66-2127f3f4672e--2" class="sf-depth-3 sf-no-children">
+              <a href="https://www.lawsociety.com.au/professional-development/CPD/practice-management-course" class="sf-depth-3 sf-external">Practice Management Course</a>
+                      </li>
+
+
+      </ul>              </li>
+
+  
+  <li id="main-menu-link-content9cbf2acb-7e1d-456c-86d9-e7b5df1d8c7f--2" class="sf-depth-2 sf-no-children">
+              <a href="/specialist-accreditation" class="sf-depth-2">Specialist Accreditation</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content8df85d5c-dc9d-49c9-965a-d68fac68d3a9--2" class="sf-depth-2 sf-no-children">
+              <a href="/professional-development/volunteer-opportunities" class="sf-depth-2">Volunteer Opportunities</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content97c16c9d-8e10-42bf-9af3-b4b7665af068--2" class="sf-depth-1 menuparent">
+              <a href="/events" target="_self" class="text-hover-light-blue sf-depth-1 menuparent">Events</a>
+                  <ul>      
+            
+  <li id="main-menu-link-contentdf2bbff0-6968-43be-abb4-9c5a1ba6ee06--2" class="sf-depth-2 menuparent">
+              <a href="/events/events-calendar" class="sf-depth-2 menuparent">Events Calendar</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content680bf200-e713-4136-a752-80d047e0efa2--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/events-calendar/annual-conference-2027" class="sf-depth-3">Annual Conference 2027</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content384abc8f-ffe4-444e-be6e-43bc41a462a9--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/events-calendar/international-day-persons-disabilities-2026-accessibility-and-access-justice" class="sf-depth-3">International Day of Persons with Disabilities 2026: Accessibility and Access to Justice</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentbe8b8360-8df2-4d96-8ef3-04bbe301ff84--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/events-calendar/staying-well-law-surviving-holidays" class="sf-depth-3">Staying Well in the Law: Surviving the holidays</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content2e69d1a7-a400-45e7-8471-f23f2007cb31--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/events-calendar/opening-law-term-dinner" class="sf-depth-3">2027 Opening of Law Term Dinner</a>
+                      </li>
+
+
+      </ul>              </li>
+
+  
+  <li id="main-menu-link-content57cecba8-888b-456e-a073-b21d4088e0c1--2" class="sf-depth-2 sf-no-children">
+              <a href="https://www.lawsociety.com.au/cpd-events" class="sf-depth-2 sf-external">CPD Events</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentfc69f5a0-33d1-4258-9c31-1d5d0e170322--2" class="sf-depth-2 sf-no-children">
+              <a href="/Events/Young-Lawyers" target="_self" class="sf-depth-2">Young Lawyers Events</a>
+                      </li>
+
+            
+  <li id="main-menu-link-content8ea461a8-44e8-4924-b4c3-fb7d40fcd912--2" class="sf-depth-2 menuparent">
+              <a href="/events/regional-law-society-calendar" class="sf-depth-2 menuparent">Regional Law Society Calendar</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentf24de38e-ecca-4a53-b0ce-e5eac796dda7--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/regional-law-society-calendar/bankstown-district-law-society-cpd-seminar-xmas-dinner-2026" class="sf-depth-3">Bankstown &amp; District Law Society CPD Seminar Xmas Dinner 2026</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content809fcc18-50e7-4335-8581-a4fabb2e6a2b--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/regional-law-society-calendar/north-metropolitan-law-society-agm-and-christmas-gala-2026" class="sf-depth-3">North Metropolitan Law Society AGM and Christmas Gala 2026</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content0ae44521-d30a-474e-b438-85f7d41fa185--2" class="sf-depth-2 menuparent">
+              <a href="/events/student-events" class="sf-depth-2 menuparent">Student Events</a>
+                  <ul>      
+  
+  <li id="main-menu-link-contentffd0fd00-e33f-462a-b58d-80e2535d56b0--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/student-events/law-students-careers-summit" class="sf-depth-3">Law Students Careers Summit</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content80dc6095-3659-4ce5-9a27-29c64b015c1b--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/student-events/pathways-law" class="sf-depth-3">Pathways in Law</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content58deef5a-f1eb-4d4e-947b-1774248e7831--2" class="sf-depth-3 sf-no-children">
+              <a href="/events/student-events/ready-practice-skills-series" class="sf-depth-3">Ready for Practice Skills Series</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content1ff46603-e9e8-4f1e-a4ad-608c0d33a010--2" class="sf-depth-3 sf-no-children">
+              <a href="/Sir-Anthony-Mason-Constitutional-Law-Essay-Competition" class="sf-depth-3">Sir Anthony Mason Constitutional Law Essay Competition</a>
+                      </li>
+
+
+      </ul>              </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content497b2704-5b41-4fa5-90f2-7d7112a45580--2" class="sf-depth-1 menuparent">
+              <a href="/legal-communities" target="_self" class="text-hover-dark-blue sf-depth-1 menuparent">Legal communities</a>
+                  <ul>      
+            
+  <li id="main-menu-link-content984e4343-39b2-4d2e-b88b-e528aeeb095f--2" class="sf-depth-2 menuparent">
+              <a href="/legal-communities/private-practitioner" target="_self" class="sf-depth-2 menuparent">Private practitioner</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content56061b9c-3e12-442d-a5f6-a9cb86d18b49--2" class="sf-depth-3 sf-no-children">
+              <a href="/marketing-toolkit" class="sf-depth-3">Marketing toolkit</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content88a39e6a-123f-4868-9bef-c98596ec6739--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/private-practitioner/precedents-and-forms" class="sf-depth-3">Precedents and forms</a>
+                      </li>
+
+
+      </ul>              </li>
+
+  
+  <li id="main-menu-link-content6755a7ae-5a4d-4fab-bf78-2c608feb1455--2" class="sf-depth-2 sf-no-children">
+              <a href="/legal-communities/government-solicitors" target="_self" class="sf-depth-2">Government solicitors</a>
+                      </li>
+
+            
+  <li id="main-menu-link-contente8cf3425-0e84-4944-a682-3cee676a7353--2" class="sf-depth-2 menuparent">
+              <a href="/legal-Communities/NSW-Young-Lawyers" target="_self" class="sf-depth-2 menuparent">NSW Young Lawyers</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content3c307b97-1146-4513-99c7-34e21a338b31--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/NSW-Young-Lawyers/Sub-Committees" class="sf-depth-3">Sub-Committees</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentbba67c37-6df7-48e0-81f7-c7a2d894962d--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/NSW-Young-Lawyers/Sub-Committees/Young-Lawyers-Sub-Committee-Meetings" class="sf-depth-3">Sub-Committee Meetings</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content9d984a41-0cd9-4ef8-a366-8a04a34bee50--2" class="sf-depth-3 sf-no-children">
+              <a href="https://www.lawsociety.com.au/Events/Young-Lawyers" class="sf-depth-3 sf-external">NSW Young Lawyer Events</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content4e01e3f7-843b-4ce6-85b4-0ec1ef03fe48--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/NSW-young-lawyers/presidents-message" class="sf-depth-3">President&#039;s message</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentb6f7e44c-03c9-424d-8d4b-c0a5d4ff1cf8--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/NSW-Young-Lawyers/Current-Councillors" class="sf-depth-3">Current Councillors</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content69488a17-728d-4f73-ab72-7693fc05c01d--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/NSW-Young-Lawyers/NSW-Young-Lawyers-Policy-Submissions" class="sf-depth-3">Policy Submissions</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content6654bbae-fddb-48db-9252-695c6b0e795c--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/NSW-Young-Lawyers/NSW-Young-Lawyers--Charity" class="sf-depth-3">NSW Young Lawyers 2026 Charity</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-content1ace8a75-9224-4b04-a3c9-12846a01f319--2" class="sf-depth-2 menuparent">
+              <a href="/legal-communities/regional-solicitors" target="_self" class="sf-depth-2 menuparent">Regional solicitors</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content04d44eed-0897-425e-adc7-66eafb9c6616--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/regional-solicitors/careers-country" class="sf-depth-3">Careers in the Country</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentd975b146-3349-4942-ac80-255466b6d01d--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/regional-solicitors/regional-law-societies" class="sf-depth-3">Regional Law Societies</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contenta4c9802c-e648-456b-af82-93d24ecb3cf2--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/regional-solicitors/suburban-law-societies" class="sf-depth-3">Suburban Law Societies</a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-contentad653baa-f9e4-4878-bc3c-ef4087c80f2d--2" class="sf-depth-2 menuparent">
+              <a href="/Legal-Communities/Law-Students" target="_self" class="sf-depth-2 menuparent">Law Students</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content9b840904-9658-4018-aa6f-11808243245e--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/law-students/student-membership" class="sf-depth-3">Student Membership</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content1e587b28-62f4-461e-b37d-4899a17f6fc6--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/law-students/legal-careers-work-experience" class="sf-depth-3">Legal Careers &amp; Work Experience</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content74f4812a-6d11-4b09-8289-0bbb1bbc7601--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/law-students/australian-practising-certificates" class="sf-depth-3">Australian Practising Certificates</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content9d209a5d-2fa1-43a6-b024-acd93669d84c--2" class="sf-depth-3 sf-no-children">
+              <a href="/legal-communities/law-students/ethical-obligations" class="sf-depth-3">Ethical Obligations</a>
+                      </li>
+
+  
+  <li id="main-menu-link-content9417623a-60a5-4ee0-8eee-c414cac99fe1--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/Law-Students/Student-Awards-Program" class="sf-depth-3">Student Awards Program</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentafef618c-499e-4e1a-8262-8cde9dd08578--2" class="sf-depth-3 sf-no-children">
+              <a href="https://www.lawsociety.com.au/legal-communities/law-students/resources" class="sf-depth-3 sf-external">Students and Young Lawyers Resources </a>
+                      </li>
+
+
+      </ul>              </li>
+
+            
+  <li id="main-menu-link-contentf8e4827e-b19d-4888-9a2f-44e63f73fb94--2" class="sf-depth-2 menuparent">
+              <a href="/Legal-Communities/High-School-Students" class="sf-depth-2 menuparent">High School Students</a>
+                  <ul>      
+  
+  <li id="main-menu-link-content3a0b164f-2d53-4ad2-a5ab-55f420f204f4--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/High-School-Students/Mock-Trial-Competition" class="sf-depth-3">Mock Trial Competition</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentfa70cff9-82e8-497b-9764-43b07646a97a--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/High-School-Students/Mock-Mediation" class="sf-depth-3">Mock Mediation Competition</a>
+                      </li>
+
+  
+  <li id="main-menu-link-contentf562872a-0796-4dbb-bc25-fdee747a623a--2" class="sf-depth-3 sf-no-children">
+              <a href="/Legal-Communities/High-School-Students/Young-Justice" class="sf-depth-3">Young Justice </a>
+                      </li>
+
+
+      </ul>              </li>
+
+
+      </ul>              </li>
+
+
+</ul>
+
+    </div>
+  </div>
+
+<nav role="navigation" aria-labelledby="block-topbarmenu-2-menu" id="block-topbarmenu-2" class="block block-menu navigation menu--top-bar-menu top-bar-menu">
+            
+  <h2 class="sr-only" id="block-topbarmenu-2-menu">Top bar menu</h2>
+  
+
+        
+              <ul id="block-topbarmenu-2" block="block-topbarmenu-2" class="clearfix nav">
+    
+          
+      <li class="nav-item menu-item--collapsed">
+        
+                  <a href="/about-us" target="_self" class="nav-link" data-drupal-link-system-path="node/35">About Us</a>
+              </li>
+          
+      <li class="nav-item menu-item--collapsed">
+        
+                  <a href="/register-of-solicitors" target="_self" class="nav-link" data-drupal-link-system-path="node/694">Register of Solicitors</a>
+              </li>
+          
+      <li class="nav-item">
+        
+                  <a href="https://www.lawsociety.com.au/shop-dcs" target="_self" class="nav-link">Shop &amp; DCS</a>
+              </li>
+          
+      <li class="nav-item">
+        
+                  <a href="/resources/publications/forms-directory" class="nav-link" data-drupal-link-system-path="node/401">Forms Directory</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-useraccountmenu-menu" id="block-useraccountmenu" class="block block-menu navigation menu--account">
+            
+  <h2 class="sr-only" id="block-useraccountmenu-menu">User account menu</h2>
+  
+
+        
+        <ul id="block-useraccountmenu" block="block-useraccountmenu" class="clearfix menu nav navbar-nav account-menu">
+            
+      
+                    
+              <li class="nav-item">
+                              
+                      <a href="https://www.lawsociety.com.au/membership" target="_blank" class="nav-link">Membership</a>
+                  </li>
+                
+      
+                                      
+              <li class="nav-item">
+                              
+                      <a href="/lawid/auto-connect" class="nav-link" data-drupal-link-system-path="lawid/auto-connect">Login</a>
+                  </li>
+            </ul>
+    
+
+
+
+  </nav>
+<div id="block-swiftype-search" class="block block-ls-swiftype-search block-swiftype-search-block">
+  
+    
+      <div class="content">
+      <div class="swiftype-search-block">
+  <form class="swiftype-autocomplete-search" autocomplete="off">
+    <button class="mobile-search-button">Open</button>
+    <div class="search-field">
+      <input type="text" placeholder="Type a word" name="query" class="search-input" />
+      <button class="submit-search">Search</button>
+    </div>
+  </form>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+  
+          </div>
+        </div>
+        <div class="col-12">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+              
+                                                                                                                                                                                                                                                  
+                                                                              
+    </header>
+          <div class="highlighted">
+        <aside class="container-fluid section clearfix" role="complementary">
+                <div data-drupal-messages-fallback class="hidden"></div>
+
+  
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper clearfix">
+            <main class="main-content" id="content" role="main">
+      <section class="section">
+        <a id="main-content" tabindex="-1"></a>
+              <div id="block-law-society-main-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+
+
+
+
+  
+
+  
+  
+
+<div class="node node--type-page node--view-mode-full ds-2col-stacked-fluid container-fluid p-0" typeof="schema:WebPage">
+
+
+
+  <div  class="group-header intro-wrapper col-12 col-lg-10 offset-lg-2">
+  <div class="container-fluid">
+    <div class="row no-gutters justify-content-start">
+      <div class="col-12 h-100  page-intro-image offset-md-1 " style="background-image:url(/sites/default/files/2018-03/1345396_homepagetop_043.jpg); background-position: top left">
+      </div>
+      <div class="col-12 col-lg-7 mx-auto mx-md-0 content-wrapper">
+        <div class="pb-md-5 mb-md-5 pt-3 mt-3">
+          <div class="intro-box card text-light my-md-5 mt-5 mb-4 bg-dark">
+            <div class="card-body">
+              
+  <h2 class="display-1 text-uppercase title-line-1">
+    Service to the law recognised 
+  </h2>
+
+  <div class="field field--name-field-page-align field--type-list-string field--label-above">
+    <div class="field__label">Align</div>
+              <div class="field__item">Right</div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Render the CTA links if it was setted. -->
+
+
+  <div class="breadcrumbs-wrapper col-12 px-0 col-md-10 offset-md-2">
+    <div class="container-fluid">
+      <div class="row no-gutters justify-content-start">
+        <div class="col-12 col-md-11 page-intro-image offset-md-1">
+                      <div class="field field--name-dynamic-block-fieldnode-breadcrumbs field--type-ds field--label-hidden field__item">
+
+  <nav role="navigation" aria-label="breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/resources">Resources</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/resources/news-and-media">News And Media</a>
+        </li>
+                        <li class="breadcrumb-item active"><span>Service To The Law Recognised</span></li>
+              </ol>
+  </nav>
+</div>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+
+
+            <div class="container">
+        <div class="row no-gutters-mobile justify-content-around no-sidebar-menu">
+          <div class="col-12 col-lg-10 content-2-col pb-lg-5">
+            <div class="row">
+                            <div class="group-right col px-4 pt-4 px-lg-5 pt-lg-5">
+              
+
+      <div class="field field--name-body field--type-text-with-summary field--label-above field__items">
+                                
+        <div property="schema:text" class="field__item"><p>A bobsledder, an orchid grower, and a former Councillor of The Law Society of NSW are among several&nbsp; legal figures to feature in the 2026 King’s Birthday Honours List.&nbsp;</p>
+
+<p>President of The Law Society Ronan MacSweeney said the honours recognise the significant achievements of&nbsp; solicitors and other legal figures in the law and in the life of their communities. &nbsp;</p>
+
+<p>“The appearance of several current and former members of the Law Society in this year’s list, reinforces the&nbsp; foundational role that the rule of law plays in guaranteeing our democratic freedoms, and the leadership roles many solicitors perform above and beyond their legal careers,” Mr MacSweeney said.&nbsp;</p>
+
+<p>“I’m particularly pleased at the award of an Order of Australia Medal (OAM) to Kieran Tapsell, who was admitted&nbsp; to the profession in 1973 and became a Life member of The Law Society in 2012. Mr Tapsell, who served as an&nbsp;Acting Judge of the District Court also played an important role on the Canon Law panel assisting the Royal&nbsp;Commission into Institutional Responses to Child Sexual Abuse.”&nbsp;</p>
+
+<p>Mr MacSweeney also congratulated Winwood Howard on his OAM. Mr Howard was admitted as a solicitor in&nbsp;1958 and was elected to the Council of The Law Society of NSW in 1969, a role in which he served for seven&nbsp;years. I thank Mr Howard for his service to the profession, particularly for his term as Chair of the Council of Law&nbsp;Reporting for NSW and his part in administering The Law Society’s Fidelity Fund.&nbsp;</p>
+
+<p>Martijn Wilder AM, former Principal of prominent firm Baker and McKenzie, has been elevated to an Officer in the&nbsp;Order of Australia (AO). Mr Wilder, a former 27-year member of The Law Society, was recognised for his service&nbsp;to the law as well as his work on energy and environmental sustainability, including his roles as Chair of both the&nbsp;NSW Climate Change Council, and the Australian Renewable Energy Agency. &nbsp;</p>
+
+<p>Former Senior Judicial Member of the New South Wales Equal Opportunity Tribunal (the forerunner to a Division&nbsp;of the NSW Civil &amp; Administrative Tribunal) Helen Conway, has been awarded an AO. Along with holding&nbsp;numerous board position across several industries and charities, Ms Conway, had been a member of The Law&nbsp;Society for 23 years, when appointed as the Founding CEO of the Workforce Gender Equity Equality Agency in&nbsp;2011. &nbsp;&nbsp;</p>
+
+<p>Mary-Lynne Taylor, a member of The Law Society for 45 years, has been made a Member in the Order of&nbsp;Australia (AM) for her service to town planning in addition to the law. Along with sustaining a legal career at a&nbsp;number of prominent firms, Ms Taylor has made a significant contribution to the academy as a lecturer, then&nbsp;Adjunct Professor of Urban and Regional Planning at the Sydney University.&nbsp;</p>
+
+<p>Sharon Cook has been awarded an OAM for services to the banking industry and the law. A member of The Law&nbsp;Society for 40 years, Ms Cook holds a senior management position at the National Australia Bank, while serving&nbsp;as Chair of the Law and Justice Foundation of NSW and was also a member of The Law Society’s Specialist&nbsp;Accreditation Committee.&nbsp;</p>
+
+<p>Bronwyn Fagan has been awarded an AM for services to sport, broadcasting and the law. Ms Fagan competed&nbsp;at high levels in bobsledding and the skeleton, including as part of the shadow Australian Team for the 2006&nbsp; Torino Winter Olympics. She has also supported aspiring lawyers as a magistrate in The Law Society’s Mock&nbsp; Trial Competition as mentoring law students in her role with the Association of Corporate Counsel Australia.&nbsp;</p>
+
+<p>Mr MacSweeney also congratulated former and serving judicial officers recognised with awards in the Order of&nbsp; Australia, many of whom made significant contributions to the solicitor profession before ascending to the bench.&nbsp;</p>
+
+<p>“A large majority of lawyers who become judges begin their careers as solicitors. The recognition these judicial&nbsp;officers are receiving through today’s honours are well deserved indeed. I’m thrilled that NSW Local Court Judge&nbsp;Debra Maher has been awarded an AM for her service to women and children in addition to her work in the law,”&nbsp;Mr MacSweeney said. &nbsp;</p>
+
+<p>“Judge Maher rose to the bench after lengthy service at Legal Aid NSW, including as the Solicitor in Charge of&nbsp;the Children’s Legal Service. I’m grateful to her Honour for her service to the profession on The Law Society’s&nbsp;Children’s Legal Issues, and Criminal Law Committees and for her work supporting women and children as a&nbsp;Director of both Rape and Domestic Violence Services Australia and Women’s Legal Services NSW.”&nbsp;</p>
+
+<p>Mr MacSweeney also congratulated Brian Lulham former Magistrate of the Local Court on the award of his OAM.&nbsp; He served at Local Courts from Broken Hill, Moree and the Downing Centre and as Chair of the Young Offenders&nbsp;Review Board. &nbsp;</p>
+
+<p>Local Court Judge Scott Nash, a former Mayor of Randwick, has been honoured with an OAM for service to local&nbsp;government and the legal profession. His Honour was a Member of The Law Society’s Environmental Planning&nbsp;and Development Law Committee and co-authored our publication A practitioner’s guide to the Land and&nbsp;Environment Court of NSW before being called to the Bar.&nbsp;</p>
+
+<p>Local Court Judge Douglas Dick has been awarded an OAM for a career in which he’s served in NSW Local&nbsp;Courts along the South Coast and Eden-Monaro regions since 1995. His Honour was instrumental in pioneering&nbsp;Circle Sentencing, where Indigenous elders support the Court to reach an appropriate sentence in the presence&nbsp;of the offender and their victim. This approach has led to less reoffending among participants. &nbsp;</p>
+
+<p>Mr MacSweeney thanked the Hon. Justice Murray Aldridge of the Federal Circuit and Family Court of Australia&nbsp;for his service to The Law Society’s Advocacy Specialist Accreditation Committee but noted ‘the law’ was down&nbsp;the list of reasons for the award of his Honour’s OAM.&nbsp;</p>
+
+<p>“Justice Aldridge has held federal judicial office for almost 15 years, but I am delighted that his Honour’s&nbsp;recognition in this King’s Birthday Honours List is due in large part to a 55-year botanical passion to which he is&nbsp;also able to apply his judicial skills,” Mr MacSweeney said.&nbsp;</p>
+
+<p>“Justice Aldridge joined the Sutherland Shire Orchid Society in 1971, reaching the office of President of the&nbsp;Australian Orchid Council in 2000. His Honour has also been both judge and exhibitor at the local, state and&nbsp;national level. I’m sure though, he has never judged and exhibited in the same contest.”&nbsp;</p>
+
+<p><strong>Media Contact</strong></p>
+
+<p><b>Damien Smith | Director, Media and Public Relations</b><br>
+<b>The Law Society of New South Wales</b><br>
+<b>M:</b>&nbsp;+61 417 788 947<br>
+<b>E:</b>&nbsp;<a href="mailto:Damien.Smith@lawsociety.com.au">Damien.Smith@lawsociety.com.au</a></p>
+</div>
+          </div>
+  
+            </div>
+                      </div>
+        </div>
+      </div>
+      </div>
+
+      
+  <div class="group-footer">
+  
+  <div class="field field--name-field-image-size field--type-list-string field--label-above">
+    <div class="field__label">Image size</div>
+              <div class="field__item">large</div>
+          </div>
+
+  </div>
+
+  </div>
+
+
+
+    </div>
+  </div>
+
+  
+      </section>
+    </main>
+      </div>
+          <div class="featured-bottom">
+        <aside class="container-fluid clearfix" role="complementary">
+          
+          
+            <div class="row region region-featured-bottom-third">
+    <div class="views-element-container block block-views block-views-blocklogos-block-1 col" id="block-views-block-logos-block-1-2">
+  
+    
+      <div class="content">
+      <div block="block-views-block-logos-block-1-2"><div class="margin-0-auto logo-width view view-logos view-id-logos view-display-id-block_1 js-view-dom-id-7cf71160d928a28d73ca7f2d7a780d2c972caa6367c5c90b115a609818157026">
+  
+    
+      
+      <div class="view-content row">
+          <div class="d-inline-block logo-row views-row">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+  <div class="pl-5 pr-5">
+    <a href="https://www.lawinform.com.au/" target="_blank">
+      
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><div>
+      
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/2018-03/lawinform_hr_2603.png" width="100" height="31" alt="LawInform" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </div>
+</div>
+      
+    </a>
+  </div>
+
+    </div>
+  </div>
+
+
+  </div>
+    <div class="d-inline-block logo-row views-row">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+  <div class="pl-5 pr-5">
+    <a href="https://lsj.com.au/" target="_blank">
+      
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><div>
+      
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/2018-03/lsj_hr_cropped_0.png" width="69" height="46" alt="lsj-logo" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </div>
+</div>
+      
+    </a>
+  </div>
+
+    </div>
+  </div>
+
+
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        </aside>
+      </div>
+        <footer class="site-footer">
+        <footer class="footer text-light">
+    <div class="container-sm">
+      <div class="row no-gutters-mobile justify-content-around">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <div class="row no-gutters-mobile">
+                          <div class="col-12 col-lg-8 site-footer__left">
+                
+                
+                  <div class="row region region-footer-third">
+    <nav role="navigation" aria-labelledby="block-law-society-main-footer-menu-menu" id="block-law-society-main-footer-menu" class="block block-menu navigation menu--footer">
+            
+  <h2 class="sr-only" id="block-law-society-main-footer-menu-menu">Footer</h2>
+  
+
+        
+              <ul id="block-law-society-main-footer-menu" block="block-law-society-main-footer-menu" class="clearfix footer-nav-section-wrapper">
+                    <li class="footer-nav-section-item menu-item--expanded">
+                          
+        
+                
+
+                   <a href="#practising-law-in-nsw-collapse" class="footer-nav-link d-md-none collapsed nav-section-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="practising-law-in-nsw-collapse">Practising law in NSW</a>
+           <span class="footer-nav-link nav-section-title d-none d-md-block">Practising law in NSW</span>
+        
+                  <div class="collapse sub-menu" id="practising-law-in-nsw-collapse">
+                          <ul class="menu list-unstyled">
+                    <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/managing-your-practice" target="_self" class="footer-nav-link">Manage my practice</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate" class="footer-nav-link" data-drupal-link-system-path="node/264">Your practising certificate</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/rules-and-legislation" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/126">Rules and legislation</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/ethics-and-compliance" target="_self" class="footer-nav-link">Ethics and compliance</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/trust-money-and-fidelity-funds" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/408">Trust money and fidelity fund</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/complaints-and-discipline" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/348">Discipline and disqualification</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/alternative-dispute-resolution" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/523">Alternative Dispute Resolution</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/practising-law-in-NSW/working-as-a-solicitor-in-NSW/scheme" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/320">Professional Standards Scheme</a>
+        
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="footer-nav-section-item menu-item--expanded">
+                          
+        
+                
+
+                   <a href="#advocacy--resources-collapse" class="footer-nav-link d-md-none collapsed nav-section-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="advocacy--resources-collapse">Advocacy &amp; resources</a>
+           <span class="footer-nav-link nav-section-title d-none d-md-block">Advocacy &amp; resources</span>
+        
+                  <div class="collapse sub-menu" id="advocacy--resources-collapse">
+                          <ul class="menu list-unstyled">
+                    <li>
+        
+        
+                
+
+        
+          <a href="/advocacyandresources/advocacy" class="footer-nav-link">Advocacy</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/advocacy-and-resources/library" target="_self" class="footer-nav-link">Library</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/advocacy/publications" target="_self" class="footer-nav-link">Publications &amp; resources</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/advocacyandresources/news-and-media" target="_self" class="footer-nav-link">News &amp; media</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/advocacy-and-resources/publications-and-resources/forms-directory" target="_self" class="footer-nav-link">Forms directory</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/for-the-public" class="footer-nav-link" data-drupal-link-system-path="node/64">For the Public</a>
+        
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="footer-nav-section-item menu-item--expanded">
+                          
+        
+                
+
+                   <a href="#cpd--events-collapse" class="footer-nav-link d-md-none collapsed nav-section-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="cpd--events-collapse">CPD &amp; events</a>
+           <span class="footer-nav-link nav-section-title d-none d-md-block">CPD &amp; events</span>
+        
+                  <div class="collapse sub-menu" id="cpd--events-collapse">
+                          <ul class="menu list-unstyled">
+                    <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD" target="_self" class="footer-nav-link">Continuing Professional Development</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/learning-and-events/specialist-accreditation" target="_self" class="footer-nav-link">Specialist Accreditation </a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/learning-and-events/events-calendar" target="_self" class="footer-nav-link">Events calendar</a>
+        
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="footer-nav-section-item menu-item--expanded">
+                          
+        
+                
+
+                   <a href="#legal-communities-collapse" class="footer-nav-link d-md-none collapsed nav-section-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="legal-communities-collapse">Legal communities</a>
+           <span class="footer-nav-link nav-section-title d-none d-md-block">Legal communities</span>
+        
+                  <div class="collapse sub-menu" id="legal-communities-collapse">
+                          <ul class="menu list-unstyled">
+                    <li>
+        
+        
+                
+
+        
+          <a href="/professionals/government-solicitors" target="_self" class="footer-nav-link">Government solicitors</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/professionals/private-practitioner" target="_self" class="footer-nav-link">Private practitioners</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/legal-communities/house-corporate-counsels" target="_self" class="footer-nav-link">In-house counsel</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/about-us/law-society-committees" class="footer-nav-link" data-drupal-link-system-path="node/399">Law committees</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/legal-communities/nsw-young-lawyers" target="_self" class="footer-nav-link">Young lawyers</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="https://www.lawsociety.com.au/legal-communities/regional-solicitors" target="_self" class="footer-nav-link">Regional Solicitors</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/Legal-Communities/Law-Students" target="_self" class="footer-nav-link" data-drupal-link-system-path="node/690">Law students</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/Legal-Communities/High-School-Students" class="footer-nav-link" data-drupal-link-system-path="node/3200">High School Students</a>
+        
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="footer-nav-section-item menu-item--expanded">
+                          
+        
+                
+
+                   <a href="#about-us-collapse" class="footer-nav-link d-md-none collapsed nav-section-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="about-us-collapse">About us</a>
+           <span class="footer-nav-link nav-section-title d-none d-md-block">About us</span>
+        
+                  <div class="collapse sub-menu" id="about-us-collapse">
+                          <ul class="menu list-unstyled">
+                    <li>
+        
+        
+                
+
+        
+          <a href="/about-us" class="footer-nav-link" data-drupal-link-system-path="node/35">About The Law Society of NSW</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/about-us/careers" class="footer-nav-link" data-drupal-link-system-path="node/1004">Career opportunities</a>
+        
+              </li>
+                <li>
+        
+        
+                
+
+        
+          <a href="/contact-us" class="footer-nav-link" data-drupal-link-system-path="node/911">Contacts</a>
+        
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+              </div>
+                                      <div class="d-none d-lg-block col-lg-4 site-footer__right">
+                  <div class="row region region-footer-fourth">
+    
+<div id="block-law-society-main-socialmedialinks" class="block-social-media-links block block-social-media-links-block col-lg-12">
+  
+      <span class="footer-nav-link nav-section-title d-none d-lg-block">Follow The Law Society of NSW</span>
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/lawsocietyofnsw"  target="_blank" >
+        <span class='fab fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/lawsocietynsw"  target="_blank" >
+        <span class='fab fa-instagram fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/company/law-society-of-nsw"  target="_blank" >
+        <span class='fab fa-linkedin fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://x.com/lawsocietynsw"  target="_blank" >
+        <span class='fab fa-x-twitter fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+  </div>
+
+              </div>
+                      </div>
+                        <div class="region region-footer-fifth">
+    <nav role="navigation" aria-labelledby="block-footersecond-2-menu" id="block-footersecond-2" class="block block-menu navigation menu--footer-second mb-lg-3">
+            
+  <h2 class="sr-only" id="block-footersecond-2-menu">Footer Second</h2>
+  
+
+        
+                  <ul block="block-footersecond-2" class="clearfix nav" data-component-id="bootstrap_barrio:menu">
+                    <li class="nav-item">
+                <a href="/contact-us" target="_self" class="nav-link nav-link--contact-us" data-drupal-link-system-path="node/911">Help</a>
+              </li>
+                <li class="nav-item">
+                <a href="/privacy-policy" target="_self" class="nav-link nav-link--privacy-policy" data-drupal-link-system-path="node/873">Privacy Policy</a>
+              </li>
+                <li class="nav-item">
+                <a href="/terms/index.htm" target="_self" class="nav-link nav-link--terms-indexhtm" data-drupal-link-system-path="node/874">Terms of Use</a>
+              </li>
+                <li class="nav-item">
+                <a href="/purchase-refunds-terms-conditions" target="_self" class="nav-link nav-link--purchase-refunds-terms-conditions" data-drupal-link-system-path="node/876">Purchase &amp; Refund Policy</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.lawsociety.com.au/modern-slavery" target="_self" class="nav-link nav-link-https--wwwlawsocietycomau-modern-slavery">Modern Slavery</a>
+              </li>
+                <li class="nav-item">
+                <a href="mailto:website@lawsociety.com.au?subject=The Law Society of NSW website feedback&amp;cc=marketing@lawsociety.com.au" class="nav-link nav-link-mailtowebsitelawsocietycomausubjectthe-law-society-of-nsw-website-feedbackccmarketinglawsocietycomau">Help us improve our website</a>
+              </li>
+        </ul>
+  
+
+
+
+  </nav>
+
+  </div>
+
+          
+                      <div class="footer-social-links d-lg-none">
+                <div class="row region region-footer-fourth">
+    
+<div id="block-law-society-main-socialmedialinks" class="block-social-media-links block block-social-media-links-block col-lg-12">
+  
+      <span class="footer-nav-link nav-section-title d-none d-lg-block">Follow The Law Society of NSW</span>
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/lawsocietyofnsw"  target="_blank" >
+        <span class='fab fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/lawsocietynsw"  target="_blank" >
+        <span class='fab fa-instagram fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/company/law-society-of-nsw"  target="_blank" >
+        <span class='fab fa-linkedin fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://x.com/lawsocietynsw"  target="_blank" >
+        <span class='fab fa-x-twitter fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+  </div>
+
+            </div>
+          
+          <p class="copyright">
+            &copy; Copyright 2009-2026 - The Law Society of New South Wales (ABN 98 696 304 966, ACN 000 000 699)
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="menu-mask"></div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+
+    <script src="/sites/default/files/js/js_4nCyKHN6A7-sRfp4NADF2N8djzkhZ_VCxv7agsPhr7k.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=law_society_main&amp;include=eJx1idEOgjAMRX8I3Cct3VJKtazLWsT59WJiTIj4cnPuOaRKgtGBAu0z0PFf4AqPo1wGgS2aZkbvcQEuITd49hGJfhOJJpDRvAuXvVu0jSfvFaMhtDyHXSXRfPv8wdaKbWKbw5fOXJz1jo2LY_HTbguIWG6I5by_ydZk_2pVY2ctL3SBdI8"></script>
+<script src="//script.crazyegg.com/pages/scripts/0070/9885.js"></script>
+<script src="/sites/default/files/js/js_w7zvAHaIgY4HH4Vu9rZSLN1-6rqdIcHIFPOV_UrYlrQ.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=law_society_main&amp;include=eJx1idEOgjAMRX8I3Cct3VJKtazLWsT59WJiTIj4cnPuOaRKgtGBAu0z0PFf4AqPo1wGgS2aZkbvcQEuITd49hGJfhOJJpDRvAuXvVu0jSfvFaMhtDyHXSXRfPv8wdaKbWKbw5fOXJz1jo2LY_HTbguIWG6I5by_ydZk_2pVY2ctL3SBdI8"></script>
+
+
+      </body>
+</html>

@@ -1,0 +1,826 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+    <head>
+        
+    <base href="https://consultations.ag.gov.au/integrity/ogp-fnap/"/>
+
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Find and participate in consultations run by Attorney General's Department">
+        
+        
+    
+
+        <title>
+            
+    Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan
+
+             - Attorney-General's Department
+            - Citizen Space
+        </title>
+        
+        <link rel="stylesheet" href="/static_frontend/vendor/lato-2.015/fonts.css">
+        <link type="text/css" href="/static_frontend/vendor/dlb-public-ui/css/bootstrap.css" rel="stylesheet">
+        
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/vendor/dlb-public-ui/css/dlb-public-ui-compiled.css" rel="stylesheet">
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/css/citizenspace.css" rel="stylesheet">
+
+        
+
+        
+        <script type="text/javascript">
+            var tr_auto_embed = true;
+        </script>
+
+        <!--jQuery -->
+        <script type="text/javascript" src="/static_frontend/vendor/dlb-public-ui/libraries/jquery/jquery.min.js"></script>
+        <!--/jQuery -->
+        <script type="text/javascript" src="/static_frontend/js/fluid-resize.js?version=8.20.0"></script>
+        
+        <script type="text/javascript" src="/static_frontend/js/tr-safe-embed.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/text-truncate.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/tr-pdf.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/typeahead/typeahead.bundle.min.js?version=8.20.0"></script>
+        
+        
+        
+
+        <!--
+            Part of the Bootstrap 5 migration involves prefixing Bootstrap JS attributes with bs-
+            This has been done in our codebase, but copy/pasted content such as fact banks may still have old attributes.
+            Shim these attributes to allow these to remain working.
+        -->
+        <script>
+            const bootstrapEventShim = function() {
+                document.querySelectorAll('[data-toggle]').forEach((el) => {
+                    let attrVal = el.dataset.toggle;
+                    el.dataset.bsToggle = attrVal;
+                });
+                document.querySelectorAll('[data-target]').forEach((el) => {
+                    let attrVal = el.dataset.target;
+                    el.dataset.bsTarget = attrVal;
+                });
+            }
+            document.addEventListener("DOMContentLoaded", bootstrapEventShim);
+        </script>
+
+         <!-- Bootstrap JS Components -->
+        <script src="/static_frontend/vendor/dlb-public-ui/libraries/bootstrap-5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+        <!-- Page-specific CSS and JS can go here -->
+        
+
+        
+            <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'G-B3V7ZFC631');
+
+</script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', ‘G-B3V7ZFC631');
+</script>
+        
+
+        <!-- Remove no-js class if scripts are enabled -->
+        <script>
+            document.documentElement.classList.remove('no-js')
+        </script>
+
+        <!-- Ensure collapsible content is displayed and misleading links are hidden if JS is disabled -->
+        <noscript>
+            <style>
+                .collapse {
+                    display: block;
+                }
+
+                .show-when-no-js {
+                    display:block;
+                }
+
+                .hide-when-no-js {
+                    display:none;
+                }
+            </style>
+        </noscript>
+
+    </head>
+
+    <body
+          data-site-root="https://consultations.ag.gov.au">
+        <div id="skip">
+            <a href="https://consultations.ag.gov.au/integrity/ogp-fnap/consult_view/#page-content">Skip to Main Content</a>
+        </div>
+        
+
+<script>
+
+    jQuery(document).ready(function() {
+        
+
+        var options = {};
+        // used to disable the go button when the selected page is the current page
+        var cur_page = jQuery("#preview-navigation-page-select").val()
+
+        jQuery("#preview-navigation-page-select").change(function() {
+            var page = jQuery(this).val();
+            var button = jQuery("#preview-navigation button");
+            if (page != "" && page != cur_page) {
+                button.prop('disabled',false);
+            } else {
+                button.prop('disabled','disabled');
+            }
+        });
+
+        jQuery("#preview-navigation button").click(function(event) {
+            var page = jQuery("#preview-navigation-page-select").val();
+            var consultation_root = jQuery("#preview-navigation").data("consultation-root");
+            var survey_root = jQuery("#preview-navigation").data("survey-root");
+            var cookie_path = jQuery("#preview-navigation").data("cookie-path");
+
+            function set_state(state) {
+                document.cookie="preview_state="+state+";path="+cookie_path+";";
+            }
+
+            set_state("open");
+            if (page === "_hub") {
+                window.location = survey_root;
+            } else if (page == "_overview_open") {
+                window.location = consultation_root;
+            } else if (page == "_overview_closed") {
+                set_state("closed");
+                window.location = consultation_root;
+            } else if (page == "_overview_forthcoming") {
+                set_state("forthcoming");
+                window.location = consultation_root;
+            } else if (page == "_response_submitted") {
+                window.location = survey_root + "confirm_submit_thankyou";
+            } else if (page == "_published_responses") {
+                set_state("closed");
+                window.location = survey_root + "published_select_respondent";
+            } else if (page == "") {
+                // No-op, shouldn't get here (hah..).
+            } else {
+                window.location = survey_root + page;
+            }
+        });
+
+    });
+</script>
+
+        <div id="global-wrapper">
+
+            
+
+            <header id="global-nav" class="navbar navbar-default navbar-expand-md navbar-static-top dss-navbar">
+                <div class="container-fluid">
+                    <div class="row flex-grow-1 py-2 pb-md-0 pt-lg-1">
+                        <div class="mb-md-2 py-lg-1 col-md-8 ">
+                            <div class="navbar-header d-flex justify-content-between">
+                                <div id="global-nav-main-heading">
+                                    
+                                        <a id="global-nav-site-title" href="https://consultations.ag.gov.au/">
+                                            <img src="https://consultations.ag.gov.au/os-custom-logos/ags_inline.png"
+                                                alt="Attorney General's Department logo" class="global-nav-logo ms-3 ms-md-0" />
+                                        </a>
+                                    
+                                </div>
+                                <button class="navbar-toggler d-md-none align-self-center"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#global-navbar-collapse"
+                                    aria-expanded="false"
+                                    aria-controls="global-navbar-collapse">
+                                    <span class="fa-solid fa-caret-down"></span>
+                                    <span>Menu</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col align-content-center d-flex align-items-center">
+                            <div id="cs-global-search-container-md" class="d-none d-md-block flex-grow-1">
+                                <!-- Javascript puts the search form here for sm viewports -->
+                                <form id="cs-global-search" action="https://consultations.ag.gov.au/consultation_finder/" method="GET">
+                                    
+                                    <div role="search">
+                                        
+                                        <label for="cs-global-search-input" class="visually-hidden">Search</label>
+                                        <div class="input-group">
+                                            <input class="form-control" size="27" id="cs-global-search-input" type="text" name="keyword" placeholder="Search"/>
+                                            <button class="btn btn-primary" aria-label="Search" id="cs-global-search-button">
+                                                <span class="fa-solid fa-magnifying-glass"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            
+                        </div>
+                        
+                        <div class="w-100"></div>
+                        <div>
+                            <nav class="collapse navbar-collapse navbar-left px-3 px-md-0"
+                                id="global-navbar-collapse"
+                                aria-label="primary">
+
+                                <div id="global-navbar-collapse-inner" class="py-2">
+
+                                    <div id="cs-global-search-container-xs" class="d-md-none">
+                                        <!-- Javascript puts the search form here for xs viewports -->
+                                    </div>
+                                    
+                                    <ul class="cs-navbar-nav-list">
+                                        <li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/">
+        <span class="cs-navbar-nav-link-text">Home</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/consultation_finder/">
+        <span class="cs-navbar-nav-link-text">Find consultations</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/we_asked_you_said/">
+        <span class="cs-navbar-nav-link-text">We asked, you said, we did</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="https://www.ag.gov.au/">
+        <span class="cs-navbar-nav-link-text">Attorney-General's Department website</span>
+    </a>
+</li>
+
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main id="page-content-wrapper">
+                <div id="page-content" tabindex="-1">
+                    
+
+    
+        <section>
+
+    
+        <div
+                class="dss-rhino cs-consultation-banner"
+                style="background-image: url('https://consultations.ag.gov.au/os-custom-logos/4650-department---s-consultation-hub-homepage-image1.jpg')">
+            
+        </div>
+    
+
+    
+
+    
+
+    <div class="dss-rhino dss-rhino-brand-color dss-rhino-padding-bottom-15">
+        <div class="container-fluid dss-text-brand-color">
+            <div class="row">
+                <div>
+                    <h1 id="cs-consultation-title-in-banner">
+                        
+                            Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan
+                        
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    
+
+    
+        <div class="container-fluid">
+        
+<div class="cs-status-message-container">
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+</div>
+
+        </div>
+    
+
+    
+        
+    
+
+    
+    <section class="" >
+        <div class="dss-rhino dss-rhino dss-rhino-padding-top-5 dss-rhino-padding-bottom-40 ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 order-2 order-md-1">
+                        <div class="dss-easy-reading cs-constrain-overview-column-for-readability">
+                            <div id="overview" class="clearfix">
+    <h2>Overview</h2>
+    <p>The&#8239;<a href="https://www.opengovpartnership.org/" target="_blank">Open Government Partnership</a>&#8239;(OGP) is an international, multi-lateral initiative that aims to increase transparency, empower citizens, fight corruption and harness new technologies to strengthen governance.</p>
+
+<p>Australia&#8217;s next national action plan will set out commitments that the government will deliver within a 2-year timeframe to achieve these goals. Australia has had 3 previous national action plans. Our <a href="https://www.ag.gov.au/integrity/australias-open-government-partnership/australias-third-national-action-plan" target="_blank">Third National Action Plan</a>&#8239;(NAP3) ended on 31&#8239;December 2025.&#160;Australia&#8217;s <a href="https://www.ag.gov.au/integrity/australias-open-government-partnership/australias-open-government-forum" target="_blank">Open Government Forum</a> is now developing Australia&#8217;s <a href="https://www.ag.gov.au/integrity/australias-open-government-partnership/australias-fourth-national-action-plan" target="_blank">Fourth National Action Plan</a> (NAP4), to be completed by the end of 2026.</p>
+
+<p>The Open Government Forum is made up of equal numbers of government and civil society members and establishes a space for ongoing dialogue and collaboration between the government, civil society and other non-governmental stakeholders, consistent with the&#8239;<a href="https://www.opengovpartnership.org/ogp-participation-co-creation-standards/" target="_blank">Open Government Partnership Participation and Co-Creation Standards</a>.&#160;It helps make sure commitments in the National Action Plan reflect community priorities and promote greater transparency, accountability and public participation in government decision-making.</p>
+
+<h2>Developing the Fourth National Action Plan</h2>
+
+<p>The Open Government Forum has developed potential commitments for inclusion in NAP4 that meet the following criteria:</p>
+
+<ul>
+	<li>Align with open government principles, including transparency, accountability, public participation and integrity.</li>
+	<li>Are <b>concrete, specific and feasible</b>, with <b>verifiable deliverables</b>.</li>
+	<li>Are achievable within the 2-year implementation period (January 2027 to December 2028), taking into account existing government priorities and policies, legislative settings, resources and implementation constraints.</li>
+	<li>Are within the ability of a single Australian Government agency to deliver.</li>
+</ul>
+
+<p>Feedback received through this consultation process will be used to inform the priority of commitments and the composition of final commitments included in NAP4.</p>
+
+<p>The potential commitments are:</p>
+
+<ol>
+	<li>Delivering Australia&#8217;s First Media Literacy Strategy</li>
+	<li>Strengthening Youth Engagement in Government Decision-Making</li>
+	<li>Enhancing transparency of corporate ownership to build integrity and trust and reduce the risk of financial crime and corruption</li>
+	<li>Strengthening civic participation through collaborative design of model government engagement processes</li>
+	<li>Enhancing transparency of AI and digital accessibility</li>
+	<li>Strengthening Commonwealth fraud and corruption control frameworks</li>
+	<li>Improving access to government information and communications for people with disability.</li>
+</ol>
+
+<p>Final NAP4 commitments are subject to Open Government Forum agreement and government approval.</p>
+
+<h2>Who we want to hear from</h2>
+
+<p>We are seeking feedback from all interested stakeholders and members of the public to inform the development of Australia&#8217;s next Open Government Partnership National Action Plan.</p>
+
+<p>In particular, we are seeking views on the importance of the proposed commitments in advancing open government and suggestions for how they should be implemented.</p>
+
+<p>We want to know which of these potential commitments are most important to the public, and for each commitment:</p>
+
+<ul>
+	<li>Is the topic of this commitment important to you?
+	<ul>
+		<li>Why or why not?</li>
+	</ul>
+	</li>
+	<li>How important are the possible benefits of the potential commitment?</li>
+	<li>Do you have any suggestions to modify the potential commitment to increase its benefits?</li>
+	<li>Do you have any concerns about possible negative impacts from the potential commitment?</li>
+	<li>Overall, which commitments should be prioritised for inclusion in NAP4?</li>
+</ul>
+
+<h2>Consultation paper</h2>
+
+<ul>
+	<li><a href="user_uploads/ogp-fnap_consultation-paper.pdf">Consultation Paper to inform development of Australia&#8217;s Fourth National Action Plan&#160;[PDF 227 KBs]</a></li>
+	<li><a href="user_uploads/ogp-fnap_consultation-paper.docx">Consultation Paper to inform development of Australia&#8217;s Fourth National Action Plan&#160;[DOCX 312 KBs]</a></li>
+	<li><a href="user_uploads/ogp-fnap-consultation_paper-plain-english-version.docx">Consultation Paper to inform development of Australia&#8217;s Fourth National Action Plan &#8211; Plain English Version [DOCX 312&#160;KBs]</a></li>
+</ul>
+
+<h2>Online Survey &#8211; downloadable Word version</h2>
+
+<p>You may use this Microsoft Word version to draft your response offline before completing the online survey.</p>
+
+<p>To support a consistent and efficient analysis process, the Attorney-General&#8217;s Department encourages all submissions to be made through the online survey. It would greatly assist us if you can paste your response to the online survey once it has been compiled.</p>
+
+<p>If you are unable to use the online survey, you may email your Word version using the below template to <a href="mailto:opengovernment@ag.gov.au">opengovernment@ag.gov.au</a>.</p>
+
+<ul>
+	<li><a href="user_uploads/ogp-fnap-consultation_survey-word-version.docx">Online Survey &#8211; Downloadable Version [DOCX 322 KBs]</a></li>
+</ul>
+
+</div>
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 order-1 order-md-2">
+                        
+    
+        
+        <div class="cs-consultation-sidebar-container"
+     id="consultation_overview_sidebar">
+     <div class="cs-consultation-dates-container">
+        <div class="cs-consultation-primary-dates-container">
+            
+            
+            <div>
+                <p class="cs-consultation-sidebar-primary-date">
+                  <span>Closed</span> 6 Nov 2026
+                </p>
+
+                <p class="cs-consultation-sidebar-secondary-date">
+                    <span>Opened</span> 15 Oct 2026
+                </p>
+            </div>
+        </div>
+        <div class="cs-consultation-sidebar-tertiary-dates-container">
+            
+            
+        </div>
+    </div>
+    <div class="cs-consultation-contact-details dss-force-links-to-wrap"
+    >
+        <h2 class="cs-consultation-contact-details-heading">Contact</h2>
+        
+        
+        
+        
+        
+            <p id="contact_email"><a href="mailto:OpenGovernment@ag.gov.au">OpenGovernment@ag.gov.au</a></p>
+        
+    </div>
+</div>
+
+    
+
+    
+
+
+<style>
+/* General purpose sidebar section with a border */
+.cs-consultation-sidebar-block {
+    font-size: 14px;
+    border-bottom: solid 1px #ddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.cs-consultation-sidebar-block h2 {
+    font-size: 24px;
+}
+
+/* a button that toggles a sidebar section */
+.cs-consultation-sidebar-section-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	text-align: left;
+	color: inherit;
+}
+
+/* Fix as part of 23702 */
+.cs-consultation-sidebar-section-toggle[aria-expanded=true]:after {
+    content: '\f106';
+    font: normal normal normal 30px/1 FontAwesome;
+}
+.cs-consultation-sidebar-section-toggle.collapsed:after {
+    content: '\f107';
+    font: normal normal normal 30px/1 FontAwesome;
+}
+/* end 23702 */
+</style>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+        
+        <section class="cs-overview-secondary-info-container">
+            <div class="dss-rhino dss-rhino-2021-warm-light-grey dss-rhino-padding-top-15 dss-rhino-padding-bottom-40">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="cs-constrain-overview-column-for-readability">
+                                
+                                
+<div id="related">
+    
+    <h2 class="dss-heading-large">Related</h2>
+    
+
+    
+    <div class="cs-related-items-listing-container">
+        <ul class="list-unstyled">
+            
+
+            
+                
+                    <li style="margin-bottom:20px;">
+                        <a href="https://www.ag.gov.au/opengovernment" 
+                        aria-label="Open Government Partnership">
+                            <span class="fa-regular fa-circle-right fa-width-fixed icon-space-right"></span>Open Government Partnership
+                        </a>
+                    </li>
+                
+            
+
+            
+        </ul>
+    </div>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    
+        
+        <section class="cs-overview-secondary-info-container">
+            <div class="dss-rhino dss-rhino-greige-darker dss-rhino-padding-top-15 dss-rhino-padding-bottom-40">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div>
+                            
+                            
+                            
+    <div id="interests">
+        <h2><small style="font-weight:200; color:black;">Interests</small></h2>
+        <ul class="list-inline" style="font-weight:200;">
+            
+                <li class="list-inline-item"><small>Corruption</small></li>
+            
+                <li class="list-inline-item"><small>Government</small></li>
+            
+        </ul>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    
+        
+            <div id="social_media_buttons">
+                <div class="dss-rhino dss-rhino-white dss-rhino-padding-top-25 dss-rhino-padding-bottom-25">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-end align-items-center">
+                            
+
+    
+    <h2 class="my-0 me-3">Share</h2>
+    
+
+    
+    <a href="http://twitter.com/share?url=https%3A%2F%2Fconsultations.ag.gov.au%2Fintegrity%2Fogp-fnap%2Fconsult_view%2F&text=Have+a+look+at+this+from+%23citizenspace%3A"
+    class="dss-force-no-underline"
+    title="Share on Twitter"
+    target="_blank">
+        <span class="fa-brands fa-square-twitter me-3" style="font-size: 3em; color: #00aced;"></span>
+        <span class="visually-hidden">Share on Twitter</span>
+    </a>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsultations.ag.gov.au%2Fintegrity%2Fogp-fnap%2Fconsult_view%2F"
+    class="dss-force-no-underline"
+    title="Share on Facebook"
+    target="_blank">
+        <span class="fa-brands fa-square-facebook" style="font-size: 3em; color: #3b5998"></span>
+        <span class="visually-hidden">Share on Facebook</span>
+    </a>
+    
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
+
+
+
+                </div>
+            </main>
+        </div>
+        <footer id="configurable-footer-wrapper">
+            <div class="cs-page-component-group">
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-page-component-contrast">
+    <div class="row" id="global-footer">
+            <div id="citizen-space-footer-nav" 
+                class="col-12 col-md-8 order-1 order-md-2" 
+                role="navigation"
+                aria-label="miscellaneous">
+                <ul class="list-inline">
+                    
+                        <li id="nav-item-accessibility_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/accessibility_policy/">Accessibility</a></li>
+                    
+                        <li id="nav-item-terms_and_conditions" class="list-inline-item"><a href="https://consultations.ag.gov.au/terms_and_conditions/">Terms of Use</a></li>
+                    
+                        <li id="nav-item-cookie_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/cookie_policy/">Cookies</a></li>
+                    
+                        <li id="nav-item-privacy_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/privacy_policy/">Privacy</a></li>
+                    
+                        <li id="nav-item-support" class="list-inline-item"><a href="https://consultations.ag.gov.au/support/">Help / feedback</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 order-2 order-md-1">
+                <span id="citizen-space-footer-logo">
+                <a href="https://www.delib.net/citizen_space">Citizen Space</a>
+                <span>from</span> 
+                <a href="https://www.delib.net">Delib</a>
+                </span>
+            </div>
+    </div>
+
+</div>
+
+        
+    </div>
+</section>
+
+
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-html-component">
+        <div class="row cs-html-component-one-column">
+            <div>
+                <div class="cs-page-component-contrast ">
+                    
+                    <hr><p>We acknowledge Aboriginal and Torres Strait Islander peoples as custodians of Australia and pay our respects to Elders, past and present. We also acknowledge the ongoing connection to land, sea and communities throughout Australia, and the contributions to the lives of all Australians.</p><hr>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+        
+    </div>
+</section>
+
+
+                
+            </div>
+        </footer>
+
+        
+        
+        
+
+        <script type="text/javascript">
+            $(function() {
+                // Skip to content workaround for absolute skip links
+                jQuery('#skip a').bind("click", function(event) {
+                    var target = jQuery(this).attr('href').split('#')[1];
+                    jQuery("#"+target+"").focus();
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+        //<!-- js contains some invalid HTML characters
+            $(function() {
+                // Global search
+                var search_form = $("#cs-global-search");
+                var search_form_input = $("#cs-global-search-input");
+
+                // Scroll to search results on submit of global search form
+                search_form.submit(function() {
+                    if (search_form_input.attr('placeholder') == search_form_input.val()) {
+                        search_form_input.val('');
+                    }
+                    sessionStorage.setItem('saved-scrollTop', '500');
+                });
+
+                // Move the global search form into the appropriate container depending on viewport size
+                function move_global_search_form() {
+                    // if global nav (and global search) are turned off, bail
+                    if(!search_form.length) {
+                        return;
+                    }
+
+                    var md_container = $("#cs-global-search-container-md");
+                    var xs_container = $("#cs-global-search-container-xs");
+
+                    // btw we can't test if xs_container is visible because it's hidden inside the burger menu
+
+                    if (md_container.is(":visible")) {
+                        if(!md_container.find("#cs-global-search").length) {
+                            md_container.append(search_form);
+                        }
+                    }
+                    else {
+                        if(!xs_container.find("#cs-global-search").length) {
+                            xs_container.append(search_form);
+                        }
+                    }
+                }
+                move_global_search_form();
+                $(window).resize(move_global_search_form);
+
+                // Function to update the query string
+                function updateQueryStringParameter(uri, key, value) {
+                    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+                    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+                    if (uri.match(re)) {
+                        return uri.replace(re, '$1' + key + "=" + value + '$2');
+                    } else {
+                        return uri + separator + key + "=" + value;
+                    }
+                }
+
+                // Event listener to detect changes in the large viewport language `select`
+                var languageSelect = document.getElementById('language-picker-select');
+                if (languageSelect) {
+                    languageSelect.addEventListener('change', function() {
+                        var form = document.getElementById('global-language-picker');
+                        form.submit();
+                    });
+                }
+
+            });
+
+            // a11y hax. There are some elements generated by the ol libraries that need some extra attributes for a11y.
+            // Putting them here was preferable to overriding masses of ol code.
+            $(window).on("load", function() {
+              var zoomins = document.getElementsByClassName('ol-zoom-in');
+              for (let i=0; i<zoomins.length; i++) {
+                zoomins[i].setAttribute('aria-label', 'Zoom in');
+              }
+              var zoomouts = document.getElementsByClassName('ol-zoom-out');
+              for (let j=0; j<zoomouts.length; j++) {
+                zoomouts[j].setAttribute('aria-label', 'Zoom out');
+              }
+              var attributions = document.getElementsByClassName('ol-attribution');
+              for (let k=0; k<attributions.length; k++) {
+                attributions[k].getElementsByTagName('button')[0].setAttribute('aria-label', 'Attribution');
+              }
+              var recentre = document.getElementsByClassName('cs-zoom-to-extent');
+              for (let m=0; m<recentre.length; m++) {
+                recentre[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Recentre map');
+              }
+              var search = document.getElementsByClassName('cs-map-postcode-popup');
+              for (let m=0; m<search.length; m++) {
+                search[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Go to a postcode');
+              }
+            }
+            );
+        //-->
+        </script>
+
+        
+          
+          
+          
+        
+    </body>
+</html>
+
+

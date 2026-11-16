@@ -1,0 +1,873 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+    <head>
+        
+    <base href="https://consultations.ag.gov.au/crime/modern-slavery/"/>
+
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Find and participate in consultations run by Attorney General's Department">
+        
+        
+    
+
+        <title>
+            
+    Strengthening Australia’s response to modern slavery in supply chains
+
+             - Attorney-General's Department
+            - Citizen Space
+        </title>
+        
+        <link rel="stylesheet" href="/static_frontend/vendor/lato-2.015/fonts.css">
+        <link type="text/css" href="/static_frontend/vendor/dlb-public-ui/css/bootstrap.css" rel="stylesheet">
+        
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/vendor/dlb-public-ui/css/dlb-public-ui-compiled.css" rel="stylesheet">
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/css/citizenspace.css" rel="stylesheet">
+
+        
+
+        
+        <script type="text/javascript">
+            var tr_auto_embed = true;
+        </script>
+
+        <!--jQuery -->
+        <script type="text/javascript" src="/static_frontend/vendor/dlb-public-ui/libraries/jquery/jquery.min.js"></script>
+        <!--/jQuery -->
+        <script type="text/javascript" src="/static_frontend/js/fluid-resize.js?version=8.20.0"></script>
+        
+        <script type="text/javascript" src="/static_frontend/js/tr-safe-embed.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/text-truncate.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/tr-pdf.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/typeahead/typeahead.bundle.min.js?version=8.20.0"></script>
+        
+        
+        
+
+        <!--
+            Part of the Bootstrap 5 migration involves prefixing Bootstrap JS attributes with bs-
+            This has been done in our codebase, but copy/pasted content such as fact banks may still have old attributes.
+            Shim these attributes to allow these to remain working.
+        -->
+        <script>
+            const bootstrapEventShim = function() {
+                document.querySelectorAll('[data-toggle]').forEach((el) => {
+                    let attrVal = el.dataset.toggle;
+                    el.dataset.bsToggle = attrVal;
+                });
+                document.querySelectorAll('[data-target]').forEach((el) => {
+                    let attrVal = el.dataset.target;
+                    el.dataset.bsTarget = attrVal;
+                });
+            }
+            document.addEventListener("DOMContentLoaded", bootstrapEventShim);
+        </script>
+
+         <!-- Bootstrap JS Components -->
+        <script src="/static_frontend/vendor/dlb-public-ui/libraries/bootstrap-5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+        <!-- Page-specific CSS and JS can go here -->
+        
+
+        
+            <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'G-B3V7ZFC631');
+
+</script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', ‘G-B3V7ZFC631');
+</script>
+        
+
+        <!-- Remove no-js class if scripts are enabled -->
+        <script>
+            document.documentElement.classList.remove('no-js')
+        </script>
+
+        <!-- Ensure collapsible content is displayed and misleading links are hidden if JS is disabled -->
+        <noscript>
+            <style>
+                .collapse {
+                    display: block;
+                }
+
+                .show-when-no-js {
+                    display:block;
+                }
+
+                .hide-when-no-js {
+                    display:none;
+                }
+            </style>
+        </noscript>
+
+    </head>
+
+    <body
+          data-site-root="https://consultations.ag.gov.au">
+        <div id="skip">
+            <a href="https://consultations.ag.gov.au/crime/modern-slavery/consult_view/#page-content">Skip to Main Content</a>
+        </div>
+        
+
+<script>
+
+    jQuery(document).ready(function() {
+        
+
+        var options = {};
+        // used to disable the go button when the selected page is the current page
+        var cur_page = jQuery("#preview-navigation-page-select").val()
+
+        jQuery("#preview-navigation-page-select").change(function() {
+            var page = jQuery(this).val();
+            var button = jQuery("#preview-navigation button");
+            if (page != "" && page != cur_page) {
+                button.prop('disabled',false);
+            } else {
+                button.prop('disabled','disabled');
+            }
+        });
+
+        jQuery("#preview-navigation button").click(function(event) {
+            var page = jQuery("#preview-navigation-page-select").val();
+            var consultation_root = jQuery("#preview-navigation").data("consultation-root");
+            var survey_root = jQuery("#preview-navigation").data("survey-root");
+            var cookie_path = jQuery("#preview-navigation").data("cookie-path");
+
+            function set_state(state) {
+                document.cookie="preview_state="+state+";path="+cookie_path+";";
+            }
+
+            set_state("open");
+            if (page === "_hub") {
+                window.location = survey_root;
+            } else if (page == "_overview_open") {
+                window.location = consultation_root;
+            } else if (page == "_overview_closed") {
+                set_state("closed");
+                window.location = consultation_root;
+            } else if (page == "_overview_forthcoming") {
+                set_state("forthcoming");
+                window.location = consultation_root;
+            } else if (page == "_response_submitted") {
+                window.location = survey_root + "confirm_submit_thankyou";
+            } else if (page == "_published_responses") {
+                set_state("closed");
+                window.location = survey_root + "published_select_respondent";
+            } else if (page == "") {
+                // No-op, shouldn't get here (hah..).
+            } else {
+                window.location = survey_root + page;
+            }
+        });
+
+    });
+</script>
+
+        <div id="global-wrapper">
+
+            
+
+            <header id="global-nav" class="navbar navbar-default navbar-expand-md navbar-static-top dss-navbar">
+                <div class="container-fluid">
+                    <div class="row flex-grow-1 py-2 pb-md-0 pt-lg-1">
+                        <div class="mb-md-2 py-lg-1 col-md-8 ">
+                            <div class="navbar-header d-flex justify-content-between">
+                                <div id="global-nav-main-heading">
+                                    
+                                        <a id="global-nav-site-title" href="https://consultations.ag.gov.au/">
+                                            <img src="https://consultations.ag.gov.au/os-custom-logos/ags_inline.png"
+                                                alt="Attorney General's Department logo" class="global-nav-logo ms-3 ms-md-0" />
+                                        </a>
+                                    
+                                </div>
+                                <button class="navbar-toggler d-md-none align-self-center"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#global-navbar-collapse"
+                                    aria-expanded="false"
+                                    aria-controls="global-navbar-collapse">
+                                    <span class="fa-solid fa-caret-down"></span>
+                                    <span>Menu</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col align-content-center d-flex align-items-center">
+                            <div id="cs-global-search-container-md" class="d-none d-md-block flex-grow-1">
+                                <!-- Javascript puts the search form here for sm viewports -->
+                                <form id="cs-global-search" action="https://consultations.ag.gov.au/consultation_finder/" method="GET">
+                                    
+                                    <div role="search">
+                                        
+                                        <label for="cs-global-search-input" class="visually-hidden">Search</label>
+                                        <div class="input-group">
+                                            <input class="form-control" size="27" id="cs-global-search-input" type="text" name="keyword" placeholder="Search"/>
+                                            <button class="btn btn-primary" aria-label="Search" id="cs-global-search-button">
+                                                <span class="fa-solid fa-magnifying-glass"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            
+                        </div>
+                        
+                        <div class="w-100"></div>
+                        <div>
+                            <nav class="collapse navbar-collapse navbar-left px-3 px-md-0"
+                                id="global-navbar-collapse"
+                                aria-label="primary">
+
+                                <div id="global-navbar-collapse-inner" class="py-2">
+
+                                    <div id="cs-global-search-container-xs" class="d-md-none">
+                                        <!-- Javascript puts the search form here for xs viewports -->
+                                    </div>
+                                    
+                                    <ul class="cs-navbar-nav-list">
+                                        <li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/">
+        <span class="cs-navbar-nav-link-text">Home</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/consultation_finder/">
+        <span class="cs-navbar-nav-link-text">Find consultations</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/we_asked_you_said/">
+        <span class="cs-navbar-nav-link-text">We asked, you said, we did</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="https://www.ag.gov.au/">
+        <span class="cs-navbar-nav-link-text">Attorney-General's Department website</span>
+    </a>
+</li>
+
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main id="page-content-wrapper">
+                <div id="page-content" tabindex="-1">
+                    
+
+    
+        <section>
+
+    
+        <div
+                class="dss-rhino cs-consultation-banner"
+                style="background-image: url('https://consultations.ag.gov.au/os-custom-logos/4650-department---s-consultation-hub-homepage-image1.jpg')">
+            
+        </div>
+    
+
+    
+
+    
+
+    <div class="dss-rhino dss-rhino-brand-color dss-rhino-padding-bottom-15">
+        <div class="container-fluid dss-text-brand-color">
+            <div class="row">
+                <div>
+                    <h1 id="cs-consultation-title-in-banner">
+                        
+                            Strengthening Australia’s response to modern slavery in supply chains
+                        
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    
+
+    
+        <div class="container-fluid">
+        
+<div class="cs-status-message-container">
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+</div>
+
+        </div>
+    
+
+    
+        
+    
+
+    
+    <section class="" >
+        <div class="dss-rhino dss-rhino dss-rhino-padding-top-5 dss-rhino-padding-bottom-40 ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 order-2 order-md-1">
+                        <div class="dss-easy-reading cs-constrain-overview-column-for-readability">
+                            <div id="overview" class="clearfix">
+    <h2>Overview</h2>
+    <p>On 16 July 2026, the Australian Government <a href="https://ministers.ag.gov.au/media-centre/albanese-government-combatting-modern-slavery-16-07-2026">announced</a> its intention to further strengthen Australia&#8217;s modern slavery laws, including by introducing a new criminal offence for the failure to prevent modern slavery. This consultation will inform the details of the proposed offence and enforcement options, including the possible introduction of a Deferred Prosecution Agreement (DPA) scheme for relevant modern slavery offences and remedies for victims.</p>
+
+<p>The proposed reforms aim to enhance corporate accountability for preventing modern slavery in supply chains, improve protections for workers vulnerable to exploitation, and create a level playing field for businesses that are already taking meaningful action to identify, manage and address modern slavery risks.</p>
+
+<p>The government is seeking feedback to help ensure any reforms are practical, effective and proportionate, while supporting meaningful action to identify, prevent and address modern slavery risks.</p>
+
+<h3>Why we are consulting</h3>
+
+<p>We are seeking stakeholder views on the key components of the proposed failure to prevent modern slavery offence, including its scope, application and defence. We also invite views on whether a DPA scheme could be introduced alongside a failure to prevent offence, and on possible avenues through which victims and survivors may pursue civil remedies in connection to the proposed criminal offence.</p>
+
+<p>Feedback from this consultation will help inform the design of these reforms and will inform the government&#8217;s consideration of future measures to strengthen Australia&#8217;s response to modern slavery.</p>
+
+<ul>
+	<li><a href="user_uploads/consultation-paper.pdf">Strengthening Australia&#8217;s response to modern slavery in supply chains [PDF&#160;1.54MB]</a></li>
+	<li><a href="user_uploads/ms-consultation-paper.docx">Strengthening Australia&#8217;s response to modern slavery in supply chains [DOCX 1.6MB]</a></li>
+</ul>
+
+<h3>Who we want to hear from</h3>
+
+<p>We welcome submissions from all interested stakeholders and members of the public. We encourage contributions from:</p>
+
+<ul>
+	<li>reporting entities under the Modern Slavery Act (including entities who voluntarily report)</li>
+	<li>peak industry bodies</li>
+	<li>legal organisations and practitioners</li>
+	<li>academics</li>
+	<li>business and human rights experts</li>
+	<li>criminal law experts</li>
+	<li>civil society organisations</li>
+	<li>individuals with lived experience of modern slavery</li>
+	<li>advocacy groups</li>
+	<li>unions.</li>
+</ul>
+
+<h2>How to share your views</h2>
+
+<p>Follow the &#8216;Have your say&#8217; link at the bottom of this page to respond to the consultation questions in an online survey format. You do not have to address all the questions.</p>
+
+<p>If you are experiencing any difficulty providing a submission, email <a href="mailto:slavery.reform@ag.gov.au">slavery.reform@ag.gov.au</a>.</p>
+
+<h3>Privacy and information management</h3>
+
+<p>To support your participation in this consultation, we will collect some of your personal information. The privacy and security of your personal information is important to us and is protected by law. The Collection Notice, available below, outlines how we will collect your personal information, how it will be used and who it may be disclosed to. By participating in the consultation, you are indicating you have read and agree to the Collection Notice.</p>
+
+<ul>
+	<li><a href="user_uploads/ms-privacy-collection-notice.pdf">Privacy Collection Notice and Consent Form [PDF]</a></li>
+	<li><a href="user_uploads/ms-privacy-collection-notice.docx">Privacy Collection Notice and Consent Form [DOCX]</a></li>
+</ul>
+
+<h3>Publishing submissions</h3>
+
+<p>You can submit your feedback under your name or anonymously. We intend to publish responses at the conclusion of the consultation period on our consultation hub. There will be a consent question to confirm whether you agree to your response being made public and whether you approve of your name or organisation being published. Submitting your response through the survey helps us publish responses in a way that all users can access.</p>
+
+<p>If you would like part of your feedback to remain in confidence, please provide the confidential information separately and clearly indicate the information you would like to remain confidential. Please refrain from including personal information about other individuals in the body of your submission. Legal requirements, such as those imposed by the&#160;<i>Freedom of Information Act 1982</i>&#160;(Cth), may affect the confidentiality of your submission.</p>
+
+<p>This consultation collects your personal information (unless you submit anonymously). This is so we can contact you if we need to clarify aspects of your response, to confirm your consent to publish information in your response, or to seek feedback.</p>
+
+<h2>Help and support</h2>
+
+<p>Help is available for any person experiencing or at risk of modern slavery.</p>
+
+<p>If you have immediate concerns for your safety, the safety of another person, or there is an emergency, call Triple Zero (<a href="tel:000">000</a>).</p>
+
+<p>You can contact the Australian Federal Police (AFP) on <a href="tel:131237">131&#160;237</a> (131&#160;AFP) or go to the <a href="http://www.afp.gov.au">AFP website</a> for help. The AFP can keep you safe, provide advice and refer you to other services that provide accommodation, financial support, counselling, and legal and immigration advice.</p>
+
+<p>The Salvation Army and specialist partner organisations can provide free and confidential support to:</p>
+
+<ul>
+	<li>help you understand your rights and options</li>
+	<li>offer free legal advice about your experience of modern slavery</li>
+	<li>help with your immediate needs</li>
+	<li>refer you to the Support for Trafficked People Program if eligible.</li>
+</ul>
+
+<p>Find out more about the <a href="http://www.salvationarmy.org.au/additional-referral-pathway/">Salvation Army&#8217;s Additional Referral Pathway</a> or call <a href="tel:1800000277">1800&#160;000&#160;277</a> for more information.</p>
+
+<p><a href="https://antislavery.org.au/">Anti-Slavery Australia</a> provides free, confidential legal and migration services to people who have experienced or are at risk of modern slavery in Australia. If you have experienced modern slavery, or you are worried about someone in this situation, contact Anti-Slavery Australia for free and confidential legal advice and support. Call <a href="tel:0295148115">(02)&#160;9514&#160;8115</a> (9&#160;am to 5&#160;pm&#160;AEST, Monday to Friday), or email <a href="mailto:asalegal@uts.edu.au">asalegal@uts.edu.au</a>.</p>
+
+<p>If you are in or at risk of forced marriage, the Forced Marriage Specialist Support Program, delivered by Life Without Barriers, provides individualised needs&#8209;based&#160;support. Call <a href="tel:1800403213">1800&#160;403&#160;213</a> or visit the <a href="http://www.lwb.org.au/services/forced-marriage-support">Life Without Barriers</a> website.</p>
+
+<p>You can also contact My Blue Sky, Australia&#8217;s national forced marriage service, for support and free, confidential legal advice:</p>
+
+<ul>
+	<li>Call <a href="tel:0295148115">(02)&#160;9514&#160;8115</a> (9&#160;am to 5&#160;pm&#160;AEST, Monday to Friday)</li>
+	<li>Text <a href="tel:+61481070844">+61&#160;481&#160;070&#160;844</a></li>
+	<li>Email <a href="mailto:help@mybluesky.org.au">help@mybluesky.org.au</a></li>
+	<li>Visit the <a href="http://www.mybluesky.org.au">My Blue Sky</a> website.</li>
+</ul>
+
+<p>Free interpreter services are available to help any person communicate with service providers in their own language. Call the Translating and Interpreting Service on <a href="tel:131450">131&#160;450</a>. All calls are free and confidential.</p>
+
+</div>
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 order-1 order-md-2">
+                        
+    
+        
+        <div class="cs-consultation-sidebar-container"
+     id="consultation_overview_sidebar">
+     <div class="cs-consultation-dates-container">
+        <div class="cs-consultation-primary-dates-container">
+            
+            
+            <div>
+                <p class="cs-consultation-sidebar-primary-date">
+                  <span>Closed</span> 25 Sep 2026
+                </p>
+
+                <p class="cs-consultation-sidebar-secondary-date">
+                    <span>Opened</span> 21 Aug 2026
+                </p>
+            </div>
+        </div>
+        <div class="cs-consultation-sidebar-tertiary-dates-container">
+            
+            
+        </div>
+    </div>
+    <div class="cs-consultation-contact-details dss-force-links-to-wrap"
+    >
+        <h2 class="cs-consultation-contact-details-heading">Contact</h2>
+        
+        
+        
+        
+        
+            <p id="contact_email"><a href="mailto:Slavery.Reform@ag.gov.au">Slavery.Reform@ag.gov.au</a></p>
+        
+    </div>
+</div>
+
+    
+
+    
+
+
+<style>
+/* General purpose sidebar section with a border */
+.cs-consultation-sidebar-block {
+    font-size: 14px;
+    border-bottom: solid 1px #ddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.cs-consultation-sidebar-block h2 {
+    font-size: 24px;
+}
+
+/* a button that toggles a sidebar section */
+.cs-consultation-sidebar-section-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	text-align: left;
+	color: inherit;
+}
+
+/* Fix as part of 23702 */
+.cs-consultation-sidebar-section-toggle[aria-expanded=true]:after {
+    content: '\f106';
+    font: normal normal normal 30px/1 FontAwesome;
+}
+.cs-consultation-sidebar-section-toggle.collapsed:after {
+    content: '\f107';
+    font: normal normal normal 30px/1 FontAwesome;
+}
+/* end 23702 */
+</style>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+        
+        <section class="cs-overview-secondary-info-container">
+            <div class="dss-rhino dss-rhino-2021-warm-light-grey dss-rhino-padding-top-15 dss-rhino-padding-bottom-40">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="cs-constrain-overview-column-for-readability">
+                                
+                                
+<div id="related">
+    
+    <h2 class="dss-heading-large">Related</h2>
+    
+
+    
+    <div class="cs-related-items-listing-container">
+        <ul class="list-unstyled">
+            
+
+            
+                
+                    <li style="margin-bottom:20px;">
+                        <a href="https://www.ag.gov.au/crime/publications/report-statutory-review-modern-slavery-act-2018-cth" 
+                        aria-label="Report of the statutory review of the Modern Slavery Act 2018 (Cth)">
+                            <span class="fa-regular fa-circle-right fa-width-fixed icon-space-right"></span>Report of the statutory review of the Modern Slavery Act 2018 (Cth)
+                        </a>
+                    </li>
+                
+                    <li style="margin-bottom:20px;">
+                        <a href="https://www.ag.gov.au/crime/publications/australian-government-response-review-report-modern-slavery-act-2018-cth" 
+                        aria-label="Australian Government response to the review report of the Modern Slavery Act 2018 (Cth)">
+                            <span class="fa-regular fa-circle-right fa-width-fixed icon-space-right"></span>Australian Government response to the review report of the Modern Slavery Act 2018 (Cth)
+                        </a>
+                    </li>
+                
+                    <li style="margin-bottom:20px;">
+                        <a href="https://www.modernslavery.gov.au/" 
+                        aria-label="Modern slavery in Australia">
+                            <span class="fa-regular fa-circle-right fa-width-fixed icon-space-right"></span>Modern slavery in Australia
+                        </a>
+                    </li>
+                
+            
+
+            
+                
+                    <li style="margin-bottom:20px;">
+                        <a href="/crime/modern-slavery-act/" 
+                        aria-label="Strengthening the Modern Slavery Act 2018 (Cth) consultation">
+                            <span class="fa-regular fa-circle-right fa-width-fixed icon-space-right"></span>Strengthening the Modern Slavery Act 2018 (Cth) consultation
+                        </a>
+                    </li>
+                
+            
+        </ul>
+    </div>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    
+        
+        <section class="cs-overview-secondary-info-container">
+            <div class="dss-rhino dss-rhino-greige-darker dss-rhino-padding-top-15 dss-rhino-padding-bottom-40">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div>
+                            
+                            
+                            
+    <div id="interests">
+        <h2><small style="font-weight:200; color:black;">Interests</small></h2>
+        <ul class="list-inline" style="font-weight:200;">
+            
+                <li class="list-inline-item"><small>Criminal law</small></li>
+            
+                <li class="list-inline-item"><small>Human rights</small></li>
+            
+                <li class="list-inline-item"><small>Legislation</small></li>
+            
+                <li class="list-inline-item"><small>Modern slavery</small></li>
+            
+                <li class="list-inline-item"><small>People trafficking</small></li>
+            
+        </ul>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    
+        
+            <div id="social_media_buttons">
+                <div class="dss-rhino dss-rhino-white dss-rhino-padding-top-25 dss-rhino-padding-bottom-25">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-end align-items-center">
+                            
+
+    
+    <h2 class="my-0 me-3">Share</h2>
+    
+
+    
+    <a href="http://twitter.com/share?url=https%3A%2F%2Fconsultations.ag.gov.au%2Fcrime%2Fmodern-slavery%2Fconsult_view%2F&text=Have+a+look+at+this+from+%23citizenspace%3A"
+    class="dss-force-no-underline"
+    title="Share on Twitter"
+    target="_blank">
+        <span class="fa-brands fa-square-twitter me-3" style="font-size: 3em; color: #00aced;"></span>
+        <span class="visually-hidden">Share on Twitter</span>
+    </a>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsultations.ag.gov.au%2Fcrime%2Fmodern-slavery%2Fconsult_view%2F"
+    class="dss-force-no-underline"
+    title="Share on Facebook"
+    target="_blank">
+        <span class="fa-brands fa-square-facebook" style="font-size: 3em; color: #3b5998"></span>
+        <span class="visually-hidden">Share on Facebook</span>
+    </a>
+    
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
+
+
+
+                </div>
+            </main>
+        </div>
+        <footer id="configurable-footer-wrapper">
+            <div class="cs-page-component-group">
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-page-component-contrast">
+    <div class="row" id="global-footer">
+            <div id="citizen-space-footer-nav" 
+                class="col-12 col-md-8 order-1 order-md-2" 
+                role="navigation"
+                aria-label="miscellaneous">
+                <ul class="list-inline">
+                    
+                        <li id="nav-item-accessibility_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/accessibility_policy/">Accessibility</a></li>
+                    
+                        <li id="nav-item-terms_and_conditions" class="list-inline-item"><a href="https://consultations.ag.gov.au/terms_and_conditions/">Terms of Use</a></li>
+                    
+                        <li id="nav-item-cookie_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/cookie_policy/">Cookies</a></li>
+                    
+                        <li id="nav-item-privacy_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/privacy_policy/">Privacy</a></li>
+                    
+                        <li id="nav-item-support" class="list-inline-item"><a href="https://consultations.ag.gov.au/support/">Help / feedback</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 order-2 order-md-1">
+                <span id="citizen-space-footer-logo">
+                <a href="https://www.delib.net/citizen_space">Citizen Space</a>
+                <span>from</span> 
+                <a href="https://www.delib.net">Delib</a>
+                </span>
+            </div>
+    </div>
+
+</div>
+
+        
+    </div>
+</section>
+
+
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-html-component">
+        <div class="row cs-html-component-one-column">
+            <div>
+                <div class="cs-page-component-contrast ">
+                    
+                    <hr><p>We acknowledge Aboriginal and Torres Strait Islander peoples as custodians of Australia and pay our respects to Elders, past and present. We also acknowledge the ongoing connection to land, sea and communities throughout Australia, and the contributions to the lives of all Australians.</p><hr>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+        
+    </div>
+</section>
+
+
+                
+            </div>
+        </footer>
+
+        
+        
+        
+
+        <script type="text/javascript">
+            $(function() {
+                // Skip to content workaround for absolute skip links
+                jQuery('#skip a').bind("click", function(event) {
+                    var target = jQuery(this).attr('href').split('#')[1];
+                    jQuery("#"+target+"").focus();
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+        //<!-- js contains some invalid HTML characters
+            $(function() {
+                // Global search
+                var search_form = $("#cs-global-search");
+                var search_form_input = $("#cs-global-search-input");
+
+                // Scroll to search results on submit of global search form
+                search_form.submit(function() {
+                    if (search_form_input.attr('placeholder') == search_form_input.val()) {
+                        search_form_input.val('');
+                    }
+                    sessionStorage.setItem('saved-scrollTop', '500');
+                });
+
+                // Move the global search form into the appropriate container depending on viewport size
+                function move_global_search_form() {
+                    // if global nav (and global search) are turned off, bail
+                    if(!search_form.length) {
+                        return;
+                    }
+
+                    var md_container = $("#cs-global-search-container-md");
+                    var xs_container = $("#cs-global-search-container-xs");
+
+                    // btw we can't test if xs_container is visible because it's hidden inside the burger menu
+
+                    if (md_container.is(":visible")) {
+                        if(!md_container.find("#cs-global-search").length) {
+                            md_container.append(search_form);
+                        }
+                    }
+                    else {
+                        if(!xs_container.find("#cs-global-search").length) {
+                            xs_container.append(search_form);
+                        }
+                    }
+                }
+                move_global_search_form();
+                $(window).resize(move_global_search_form);
+
+                // Function to update the query string
+                function updateQueryStringParameter(uri, key, value) {
+                    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+                    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+                    if (uri.match(re)) {
+                        return uri.replace(re, '$1' + key + "=" + value + '$2');
+                    } else {
+                        return uri + separator + key + "=" + value;
+                    }
+                }
+
+                // Event listener to detect changes in the large viewport language `select`
+                var languageSelect = document.getElementById('language-picker-select');
+                if (languageSelect) {
+                    languageSelect.addEventListener('change', function() {
+                        var form = document.getElementById('global-language-picker');
+                        form.submit();
+                    });
+                }
+
+            });
+
+            // a11y hax. There are some elements generated by the ol libraries that need some extra attributes for a11y.
+            // Putting them here was preferable to overriding masses of ol code.
+            $(window).on("load", function() {
+              var zoomins = document.getElementsByClassName('ol-zoom-in');
+              for (let i=0; i<zoomins.length; i++) {
+                zoomins[i].setAttribute('aria-label', 'Zoom in');
+              }
+              var zoomouts = document.getElementsByClassName('ol-zoom-out');
+              for (let j=0; j<zoomouts.length; j++) {
+                zoomouts[j].setAttribute('aria-label', 'Zoom out');
+              }
+              var attributions = document.getElementsByClassName('ol-attribution');
+              for (let k=0; k<attributions.length; k++) {
+                attributions[k].getElementsByTagName('button')[0].setAttribute('aria-label', 'Attribution');
+              }
+              var recentre = document.getElementsByClassName('cs-zoom-to-extent');
+              for (let m=0; m<recentre.length; m++) {
+                recentre[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Recentre map');
+              }
+              var search = document.getElementsByClassName('cs-map-postcode-popup');
+              for (let m=0; m<search.length; m++) {
+                search[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Go to a postcode');
+              }
+            }
+            );
+        //-->
+        </script>
+
+        
+          
+          
+          
+        
+    </body>
+</html>
+
+
