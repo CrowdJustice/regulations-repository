@@ -42,4 +42,7 @@ jobs:
           git config user.name "regulation-tracker"
           git config user.email "regulation-tracker@users.noreply.github.com"
           node agent/admin.mjs "$COMMAND" "$ID" --reason "$REASON" --commit
+          node agent/build-page.mjs
+          git add site
+          git diff --cached --quiet || git commit -q -m "Rebuild the page"
           git push

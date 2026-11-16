@@ -80,8 +80,12 @@ Each takes an optional reason, which the assistant reads on later runs.
 ```bash
 node --test "agent/test/*.test.mjs"   # the code checks; no AI, a few seconds
 node agent/test/scenario.mjs           # a full trial on made-up pages; uses the real AI
+node agent/check-sources.mjs           # read every source and report what it lists; no AI
 node agent/run.mjs                     # a real run; add --commit to save each change as a commit
+node agent/build-page.mjs              # build site/index.html from the page design and data/
 ```
+
+The **Check sources** workflow runs `check-sources.mjs` on GitHub. It needs no credential, so it is the quickest way to confirm a new source address works.
 
 Useful options for `run.mjs`:
 
