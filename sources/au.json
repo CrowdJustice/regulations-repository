@@ -1,0 +1,38 @@
+[
+  {
+    "id": "austrac-guidance",
+    "regulator": "AUSTRAC",
+    "covers": "AML/CTF rules and Tranche 2 guidance for lawyers",
+    "enabled": false,
+    "how": "page",
+    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/latest-guidance-updates",
+    "match": "^https://www\\.austrac\\.gov\\.au/.+"
+  },
+  {
+    "id": "lsc-consultations",
+    "regulator": "Legal Services Council",
+    "covers": "Uniform Law rules for NSW, Victoria and WA",
+    "enabled": false,
+    "how": "page",
+    "url": "https://legalservicescouncil.org.au/consultations/current-consultations.html",
+    "match": "^https://legalservicescouncil\\.org\\.au/.+"
+  },
+  {
+    "id": "oaic-consultations",
+    "regulator": "OAIC",
+    "covers": "Privacy Act changes and guidance",
+    "enabled": false,
+    "how": "page",
+    "url": "https://www.oaic.gov.au/engage-with-us/consultations",
+    "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+"
+  },
+  {
+    "id": "vlsbc-news",
+    "regulator": "VLSB+C",
+    "covers": "Victorian regulator updates",
+    "enabled": false,
+    "how": "page",
+    "url": "https://lsbc.vic.gov.au/news-updates",
+    "match": "^https://lsbc\\.vic\\.gov\\.au/news-updates/.+"
+  }
+]

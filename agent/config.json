@@ -1,0 +1,46 @@
+{
+  "model": "opus",
+  "window_days": 60,
+  "max_items_per_source": 15,
+  "limits": {
+    "title": 80,
+    "summary": 240,
+    "what_changes_max_items": 4,
+    "what_changes_item": 150,
+    "who_it_applies_to": 180,
+    "in_force_text": 30,
+    "history_event": 120,
+    "history_max_items": 12
+  },
+  "topics": [
+    "AML and ID checks",
+    "Client money",
+    "Complaints",
+    "Consumer claims",
+    "Costs and billing",
+    "Cyber security",
+    "Firm management",
+    "Fraud and economic crime",
+    "Privacy and data",
+    "Sanctions",
+    "Technology and AI",
+    "Other"
+  ],
+  "applies_to": {
+    "uk": {
+      "all": { "label": "All firms", "means": "every regulated law firm" },
+      "money": { "label": "Firms holding client money", "means": "the firm holds client money" },
+      "aml": { "label": "AML-regulated work", "means": "the firm does work in scope of the Money Laundering Regulations" },
+      "corporate": { "label": "Corporate work", "means": "the firm acts for companies" },
+      "claims": { "label": "Consumer claims", "means": "the firm runs consumer claims" },
+      "large": { "label": "Large firms", "means": "250+ staff, or other large-organisation thresholds" }
+    },
+    "au": {
+      "all": { "label": "All firms", "means": "every regulated law practice" },
+      "designated": { "label": "Property, trust or company work", "means": "the firm provides AML/CTF designated services" },
+      "trust": { "label": "Firms holding trust money", "means": "the firm holds trust money" },
+      "uniform": { "label": "NSW, Victoria and WA", "means": "the firm practises in a Uniform Law state" },
+      "turnover": { "label": "Turnover over $3m", "means": "annual turnover above $3m" }
+    }
+  }
+}

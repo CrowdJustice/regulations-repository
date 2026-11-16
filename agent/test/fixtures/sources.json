@@ -1,0 +1,11 @@
+[
+  {
+    "id": "nlsa-news",
+    "regulator": "NLSA",
+    "covers": "announcements from the Northbridge Legal Standards Authority, a made-up regulator used only for testing",
+    "enabled": true,
+    "how": "page",
+    "url": "https://nlsa.test/news/",
+    "match": "^https://nlsa\\.test/news/.+"
+  }
+]
