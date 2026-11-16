@@ -1,0 +1,711 @@
+<!doctype html>
+<html class="no-js" lang="en-GB">
+
+<head>
+    <!-- etempa put in footer -->
+    <!-- Google tag (gtag.js) -->
+    <!-- <script>
+        ////
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        // Cookie Control
+        // Call the default command before gtag.js or Tag Manager runs to
+        // adjust how the tags operate when they run. Modify the defaults
+        // per your business requirements and prior consent granted/denied, e.g.:
+
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+
+        gtag('js', new Date());
+        //gtag('config', 'UA-180492094-1'); // old ua style linked to new tag below
+        gtag('config', 'G-7HDVXSG14R');
+    </script>
+->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HDVXSG14R"></script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>LSB launches review of guidance on reserved legal activities   | </title>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://legalservicesboard.org.uk/wp-content/themes/lsb/fav-icons/mstile-310x310.png" />
+    <title>LSB launches review of guidance on reserved legal activities   &#8211; The Legal Services Board</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cc.cdn.civiccomputing.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="The Legal Services Board &raquo; Feed" href="https://legalservicesboard.org.uk/feed" />
+<link rel="alternate" type="application/rss+xml" title="The Legal Services Board &raquo; Comments Feed" href="https://legalservicesboard.org.uk/comments/feed" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://legalservicesboard.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flegalservicesboard.org.uk%2Fnews%2Flsb-launches-review-of-guidance-on-reserved-legal-activities" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://legalservicesboard.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flegalservicesboard.org.uk%2Fnews%2Flsb-launches-review-of-guidance-on-reserved-legal-activities&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://legalservicesboard.org.uk/wp-includes/blocks/paragraph/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='union-10-style-css' href='https://legalservicesboard.org.uk/wp-content/themes/lsb/style.css' media='all' />
+<link rel='stylesheet' id='flick-css' href='https://legalservicesboard.org.uk/wp-content/plugins/mailchimp/assets/css/flick/flick.css?ver=2.1.0' media='all' />
+<link rel='stylesheet' id='mailchimp_sf_main_css-css' href='https://legalservicesboard.org.uk/wp-content/plugins/mailchimp/assets/css/frontend.css?ver=2.1.0' media='all' />
+<link rel='stylesheet' id='googleFonts-css' href='https://fonts.googleapis.com/css?family=Heebo:300,400,700&#038;ver=7.1.4' media='all' />
+<script id="jquery-js" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js?ver=2.2.4"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-NSSZP2ND" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["legalservicesboard.org.uk"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NSSZP2ND");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit", ...( data && data.user_data ? {"developer_id.dZjRkOT":true} : {} ) } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://legalservicesboard.org.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://legalservicesboard.org.uk/wp-json/wp/v2/posts/25572" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://legalservicesboard.org.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel="canonical" href="https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" />
+<link rel='shortlink' href='https://legalservicesboard.org.uk/?p=25572' />
+<meta name="generator" content="Site Kit by Google 1.191.0" /><style id="wp-custom-css">
+.wp-paginate a:focus
+{
+	background-color: #ffbf47;
+}
+</style>
+    <meta name="google-site-verification" content="1TCdD1HF9kwU0lRlZS7hA6XzpSK8fdCTZC2vF9CiA8E" />
+    <meta name="msvalidate.01" content="6F673A0283F24430B8F4EA04238DC8D8" />
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-25572 single-format-standard wp-theme-lsb">
+
+    <section class='quicklinks accent-section white remove-list-style'>
+
+        <nav class='inner clearfix' role="navigation" aria-label="quicklinks">
+            <div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a>
+            </div><!-- screen-reader-text skip-link -->
+            <ul id="menu-quick-links-menu" class="clearfix "><li id="menu-item-9363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9363"><a href="https://legalservicesboard.org.uk/accessibility">Accessibility</a><li><p class="no-bot-marg"><span>&nbsp;|&nbsp;</span></p></li></li>
+<li id="menu-item-9364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9364"><a href="https://legalservicesboard.org.uk/enquiries">Enquiries</a><li><p class="no-bot-marg"><span>&nbsp;|&nbsp;</span></p></li></li>
+</ul>
+        </nav> <!-- inner -->
+    </section><!-- # -->
+
+    <header id="masthead" class="accent-section clearfix " role="banner">
+        <div class='inner'>
+            <div id="branding" class="">
+                <a class="site-logo" href="https://legalservicesboard.org.uk/">
+                    <img src="https://legalservicesboard.org.uk/wp-content/themes/lsb/images/header/logo.svg" width="200" height="150" alt="The Legal Services Board Logo" title="The Legal Services Board - ">
+                </a>
+
+            </div><!-- end of branding div -->
+            <div id='header-search' class='header-search' role="search">
+                <form role="search" method="get" class="search-form" action="https://legalservicesboard.org.uk/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>
+            </div> <!--  -->
+
+
+
+
+
+        </div> <!-- inner -->
+        <a id="menu-button" aria-label="menu" aria-expanded="false" tabindex="0"><span></span> <span></span> <span></span> <span></span></a>
+        <nav id="site-navigation" class="navigation-main clearfix " role="navigation" aria-label="main-navigation">
+            <div class='inner'>
+
+
+
+                <div class="menu-main-menu-container"><ul id="menu-main-menu" class="clearfix col-12"><li id="menu-item-8138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8138"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/about-us">About us</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-387"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/news-2/news">News</a></li>
+<li id="menu-item-8137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8137"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/our-work">Our work</a></li>
+<li id="menu-item-8136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8136"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/research">Research</a></li>
+<li id="menu-item-8134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8134"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/enquiries">Enquiries</a></li>
+<li id="menu-item-8135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8135"><a class="open-sub-nav" href="#" title="Expand Menu"></a><a href="https://legalservicesboard.org.uk/croeso-ir-bwrdd-gwasanaethau-cyfreithiol">Cymraeg</a></li>
+</ul></div>            </div> <!-- inner -->
+        </nav><!-- #site-navigation -->
+
+    </header><!-- #masthead -->
+
+
+
+
+
+<section  class="general-section content-area ">
+    <div class="inner clearfix">
+
+
+        <aside class="col col-3 top-pad bot-pad side-menu-wrap " role="navigation" aria-label="side-menu">
+    <div class='side-menu'>
+        <h3 class='white side-menu-title large-para'>News</h3>
+        <ul id="menu-news" class="clearfix "><li id="menu-item-9263" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-9263"><a href="https://legalservicesboard.org.uk/news-2/news">News</a></li>
+<li id="menu-item-10298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10298"><a href="https://legalservicesboard.org.uk/news-2/news/speeches-and-presentations">Speeches and presentations</a></li>
+<li id="menu-item-15642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15642"><a href="https://legalservicesboard.org.uk/news-2/news/chairs-blogs">Chair’s Blogs</a></li>
+<li id="menu-item-24772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24772"><a href="https://legalservicesboard.org.uk/list-of-the-lsb-chairs-meetings">List of the LSB Chair&#8217;s Meetings</a></li>
+<li id="menu-item-9465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9465"><a href="https://legalservicesboard.org.uk/news-2/news/newsletter-signup">Newsletter</a></li>
+<li id="menu-item-10990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10990"><a href="https://legalservicesboard.org.uk/news-2/news/press-enquiries">Contact details</a></li>
+</ul>   
+    </div> <!-- side-menu -->
+    <div class='top-pad'>
+        
+       
+        <section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>
+			<ul>
+					<li><a href='https://legalservicesboard.org.uk/2026/11'>November 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/10'>October 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/09'>September 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/07'>July 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/06'>June 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/05'>May 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/04'>April 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/03'>March 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/02'>February 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2026/01'>January 2026</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/12'>December 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/11'>November 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/10'>October 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/09'>September 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/07'>July 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/06'>June 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/05'>May 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/04'>April 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/03'>March 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/02'>February 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2025/01'>January 2025</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/12'>December 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/11'>November 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/10'>October 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/09'>September 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/08'>August 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/07'>July 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/06'>June 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/05'>May 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/04'>April 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/03'>March 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/02'>February 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2024/01'>January 2024</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/12'>December 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/11'>November 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/10'>October 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/09'>September 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/08'>August 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/07'>July 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/06'>June 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/05'>May 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/04'>April 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/03'>March 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/02'>February 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2023/01'>January 2023</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/12'>December 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/11'>November 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/10'>October 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/09'>September 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/08'>August 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/07'>July 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/06'>June 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/05'>May 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/04'>April 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/03'>March 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/02'>February 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2022/01'>January 2022</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/12'>December 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/11'>November 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/10'>October 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/09'>September 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/08'>August 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/07'>July 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/06'>June 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/05'>May 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/04'>April 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/03'>March 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/02'>February 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2021/01'>January 2021</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/12'>December 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/11'>November 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/10'>October 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/09'>September 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/08'>August 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/07'>July 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/06'>June 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/05'>May 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/04'>April 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/03'>March 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/02'>February 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2020/01'>January 2020</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/12'>December 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/11'>November 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/10'>October 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/09'>September 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/08'>August 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/07'>July 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/06'>June 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/05'>May 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/04'>April 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/03'>March 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/02'>February 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2019/01'>January 2019</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/12'>December 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/11'>November 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/10'>October 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/09'>September 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/08'>August 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/07'>July 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/06'>June 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/05'>May 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/04'>April 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/03'>March 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/02'>February 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2018/01'>January 2018</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/12'>December 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/11'>November 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/10'>October 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/09'>September 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/08'>August 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/07'>July 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/06'>June 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/04'>April 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/03'>March 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/02'>February 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2017/01'>January 2017</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2016/12'>December 2016</a></li>
+	<li><a href='https://legalservicesboard.org.uk/2016/01'>January 2016</a></li>
+			</ul>
+
+			</section>         </div> <!-- top-pad -->
+</aside>
+        <main id="content" class="col col-9 top-pad bot-pad left-side-pad" role="main">
+                        <article id=" post-25572" class="post-25572 post type-post status-publish format-standard hentry category-news">
+	
+	 <header class="entry-header ">
+		<h1 class=' bot-tiny-marg'>LSB launches review of guidance on reserved legal activities  </h1>
+		 <div class="entry-meta bot-small-marg">
+            <div class="entry-meta">
+                <span class="posted-on">Posted on <a href="https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" rel="bookmark"><time class="entry-date published" datetime="2026-11-12T10:02:39+00:00">12th November 2026</time></a></span>            </div><!-- .entry-meta -->
+        </div><!-- .entry-meta -->
+		<hr class=' heading-line'>
+	</header><!-- .entry-header -->
+	
+	
+    <div class="entry-content">
+        
+<p class="wp-block-paragraph">Following its <a href="https://legalservicesboard.org.uk/wp-content/uploads/2026/07/LSB-Final-CoL-Report.pdf" target="_blank" rel="noopener">final report</a> on guidance to the profession on the conduct of litigation earlier this year, the Legal Services Board (LSB) has launched a review of guidance and supporting materials provided to the profession on the other reserved legal activities. </p>
+
+
+
+<p class="wp-block-paragraph">Working closely with the approved regulators and regulatory bodies, the review will consider guidance on the exercise of a right of audience, reserved instrument activities, probate activities, notarial activities and the administration of oaths. </p>
+
+
+
+<p class="wp-block-paragraph">The purpose is to identify any issues relating to the consistency, legal accuracy, clarity or adequacy of detail in guidance provided to the profession. The review will also consider whether guidance is consistent with the applicable legal and regulatory framework. </p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://legalservicesboard.org.uk/wp-content/uploads/2026/11/Scope-Review-of-guidance-on-the-other-reserved-legal-activities.pdf" data-type="link" data-id="https://legalservicesboard.org.uk/wp-content/uploads/2026/11/Scope-Review-of-guidance-on-the-other-reserved-legal-activities.pdf">The scope of the review is available here</a>. </p>
+
+
+
+<p class="wp-block-paragraph">Richard Orpin, Chief Executive of the Legal Services Board, said: </p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Clear, accurate and consistent guidance helps legal services providers understand and comply with their regulatory obligations, in turn supporting public trust and consumer confidence in legal services. </p>
+
+
+
+<p class="wp-block-paragraph">&#8220;As the oversight regulator, the LSB is uniquely placed to take a sector-wide view across the legal services regulatory landscape. That enables us to identify opportunities to improve clarity and consistency where appropriate. </p>
+
+
+
+<p class="wp-block-paragraph">&#8220;We will work closely with frontline regulators and representative bodies throughout this review. Ultimately, this work is about supporting high standards of practice and strengthening public confidence in legal services.” </p>
+
+
+
+<p class="wp-block-paragraph">The LSB expects to complete the review and publish its findings in early 2027. </p>
+
+
+<!--[googlesitekit-end-of-content]-->
+
+                <!-- include the share icons -->
+        		<div class="spd-share-buttons-wrapper top-med-pad fade-in-fx">
+			<p class="italic-font no-bot-marg">Share this page</p>
+			<div class="spd-share-buttons">
+								<!-- Sharingbutton Facebook -->
+				<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" target="_blank" aria-label="Share this page on Facebook">
+					<div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+						<svg role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Facebook</title><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+					</div>
+				</div>
+			</a>
+			<!-- Sharingbutton Twitter -->
+			<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=LSB launches review of guidance on reserved legal activities   - &amp;url=https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" target="_blank" aria-label="Share this page on Twitter">
+				<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+					<svg role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Twitter</title><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+				</div>
+			</div>
+		</a>
+
+	<!-- Sharingbutton E-Mail -->
+	<a class="resp-sharing-button__link" href="mailto:?subject=I thought you may be interested in LSB launches review of guidance on reserved legal activities  &amp;body=I thought you may be interested in this: https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" target="_self" aria-label="Share this page on E-mail">
+		<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>E-mail</title><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
+		</div>
+	</div>
+</a>
+
+<!-- Sharingbutton LinkedIn -->
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities&amp;title=LSB launches review of guidance on reserved legal activities  &amp;summary=LSB launches review of guidance on reserved legal activities  &amp;source=https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities" target="_blank" aria-label="Share this page on LinkedIn">
+	<div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+		<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>LinkedIn</title><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+	</div>
+</div>
+</a>
+</div> <!-- end of spd-share-buttons -->
+</div> <!-- end of spd-share-buttons-wrapper -->    </div><!-- .entry-content -->
+    <footer class="entry-meta bot-small-pad ">
+        <hr class="no-top-pad grey">
+        <div class="postedin">This entry was posted in <a href="https://legalservicesboard.org.uk/category/news" rel="category tag">News</a> </div>    </footer><!-- .entry-meta -->
+</article><!-- #post-## -->            	<nav role="navigation" id="nav-below" class="navigation-post bot-half-pad top-pad clearfix">
+		<p class="screen-reader-text">Post navigation</p>
+					<div class="nav-previous"> </div>
+			<div class="nav-next"><a aria-label="Next Post" href="https://legalservicesboard.org.uk/news/legal-problems-are-holding-back-small-business-growth-new-survey-finds" rel="next"><div alt="Newer Post Legal problems are holding back small business growth, new survey finds " title="View Legal problems are holding back small business growth, new survey finds  "><p class="no-bot-marg">&nbsp;</p><div class="nav-right-arrow"></div></div></a>		</nav><!-- #nav-below -->
+                                </main><!-- #content -->
+
+    </div> <!-- end of inner -->
+</section><!-- #primary -->
+<!-- if the page template has ACF related  added to it, include this block -->
+
+
+<section id='newsletter' class='accent-section top-pad bot-pad'>
+    <div class='inner clearfix'>
+        <div class='col col-12 entry-content center'>
+            <h2 class=' bot-tiny-marg'>Subscribe to our newsletter</h2>
+            <a class='button' href='https://legalservicesboard.org.uk/news/newsletter-signup'>
+                Sign up<span class="visuallyhidden"> to our newsletter</span>
+            </a>
+        </div><!-- col -->
+    </div> <!-- inner -->
+</section><!-- #newsletter -->
+
+
+
+<footer id="colophon" class=" clearfix bot-med-pad top-pad" role="contentinfo">
+    <div class="inner clearfix">
+        <div class="flex-wrapper">
+            <nav class="col col-3 " aria-label="footer-navigation-1">
+                <!-- <p class="footer-header">The Legal Services Board</p>-->
+
+                <div class="menu-footer-navigation-column-1-container"><ul id="menu-footer-navigation-column-1" class="footer-col clearfix"><li id="menu-item-8113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8113"><a href="https://legalservicesboard.org.uk/about-us">About us</a></li>
+<li id="menu-item-8112" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-8112"><a href="https://legalservicesboard.org.uk/news-2/news">News</a></li>
+<li id="menu-item-8114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8114"><a href="https://legalservicesboard.org.uk/our-work">Our work</a></li>
+<li id="menu-item-8115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8115"><a href="https://legalservicesboard.org.uk/research">Research</a></li>
+</ul></div>            </nav><!-- end footer-info -->
+            <nav class="col col-3" aria-label="footer-navigation-2">
+                <!-- <p class="footer-header">Help</p>-->
+
+                <div class="menu-footer-navigation-column-2-container"><ul id="menu-footer-navigation-column-2" class="footer-col clearfix"><li id="menu-item-8124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8124"><a href="https://legalservicesboard.org.uk/enquiries">Enquiries</a></li>
+<li id="menu-item-11022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11022"><a href="https://legalservicesboard.org.uk/news-2/news/press-enquiries">Contact details</a></li>
+<li id="menu-item-8119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8119"><a href="https://legalservicesboard.org.uk/croeso-ir-bwrdd-gwasanaethau-cyfreithiol">Cymraeg</a></li>
+<li id="menu-item-8123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8123"><a href="https://legalservicesboard.org.uk/enquiries/site-map">Site Map</a></li>
+</ul></div>            </nav><!-- end footer-info -->
+            <nav class="col col-3" aria-label="footer-navigation-3">
+                <!--<p class="footer-header">Legals</p>-->
+
+                <div class="menu-statements-and-notices-container"><ul id="menu-statements-and-notices" class="footer-col clearfix"><li id="menu-item-8127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8127"><a href="https://legalservicesboard.org.uk/disclaimer">Disclaimer</a></li>
+<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-393"><a rel="privacy-policy" href="https://legalservicesboard.org.uk/privacy-notice">Privacy notice</a></li>
+<li id="menu-item-8126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8126"><a href="https://legalservicesboard.org.uk/cookies-statement">Cookies statement</a></li>
+<li id="menu-item-8125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8125"><a href="https://legalservicesboard.org.uk/freedom-of-information">Freedom of Information</a></li>
+<li id="menu-item-8130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8130"><a href="https://legalservicesboard.org.uk/accessibility">Accessibility</a></li>
+</ul></div>            </nav><!-- end footer-info -->
+            <div id="footer-contact-address" class="col col-3 clearfix  ">
+                <!--<p class="footer-header">Enquiries</p>-->
+
+                <div class="footer-col">
+                                        <p>
+                                                                    </p>
+
+                                            <a class="social-icon-link social-icon" target="_blank" href="https://twitter.com/LSB_EngandWal" alt="Follow The Legal Services Board on Twitter" title="The Twitter profile for The Legal Services Board">
+                            <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
+                            </svg>
+                            <p class='no-bot-marg'>Follow us on Twitter <span class="visuallyhidden">(link opens in a new window)</span></p>
+                        </a>
+                                                                <a class="social-icon-link" target="_blank" href="https://www.linkedin.com/company/legal-services-board/" alt="Connect with The Legal Services Board on LinkedIn" title="The LinkedIn page for The Legal Services Board">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z" />
+                            </svg>
+                            <p class='no-bot-marg'>Find us on LinkedIn <span class="visuallyhidden">(link opens in a new window)</span></p>
+                        </a>
+                                        
+                </div>
+            </div>
+            <!--End col-6-->
+        </div><!-- end of flex-wrapper div -->
+    </div><!-- end of inner -->
+</footer><!-- #colophon -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/lsb/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="ccc-cookie-control-js" src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js?ver=7.1.4"></script>
+<script id="union-10-skip-link-focus-fix-js" src="https://legalservicesboard.org.uk/wp-content/themes/lsb/js/skip-link-focus-fix.js?ver=20151215"></script>
+<script id="union10_responsive-navigation-js" src="https://legalservicesboard.org.uk/wp-content/themes/lsb/js/spd-scripts-min.js?ver=20124206"></script>
+<script id="jquery-form-js" src="https://legalservicesboard.org.uk/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://legalservicesboard.org.uk/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js" src="https://legalservicesboard.org.uk/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"dS MM yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script id="mailchimp_sf_main_js-js-extra">
+var mailchimpSF = {"ajax_url":"https://legalservicesboard.org.uk/","phone_validation_error":"Please enter a valid phone number.","analytics_ajax_url":"https://legalservicesboard.org.uk/wp-admin/admin-ajax.php","analytics_nonce":"23595e1ece"};
+//# sourceURL=mailchimp_sf_main_js-js-extra
+</script>
+<script id="mailchimp_sf_main_js-js" src="https://legalservicesboard.org.uk/wp-content/plugins/mailchimp/assets/js/mailchimp.js?ver=2.1.0"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"da787efddf","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://legalservicesboard.org.uk/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LdMWkYjAAAAAJiHcQw0NssbzLPAdyRTWXZbEzHB"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6LdMWkYjAAAAAJiHcQw0NssbzLPAdyRTWXZbEzHB&#038;ver=2.2.3"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://legalservicesboard.org.uk/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.3"></script>
+<script id="googlesitekit-events-provider-content-events-js-before">
+window._googlesitekit = window._googlesitekit || {};
+window._googlesitekit.contentEvents = {"postID":25572,"isReadableSinglePost":true,"hasVimeoEmbed":false,"wordCount":238,"estimatedReadTimeSeconds":60,"isLastPageOfMultiPagePost":true,"readTimeThresholdPercent":85,"minimumReadTimeSeconds":5};
+//# sourceURL=googlesitekit-events-provider-content-events-js-before
+</script>
+<script id="googlesitekit-events-provider-content-events-js" src="https://legalservicesboard.org.uk/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js" defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://legalservicesboard.org.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://legalservicesboard.org.uk/wp-includes/js/wp-emoji-loader.min.js
+</script>
+            <script type="text/javascript">
+                var config = {
+                    apiKey: '93f4296b56095e8cd91b38ff5bfa529a929e9cd6',
+                    product: 'PRO',
+                    logConsent: false,
+                    notifyOnce: false,
+                    initialState: 'NOTIFY',
+                    position: 'LEFT',
+                    theme: 'DARK',
+                    layout: 'SLIDEOUT',
+                    toggleType: 'slider',
+                    acceptBehaviour: 'all',
+                    closeOnGlobalChange: true,
+                    iabCMP: false,
+                                        closeStyle: 'button',
+                    consentCookieExpiry: 30,
+                    subDomains: true,
+                                        secureCookie: false,
+                    mode: 'gdpr',
+                    rejectButton: true,
+                    settingsStyle: 'button',
+                    encodeCookie: false,
+                    setInnerHTML: true,
+                    wrapInnerHTML: false,
+                    accessibility: {
+                        accessKey: 'C',
+                        highlightFocus: false,
+                        outline: false,
+                        overlay: true,
+                        disableSiteScrolling: false,
+                    },
+                                        text: {
+                        title: 'This site uses cookies',
+                        intro: 'Some of these cookies are essential, while others help us to improve your experience by providing insights into how the site is being used.',
+                        necessaryTitle: 'Necessary Cookies',
+                        necessaryDescription: 'Necessary cookies enable core functionality. The website cannot function properly without these cookies, and can only be disabled by changing your browser preferences.',
+                        thirdPartyTitle: 'Warning: Some cookies require your attention',
+                        thirdPartyDescription: 'Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.',
+                        on: 'On',
+                        off: 'Off',
+                        accept: 'Accept',
+                        settings: 'Cookie Preferences',
+                        acceptRecommended: 'Accept Recommended Settings',
+                        acceptSettings: 'Accept All',
+                        notifyTitle: 'Your choice regarding cookies on this site',
+                        notifyDescription: 'We use cookies to optimise site functionality and give you the best possible experience.',
+                        closeLabel: 'Save Selected Cookies',
+                        cornerButton: 'Set cookie preferences.',
+                        landmark: 'Cookie preferences.',
+                        showVendors: 'Show vendors within this category',
+                        thirdPartyCookies: 'This vendor may set third party cookies.',
+                        readMore: 'Read more',
+                        accessibilityAlert: 'This site uses cookies to store information. Press accesskey C to learn more about your options.',
+                        rejectSettings: 'Reject All',
+                        reject: 'Reject',
+                                            },
+                    
+                        branding: {
+                            fontColor: '#fff',
+                            fontFamily: 'Arial,sans-serif',
+                            fontSizeTitle: '1.2em',
+                            fontSizeHeaders: '1em',
+                            fontSize: '0.8em',
+                            backgroundColor: '#313147',
+                            toggleText: '#19165b',
+                            toggleColor: '#77216f',
+                            toggleBackground: '#ffffff',
+                            alertText: '#fff',
+                            alertBackground: '#111125',
+                            acceptText: '',
+                            acceptBackground: '#77216f',
+                            rejectText: '#ffffff',
+                            rejectBackground: '#77216f',
+                            closeText: '#ffffff',
+                            closeBackground: '#77216f',
+                            notifyFontColor: '#FFF',
+                            notifyBackgroundColor: '#313147',
+                                                            buttonIcon: null,
+                                                        buttonIconWidth: '64px',
+                            buttonIconHeight: '64px',
+                            removeIcon: false,
+                            removeAbout: true                        },
+                                        
+                                                                    
+                    
+                                                                                    
+                                            necessaryCookies: ['wordpress_*','wordpress_logged_in_*','wp_consent_*','newsletter-popup-shown'],
+                    
+                                            optionalCookies: [
+                                                             {
+                                        name: 'legal_analytics',
+                                        label: 'Analytics Cookies',
+                                        description: 'Analytical cookies help us to improve our website by collecting and reporting information on its usage.',
+                                                                                cookies: ['_ga', '_ga*', '_gid', '_gid*', '_gat', '_utmv'],
+                                        onAccept: function() {
+                                            gtag('consent', 'update', { 'analytics_storage': 'granted'});                                        },
+                                        onRevoke: function() {
+                                            gtag('consent', 'update', {'analytics_storage': 'denied'});                                        },
+                                                                                recommendedState: 'on',
+                                        lawfulBasis: 'consent',
+
+                                        
+                                    },
+                                                                                    ],
+                                                                statement: {
+                            description: '',
+                            name: 'Cookie Policy',
+                            url: 'http://legalservicesboard.org.uk/cookies-statement',
+                            updated: '31/08/2018'
+                        },
+                                        sameSiteCookie: true,
+                    sameSiteValue: 'Strict',
+                    notifyDismissButton: false
+                };
+                CookieControl.load(config);
+            </script>
+
+<section id="legals" class=" clearfix">
+    <div class="inner clearfix">
+
+        <div class=" col col-12 clearfix  copyright ">
+            <p class="no-bot-marg"> &#169; Copyright 2026 The Legal Services Board |
+                Website managed by <a href="https://www.etempa.co.uk" target="_blank">Etempa Web Soltuions</a>
+            </p>
+        </div> <!-- end of col 12 -->
+    </div><!-- end of inner -->
+</section><!-- #legals -->
+
+<!-- etempa moved from header -->
+<!-- Google tag (gtag.js) -->
+<script>
+    ////
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    // Cookie Control
+    // Call the default command before gtag.js or Tag Manager runs to
+    // adjust how the tags operate when they run. Modify the defaults
+    // per your business requirements and prior consent granted/denied, e.g.:
+
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+    });
+
+    gtag('js', new Date());
+    //gtag('config', 'UA-180492094-1'); // old ua style linked to new tag below
+    gtag('config', 'G-7HDVXSG14R');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- old <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180492094-1"></script> -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HDVXSG14R"></script>
+
+</body>
+
+</html>
