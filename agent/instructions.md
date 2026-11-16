@@ -69,7 +69,11 @@ Describe what the rule says. Give no advice, and never write "you must" or "you 
 - `in_force`: when it starts or started.
 - `published`: for guidance only, when it was issued.
 
-Use `YYYY-MM-DD`. If the source gives only a month or a year, use `YYYY-MM` or `YYYY`. Use `null` when the source gives no date. Never guess one. If the source describes the start date loosely ("early 2027", "by 2029"), also put those words in `in_force_text`.
+Use `YYYY-MM-DD`. If the source gives only a month or a year, use `YYYY-MM` or `YYYY`. Use `null` when the source gives no date. Never guess one.
+
+`in_force_text` is only for a start date that is still to come and that the source describes loosely ("early 2027", "by 2029"). Put those words there, and leave it `null` in every other case, including once a change is in force.
+
+If a regulator pauses or withdraws a change, keep its stage, say so plainly in the title and summary, and set no start date.
 
 ### Updating a record
 

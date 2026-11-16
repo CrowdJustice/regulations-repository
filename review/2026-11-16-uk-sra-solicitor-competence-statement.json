@@ -1,0 +1,91 @@
+{
+  "held_on": "2026-11-16",
+  "reasons": [
+    "\"The consultation ran until 3 December 2026\" uses the past tense, which suggests the consultation has closed. The source says it ends at 23.59 on 3 December 2026, so it is still open on 16 November 2026."
+  ],
+  "item": {
+    "title": "Review of the Statement of Solicitor Competence and the SQE Functioning Legal Knowledge",
+    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/review-competence/?s=o",
+    "source": "sra-consultations"
+  },
+  "would_be": "update",
+  "proposed_record": {
+    "id": "uk-sra-solicitor-competence-statement",
+    "country": "uk",
+    "status": "live",
+    "regulator": "SRA",
+    "title": "Updates to the Statement of Solicitor Competence and FLK proposed",
+    "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence and the SQE functioning legal knowledge. The Statement sets the standards expected of all solicitors throughout their careers.",
+    "what_changes": [
+      "Proposed competence updates cover use of technology and AI, supervision, health and wellbeing, and professional conduct and ethics.",
+      "A new separate section would set out the competences needed to supervise others, including their use of technology and AI.",
+      "Proposed changes to functioning legal knowledge (FLK) would add clarity and add or remove content.",
+      "The consultation ran until 3 December 2026. Final versions are due in April 2027, with changes taking effect from September 2027."
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "who_it_applies_to": "All SRA-regulated solicitors and the firms that employ and supervise them, plus SQE candidates.",
+    "topic": "Other",
+    "stage": "proposed",
+    "dates": {
+      "proposed": "2026-10-08",
+      "in_force": "2027-09"
+    },
+    "source": {
+      "name": "SRA",
+      "url": "https://www.sra.org.uk/news/news/releases/competence-framework"
+    },
+    "last_checked": "2026-11-16",
+    "history": [
+      {
+        "date": "2026-10-08",
+        "event": "Consultation opened, running until 3 December.",
+        "url": "https://www.sra.org.uk/news/news/releases/competence-framework"
+      },
+      {
+        "date": "2026-10-08",
+        "event": "Consultation page confirmed final versions due April 2027 and changes taking effect from September 2027.",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/review-competence/?s=o"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": {
+    "id": "uk-sra-solicitor-competence-statement",
+    "country": "uk",
+    "status": "live",
+    "regulator": "SRA",
+    "title": "Updates to the Statement of Solicitor Competence and FLK proposed",
+    "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence, which sets the competence standards expected of all solicitors throughout their careers, and to the SQE functioning legal knowledge.",
+    "what_changes": [
+      "Proposed competence updates cover use of technology and AI, supervision, health and wellbeing, and professional conduct and ethics.",
+      "Proposed changes to functioning legal knowledge (FLK) would add clarity and add or remove content.",
+      "The consultation runs until 3 December.",
+      "The SRA plans to publish the final statement and FLK in April, taking effect from September."
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "who_it_applies_to": "All SRA-regulated solicitors and the firms that employ and supervise them, plus SQE candidates.",
+    "topic": "Other",
+    "stage": "proposed",
+    "dates": {
+      "proposed": "2026-10-08",
+      "in_force_text": "September; year not stated"
+    },
+    "source": {
+      "name": "SRA",
+      "url": "https://www.sra.org.uk/news/news/releases/competence-framework"
+    },
+    "last_checked": "2026-11-16",
+    "history": [
+      {
+        "date": "2026-10-08",
+        "event": "Consultation opened, running until 3 December.",
+        "url": "https://www.sra.org.uk/news/news/releases/competence-framework"
+      }
+    ],
+    "admin_notes": []
+  }
+}

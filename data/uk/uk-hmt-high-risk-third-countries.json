@@ -1,0 +1,35 @@
+{
+  "id": "uk-hmt-high-risk-third-countries",
+  "country": "uk",
+  "status": "live",
+  "regulator": "HM Treasury",
+  "title": "High Risk Third Countries list updated after FATF plenary",
+  "summary": "HM Treasury has updated its advisory notice on High Risk Third Countries under the Money Laundering Regulations. The update reflects changes to the FATF lists agreed at its October 2026 plenary.",
+  "what_changes": [
+    "The advisory notice sets out which countries are High Risk Third Countries, as defined in the Money Laundering Regulations.",
+    "High Risk Third Countries are the countries listed by the Financial Action Task Force (FATF).",
+    "The 11 November 2026 update reflects changes to the FATF lists made at its October 2026 plenary."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "AML and ID checks",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-11-11"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-11-11",
+      "event": "Advisory notice updated to reflect FATF list changes from the October 2026 plenary.",
+      "url": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2"
+    }
+  ],
+  "admin_notes": []
+}

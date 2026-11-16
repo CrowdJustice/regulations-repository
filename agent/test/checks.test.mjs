@@ -77,6 +77,13 @@ test('a decided change whose start date has passed must be in force', () => {
   assert.match(validateRecord(rec, cfg, today).join('\n'), /has passed/);
 });
 
+test('loose start-date wording is only allowed while the start is still to come', () => {
+  const rec = good();
+  rec.stage = 'in_force';
+  rec.dates = { decided: '2026-10-26', in_force: '2026-10', in_force_text: 'After 28 October 2026' };
+  assert.match(validateRecord(rec, cfg, today).join('\n'), /in_force_text is only for a start date that is still to come/);
+});
+
 test('each stage needs its own date', () => {
   const rec = good();
   rec.stage = 'guidance';

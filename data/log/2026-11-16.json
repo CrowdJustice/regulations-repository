@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [
+      {
+        "id": "uk-sra-compliance-role-separation",
+        "title": "Separating compliance officer roles from controlling individuals put on hold",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/news/news/firm-governance",
+        "summary": "The SRA has paused its proposed rules requiring firms to separate compliance officer roles from individuals with unilateral control. The rules will not start in January as originally planned."
+      },
+      {
+        "id": "uk-sra-solicitor-competence-statement",
+        "title": "Updates to the Statement of Solicitor Competence and FLK proposed",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/news/news/releases/competence-framework",
+        "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence, which sets the competence standards expected of all solicitors throughout their careers, and to the SQE functioning legal knowledge."
+      },
+      {
+        "id": "uk-hmt-high-risk-third-countries",
+        "title": "High Risk Third Countries list updated after FATF plenary",
+        "regulator": "HM Treasury",
+        "stage": "guidance",
+        "source": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2",
+        "summary": "HM Treasury has updated its advisory notice on High Risk Third Countries under the Money Laundering Regulations. The update reflects changes to the FATF lists agreed at its October 2026 plenary."
+      },
+      {
+        "id": "uk-ofsi-frozen-asset-review",
+        "title": "Annual reporting of frozen assets held for designated persons",
+        "regulator": "OFSI",
+        "stage": "guidance",
+        "source": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form",
+        "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026."
+      },
+      {
+        "id": "uk-ofsi-legal-services-general-licence",
+        "title": "New general licence for legal fees paid by designated persons",
+        "regulator": "OFSI",
+        "stage": "in_force",
+        "source": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108",
+        "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if the licence terms are met."
+      }
+    ],
+    "updated": [
+      {
+        "id": "uk-ofsi-legal-services-general-licence",
+        "title": "New general licence for legal fees paid by designated persons",
+        "regulator": "OFSI",
+        "stage": "in_force",
+        "source": "https://www.gov.uk/government/publications/legal-services-general-licence",
+        "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108, which expires on 28 April 2027. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if its terms are met.",
+        "what_changed": [
+          "summary reworded",
+          "what changes reworded"
+        ],
+        "event": "OFSI confirmed General Licence INT/2026/11112108 expires on 28 April 2027."
+      }
+    ],
+    "now_in_force": [],
+    "held": [
+      {
+        "title": "Updates to the Statement of Solicitor Competence and FLK proposed",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/review-competence/?s=o",
+        "reasons": [
+          "\"The consultation ran until 3 December 2026\" uses the past tense, which suggests the consultation has closed. The source says it ends at 23.59 on 3 December 2026, so it is still open on 16 November 2026."
+        ],
+        "review_file": "review/2026-11-16-uk-sra-solicitor-competence-statement.json"
+      }
+    ],
+    "ignored": [
+      {
+        "title": "New resource launched to help widen access to legal careers 14 September 2026 A new toolkit is now available to help law schools, law firms, in-house teams and other legal sector organisations develop partnerships and initiatives that support aspiring solicitors from underrepresented backgrounds.",
+        "url": "https://www.sra.org.uk/news/news/resource-legal-careers",
+        "reason": "This is a voluntary toolkit for widening access to legal careers. It adds no new rules, guidance or obligations that change how a law firm has to operate."
+      },
+      {
+        "title": "SRA statement in relation to the High Court's ruling in the case between Carter Ruck Solicitors/Amersi and the SRA 21 September 2026 This case relates to whether under Section 44B of the Solicitors Act 1974, the SRA can require regulated persons to produce documents or information which are subject to legal professional privilege ('LPP').",
+        "url": "https://www.sra.org.uk/news/news/ruling-statement",
+        "reason": "This is the SRA's reaction to a High Court ruling in litigation it is appealing, so it sets no new rule, decision or guidance on how firms must act."
+      },
+      {
+        "title": "SQE1 pass rates up slightly year-on-year for July sittings 29 September 2026 Recent SQE1 results show the proportion of candidates who sat and passed SQE1 in July 2026 (42%) was up slightly on the pass rate seen for those sitting the assessment in July 2025 (41%).",
+        "url": "https://www.sra.org.uk/news/news/jul-sqe1-26",
+        "reason": "This item reports SQE1 pass-rate statistics. It contains no new or changed rule, proposal, decision or guidance that affects how law firms must operate."
+      },
+      {
+        "title": "SRA publishes independent review into its pre-intervention handling of PM Law 03 September 2026 The SRA has published the findings of an independent review conducted by law firm Jenner & Block LLP into the handling of the events leading up to the intervention into the PM Law Group in February 2026.",
+        "url": "https://www.sra.org.uk/news/news/releases/review-handling-pm-law",
+        "reason": "This is an independent review of how the SRA handled PM Law before intervening, plus an assurance report on its own progress; it sets no new rule, proposal or guidance for law firms."
+      },
+      {
+        "title": "SRA makes new appointments to the Board 08 October 2026 The Solicitors Regulation Authority (SRA) has appointed two new Board members, Shrin Honap and Ben Allgrove, as part of its ongoing programme of board renewal to balance continuity with fresh perspectives and expertise.",
+        "url": "https://www.sra.org.uk/news/news/releases/sra-appointments-board",
+        "reason": "This item announces SRA Board appointments, which the tracker does not cover because they do not change how law firms must operate."
+      },
+      {
+        "title": "SRA announces appointment of new Chair 14 October 2026 The Solicitors Regulation Authority (SRA) has announced that Caroline Corby will become the new Chair of the Board, with effect from 23 November 2026.",
+        "url": "https://www.sra.org.uk/news/news/releases/sra-appointment-chair",
+        "reason": "This is a board appointment announcement, which does not change how law firms must operate."
+      },
+      {
+        "title": "SRA 2026/27 Business Plan published 12 November 2026 The Solicitors Regulation Authority (SRA) has published its final 2026/27 Business Plan outlining the regulators' key planned activities and priorities for the year ahead.",
+        "url": "https://www.sra.org.uk/news/news/releases/202627-business-plan",
+        "reason": "This is the SRA's annual business plan. It sets out the regulator's own priorities and does not create or change any rule, proposal or guidance for firms."
+      },
+      {
+        "title": "Our statement on High Court ruling on Carter-Ruck solicitors and another vs SRA",
+        "url": "https://legalservicesboard.org.uk/news/our-statement-on-high-court-ruling-on-carter-ruck-solicitors-and-another-vs-sra",
+        "reason": "This is an LSB statement about a court case involving a named firm and the SRA. It does not create or change any rule or guidance that firms must follow."
+      },
+      {
+        "title": "Protecting consumers in a changing legal services market",
+        "url": "https://legalservicesboard.org.uk/news/protecting-consumers-in-a-changing-legal-services-market",
+        "reason": "This is a conference speech by the LSB Chair with general remarks on regulation, and it sets out no new rule, consultation, decision or guidance for law firms."
+      },
+      {
+        "title": "The edge of regulation: the unregulated market, access to justice and AI",
+        "url": "https://legalservicesboard.org.uk/news/the-edge-of-regulation-the-unregulated-market-access-to-justice-and-ai",
+        "reason": "This is a conference speech about unregulated legal services and AI; it brings in no new rule, proposal, decision or guidance that law firms must act on."
+      },
+      {
+        "title": "Our approach to encouraging a diverse legal profession through regulation",
+        "url": "https://legalservicesboard.org.uk/news/our-approach-to-encouraging-a-diverse-legal-profession-through-regulation",
+        "reason": "The LSB dropped its proposed diversity policy statement and kept its 2017 guidance for regulators, so nothing changes in how law firms must operate."
+      },
+      {
+        "title": "Meeting shared challenges: legal regulation in a changing world",
+        "url": "https://legalservicesboard.org.uk/news/meeting-shared-challenges-legal-regulation-in-a-changing-world",
+        "reason": "This is a speech closing a conference, and it adds no new rule, proposal, decision or guidance for law firms."
+      },
+      {
+        "title": "Stronger oversight, better outcomes for consumers: LSB makes three senior appointments",
+        "url": "https://legalservicesboard.org.uk/news/stronger-oversight-better-outcomes-for-consumers",
+        "reason": "This item announces LSB senior staff appointments, which are out of scope and do not change how law firms must operate."
+      },
+      {
+        "title": "Stronger consumer protection through more focused oversight",
+        "url": "https://legalservicesboard.org.uk/news/stronger-consumer-protection-through-more-focused-oversight",
+        "reason": "The LSB's response to the Public Bodies Review is about how it oversees regulators and plans its strategy; it sets no new rule, proposal or guidance on how law firms must operate."
+      },
+      {
+        "title": "Legal problems are holding back small business growth, new survey finds",
+        "url": "https://legalservicesboard.org.uk/news/legal-problems-are-holding-back-small-business-growth-new-survey-finds",
+        "reason": "This is research on small business legal needs plus a general call for action, not a new or amended rule, proposal, decision or guidance on how law firms must operate."
+      },
+      {
+        "title": "LSB launches review of guidance on reserved legal activities",
+        "url": "https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities",
+        "reason": "The LSB has only started reviewing regulators' guidance on reserved legal activities, with findings due in early 2027; it proposes no new rule or guidance and does not yet change what firms must do."
+      },
+      {
+        "title": "Directors warned to verify identities with Companies House following first Insolvency Service prosecutions",
+        "url": "https://www.gov.uk/government/news/directors-warned-to-verify-identities-with-companies-house-following-first-insolvency-service-prosecutions",
+        "reason": "This is a press release about enforcement against named directors. It restates existing identity verification duties under the Economic Crime and Corporate Transparency Act 2023 and adds no new rule, date or requirement."
+      },
+      {
+        "title": "How to prove your identity for Companies House at the Post Office",
+        "url": "https://www.gov.uk/guidance/how-to-prove-your-identity-for-companies-house-at-the-post-office",
+        "reason": "This is a step-by-step guide for individuals verifying their identity at a Post Office, and its latest edit only adds a 21-day completion limit, which changes no requirement for how law firms operate."
+      },
+      {
+        "title": "Companies House",
+        "url": "https://www.gov.uk/government/organisations/companies-house",
+        "reason": "The item is the Companies House organisation homepage, a list of links with no single new rule, consultation, decision or guidance to record."
+      },
+      {
+        "title": "Filing your Companies House accounts",
+        "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
+        "reason": "This general Companies House guidance on filing company accounts was updated to drop a paused plan for small companies to file profit and loss accounts; it adds no new obligation and does not change how law firms must operate."
+      },
+      {
+        "title": "Economic Crime and Corporate Transparency Act: outline transition plan for Companies House",
+        "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
+        "reason": "The update pauses a general company accounts filing requirement for small and micro entities; it is not specific to how law firms must operate, and the page gives too little detail for an accurate record."
+      },
+      {
+        "title": "Incorporated companies in the UK July to September 2026",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-july-to-september-2026",
+        "reason": "This is a quarterly statistics release on the size of the companies register, so it does not change how law firms must operate."
+      },
+      {
+        "title": "Companies House management information: identity verification July to September 2026",
+        "url": "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-identity-verification-july-to-september-2026",
+        "reason": "This is a quarterly statistical data set on identity verification compliance and adds no new rule, proposal, decision or guidance for law firms."
+      },
+      {
+        "title": "Companies House management information: identity verification statistics",
+        "url": "https://www.gov.uk/government/collections/companies-house-management-information-identity-verification-statistics",
+        "reason": "The item is a quarterly statistics release on identity verification compliance and adds no new rule, guidance or change to how law firms must operate."
+      },
+      {
+        "title": "List of Authorised Corporate Service Providers (ACSPs)",
+        "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+        "reason": "This is a routine refresh of Companies House's published list of registered agents (ACSPs); it adds no new rule, guidance or requirement for law firms."
+      },
+      {
+        "title": "HMT Licensing Guidance –Presumption of Denial of Licence Applications for Designated Iranian banks",
+        "url": "https://www.gov.uk/government/publications/hmt-licensing-guidance-presumption-of-denial-of-licence-applications-for-designated-iranian-banks",
+        "reason": "This guidance sets out HM Treasury's own approach to licence applications from certain designated Iranian banks; it does not change how law firms generally must operate, and the page gives too little detail to write an accurate record."
+      },
+      {
+        "title": "Maritime Services Ban and Oil Price Cap: licences and reporting forms",
+        "url": "https://www.gov.uk/government/publications/russian-oil-services-ban",
+        "reason": "The 1 October 2026 change only updates publication notices and the exempt-projects general licence for the maritime oil industry. The page gives no detail of what changed, and the change does not affect how law firms must operate."
+      },
+      {
+        "title": "UK Financial Sanctions FAQs",
+        "url": "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs",
+        "reason": "The item is an update log for OFSI's general FAQ page; it lists FAQ numbers that were added, amended or withdrawn but does not say what they contain, so it gives firms no new fact about a rule, and the related legal services general licence change from the same day is already tracked."
+      },
+      {
+        "title": "UK financial sanctions guidance",
+        "url": "https://www.gov.uk/guidance/uk-financial-sanctions-guidance",
+        "reason": "The only change to this OFSI guidance index page is a new two-page Sanctions Factsheet for Overseas Business, which adds no new rule or guidance on how UK law firms must operate."
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 2.1,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T11:35:43.842Z"
+  }
+]
