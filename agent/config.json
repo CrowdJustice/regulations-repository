@@ -1,4 +1,6 @@
 {
+  "repo": "franciscoporragas-ops/regulation-changes",
+  "branch": "main",
   "model": "opus",
   "window_days": 60,
   "max_items_per_source": 15,
