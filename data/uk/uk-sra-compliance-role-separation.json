@@ -1,0 +1,37 @@
+{
+  "id": "uk-sra-compliance-role-separation",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Separating compliance officer roles from controlling individuals put on hold",
+  "summary": "The SRA has paused its proposed rules requiring firms to separate compliance officer roles from individuals with unilateral control. The rules will not start in January as originally planned.",
+  "what_changes": [
+    "The proposed rules would separate compliance roles from people with significant power over, or control of, a firm.",
+    "The SRA will not bring in the rules in January as originally planned.",
+    "The SRA is working with stakeholders to test alternatives, after feedback about the effect on smaller firms and sole practices.",
+    "The SRA says firms will get a suitable lead-in time once it decides on future requirements."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "SRA-regulated firms where one person has significant power or control, especially smaller firms and sole practices.",
+  "topic": "Firm management",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2026",
+    "in_force_text": "Paused; no date set"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/firm-governance"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "SRA confirmed the separation rules will not start in January as planned; no new start date set.",
+      "url": "https://www.sra.org.uk/news/news/firm-governance"
+    }
+  ],
+  "admin_notes": []
+}
