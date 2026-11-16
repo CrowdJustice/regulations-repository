@@ -64,6 +64,13 @@ jobs:
           if [ "$(date -u +%u)" = "1" ]; then args+=(--recheck); fi
           node agent/run.mjs "${args[@]}"
 
+      - name: Rebuild the page
+        if: always() && env.HAS_AI == 'true'
+        run: |
+          node agent/build-page.mjs
+          git add site
+          git diff --cached --quiet || git commit -q -m "Rebuild the page"
+
       - name: Save the changes
         if: always() && env.HAS_AI == 'true'
         run: git push

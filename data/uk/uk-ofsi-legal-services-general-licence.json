@@ -1,0 +1,42 @@
+{
+  "id": "uk-ofsi-legal-services-general-licence",
+  "country": "uk",
+  "status": "live",
+  "regulator": "OFSI",
+  "title": "New general licence for legal fees paid by designated persons",
+  "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108, which expires on 28 April 2027. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if its terms are met.",
+  "what_changes": [
+    "UK law firms and UK counsel who advised a designated person can receive payment from that person without an OFSI specific licence.",
+    "Payment is permitted only if the terms of General Licence INT/2026/11112108 are met.",
+    "The licence covers most UK autonomous sanctions regimes, listed in Annex 1 of the licence.",
+    "It replaces General Licence INT/2026/9512597, which expired on 28 October 2026, and itself expires on 28 April 2027."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "UK law firms and counsel who give legal advice to people designated under the UK autonomous sanctions regimes listed in Annex 1.",
+  "topic": "Sanctions",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2026-10-26",
+    "in_force": "2026-10"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-10-26",
+      "event": "OFSI issued General Licence INT/2026/11112108 to replace INT/2026/9512597, which expired on 28 October 2026.",
+      "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "OFSI confirmed General Licence INT/2026/11112108 expires on 28 April 2027.",
+      "url": "https://www.gov.uk/government/publications/legal-services-general-licence"
+    }
+  ],
+  "admin_notes": []
+}

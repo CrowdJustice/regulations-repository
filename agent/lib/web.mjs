@@ -152,17 +152,19 @@ async function govukSearch(source) {
 
 // The items from a source that a run should read now: in the look-back window, not seen before, oldest first.
 export async function newItems(source, { seen, since, max }) {
-  const items = await listCandidates(source);
+  const all = await listAll(source);
+  const words = (source.keywords ?? []).map((k) => k.toLowerCase());
+  const items = words.length ? all.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : all;
   const inWindow = items.filter((i) => !i.date || i.date >= since);
   const fresh = inWindow.filter((i) => !seen[normaliseUrl(i.url)]);
   // Oldest first, so a proposal is recorded before the decision on it.
   const batch = fresh.slice(0, max).reverse();
   if (batch.every((i) => i.date)) batch.sort((a, b) => a.date.localeCompare(b.date));
-  return { listed: items.length, inWindow: inWindow.length, batch };
+  return { listed: all.length, matched: items.length, inWindow: inWindow.length, batch };
 }
 
-// The items a source currently lists, newest first: [{ url, title, date, summary }].
-export async function listCandidates(source) {
+// Everything a source currently lists, newest first: [{ url, title, date, summary }].
+export async function listAll(source) {
   let items;
   if (source.how === 'govuk') items = await govukSearch(source);
   else if (source.how === 'feed') items = parseFeed(await fetchRaw(source.url));
@@ -173,10 +175,5 @@ export async function listCandidates(source) {
       .filter((l) => match.test(l.url) && l.url !== listing)
       .map((l) => ({ ...l, date: null, summary: '' }));
   } else throw new Error(`unknown source type "${source.how}"`);
-
-  if (source.keywords?.length) {
-    const words = source.keywords.map((k) => k.toLowerCase());
-    items = items.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k)));
-  }
   return items;
 }

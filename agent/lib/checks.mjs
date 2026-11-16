@@ -77,6 +77,9 @@ export function validateRecord(rec, cfg, today) {
   if (rec.stage === 'decided' && /^\d{4}-\d{2}-\d{2}$/.test(dates.in_force ?? '') && dates.in_force <= today) {
     problems.push(`dates.in_force (${dates.in_force}) has passed; the stage should be "in_force"`);
   }
+  if (['in_force', 'guidance'].includes(rec.stage) && dates.in_force_text) {
+    problems.push('dates.in_force_text is only for a start date that is still to come; leave it empty here');
+  }
   if (rec.stage === 'proposed' && dates.decided) {
     problems.push('a proposed change cannot have a decided date');
   }

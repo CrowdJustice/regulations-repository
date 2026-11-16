@@ -2,6 +2,16 @@
   "model": "opus",
   "window_days": 60,
   "max_items_per_source": 15,
+  "countries": {
+    "uk": {
+      "name": "United Kingdom",
+      "adjective": "UK"
+    },
+    "au": {
+      "name": "Australia",
+      "adjective": "Australian"
+    }
+  },
   "limits": {
     "title": 80,
     "summary": 240,

@@ -1,0 +1,36 @@
+{
+  "id": "uk-ofsi-frozen-asset-review",
+  "country": "uk",
+  "status": "live",
+  "regulator": "OFSI",
+  "title": "Annual reporting of frozen assets held for designated persons",
+  "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026.",
+  "what_changes": [
+    "HM Treasury runs a frozen asset review every year to update its records of changes to accounts.",
+    "Holders of funds or economic resources of a designated person must complete the reporting form.",
+    "For the 2026 exercise, the form must reach OFSI by 30 November 2026.",
+    "The 2026 reporting notice and reporting template were updated on 30 September 2026."
+  ],
+  "applies_to": [
+    "money"
+  ],
+  "who_it_applies_to": "Firms that hold or control funds or economic resources belonging to a person designated under UK financial sanctions.",
+  "topic": "Sanctions",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-09-30"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-09-30",
+      "event": "OFSI published the 2026 frozen asset reporting notice and template, with a 30 November 2026 deadline.",
+      "url": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form"
+    }
+  ],
+  "admin_notes": []
+}

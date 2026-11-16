@@ -1,0 +1,254 @@
+{
+  "https://legalservicesboard.org.uk/news/legal-problems-are-holding-back-small-business-growth-new-survey-finds": {
+    "decision": "ignored",
+    "reason": "This is research on small business legal needs plus a general call for action, not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "621ab3b5d5951c85"
+  },
+  "https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities": {
+    "decision": "ignored",
+    "reason": "The LSB has only started reviewing regulators' guidance on reserved legal activities, with findings due in early 2027; it proposes no new rule or guidance and does not yet change what firms must do.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "eda11bfafc180656"
+  },
+  "https://legalservicesboard.org.uk/news/meeting-shared-challenges-legal-regulation-in-a-changing-world": {
+    "decision": "ignored",
+    "reason": "This is a speech closing a conference, and it adds no new rule, proposal, decision or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "97bb3ecf06feb130"
+  },
+  "https://legalservicesboard.org.uk/news/our-approach-to-encouraging-a-diverse-legal-profession-through-regulation": {
+    "decision": "ignored",
+    "reason": "The LSB dropped its proposed diversity policy statement and kept its 2017 guidance for regulators, so nothing changes in how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "c4610aafaad0d181"
+  },
+  "https://legalservicesboard.org.uk/news/our-statement-on-high-court-ruling-on-carter-ruck-solicitors-and-another-vs-sra": {
+    "decision": "ignored",
+    "reason": "This is an LSB statement about a court case involving a named firm and the SRA. It does not create or change any rule or guidance that firms must follow.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "eaced72d3a15fa80"
+  },
+  "https://legalservicesboard.org.uk/news/protecting-consumers-in-a-changing-legal-services-market": {
+    "decision": "ignored",
+    "reason": "This is a conference speech by the LSB Chair with general remarks on regulation, and it sets out no new rule, consultation, decision or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "802c3b20e242ec2a"
+  },
+  "https://legalservicesboard.org.uk/news/stronger-consumer-protection-through-more-focused-oversight": {
+    "decision": "ignored",
+    "reason": "The LSB's response to the Public Bodies Review is about how it oversees regulators and plans its strategy; it sets no new rule, proposal or guidance on how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "45e1e0e2e02db805"
+  },
+  "https://legalservicesboard.org.uk/news/stronger-oversight-better-outcomes-for-consumers": {
+    "decision": "ignored",
+    "reason": "This item announces LSB senior staff appointments, which are out of scope and do not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "36af669bf8d8938a"
+  },
+  "https://legalservicesboard.org.uk/news/the-edge-of-regulation-the-unregulated-market-access-to-justice-and-ai": {
+    "decision": "ignored",
+    "reason": "This is a conference speech about unregulated legal services and AI; it brings in no new rule, proposal, decision or guidance that law firms must act on.",
+    "date": "2026-11-16",
+    "source": "lsb-news",
+    "hash": "c16b2721e4c4bc3b"
+  },
+  "https://www.gov.uk/government/collections/companies-house-management-information-identity-verification-statistics": {
+    "decision": "ignored",
+    "reason": "The item is a quarterly statistics release on identity verification compliance and adds no new rule, guidance or change to how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "0d1d140c1a97d5d7"
+  },
+  "https://www.gov.uk/government/news/directors-warned-to-verify-identities-with-companies-house-following-first-insolvency-service-prosecutions": {
+    "decision": "ignored",
+    "reason": "This is a press release about enforcement against named directors. It restates existing identity verification duties under the Economic Crime and Corporate Transparency Act 2023 and adds no new rule, date or requirement.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "6b1805743abdf950"
+  },
+  "https://www.gov.uk/government/organisations/companies-house": {
+    "decision": "ignored",
+    "reason": "The item is the Companies House organisation homepage, a list of links with no single new rule, consultation, decision or guidance to record.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "1af6c2f7f71e767e"
+  },
+  "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form": {
+    "decision": "new",
+    "record_id": "uk-ofsi-frozen-asset-review",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "8159b8b7360539d2"
+  },
+  "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house": {
+    "decision": "ignored",
+    "reason": "The update pauses a general company accounts filing requirement for small and micro entities; it is not specific to how law firms must operate, and the page gives too little detail for an accurate record.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "7204627235531442"
+  },
+  "https://www.gov.uk/government/publications/filing-your-companies-house-accounts": {
+    "decision": "ignored",
+    "reason": "This general Companies House guidance on filing company accounts was updated to drop a paused plan for small companies to file profit and loss accounts; it adds no new obligation and does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "27d8f1b6ae255e71"
+  },
+  "https://www.gov.uk/government/publications/hmt-licensing-guidance-presumption-of-denial-of-licence-applications-for-designated-iranian-banks": {
+    "decision": "ignored",
+    "reason": "This guidance sets out HM Treasury's own approach to licence applications from certain designated Iranian banks; it does not change how law firms generally must operate, and the page gives too little detail to write an accurate record.",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "c4cf1d4f5687ce1d"
+  },
+  "https://www.gov.uk/government/publications/legal-services-general-licence": {
+    "decision": "updated",
+    "record_id": "uk-ofsi-legal-services-general-licence",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "0cbb7bc7c45ac356"
+  },
+  "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps": {
+    "decision": "ignored",
+    "reason": "This is a routine refresh of Companies House's published list of registered agents (ACSPs); it adds no new rule, guidance or requirement for law firms.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "2ac103e745b040ad"
+  },
+  "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2": {
+    "decision": "new",
+    "record_id": "uk-hmt-high-risk-third-countries",
+    "date": "2026-11-16",
+    "source": "hmt-aml",
+    "hash": "6e22eed7377de41f"
+  },
+  "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108": {
+    "decision": "new",
+    "record_id": "uk-ofsi-legal-services-general-licence",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "b1cef672b5ac2f7d"
+  },
+  "https://www.gov.uk/government/publications/russian-oil-services-ban": {
+    "decision": "ignored",
+    "reason": "The 1 October 2026 change only updates publication notices and the exempt-projects general licence for the maritime oil industry. The page gives no detail of what changed, and the change does not affect how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "75bf1cd5f8e0c3d4"
+  },
+  "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs": {
+    "decision": "ignored",
+    "reason": "The item is an update log for OFSI's general FAQ page; it lists FAQ numbers that were added, amended or withdrawn but does not say what they contain, so it gives firms no new fact about a rule, and the related legal services general licence change from the same day is already tracked.",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "f865c3556a55c36e"
+  },
+  "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-identity-verification-july-to-september-2026": {
+    "decision": "ignored",
+    "reason": "This is a quarterly statistical data set on identity verification compliance and adds no new rule, proposal, decision or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "36d4758e2290e31c"
+  },
+  "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-july-to-september-2026": {
+    "decision": "ignored",
+    "reason": "This is a quarterly statistics release on the size of the companies register, so it does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "2e601cc108b8cd1f"
+  },
+  "https://www.gov.uk/guidance/how-to-prove-your-identity-for-companies-house-at-the-post-office": {
+    "decision": "ignored",
+    "reason": "This is a step-by-step guide for individuals verifying their identity at a Post Office, and its latest edit only adds a 21-day completion limit, which changes no requirement for how law firms operate.",
+    "date": "2026-11-16",
+    "source": "companies-house",
+    "hash": "28cda683f138e150"
+  },
+  "https://www.gov.uk/guidance/uk-financial-sanctions-guidance": {
+    "decision": "ignored",
+    "reason": "The only change to this OFSI guidance index page is a new two-page Sanctions Factsheet for Overseas Business, which adds no new rule or guidance on how UK law firms must operate.",
+    "date": "2026-11-16",
+    "source": "ofsi",
+    "hash": "17775f616265ec6e"
+  },
+  "https://www.sra.org.uk/news/news/firm-governance": {
+    "decision": "new",
+    "record_id": "uk-sra-compliance-role-separation",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "fb9d36b63a913aee"
+  },
+  "https://www.sra.org.uk/news/news/jul-sqe1-26": {
+    "decision": "ignored",
+    "reason": "This item reports SQE1 pass-rate statistics. It contains no new or changed rule, proposal, decision or guidance that affects how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "96993db43d454652"
+  },
+  "https://www.sra.org.uk/news/news/releases/202627-business-plan": {
+    "decision": "ignored",
+    "reason": "This is the SRA's annual business plan. It sets out the regulator's own priorities and does not create or change any rule, proposal or guidance for firms.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "66fbe3dd714cecb8"
+  },
+  "https://www.sra.org.uk/news/news/releases/competence-framework": {
+    "decision": "new",
+    "record_id": "uk-sra-solicitor-competence-statement",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "a512fd35669fbfbc"
+  },
+  "https://www.sra.org.uk/news/news/releases/review-handling-pm-law": {
+    "decision": "ignored",
+    "reason": "This is an independent review of how the SRA handled PM Law before intervening, plus an assurance report on its own progress; it sets no new rule, proposal or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "9fa4262c7bf73a1a"
+  },
+  "https://www.sra.org.uk/news/news/releases/sra-appointment-chair": {
+    "decision": "ignored",
+    "reason": "This is a board appointment announcement, which does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "1a988c175ad80364"
+  },
+  "https://www.sra.org.uk/news/news/releases/sra-appointments-board": {
+    "decision": "ignored",
+    "reason": "This item announces SRA Board appointments, which the tracker does not cover because they do not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "f2416c78e29df49d"
+  },
+  "https://www.sra.org.uk/news/news/resource-legal-careers": {
+    "decision": "ignored",
+    "reason": "This is a voluntary toolkit for widening access to legal careers. It adds no new rules, guidance or obligations that change how a law firm has to operate.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "129070f8e8ae6a39"
+  },
+  "https://www.sra.org.uk/news/news/ruling-statement": {
+    "decision": "ignored",
+    "reason": "This is the SRA's reaction to a High Court ruling in litigation it is appealing, so it sets no new rule, decision or guidance on how firms must act.",
+    "date": "2026-11-16",
+    "source": "sra-news",
+    "hash": "7447c5a99e661882"
+  },
+  "https://www.sra.org.uk/sra/consultations/consultation-listing/review-competence/?s=o": {
+    "decision": "held",
+    "review_file": "review/2026-11-16-uk-sra-solicitor-competence-statement.json",
+    "date": "2026-11-16",
+    "source": "sra-consultations",
+    "hash": "f51126317b506248"
+  }
+}
