@@ -1,6 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normaliseUrl, htmlToText, extractLinks, parseFeed, hash } from '../lib/web.mjs';
+import { mkdtempSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import { normaliseUrl, htmlToText, extractLinks, parseFeed, hash, listAll } from '../lib/web.mjs';
 
 test('one page has one address', () => {
   assert.equal(normaliseUrl('https://www.sra.org.uk/news/news/press/x/?utm_source=a#top'), 'https://www.sra.org.uk/news/news/press/x');
@@ -39,4 +42,19 @@ test('Atom and RSS feeds are both read', () => {
 test('the same text always gives the same fingerprint', () => {
   assert.equal(hash('abc'), hash('abc'));
   assert.notEqual(hash('abc'), hash('abd'));
+});
+
+test('a listing can be limited to the main part of the page', async () => {
+  const dir = mkdtempSync(path.join(tmpdir(), 'tracker-'));
+  const url = 'https://example.org/news';
+  writeFileSync(path.join(dir, 'index.json'), JSON.stringify({ [url]: 'news.txt' }));
+  writeFileSync(path.join(dir, 'news.txt'), '<nav><a href="/about">About</a></nav><main><a href="/rule-change"><img></a><a href="/rule-change">Rule change</a></main><footer><a href="/privacy">Privacy</a></footer>');
+  process.env.TRACKER_FIXTURES = dir;
+  try {
+    const source = { how: 'page', url, match: '^https://example\\.org/[^/]+$' };
+    assert.equal((await listAll(source)).length, 3);
+    assert.deepEqual(await listAll({ ...source, main_only: true }), [{ url: 'https://example.org/rule-change', title: 'Rule change', date: null, summary: '' }]);
+  } finally {
+    delete process.env.TRACKER_FIXTURES;
+  }
 });

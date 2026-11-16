@@ -45,15 +45,6 @@
     "match": "^https://legalservicescouncil\\.org\\.au/highlights/.+"
   },
   {
-    "id": "lsc-consultations",
-    "regulator": "Legal Services Council",
-    "covers": "Consultations on Uniform Law rules",
-    "enabled": true,
-    "how": "page",
-    "url": "https://legalservicescouncil.org.au/consultations/current-consultations.html",
-    "match": "^https://legalservicescouncil\\.org\\.au/consultations/.+"
-  },
-  {
     "id": "vlsbc-news",
     "regulator": "VLSB+C",
     "covers": "Victorian regulator updates",
@@ -69,7 +60,8 @@
     "enabled": true,
     "how": "page",
     "url": "https://www.lpbwa.org.au/news-list",
-    "match": "^https://www\\.lpbwa\\.org\\.au/(news|boardsheet).+"
+    "match": "^https://www\\.lpbwa\\.org\\.au/(?!login$)[^/?]+$",
+    "main_only": true
   },
   {
     "id": "qls-news",
@@ -78,13 +70,13 @@
     "enabled": true,
     "how": "page",
     "url": "https://www.qls.com.au/news-media-advocacy",
-    "match": "^https://www\\.qls\\.com\\.au/news-media-advocacy/.+"
+    "match": "^https://www\\.qls\\.com\\.au/news-media-advocacy/(?!legal-policy$).+"
   },
   {
     "id": "lca-news",
     "regulator": "Law Council of Australia",
     "covers": "Conduct rules and national profession policy",
-    "enabled": true,
+    "enabled": false,
     "how": "page",
     "url": "https://lawcouncil.au/tags/media-release",
     "match": "^https://lawcouncil\\.au/media/media-releases/.+"

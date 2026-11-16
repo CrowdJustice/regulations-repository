@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 
-const USER_AGENT = 'LeglRegulationTracker/1.0 (+https://www.legl.com)';
+const USER_AGENT = 'Mozilla/5.0 (compatible; LeglRegulationTracker/1.0; +https://www.legl.com)';
 const MAX_PAGE_CHARS = 24000;
 
 export const hash = (text) => createHash('sha256').update(text).digest('hex').slice(0, 16);
@@ -49,7 +49,7 @@ export async function fetchRaw(url) {
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { 'user-agent': USER_AGENT, accept: 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.5' },
+        headers: { 'user-agent': USER_AGENT, accept: 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.5', 'accept-language': 'en-GB,en;q=0.9' },
         signal: AbortSignal.timeout(30000),
         redirect: 'follow',
       });
@@ -107,7 +107,8 @@ export function extractLinks(html, baseUrl) {
   for (const m of html.matchAll(/<a\b[^>]*?href\s*=\s*["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     let url;
     try { url = normaliseUrl(new URL(decodeEntities(m[1]), baseUrl).toString()); } catch { continue; }
-    if (!links.has(url)) links.set(url, stripTags(m[2]));
+    // Keep the first link text that is not empty (an image link often comes before the headline link).
+    if (!links.get(url)) links.set(url, stripTags(m[2]));
   }
   return [...links].map(([url, title]) => ({ url, title }));
 }
@@ -171,7 +172,10 @@ export async function listAll(source) {
   else if (source.how === 'page') {
     const match = new RegExp(source.match);
     const listing = normaliseUrl(source.url);
-    items = extractLinks(await fetchRaw(source.url), source.url)
+    let html = await fetchRaw(source.url);
+    // "main_only" ignores menus and footers, for sites whose item links look like every other link.
+    if (source.main_only) html = html.match(/<main\b[\s\S]*<\/main>/i)?.[0] ?? html;
+    items = extractLinks(html, source.url)
       .filter((l) => match.test(l.url) && l.url !== listing)
       .map((l) => ({ ...l, date: null, summary: '' }));
   } else throw new Error(`unknown source type "${source.how}"`);
