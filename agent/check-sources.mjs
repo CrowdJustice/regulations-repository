@@ -20,7 +20,7 @@ const since = args.since ?? new Date(Date.parse(today) - cfg.window_days * 864e5
 const countries = args.country ? [args.country] : Object.keys(cfg.applies_to);
 const seen = await store.loadSeen();
 
-const lines = [`Sources checked on ${today}, looking back to ${since}.`, '', '| Source | Listed | To read | Read | Problem |', '|---|---|---|---|---|'];
+const lines = [`Sources checked on ${today}, looking back to ${since}.`, '', '| Source | Listed | Relevant | To read | Read | Problem |', '|---|---|---|---|---|---|'];
 const examples = [];
 let failed = 0;
 
@@ -31,7 +31,7 @@ for (const country of countries) {
       found = await newItems(source, { seen, since, max: cfg.max_items_per_source });
     } catch (error) {
       failed++;
-      lines.push(`| ${source.id} | | | | Could not read the listing: ${error.message} |`);
+      lines.push(`| ${source.id} | | | | | Could not read the listing: ${error.message} |`);
       continue;
     }
     let read = 0;
@@ -46,7 +46,7 @@ for (const country of countries) {
     }
     if (found.listed === 0) problems.unshift('The listing has no items; the address or pattern may be wrong');
     if (problems.length) failed++;
-    lines.push(`| ${source.id} | ${found.listed} | ${found.batch.length} | ${read} | ${problems.join('; ')} |`);
+    lines.push(`| ${source.id} | ${found.listed} | ${found.matched} | ${found.batch.length} | ${read} | ${problems.join('; ')} |`);
     for (const item of found.batch.slice(-3)) examples.push(`- ${source.id}: ${item.title || item.url}${item.date ? ` (${item.date})` : ''}`);
   }
 }

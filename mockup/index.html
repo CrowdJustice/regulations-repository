@@ -622,8 +622,11 @@ footer p + p { margin-top: 6px; }
     $('sources-line').textContent = 'Sources: ' + C.sources + '.';
     var checked = mine().map(function (r) { return r.last_checked; }).sort().pop();
     $('checked-line').textContent = 'Checked every morning against the official source' + (checked ? ', last on ' + fmt(checked) : '') + '. Summaries are for information only and are not legal advice.';
+    // Only countries that have changes are offered.
+    document.querySelector('.country').hidden = Object.keys(DATA.countries).length < 2;
     document.querySelectorAll('[data-country]').forEach(function (b) {
       var on = b.getAttribute('data-country') === state.c;
+      b.hidden = !DATA.countries[b.getAttribute('data-country')];
       b.querySelector('.tick').style.visibility = on ? 'visible' : 'hidden';
       b.setAttribute('aria-checked', String(on));
     });
@@ -773,7 +776,7 @@ footer p + p { margin-top: 6px; }
     if (e.key === 'Escape') { toggleMenu(false); if (!$('drawer').hidden) closeDrawer(); }
   });
 
-  var start = 'uk';
+  var start = Object.keys(DATA.countries)[0];
   var h = (location.hash || '').replace('#', '');
   if (DATA.countries[h]) start = h;
   else { try { var saved = localStorage.getItem('legl-tracker-country'); if (DATA.countries[saved]) start = saved; } catch (e) {} }

@@ -6,7 +6,7 @@
     "enabled": true,
     "how": "page",
     "url": "https://www.sra.org.uk/news/news/",
-    "match": "^https://www\\.sra\\.org\\.uk/news/news/.+"
+    "match": "^https://www\\.sra\\.org\\.uk/news/news/(?!releases$|press-office$).+"
   },
   {
     "id": "sra-consultations",
@@ -14,7 +14,7 @@
     "covers": "SRA consultations, open and closed",
     "enabled": true,
     "how": "page",
-    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/",
+    "url": "https://www.sra.org.uk/sra/consultations/",
     "match": "^https://www\\.sra\\.org\\.uk/sra/consultations/consultation-listing/.+"
   },
   {
@@ -32,7 +32,14 @@
     "enabled": true,
     "how": "govuk",
     "organisation": "hm-treasury",
-    "query": "money laundering"
+    "query": "money laundering",
+    "keywords": [
+      "money laundering",
+      "economic crime",
+      "terrorist financing",
+      "sanctions",
+      "anti-money"
+    ]
   },
   {
     "id": "companies-house",
@@ -41,7 +48,13 @@
     "enabled": true,
     "how": "govuk",
     "organisation": "companies-house",
-    "keywords": ["identity", "verification", "register", "economic crime", "transparency"]
+    "keywords": [
+      "identity",
+      "verification",
+      "register",
+      "economic crime",
+      "transparency"
+    ]
   },
   {
     "id": "ofsi",
@@ -50,7 +63,13 @@
     "enabled": true,
     "how": "govuk",
     "organisation": "office-of-financial-sanctions-implementation",
-    "keywords": ["legal", "guidance", "licen", "reporting", "regulations"]
+    "keywords": [
+      "legal",
+      "guidance",
+      "reporting",
+      "regulations",
+      "professional"
+    ]
   },
   {
     "id": "legislation-new",
@@ -59,7 +78,15 @@
     "enabled": true,
     "how": "feed",
     "url": "https://www.legislation.gov.uk/new/data.feed",
-    "keywords": ["money laundering", "legal services", "solicitor", "economic crime", "sanctions", "terrorist financing", "data protection"]
+    "keywords": [
+      "money laundering",
+      "legal services",
+      "solicitor",
+      "economic crime",
+      "sanctions",
+      "terrorist financing",
+      "data protection"
+    ]
   },
   {
     "id": "fca-news",
@@ -68,6 +95,10 @@
     "enabled": false,
     "how": "feed",
     "url": "https://www.fca.org.uk/news/rss.xml",
-    "keywords": ["money laundering", "professional services", "legal"]
+    "keywords": [
+      "money laundering",
+      "professional services",
+      "legal"
+    ]
   }
 ]
