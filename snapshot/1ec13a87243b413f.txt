@@ -1,0 +1,1584 @@
+
+
+<!DOCTYPE html>
+<html class="govuk-template" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title lang="en">Expired General Licences - GOV.UK</title>
+
+    <script src="/assets/frontend/govuk_publishing_components/vendor/lux/lux-measurer-d66192b1b665d415e1874e49a48138b7ae339548aa6cdb8687c7f9933e72b969.js" async="async"></script>
+    <script src="/assets/frontend/govuk_publishing_components/rum-custom-data-b9e1806d1da2fa8ef1855d01aa71ba5eb0afc010dd2c4de3672cc7c7a39b0c8c.js" type="module"></script>
+    <script src="/assets/frontend/govuk_publishing_components/rum-loader-a65b10e18ceeba3bd8a2eac507c7f2c513cdc82f35097df903fdea87f1dc2e33.js" async="async" data-lux-reporter-script="/assets/frontend/govuk_publishing_components/vendor/lux/lux-reporter-8a58c323b36d73e12262d8c5e96fc3d791430130a1867da29d56ffacca960a0e.js"></script>
+
+    <meta name="govuk:components_gem_version" content="71.1.0">
+    <script src="/assets/frontend/govuk_publishing_components/load-analytics-d5c92d4ce9f98141170a466427da86ca1ff62f234637bf0776121e6df57b3b67.js" type="module"></script>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="jrr_VAYViul5eqC2X0bPoRqbuNE5-W4h1DKOJnxyDOyEA1dCmGosXOuyc7kYQHjHxS_HyC-AUlLy-raJP3pUsA" />
+
+    <link rel="stylesheet" href="/assets/frontend/application-5c3385e08fe8537ee8f94db512cdc8e15439427843360d44fb88cfdac0fadfe1.css" media="all" />
+    <link rel="icon" sizes="48x48" href="/assets/frontend/favicon-24f9fbe064118d58937932e73edafd1d50cb60f7bd84f52308382a309bc2d655.ico">
+    <link rel="icon" sizes="any" href="/assets/frontend/favicon-d962d21b5bb443f546c097ea21b567cde639adef7370da45be5e349ba8d62d33.svg" type="image/svg+xml">
+    <link rel="mask-icon" href="/assets/frontend/govuk-icon-mask-cdf4265165f8d7f9eec54aa2c1dfbb3d8b6d297c5d7919f0313e0836a5804bb6.svg" color="#1d70b8">
+    <link rel="apple-touch-icon" href="/assets/frontend/govuk-icon-180-d45a306f0549414cfa5085f16e4a3816a77558b139e5bc226f23162d1d0decb0.png">
+
+    <meta name="theme-color" content="#1d70b8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png">
+
+      <meta name="description" content="Details of expired General Licences issued by OFSI.">
+  
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.gov.uk/government/collections/expired-general-licences"
+  },
+  "name": "Expired General Licences",
+  "datePublished": "2022-05-04T00:00:00+01:00",
+  "dateModified": "2026-10-23T11:26:55+01:00",
+  "text": "Details of expired General Licences issued by OFSI.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-logo-b8553f688131fad665e52a8c2df7633f9cd1c0fffb9f69703cc68c728e7b3b74.png"
+    }
+  },
+  "image": [
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-2672c0fb7a5d5f947d880522c509ebe7f2be090885883cc94418f6860e812e15.png",
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-194fde4197f00e669f6f52c182df2ed707bfb2024c9ef39f7a2ed20da62b90eb.png",
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-30e6c0e035636ee6b9dc72ae254bcd4a925182805afe7c5b7170cf2394894b28.png"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Office of Financial Sanctions Implementation",
+    "url": "https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation"
+  },
+  "about": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Thing",
+      "sameAs": "https://www.gov.uk/international/current-uk-sanctions-regimes"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Thing",
+      "sameAs": "https://www.gov.uk/business-and-industry/financial-services"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Thing",
+      "sameAs": "https://www.gov.uk/business-and-industry/uk-financial-sanctions"
+    }
+  ],
+  "headLine": "Expired General Licences",
+  "description": "Details of expired General Licences issued by OFSI.",
+  "articleBody": "\u003cdiv class=\"govspeak\"\u003e\u003ctable\u003e\n  \u003cthead\u003e\n    \u003ctr\u003e\n      \u003cth scope=\"col\"\u003eDate Issued\u003c/th\u003e\n      \u003cth scope=\"col\"\u003eLicence number\u003c/th\u003e\n      \u003cth scope=\"col\"\u003eDetails and Publication Notice\u003c/th\u003e\n      \u003cth scope=\"col\"\u003eRegime\u003c/th\u003e\n    \u003c/tr\u003e\n  \u003c/thead\u003e\n  \u003ctbody\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e24 February 2026\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/699c6871d2b9c6ec5b6fbbe6/Transneft_Wind_Down_GL.pdf\"\u003eINT/2026/8889196\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/699c688bd2b9c6ec5b6fbbe7/Transneft_Wind_Down_PN.pdf\"\u003ePJSC Transneft Wind Down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e18 December  2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6943d1a636f089d38be1f2b3/GL_Document_-_Russian_Oil_Companies_Dec_2025.pdf\"\u003eINT/2025/8202932\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6943d1b9143d960161547e2a/PN_Document_-_Russian_Oil_Companies_Dec_2025.pdf\"\u003eRussian Oil Companies Wind Down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e23 October 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/69e0ea6161d2e8e9b9e42e5f/INT-2025-7628424_amended.pdf\"\u003eINT/2025/7628424\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/69e0ea6220b52e4144868923/Publication_Notice_Document_-_INT-2025-7628424_amended.pdf\"\u003eInterim Necessities General Licence\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/461/introduction/made\"\u003eIran Nuclear\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e22 October 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6942d315143d960161547e01/20251211_INT.2025.7323088_GL.pdf\"\u003eINT/2025/7323088\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6942d320143d960161547e02/20251211_INT.2025.7323088_PN__1_.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e15 October 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68ef66b0e7b6794c076bbe6c/INT-2025-7539056_GL.pdf\"\u003eINT/2025/7539056\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68ef66d08427701993d5e0ba/INT-2025-7539056_PN.pdf\"\u003eRussian Oil Majors Wind Down \u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e15 October 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68ef6cd78427701993d5e0c1/INT-2025-7538856_GL.pdf\"\u003eINT/2025/7538856\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68ef6ced8427701993d5e0c2/INT-2025-7538856_PN.pdf\"\u003eEnergy Entities Wind-down \u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 September 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68da822dc487360cc70c9ea5/General_Licence__-_Worldwide_Banks.pdf\"\u003eINT/2025/7345664\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68da8201dadf7616351e4b80/Publication_Notice_-_Worldwide_Banks.pdf\"\u003eWind-down of Transactions Involving Iranian Banks (Worldwide)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/461/introduction/made\"\u003eIran Nuclear\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 September 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68da83f5dadf7616351e4b85/General_Licence_-_UK_Iranian_Banks.pdf\"\u003eINT/2025/7345464\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68f8d315190c6607448bb758/Publication_Notice_INT.2025.7345464.pdf\"\u003eWind-down of Transactions Involving UK-based Iranian Banks\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/461/introduction/made\"\u003eIran Nuclear\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 September 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68da805fef1c2f72bc1e4b7c/General_Licence_-_UK_Entities.pdf\"\u003eINT/2025/7345264\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68da807749e17d00a56ffb6b/Publication_Notice__-_UK_Entities.pdf\"\u003eWind-down of Transactions Involving UK-based Firms\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/461/introduction/made\"\u003eIran Nuclear\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e21 July 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/687e16f7211264fc8bb2f729/Intershipping_Services_LLC_Wind_Down_GL.pdf\"\u003eINT/2025/6397444\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/687e1704d3dbbad252b2f725/Intershipping_Services_LLC_Wind_Down_PN.pdf\"\u003eIntershipping Services LLC Wind-down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e21 July 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/687e154b2f42aece1f8fbfba/Litasco_Wind_Down_GL.pdf\"\u003eINT/2025/6488808\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/687e1556e32102b6438fbfb8/Litasco_Wind_Down_PN.pdf\"\u003eWind Down of Positions Involving Litasco Middle East DMCC\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e20 May 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/682c15a802662c6f8ec24470/INT.2025.6275812_GL_2.pdf\"\u003eINT/2025/6275812\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/682c15c1256994af4172ac11/INT.2025.6275812_PN.pdf\"\u003eWind Down of Positions Involving St Petersburg Currency Exchange and Non-bank Credit Organization Joint-Stock Company Petersburg Settlement Center\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e28 April 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/680f5a735072e9b7db83ccf7/INT.2025.6160920_GL.pdf\"\u003eINT/2025/6160920\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/680f5a8f11d566056bcae92f/INT.2025.6160920_PN.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e10 January 2025\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6781313861e7988536018442/INT.2025.5635701_GL.pdf\"\u003eINT/2025/5635701\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6781315261e7988536018443/INT.2025.5635701_PN.pdf\"\u003eRussian Oil Majors Wind Down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 October 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67e6bb7796745eff958ca030/Legal_Services_GL_-_INT-2024-5334756_-_Amendment_28.03.25.pdf\"\u003eINT/2024/5334756\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67e6bb8a96745eff958ca031/Legal_Services_-_INT-2024-5334756_-_PN_Amendment_28_March_2025.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 July 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67507f20d12a2dad3bc97ada/REVOKED_GL_Payments_to_Revenue_Authorities.pdf\"\u003eINT/2024/4881897\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67507f21d12a2dad3bc97adb/REVOKED_Payments_to_Revenue_Authorities_PN.pdf\"\u003ePayments to Revenue Authorities (Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e20 June 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/675061269ef923a1bbc97ab2/REVOKED_GL_Payments_to_the_FCA_.pdf\"\u003eINT/2024/4836676\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67506136bcd3a46a2248c87b/REVOKED_Payments_to_the_FCA.pdf\"\u003ePayments to the FCA (Revoked) \u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 April 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/662ba56d5b89e6a356bf9357/Legal_services_GL_INT.2024.4671884.pdf\"\u003eINT/2024/4671884\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/663202a369098ded31fca71d/INT.2024.4671884_PN_no_FAQs.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e3 July 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/66acd06649b9c0597fdb0a23/INT.2024.4919848_GL.pdf\"\u003eINT/2024/4919848\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/66acd074fc8e12ac3edb09e9/INT.2024.4919848_PN.pdf\"\u003eNational Settlement Depository\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e28 Mar 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/66162455c4c84d6602346a9f/Active_and_Beks_General_Licence_INT.2024.4576632.pdf\"\u003eINT/2024/4576632\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/66162470c4c84d5772346a7f/Active_and_Beks_General_Licence_INT.2024.4576632_PN.pdf\"\u003eActive and Beks Ships Transit to Port and Wind Down \u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e9 Feb 2024\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f070a7133c220011cd38ef/General_Licence_-_Oil_Price_Cap_INT_2022_2469656_-_9_February_2024__1_.pdf\"\u003eINT/2022/2469656\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f16cff133c220011cd39ce/Oil_Price_Cap_General_Licence_Publication_Notice_-_9_Feb_2024.pdf\"\u003eOil Price Cap\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e15 Dec 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657b0e82254aaa000d050d9b/Payment_Processing_Wind_Down_Licence.pdf\"\u003eINT/2023/4078352\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657b0efd095987001295e105/Payment_Processing_Wind_Down_Publication_Notice.pdf\"\u003ePayment Processing Wind Down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e09 Dec 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/675062ed9ef923a1bbc97ab5/REVOKED_GL_Payments_to_Local_Authorities.pdf\"\u003eINT/2023/3781228\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/675062fbb9847955e1632a88/REVOKED_Local_Authorities_Payments_Publication_Notice.pdf\"\u003ePayments to Local Authorities (Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 October 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657c815d95bf6500107190da/Legal_Services_GL_INT.2023.3744968.pdf\"\u003eINT/2023/3744968\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657c816f83ba380013e1b661/Legal_Services_GL_Publication_Notice_INT.2023.3744968.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 Sep 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/6560bfb30c7ec8000d95be20/General_Licence_Trapped_Payments_.pdf\"\u003eINT/2023/3566356\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65842780fc07f300128d4611/Publication_Notice_Full_Document_Trapped_Payments.pdf\"\u003eCorrespondent Banking Payments\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e6 Oct 2023\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/675062719ef923a1bbc97ab3/REVOKED_GL_Payments_to_Companies_House_GL.pdf\"\u003eINT/2023/3626884\u003c/a\u003e)\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/675062800b3e68dfc448c87d/REVOKED_Companies_House_General_licence_INT20233626884.pdf\"\u003ePayments to Companies House(Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca href=\"https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases\"\u003eMultiple\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e22 May 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657c7bc383ba380013e1b65c/INT_2023_3024200_GL.pdf\"\u003eINT/2023/3024200\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/657c7bdb83ba380013e1b65d/INT_2023_3024200_Publication_Notice.pdf\"\u003ePrior Obligations\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 Apr 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1153971/Legal_Services_GL_INT20232954852.pdf\"\u003eINT/2023/2954852\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1153972/Legal_Services_GL_Publication_Notice_INT20232954852.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e15 Feb 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/667bca1d97ea0c79abfe4c45/Syria_Humanitarian_GL_INT-2023-2711256_.pdf\"\u003eINT/2023/2711256\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/667bca295b0d63b556a4b362/Syria_Humanitarian_PN.pdf\"\u003eSyria Humanitarian\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/792/made\"\u003eSyria\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e3 Feb 2023\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f071b4133c220011cd38f2/Oil_Products_Price_Cap_Wind-down_27_Feb.pdf\"\u003eINT/2023/2660772\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f16ce9ff11700019615af7/Oil_Price_Cap_General_Licence_Publication_Notice.pdf\"\u003eProduct Oil Wind-down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e16 Dec 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124800/OFFSEN_09.12.2022_GL__Trade_5_SI_-_Financial_Prohibitions_.pdf\"\u003eINT/2022/2448692\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124801/INT.2022.2448692_Publication_Notice.pdf\"\u003eTrade Financial Prohibitions\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e5 Dec 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f072a49812270011f613bb/Oil_Price_Cap_Wind-down_INT_2022_2470256_27_Feb.pdf\"\u003eINT/2022/2470256\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/65f16cc9ff11701fff61594d/Oil_Price_Cap_General_Licence_Publication_Notice.pdf\"\u003eCrude Oil Wind-down\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e10 Nov 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1081989/General_Licence_INT20221919908__funds_of_non-designated_third_parties.pdf\"\u003eINT/2022/1919908\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1081990/INT20221919908_Non-designated_third_party_funds_Publication_Notice_.pdf\"\u003eFunds of Non-designated Third Parties Involving Designated Credit or Financial Institutions\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e2 Nov 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1136007/09.02.2023_Truphone_GL_INT.2022.2339452_revoked.pdf\"\u003eINT/2022/2339452\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1136011/09.02.2023_INT.2022.2339452_Publication_Notice_Revoked.pdf\"\u003eTruphone Telecomms Services (Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e31 Oct 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114563/General_Licence_INT20222252300.pdf\"\u003eINT/2022/2252300\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114593/Publication_Notice_INT20222252300.pdf\"\u003eLegal Services\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e28 Oct 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162771/GL_SEFE_INT_2022_2305324_REVOKED.pdf\"\u003eINT/2022/2305324\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162772/Publication_Notice_-_SEFE_REVOKED.pdf\"\u003eSecuring Energy for Europe (Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e28 Oct 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114244/General_Licence_INT20222307324.pdf\"\u003eINT/2022/2307324\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114572/Publication_Notice_INT20222307324.pdf\"\u003eLoans and Securities Amendment\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e17 Oct 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67e6b7a98ac59d1882eade07/LCIA_Costs_GL-INT-2022-1552576-_revoked_March_2025.pdf\"\u003eINT/2022/1552576\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/67e6b7b64a226ab6c41b2043/LCIA_Costs_GL_-_INT-2022-1552576_-_PN_-_28_March_2025.pdf\"\u003eLCIA Payments(Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003cbr\u003e \u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\n\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e5 Aug 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1096670/INT-2022-2055384_Companies_winding_down_operations_in_Russia_.pdf\"\u003eINT/2022/2055384\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1096671/INT20222055384_Publication_Notice_-_Companies_winding_down_operations_in_Russia.pdf\"\u003eCompanies Winding Down Operations in Russia\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e30 Jun 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087379/GL_INT20221968500_Rosbank_winddown.pdf\"\u003eINT/2022/1968500\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087380/GL_INT20221968500_Rosbank_notice.pdf\"\u003eWind Down of Positions Involving Rosbank\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e5 May 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68b82b88b0a373a01819fd8f/INT-2022-1710676_Revoked_GL.pdf\"\u003eINT/2022/1710676\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/media/68b82b92536d629f9c82aa1c/INT-2022-1710676_Revoked_PN.pdf\"\u003eEvraz North American Subsidiaries (Revoked)\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 Apr 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1065790/INT.2022.1495176.pdf\"\u003eINT/2022/1495176\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1065927/INT.2022.1495176_publication_notice.pdf\"\u003ePayments by the Central Bank of the Russian Federation and Others\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e29 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1064308/INT2022.Sovcomflot_29.03.22.pdf\"\u003eINT/2022/1469378\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1064309/INT2022.Sovcomflot_notice.pdf\"\u003eWind Down of Positions Involving Sovcomflot\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e19 Jul 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1092029/Outward_Investment_Wind_Down_GL_.pdf\"\u003eINT/2022/2002560\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1092031/INT.2022.2002560_Outward_Investment_Ban_GL_publication_notice.pdf\"\u003eInvestments in Relation to Russia\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e5 Jul 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087974/GL_INT20221976232_national_bank_Belarus.pdf\"\u003eINT/2022/1976232\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087976/GL_INT20221976232_publication_notice.pdf\"\u003eWind Down Positions Involving National Bank of Belarus\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2022/748/made\"\u003eRepublic of Belarus\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e5 Jul 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087972/INT-2022-1976332__TRANSFERABLE_SECURITIES_.pdf\"\u003eINT/2022/1976332\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087973/INT-2022-1976332_Publication_Notice__TRANSFERABLE_SECURITIES_.pdf\"\u003eTransferable Securities, Money Market Instruments, Loans and Credit Arrangements\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2022/748/made\"\u003eRepublic of Belarus\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e21 Apr 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070506/GENERAL_LICENCE_Gazprombank_21.04.22.pdf\"\u003eINT/2022/1630477\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070507/INT.2022.1630477_Gazprombank_gas_payments_publication_notice.pdf\"\u003eGazprombank Energy Payments\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e6 Apr 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066997/INT20221544176_gl.pdf\"\u003eINT/2022/1544176\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066998/INT20221544176_PN.pdf\"\u003eWind Down of Positions Involving Credit Bank of Moscow\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e25 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\n\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066363/INT.2022.1438977__Continuation_of_Business_wth_GEFCO_general_licence.pdf\"\u003eINT/2022/1438977\u003c/a\u003e  (Revoked)\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066361/INT.2022.1438977_GL_publication_notice.pdf\"\u003eContinuation of Business and Basic Needs of GEFCO UK Subsidiaries\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e24 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063223/INT20221424276_GL.pdf\"\u003eINT/2022/1424276\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070502/GL_INT20221424276_notice.pdf\"\u003eWind Down of Positions Involving Various Designated Banks\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e24 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063227/GL_INT20221424277.pdf\"\u003eINT/2022/1424277\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063226/INT.2022.1424277_PN.pdf\"\u003eWind Down of Positions Involving Bank Dabrabyt\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/600/introduction/made\"\u003eRepublic of Belarus\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e22 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1062349/GENERAL_LICENCE_.pdf\"\u003eINT/2022/1381276\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1062348/General_Licence___Publication_Notice_.pdf\"\u003eWind Down of Derivatives etc. with the Central Bank of the Russian Federation and Others\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e10 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059929/10032022_OFSI_General_Licence_Football_Matches_.pdf\"\u003eINT/2022/1327076\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059930/Publication_Notice_-_General_licence_-_INT.2022.1327076.pdf\"\u003eFootball Matches\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e4 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058967/Sberbank_Wind_down_General_licence.pdf\"\u003eINT/2022/1298776\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059458/Sberbank_GL_publication_notice.pdf\"\u003eWind Down of Positions Sberbank\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e4 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058765/OFSI_General_Licence_INT20221295476.pdf\"\u003eINT/2022/1295476\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058766/04.03.22_banks_asset_freeze_Publication_Notice_INT-2022-1295476.pdf\"\u003eWind Down of Positions Involving Various Designated Banks\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057865/GENERAL_LICENCE_correspondent_banking_energy_INT.2022.1277877.pdf\"\u003eINT/2022/1277877\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057866/Notice_INT.2022.1277877.pdf\"\u003eCorrespondent Banking Relationships \u0026amp; Processing Sterling Payments in relation to Energy\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1060446/GL_INT20221277778_110322.pdf\"\u003eINT/2022/1277778\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1060449/Amended_Final_Notice_INT.2022.1277778.pdf\"\u003eCorrespondent Banking Relationships \u0026amp; Processing Sterling Payments\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 Mar 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057861/GENERAL_LICENCE_-_transferable_securities_Money_market_instruments_loans_and_credit_arrangements_INT.2022.1277777.pdf\"\u003eINT/2022/1277777\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057862/Notice_INT.2022.1277777_.pdf\"\u003eTransferable Securities, Money-market Instruments, Loans and Credit Arrangements\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e25 Feb 2022\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059254/Wind_down_30_day_VTB_general_licence_final_INT-2022-1272278.pdf\"\u003eINT/2022/1272278\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059255/07.03.22_Wind_down_of_VTB_positions_GL_Publication_Notice_word.pdf\"\u003eWind Down of Positions Involving VTB\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e1 Jan 2021\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/949119/INT.2020.059.pdf\"\u003eINT/2020/059\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/949118/General_licence_-_INT.2020.059_-_Publication_Notice.pdf\"\u003ePayment(s) Out of Non-frozen Funds to Certain Crimean Sea Ports\u003c/a\u003e\u003c/td\u003e\n      \u003ctd\u003e\u003ca rel=\"external\" href=\"https://www.legislation.gov.uk/uksi/2019/855/introduction/made\"\u003eRussia\u003c/a\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n  \u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/div\u003e"
+}
+</script>
+
+<link rel="canonical" href="https://www.gov.uk/government/collections/expired-general-licences">
+
+<meta property="og:site_name" content="GOV.UK">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gov.uk/government/collections/expired-general-licences">
+<meta property="og:title" content="Expired General Licences">
+<meta property="og:description" content="Details of expired General Licences issued by OFSI.">
+
+  <meta name="twitter:card" content="summary">
+
+
+  <meta name="csp-nonce" content="j7yztKfsaybb4dMUQ9N2GA==" />
+
+<link title="Search" rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml">
+
+  
+  <meta name="govuk:format" content="document_collection">
+  <meta name="govuk:publishing-app" content="whitehall">
+  <meta name="govuk:rendering-app" content="frontend">
+  <meta name="govuk:schema-name" content="document_collection">
+  <meta name="govuk:content-id" content="d5f7e839-c151-4e3e-abfe-52eca260d91d">
+  <meta name="govuk:content-has-history" content="true">
+  <meta name="govuk:ga4-base-path" content="/government/collections/expired-general-licences">
+  <meta name="govuk:first-published-at" content="2022-05-04T00:00:00+01:00">
+  <meta name="govuk:updated-at" content="2026-10-28T11:50:13+00:00">
+  <meta name="govuk:public-updated-at" content="2026-10-23T11:26:55+01:00">
+  <meta name="govuk:primary-publishing-organisation" content="Office of Financial Sanctions Implementation">
+  <meta name="govuk:organisations" content="&lt;OT1187&gt;&lt;D15&gt;">
+  <meta name="govuk:taxonomy_level1" content="business-and-industry, international">
+  <meta name="govuk:taxon-id" content="4b3a5f4d-b2c8-43f2-879f-2e74fa1a781c">
+  <meta name="govuk:taxon-ids" content="4b3a5f4d-b2c8-43f2-879f-2e74fa1a781c,d7e02519-b7ba-4297-80a8-01cd0e5f2cb2,9ca2b8cd-bae6-4fbc-915a-78f2b081d26e">
+  <meta name="govuk:taxon-slug" content="current-uk-sanctions-regimes">
+  <meta name="govuk:taxon-slugs" content="current-uk-sanctions-regimes,financial-services,uk-financial-sanctions">
+
+
+
+
+
+
+
+
+  </head>
+  <body class="gem-c-layout-for-public govuk-template__body">
+    <script nonce="j7yztKfsaybb4dMUQ9N2GA==">
+//<![CDATA[
+      document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');
+
+//]]>
+</script>      
+<div id="global-cookie-message" data-module="cookie-banner" data-nosnippet="" aria-label="Cookies on GOV.UK" class="gem-c-cookie-banner govuk-clearfix govuk-cookie-banner js-banner-wrapper" role="region" hidden="hidden">
+  <div class="govuk-cookie-banner__message govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h2 class="govuk-cookie-banner__heading govuk-heading-m">Cookies on GOV.UK</h2>
+        <div tabindex="-1" class="govuk-cookie-banner__content gem-c-cookie-banner__confirmation">
+          <div class="gem-c-cookie-banner__content"><p class='govuk-body'>We use some essential cookies to make this website work.</p><p class='govuk-body'>We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.</p><p class='govuk-body'>We also use cookies set by other sites to help us deliver content from their services.</p></div>
+          <p class="gem-c-cookie-banner__confirmation-message--accepted govuk-body" hidden
+            data-ga4-cookie-banner 
+            data-module="ga4-link-tracker"
+            data-ga4-set-indexes
+            data-ga4-link='{"event_name":"navigation","type":"cookie banner","section":"You have accepted additional cookies"}'
+          >You have accepted additional cookies. <span class="gem-c-cookie-banner__confirmation-message">You can <a class="govuk-link" href="/help/cookies">change your cookie settings</a> at any time.</span></p>
+          <p class="gem-c-cookie-banner__confirmation-message--rejected govuk-body" hidden>You have rejected additional cookies. <span class="gem-c-cookie-banner__confirmation-message">You can <a class="govuk-link" href="/help/cookies">change your cookie settings</a> at any time.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="js-confirmation-buttons govuk-button-group">
+      
+
+  <button class="gem-c-button govuk-button" type="submit" data-accept-cookies="true" data-cookie-types="all">Accept additional cookies</button>
+
+
+      
+
+  <button class="gem-c-button govuk-button" type="submit" data-reject-cookies="true">Reject additional cookies</button>
+
+
+      <a class="govuk-link" href="/help/cookies">View cookies</a>
+    </div>
+    <div hidden class="js-hide-button govuk-button-group">
+      <button
+        class="gem-c-cookie-banner__hide-button govuk-button"
+        data-hide-cookie-banner="true"
+        data-module="ga4-event-tracker"
+         data-ga4-event='{"event_name":"select_content","type":"cookie banner","action":"closed","section":"You have accepted additional cookies"}' >
+          Hide cookie message
+        </button>
+    </div>
+  </div>
+</div>
+      <a data-module="govuk-skip-link" class="gem-c-skip-link govuk-skip-link govuk-!-display-none-print" href="#content">Skip to main content</a>
+
+      <header>
+            <div data-module="ga4-event-tracker ga4-link-tracker" data-ga4-expandable="" class="gem-c-layout-super-navigation-header">
+<div class="gem-c-layout-super-navigation-header__nav-wrapper">
+  <div class="gem-c-layout-super-navigation-header__container govuk-width-container">
+    <nav
+      aria-labelledby="super-navigation-menu-heading"
+      class="gem-c-layout-super-navigation-header__content"
+      data-module="super-navigation-mega-menu">
+      <div class="gem-c-layout-super-navigation-header__header-logo">
+        <a class="govuk-header__homepage-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","external":"false","text":"GOV.UK","section":"Logo","index_link":1,"index_section":0,"index_section_count":2,"index_total":1}' id="logo" aria-label="Go to the GOV.UK homepage" href="/">
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  focusable="false"
+  role="img"
+  viewBox="0 0 324 60"
+  height="30"
+  width="162"
+  fill="currentcolor"
+  class="govuk-header__logotype"
+  aria-label="GOV.UK">
+  <title>GOV.UK</title>
+  <g>
+    <circle cx="20" cy="17.6" r="3.7"></circle>
+    <circle cx="10.2" cy="23.5" r="3.7"></circle>
+    <circle cx="3.7" cy="33.2" r="3.7"></circle>
+    <circle cx="31.7" cy="30.6" r="3.7"></circle>
+    <circle cx="43.3" cy="17.6" r="3.7"></circle>
+    <circle cx="53.2" cy="23.5" r="3.7"></circle>
+    <circle cx="59.7" cy="33.2" r="3.7"></circle>
+    <circle cx="31.7" cy="30.6" r="3.7"></circle>
+    <path d="M33.1,9.8c.2-.1.3-.3.5-.5l4.6,2.4v-6.8l-4.6,1.5c-.1-.2-.3-.3-.5-.5l1.9-5.9h-6.7l1.9,5.9c-.2.1-.3.3-.5.5l-4.6-1.5v6.8l4.6-2.4c.1.2.3.3.5.5l-2.6,8c-.9,2.8,1.2,5.7,4.1,5.7h0c3,0,5.1-2.9,4.1-5.7l-2.6-8ZM37,37.9s-3.4,3.8-4.1,6.1c2.2,0,4.2-.5,6.4-2.8l-.7,8.5c-2-2.8-4.4-4.1-5.7-3.8.1,3.1.5,6.7,5.8,7.2,3.7.3,6.7-1.5,7-3.8.4-2.6-2-4.3-3.7-1.6-1.4-4.5,2.4-6.1,4.9-3.2-1.9-4.5-1.8-7.7,2.4-10.9,3,4,2.6,7.3-1.2,11.1,2.4-1.3,6.2,0,4,4.6-1.2-2.8-3.7-2.2-4.2.2-.3,1.7.7,3.7,3,4.2,1.9.3,4.7-.9,7-5.9-1.3,0-2.4.7-3.9,1.7l2.4-8c.6,2.3,1.4,3.7,2.2,4.5.6-1.6.5-2.8,0-5.3l5,1.8c-2.6,3.6-5.2,8.7-7.3,17.5-7.4-1.1-15.7-1.7-24.5-1.7h0c-8.8,0-17.1.6-24.5,1.7-2.1-8.9-4.7-13.9-7.3-17.5l5-1.8c-.5,2.5-.6,3.7,0,5.3.8-.8,1.6-2.3,2.2-4.5l2.4,8c-1.5-1-2.6-1.7-3.9-1.7,2.3,5,5.2,6.2,7,5.9,2.3-.4,3.3-2.4,3-4.2-.5-2.4-3-3.1-4.2-.2-2.2-4.6,1.6-6,4-4.6-3.7-3.7-4.2-7.1-1.2-11.1,4.2,3.2,4.3,6.4,2.4,10.9,2.5-2.8,6.3-1.3,4.9,3.2-1.8-2.7-4.1-1-3.7,1.6.3,2.3,3.3,4.1,7,3.8,5.4-.5,5.7-4.2,5.8-7.2-1.3-.2-3.7,1-5.7,3.8l-.7-8.5c2.2,2.3,4.2,2.7,6.4,2.8-.7-2.3-4.1-6.1-4.1-6.1h10.6,0Z"></path>
+  </g>
+  <circle class="govuk-logo-dot" cx="226" cy="36" r="7.3"></circle>
+  <path d="M93.94 41.25c.4 1.81 1.2 3.21 2.21 4.62 1 1.4 2.21 2.41 3.61 3.21s3.21 1.2 5.22 1.2 3.61-.4 4.82-1c1.4-.6 2.41-1.4 3.21-2.41.8-1 1.4-2.01 1.61-3.01s.4-2.01.4-3.01v.14h-10.86v-7.02h20.07v24.08h-8.03v-5.56c-.6.8-1.38 1.61-2.19 2.41-.8.8-1.81 1.2-2.81 1.81-1 .4-2.21.8-3.41 1.2s-2.41.4-3.81.4a18.56 18.56 0 0 1-14.65-6.63c-1.6-2.01-3.01-4.41-3.81-7.02s-1.4-5.62-1.4-8.83.4-6.02 1.4-8.83a20.45 20.45 0 0 1 19.46-13.65c3.21 0 4.01.2 5.82.8 1.81.4 3.61 1.2 5.02 2.01 1.61.8 2.81 2.01 4.01 3.21s2.21 2.61 2.81 4.21l-7.63 4.41c-.4-1-1-1.81-1.61-2.61-.6-.8-1.4-1.4-2.21-2.01-.8-.6-1.81-1-2.81-1.4-1-.4-2.21-.4-3.61-.4-2.01 0-3.81.4-5.22 1.2-1.4.8-2.61 1.81-3.61 3.21s-1.61 2.81-2.21 4.62c-.4 1.81-.6 3.71-.6 5.42s.8 5.22.8 5.22Zm57.8-27.9c3.21 0 6.22.6 8.63 1.81 2.41 1.2 4.82 2.81 6.62 4.82S170.2 24.39 171 27s1.4 5.62 1.4 8.83-.4 6.02-1.4 8.83-2.41 5.02-4.01 7.02-4.01 3.61-6.62 4.82-5.42 1.81-8.63 1.81-6.22-.6-8.63-1.81-4.82-2.81-6.42-4.82-3.21-4.41-4.01-7.02-1.4-5.62-1.4-8.83.4-6.02 1.4-8.83 2.41-5.02 4.01-7.02 4.01-3.61 6.42-4.82 5.42-1.81 8.63-1.81Zm0 36.73c1.81 0 3.61-.4 5.02-1s2.61-1.81 3.61-3.01 1.81-2.81 2.21-4.41c.4-1.81.8-3.61.8-5.62 0-2.21-.2-4.21-.8-6.02s-1.2-3.21-2.21-4.62c-1-1.2-2.21-2.21-3.61-3.01s-3.21-1-5.02-1-3.61.4-5.02 1c-1.4.8-2.61 1.81-3.61 3.01s-1.81 2.81-2.21 4.62c-.4 1.81-.8 3.61-.8 5.62 0 2.41.2 4.21.8 6.02.4 1.81 1.2 3.21 2.21 4.41s2.21 2.21 3.61 3.01c1.4.8 3.21 1 5.02 1Zm36.32 7.96-12.24-44.15h9.83l8.43 32.77h.4l8.23-32.77h9.83L200.3 58.04h-12.24Zm74.14-7.96c2.18 0 3.51-.6 3.51-.6 1.2-.6 2.01-1 2.81-1.81s1.4-1.81 1.81-2.81a13 13 0 0 0 .8-4.01V13.9h8.63v28.15c0 2.41-.4 4.62-1.4 6.62-.8 2.01-2.21 3.61-3.61 5.02s-3.41 2.41-5.62 3.21-4.62 1.2-7.02 1.2-5.02-.4-7.02-1.2c-2.21-.8-4.01-1.81-5.62-3.21s-2.81-3.01-3.61-5.02-1.4-4.21-1.4-6.62V13.9h8.63v26.95c0 1.61.2 3.01.8 4.01.4 1.2 1.2 2.21 2.01 2.81.8.8 1.81 1.4 2.81 1.81 0 0 1.34.6 3.51.6Zm34.22-36.18v18.92l15.65-18.92h10.82l-15.03 17.32 16.03 26.83h-10.21l-11.44-20.21-5.62 6.22v13.99h-8.83V13.9"></path>
+</svg>
+
+</a></div>      <h2 id="super-navigation-menu-heading" class="govuk-visually-hidden">
+        Navigation menu
+      </h2>
+
+
+      <div class="gem-c-layout-super-navigation-header__navigation-item">
+        <a class="gem-c-layout-super-navigation-header__navigation-item-link" href="/browse"><span class="gem-c-layout-super-navigation-header__navigation-item-link-inner">            Menu
+</span></a>
+        <button aria-controls="super-navigation-menu" aria-expanded="false" aria-label="Show navigation menu" class="gem-c-layout-super-navigation-header__navigation-top-toggle-button" data-text-for-hide="Hide navigation menu" data-text-for-show="Show navigation menu" data-toggle-desktop-group="top" data-toggle-mobile-group="top" data-ga4-event='{"event_name":"select_content","type":"header menu bar","text":"Menu","index_section":1,"index_section_count":2,"section":"Menu"}' hidden="hidden" id="super-navigation-menu-toggle" type="button">
+          <span class="gem-c-layout-super-navigation-header__navigation-top-toggle-button-inner">Menu</span>
+</button>      </div>
+      <div id="super-navigation-menu" hidden="hidden" class="gem-c-layout-super-navigation-header__navigation-dropdown-menu">
+        <div class="govuk-grid-row gem-c-layout-super-navigation-header__navigation-items">
+
+
+            <div class="govuk-grid-column-two-thirds-from-desktop gem-c-layout-super-navigation-header__column--services-and-information">
+              <h3 class="govuk-heading-m gem-c-layout-super-navigation-header__column-header">
+                Services and information
+              </h3>
+              <ul class="gem-c-layout-super-navigation-header__navigation-second-items gem-c-layout-super-navigation-header__navigation-second-items--services-and-information">
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":1,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/benefits">Benefits</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":2,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/births-deaths-marriages">Births, death, marriages and care</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":3,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/business">Business and self-employed</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":4,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/childcare-parenting">Childcare and parenting</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":5,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/citizenship">Citizenship and living in the UK</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":6,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/justice">Crime, justice and the law</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":7,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/disabilities">Disabled people</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":8,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/driving">Driving and transport</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":9,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/education">Education and learning</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":10,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/employing-people">Employing people</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":11,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/environment-countryside">Environment and countryside</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":12,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/housing-local-services">Housing and local services</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":13,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/tax">Money and tax</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":14,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/abroad">Passports, travel and living abroad</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":15,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/visas-immigration">Visas and immigration</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":16,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/working">Working, jobs and pensions</a>
+                      
+                    </li>
+              </ul>
+            </div>
+
+            <div class="govuk-grid-column-one-third-from-desktop gem-c-layout-super-navigation-header__column--government-activity">
+              <h3 class="govuk-heading-m gem-c-layout-super-navigation-header__column-header">
+                Government activity
+              </h3>
+              <ul class="gem-c-layout-super-navigation-header__navigation-second-items gem-c-layout-super-navigation-header__navigation-second-items--government-activity">
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":1,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/government/organisations">Departments</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Departments, agencies and public bodies</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":2,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/news-and-communications">News</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">News stories, speeches, letters and notices</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":3,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/guidance-and-regulation">Guidance and regulation</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Detailed guidance, regulations and rules</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":4,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/research-and-statistics">Research and statistics</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Reports, analysis and official statistics</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":5,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/policy-papers-and-consultations">Policy papers and consultations</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Consultations and strategy</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":6,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/transparency-and-freedom-of-information-releases">Transparency</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Data, Freedom of Information releases and corporate reports</p>
+                    </li>
+              </ul>
+            </div>
+        </div>
+</div>      <div class="gem-c-layout-super-navigation-header__search-item">
+        <button id="super-search-menu-toggle" class="gem-c-layout-super-navigation-header__search-toggle-button" aria-controls="super-search-menu" aria-expanded="true" aria-label="Hide search menu" data-text-for-hide="Hide search menu" data-text-for-show="Show search menu" data-toggle-mobile-group="top" data-toggle-desktop-group="top" data-ga4-event='{"event_name":"select_content","type":"header menu bar","text":"Search","index_section":2,"index_section_count":2,"section":"Search"}' hidden="hidden" type="button">
+          <span class="govuk-visually-hidden">
+            Search GOV.UK
+          </span>
+          
+<svg
+  class="gem-c-layout-super-navigation-header__search-toggle-button-link-icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+          <span
+            aria-hidden="true"
+            class="gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon">
+            &times;
+          </span>
+</button>
+        <a class="gem-c-layout-super-navigation-header__search-item-link" href="/search">
+          <span class="govuk-visually-hidden">
+            Search GOV.UK
+          </span>
+          
+<svg
+  class="gem-c-layout-super-navigation-header__search-item-link-icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+</a>      </div>
+      <div id="super-search-menu" hidden="hidden" class="gem-c-layout-super-navigation-header__navigation-dropdown-menu">
+        <div class="gem-c-layout-super-navigation-header__search-container gem-c-layout-super-navigation-header__search-items">
+          <h3 class="govuk-visually-hidden">
+            Search
+          </h3>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full">
+              <form class="gem-c-layout-super-navigation-header__search-form" id="search" data-module="ga4-search-tracker" data-ga4-search-type="header menu bar" data-ga4-search-url="/search/all" data-ga4-search-section="Search GOV.UK" data-ga4-search-index-section="3" data-ga4-search-index-section-count="3" action="/search/all" method="get" role="search" aria-label="Site-wide">
+                <div class="gem-c-search-with-autocomplete gem-c-search-with-autocomplete--large govuk-!-margin-bottom-0" data-module="gem-search-with-autocomplete" data-source-url="https://www.gov.uk/api/search/autocomplete.json" data-source-key="suggestions">
+  <div data-module="gem-toggle-input-class-on-focus" class="gem-c-search govuk-!-display-none-print gem-c-search--large gem-c-search--on-white gem-c-search--separate-label govuk-!-margin-bottom-0">
+    <label for="search-main-47096471" class="govuk-label govuk-label--m gem-c-layout-super-navigation-header__search-label--large-navbar">Search GOV.UK</label>
+  <div class="gem-c-search__item-wrapper">
+    <div class="js-search-input-wrapper">
+      <input enterkeyhint="search" class="gem-c-search__item gem-c-search__input js-class-toggle" id="search-main-47096471" name="keywords" title="Search" type="search" value="" autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="gem-c-search__item gem-c-search__submit-wrapper">
+      <button class="gem-c-search__submit" type="submit" enterkeyhint="search">
+        Search
+        
+<svg
+  class="gem-c-search__icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+</button>    </div>
+  </div>
+</div>
+</div>
+</form>            </div>
+          </div>
+        </div>
+</div>    </nav>
+  </div>
+</div>
+</div>
+
+        
+
+</header>
+      
+  <div class="govuk-width-container">
+        
+<div class="gem-c-contextual-breadcrumbs">
+    
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "name": "Home",
+        "@id": "https://www.gov.uk/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "name": "International",
+        "@id": "https://www.gov.uk/international"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "name": "Current UK sanctions regimes",
+        "@id": "https://www.gov.uk/international/current-uk-sanctions-regimes"
+      }
+    }
+  ]
+}
+</script>
+
+<nav data-module="ga4-link-tracker" aria-label="Breadcrumb" class="gem-c-breadcrumbs govuk-breadcrumbs govuk-!-display-none-print govuk-breadcrumbs--collapse-on-mobile">
+  <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"1","index_total":"3"}' class="govuk-breadcrumbs__link" href="/">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"2","index_total":"3"}' class="govuk-breadcrumbs__link" href="/international">International</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"3","index_total":"3"}' class="govuk-breadcrumbs__link" href="/international/current-uk-sanctions-regimes">Current UK sanctions regimes</a>
+        </li>
+  </ol>
+</nav>
+</div>
+
+    
+
+    
+
+    <main id="content" class="govuk-main-wrapper " >
+      <span id="Top"></span>
+
+        <div class="page-title">
+
+  <div class="page-title__column page-title__heading">
+    
+<div class="gem-c-heading govuk-!-margin-bottom-6" dir="ltr">
+      <span class="govuk-caption-xl gem-c-heading__context" >
+    Collection
+  </span>
+
+
+  <h1 class="gem-c-heading__text govuk-heading-xl">
+    Expired General Licences
+</h1></div>
+  </div>
+
+  <div class="page-title__column page-title__content">
+
+        <p class="gem-c-lead-paragraph govuk-!-margin-bottom-6" dir="ltr">
+    Details of expired General Licences issued by OFSI.
+</p>
+
+        <div data-module="metadata" class="gem-c-metadata gem-c-metadata--border-top govuk-!-margin-bottom-6">
+    <dl class="gem-c-metadata__list">
+        <dt class="gem-c-metadata__term">From:</dt>
+        <dd class="gem-c-metadata__definition">
+          <a href='/government/organisations/office-of-financial-sanctions-implementation' class='govuk-link'>Office of Financial Sanctions Implementation</a> and <a href='/government/organisations/hm-treasury' class='govuk-link'>HM Treasury</a>
+
+        </dd>
+        <dt class="gem-c-metadata__term">Published:</dt>
+        <dd class="gem-c-metadata__definition">4 May 2022</dd>
+        <dt class="gem-c-metadata__term">Last updated:</dt>
+        <dd class="gem-c-metadata__definition">
+          23 October 2026
+            &#8212;
+            <a href="#full-publication-update-history" class="govuk-!-display-none-print"
+                data-module="ga4-link-tracker"
+                data-ga4-link='{"event_name":"navigation","type":"content history","section":"Top","index_section":1}'
+              >
+              See all updates
+            </a>
+        </dd>
+    </dl>
+</div>
+
+  </div>
+
+  <div class="page-title__column page-title__sidebar">
+
+
+  </div>
+</div>
+
+
+
+      <div class="govuk-grid-row gem-print-columns-none">
+          <div class="govuk-grid-column-two-thirds">
+                      
+  
+
+    
+
+  <div data-button-location="top" data-button-text-subscribe="Get emails about this page" data-button-text-unsubscribe="Stop getting emails about this page" data-module="ga4-link-tracker" class="gem-c-single-page-notification-button govuk-!-display-none-print govuk-!-margin-bottom-6">
+  <form action="/email-signup" method="POST">
+    <input type="hidden" name="base_path" value="/government/collections/expired-general-licences">
+      <input type="hidden" name="single_page_subscription" value="true">
+      <input type="hidden" name="link" value="/government/collections/expired-general-licences">
+    
+
+  <button class="gem-c-button__outline gem-c-button__outline--notification" type="submit" data-ga4-link='{"event_name":"navigation","type":"subscribe","index_link":1,"index_total":2,"section":"Top","url":"/email-signup"}'>Get emails about this page</button>
+
+
+</form></div>
+
+
+    <div id="contents" class="gem-c-contents-list-with-body">
+    
+    <div class="responsive-bottom-margin">
+        <div class="govuk-!-margin-bottom-8">
+        <div data-module="govspeak" class="gem-c-govspeak gem-c-govspeak--direction-ltr govuk-!-margin-bottom-0">
+      <div class="govspeak"><table>
+  <thead>
+    <tr>
+      <th scope="col">Date Issued</th>
+      <th scope="col">Licence number</th>
+      <th scope="col">Details and Publication Notice</th>
+      <th scope="col">Regime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>24 February 2026</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/699c6871d2b9c6ec5b6fbbe6/Transneft_Wind_Down_GL.pdf">INT/2026/8889196</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/699c688bd2b9c6ec5b6fbbe7/Transneft_Wind_Down_PN.pdf">PJSC Transneft Wind Down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>18 December  2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6943d1a636f089d38be1f2b3/GL_Document_-_Russian_Oil_Companies_Dec_2025.pdf">INT/2025/8202932</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6943d1b9143d960161547e2a/PN_Document_-_Russian_Oil_Companies_Dec_2025.pdf">Russian Oil Companies Wind Down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>23 October 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/69e0ea6161d2e8e9b9e42e5f/INT-2025-7628424_amended.pdf">INT/2025/7628424</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/69e0ea6220b52e4144868923/Publication_Notice_Document_-_INT-2025-7628424_amended.pdf">Interim Necessities General Licence</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/461/introduction/made">Iran Nuclear</a></td>
+    </tr>
+    <tr>
+      <td>22 October 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6942d315143d960161547e01/20251211_INT.2025.7323088_GL.pdf">INT/2025/7323088</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6942d320143d960161547e02/20251211_INT.2025.7323088_PN__1_.pdf">Legal Services</a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>15 October 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68ef66b0e7b6794c076bbe6c/INT-2025-7539056_GL.pdf">INT/2025/7539056</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68ef66d08427701993d5e0ba/INT-2025-7539056_PN.pdf">Russian Oil Majors Wind Down </a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>15 October 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68ef6cd78427701993d5e0c1/INT-2025-7538856_GL.pdf">INT/2025/7538856</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68ef6ced8427701993d5e0c2/INT-2025-7538856_PN.pdf">Energy Entities Wind-down </a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>29 September 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68da822dc487360cc70c9ea5/General_Licence__-_Worldwide_Banks.pdf">INT/2025/7345664</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68da8201dadf7616351e4b80/Publication_Notice_-_Worldwide_Banks.pdf">Wind-down of Transactions Involving Iranian Banks (Worldwide)</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/461/introduction/made">Iran Nuclear</a></td>
+    </tr>
+    <tr>
+      <td>29 September 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68da83f5dadf7616351e4b85/General_Licence_-_UK_Iranian_Banks.pdf">INT/2025/7345464</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68f8d315190c6607448bb758/Publication_Notice_INT.2025.7345464.pdf">Wind-down of Transactions Involving UK-based Iranian Banks</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/461/introduction/made">Iran Nuclear</a></td>
+    </tr>
+    <tr>
+      <td>29 September 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68da805fef1c2f72bc1e4b7c/General_Licence_-_UK_Entities.pdf">INT/2025/7345264</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68da807749e17d00a56ffb6b/Publication_Notice__-_UK_Entities.pdf">Wind-down of Transactions Involving UK-based Firms</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/461/introduction/made">Iran Nuclear</a></td>
+    </tr>
+    <tr>
+      <td>21 July 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/687e16f7211264fc8bb2f729/Intershipping_Services_LLC_Wind_Down_GL.pdf">INT/2025/6397444</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/687e1704d3dbbad252b2f725/Intershipping_Services_LLC_Wind_Down_PN.pdf">Intershipping Services LLC Wind-down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>21 July 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/687e154b2f42aece1f8fbfba/Litasco_Wind_Down_GL.pdf">INT/2025/6488808</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/687e1556e32102b6438fbfb8/Litasco_Wind_Down_PN.pdf">Wind Down of Positions Involving Litasco Middle East DMCC</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>20 May 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/682c15a802662c6f8ec24470/INT.2025.6275812_GL_2.pdf">INT/2025/6275812</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/682c15c1256994af4172ac11/INT.2025.6275812_PN.pdf">Wind Down of Positions Involving St Petersburg Currency Exchange and Non-bank Credit Organization Joint-Stock Company Petersburg Settlement Center</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>28 April 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/680f5a735072e9b7db83ccf7/INT.2025.6160920_GL.pdf">INT/2025/6160920</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/680f5a8f11d566056bcae92f/INT.2025.6160920_PN.pdf">Legal Services</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>10 January 2025</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6781313861e7988536018442/INT.2025.5635701_GL.pdf">INT/2025/5635701</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6781315261e7988536018443/INT.2025.5635701_PN.pdf">Russian Oil Majors Wind Down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>29 October 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67e6bb7796745eff958ca030/Legal_Services_GL_-_INT-2024-5334756_-_Amendment_28.03.25.pdf">INT/2024/5334756</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67e6bb8a96745eff958ca031/Legal_Services_-_INT-2024-5334756_-_PN_Amendment_28_March_2025.pdf">Legal Services</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>1 July 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67507f20d12a2dad3bc97ada/REVOKED_GL_Payments_to_Revenue_Authorities.pdf">INT/2024/4881897</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67507f21d12a2dad3bc97adb/REVOKED_Payments_to_Revenue_Authorities_PN.pdf">Payments to Revenue Authorities (Revoked)</a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>20 June 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/675061269ef923a1bbc97ab2/REVOKED_GL_Payments_to_the_FCA_.pdf">INT/2024/4836676</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67506136bcd3a46a2248c87b/REVOKED_Payments_to_the_FCA.pdf">Payments to the FCA (Revoked) </a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>29 April 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/662ba56d5b89e6a356bf9357/Legal_services_GL_INT.2024.4671884.pdf">INT/2024/4671884</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/663202a369098ded31fca71d/INT.2024.4671884_PN_no_FAQs.pdf">Legal Services</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>3 July 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/66acd06649b9c0597fdb0a23/INT.2024.4919848_GL.pdf">INT/2024/4919848</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/66acd074fc8e12ac3edb09e9/INT.2024.4919848_PN.pdf">National Settlement Depository</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>28 Mar 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/66162455c4c84d6602346a9f/Active_and_Beks_General_Licence_INT.2024.4576632.pdf">INT/2024/4576632</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/66162470c4c84d5772346a7f/Active_and_Beks_General_Licence_INT.2024.4576632_PN.pdf">Active and Beks Ships Transit to Port and Wind Down </a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>9 Feb 2024</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f070a7133c220011cd38ef/General_Licence_-_Oil_Price_Cap_INT_2022_2469656_-_9_February_2024__1_.pdf">INT/2022/2469656</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f16cff133c220011cd39ce/Oil_Price_Cap_General_Licence_Publication_Notice_-_9_Feb_2024.pdf">Oil Price Cap</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>15 Dec 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657b0e82254aaa000d050d9b/Payment_Processing_Wind_Down_Licence.pdf">INT/2023/4078352</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657b0efd095987001295e105/Payment_Processing_Wind_Down_Publication_Notice.pdf">Payment Processing Wind Down</a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>09 Dec 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/675062ed9ef923a1bbc97ab5/REVOKED_GL_Payments_to_Local_Authorities.pdf">INT/2023/3781228</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/675062fbb9847955e1632a88/REVOKED_Local_Authorities_Payments_Publication_Notice.pdf">Payments to Local Authorities (Revoked)</a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>29 October 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657c815d95bf6500107190da/Legal_Services_GL_INT.2023.3744968.pdf">INT/2023/3744968</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657c816f83ba380013e1b661/Legal_Services_GL_Publication_Notice_INT.2023.3744968.pdf">Legal Services</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>29 Sep 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/6560bfb30c7ec8000d95be20/General_Licence_Trapped_Payments_.pdf">INT/2023/3566356</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65842780fc07f300128d4611/Publication_Notice_Full_Document_Trapped_Payments.pdf">Correspondent Banking Payments</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>6 Oct 2023</td>
+      <td>
+<a rel="external" href="https://assets.publishing.service.gov.uk/media/675062719ef923a1bbc97ab3/REVOKED_GL_Payments_to_Companies_House_GL.pdf">INT/2023/3626884</a>)</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/675062800b3e68dfc448c87d/REVOKED_Companies_House_General_licence_INT20233626884.pdf">Payments to Companies House(Revoked)</a></td>
+      <td><a href="https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases">Multiple</a></td>
+    </tr>
+    <tr>
+      <td>22 May 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657c7bc383ba380013e1b65c/INT_2023_3024200_GL.pdf">INT/2023/3024200</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/657c7bdb83ba380013e1b65d/INT_2023_3024200_Publication_Notice.pdf">Prior Obligations</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>29 Apr 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1153971/Legal_Services_GL_INT20232954852.pdf">INT/2023/2954852</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1153972/Legal_Services_GL_Publication_Notice_INT20232954852.pdf">Legal Services</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>15 Feb 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/667bca1d97ea0c79abfe4c45/Syria_Humanitarian_GL_INT-2023-2711256_.pdf">INT/2023/2711256</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/667bca295b0d63b556a4b362/Syria_Humanitarian_PN.pdf">Syria Humanitarian</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/792/made">Syria</a></td>
+    </tr>
+    <tr>
+      <td>3 Feb 2023</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f071b4133c220011cd38f2/Oil_Products_Price_Cap_Wind-down_27_Feb.pdf">INT/2023/2660772</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f16ce9ff11700019615af7/Oil_Price_Cap_General_Licence_Publication_Notice.pdf">Product Oil Wind-down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>16 Dec 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124800/OFFSEN_09.12.2022_GL__Trade_5_SI_-_Financial_Prohibitions_.pdf">INT/2022/2448692</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124801/INT.2022.2448692_Publication_Notice.pdf">Trade Financial Prohibitions</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>5 Dec 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f072a49812270011f613bb/Oil_Price_Cap_Wind-down_INT_2022_2470256_27_Feb.pdf">INT/2022/2470256</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/65f16cc9ff11701fff61594d/Oil_Price_Cap_General_Licence_Publication_Notice.pdf">Crude Oil Wind-down</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>10 Nov 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1081989/General_Licence_INT20221919908__funds_of_non-designated_third_parties.pdf">INT/2022/1919908</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1081990/INT20221919908_Non-designated_third_party_funds_Publication_Notice_.pdf">Funds of Non-designated Third Parties Involving Designated Credit or Financial Institutions</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>2 Nov 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1136007/09.02.2023_Truphone_GL_INT.2022.2339452_revoked.pdf">INT/2022/2339452</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1136011/09.02.2023_INT.2022.2339452_Publication_Notice_Revoked.pdf">Truphone Telecomms Services (Revoked)</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>31 Oct 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114563/General_Licence_INT20222252300.pdf">INT/2022/2252300</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114593/Publication_Notice_INT20222252300.pdf">Legal Services</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>28 Oct 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162771/GL_SEFE_INT_2022_2305324_REVOKED.pdf">INT/2022/2305324</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1162772/Publication_Notice_-_SEFE_REVOKED.pdf">Securing Energy for Europe (Revoked)</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>28 Oct 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114244/General_Licence_INT20222307324.pdf">INT/2022/2307324</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1114572/Publication_Notice_INT20222307324.pdf">Loans and Securities Amendment</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>17 Oct 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67e6b7a98ac59d1882eade07/LCIA_Costs_GL-INT-2022-1552576-_revoked_March_2025.pdf">INT/2022/1552576</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/67e6b7b64a226ab6c41b2043/LCIA_Costs_GL_-_INT-2022-1552576_-_PN_-_28_March_2025.pdf">LCIA Payments(Revoked)</a></td>
+      <td>
+<a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a><br> <a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a>
+</td>
+    </tr>
+    <tr>
+      <td>5 Aug 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1096670/INT-2022-2055384_Companies_winding_down_operations_in_Russia_.pdf">INT/2022/2055384</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1096671/INT20222055384_Publication_Notice_-_Companies_winding_down_operations_in_Russia.pdf">Companies Winding Down Operations in Russia</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>30 Jun 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087379/GL_INT20221968500_Rosbank_winddown.pdf">INT/2022/1968500</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087380/GL_INT20221968500_Rosbank_notice.pdf">Wind Down of Positions Involving Rosbank</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>5 May 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68b82b88b0a373a01819fd8f/INT-2022-1710676_Revoked_GL.pdf">INT/2022/1710676</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/media/68b82b92536d629f9c82aa1c/INT-2022-1710676_Revoked_PN.pdf">Evraz North American Subsidiaries (Revoked)</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>1 Apr 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1065790/INT.2022.1495176.pdf">INT/2022/1495176</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1065927/INT.2022.1495176_publication_notice.pdf">Payments by the Central Bank of the Russian Federation and Others</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>29 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1064308/INT2022.Sovcomflot_29.03.22.pdf">INT/2022/1469378</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1064309/INT2022.Sovcomflot_notice.pdf">Wind Down of Positions Involving Sovcomflot</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>19 Jul 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1092029/Outward_Investment_Wind_Down_GL_.pdf">INT/2022/2002560</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1092031/INT.2022.2002560_Outward_Investment_Ban_GL_publication_notice.pdf">Investments in Relation to Russia</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>5 Jul 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087974/GL_INT20221976232_national_bank_Belarus.pdf">INT/2022/1976232</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087976/GL_INT20221976232_publication_notice.pdf">Wind Down Positions Involving National Bank of Belarus</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2022/748/made">Republic of Belarus</a></td>
+    </tr>
+    <tr>
+      <td>5 Jul 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087972/INT-2022-1976332__TRANSFERABLE_SECURITIES_.pdf">INT/2022/1976332</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1087973/INT-2022-1976332_Publication_Notice__TRANSFERABLE_SECURITIES_.pdf">Transferable Securities, Money Market Instruments, Loans and Credit Arrangements</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2022/748/made">Republic of Belarus</a></td>
+    </tr>
+    <tr>
+      <td>21 Apr 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070506/GENERAL_LICENCE_Gazprombank_21.04.22.pdf">INT/2022/1630477</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070507/INT.2022.1630477_Gazprombank_gas_payments_publication_notice.pdf">Gazprombank Energy Payments</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>6 Apr 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066997/INT20221544176_gl.pdf">INT/2022/1544176</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066998/INT20221544176_PN.pdf">Wind Down of Positions Involving Credit Bank of Moscow</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>25 Mar 2022</td>
+      <td>
+<a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066363/INT.2022.1438977__Continuation_of_Business_wth_GEFCO_general_licence.pdf">INT/2022/1438977</a>  (Revoked)</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1066361/INT.2022.1438977_GL_publication_notice.pdf">Continuation of Business and Basic Needs of GEFCO UK Subsidiaries</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>24 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063223/INT20221424276_GL.pdf">INT/2022/1424276</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070502/GL_INT20221424276_notice.pdf">Wind Down of Positions Involving Various Designated Banks</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>24 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063227/GL_INT20221424277.pdf">INT/2022/1424277</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1063226/INT.2022.1424277_PN.pdf">Wind Down of Positions Involving Bank Dabrabyt</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/600/introduction/made">Republic of Belarus</a></td>
+    </tr>
+    <tr>
+      <td>22 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1062349/GENERAL_LICENCE_.pdf">INT/2022/1381276</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1062348/General_Licence___Publication_Notice_.pdf">Wind Down of Derivatives etc. with the Central Bank of the Russian Federation and Others</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>10 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059929/10032022_OFSI_General_Licence_Football_Matches_.pdf">INT/2022/1327076</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059930/Publication_Notice_-_General_licence_-_INT.2022.1327076.pdf">Football Matches</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>4 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058967/Sberbank_Wind_down_General_licence.pdf">INT/2022/1298776</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059458/Sberbank_GL_publication_notice.pdf">Wind Down of Positions Sberbank</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>4 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058765/OFSI_General_Licence_INT20221295476.pdf">INT/2022/1295476</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058766/04.03.22_banks_asset_freeze_Publication_Notice_INT-2022-1295476.pdf">Wind Down of Positions Involving Various Designated Banks</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>1 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057865/GENERAL_LICENCE_correspondent_banking_energy_INT.2022.1277877.pdf">INT/2022/1277877</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057866/Notice_INT.2022.1277877.pdf">Correspondent Banking Relationships &amp; Processing Sterling Payments in relation to Energy</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>1 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1060446/GL_INT20221277778_110322.pdf">INT/2022/1277778</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1060449/Amended_Final_Notice_INT.2022.1277778.pdf">Correspondent Banking Relationships &amp; Processing Sterling Payments</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>1 Mar 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057861/GENERAL_LICENCE_-_transferable_securities_Money_market_instruments_loans_and_credit_arrangements_INT.2022.1277777.pdf">INT/2022/1277777</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1057862/Notice_INT.2022.1277777_.pdf">Transferable Securities, Money-market Instruments, Loans and Credit Arrangements</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>25 Feb 2022</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059254/Wind_down_30_day_VTB_general_licence_final_INT-2022-1272278.pdf">INT/2022/1272278</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1059255/07.03.22_Wind_down_of_VTB_positions_GL_Publication_Notice_word.pdf">Wind Down of Positions Involving VTB</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+    <tr>
+      <td>1 Jan 2021</td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/949119/INT.2020.059.pdf">INT/2020/059</a></td>
+      <td><a rel="external" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/949118/General_licence_-_INT.2020.059_-_Publication_Notice.pdf">Payment(s) Out of Non-frozen Funds to Certain Crimean Sea Ports</a></td>
+      <td><a rel="external" href="https://www.legislation.gov.uk/uksi/2019/855/introduction/made">Russia</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+        </div>
+
+        <div data-module="metadata" class="gem-c-metadata gem-c-metadata--border-top">
+      <h2 class="govuk-visually-hidden">Updates to this page</h2>
+    <dl class="gem-c-metadata__list">
+        <dt class="gem-c-metadata__term">Last updated:</dt>
+        <dd class="gem-c-metadata__definition">
+          23 October 2026
+            <div class="gem-c-metadata__details-wrapper">
+              <details class="gem-c-details govuk-details gem-c-details--small govuk-!-margin-bottom-3" title="Show all updates">
+  <summary class="govuk-details__summary" data-module="ga4-event-tracker" data-ga4-event='{"event_name":"select_content","type":"content history","text":"Show all updates","section":"Foot","index_section":2}' data-ga4-expandable="true">
+    <span class="govuk-details__summary-text">
+      Show all updates
+</span></summary>  <div class="govuk-details__text">
+    
+                <ol class="gem-c-metadata__change-history" id="full-publication-update-history">
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2026-10-23T10:26:55Z">23 October 2026</time>
+                      <p class="gem-c-metadata__change-note">Added Expired General Licence INT/2025/7628424</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2026-05-14T10:52:54Z">14 May 2026</time>
+                      <p class="gem-c-metadata__change-note">Expired Licence INT/2026/8889196 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2026-04-29T13:01:34Z">29 April 2026</time>
+                      <p class="gem-c-metadata__change-note">Expired General Licence INT/2025/7323088 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2026-02-05T10:23:41Z">5 February 2026</time>
+                      <p class="gem-c-metadata__change-note">Expired General Licence INT/2025/8202932 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-12-03T15:45:22Z">3 December 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General Licence INT/2025/7539056 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-11-18T10:49:34Z">18 November 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired General Licences: INT/2025/7345664 and INT/2025/7538856, added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-11-13T11:35:19Z">13 November 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General Licence INT/2025/7345264 added
+Expired OFSI General Licence INT/2025/7345464 added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-11-03T10:23:12Z">3 November 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General Licence INT/2025/6160920 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-09-19T14:44:56Z">19 September 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired General licences INT/2025/6488808 and INT/2025/6397444 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-09-03T13:18:08Z">3 September 2025</time>
+                      <p class="gem-c-metadata__change-note">OFSI General Licence INT/2022/1710676 revoked.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-07-02T09:26:44Z">2 July 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired General Licence INT/2025/6275812 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-05-08T11:16:19Z">8 May 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired General licence INT/2024/5334756 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-03-28T15:24:36Z">28 March 2025</time>
+                      <p class="gem-c-metadata__change-note">OFSI General licence INT/2022/1552576 revoked.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-02-28T11:18:37Z">28 February 2025</time>
+                      <p class="gem-c-metadata__change-note">General Licence INT/2025/5635701 added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2025-02-17T08:56:13Z">17 February 2025</time>
+                      <p class="gem-c-metadata__change-note">Expired General licence INT/2023/2711256 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-12-06T09:55:32Z">6 December 2024</time>
+                      <p class="gem-c-metadata__change-note">Revoked General licences - INT/2024/4836676, INT/2023/3626884, INT/2023/3781228 and INT/2024/4881897 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-10-29T11:34:44Z">29 October 2024</time>
+                      <p class="gem-c-metadata__change-note">Expired legal services licence added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-10-23T08:03:20Z">23 October 2024</time>
+                      <p class="gem-c-metadata__change-note">Expired General licence INT/2024/4919848 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-06-13T09:58:46Z">13 June 2024</time>
+                      <p class="gem-c-metadata__change-note">General Licence INT/2024/4576632 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-06-11T09:16:54Z">11 June 2024</time>
+                      <p class="gem-c-metadata__change-note">INT/2023/3024200 Prior Obligations General Licence added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-04-29T08:28:57Z">29 April 2024</time>
+                      <p class="gem-c-metadata__change-note">Expired general licence INT/2023/3744968 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-02-21T14:18:12Z">21 February 2024</time>
+                      <p class="gem-c-metadata__change-note">GENERAL LICENCE – Oil Price Cap INT/2022/2469656
+A General Licence establishing the Oil Price Cap (INT/2022/2469656) has been added to the expired general licence list.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2024-01-16T11:41:03Z">16 January 2024</time>
+                      <p class="gem-c-metadata__change-note">General Licence INT/2023/4078352 has expired and has been moved to the Expired General Licences page.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-12-21T16:03:20Z">21 December 2023</time>
+                      <p class="gem-c-metadata__change-note">INT/2023/3566356 Publication Notice link amended</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-12-20T11:21:09Z">20 December 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General Licences INT/2022/2470256 and INT/2023/2660772 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-12-19T10:04:12Z">19 December 2023</time>
+                      <p class="gem-c-metadata__change-note">OFSI General Licence INT/2023/3566356 Correspondent Banking Payments expired.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-11-16T09:53:50Z">16 November 2023</time>
+                      <p class="gem-c-metadata__change-note">Added expired general licence  Funds of non-designated third parties involving designated credit or financial institutions INT/2022/1919908.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-10-31T11:02:24Z">31 October 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI general licence Legal services INT/2023/2954852 added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-08-18T12:24:42Z">18 August 2023</time>
+                      <p class="gem-c-metadata__change-note">Date formatting adjusted</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-06-20T14:56:47Z">20 June 2023</time>
+                      <p class="gem-c-metadata__change-note">Amended expired General Licence table format, to improve use, accessibility and readability.
+The applicable General Licence is now a link under the Licence Number heading. The applicable Publication Notice is now a link under the Details and Publication Notice heading.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-06-14T12:47:50Z">14 June 2023</time>
+                      <p class="gem-c-metadata__change-note">OFSI General Licence INT/2022/2305324 Securing Energy for Europe revoked.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-05-02T07:49:27Z">2 May 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General licence  INT/2022/2252300 Legal Services added.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-03-08T13:42:54Z">8 March 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired General licence INT/2020/059 |  Payment(s) out of non-frozen funds to certain Crimean Sea Ports added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-02-13T14:36:50Z">13 February 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired General Licence INT/2022/2339452 Truphone telecomms services added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2023-01-09T16:23:34Z">9 January 2023</time>
+                      <p class="gem-c-metadata__change-note">Expired OFSI General Licence INT/2022/2448692 added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-12-13T11:20:58Z">13 December 2022</time>
+                      <p class="gem-c-metadata__change-note">Expired INT/2022/1630477 Gazprombank Energy Payments licence added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-11-23T12:05:29Z">23 November 2022</time>
+                      <p class="gem-c-metadata__change-note">Added INT/2022/2055384</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-11-15T10:14:00Z">15 November 2022</time>
+                      <p class="gem-c-metadata__change-note">Removed General Licence INT/2022/1919908 from table.</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-11-10T10:55:55Z">10 November 2022</time>
+                      <p class="gem-c-metadata__change-note">Added Expired licence  INT/2022/2307324</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-10-17T09:05:18Z">17 October 2022</time>
+                      <p class="gem-c-metadata__change-note">Correction, removed INT/2022/1845976 and  INT/2022/1947936</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-10-13T11:35:00Z">13 October 2022</time>
+                      <p class="gem-c-metadata__change-note">Expired licences added INT/2022/1947936, INT/2022/1968500, INT/2022/1845976</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-09-26T14:45:51Z">26 September 2022</time>
+                      <p class="gem-c-metadata__change-note">Expired licences for Russia INT/2022/1469378, INT/2022/1495176 and INT/2022/1919908 added</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-08-16T10:54:20Z">16 August 2022</time>
+                      <p class="gem-c-metadata__change-note">Added investments ban in relation to Russia GL</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-07-13T13:06:59Z">13 July 2022</time>
+                      <p class="gem-c-metadata__change-note">Added expired GL INT/2022/1976332</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-06-27T11:02:21Z">27 June 2022</time>
+                      <p class="gem-c-metadata__change-note">Added GL INT 2022/1277877</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-06-06T12:46:39Z">6 June 2022</time>
+                      <p class="gem-c-metadata__change-note">Adding GL football matches</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-05-11T11:38:27Z">11 May 2022</time>
+                      <p class="gem-c-metadata__change-note">Added expired licences</p>
+                    </li>
+                    <li class="gem-c-metadata__change-history-item">
+                      <time class="gem-c-metadata__change-date" datetime="2022-05-03T23:00:00Z">4 May 2022</time>
+                      <p class="gem-c-metadata__change-note">First published.</p>
+                    </li>
+                </ol>
+
+  </div>
+</details>            </div>
+        </dd>
+    </dl>
+</div>
+    </div>
+
+</div>
+
+          </div>
+
+          <div class="govuk-grid-column-one-third">
+                        
+<div class="gem-c-contextual-sidebar govuk-!-display-none-print">
+
+      <div data-module="ga4-link-tracker" class="gem-c-related-navigation govuk-!-display-none-print">
+      <h2 id="related-nav-related_items-d6627b13"
+          class="gem-c-related-navigation__main-heading"
+          >
+        Related content
+      </h2>
+
+
+
+      <nav class="gem-c-related-navigation__nav-section"
+     aria-labelledby="related-nav-related_items-d6627b13"
+     data-module="gem-toggle">
+
+
+  <ul class="gem-c-related-navigation__link-list">
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-ga4-link='{"event_name":"navigation","type":"related content","index_section":"1","index_link":"1","index_section_count":"1","index_total":"5","section":"Related content"}' href="/government/collections/uk-sanctions">UK sanctions</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-ga4-link='{"event_name":"navigation","type":"related content","index_section":"1","index_link":"2","index_section_count":"1","index_total":"5","section":"Related content"}' href="/government/collections/ofsi-general-licences">OFSI General Licences</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-ga4-link='{"event_name":"navigation","type":"related content","index_section":"1","index_link":"3","index_section_count":"1","index_total":"5","section":"Related content"}' href="/government/collections/expired-general-licences">Expired General Licences</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-ga4-link='{"event_name":"navigation","type":"related content","index_section":"1","index_link":"4","index_section_count":"1","index_total":"5","section":"Related content"}' href="/government/publications/financial-sanctions-licensing">Financial sanctions licensing: supplementary guidance</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar govuk-link gem-c-related-navigation__section-link--inline  govuk-link gem-c-related-navigation__section-link--other" data-ga4-link='{"event_name":"navigation","type":"related content","index_section":"1","index_link":"5","index_section_count":"1","index_total":"5","section":"Related content"}' href="/government/publications/annual-frozen-asset-review-and-reporting-form">Annual frozen asset review: guidance and reporting form</a></li>
+
+  </ul>
+</nav>
+
+</div>
+
+
+</div>
+
+
+          </div>
+      </div>
+
+        <div class="govuk-grid-row gem-print-columns-none">
+          <div class="govuk-grid-column-two-thirds">
+                      
+  <div class="gem-c-contextual-footer govuk-!-display-none-print" dir="ltr">
+      <div data-module="ga4-link-tracker" class="gem-c-related-navigation govuk-!-display-none-print">
+
+
+
+      <nav class="gem-c-related-navigation__nav-section"
+     aria-labelledby="related-nav-topics-88d9e6f7"
+     data-module="gem-toggle">
+
+    <h2 id="related-nav-topics-88d9e6f7" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer" data-track-count="footerRelatedItemSection">Explore the topic</h2>
+
+  <ul class="gem-c-related-navigation__link-list">
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--footer" data-ga4-link='{"event_name":"navigation","type":"contextual footer","index_section":"1","index_link":"1","index_section_count":"1","index_total":"3","section":"Explore the topic"}' href="/international/current-uk-sanctions-regimes">Current UK sanctions regimes</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--footer" data-ga4-link='{"event_name":"navigation","type":"contextual footer","index_section":"1","index_link":"2","index_section_count":"1","index_total":"3","section":"Explore the topic"}' href="/business-and-industry/financial-services">Financial services</a></li>
+        <li class="gem-c-related-navigation__link"><a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--footer" data-ga4-link='{"event_name":"navigation","type":"contextual footer","index_section":"1","index_link":"3","index_section_count":"1","index_total":"3","section":"Explore the topic"}' href="/business-and-industry/uk-financial-sanctions">UK financial sanctions</a></li>
+
+  </ul>
+</nav>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+    </main>
+    
+  </div>
+
+
+      <div class="govuk-width-container">
+          
+<div data-module="feedback ga4-event-tracker" class="gem-c-feedback govuk-!-display-none-print">
+  
+<div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+  <div class="gem-c-feedback__prompt-content">
+    <div class="gem-c-feedback__prompt-questions js-prompt-questions" hidden>
+      <div class="gem-c-feedback__prompt-question-answer">
+        <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+        <ul class="gem-c-feedback__option-list">
+          <li class="gem-c-feedback__option-list-item govuk-visually-hidden" hidden>
+            <a class="gem-c-feedback__prompt-link" role="button" hidden="hidden" href="/contact/govuk">
+              Maybe
+</a>          </li>
+          <li class="gem-c-feedback__option-list-item">
+            <button class="govuk-button gem-c-feedback__prompt-link js-page-is-useful" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Yes","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+              Yes <span class="govuk-visually-hidden">this page is useful</span>
+</button>          </li>
+          <li class="gem-c-feedback__option-list-item">
+
+            <button class="govuk-button gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" aria-controls="page-is-not-useful" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"No","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+              No <span class="govuk-visually-hidden">this page is not useful</span>
+</button>          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gem-c-feedback__prompt-questions gem-c-feedback__prompt-success js-prompt-success" role="alert" hidden>
+      Thank you for your feedback
+    </div>
+
+    <div class="gem-c-feedback__prompt-questions gem-c-feedback__prompt-questions--something-is-wrong js-prompt-questions" hidden>
+      <button class="govuk-button gem-c-feedback__prompt-link js-toggle-form js-something-is-wrong" aria-controls="something-is-wrong" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Report a problem with this page","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+        Report a problem with this page
+</button>    </div>
+  </div>
+</div>
+
+  <form action="/contact/govuk/problem_reports"
+  id="something-is-wrong"
+  class="gem-c-feedback__form js-feedback-form"
+  method="post"
+  hidden>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-errors" tabindex="-1" hidden></div>
+
+      <input type="hidden" name="url" value="https://www.gov.uk/government/collections/expired-general-licences">
+
+      <h2 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h2>
+      <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Do not include personal or financial information like your National Insurance number or credit card details.</p>
+
+      <div class="govuk-visually-hidden" aria-hidden="true">
+        <label for="giraffe">This field is for robots only. Please leave blank</label>
+        <input id="giraffe" name="giraffe" type="text" pattern=".{0}" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="gem-c-textarea govuk-form-group govuk-!-margin-bottom-6">
+    
+  <label for="textarea-e562fdfd" class="gem-c-label govuk-label">What were you doing?</label>
+
+
+
+
+
+  <textarea name="what_doing" class="govuk-textarea" id="textarea-e562fdfd" rows="3" spellcheck="true" aria-describedby="feedback_explanation">
+</textarea>
+     
+</div>
+
+      <div class="gem-c-textarea govuk-form-group govuk-!-margin-bottom-6">
+    
+  <label for="textarea-1fc57632" class="gem-c-label govuk-label">What went wrong?</label>
+
+
+
+
+
+  <textarea name="what_wrong" class="govuk-textarea" id="textarea-1fc57632" rows="3" spellcheck="true">
+</textarea>
+     
+</div>
+
+
+      <div class="gem-c-feedback__button-wrapper">
+        
+
+  <button class="gem-c-button govuk-button govuk-!-margin-bottom-6" type="submit" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Send","section":"Help us improve GOV.UK","tool_name":"Help us improve GOV.UK"}'>Send</button>
+
+
+
+        
+
+  <button class="gem-c-button govuk-button gem-c-button--secondary-quiet govuk-!-margin-bottom-0 js-close-form" type="submit" aria-controls="something-is-wrong">Cancel</button>
+
+
+      </div>
+    </div>
+  </div>
+</form>
+
+
+ <script nonce="j7yztKfsaybb4dMUQ9N2GA==">
+//<![CDATA[
+  document.addEventListener("DOMContentLoaded", function () {
+    var input = document.querySelector("#giraffe"),
+      form = document.querySelector("#something-is-wrong")
+
+    form.addEventListener("submit", spamCapture);
+
+    function spamCapture(e) {
+      if (input.value.length !== 0) return;
+      e.preventDefault();
+    }
+  });
+
+//]]>
+</script>
+  <div id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds" id="survey-wrapper">
+      <div class="gem-c-feedback__error-summary js-errors" tabindex="-1" hidden></div>
+
+      <h2 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h2>
+      <p id="survey_explanation" class="gem-c-feedback__form-paragraph">
+        To help us improve GOV.UK, we’d like to know more about your visit today.
+        <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=no-js" class="govuk-link" target="_blank" rel="noopener noreferrer external">Please fill in this survey (opens in a new tab<noscript> and requires JavaScript</noscript>)</a>.
+      </p>
+
+      <div class="gem-c-feedback__close">
+        
+
+  <button class="gem-c-button govuk-button gem-c-button--secondary-quiet govuk-!-margin-bottom-6 js-close-form" type="submit" aria-controls="page-is-not-useful">Cancel</button>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+      </div>
+
+        <footer data-module="ga4-link-tracker" class="gem-c-layout-footer govuk-footer">
+  <div class="govuk-width-container">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 64 60"
+      height="30"
+      width="32"
+      fill="currentcolor"
+      class="govuk-footer__crown">
+      <g>
+        <circle cx="20" cy="17.6" r="3.7"></circle>
+        <circle cx="10.2" cy="23.5" r="3.7"></circle>
+        <circle cx="3.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <circle cx="43.3" cy="17.6" r="3.7"></circle>
+        <circle cx="53.2" cy="23.5" r="3.7"></circle>
+        <circle cx="59.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <path d="M33.1,9.8c.2-.1.3-.3.5-.5l4.6,2.4v-6.8l-4.6,1.5c-.1-.2-.3-.3-.5-.5l1.9-5.9h-6.7l1.9,5.9c-.2.1-.3.3-.5.5l-4.6-1.5v6.8l4.6-2.4c.1.2.3.3.5.5l-2.6,8c-.9,2.8,1.2,5.7,4.1,5.7h0c3,0,5.1-2.9,4.1-5.7l-2.6-8ZM37,37.9s-3.4,3.8-4.1,6.1c2.2,0,4.2-.5,6.4-2.8l-.7,8.5c-2-2.8-4.4-4.1-5.7-3.8.1,3.1.5,6.7,5.8,7.2,3.7.3,6.7-1.5,7-3.8.4-2.6-2-4.3-3.7-1.6-1.4-4.5,2.4-6.1,4.9-3.2-1.9-4.5-1.8-7.7,2.4-10.9,3,4,2.6,7.3-1.2,11.1,2.4-1.3,6.2,0,4,4.6-1.2-2.8-3.7-2.2-4.2.2-.3,1.7.7,3.7,3,4.2,1.9.3,4.7-.9,7-5.9-1.3,0-2.4.7-3.9,1.7l2.4-8c.6,2.3,1.4,3.7,2.2,4.5.6-1.6.5-2.8,0-5.3l5,1.8c-2.6,3.6-5.2,8.7-7.3,17.5-7.4-1.1-15.7-1.7-24.5-1.7h0c-8.8,0-17.1.6-24.5,1.7-2.1-8.9-4.7-13.9-7.3-17.5l5-1.8c-.5,2.5-.6,3.7,0,5.3.8-.8,1.6-2.3,2.2-4.5l2.4,8c-1.5-1-2.6-1.7-3.9-1.7,2.3,5,5.2,6.2,7,5.9,2.3-.4,3.3-2.4,3-4.2-.5-2.4-3-3.1-4.2-.2-2.2-4.6,1.6-6,4-4.6-3.7-3.7-4.2-7.1-1.2-11.1,4.2,3.2,4.3,6.4,2.4,10.9,2.5-2.8,6.3-1.3,4.9,3.2-1.8-2.7-4.1-1-3.7,1.6.3,2.3,3.3,4.1,7,3.8,5.4-.5,5.7-4.2,5.8-7.2-1.3-.2-3.7,1-5.7,3.8l-.7-8.5c2.2,2.3,4.2,2.7,6.4,2.8-.7-2.3-4.1-6.1-4.1-6.1h10.6,0Z"></path>
+      </g>
+    </svg>
+      <div class="govuk-footer__navigation">
+            <div class="govuk-grid-column-two-thirds govuk-!-display-none-print">
+              <h2 class="govuk-footer__heading govuk-heading-m">Services and information</h2>
+                <ul class="govuk-footer__list govuk-footer__list--columns-2">
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/benefits">Benefits</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/births-deaths-marriages">Births, death, marriages and care</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/business">Business and self-employed</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/childcare-parenting">Childcare and parenting</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/citizenship">Citizenship and living in the UK</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/justice">Crime, justice and the law</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/disabilities">Disabled people</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/driving">Driving and transport</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"9","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/education">Education and learning</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"10","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/employing-people">Employing people</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"11","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/environment-countryside">Environment and countryside</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"12","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/housing-local-services">Housing and local services</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"13","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/tax">Money and tax</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"14","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/abroad">Passports, travel and living abroad</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"15","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/visas-immigration">Visas and immigration</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"16","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/working">Working, jobs and pensions</a>
+                      </li>
+                </ul>
+            </div>
+            <div class="govuk-grid-column-one-third govuk-!-display-none-print">
+              <h2 class="govuk-footer__heading govuk-heading-m">Government activity</h2>
+                <ul class="govuk-footer__list govuk-footer__list--columns-1">
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/organisations">Departments</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/news-and-communications">News</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/guidance-and-regulation">Guidance and regulation</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/research-and-statistics">Research and statistics</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/policy-papers-and-consultations">Policy papers and consultations</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/transparency-and-freedom-of-information-releases">Transparency</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/how-government-works">How government works</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/get-involved">Get involved</a>
+                      </li>
+                </ul>
+            </div>
+      </div>
+
+      <hr class="govuk-footer__section-break govuk-!-display-none-print">
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list govuk-!-display-none-print">
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help">Help</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/privacy-notice">Privacy</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/cookies">Cookies</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/accessibility-statement">Accessibility statement</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/contact">Contact</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/terms-conditions">Terms and conditions</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" lang="cy" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/cymraeg">Rhestr o Wasanaethau Cymraeg</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/government/organisations/government-digital-service">Government Digital Service</a>
+              </li>
+          </ul>
+          <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 483.2 195.7" height="17" width="41">
+            <path
+              fill="currentColor"
+              d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145" />
+          </svg>
+          <span
+            class="govuk-footer__licence-description"
+            data-ga4-link='{"event_name":"navigation","section":"Licence","index_section":"4","index_link":"1","index_section_count":"5","text":"Open Government Licence v3.0","index_total":"1","type":"footer"}'>
+            All content is available under the <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+      </div>
+      <div
+        class="govuk-footer__meta-item"
+        data-ga4-link='{"event_name":"navigation","section":"Copyright","index_section":"5","index_link":"1","index_section_count":"5","text":"© Crown copyright","index_total":"1","type":"footer"}'>
+        <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="/assets/frontend/application-8fe64fc846ff6c349839e73b01a76d3fbc373d266f1f8ef7a9fc749440eed2b0.js" type="module"></script>
+</body></html>
