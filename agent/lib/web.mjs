@@ -165,9 +165,11 @@ async function govukSearch(source, { pages, since }) {
   return items;
 }
 
-// The address of the next, older page of a listing: the source's own "more" pattern, or the page's rel="next" link.
+// The address of the next, older page of a listing. A source can name it as "more": either a pattern with {n} for the page
+// number, or the address of an archive that carries on where the listing stops. Otherwise the page's rel="next" link is followed.
 function nextPage(source, body, current, n) {
-  if (source.more) return source.more.replace('{n}', String(n + 1));
+  if (source.more?.includes('{n}')) return source.more.replace('{n}', String(n + 1));
+  if (source.more && n === 1) return source.more;
   const tag = body.match(/<(?:a|link)\b[^>]*\brel=["']next["'][^>]*>/i)?.[0];
   const href = tag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
   if (!href) return null;

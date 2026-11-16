@@ -15,6 +15,9 @@ on:
       country:
         description: "Check one country only (uk or au). Leave empty for all."
         required: false
+      pages:
+        description: "Also read this many older listing pages per source, to preview the run of the past. Leave empty for one."
+        required: false
 
 permissions:
   contents: write
@@ -34,11 +37,13 @@ jobs:
         env:
           SINCE: ${{ inputs.since }}
           COUNTRY: ${{ inputs.country }}
+          PAGES: ${{ inputs.pages }}
           SAVE: ${{ inputs.save }}
         run: |
           args=()
           if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
           if [ -n "$COUNTRY" ]; then args+=(--country "$COUNTRY"); fi
+          if [ -n "$PAGES" ]; then args+=(--pages "$PAGES"); fi
           if [ "$SAVE" = "true" ]; then export TRACKER_RECORD=snapshot; fi
           node agent/check-sources.mjs "${args[@]}" | tee report.md || true
           cat report.md >> "$GITHUB_STEP_SUMMARY"

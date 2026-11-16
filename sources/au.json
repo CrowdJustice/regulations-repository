@@ -46,7 +46,8 @@
     "enabled": true,
     "how": "page",
     "url": "https://consultations.ag.gov.au/",
-    "match": "^https://consultations\\.ag\\.gov\\.au/[^/]+/[^/]+/?$"
+    "match": "^https://consultations\\.ag\\.gov\\.au/[^/]+/[^/]+/?$",
+    "more": "https://consultations.ag.gov.au/consultation_finder/?sort_on=iconsultable_enddate&sort_order=descending&st=closed"
   },
   {
     "id": "lsc-news",

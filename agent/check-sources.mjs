@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Reads every source that is switched on and reports what it found. No AI, so it needs no credential.
 //
-//   node agent/check-sources.mjs [--country uk] [--since YYYY-MM-DD] [--root DIR]
+//   node agent/check-sources.mjs [--country uk] [--since YYYY-MM-DD] [--pages N] [--root DIR]
 //
+// With --since and --pages it shows what the run of the past would find, without spending anything on AI.
 // Set TRACKER_RECORD to a folder to also keep a copy of every page read.
 
 import { readFile } from 'node:fs/promises';
@@ -20,7 +21,10 @@ const since = args.since ?? new Date(Date.parse(today) - cfg.window_days * 864e5
 const countries = args.country ? [args.country] : Object.keys(cfg.applies_to);
 const seen = await store.loadSeen();
 
-const lines = [`Sources checked on ${today}, looking back to ${since}.`, '', '| Source | Listed | Relevant | To read | Read | Problem |', '|---|---|---|---|---|---|'];
+const pages = Math.max(1, Number(args.pages ?? 1));
+
+const lines = [`Sources checked on ${today}, looking back to ${since}${pages > 1 ? `, reading up to ${pages} listing pages each` : ''}.`, '',
+  '| Source | Listed | Relevant | Not read before | Read now | Problem |', '|---|---|---|---|---|---|'];
 const examples = [];
 let failed = 0;
 
@@ -28,7 +32,7 @@ for (const country of countries) {
   for (const source of (await store.loadSources(country)).filter((s) => s.enabled)) {
     let found;
     try {
-      found = await newItems(source, { seen, since, max: cfg.max_items_per_source });
+      found = await newItems(source, { seen, since, max: cfg.max_items_per_source, pages });
     } catch (error) {
       failed++;
       lines.push(`| ${source.id} | | | | | Could not read the listing: ${error.message} |`);
@@ -46,7 +50,7 @@ for (const country of countries) {
     }
     if (found.listed === 0) problems.unshift('The listing has no items; the address or pattern may be wrong');
     if (problems.length) failed++;
-    lines.push(`| ${source.id} | ${found.listed} | ${found.matched} | ${found.batch.length} | ${read} | ${problems.join('; ')} |`);
+    lines.push(`| ${source.id} | ${found.listed} | ${found.matched} | ${found.fresh} | ${read} | ${problems.join('; ')} |`);
     for (const item of found.batch.slice(-3)) examples.push(`- ${source.id}: ${item.title || item.url}${item.date ? ` (${item.date})` : ''}`);
   }
 }
