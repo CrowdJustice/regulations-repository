@@ -40,6 +40,7 @@ jobs:
           if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
           if [ -n "$COUNTRY" ]; then args+=(--country "$COUNTRY"); fi
           if [ "$SAVE" = "true" ]; then export TRACKER_RECORD=snapshot; fi
+          if [ "$COUNTRY" = "diagnose" ]; then bash agent/diagnose.sh; exit 0; fi
           node agent/check-sources.mjs "${args[@]}" | tee report.md || true
           cat report.md >> "$GITHUB_STEP_SUMMARY"
 
