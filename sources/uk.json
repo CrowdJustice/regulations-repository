@@ -1,0 +1,73 @@
+[
+  {
+    "id": "sra-news",
+    "regulator": "SRA",
+    "covers": "SRA announcements: new rules, decisions and warnings",
+    "enabled": true,
+    "how": "page",
+    "url": "https://www.sra.org.uk/news/news/",
+    "match": "^https://www\\.sra\\.org\\.uk/news/news/.+"
+  },
+  {
+    "id": "sra-consultations",
+    "regulator": "SRA",
+    "covers": "SRA consultations, open and closed",
+    "enabled": true,
+    "how": "page",
+    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/",
+    "match": "^https://www\\.sra\\.org\\.uk/sra/consultations/consultation-listing/.+"
+  },
+  {
+    "id": "lsb-news",
+    "regulator": "Legal Services Board",
+    "covers": "Approvals that turn into SRA, CLC and CILEx rules",
+    "enabled": true,
+    "how": "feed",
+    "url": "https://legalservicesboard.org.uk/feed"
+  },
+  {
+    "id": "hmt-aml",
+    "regulator": "HM Treasury",
+    "covers": "Money Laundering Regulations and AML supervision",
+    "enabled": true,
+    "how": "govuk",
+    "organisation": "hm-treasury",
+    "query": "money laundering"
+  },
+  {
+    "id": "companies-house",
+    "regulator": "Companies House",
+    "covers": "Identity verification and register changes",
+    "enabled": true,
+    "how": "govuk",
+    "organisation": "companies-house",
+    "keywords": ["identity", "verification", "register", "economic crime", "transparency"]
+  },
+  {
+    "id": "ofsi",
+    "regulator": "OFSI",
+    "covers": "Financial sanctions rules and guidance",
+    "enabled": true,
+    "how": "govuk",
+    "organisation": "office-of-financial-sanctions-implementation",
+    "keywords": ["legal", "guidance", "licen", "reporting", "regulations"]
+  },
+  {
+    "id": "legislation-new",
+    "regulator": "legislation.gov.uk",
+    "covers": "New UK legislation that touches law firms",
+    "enabled": true,
+    "how": "feed",
+    "url": "https://www.legislation.gov.uk/new/data.feed",
+    "keywords": ["money laundering", "legal services", "solicitor", "economic crime", "sanctions", "terrorist financing", "data protection"]
+  },
+  {
+    "id": "fca-news",
+    "regulator": "FCA",
+    "covers": "AML supervision of professional services, which is moving to the FCA",
+    "enabled": false,
+    "how": "feed",
+    "url": "https://www.fca.org.uk/news/rss.xml",
+    "keywords": ["money laundering", "professional services", "legal"]
+  }
+]

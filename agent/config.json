@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "window_days": 60,
+  "max_items_per_source": 15,
+  "limits": {
+    "title": 80,
+    "summary": 240,
+    "what_changes_max_items": 4,
+    "what_changes_item": 150,
+    "who_it_applies_to": 180,
+    "in_force_text": 30,
+    "history_event": 120,
+    "history_max_items": 12
+  },
+  "topics": [
+    "AML and ID checks",
+    "Client money",
+    "Complaints",
+    "Consumer claims",
+    "Costs and billing",
+    "Cyber security",
+    "Firm management",
+    "Fraud and economic crime",
+    "Privacy and data",
+    "Sanctions",
+    "Technology and AI",
+    "Other"
+  ],
+  "applies_to": {
+    "uk": {
+      "all": {
+        "label": "All firms",
+        "means": "every regulated law firm"
+      },
+      "money": {
+        "label": "Firms holding client money",
+        "chip": "Hold client money",
+        "means": "the firm holds client money"
+      },
+      "aml": {
+        "label": "AML-regulated work",
+        "chip": "Do AML-regulated work",
+        "means": "the firm does work in scope of the Money Laundering Regulations"
+      },
+      "corporate": {
+        "label": "Corporate work",
+        "chip": "Act for companies",
+        "means": "the firm acts for companies"
+      },
+      "claims": {
+        "label": "Consumer claims",
+        "chip": "Run consumer claims",
+        "means": "the firm runs consumer claims"
+      },
+      "large": {
+        "label": "Large firms",
+        "chip": "Have 250+ staff",
+        "means": "250+ staff, or other large-organisation thresholds"
+      }
+    },
+    "au": {
+      "all": {
+        "label": "All firms",
+        "means": "every regulated law practice"
+      },
+      "designated": {
+        "label": "Property, trust or company work",
+        "chip": "Do property, trust or company work",
+        "means": "the firm provides AML/CTF designated services"
+      },
+      "trust": {
+        "label": "Firms holding trust money",
+        "chip": "Hold trust money",
+        "means": "the firm holds trust money"
+      },
+      "uniform": {
+        "label": "NSW, Victoria and WA",
+        "chip": "Practise in NSW, Victoria or WA",
+        "means": "the firm practises in a Uniform Law state"
+      },
+      "turnover": {
+        "label": "Turnover over $3m",
+        "chip": "Turn over more than $3m",
+        "means": "annual turnover above $3m"
+      }
+    }
+  }
+}

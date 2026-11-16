@@ -1,0 +1,45 @@
+name: Admin action
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "revert = undo the last change to it. archive = remove it from the page. restore = show it again."
+        type: choice
+        options: [revert, archive, restore]
+        required: true
+      id:
+        description: "The change id, for example uk-sra-client-money-reports"
+        required: true
+      reason:
+        description: "Why (optional). The assistant reads this and follows it."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Apply
+        env:
+          COMMAND: ${{ inputs.command }}
+          ID: ${{ inputs.id }}
+          REASON: ${{ inputs.reason }}
+        run: |
+          git config user.name "regulation-tracker"
+          git config user.email "regulation-tracker@users.noreply.github.com"
+          node agent/admin.mjs "$COMMAND" "$ID" --reason "$REASON" --commit
+          git push

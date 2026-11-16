@@ -1,0 +1,78 @@
+name: Daily check
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # every day at 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Look back to this date (YYYY-MM-DD). Leave empty for the default."
+        required: false
+      source:
+        description: "Only check this source id. Leave empty for all sources."
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tracker
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HAS_AI: ${{ secrets.ANTHROPIC_API_KEY != '' || secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+    steps:
+      - name: Skip when no AI credential is set
+        if: env.HAS_AI != 'true'
+        run: echo "::notice::No AI credential is set for this repository, so the assistant did not run. Add ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN as a secret."
+
+      - uses: actions/checkout@v4
+        if: env.HAS_AI == 'true'
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        if: env.HAS_AI == 'true'
+        with:
+          node-version: 22
+
+      - name: Install Claude Code
+        if: env.HAS_AI == 'true'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the assistant
+        if: env.HAS_AI == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SINCE: ${{ inputs.since }}
+          SOURCE: ${{ inputs.source }}
+        run: |
+          # Use whichever sign-in is set. An empty value would hide the other one.
+          [ -z "$ANTHROPIC_API_KEY" ] && unset ANTHROPIC_API_KEY
+          [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && unset CLAUDE_CODE_OAUTH_TOKEN
+          git config user.name "regulation-tracker"
+          git config user.email "regulation-tracker@users.noreply.github.com"
+          args=(--commit)
+          if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
+          if [ -n "$SOURCE" ]; then args+=(--source "$SOURCE"); fi
+          # On Mondays, also re-read the source of every change that is still moving.
+          if [ "$(date -u +%u)" = "1" ]; then args+=(--recheck); fi
+          node agent/run.mjs "${args[@]}"
+
+      - name: Save the changes
+        if: always() && env.HAS_AI == 'true'
+        run: git push
+
+      - name: Notify the admin
+        if: always() && env.HAS_AI == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s digest.md ]; then
+            gh issue create --title "Tracker update, $(date -u +'%-d %b %Y')" --body-file digest.md
+          fi

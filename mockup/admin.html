@@ -1,0 +1,666 @@
+<title>Regulation tracker admin</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: one calm column. A one-line status (what needs you) → three text tabs (Activity, Changes, Sources) → rows separated by lines → an edit drawer and an undo toast. Same tokens as the public tracker. */
+:root {
+  --page: #F7F8FA;
+  --card: #FFFFFF;
+  --sunk: #EEF0F3;
+  --line: #E5E7EB;
+  --line-strong: #CDD2D9;
+  --ink: #1B1B1B;
+  --body: #3F444B;
+  --muted: #6B7280;
+  --green: #018568;
+  --green-mid: #01B890;
+  --green-surface: #E6F8F4;
+  --amber: #8A5C00;
+  --amber-surface: #FFF3D6;
+  --indigo: #4F46E5;
+  --indigo-surface: #EFEEFF;
+  --red: #B42318;
+  --red-surface: #FDECEA;
+  --btn: #1B1B1B;
+  --btn-ink: #FFFFFF;
+  --logo: #01B88E;
+  --scrim: rgba(17, 18, 19, 0.35);
+  --float: 0 12px 32px rgba(16, 24, 40, 0.14), 0 2px 6px rgba(16, 24, 40, 0.06);
+  --font: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #111213;
+    --card: #1A1C1F;
+    --sunk: #23262A;
+    --line: #2B2E33;
+    --line-strong: #3E4248;
+    --ink: #F2F2F2;
+    --body: #CDD0D5;
+    --muted: #9AA0A8;
+    --green: #4DCDB1;
+    --green-mid: #01B890;
+    --green-surface: #12302A;
+    --amber: #F0C060;
+    --amber-surface: #33280F;
+    --indigo: #A7A3F2;
+    --indigo-surface: #24213F;
+    --red: #FF9B8F;
+    --red-surface: #3A1714;
+    --btn: #F2F2F2;
+    --btn-ink: #111213;
+    --logo: #FFFFFF;
+    --scrim: rgba(0, 0, 0, 0.55);
+    --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #111213;
+  --card: #1A1C1F;
+  --sunk: #23262A;
+  --line: #2B2E33;
+  --line-strong: #3E4248;
+  --ink: #F2F2F2;
+  --body: #CDD0D5;
+  --muted: #9AA0A8;
+  --green: #4DCDB1;
+  --green-mid: #01B890;
+  --green-surface: #12302A;
+  --amber: #F0C060;
+  --amber-surface: #33280F;
+  --indigo: #A7A3F2;
+  --indigo-surface: #24213F;
+  --red: #FF9B8F;
+  --red-surface: #3A1714;
+  --btn: #F2F2F2;
+  --btn-ink: #111213;
+  --logo: #FFFFFF;
+  --scrim: rgba(0, 0, 0, 0.55);
+  --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--page); color: var(--body); font-family: var(--font); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+body.locked { overflow: hidden; }
+h1, h2, h3, h4 { color: var(--ink); font-weight: 600; margin: 0; letter-spacing: -0.02em; line-height: 1.2; text-wrap: balance; }
+p { margin: 0; }
+a { color: var(--green); text-underline-offset: 3px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--green-mid); outline-offset: 2px; }
+.wrap { max-width: 920px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+
+/* Nav */
+.nav .wrap { max-width: 1120px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 500; min-width: 0; }
+.brand svg { width: 44px; height: auto; color: var(--logo); flex: none; }
+.brand .sep { width: 1px; height: 18px; background: var(--line-strong); flex: none; }
+.brand .name { white-space: nowrap; }
+.tagline { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.country { position: relative; }
+.country-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px 7px 10px; font-size: 14px; font-weight: 500; color: var(--ink); white-space: nowrap; }
+.country-btn svg { width: 16px; height: 16px; color: var(--muted); }
+.country-menu { position: absolute; right: 0; top: calc(100% + 8px); background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--float); padding: 6px; min-width: 200px; z-index: 30; }
+.country-menu button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 10px; text-align: left; background: transparent; border: 0; border-radius: 8px; padding: 9px 10px; font-size: 15px; color: var(--ink); }
+.country-menu button:hover { background: var(--sunk); }
+.country-menu .tick { width: 16px; height: 16px; color: var(--green); }
+
+/* Status */
+.status { padding-block: 40px 28px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; }
+.status h1 { font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.03em; }
+.status p { margin-top: 6px; color: var(--muted); font-size: 15px; }
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: 6px; border-radius: 6px; padding: 7px 12px; font-size: 14px; font-weight: 500; border: 1px solid var(--line-strong); background: var(--card); color: var(--ink); white-space: nowrap; text-decoration: none; }
+.btn:hover { border-color: var(--ink); }
+.btn-dark { background: var(--btn); border-color: var(--btn); color: var(--btn-ink); }
+.btn-dark:hover { opacity: 0.88; }
+.btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+.link { background: none; border: 0; padding: 0; font-size: 14px; color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Tabs */
+.tabs { display: flex; gap: 24px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 0 11px; margin-bottom: -1px; font-size: 15px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tabs button:hover { color: var(--ink); }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.count { display: inline-block; min-width: 18px; margin-left: 6px; padding: 0 5px; border-radius: 999px; background: var(--amber-surface); color: var(--amber); font-size: 12px; font-weight: 600; text-align: center; }
+
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; padding-block: 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 5px 12px; font-size: 14px; color: var(--body); }
+.chip:hover { border-color: var(--line-strong); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
+.search { position: relative; flex: 0 1 280px; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--muted); }
+.search input { width: 100%; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 7px 14px 7px 34px; font-size: 14px; color: var(--ink); }
+.search input:focus { outline: none; border-color: var(--line-strong); }
+
+/* Rows */
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+.day { padding: 10px 22px; font-size: 12px; color: var(--muted); background: var(--page); border-bottom: 1px solid var(--line); font-family: var(--mono); }
+.row { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: 16px; padding: 16px 22px; align-items: start; border-bottom: 1px solid var(--line); }
+.row:last-child { border-bottom: 0; }
+.row.done .main, .row.done .pill { opacity: 0.55; }
+.main { display: grid; gap: 3px; min-width: 0; }
+.main h3 { font-size: 16px; font-weight: 600; line-height: 1.35; }
+.main p { font-size: 14px; color: var(--muted); }
+.main .result { font-size: 14px; color: var(--ink); font-weight: 500; }
+.acts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px; white-space: nowrap; justify-self: start; margin-top: 2px; }
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill.needs, .pill.proposed { background: var(--amber-surface); color: var(--amber); }
+.pill.new, .pill.in_force { background: var(--green-surface); color: var(--green); }
+.pill.updated, .pill.decided { background: var(--indigo-surface); color: var(--indigo); }
+.pill.ignored, .pill.guidance, .pill.archived { background: var(--sunk); color: var(--muted); }
+.pill.problem { background: var(--red-surface); color: var(--red); }
+.quiet { padding: 16px 22px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.empty { padding: 40px 22px; text-align: center; color: var(--muted); font-size: 15px; }
+
+/* Sources */
+.switch { position: relative; width: 38px; height: 22px; border-radius: 999px; border: 0; background: var(--line-strong); flex: none; padding: 0; }
+.switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--card); transition: transform .15s ease; }
+.switch[aria-checked="true"] { background: var(--green-mid); }
+.switch[aria-checked="true"]::after { transform: translateX(16px); }
+.health { font-size: 13px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+.health i { width: 7px; height: 7px; border-radius: 50%; background: var(--green-mid); }
+.health.bad { color: var(--red); }
+.health.bad i { background: var(--red); }
+.health.off i { background: var(--line-strong); }
+.src-row { grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; }
+.addr { font-family: var(--mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.add-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) auto auto; gap: 8px; padding: 16px 22px; border-bottom: 1px solid var(--line); background: var(--page); }
+
+/* Forms */
+.field { display: grid; gap: 6px; }
+.field label, .field .lab { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); }
+.field .n { font-family: var(--mono); font-size: 12px; }
+.field .n.over { color: var(--red); font-weight: 600; }
+.input, .field textarea, .field select { width: 100%; border: 1px solid var(--line-strong); background: var(--card); border-radius: 8px; padding: 9px 11px; font-size: 15px; color: var(--ink); }
+.field textarea { resize: vertical; min-height: 84px; line-height: 1.45; }
+.input:focus, .field textarea:focus, .field select:focus { outline: none; border-color: var(--ink); }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.three { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.point { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+.icon-btn { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); display: grid; place-items: center; color: var(--muted); }
+.icon-btn:hover { color: var(--ink); border-color: var(--ink); }
+.icon-btn svg { width: 14px; height: 14px; }
+
+/* Drawer */
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(580px, 100%); background: var(--card); z-index: 41; box-shadow: var(--float); display: flex; flex-direction: column; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.drawer-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+.drawer-bar span { font-size: 13px; color: var(--muted); }
+.drawer-body { overflow-y: auto; padding: 22px 24px; display: grid; gap: 18px; align-content: start; flex: 1; }
+.drawer-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 20px; border-top: 1px solid var(--line); }
+.drawer-foot .right { display: flex; gap: 8px; }
+.sub-h { font-size: 12px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 400; }
+.hist { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 14px; }
+.hist time { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-right: 8px; }
+.note { background: var(--sunk); border-radius: 10px; padding: 10px 12px; font-size: 14px; color: var(--ink); }
+
+/* Toast */
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--btn); color: var(--btn-ink); border-radius: 10px; padding: 11px 14px; font-size: 14px; display: flex; align-items: center; gap: 14px; box-shadow: var(--float); z-index: 60; max-width: calc(100% - 32px); }
+.toast button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+footer { padding-block: 32px 48px; font-size: 13px; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .brand .name, .brand .sep { display: none; }
+  .tagline { font-size: 11px; padding: 2px 7px; }
+  .country-btn { padding: 6px 10px; gap: 6px; }
+  .country-btn svg:first-child { display: none; }
+  .status { padding-block: 28px 20px; }
+  .row { grid-template-columns: 1fr; gap: 8px; padding: 16px; }
+  .acts { justify-content: flex-start; }
+  .src-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .src-row .health { grid-column: 1; grid-row: 2; }
+  .add-form { grid-template-columns: 1fr; padding: 16px; }
+  .day, .quiet { padding-inline: 16px; }
+  .search { flex: 1 1 100%; }
+  .two, .three { grid-template-columns: 1fr; }
+  .drawer-body { padding: 18px 16px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .drawer { animation: slide .22s ease-out; }
+  @keyframes slide { from { transform: translateX(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 268 151" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Legl">
+        <path d="M137.239 97.061C138.113 94.4298 134.62 90.483 132.291 91.7986C128.653 93.8451 116.719 100.131 106.968 100.131C97.0716 100.131 92.1234 96.9148 89.6493 94.2836C88.7761 93.2604 88.0485 92.091 87.3208 90.6292C86.7387 89.0213 86.302 87.2672 86.011 85.2207L140.15 85.2207C140.15 85.2207 140.441 80.6892 140.441 77.0348C140.441 54.6699 124.869 39.6137 102.311 39.6137C79.753 39.6137 61.27 54.0852 61.27 79.3736C61.27 83.1742 61.7066 86.8286 62.4343 90.0445C67.6736 106.562 83.1003 118.549 101.292 118.549C116.864 118.549 130.254 109.778 137.239 97.061ZM101.874 55.8393C112.207 55.8393 117.301 64.1713 117.447 71.1878L86.011 71.1878C86.4476 63.879 91.6868 55.8393 101.874 55.8393Z" fill="currentColor"/>
+        <path d="M231.837 39.9061C231.837 39.029 231.109 38.2982 230.236 38.2982C221.795 38.2982 213.936 40.9293 207.533 45.607C207.096 45.8993 206.805 46.3378 206.805 46.9225L206.805 54.3775C202.73 49.2614 195.599 43.5605 183.083 43.5605C164.454 43.5605 147.136 56.5702 147.136 81.274C147.136 105.978 164.454 118.987 183.083 118.987C195.017 118.987 202.439 114.164 206.951 108.17L207.242 108.17L207.242 110.655C207.242 117.526 205.204 122.934 202.585 125.858C199.965 128.635 194.871 131.851 184.684 131.851C174.496 131.851 162.271 125.273 158.487 123.227C154.995 121.326 152.229 129.512 153.394 131.412C160.962 143.545 174.351 151 189.341 151C189.632 151 189.923 151 190.214 151C194.144 150.708 197.782 150.123 200.984 149.392C214.518 145.591 225.288 135.359 229.945 122.057C231.109 117.526 231.692 112.263 231.692 105.978L231.692 48.969L231.837 39.9061ZM190.214 99.9845C179.299 99.9845 172.313 91.9448 172.313 81.4201C172.313 71.0416 179.299 63.0019 190.214 63.0019C201.129 63.0019 207.969 71.0416 207.969 81.4201C207.969 91.9448 201.129 99.9845 190.214 99.9845Z" fill="currentColor"/>
+        <path d="M265.747 6.4364e-08C256.724 4.1163e-08 248.428 2.77735 241.588 7.60116C241.151 7.89351 240.715 8.47822 240.715 8.91675L240.715 117.672C240.715 118.549 241.443 119.28 242.461 119.28C251.484 119.28 259.925 116.502 266.766 111.679C267.202 111.386 267.493 110.802 267.493 110.363L267.493 1.60794C267.493 0.730881 266.766 6.69834e-08 265.747 6.4364e-08Z" fill="currentColor"/>
+        <path d="M55.7399 96.4763C55.5944 96.184 55.1578 96.0378 54.8667 96.0378L25.032 96.0378L25.032 95.8916L25.032 10.9632C25.032 10.2324 24.4499 9.50148 23.5767 9.64766C3.92945 9.79384 0 19.5876 0 19.5876L0.145535 19.5876L0 19.5876L0 110.363C0 113.871 2.9107 116.795 6.40354 116.795L60.397 116.649C61.1247 116.649 61.7068 116.064 61.7068 115.333C61.7068 108.317 59.5238 101.739 55.7399 96.4763Z" fill="currentColor"/>
+      </svg>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="name">Regulation tracker</span>
+      <span class="tagline">Admin · sample data</span>
+    </div>
+    <div class="country">
+      <button type="button" class="country-btn" id="country-btn" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></svg>
+        <span id="country-name">United Kingdom</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="country-menu" id="country-menu" role="menu" hidden>
+        <button type="button" role="menuitemradio" data-country="uk">United Kingdom<svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+        <button type="button" role="menuitemradio" data-country="au">Australia<svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="status">
+    <div>
+      <h1 id="headline"></h1>
+      <p id="subline"></p>
+    </div>
+    <button type="button" class="btn" id="run-now">Run a check now</button>
+  </section>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div id="view"></div>
+</main>
+
+<footer><div class="wrap">Every action here is saved as a dated change in the repository and can be undone.</div></footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden></aside>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var STAGE = { proposed: 'Proposed', decided: 'Decided', in_force: 'In force', guidance: 'Guidance' };
+  var LIMITS = { title: 80, summary: 240, points: 4, point: 150, who: 180 };
+  var TOPICS = ['AML and ID checks', 'Client money', 'Complaints', 'Consumer claims', 'Costs and billing', 'Cyber security', 'Firm management', 'Fraud and economic crime', 'Privacy and data', 'Sanctions', 'Technology and AI', 'Other'];
+  var COUNTRY = {
+    uk: { name: 'United Kingdom', applies: { all: 'All firms', money: 'Firms holding client money', aml: 'AML-regulated work', corporate: 'Corporate work', claims: 'Consumer claims', large: 'Large firms' } },
+    au: { name: 'Australia', applies: { all: 'All firms', designated: 'Property, trust or company work', trust: 'Firms holding trust money', uniform: 'NSW, Victoria and WA', turnover: 'Turnover over $3m' } }
+  };
+
+  /* Sample data, in the same shape as the repository. */
+  var RECORDS = [
+    { id: 'uk-sra-client-money-reports', country: 'uk', status: 'live', regulator: 'SRA', topic: 'Client money', stage: 'decided', updated: '2026-11-16',
+      title: 'Annual accountants’ reports for every firm holding client money',
+      summary: 'Every firm that holds client money must file an accountants’ report each year. Larger firms must separate compliance officer roles from the person running the firm.',
+      what_changes: ['An accountants’ report and firm declaration every year, whether qualified or not.', 'Firms over £600,000 turnover or holding over £2m client money cannot have a sole decision-maker who is also COLP or COFA.', 'Fixed penalties for late or missing reports from April 2027.'],
+      applies_to: ['money'], who_it_applies_to: 'All SRA-regulated firms that hold client money. The COLP/COFA rules apply above £600,000 turnover or £2m client money.',
+      dates: { proposed: '2024-11', decided: '2026-07-31', in_force: '2027-01' }, source: 'https://www.sra.org.uk/news/news/press/safeguards-protect-client-money',
+      history: [['2024-11', 'Consultation opened.'], ['2026-06-02', 'SRA confirmed it will go ahead.'], ['2026-07-31', 'Final rules approved; start expected early 2027.']], admin_notes: [] },
+    { id: 'uk-sra-ai-warning-notice', country: 'uk', status: 'live', regulator: 'SRA', topic: 'Technology and AI', stage: 'guidance', updated: '2026-11-16',
+      title: 'Warning notice on the misuse of AI', summary: 'The SRA has issued a warning notice on how solicitors and firms use AI in legal work.',
+      what_changes: ['Sets out the SRA’s concerns about AI being misused in legal services.', 'Warning notices explain how the SRA expects firms to act. They are not new rules, but the SRA can take them into account.'],
+      applies_to: ['all'], who_it_applies_to: 'All SRA-regulated solicitors and firms.', dates: { published: '2026-08-17' }, source: 'https://www.sra.org.uk/solicitors/guidance/topic/all-topics/',
+      history: [['2026-08-17', 'Warning notice issued.']], admin_notes: [] },
+    { id: 'uk-sra-complaints-updates', country: 'uk', status: 'live', regulator: 'SRA', topic: 'Complaints', stage: 'proposed', updated: '2026-11-14',
+      title: 'Clients to get a complaints timeline and regular updates', summary: 'The SRA proposes that clients get a timeline for resolution when they first complain, then regular progress updates.',
+      what_changes: ['A timeline for resolving the complaint when it is first made.', 'Regular updates while the complaint is open.'],
+      applies_to: ['all'], who_it_applies_to: 'All SRA-regulated firms.', dates: { proposed: '2026-07-03' }, source: 'https://www.sra.org.uk/news/news/press/first-tier-complaints-consultation-2026',
+      history: [['2026-07-03', 'Consultation opened.']], admin_notes: [] },
+    { id: 'uk-hmt-money-laundering-regulations', country: 'uk', status: 'live', regulator: 'HM Treasury', topic: 'AML and ID checks', stage: 'in_force', updated: '2026-06-30',
+      title: 'Money Laundering Regulations updated', summary: 'Amendments to the Money Laundering Regulations took effect on 30 June 2026. Firms should now be working from updated policies, risk assessments and training.',
+      what_changes: ['Most of the amendments came into force on 30 June 2026.', 'They aim to make customer due diligence more proportionate and risk-based.', 'A few cryptoasset provisions start later, in 2027.'],
+      applies_to: ['aml'], who_it_applies_to: 'Firms doing work in scope of the Money Laundering Regulations, such as conveyancing, trusts, company formation and tax advice.',
+      dates: { proposed: '2025-09-02', decided: '2026-06-09', in_force: '2026-06-30' }, source: 'https://www.legislation.gov.uk/ukdsi/2026/9780348281743',
+      history: [['2025-09-02', 'Draft regulations published.'], ['2026-06-09', 'Regulations made.'], ['2026-06-30', 'Came into force.']], admin_notes: [] },
+    { id: 'uk-hmt-fca-aml-supervisor', country: 'uk', status: 'live', regulator: 'HM Treasury', topic: 'AML and ID checks', stage: 'decided', updated: '2025-10-21',
+      title: 'The FCA will supervise law firms for AML', summary: 'The SRA and other professional bodies will stop supervising AML. The FCA takes over once new legislation passes.',
+      what_changes: ['The FCA becomes the single AML supervisor for legal and accountancy firms.', 'Needs new legislation, funding and a transition plan first.'],
+      applies_to: ['aml'], who_it_applies_to: 'Every firm supervised for AML by the SRA, CLC, CILEx Regulation or the Scottish and Northern Ireland law societies.',
+      dates: { proposed: '2023-06', decided: '2025-10-21', in_force: '2029' }, source: 'https://www.sra.org.uk/news/news/sra-update-145-aml-supervision-change/',
+      history: [['2023-06', 'Government consulted on reform.'], ['2025-10-21', 'Government confirmed the FCA as single supervisor.']], admin_notes: [] },
+    { id: 'uk-home-office-failure-to-prevent-fraud', country: 'uk', status: 'archived', regulator: 'Home Office', topic: 'Fraud and economic crime', stage: 'in_force', updated: '2026-11-10',
+      title: 'Failure to prevent fraud is now an offence', summary: 'Large organisations can be prosecuted if someone working for them commits fraud to benefit the organisation.',
+      what_changes: ['A new corporate offence under the Economic Crime and Corporate Transparency Act 2023.', 'Applies to organisations meeting two of: 250+ staff, £36m+ turnover, £18m+ total assets.'],
+      applies_to: ['large'], who_it_applies_to: 'Large law firms, and many of their corporate clients.', dates: { proposed: '2023-10', decided: '2024-11-06', in_force: '2025-09-01' }, source: 'https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta',
+      history: [['2025-09-01', 'Came into force.']], admin_notes: ['An admin archived this change on 2026-11-10. Reason: only relevant to very large firms.'] }
+  ];
+
+  var ACTIVITY = [
+    { id: 'a1', country: 'uk', day: '2026-11-16', kind: 'needs', title: 'LSB approves SRA client money rule changes', detail: 'Held: possible duplicate of “Annual accountants’ reports for every firm holding client money”.', url: 'https://legalservicesboard.org.uk/' },
+    { id: 'a2', country: 'uk', day: '2026-11-16', kind: 'updated', record: 'uk-sra-client-money-reports', title: 'Annual accountants’ reports for every firm holding client money', detail: 'Stage: Proposed → Decided. Start date: early 2027.', url: 'https://www.sra.org.uk/news/news/press/safeguards-protect-client-money' },
+    { id: 'a3', country: 'uk', day: '2026-11-16', kind: 'new', record: 'uk-sra-ai-warning-notice', title: 'Warning notice on the misuse of AI', detail: 'SRA · Guidance · applies to all firms.', url: 'https://www.sra.org.uk/solicitors/guidance/topic/all-topics/' },
+    { id: 'a4', country: 'uk', day: '2026-11-16', kind: 'ignored', title: 'Solicitor fined for breaching the Accounts Rules', detail: 'Enforcement against a named person. No rule changed.', url: 'https://www.sra.org.uk/news/news/' },
+    { id: 'a5', country: 'uk', day: '2026-11-16', kind: 'ignored', title: 'Reminder: complaints consultation closes soon', detail: 'A reminder. It adds no new fact to the existing change.', url: 'https://www.sra.org.uk/news/news/' },
+    { id: 'a6', country: 'uk', day: '2026-11-16', kind: 'ignored', title: 'SRA publishes its annual report', detail: 'An annual report. It does not change how firms must operate.', url: 'https://www.sra.org.uk/news/news/' },
+    { id: 'a7', country: 'uk', day: '2026-11-16', kind: 'problem', title: 'Legal Services Board feed could not be read', detail: 'Timed out, for the second day running.', source: 'lsb-news' },
+    { id: 'a8', country: 'uk', day: '2026-11-15', kind: 'quiet', detail: 'Nothing new. 41 pages listed, all seen before.' },
+    { id: 'a9', country: 'uk', day: '2026-11-14', kind: 'new', record: 'uk-sra-complaints-updates', title: 'Clients to get a complaints timeline and regular updates', detail: 'SRA · Proposed · applies to all firms.', url: 'https://www.sra.org.uk/news/news/press/first-tier-complaints-consultation-2026' },
+    { id: 'a10', country: 'uk', day: '2026-11-14', kind: 'ignored', title: 'New chair appointed to the SRA Board', detail: 'An appointment. No rule changed.', url: 'https://www.sra.org.uk/news/news/' }
+  ];
+
+  var SOURCES = [
+    { id: 'sra-news', country: 'uk', name: 'SRA', covers: 'Announcements: new rules, decisions and warnings', url: 'https://www.sra.org.uk/news/news/', on: true, health: 'Read today' },
+    { id: 'sra-consultations', country: 'uk', name: 'SRA', covers: 'Consultations, open and closed', url: 'https://www.sra.org.uk/sra/consultations/consultation-listing/', on: true, health: 'Read today' },
+    { id: 'lsb-news', country: 'uk', name: 'Legal Services Board', covers: 'Approvals that turn into SRA, CLC and CILEx rules', url: 'https://legalservicesboard.org.uk/feed', on: true, health: 'Failing for 2 days', bad: true },
+    { id: 'hmt-aml', country: 'uk', name: 'HM Treasury', covers: 'Money Laundering Regulations and AML supervision', url: 'GOV.UK search: hm-treasury, “money laundering”', on: true, health: 'Read today' },
+    { id: 'companies-house', country: 'uk', name: 'Companies House', covers: 'Identity verification and register changes', url: 'GOV.UK search: companies-house', on: true, health: 'Read today' },
+    { id: 'ofsi', country: 'uk', name: 'OFSI', covers: 'Financial sanctions rules and guidance', url: 'GOV.UK search: office-of-financial-sanctions-implementation', on: true, health: 'Read today' },
+    { id: 'legislation-new', country: 'uk', name: 'legislation.gov.uk', covers: 'New UK legislation that touches law firms', url: 'https://www.legislation.gov.uk/new/data.feed', on: true, health: 'Read today' },
+    { id: 'fca-news', country: 'uk', name: 'FCA', covers: 'AML supervision of professional services', url: 'https://www.fca.org.uk/news/rss.xml', on: false, health: 'Off' },
+    { id: 'austrac-guidance', country: 'au', name: 'AUSTRAC', covers: 'AML/CTF rules and Tranche 2 guidance for lawyers', url: 'https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/latest-guidance-updates', on: false, health: 'Off' },
+    { id: 'lsc-consultations', country: 'au', name: 'Legal Services Council', covers: 'Uniform Law rules for NSW, Victoria and WA', url: 'https://legalservicescouncil.org.au/consultations/current-consultations.html', on: false, health: 'Off' },
+    { id: 'oaic-consultations', country: 'au', name: 'OAIC', covers: 'Privacy Act changes and guidance', url: 'https://www.oaic.gov.au/engage-with-us/consultations', on: false, health: 'Off' }
+  ];
+
+  var TODAY = '2026-11-16';
+  var state = { c: 'uk', tab: 'activity', filter: 'all', q: '', show: 'live', adding: false, draft: null, lastFocus: null };
+  var toastTimer = null;
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]; }); }
+  function fmt(d) {
+    var p = d.split('-');
+    if (p.length === 1) return p[0];
+    if (p.length === 2) return MONTHS[+p[1] - 1] + ' ' + p[0];
+    return (+p[2]) + ' ' + MONTHS[+p[1] - 1] + ' ' + p[0];
+  }
+  function dayLabel(d) {
+    var diff = Math.round((Date.parse(TODAY) - Date.parse(d)) / 864e5);
+    if (diff === 0) return 'Today, 06:17';
+    if (diff === 1) return 'Yesterday, 06:17';
+    var date = new Date(d + 'T00:00:00Z');
+    return DAYS[date.getUTCDay()] + ' ' + date.getUTCDate() + ' ' + MONTHS[date.getUTCMonth()] + ', 06:17';
+  }
+  function record(id) { return RECORDS.filter(function (r) { return r.id === id; })[0]; }
+  function activity() { return ACTIVITY.filter(function (a) { return a.country === state.c; }); }
+  function open(a) { return !a.done; }
+  function needsCount() { return activity().filter(function (a) { return a.kind === 'needs' && open(a); }).length; }
+
+  /* Header */
+  function renderHead() {
+    $('country-name').textContent = COUNTRY[state.c].name;
+    document.querySelectorAll('[data-country]').forEach(function (b) {
+      b.querySelector('.tick').style.visibility = b.getAttribute('data-country') === state.c ? 'visible' : 'hidden';
+    });
+    var acts = activity();
+    var needs = needsCount();
+    if (!acts.length) {
+      $('headline').textContent = COUNTRY[state.c].name + ' isn’t switched on yet';
+      $('subline').textContent = 'Turn on a source in the Sources tab to start.';
+    } else {
+      $('headline').textContent = needs ? needs + (needs === 1 ? ' change needs' : ' changes need') + ' your decision' : 'Nothing needs you';
+      var today = acts.filter(function (a) { return a.day === TODAY; });
+      var n = function (k) { return today.filter(function (a) { return a.kind === k; }).length; };
+      $('subline').textContent = 'Last check today at 06:17: ' + n('new') + ' new, ' + n('updated') + ' updated, ' + n('ignored') + ' ignored.';
+    }
+    var tabs = [['activity', 'Activity'], ['changes', 'Changes'], ['sources', 'Sources']];
+    $('tabs').innerHTML = tabs.map(function (t) {
+      return '<button type="button" role="tab" data-tab="' + t[0] + '" aria-selected="' + (state.tab === t[0]) + '">' + t[1] + (t[0] === 'activity' && needs ? '<span class="count">' + needs + '</span>' : '') + '</button>';
+    }).join('');
+  }
+
+  /* Activity */
+  var KIND = { needs: 'Needs you', 'new': 'New', updated: 'Updated', ignored: 'Ignored', problem: 'Problem' };
+  function activityRow(a) {
+    if (a.kind === 'quiet') return '<div class="quiet">' + esc(a.detail) + '</div>';
+    var acts = '';
+    if (a.done) acts = '<button type="button" class="link" data-act="reopen" data-id="' + a.id + '">Undo</button>';
+    else if (a.kind === 'needs') acts = '<button type="button" class="btn btn-dark" data-act="publish" data-id="' + a.id + '">Publish</button><button type="button" class="btn" data-act="dismiss" data-id="' + a.id + '">Dismiss</button>';
+    else if (a.kind === 'updated') acts = '<button type="button" class="btn" data-edit="' + a.record + '">View</button><button type="button" class="btn" data-act="undo" data-id="' + a.id + '">Undo update</button>';
+    else if (a.kind === 'new') acts = '<button type="button" class="btn" data-edit="' + a.record + '">View</button><button type="button" class="btn" data-act="remove" data-id="' + a.id + '">Remove</button>';
+    else if (a.kind === 'problem') acts = '<button type="button" class="btn" data-tab="sources">Open sources</button>';
+    var src = a.url ? ' <a href="' + esc(a.url) + '" target="_blank" rel="noopener">Source</a>' : '';
+    return '<div class="row' + (a.done ? ' done' : '') + '"><span class="pill ' + a.kind + '"><span class="dot"></span>' + KIND[a.kind] + '</span>' +
+      '<div class="main"><h3>' + esc(a.title) + '</h3><p>' + esc(a.detail) + src + '</p>' + (a.done ? '<span class="result">' + esc(a.done) + '</span>' : '') + '</div>' +
+      '<div class="acts">' + acts + '</div></div>';
+  }
+  function renderActivity() {
+    var all = activity();
+    var match = { all: function () { return true; }, needs: function (a) { return a.kind === 'needs'; }, published: function (a) { return a.kind === 'new' || a.kind === 'updated'; }, ignored: function (a) { return a.kind === 'ignored'; }, problem: function (a) { return a.kind === 'problem'; } };
+    var chips = [['all', 'All'], ['needs', 'Needs you'], ['published', 'Published'], ['ignored', 'Ignored'], ['problem', 'Problems']];
+    var list = all.filter(function (a) { return match[state.filter](a) || (state.filter === 'all' && a.kind === 'quiet'); });
+    var html = '<div class="bar"><div class="chips" role="group" aria-label="Show">' + chips.map(function (c) {
+      var n = c[0] === 'all' ? '' : ' ' + all.filter(match[c[0]]).length;
+      return '<button type="button" class="chip" data-filter="' + c[0] + '" aria-pressed="' + (state.filter === c[0]) + '">' + c[1] + n + '</button>';
+    }).join('') + '</div></div>';
+    if (!list.length) html += '<div class="panel"><div class="empty">' + (all.length ? 'Nothing here.' : 'No checks have run for ' + COUNTRY[state.c].name + ' yet.') + '</div></div>';
+    else {
+      var days = [];
+      list.forEach(function (a) { if (days.indexOf(a.day) === -1) days.push(a.day); });
+      html += '<div class="panel">' + days.map(function (d) {
+        return '<div class="day">' + dayLabel(d) + '</div>' + list.filter(function (a) { return a.day === d; }).map(activityRow).join('');
+      }).join('') + '</div>';
+    }
+    $('view').innerHTML = html;
+  }
+
+  /* Changes */
+  function renderChanges() {
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    var mine = RECORDS.filter(function (r) { return r.country === state.c; });
+    var list = mine.filter(function (r) {
+      if (r.status !== state.show) return false;
+      var h = (r.title + ' ' + r.regulator + ' ' + r.topic + ' ' + r.summary).toLowerCase();
+      return words.every(function (w) { return h.indexOf(w) !== -1; });
+    }).sort(function (a, b) { return a.updated < b.updated ? 1 : -1; });
+    var n = function (s) { return mine.filter(function (r) { return r.status === s; }).length; };
+    var html = '<div class="bar"><div class="chips" role="group" aria-label="Show">' +
+      '<button type="button" class="chip" data-show="live" aria-pressed="' + (state.show === 'live') + '">On the page ' + n('live') + '</button>' +
+      '<button type="button" class="chip" data-show="archived" aria-pressed="' + (state.show === 'archived') + '">Archived ' + n('archived') + '</button></div>' +
+      '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+      '<input type="search" id="search" placeholder="Search changes" autocomplete="off" aria-label="Search changes" value="' + esc(state.q) + '"></label></div>';
+    html += '<div class="panel" id="change-list">' + changeRows(list) + '</div>';
+    $('view').innerHTML = html;
+  }
+  function changeRows(list) {
+    if (!list.length) return '<div class="empty">' + (state.show === 'archived' ? 'Nothing is archived.' : 'No changes match.') + '</div>';
+    return list.map(function (r) {
+      return '<div class="row"><span class="pill ' + (r.status === 'archived' ? 'archived' : r.stage) + '"><span class="dot"></span>' + (r.status === 'archived' ? 'Archived' : STAGE[r.stage]) + '</span>' +
+        '<div class="main"><h3>' + esc(r.title) + '</h3><p>' + esc(r.regulator) + ' · ' + esc(r.topic) + ' · last changed ' + fmt(r.updated) + '</p></div>' +
+        '<div class="acts"><button type="button" class="btn" data-edit="' + r.id + '">Edit</button>' +
+        (r.status === 'archived' ? '<button type="button" class="btn" data-restore="' + r.id + '">Restore</button>' : '<button type="button" class="btn" data-archive="' + r.id + '">Archive</button>') + '</div></div>';
+    }).join('');
+  }
+
+  /* Sources */
+  function renderSources() {
+    var list = SOURCES.filter(function (s) { return s.country === state.c; });
+    var html = '<div class="bar"><span style="font-size:14px;color:var(--muted)">' + list.filter(function (s) { return s.on; }).length + ' of ' + list.length + ' sources are on. Official sites only.</span>' +
+      '<button type="button" class="btn" id="add-source">Add a source</button></div><div class="panel">';
+    if (state.adding) {
+      html += '<form class="add-form" id="add-form"><input class="input" id="new-name" placeholder="Regulator name" aria-label="Regulator name" required>' +
+        '<input class="input" id="new-url" type="url" placeholder="https://… page or feed address" aria-label="Address" required>' +
+        '<button type="submit" class="btn btn-dark">Add</button><button type="button" class="btn" id="cancel-add">Cancel</button></form>';
+    }
+    html += list.map(function (s) {
+      return '<div class="row src-row"><div class="main"><h3>' + esc(s.name) + '</h3><p>' + esc(s.covers) + '</p><span class="addr">' + esc(s.url) + '</span></div>' +
+        '<span class="health' + (s.bad && s.on ? ' bad' : '') + (s.on ? '' : ' off') + '"><i></i>' + esc(s.on ? s.health === 'Off' ? 'Not read yet' : s.health : 'Off') + '</span>' +
+        '<button type="button" class="switch" role="switch" aria-checked="' + s.on + '" aria-label="Watch ' + esc(s.name) + ': ' + esc(s.covers) + '" data-switch="' + s.id + '"></button></div>';
+    }).join('') + '</div>';
+    $('view').innerHTML = html;
+  }
+
+  function render() {
+    renderHead();
+    if (state.tab === 'activity') renderActivity();
+    else if (state.tab === 'changes') renderChanges();
+    else renderSources();
+  }
+
+  /* Toast with undo */
+  function toast(message, undo) {
+    clearTimeout(toastTimer);
+    $('toast').innerHTML = '<span>' + esc(message) + '</span>' + (undo ? '<button type="button" id="toast-undo">Undo</button>' : '');
+    $('toast').hidden = false;
+    if (undo) $('toast-undo').addEventListener('click', function () { undo(); $('toast').hidden = true; render(); });
+    toastTimer = setTimeout(function () { $('toast').hidden = true; }, 6000);
+  }
+
+  /* Edit drawer */
+  function openEditor(id) {
+    var r = record(id);
+    if (!r) return;
+    state.lastFocus = document.activeElement;
+    state.draft = JSON.parse(JSON.stringify(r));
+    renderEditor();
+    $('drawer').hidden = false;
+    $('scrim').hidden = false;
+    document.body.classList.add('locked');
+    $('f-title').focus();
+  }
+  function counter(value, max) { return '<span class="n' + (value.length > max ? ' over' : '') + '">' + value.length + ' / ' + max + '</span>'; }
+  function renderEditor() {
+    var d = state.draft;
+    var keys = COUNTRY[d.country].applies;
+    var x = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+    $('drawer').innerHTML =
+      '<div class="drawer-bar"><span id="d-title">Edit change · ' + esc(d.regulator) + '</span><button type="button" class="icon-btn" id="close" aria-label="Close">' + x + '</button></div>' +
+      '<div class="drawer-body">' +
+        '<div class="field"><label for="f-title">Title <span id="c-title">' + counter(d.title, LIMITS.title) + '</span></label><input class="input" id="f-title" value="' + esc(d.title) + '"></div>' +
+        '<div class="field"><label for="f-summary">Summary <span id="c-summary">' + counter(d.summary, LIMITS.summary) + '</span></label><textarea id="f-summary">' + esc(d.summary) + '</textarea></div>' +
+        '<div class="field"><span class="lab">What changes <span class="n">' + d.what_changes.length + ' / ' + LIMITS.points + ' points</span></span>' +
+          d.what_changes.map(function (p, i) {
+            return '<div class="point"><input class="input" data-point="' + i + '" aria-label="Point ' + (i + 1) + '" value="' + esc(p) + '">' +
+              '<button type="button" class="icon-btn" data-drop="' + i + '" aria-label="Remove point ' + (i + 1) + '">' + x + '</button></div>';
+          }).join('') +
+          (d.what_changes.length < LIMITS.points ? '<div><button type="button" class="link" id="add-point">Add a point</button></div>' : '') + '</div>' +
+        '<div class="field"><label for="f-who">Who it applies to <span id="c-who">' + counter(d.who_it_applies_to, LIMITS.who) + '</span></label><textarea id="f-who" style="min-height:64px">' + esc(d.who_it_applies_to) + '</textarea></div>' +
+        '<div class="field"><span class="lab">Applies to</span><div class="chips">' + Object.keys(keys).map(function (k) {
+          return '<button type="button" class="chip" data-key="' + k + '" aria-pressed="' + (d.applies_to.indexOf(k) !== -1) + '">' + esc(keys[k]) + '</button>';
+        }).join('') + '</div></div>' +
+        '<div class="two"><div class="field"><label for="f-stage">Stage</label><select id="f-stage">' + Object.keys(STAGE).map(function (s) { return '<option value="' + s + '"' + (s === d.stage ? ' selected' : '') + '>' + STAGE[s] + '</option>'; }).join('') + '</select></div>' +
+          '<div class="field"><label for="f-topic">Topic</label><select id="f-topic">' + TOPICS.map(function (t) { return '<option' + (t === d.topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join('') + '</select></div></div>' +
+        (d.stage === 'guidance'
+          ? '<div class="field"><label for="f-published">Issued</label><input class="input" id="f-published" data-date="published" value="' + esc(d.dates.published || '') + '" placeholder="YYYY-MM-DD"></div>'
+          : '<div class="three">' + ['proposed', 'decided', 'in_force'].map(function (k) {
+              return '<div class="field"><label for="f-' + k + '">' + STAGE[k] + '</label><input class="input" id="f-' + k + '" data-date="' + k + '" value="' + esc(d.dates[k] || '') + '" placeholder="YYYY-MM-DD"></div>';
+            }).join('') + '</div>') +
+        '<div><h4 class="sub-h">History</h4><ul class="hist" style="margin-top:8px">' + d.history.map(function (h) { return '<li><time>' + fmt(h[0]) + '</time>' + esc(h[1]) + '</li>'; }).join('') + '</ul></div>' +
+        (d.admin_notes.length ? '<div><h4 class="sub-h">Admin notes the assistant follows</h4>' + d.admin_notes.map(function (n) { return '<p class="note" style="margin-top:8px">' + esc(n) + '</p>'; }).join('') + '</div>' : '') +
+      '</div>' +
+      '<div class="drawer-foot"><a class="link" href="' + esc(d.source) + '" target="_blank" rel="noopener">Open the source</a>' +
+        '<div class="right"><button type="button" class="btn" id="cancel">Cancel</button><button type="button" class="btn btn-dark" id="save">Save</button></div></div>';
+    checkDraft();
+  }
+  function checkDraft() {
+    var d = state.draft;
+    var ok = d.title.trim() && d.summary.trim() && d.who_it_applies_to.trim() && d.applies_to.length && d.what_changes.length &&
+      d.title.length <= LIMITS.title && d.summary.length <= LIMITS.summary && d.who_it_applies_to.length <= LIMITS.who &&
+      d.what_changes.every(function (p) { return p.trim() && p.length <= LIMITS.point; });
+    $('save').disabled = !ok;
+    $('save').title = ok ? '' : 'Something is empty or over its length limit';
+  }
+  function closeEditor() {
+    $('drawer').hidden = true;
+    $('scrim').hidden = true;
+    document.body.classList.remove('locked');
+    state.draft = null;
+    if (state.lastFocus && document.contains(state.lastFocus)) state.lastFocus.focus();
+  }
+
+  /* Events */
+  $('drawer').addEventListener('input', function (e) {
+    var d = state.draft;
+    var t = e.target;
+    if (t.id === 'f-title') { d.title = t.value; $('c-title').innerHTML = counter(d.title, LIMITS.title); }
+    else if (t.id === 'f-summary') { d.summary = t.value; $('c-summary').innerHTML = counter(d.summary, LIMITS.summary); }
+    else if (t.id === 'f-who') { d.who_it_applies_to = t.value; $('c-who').innerHTML = counter(d.who_it_applies_to, LIMITS.who); }
+    else if (t.hasAttribute('data-point')) d.what_changes[+t.getAttribute('data-point')] = t.value;
+    else if (t.hasAttribute('data-date')) d.dates[t.getAttribute('data-date')] = t.value.trim();
+    checkDraft();
+  });
+  $('drawer').addEventListener('change', function (e) {
+    if (e.target.id === 'f-stage') { state.draft.stage = e.target.value; renderEditor(); }
+    else if (e.target.id === 'f-topic') state.draft.topic = e.target.value;
+  });
+  $('scrim').addEventListener('click', closeEditor);
+  $('country-btn').addEventListener('click', function (e) { e.stopPropagation(); $('country-menu').hidden = !$('country-menu').hidden; });
+  $('run-now').addEventListener('click', function () { toast('Check started. You’ll get a notification when it finishes.'); });
+
+  $('view').addEventListener('input', function (e) {
+    if (e.target.id !== 'search') return;
+    state.q = e.target.value;
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    $('change-list').innerHTML = changeRows(RECORDS.filter(function (r) {
+      var h = (r.title + ' ' + r.regulator + ' ' + r.topic + ' ' + r.summary).toLowerCase();
+      return r.country === state.c && r.status === state.show && words.every(function (w) { return h.indexOf(w) !== -1; });
+    }).sort(function (a, b) { return a.updated < b.updated ? 1 : -1; }));
+  });
+  $('view').addEventListener('submit', function (e) {
+    if (e.target.id !== 'add-form') return;
+    e.preventDefault();
+    var name = $('new-name').value.trim();
+    SOURCES.unshift({ id: 'new-' + Date.now(), country: state.c, name: name, covers: 'Added by an admin', url: $('new-url').value.trim(), on: true, health: 'Off' });
+    state.adding = false;
+    render();
+    toast(name + ' added. It will be read on the next check.');
+  });
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t.closest('.country')) $('country-menu').hidden = true;
+    var el;
+    if ((el = t.closest('[data-country]'))) { state.c = el.getAttribute('data-country'); state.filter = 'all'; state.q = ''; state.adding = false; $('country-menu').hidden = true; render(); return; }
+    if ((el = t.closest('[data-tab]'))) { state.tab = el.getAttribute('data-tab'); render(); return; }
+    if ((el = t.closest('[data-filter]'))) { state.filter = el.getAttribute('data-filter'); render(); return; }
+    if ((el = t.closest('[data-show]'))) { state.show = el.getAttribute('data-show'); render(); return; }
+    if ((el = t.closest('[data-edit]'))) { openEditor(el.getAttribute('data-edit')); return; }
+
+    if ((el = t.closest('[data-act]'))) {
+      var a = ACTIVITY.filter(function (x) { return x.id === el.getAttribute('data-id'); })[0];
+      var act = el.getAttribute('data-act');
+      var rec = a.record ? record(a.record) : null;
+      var back = function () { a.done = null; if (rec) rec.status = 'live'; };
+      if (act === 'reopen') { back(); render(); return; }
+      if (act === 'publish') { a.done = 'Published by you.'; toast('Published.', back); }
+      if (act === 'dismiss') { a.done = 'Dismissed. The assistant won’t raise it again.'; toast('Dismissed.', back); }
+      if (act === 'undo') { a.done = 'Update undone. The assistant won’t apply it again.'; toast('Update undone.', back); }
+      if (act === 'remove') { a.done = 'Removed from the page. The assistant won’t add it again.'; if (rec) rec.status = 'archived'; toast('Removed from the page.', back); }
+      render();
+      return;
+    }
+    if ((el = t.closest('[data-archive]'))) { var r1 = record(el.getAttribute('data-archive')); r1.status = 'archived'; render(); toast('Archived. It is off the page.', function () { r1.status = 'live'; }); return; }
+    if ((el = t.closest('[data-restore]'))) { var r2 = record(el.getAttribute('data-restore')); r2.status = 'live'; render(); toast('Restored. It is back on the page.', function () { r2.status = 'archived'; }); return; }
+    if ((el = t.closest('[data-switch]'))) {
+      var s = SOURCES.filter(function (x) { return x.id === el.getAttribute('data-switch'); })[0];
+      s.on = !s.on;
+      render();
+      var again = document.querySelector('[data-switch="' + s.id + '"]');
+      if (again) again.focus();
+      toast(s.name + (s.on ? ' is on. It will be read on the next check.' : ' is off.'));
+      return;
+    }
+    if (t.closest('#add-source')) { state.adding = true; render(); $('new-name').focus(); return; }
+    if (t.closest('#cancel-add')) { state.adding = false; render(); return; }
+
+    if (!state.draft) return;
+    if (t.closest('#close') || t.closest('#cancel')) { closeEditor(); return; }
+    if ((el = t.closest('[data-key]'))) {
+      var k = el.getAttribute('data-key'), list = state.draft.applies_to, i = list.indexOf(k);
+      if (k === 'all') state.draft.applies_to = i === -1 ? ['all'] : [];
+      else { if (i === -1) list.push(k); else list.splice(i, 1); state.draft.applies_to = list.filter(function (x) { return x !== 'all'; }); }
+      renderEditor();
+      return;
+    }
+    if ((el = t.closest('[data-drop]'))) { state.draft.what_changes.splice(+el.getAttribute('data-drop'), 1); renderEditor(); return; }
+    if (t.closest('#add-point')) { state.draft.what_changes.push(''); renderEditor(); var inputs = document.querySelectorAll('[data-point]'); inputs[inputs.length - 1].focus(); return; }
+    if (t.closest('#save') && !$('save').disabled) {
+      var target = record(state.draft.id);
+      var before = JSON.parse(JSON.stringify(target));
+      state.draft.updated = TODAY;
+      Object.keys(state.draft).forEach(function (key) { target[key] = state.draft[key]; });
+      closeEditor();
+      render();
+      toast('Saved.', function () { Object.keys(before).forEach(function (key) { target[key] = before[key]; }); });
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { $('country-menu').hidden = true; if (state.draft) closeEditor(); }
+  });
+
+  render();
+})();
+</script>
