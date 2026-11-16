@@ -12,6 +12,9 @@ on:
       since:
         description: "Look back to this date (YYYY-MM-DD). Leave empty for the default."
         required: false
+      country:
+        description: "Check one country only (uk or au). Leave empty for all."
+        required: false
 
 permissions:
   contents: write
@@ -30,10 +33,12 @@ jobs:
       - name: Read the sources
         env:
           SINCE: ${{ inputs.since }}
+          COUNTRY: ${{ inputs.country }}
           SAVE: ${{ inputs.save }}
         run: |
           args=()
           if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
+          if [ -n "$COUNTRY" ]; then args+=(--country "$COUNTRY"); fi
           if [ "$SAVE" = "true" ]; then export TRACKER_RECORD=snapshot; fi
           node agent/check-sources.mjs "${args[@]}" | tee report.md || true
           cat report.md >> "$GITHUB_STEP_SUMMARY"
