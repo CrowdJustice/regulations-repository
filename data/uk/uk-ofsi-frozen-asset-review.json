@@ -1,7 +1,7 @@
 {
   "id": "uk-ofsi-frozen-asset-review",
   "country": "uk",
-  "status": "live",
+  "status": "archived",
   "regulator": "OFSI",
   "title": "Annual reporting of frozen assets held for designated persons",
   "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026.",
@@ -32,5 +32,7 @@
       "url": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form"
     }
   ],
-  "admin_notes": []
+  "admin_notes": [
+    "An admin archived this change on 2026-11-16. Reason: Workflow test"
+  ]
 }
