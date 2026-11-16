@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Page 3 &#8211; The Legal Services Board</title>
+	<atom:link href="https://legalservicesboard.org.uk/feed?paged=3" rel="self" type="application/rss+xml" />
+	<link>https://legalservicesboard.org.uk</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Jun 2026 15:19:55 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.4</generator>
+	<item>
+		<title>Driving growth and protecting consumers: LSB appoints new Director of Strategy, Policy &#038; Engagement</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-appoints-new-director</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2026 08:01:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24860</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has appointed Jelena Lentzos as Director of Strategy, Policy &#38; Engagement. She will lead the LSB&#8217;s strategy, policy, and research teams at a pivotal moment for legal services regulation. It is one defined by rapid change, growing consumer need, and significant opportunity for sector-wide growth. Jelena previously served as Interim...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Flora Page KC steps down from the Legal Services Board</title>
+		<link>https://legalservicesboard.org.uk/news/flora-page-steps-down-lsb</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2026 09:28:33 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24847</guid>
+
+					<description><![CDATA[The Legal Services Board has confirmed that Flora Page KC has stepped down as a non-lay Board member. Flora Page gave notice of her intention to resign in March this year. The Deputy Prime Minister, Lord Chancellor and Secretary of State for Justice, Rt Hon David Lammy, agreed in April 2026 to Flora&#8217;s request to leave the Board with immediate effect. Monisha Shah, Chair of the...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: strengthening ethics and setting priorities</title>
+		<link>https://legalservicesboard.org.uk/news/chairs-blog-strengthening-ethics-and-setting-priorities-2</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 14 May 2026 09:10:40 +0000</pubDate>
+				<category><![CDATA[Chair's Blogs]]></category>
+		<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24757</guid>
+
+					<description><![CDATA[This is my final blog from my time as interim Chair of the LSB, and I would like to begin by saying what a privilege it was to serve in the role during a period of such significant activity for the sector. I am grateful to Board and executive colleagues for their support, challenge, and...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Legal Services Board Statement on SRA Regulatory Performance &#8211; 6 May 2026</title>
+		<link>https://legalservicesboard.org.uk/news/legal-services-board-statement-on-sra-regulatory-performance-6-may-2026</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 14:30:03 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24736</guid>
+
+					<description><![CDATA[On 28 April 2026, the Legal Services Board (LSB) discussed the Solicitors Regulation Authority&#8217;s (SRA) regulatory performance. With one month until the deadline for SRA’s compliance with LSB’s Directions regarding Axiom Ince Limited, the LSB Board has this week asked the SRA to commission an independent external audit to assess and evaluate the SRA’s compliance...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: strengthening ethics and setting priorities</title>
+		<link>https://legalservicesboard.org.uk/news/chairs-blog-strengthening-ethics-and-setting-priorities</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24688</guid>
+
+					<description><![CDATA[This is my final blog from my time as interim Chair of the LSB, and I would like to begin by saying what a privilege it was to serve in the role during a period of such significant activity for the sector. I am grateful to Board and executive colleagues for their support, challenge, and...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Statement on PM Law</title>
+		<link>https://legalservicesboard.org.uk/news/statement-on-pm-law</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:44:31 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24696</guid>
+
+					<description><![CDATA[We are deeply concerned by the scale of harm caused to former clients of PM Law Ltd. The reported loss of £39.5m of client funds and the significant disruption to tens of thousands of people at what were already stressful and important moments in their lives is extremely serious. The Legal Services Board is closely...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Smarter, risk-based oversight to drive up regulators’ performance </title>
+		<link>https://legalservicesboard.org.uk/news/business_plan_2026_27</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 09:10:14 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24686</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has today published its business plan for 2026/27, setting out how it will strengthen the performance of legal services regulation in England and Wales through more proportionate and targeted oversight.  The plan responds to&#160;ongoing change across the sector, including technological innovation, shifting consumer expectations, and the growth of&#160;unregulated services. It sets out how the...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Monisha Shah confirmed as the new Chair of the Legal Services Board</title>
+		<link>https://legalservicesboard.org.uk/news/monisha-shah-confirmed-as-the-new-chair-of-the-legal-services-board</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 08:08:38 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24645</guid>
+
+					<description><![CDATA[The Lord Chancellor has approved the appointment of Monisha Shah as Chair of the Legal Services Board for four years from 1 April 2026. The appointment follows a Justice Select Committee pre-appointment scrutiny hearing on 25 March and the publication of the Committee’s report on 27 March. Monisha Shah is an experienced chair and non-executive...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB announces Richard Blakeway as the Chair of the Office for Legal Complaints</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-announces-richard-blakeway-as-the-chair-of-the-office-for-legal-complaints</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 09:00:43 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24621</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has confirmed the appointment of Richard Blakeway to the post of Chair of the Office for Legal Complaints (OLC) after an open competition. The OLC is the Board of the Legal Ombudsman for England and Wales. This follows Richard’s appearance before the Justice Select Committee for pre-appointment scrutiny on 11...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB statement: Court of Appeal judgment in Mazur</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-statement-court-of-appeal-judgment-in-mazur</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 10:41:59 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24614</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) notes the judgment of the Court of Appeal&#160;in CILEX’s appeal&#160;against&#160;the High Court’s decision in Mazur. A spokesperson for the LSB said:&#160; “The Legal Services&#160;Board welcomes&#160;the&#160;clarity&#160;provided by the&#160;Court of Appeal&#160;on how the reserved legal activity of conducting litigation under the Legal Services Act&#160;should be&#160;interpreted and applied in practice.&#160; “We&#160;will&#160;now carefully consider&#160;the&#160;judgment’s&#160;implications...]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

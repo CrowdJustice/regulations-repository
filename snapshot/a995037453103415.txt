@@ -1,0 +1,1774 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+    <head>
+        
+            <base href="https://consultations.ag.gov.au/"/>
+        
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Find and participate in consultations run by Attorney General's Department">
+        
+        
+        <title>
+            Find activities - 70 results
+             - Attorney-General's Department
+            - Citizen Space
+        </title>
+        
+        <link rel="stylesheet" href="/static_frontend/vendor/lato-2.015/fonts.css">
+        <link type="text/css" href="/static_frontend/vendor/dlb-public-ui/css/bootstrap.css" rel="stylesheet">
+        
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/vendor/dlb-public-ui/css/dlb-public-ui-compiled.css" rel="stylesheet">
+        <link type="text/css" href="https://consultations.ag.gov.au/static_frontend/css/citizenspace.css" rel="stylesheet">
+
+        
+
+        
+        <script type="text/javascript">
+            var tr_auto_embed = true;
+        </script>
+
+        <!--jQuery -->
+        <script type="text/javascript" src="/static_frontend/vendor/dlb-public-ui/libraries/jquery/jquery.min.js"></script>
+        <!--/jQuery -->
+        <script type="text/javascript" src="/static_frontend/js/fluid-resize.js?version=8.20.0"></script>
+        
+        <script type="text/javascript" src="/static_frontend/js/tr-safe-embed.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/text-truncate.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/tr-pdf.js?version=8.20.0"></script>
+        <script type="text/javascript" src="/static_frontend/js/typeahead/typeahead.bundle.min.js?version=8.20.0"></script>
+        
+        
+        
+
+        <!--
+            Part of the Bootstrap 5 migration involves prefixing Bootstrap JS attributes with bs-
+            This has been done in our codebase, but copy/pasted content such as fact banks may still have old attributes.
+            Shim these attributes to allow these to remain working.
+        -->
+        <script>
+            const bootstrapEventShim = function() {
+                document.querySelectorAll('[data-toggle]').forEach((el) => {
+                    let attrVal = el.dataset.toggle;
+                    el.dataset.bsToggle = attrVal;
+                });
+                document.querySelectorAll('[data-target]').forEach((el) => {
+                    let attrVal = el.dataset.target;
+                    el.dataset.bsTarget = attrVal;
+                });
+            }
+            document.addEventListener("DOMContentLoaded", bootstrapEventShim);
+        </script>
+
+         <!-- Bootstrap JS Components -->
+        <script src="/static_frontend/vendor/dlb-public-ui/libraries/bootstrap-5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+        <!-- Page-specific CSS and JS can go here -->
+        
+
+        
+            <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'G-B3V7ZFC631');
+
+</script>
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3V7ZFC631"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', ‘G-B3V7ZFC631');
+</script>
+        
+
+        <!-- Remove no-js class if scripts are enabled -->
+        <script>
+            document.documentElement.classList.remove('no-js')
+        </script>
+
+        <!-- Ensure collapsible content is displayed and misleading links are hidden if JS is disabled -->
+        <noscript>
+            <style>
+                .collapse {
+                    display: block;
+                }
+
+                .show-when-no-js {
+                    display:block;
+                }
+
+                .hide-when-no-js {
+                    display:none;
+                }
+            </style>
+        </noscript>
+
+    </head>
+
+    <body
+          data-site-root="https://consultations.ag.gov.au">
+        <div id="skip">
+            <a href="https://consultations.ag.gov.au/consultation_finder/?sort_on=iconsultable_enddate&amp;sort_order=descending&amp;st=closed#page-content">Skip to Main Content</a>
+        </div>
+        
+
+<script>
+
+    jQuery(document).ready(function() {
+        
+
+        var options = {};
+        // used to disable the go button when the selected page is the current page
+        var cur_page = jQuery("#preview-navigation-page-select").val()
+
+        jQuery("#preview-navigation-page-select").change(function() {
+            var page = jQuery(this).val();
+            var button = jQuery("#preview-navigation button");
+            if (page != "" && page != cur_page) {
+                button.prop('disabled',false);
+            } else {
+                button.prop('disabled','disabled');
+            }
+        });
+
+        jQuery("#preview-navigation button").click(function(event) {
+            var page = jQuery("#preview-navigation-page-select").val();
+            var consultation_root = jQuery("#preview-navigation").data("consultation-root");
+            var survey_root = jQuery("#preview-navigation").data("survey-root");
+            var cookie_path = jQuery("#preview-navigation").data("cookie-path");
+
+            function set_state(state) {
+                document.cookie="preview_state="+state+";path="+cookie_path+";";
+            }
+
+            set_state("open");
+            if (page === "_hub") {
+                window.location = survey_root;
+            } else if (page == "_overview_open") {
+                window.location = consultation_root;
+            } else if (page == "_overview_closed") {
+                set_state("closed");
+                window.location = consultation_root;
+            } else if (page == "_overview_forthcoming") {
+                set_state("forthcoming");
+                window.location = consultation_root;
+            } else if (page == "_response_submitted") {
+                window.location = survey_root + "confirm_submit_thankyou";
+            } else if (page == "_published_responses") {
+                set_state("closed");
+                window.location = survey_root + "published_select_respondent";
+            } else if (page == "") {
+                // No-op, shouldn't get here (hah..).
+            } else {
+                window.location = survey_root + page;
+            }
+        });
+
+    });
+</script>
+
+        <div id="global-wrapper">
+
+            
+
+            <header id="global-nav" class="navbar navbar-default navbar-expand-md navbar-static-top dss-navbar">
+                <div class="container-fluid">
+                    <div class="row flex-grow-1 py-2 pb-md-0 pt-lg-1">
+                        <div class="mb-md-2 py-lg-1 col-md-8 ">
+                            <div class="navbar-header d-flex justify-content-between">
+                                <div id="global-nav-main-heading">
+                                    
+                                        <a id="global-nav-site-title" href="https://consultations.ag.gov.au/">
+                                            <img src="https://consultations.ag.gov.au/os-custom-logos/ags_inline.png"
+                                                alt="Attorney General's Department logo" class="global-nav-logo ms-3 ms-md-0" />
+                                        </a>
+                                    
+                                </div>
+                                <button class="navbar-toggler d-md-none align-self-center"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#global-navbar-collapse"
+                                    aria-expanded="false"
+                                    aria-controls="global-navbar-collapse">
+                                    <span class="fa-solid fa-caret-down"></span>
+                                    <span>Menu</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col align-content-center d-flex align-items-center">
+                            <div id="cs-global-search-container-md" class="d-none d-md-block flex-grow-1">
+                                <!-- Javascript puts the search form here for sm viewports -->
+                                <form id="cs-global-search" action="https://consultations.ag.gov.au/consultation_finder/" method="GET">
+                                    
+                                    <div role="search">
+                                        
+                                        <label for="cs-global-search-input" class="visually-hidden">Search</label>
+                                        <div class="input-group">
+                                            <input class="form-control" size="27" id="cs-global-search-input" type="text" name="keyword" placeholder="Search"/>
+                                            <button class="btn btn-primary" aria-label="Search" id="cs-global-search-button">
+                                                <span class="fa-solid fa-magnifying-glass"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            
+                        </div>
+                        
+                        <div class="w-100"></div>
+                        <div>
+                            <nav class="collapse navbar-collapse navbar-left px-3 px-md-0"
+                                id="global-navbar-collapse"
+                                aria-label="primary">
+
+                                <div id="global-navbar-collapse-inner" class="py-2">
+
+                                    <div id="cs-global-search-container-xs" class="d-md-none">
+                                        <!-- Javascript puts the search form here for xs viewports -->
+                                    </div>
+                                    
+                                    <ul class="cs-navbar-nav-list">
+                                        <li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/">
+        <span class="cs-navbar-nav-link-text">Home</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/consultation_finder/">
+        <span class="cs-navbar-nav-link-text">Find consultations</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="/we_asked_you_said/">
+        <span class="cs-navbar-nav-link-text">We asked, you said, we did</span>
+    </a>
+</li>
+<li class="cs-navbar-nav-list-item">
+    <a class="cs-navbar-nav-link" href="https://www.ag.gov.au/">
+        <span class="cs-navbar-nav-link-text">Attorney-General's Department website</span>
+    </a>
+</li>
+
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main id="page-content-wrapper">
+                <div id="page-content" tabindex="-1">
+                    <div>
+        <form action="https://consultations.ag.gov.au/consultation_finder/" method="GET"
+            data-preserve-scrolltop="1"
+            id="cs-search-form">
+            <div class="dss-rhino cs-banner-container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div>
+                            <div class="cs-banner-inner dss-easy-reading">
+                                <h1 class="dss-heading-xx-large">
+                                    
+                                    Find activities
+                                </h1>
+                                
+                                
+                                <input type="hidden"
+                                    name="sort_on"
+                                    value="iconsultable_enddate"
+                                    />
+                                <input type="hidden"
+                                    name="sort_order"
+                                    value="descending"
+                                    />
+                                <input type="hidden"
+                                    name="sort-order"
+                                    value="enddatedescending"
+                                    />
+                                
+                                
+                                <input type="hidden"
+                                    name="advanced"
+                                    id="show-advanced-search"
+                                    />
+                                <div class="basic-search" style="display:none" aria-live="polite">
+                                    <div class="row cs-banner-text">
+                                        
+                                        <div class="col-md-6">
+                                            <div class="mb-4 mb-md-0">
+                                                
+                                                <label for="basic_search_text"
+                                                       class="form-label">Title or Description</label>
+                                                <input type="text"
+                                                    disabled="disabled"
+                                                    class="form-control"
+                                                    placeholder=""
+                                                    name="keyword"
+                                                    id="basic_search_text"
+                                                    />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-lg-2 align-self-end">
+                                            <div class="cs-finder-submit-button-container">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row cs-banner-text">
+                                        <div class="py-3">
+                                            <a href="#"
+                                                id="advanced-search-link"
+                                                style="display:none"
+                                                aria-label="Advanced search"
+                                                onClick="toggle_advanced_search(true); return false;">Advanced search &rsaquo;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="advanced-search" aria-live="polite">
+                                  <fieldset>
+                                    <legend class="visually-hidden">Advanced search</legend>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label" for="search_text">Title or Description</label>
+                                                <input type="text"
+                                                    class="form-control"
+                                                    placeholder=""
+                                                    name="tx"
+                                                    id="search_text"
+                                                    />
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label" for="status">Status</label>
+                                                <select name="st" class="form-select" id="status">
+                                                    <option value="" selected="selected">Any Status</option>
+                                                    <option value="open">Open</option>
+                                                    <option value="forthcoming">Forthcoming</option>
+                                                    <option value="closed"
+                                                            selected="selected">Closed</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label" for="interest">Interest</label>
+                                                <select name="in" class="form-select" id="interest">
+                                                    <option value="" selected="selected">Any Interest</option>
+                                                    <optgroup label="Crime and security">
+                                                        <option value="Criminal law">
+                                                            Criminal law
+                                                        </option>
+                                                        <option value="Bribery">
+                                                            Bribery
+                                                        </option>
+                                                        <option value="National security">
+                                                            National security
+                                                        </option>
+                                                        <option value="People trafficking">
+                                                            People trafficking
+                                                        </option>
+                                                        <option value="Modern slavery">
+                                                            Modern slavery
+                                                        </option>
+                                                        <option value="Firearms">
+                                                            Firearms
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="Families and marriage">
+                                                        <option value="Marriage celebrants ">
+                                                            Marriage celebrants 
+                                                        </option>
+                                                        <option value="Family">
+                                                            Family
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="General">
+                                                        <option value="Test interest">
+                                                            Government
+                                                        </option>
+                                                        <option value="Legislation">
+                                                            Legislation
+                                                        </option>
+                                                        <option value="Corporate">
+                                                            Corporate
+                                                        </option>
+                                                        <option value="Internal">
+                                                            Internal
+                                                        </option>
+                                                        <option value="Workplaces-1">
+                                                            Workplaces
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="Integrity">
+                                                        <option value="Corruption">
+                                                            Corruption
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="International relations">
+                                                        <option value="United Nations">
+                                                            United Nations
+                                                        </option>
+                                                        <option value="The Hague">
+                                                            The Hague
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="Legal system">
+                                                        <option value="Financial law">
+                                                            Financial law
+                                                        </option>
+                                                        <option value="Native title">
+                                                            Native title
+                                                        </option>
+                                                        <option value="Legal system">
+                                                            Legal system
+                                                        </option>
+                                                    </optgroup>
+                                                    <optgroup label="Rights and protections">
+                                                        <option value="Human rights">
+                                                            Human rights
+                                                        </option>
+                                                        <option value="Privacy">
+                                                            Privacy
+                                                        </option>
+                                                        <option value="Religion">
+                                                            Religion
+                                                        </option>
+                                                        <option value="Copyright">
+                                                            Copyright
+                                                        </option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="row cs-banner-text">
+                                        <div class="col-md-3 col-lg-2 offset-md-5 offset-lg-6 order-md-2">
+                                            <div style="margin-top:10px; margin-bottom:15px" class="cs-finder-submit-button-container">
+                                                <button id="cs-finder-submit-button" 
+                                                        class="dss-btn dss-btn-primary dss-btn-sm" 
+                                                        style="width:100%; white-space: nowrap" 
+                                                        type="submit"
+                                                        aria-label="Search">
+                                                    
+                                                    <span class="fa-solid fa-magnifying-glass"></span> <span>Search</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 order-md-1">
+                                            <a href="#"
+                                                id="basic-search-link"
+                                                style="display:none"
+                                                aria-label="Basic search"
+                                                onClick="toggle_advanced_search(false); return false;">&lsaquo; Basic search</a>
+                                        </div>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </form>
+        <script type="text/javascript">
+            function toggle_advanced_search(val) {
+              // set the value of a hidden form field when the show/hide link is clicked.  This form field is also populated serverside to retain the state on page load.
+              $('#show-advanced-search').val(val?'1':'');
+              show_hide_advanced_fields();
+              focus_search_input();
+            }
+
+            function move_button_to(container) {
+              // move the button into the active container.  Having more than one submit button causes problems with keyboard form submission (even if one of them is hidden and disabled)
+              var submit_button = $('#cs-finder-submit-button').remove();
+              submit_button.appendTo(container);
+            }
+
+            function focus_search_input() {
+              var show_advanced = $('#show-advanced-search').val();
+              if(show_advanced) {
+                $('#search_text').focus();
+              } else {
+                $('#basic_search_text').focus();
+              }
+            }
+
+            function show_hide_advanced_fields() {
+              var show_advanced = $('#show-advanced-search').val();
+
+              if(show_advanced) {
+                move_button_to($('.advanced-search .cs-finder-submit-button-container'));
+                $('.advanced-search,#basic-search-link').show();
+                $('.basic-search,#advanced-search-link').hide();
+                $('.basic-search :input').attr("disabled", true);
+                $('.advanced-search :input').attr("disabled", false);
+              }
+              else {
+                move_button_to($('.basic-search .cs-finder-submit-button-container'));
+                $('.advanced-search,#basic-search-link').hide();
+                $('.basic-search,#advanced-search-link').show();
+                $('.basic-search input').attr("disabled", false);
+                $('.advanced-search :input').attr("disabled", true);
+              }
+            }
+            show_hide_advanced_fields()
+        </script>
+        <div class="dss-rhino dss-rhino-2021-warm-light-grey dss-rhino-padding-top-35">
+            <div class="container-fluid" id="cs-finder-results-container">
+                
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <p class="cs-results-count">
+                            70 results
+                        </p>
+                    </div>
+
+                    <form action="" class="col-md-8 offset-md-1" id="cs-finder-order-form">
+                        <label for="cs-finder-sort-order-select">Sort by:</label>
+                        <select id="cs-finder-sort-order-select" name="sort-order" class="form-select" style="width: auto; display: inline;">
+                            <option value="modifieddate-descending">Updated: newest to oldest</option>
+                            <option value="modifieddate-ascending">Updated: oldest to newest</option>
+                            <option value="startdate-descending">Open date: newest to oldest</option>
+                            <option value="startdate-ascending">Open date: oldest to newest</option>
+                            <option value="enddate-descending">Close date: newest to oldest</option>
+                            <option value="enddate-ascending">Close date: oldest to newest</option>
+                        </select>
+                        
+                        
+                        
+                        
+                        
+                        <input type="hidden" name="st" value="closed" />
+                        
+                        
+                        
+                        
+                        <input type="hidden"
+                            name="advanced"
+                            />
+                        <input type="submit" value="Submit" class="show-when-no-js" />
+                    </form>
+
+                </div>
+                <div class="row">
+                    <div>
+                        <ul id="consultations" class="list-unstyled">
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/integrity/ogp-fnap/">Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The  Open Government Partnership  (OGP) is an international, multi-lateral initiative that aims to increase transparency, empower citizens, fight corruption and harness new technologies to strengthen governance. 
+
+ Australia’s next national action plan will set out commitments that the government will deliver within a 2-year timeframe to achieve these goals. Australia has had 3 previous national action plans. Our  Third National Action Plan  (NAP3) ended on 31 December 2025....</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/integrity/ogp-fnap/"
+                                               aria-label="More about Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    6 November 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/crime/modern-slavery/">Strengthening Australia’s response to modern slavery in supply chains</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  On 16 July 2026, the Australian Government  announced  its intention to further strengthen Australia’s modern slavery laws, including by introducing a new criminal offence for the failure to prevent modern slavery. This consultation will inform the details of the proposed offence and enforcement options, including the possible introduction of a Deferred Prosecution Agreement (DPA) scheme for relevant modern slavery offences and remedies for victims. 
+
+ The proposed reforms aim to enhance...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/crime/modern-slavery/"
+                                               aria-label="More about Strengthening Australia’s response to modern slavery in supply chains">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    25 September 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/privacy-reform/">Privacy Reform – Consultation on Exposure Draft legislation</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Australian Government has released a Consultation Paper and Exposure Draft legislation to modernise and strengthen Australia’s privacy laws for the digital age. The reforms will bolster privacy protections for Australians and help tackle emerging risks from new technologies, including artificial intelligence and wearable devices such as smart glasses. 
+
+ The measures in the Exposure Draft Bill are designed to better protect Australians while supporting innovation and providing greater...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+                                               aria-label="More about Privacy Reform – Consultation on Exposure Draft legislation">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    18 September 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/cat/">Australia’s draft seventh periodic report under the Convention against Torture and other Cruel, Inhuman or Degrading Treatment or Punishment</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Australian Government is preparing Australia’s seventh periodic report under the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment (CAT). This report will detail actions Australian governments have taken in response to the  List of Issues Prior to Reporting (LOIPR)  provided by the United Nations Committee against Torture (the Committee). 
+
+
+ This fact sheet summarises the key requests in the List of Issues Prior to Reporting (LOIPR). It...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/cat/"
+                                               aria-label="More about Australia’s draft seventh periodic report under the Convention against Torture and other Cruel, Inhuman or Degrading Treatment or Punishment">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    18 September 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/crime/combatting_foreign_bribery/">Statutory Review of the Crimes Legislation Amendment (Combatting Foreign Bribery) Act 2024</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  Under Section 4 of the  Crimes Legislation Amendment (Combatting Foreign Bribery) Act 2024  (the Act), the Attorney-General must initiate a review of the amendments made by the Act 18 months after they commenced. 
+
+ The Act introduced amendments to the offence of bribing a foreign public official under Division 70 of the Commonwealth Criminal Code and the Income Tax Assessment Act 1997. These amendments address key challenges with investigating and prosecuting cases of foreign bribery in...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/crime/combatting_foreign_bribery/"
+                                               aria-label="More about Statutory Review of the Crimes Legislation Amendment (Combatting Foreign Bribery) Act 2024">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    10 September 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/nocs-community-survey/">Community survey to inform the development of the Second Action Plan under the National Strategy to Prevent and Respond to Child Sexual Abuse 2021-2030</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>   ⚠️ 
+ 
+ We understand that child sexual abuse is a sensitive and challenging issue. Completing this survey may bring up strong feelings for some people. Please take care as you complete this survey and ask for help if you need it. A detailed list of support services can be found in the Additional Support Services section below and on our  Get Support  page. 
+
+ If you or a child are in immediate danger, call Triple Zero (000). 
+
+ Lifeline is a crisis support service for people who...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/nocs-community-survey/"
+                                               aria-label="More about Community survey to inform the development of the Second Action Plan under the National Strategy to Prevent and Respond to Child Sexual Abuse 2021-2030">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    31 July 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/iccpr/">Australia's draft Seventh Periodic Report under the International Covenant on Civil and Political Rights (ICCPR)</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Australian Government is currently preparing Australia’s Seventh Periodic Report under the International Covenant on Civil and Political Rights (ICCPR). Australia’s report will detail actions Australian governments have taken in response to the List of Issues Prior to Reporting (LOIPR) provided by the United Nations Human Rights Committee (the Committee). The report will cover the period November 2017 to August 2026. It is due to the Committee by 7 August 2026. 
+
+ In line with...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/iccpr/"
+                                               aria-label="More about Australia's draft Seventh Periodic Report under the International Covenant on Civil and Political Rights (ICCPR)">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    19 June 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/section-47c-native-title-act/">Notice of proposed agreement under section 47C of the Native Title Act 1993 (Cth)</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Australian Government is proposing to make an agreement that would allow for the prior extinguishment of native title to be disregarded on Albany Rock and Eastern Hannibal Islet in the waters east of far-north Queensland. The proposed agreement is one contemplated by section 47C of the Native Title Act 1993 (Cth). 
+
+ Before the agreement can be made, the proposed agreement is required to be publicly notified and interested persons must be provided an opportunity to comment. The period...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/section-47c-native-title-act/"
+                                               aria-label="More about Notice of proposed agreement under section 47C of the Native Title Act 1993 (Cth)">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    18 May 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/stat-dec-act-review/">Statutory Review of the Statutory Declarations Act 1959</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Attorney-General’s Department is seeking views on the operation of the Statutory Declarations Act 1959 (the Act) and the Statutory Declarations Regulations 2023 (the Regulations) as part of a statutory review (the review). 
+
+ Section 16 of the Act requires a review of the operation of the Act to be conducted as soon as practicable after 1 January 2026 (that is, the second anniversary of the commencement of the  Statutory Declarations Amendment Act 2023  (the Amendment Act) on 1...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/stat-dec-act-review/"
+                                               aria-label="More about Statutory Review of the Statutory Declarations Act 1959">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    1 March 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/arc-inquiry-on-migration/">Administrative Review Council Inquiry on Migration</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Administrative Review Council is conducting an inquiry into the operation of the migration-related provisions in: 
+
+ 
+	 the Administrative Review Tribunal Bill 2024 (Cth) (ART Bill) 
+	 the Administrative Review Tribunal (Consequential and Transitional Provisions No 1) Bill 2024 (Cth) (ART (CTP 1) Bill). 
+ 
+
+ The ART Bill and the ART (CTP 1) Bill have been enacted and are now law. 
+
+ The inquiry follows a request by the former Attorney-General, the Hon Mark Dreyfus KC MP, as well...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/arc-inquiry-on-migration/"
+                                               aria-label="More about Administrative Review Council Inquiry on Migration">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    27 January 2026
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/evaluation-of-amendments-to-the-native-title-act/">Evaluation of the operation of amendments made by the Native Title Legislation Amendment Act 2021</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  Under the  Native Title Act 1993  (Native Title Act), the Attorney-General must arrange for an evaluation of the amendments made to the Act by the  Native Title Legislation Amendment Act 2021  (2021 Amendment Act). The Attorney-General must also table a report of that evaluation in each House of Parliament within 15 sitting days of its completion. The evaluation must be completed by 25 March 2026. 
+
+ The 2021 Amendment Act introduced a range of measures. This included amendments about: 
+
+...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/evaluation-of-amendments-to-the-native-title-act/"
+                                               aria-label="More about Evaluation of the operation of amendments made by the Native Title Legislation Amendment Act 2021">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    28 November 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/dda-issues-paper/">Disability Discrimination Act Review – Issues Paper</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  We are consulting the public on ways to reform the Disability Discrimination Act 1992 (the Disability Discrimination Act).  
+
+ This is part of the Australian Government’s response to the Royal Commission into Violence, Abuse, Neglect and Exploitation of People with Disability (Disability Royal Commission). The Disability Royal Commission was extensive and far reaching. It made 222 recommendations. This shows how important it is to do more to stop unacceptable treatment of people with...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/dda-issues-paper/"
+                                               aria-label="More about Disability Discrimination Act Review – Issues Paper">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    14 November 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/dda-community-survey/">Disability Discrimination Act Review – Community Survey</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  We are consulting the public on ways to reform the Disability Discrimination Act 1992 (the Act).  
+
+ This is part of the Australian Government’s response to the Royal Commission into Violence, Abuse, Neglect and Exploitation of People with Disability (the Disability Royal Commission). 
+
+ The review considers 15 recommendations that the Disability Royal Commission made about the Act. It also considers other ways to make the Act clearer and bring it up to date. 
+
+ We have written an ...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/dda-community-survey/"
+                                               aria-label="More about Disability Discrimination Act Review – Community Survey">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    14 November 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/integrity/public_sector_whistleblower_reforms/">Public sector whistleblower reforms</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Australian Government is committed to strengthening protections for Commonwealth public sector whistleblowers. 
+
+ The government is consulting on exposure draft legislation that would improve the accessibility, operation and administration of the Public Interest Disclosure Act 2013 (PID Act) as part of stage 2 reforms.  
+
+ The exposure draft Public Interest Disclosure and Other Legislation Amendment (Whistleblower Protections) Bill 2025 would: 
+
+ 
+	 establish a new Whistleblower...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/integrity/public_sector_whistleblower_reforms/"
+                                               aria-label="More about Public sector whistleblower reforms">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    1 October 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/arc-inquiry-social-security/">Administrative Review Council Inquiry on Social Security</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Administrative Review Council is conducting an inquiry into the administrative review of social security decisions by Services Australia and the Administrative Review Tribunal (ART). The inquiry follows a request by the former Attorney-General, the Hon Mark Dreyfus KC MP, as well as a recommendation of the Senate Committee for Legal and Constitutional Affairs. 
+
+ There are currently 3 levels of administrative review of social security primary decisions: 
+
+ 
+	 Internal review within...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/arc-inquiry-social-security/"
+                                               aria-label="More about Administrative Review Council Inquiry on Social Security">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    26 September 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/integrity/art-amendments/">Proposed amendments to the Administrative Review Tribunal Rules 2024 – authorisations for registrars and staff</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Administrative Review Tribunal came into operation on 14 October 2024. A key element of the legislative reforms to establish the tribunal involved enabling registrars and staff to exercise more of the tribunal’s procedural and administrative powers and functions. This would streamline the tribunal’s pre-hearing case management processes and enhance its ability to progress matters before they are heard by a member, enabling members to focus on conducting hearings and making substantive...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/integrity/art-amendments/"
+                                               aria-label="More about Proposed amendments to the Administrative Review Tribunal Rules 2024 – authorisations for registrars and staff">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    19 September 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/families-and-marriage/establishment-of-an-accreditation-scheme-for-ccs/">Establishment of an Accreditation Scheme for Children’s Contact Services</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  Children’s Contact Services (CCS) play a critical role in assisting families to maintain contact after separation where it is not safe to do so without assistance. CCS allow children to continue to spend time with parents (or significant others in their lives) who they do not normally live with. 
+
+ Following recommendations from the Australian Law Reform Commission’s Family Law for the Future inquiry and the Joint Select Committee on Australia’s Family Law System, the government is...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/families-and-marriage/establishment-of-an-accreditation-scheme-for-ccs/"
+                                               aria-label="More about Establishment of an Accreditation Scheme for Children’s Contact Services">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    15 September 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/families-and-marriage/heba/">Consultation on the 'Happily Ever (before and) After' brochure for marrying couples </a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The ‘Happily Ever (before and) After’ brochure (the HEBA) outlines the steps that are required to get married in Australia, the legal implications of marriage, and the availability of marriage education and counselling. 
+
+ The HEBA is provided for the purposes of section 42(5A) of the  Marriage Act 1961 (Cth)  (the Act). 
+
+ Section 42(5A) of the Act requires that: 
+
+ An authorised celebrant shall, as soon as practicable after receiving the [notice of intended marriage], give to the...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/families-and-marriage/heba/"
+                                               aria-label="More about Consultation on the 'Happily Ever (before and) After' brochure for marrying couples ">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    15 September 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/crime/modern-slavery-act/">Strengthening the Modern Slavery Act 2018 (Cth)</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  Under the  Modern Slavery Act 2018 (Cth)  (Modern Slavery Act), large entities based or operating in the Australian market with an annual consolidated revenue of at least A$100 million are required to submit annual modern slavery statements describing their actions to assess and address modern slavery risks in their operations and supply chains. Statements are publicly available online on the  Modern Slavery Statements Register . 
+
+ On 2 December 2024, the Australian Government released its...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/crime/modern-slavery-act/"
+                                               aria-label="More about Strengthening the Modern Slavery Act 2018 (Cth)">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    1 September 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/rights-and-protections/upr/">Australia's fourth Universal Periodic Review (UPR) – draft national report</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The  Universal Periodic Review  (UPR) is a United Nations (UN) Human Rights Council peer-review process that considers the human rights records of each UN Member State every four and a half years. The review is unique because it is led by Member States and covers a broad range of international human rights obligations. The UPR differs from UN human rights treaty body reviews that are led by committees of experts and focus on specific treaties. The UPR will assess the implementation of...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/rights-and-protections/upr/"
+                                               aria-label="More about Australia's fourth Universal Periodic Review (UPR) – draft national report">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    29 August 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/national-security/ivs-amendment-rules-2025/">Consultation on the Identity Verification Services Amendment (Participation Agreements) Rules 2025</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Attorney-General’s Department invites submissions on the draft Identity Verification Services Amendment (Participation Agreements) Rules 2025 (Amendment Rules). 
+
+ The Amendment Rules are made under the  Identity Verification Services Act 2023  (the IVS Act), and would amend the  Identity Verification Services Rules 2024  (IVS Rules) to prescribe a longer transition period for finalising participation agreements between Document Verification Service (DVS) users and our department....</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/national-security/ivs-amendment-rules-2025/"
+                                               aria-label="More about Consultation on the Identity Verification Services Amendment (Participation Agreements) Rules 2025">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    2 June 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/lpp-review/">Review of the use of legal professional privilege in Commonwealth investigations</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  On 6 August 2023, the Australian Government announced a joint review by the Attorney-General’s Department and Treasury into the use of legal professional privilege in Commonwealth investigations. The Attorney-General’s Department and Treasury are undertaking public consultation on a discussion paper to inform this review. 
+
+ Why we are consulting 
+
+ Since the government’s announcement, the Attorney-General’s Department and Treasury have engaged with approximately 100 stakeholders...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/lpp-review/"
+                                               aria-label="More about Review of the use of legal professional privilege in Commonwealth investigations">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    28 February 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/families-and-marriage/eamop/">Consultation draft of the National Plan to End the Abuse and Mistreatment of Older People 2024-2034</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  All Australian governments are committed to promoting the dignity, security and autonomy of older Australians. This includes preventing the abuse and mistreatment of older people in all its forms – whether it be physical, psychological, sexual, financial, or another form of mistreatment or neglect. It also includes taking positive steps to promote the rights of older people. 
+
+ This consultation focuses on the draft National Plan to End the Abuse and Mistreatment of Older People...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/families-and-marriage/eamop/"
+                                               aria-label="More about Consultation draft of the National Plan to End the Abuse and Mistreatment of Older People 2024-2034">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    17 February 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/integrity/adm/">Automated Decision-Making Reform</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The public consultation that will help inform the development of a consistent framework for the use of automated decision-making (ADM) in the delivery of government services is now open.  
+
+ ADM refers to the use of technology, such as a computer program, to automate a decision-making process.  
+
+ We are seeking your views to better understand what protections are needed for the safe and responsible use of ADM by government entities. 
+  
+
+ Consultation paper 
+
+ 
+	  Consultation...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/integrity/adm/"
+                                               aria-label="More about Automated Decision-Making Reform">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    15 January 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/fcfcoa-act-review/">Public consultation ­­– Review of the Federal Circuit and Family Court of Australia Act 2021 </a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  About the review 
+
+ Section 284 of the Federal Circuit and Family Court of Australia Act 2021 (FCFCOA Act) requires a review of the  FCFCOA Act  to be undertaken within 3 years of the Act’s commencement. 
+
+ The Attorney-General has appointed the Hon Linda Dessau AC CVO and Professor Helen Rhoades OAM to conduct the review. They are to provide a report on the review to the Attorney-General on or before 1 March 2025. 
+
+ Terms of reference 
+
+ The review is to consider: 
+
+ 
+	 The...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/fcfcoa-act-review/"
+                                               aria-label="More about Public consultation ­­– Review of the Federal Circuit and Family Court of Australia Act 2021 ">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    12 December 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/international-relations/mletr/">Consultation to inform options for implementing the Model Law on Electronic Transferable Records in Australia</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  We are undertaking a public consultation to advise the Australian Government on options for implementing legislation aligned with the  Model Law on Electronic Transferable Records (MLETR) . 
+
+ The MLETR is a model law developed by the UN Commission on International Trade Law (UNCITRAL). 
+
+ It contains a set of provisions which, if adopted into domestic law, would confirm that transferable records in the form of electronic data (or ‘electronic transferable records’) have the same legal...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/international-relations/mletr/"
+                                               aria-label="More about Consultation to inform options for implementing the Model Law on Electronic Transferable Records in Australia">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    28 October 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/integrity/forced-marriage/">Enhancing Civil Protections and Remedies for Forced Marriage</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  
+ If you're experiencing any difficulty providing a submission please email  ForcedMarriage@ag.gov.au  
+ 
+
+ The Australian Government is working with the states and territories to tackle the issue of forced marriage. We are now conducting consultations to inform this important work. 
+
+ Everyone in Australia should be free to choose if, who and when they marry. Making someone get married when they do not want to is never acceptable and is a crime in Australia. 
+
+ Forced marriage occurs...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/integrity/forced-marriage/"
+                                               aria-label="More about Enhancing Civil Protections and Remedies for Forced Marriage">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    23 September 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/families-and-marriage/family-law-regs-2024/">Exposure Draft: Family Law Regulations 2024</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Attorney-General’s Department welcomes feedback from interested stakeholders on an exposure draft of the Family Law Regulations 2024. 
+
+ The Family Law Regulations 1984 (the existing Regulations) are due to sunset on 1 April 2025. The department has been reviewing the existing Regulations with the intent to remake them prior to sunsetting. The existing Regulations support the operation of the Family Law Act by prescribing matters of practice and procedure, including: 
+
+ 
+	 relevant...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/families-and-marriage/family-law-regs-2024/"
+                                               aria-label="More about Exposure Draft: Family Law Regulations 2024">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    5 September 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/legal-system/art-rules/">Administrative Review Tribunal Rules 2024 – Public Consultation</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Administrative Review Tribunal (Tribunal), a new, fit-for-purpose federal administrative review body replacing the Administrative Appeals Tribunal (AAT) will commence on 14 October 2024. It will be user-focused, efficient, accessible, independent and fair. 
+
+ The Administrative Review Taskforce is developing the Administrative Review Tribunal Rules 2024 (Rules) to be made under the Administrative Review Tribunal Act 2024. This consultation seeks views on the drafting of important...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/legal-system/art-rules/"
+                                               aria-label="More about Administrative Review Tribunal Rules 2024 – Public Consultation">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    5 August 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li
+                                    class="dss-card consultation-state-closed"
+                                    style="padding-bottom:25px;"
+                                    data-consultation-state="closed">
+                                    <h2><a class="cs-no-underline" href="https://consultations.ag.gov.au/crime/draft-guidance-on-adequate-procedures/">Draft guidance on adequate procedures to prevent the commission of foreign bribery</a></h2>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span>  The Crimes Legislation Amendment (Combatting Foreign Bribery) Act 2024 passed through Parliament in February 2024 and introduces a new corporate offence of failure to prevent foreign bribery under section 70.5A of the Criminal Code Act 1995. The offence will apply where an associate of a corporation has committed bribery for the profit or gain of the corporation. However, a corporation will not be liable under the ‘failure to prevent’ offence if it can prove it had ‘adequate...</span>
+                                            <a class="text-nowrap"
+                                               href="https://consultations.ag.gov.au/crime/draft-guidance-on-adequate-procedures/"
+                                               aria-label="More about Draft guidance on adequate procedures to prevent the commission of foreign bribery">
+                                               <span class="fa-solid fa-circle-arrow-right me-1"></span><span>More</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="cs-date-delta">
+                                                
+                                                
+                                                <span>
+                                                    Closed
+                                                    
+                                                    9 June 2024
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row pb-4">
+                    <div class="col-sm-5">
+                        70 results.
+                        Page 1 of 3
+                    </div>
+                    <div class="col-md-7">
+                        <nav class="text-muted cs-pagination-widget" aria-label="pagination">
+                            <ul class="list-unstyled">
+                                <li style="display: inline;">
+                                    <a aria-label="Previous page" aria-disabled="true" role="link">
+                                    <span class="fa-solid fa-circle-chevron-left icon-space-right"></span><span>Previous page</span>
+                                    </a>
+                                    <span class="d-none d-md-inline-block" aria-hidden="true">|</span>
+                                </li>
+                                <li style="display: inline;">
+                                    <span class="cs-pagination-widget-next">
+                                        <a
+                                        aria-label="Next page"
+                                        href="https://consultations.ag.gov.au/consultation_finder/?sort_on=iconsultable_enddate&amp;sort_order=descending&amp;st=closed&amp;b_start=30">
+                                            <span>Next page</span><span class="fa-solid fa-circle-chevron-right icon-space-left"></span>
+                                        </a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+                </div>
+            </main>
+        </div>
+        <footer id="configurable-footer-wrapper">
+            <div class="cs-page-component-group">
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-page-component-contrast">
+    <div class="row" id="global-footer">
+            <div id="citizen-space-footer-nav" 
+                class="col-12 col-md-8 order-1 order-md-2" 
+                role="navigation"
+                aria-label="miscellaneous">
+                <ul class="list-inline">
+                    
+                        <li id="nav-item-accessibility_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/accessibility_policy/">Accessibility</a></li>
+                    
+                        <li id="nav-item-terms_and_conditions" class="list-inline-item"><a href="https://consultations.ag.gov.au/terms_and_conditions/">Terms of Use</a></li>
+                    
+                        <li id="nav-item-cookie_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/cookie_policy/">Cookies</a></li>
+                    
+                        <li id="nav-item-privacy_policy" class="list-inline-item"><a href="https://consultations.ag.gov.au/privacy_policy/">Privacy</a></li>
+                    
+                        <li id="nav-item-support" class="list-inline-item"><a href="https://consultations.ag.gov.au/support/">Help / feedback</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 order-2 order-md-1">
+                <span id="citizen-space-footer-logo">
+                <a href="https://www.delib.net/citizen_space">Citizen Space</a>
+                <span>from</span> 
+                <a href="https://www.delib.net">Delib</a>
+                </span>
+            </div>
+    </div>
+
+</div>
+
+        
+    </div>
+</section>
+
+
+                
+                    <section class="dss-rhino cs-page-component-container dss-rhino-footer" style="">
+    <div class="container-fluid">
+        <div class="cs-page-component cs-html-component">
+        <div class="row cs-html-component-one-column">
+            <div>
+                <div class="cs-page-component-contrast ">
+                    
+                    <hr><p>We acknowledge Aboriginal and Torres Strait Islander peoples as custodians of Australia and pay our respects to Elders, past and present. We also acknowledge the ongoing connection to land, sea and communities throughout Australia, and the contributions to the lives of all Australians.</p><hr>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+        
+    </div>
+</section>
+
+
+                
+            </div>
+        </footer>
+
+        <div>
+        <script src="/static_frontend/js/scrolltop.js?version=8.20.0" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var sortOrderSelect = document.getElementById('cs-finder-sort-order-select');
+                if (sortOrderSelect) {
+                    document.getElementById('cs-finder-sort-order-select').addEventListener('change', function () {
+                        document.getElementById('cs-finder-order-form').submit();
+                    });
+                }
+            });
+        </script>
+    </div>
+        
+        
+
+        <script type="text/javascript">
+            $(function() {
+                // Skip to content workaround for absolute skip links
+                jQuery('#skip a').bind("click", function(event) {
+                    var target = jQuery(this).attr('href').split('#')[1];
+                    jQuery("#"+target+"").focus();
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+        //<!-- js contains some invalid HTML characters
+            $(function() {
+                // Global search
+                var search_form = $("#cs-global-search");
+                var search_form_input = $("#cs-global-search-input");
+
+                // Scroll to search results on submit of global search form
+                search_form.submit(function() {
+                    if (search_form_input.attr('placeholder') == search_form_input.val()) {
+                        search_form_input.val('');
+                    }
+                    sessionStorage.setItem('saved-scrollTop', '500');
+                });
+
+                // Move the global search form into the appropriate container depending on viewport size
+                function move_global_search_form() {
+                    // if global nav (and global search) are turned off, bail
+                    if(!search_form.length) {
+                        return;
+                    }
+
+                    var md_container = $("#cs-global-search-container-md");
+                    var xs_container = $("#cs-global-search-container-xs");
+
+                    // btw we can't test if xs_container is visible because it's hidden inside the burger menu
+
+                    if (md_container.is(":visible")) {
+                        if(!md_container.find("#cs-global-search").length) {
+                            md_container.append(search_form);
+                        }
+                    }
+                    else {
+                        if(!xs_container.find("#cs-global-search").length) {
+                            xs_container.append(search_form);
+                        }
+                    }
+                }
+                move_global_search_form();
+                $(window).resize(move_global_search_form);
+
+                // Function to update the query string
+                function updateQueryStringParameter(uri, key, value) {
+                    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+                    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+                    if (uri.match(re)) {
+                        return uri.replace(re, '$1' + key + "=" + value + '$2');
+                    } else {
+                        return uri + separator + key + "=" + value;
+                    }
+                }
+
+                // Event listener to detect changes in the large viewport language `select`
+                var languageSelect = document.getElementById('language-picker-select');
+                if (languageSelect) {
+                    languageSelect.addEventListener('change', function() {
+                        var form = document.getElementById('global-language-picker');
+                        form.submit();
+                    });
+                }
+
+            });
+
+            // a11y hax. There are some elements generated by the ol libraries that need some extra attributes for a11y.
+            // Putting them here was preferable to overriding masses of ol code.
+            $(window).on("load", function() {
+              var zoomins = document.getElementsByClassName('ol-zoom-in');
+              for (let i=0; i<zoomins.length; i++) {
+                zoomins[i].setAttribute('aria-label', 'Zoom in');
+              }
+              var zoomouts = document.getElementsByClassName('ol-zoom-out');
+              for (let j=0; j<zoomouts.length; j++) {
+                zoomouts[j].setAttribute('aria-label', 'Zoom out');
+              }
+              var attributions = document.getElementsByClassName('ol-attribution');
+              for (let k=0; k<attributions.length; k++) {
+                attributions[k].getElementsByTagName('button')[0].setAttribute('aria-label', 'Attribution');
+              }
+              var recentre = document.getElementsByClassName('cs-zoom-to-extent');
+              for (let m=0; m<recentre.length; m++) {
+                recentre[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Recentre map');
+              }
+              var search = document.getElementsByClassName('cs-map-postcode-popup');
+              for (let m=0; m<search.length; m++) {
+                search[m].getElementsByTagName('button')[0].setAttribute('aria-label', 'Go to a postcode');
+              }
+            }
+            );
+        //-->
+        </script>
+
+        
+          
+          
+          
+        
+    </body>
+</html>
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Page 4 &#8211; The Legal Services Board</title>
+	<atom:link href="https://legalservicesboard.org.uk/feed?paged=4" rel="self" type="application/rss+xml" />
+	<link>https://legalservicesboard.org.uk</link>
+	<description></description>
+	<lastBuildDate>Wed, 25 Mar 2026 23:08:55 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.4</generator>
+	<item>
+		<title>LSB leads sector-wide effort to strengthen legal ethics</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-leads-sector-wide-effort-to-strengthen-legal-ethics</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 00:01:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24523</guid>
+
+					<description><![CDATA[Legal services regulators must do more to strengthen lawyers’ ethical standards, the Legal Services Board (LSB) has&#160;said,&#160;setting out&#160;new&#160;expectations&#160;designed to reinforce lawyers’&#160;role in upholding the rule of law. Regulators will&#160;need to&#160;put&#160;“professional ethical duties” at the heart of how&#160;lawyers&#160;are expected to behave.&#160;The LSB&#160;has&#160;confirmed that&#160;where duties conflict,&#160;lawyers must&#160;prioritise&#160;their duties to&#160;the court and the rule of law&#160;over&#160;their duty to...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: sanctions, oversight, ethics, and more</title>
+		<link>https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-sanctions-oversight-ethics-and-more</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2026 17:04:06 +0000</pubDate>
+				<category><![CDATA[Chair's Blogs]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24436</guid>
+
+					<description><![CDATA[Since the Board last met in November, the LSB team has made strong progress across several key areas of our work. Our February meeting therefore covered a wide range of issues that are central to how we make sure that legal services regulation can protect consumers and support the public interest. SRA: public censure and...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Solicitors&#8217; regulator censured over failures to protect SSB Law consumers</title>
+		<link>https://legalservicesboard.org.uk/news/solicitors-regulator-censured-over-failures-to-protect-ssb-law-consumers</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Thu, 05 Mar 2026 06:08:03 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24420</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has today issued a formal public censure against the solicitors&#8217; regulator, the Solicitors Regulation Authority (SRA). This follows the regulator’s failure to protect consumers affected by the collapse of Sheffield-based law firm SSB Group Limited (SSB). SSB specialised in so-called &#8216;no win, no fee&#8217; cases &#8211; a type of legal...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB announces preferred candidate for the Chair of the Office for Legal Complaints</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-announces-preferred-candidate-for-the-chair-of-the-office-for-legal-complaints-2</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Wed, 18 Feb 2026 09:02:07 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24380</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has announced Richard Blakeway as its preferred candidate for the post of Chair of the Office for Legal Complaints (OLC) after an open competition. The OLC is the Board of the Legal Ombudsman for England and Wales. The LSB’s recommendation has been approved by the Minister of State for Justice,...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB statement on its Public Bodies Review</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-public-bodies-review</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 10 Feb 2026 10:57:03 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24350</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) is pleased to be participating in the Ministry of Justice’s Public Bodies Review. All arms-length bodies of Government are subject to periodic review, with the LSB last being reviewed in 2017. We welcome this opportunity to reflect on the positive impact of our work, our role supporting independent legal services regulation, and areas where we...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB publishes interim findings on litigation guidance</title>
+		<link>https://legalservicesboard.org.uk/news/interim-findings-litigation-guidance</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 29 Jan 2026 08:55:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24305</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has today published an interim report setting out initial findings from its review of the advice and guidance that regulators have given to the profession on the conduct of litigation.  The&#160;report&#160;identifies&#160;differences in how regulators have interpreted and communicated requirements around the conduct of litigation.&#160;It&#160;is&#160;intended to support regulators&#160;to&#160;improve&#160;clarity, consistency,&#160;and collaboration&#160;across&#160;all relevant aspects of their...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB announces new Chief Executive</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-announces-new-ceo</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 13 Jan 2026 11:02:57 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24249</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) today announces that Richard Orpin has been appointed&#160;its&#160;Chief Executive Officer (CEO).&#160;&#160; The Board appointed Richard following an open recruitment process. Richard joined the LSB in 2023 as Director, Regulation and Policy, and has nearly 20 years’ experience in regulation and in government.  Commenting on the appointment, Catherine Brown, Interim Chair of the Legal Services...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB outlines plans as report shows legal sector’s progress – and challenges</title>
+		<link>https://legalservicesboard.org.uk/news/business-plan-consultation-state-of-legal-services</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Wed, 17 Dec 2025 00:10:53 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24158</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has today launched a consultation on its draft business plan and budget for 2026/27. Alongside this, it has published a report on the sector’s progress against the Reshaping Legal Services strategy.  Business plan 2026/27&#160; The draft business plan proposes that the LSB&#160;implement its&#160;revised&#160;approach&#160;to oversight regulation.&#160;This will&#160;involve&#160;the LSB focussing&#160;its resources&#160;on&#160;regulators&#160;that&#160;underperform&#160;and&#160;reducing burdens on those performing well.&#160;&#160; Meanwhile, the...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: towards a more diverse legal profession</title>
+		<link>https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-towards-a-more-diverse-legal-profession</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 09 Dec 2025 14:16:11 +0000</pubDate>
+				<category><![CDATA[Chair's Blogs]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24134</guid>
+
+					<description><![CDATA[This month’s Board meeting coincided with the launch of our consultation on encouraging a diverse legal profession. At the heart of this consultation is a simple but powerful principle: the legal profession should better reflect the society it serves. Greater diversity brings many advantages, not just for fairness, but also for improving the quality, reach,...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB publishes plans to tackle barriers to a more diverse legal services profession</title>
+		<link>https://legalservicesboard.org.uk/news/lsb-publishes-plans-to-tackle-barriers-to-a-more-diverse-legal-services-profession</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 27 Nov 2025 00:01:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=24089</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has shared new proposals that aim to support equality and diversity in the legal profession and is inviting feedback from across the sector.  Despite some progress,&#160;the legal profession does not&#160;represent&#160;the people it&#160;serves.&#160;Many groups&#160;still face barriers to entering the profession and developing their careers in legal services.&#160;Women, minoritised ethnic&#160;groups&#160;and disabled&#160;people, for example,&#160;remain significantly underrepresented at senior levels across&#160;parts&#160;of the...]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

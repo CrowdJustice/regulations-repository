@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Page 7 &#8211; The Legal Services Board</title>
+	<atom:link href="https://legalservicesboard.org.uk/feed?paged=7" rel="self" type="application/rss+xml" />
+	<link>https://legalservicesboard.org.uk</link>
+	<description></description>
+	<lastBuildDate>Mon, 31 Mar 2025 08:35:40 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.4</generator>
+	<item>
+		<title>Major legal regulators fall short in latest performance assessment </title>
+		<link>https://legalservicesboard.org.uk/news/major-legal-regulators-fall-short-in-latest-performance-assessment</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Mon, 31 Mar 2025 08:30:48 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22951</guid>
+
+					<description><![CDATA[The two largest legal regulators in England and Wales have fallen short of expected standards, according to the latest annual performance assessment published today by the Legal Services Board (LSB).&#160; The Solicitors Regulation Authority (SRA) and Bar Standards Board (BSB) together regulate more than 90% of legal professionals in England and Wales.&#160; Both failed to...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New regulatory proposals to strengthen lawyers’ ethical standards</title>
+		<link>https://legalservicesboard.org.uk/news/new-regulatory-proposals-to-strengthen-lawyers-ethical-standards</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 06 Mar 2025 00:01:52 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22767</guid>
+
+					<description><![CDATA[New regulatory measures to strengthen ethical standards in the legal sector have been  proposed today, to initiate a significant shift in how lawyers’ ethics are taught, overseen and supported in workplaces.  The Legal Services Board (LSB) is seeking views on how regulators support lawyers to fully understand and uphold their ethical duties throughout their careers....]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Legal Services Board&#8217;s response to Civil Justice Council&#8217;s Consultation on Litigation Funding</title>
+		<link>https://legalservicesboard.org.uk/news/the-legal-services-boards-response-to-civil-justice-councils-consultation-on-litigation-funding</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Tue, 04 Mar 2025 13:56:28 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22762</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has provided written evidence to the review of litigation funding by the Civil Justice Council (CJC). Our response draws on a number of sources including the LSB’s own literature review of litigation funding, which was published in 2024, and the potential it identifies to improve access to justice. We note that this...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Alan Kershaw steps down as LSB Chair</title>
+		<link>https://legalservicesboard.org.uk/news/alan-kershaw-steps-down-as-lsb-chair</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Fri, 28 Feb 2025 12:31:04 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22739</guid>
+
+					<description><![CDATA[The Chair of the Legal Services Board (LSB), Alan Kershaw, has notified the Lord Chancellor that he stands down from his role this week, citing personal considerations. LSB Chief Executive Craig Westwood said: “Alan leaves with our gratitude for the leadership he has provided during his time as Chair of the LSB. He has brought...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>LSB confirms appointment of new member of the Legal Services Consumer Panel</title>
+		<link>https://legalservicesboard.org.uk/news/michael-mack-legal-services-consumer-panel</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 18 Feb 2025 11:00:46 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22721</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) today announces the appointment of Michael Mack to the Legal Services Consumer Panel (LSCP). Michael will take up his appointment from 1 April 2025 for an initial three-year term. Alan Kershaw, Chair of the LSB, said: ‘I would like to congratulate Michael on his appointment. His experience, particularly in helping...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: regulatory oversight and professional ethics in focus</title>
+		<link>https://legalservicesboard.org.uk/news/chairs-blog-regulatory-oversight-professional-ethics</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2025 11:03:39 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22669</guid>
+
+					<description><![CDATA[Our first Board meeting of 2025 took place on Tuesday 21 January. It was a pleasure to be joined by our new Board Apprentice for this year, Liz Marshall. We had two substantive items to discuss: first, the LSB’s approach to regulatory oversight; and second, a draft policy statement about professional ethics and the rule...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>We&#8217;re hosting a Board Apprentice in 2025</title>
+		<link>https://legalservicesboard.org.uk/news/were-hosting-a-board-apprentice-in-2025</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2024 11:44:43 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22506</guid>
+
+					<description><![CDATA[We&#8217;re excited to be part of the Board Apprentice programme in 2025 for the second time. Boardroom Apprentice is a board learning, development and placement programme. It enables those who want to serve on a public or third-sector board to learn and gain experience in preparation for that step. This is a unique opportunity for...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chair’s blog: priorities for 2025/26</title>
+		<link>https://legalservicesboard.org.uk/news/chairs-blog-priorities-for-2025-26</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Thu, 05 Dec 2024 10:58:50 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22474</guid>
+
+					<description><![CDATA[On 26 November, we held our final Board meeting for 2024. More of that in a moment, but first I want to reflect on another busy year. It has been a year of change – not least bringing a new Chief Executive – but also of continuity. We have continued, for example, to work towards...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Professional ethics and consumer protections among future priorities for oversight regulator</title>
+		<link>https://legalservicesboard.org.uk/news/professional-ethics-and-consumer-protections-among-future-priorities-for-oversight-regulator</link>
+		
+		<dc:creator><![CDATA[lsb_editor]]></dc:creator>
+		<pubDate>Tue, 03 Dec 2024 10:08:09 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22459</guid>
+
+					<description><![CDATA[The Legal Services Board (LSB) has launched a consultation on its business plan and budget for 2025/26. Among its proposals, the oversight regulator has identified professional ethics and consumer protections as future priorities. The LSB wants to change the culture of legal services to support and empower professional ethical decision-making across the sector. It sees...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Join Us at the 2025 Reshaping Legal Services Annual Conference!</title>
+		<link>https://legalservicesboard.org.uk/news/join-us-at-the-2025-reshaping-legal-services-annual-conference</link>
+		
+		<dc:creator><![CDATA[lsb_admin]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2024 10:51:29 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://legalservicesboard.org.uk/?p=22559</guid>
+
+					<description><![CDATA[We are excited to announce that we are now open for bookings for our 2025 Reshaping Legal Services annual conference. Organised by the Legal Services Board and Legal Services Consumer Panel, the conference will once again bring together a wide range of people who have a role to play in ensuring legal services work better for...]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

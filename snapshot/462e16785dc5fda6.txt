@@ -1,0 +1,2768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        // Default ad_storage to 'denied'.
+        gtag('consent', 'default', {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            'wait_for_update': 500
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5L9F7');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="facebook-domain-verification" content="1bk2azzrq6858zdd1idzelo1mwvpb9" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="canonical" href="https://www.sra.org.uk/sra/consultations/consultation-listing/business-plan-funding-requirements-2026-27/" />
+        <meta name="twitter:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/business-plan-funding-requirements-2026-27/" />
+        <meta name="twitter:site" content="@sra_solicitors" />
+        <meta name="twitter:creator" content="@sra_solicitors" />
+        <meta name="twitter:image:alt" content="Logo for the Solicitors Regulation Authority" />
+        <meta name="twitter:title" content="Draft Business Plan and funding requirement 2026/27" />
+        <meta property="twitter:description" content="We have published our draft Business Plan and funding requirements for 2026/27, setting out our proposed programme of changes to improve how we regulate solicitors and law firms, with a sharper focus on protecting the public from the biggest risks.&#xA; " />
+        <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+
+        <meta property="og:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/business-plan-funding-requirements-2026-27/" />
+        <meta property="og:title" content="Draft Business Plan and funding requirement 2026/27" />
+        <meta property="article:published_time" content="5/8/2026 11:00:03&#x202F;AM" />
+        <meta property="article:modified_time" content="5/8/2026 11:00:03&#x202F;AM" />
+            <meta property="og:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+        <meta property="og:description" content="We have published our draft Business Plan and funding requirements for 2026/27, setting out our proposed programme of changes to improve how we regulate solicitors and law firms, with a sharper focus on protecting the public from the biggest risks.&#xA; " />
+
+    <title>SRA | Draft Business Plan and funding requirement 2026/27 | Solicitors Regulation Authority</title>
+        <meta name="description" content="We have published our draft Business Plan and funding requirements for 2026/27, setting out our proposed programme of changes to improve how we regulate solicitors and law firms, with a sharper focus on protecting the public from the biggest risks.&#xA; " />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="/Static/build/css/styles.css">
+    <link rel="stylesheet" href="/Static/build/css/site.css">
+
+    <script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=32126319-ec4d-4c8b-a221-3dd7343e841f;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=3b5219b5-c2e6-42f4-9861-7f929b886295', disableCookiesUsage: false }});
+</script>
+
+    
+
+    <script src="/Static/src/assets/js/vendor/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5L9F7" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="wrapper" class="wrapper noindex">
+        <!-- header -->
+
+
+<header class="header">
+    <div class="header">
+        <input type="hidden" ID="pageAncestors" value="5,95383,97230,97231,169715" />
+
+
+<div class="top-bar-menu d-none d-lg-flex">
+    <div class="container">
+
+        <div class="text-left col-md-2">
+            <a id="skip" class="btn btn-link btn-sm" href="#mainContent" onclick="ga('send', 'event', 'Navigation', 'Skip to Main Content');">Skip to main content </a>
+        </div>
+
+        <div class="container text-end">
+
+
+                <a class="btn btn-secondary btn-sm mysra-link" id="translate" href="https://my.sra.org.uk/"
+                   >
+                    Log in to mySRA
+                </a>
+
+            <span >
+                    <a href="/home/contact-us/" class="btn btn-link btn-sm margin-right-none padding-right-none">Contact us</a>
+            </span>
+        </div>
+
+    </div>
+</div>
+        <div class="middle-bar-menu container d-none d-lg-block">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="/">
+                              <img class="brand-logo img-responsive" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="330" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="search-box text-end">
+                          <form class="navbar-form" role="search" action="/search-results/" method="get">
+                              <div class="input-group">
+                                  <label for="desktop-search" class="visually-hidden">Search the website</label>
+                                  <input type="text" placeholder="Search" name="searchText" id="desktop-search">
+                                  <div class="input-group-btn input-group-btn--search">
+                                      <button type="submit" class="btn btn-primary" id="globalSearchButton" aria-label="Search">
+                                          <i class="icon icon-magnifier"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar-menu">
+            <div class="big-menu">
+                <nav class="navbar navbar-default container">
+                    <div class="navbar-header">
+                        <a class="d-block d-lg-none" href="/"><img class="brand-logo" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="300" loading="lazy"></a>
+                    </div>
+                    <div class="navbar-extra-xs d-flex d-lg-none row">
+                        <a href="/" class="btn btn-primary col-4">
+                            <i class="icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="btn btn-primary col-4 js-search-show">
+                            <i class="icon icon-magnifier"></i>
+                            <span>Search</span>
+                        </a>
+                        <a href="#menu-sra" class="btn btn-primary small-navigation-button col-4 d-lg-none">
+                            <i class="icon icon-bars"></i>
+                            <span>Menu</span>
+                        </a>
+                    </div>
+                    <div class="search-box-xs d-lg-none" aria-expanded="false"​>
+                        <form role="search" action="/search-results/" method="get">
+                            <div class="input-group input-group--table">
+                                <label for="mobile-search" class="visually-hidden">Search website</label>
+
+                                <input type="text" placeholder="Search" name="searchText" id="mobile-search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-primary" href="#">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="collapse navbar-collapse js-navbar-collapse">
+                            <ul class="nav navbar-nav top-navigation">
+                                    <li class="theme-red">
+                                        <a class="red" href="/news/" title="News" data-page-id="166511">News</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/sra/" title="About us " data-page-id="95383">About us </a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/solicitors/" title="For law professionals" data-page-id="75649">For law professionals</a>
+                                    </li>
+                                    <li class="theme-purple">
+                                        <a class="purple" href="/consumers/" title="For the public" data-page-id="78133">For the public</a>
+                                    </li>
+                                    <li class="theme-blue">
+                                        <a class="blue" href="/become-solicitor/" title="Becoming a solicitor" data-page-id="95018">Becoming a solicitor</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/mysra/" title="mySRA" data-page-id="97544">mySRA</a>
+                                    </li>
+                            </ul>
+                            <script>
+                                    window.cmsThemeOverride = 'red';
+                            </script>
+                        <form class="navbar-form d-block d-lg-none" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav id="menu-sra" class="mob-menu">
+            <a class="mm-close mm-btn" href="#page-wrapper"></a>
+            <!-- First level items -->
+            <ul class="nav nav-pills nav-stacked">
+
+
+                    <li class="red home-link">
+
+                        <a class="expand-children" href="/" data-attribute="/" data-page-id="5">Home</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/news/" data-attribute="/news/" data-page-id="166511">News</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/sra/" data-attribute="/sra/" data-page-id="95383">About us </a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/solicitors/" data-attribute="/solicitors/" data-page-id="75649">For law professionals</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="purple">
+
+                        <a class="expand-children" href="/consumers/" data-attribute="/consumers/" data-page-id="78133">For the public</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="blue">
+
+                        <a class="expand-children" href="/become-solicitor/" data-attribute="/become-solicitor/" data-page-id="95018">Becoming a solicitor</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/mysra/" data-attribute="/mysra/" data-page-id="97544">mySRA</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                <li>
+                </li>
+                <li class="mobile-bottom-link"> <a class="btn btn-secondary mysra-link" href="/mysra">Log in to mySRA</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<nav id="megaMenu" class="megaMenu container main-container navbar" role="navigation" aria-label="Main navigation" aria-hidden="true">
+
+<div id="megaMenuSectionnews" class="megaMenuSection news">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/news/">News</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/home/megamenu/promotional/consumer-crowd.webp" class="card-img-top" alt="A crowd of people on the street">
+                    <div class="card-body">
+                        <h6 class="card-title">High volume consumer claims</h6>
+                        <p class="card-text">Learn how we are tackling issues in the high-volume consumer claims sector.</p>
+                        <a href="/home/hot-topics/high-volume-consumer-claims/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-News" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/news/" data-node-id="95702" aria-role="menuitem">News releases and statements</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sra-update/" data-node-id="95951" aria-role="menuitem">SRA Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sqe-update/" data-node-id="137703" aria-role="menuitem">SQE Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/blogs/" data-node-id="170237" aria-role="menuitem">Blogs and articles</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/lawtech-insight/" data-node-id="148805" aria-role="menuitem">Lawtech Insight</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/events/" data-node-id="96367" aria-role="menuitem">Events and speakers</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95702" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="News releases and statements">
+    <h5><a href="/news/news/">News releases and statements</a></h5>
+    <ul id="nav2list-95702" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/news/releases/">
+                  News archive
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95951" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Update">
+    <h5><a href="/news/sra-update/">SRA Update</a></h5>
+    <ul id="nav2list-95951" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sra-update/unsubscribe/">
+                  SRA Update subscription
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137703" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SQE Update">
+    <h5><a href="/news/sqe-update/">SQE Update</a></h5>
+    <ul id="nav2list-137703" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sqe-update/sqe-subscribe/">
+                  Subscribe to SQE Update
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-170237" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Blogs and articles">
+    <h5><a href="/news/blogs/">Blogs and articles</a></h5>
+    <ul id="nav2list-170237" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-148805" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Lawtech Insight">
+    <h5><a href="/news/lawtech-insight/">Lawtech Insight</a></h5>
+    <ul id="nav2list-148805" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/lawtech-insight/lawtech-insight-subscription/">
+                  Subscribe to Lawtech Insight
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96367" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Events and speakers">
+    <h5><a href="/news/events/">Events and speakers</a></h5>
+    <ul id="nav2list-96367" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/events/on-demand-events/">
+                  On-demand events
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsra" class="megaMenuSection sra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/sra/">About us </a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/crowd-in-street.jpg" class="card-img-top" alt="A busy city street with people walking on a sunny day. The buildings line the sidewalk, and trees are visible along the street.">
+                    <div class="card-body">
+                        <h6 class="card-title">Our priorities for 2026/27</h6>
+                        <p class="card-text">Read our Business Plan and see our key priorities for the year ahead.</p>
+                        <a href="/sra/corporate-strategy/business-plans/business-plan/business-plan-2026-27/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-About us " class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/how-we-work/" data-node-id="95392" aria-role="menuitem">How we work</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/consultations/" data-node-id="97230" aria-role="menuitem">Consultation and discussion</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/research-publications/" data-node-id="144139" aria-role="menuitem">Research and publications</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/equality-diversity/" data-node-id="95393" aria-role="menuitem">Equality and diversity</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/corporate-strategy/" data-node-id="95397" aria-role="menuitem">Strategy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/policy/" data-node-id="95394" aria-role="menuitem">Policy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/decision-making/" data-node-id="95396" aria-role="menuitem">Decision making</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/complaints-service/" data-node-id="95395" aria-role="menuitem">Complaints about our service</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/jobs/" data-node-id="96408" aria-role="menuitem">Jobs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95392" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How we work">
+    <h5><a href="/sra/how-we-work/">How we work</a></h5>
+    <ul id="nav2list-95392" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/what-we-do/">
+                  What we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/our-board/">
+                  Our Board
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/management/">
+                  Our management
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/privacy-data-information/">
+                  Privacy, data and information
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/costs-statement/">
+                  Costs statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/public-legal-education/">
+                  Our Public Legal Education work 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/terms-conditions-service/">
+                  Terms and conditions of service
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/standard-conditions-contract/">
+                  Standard conditions of contract
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/investments-reserves/">
+                  Investments and reserves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/environmental-policy-statement/">
+                  Environmental policy statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/modern-day-slavery-statement/">
+                  Modern day slavery statement
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97230" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Consultation and discussion">
+    <h5><a href="/sra/consultations/">Consultation and discussion</a></h5>
+    <ul id="nav2list-97230" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultations-closed/">
+                  Closed consultations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-responses/">
+                  Our consultation responses
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-alerts/">
+                  Consultation alerts
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/discussion-papers/">
+                  Discussion papers
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-144139" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Research and publications">
+    <h5><a href="/sra/research-publications/">Research and publications</a></h5>
+    <ul id="nav2list-144139" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/about-the-sra/">
+                  About the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/education-training/">
+                  Education and training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/equality-and-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/innovation/">
+                  Innovation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/risk/">
+                  Risk
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/complaints-and-misconduct/">
+                  Complaints and misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/regulation/">
+                  Regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95393" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Equality and diversity">
+    <h5><a href="/sra/equality-diversity/">Equality and diversity</a></h5>
+    <ul id="nav2list-95393" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-work/">
+                  Our work on diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-profession/">
+                  Diversity in the profession
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-policies/">
+                  Diversity policies
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-sra/">
+                  Diversity in the SRA
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95397" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Strategy">
+    <h5><a href="/sra/corporate-strategy/">Strategy</a></h5>
+    <ul id="nav2list-95397" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/expert-panel/">
+                  The Expert Panel
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/independent-regulation/">
+                  Independent regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/sra-enforcement-strategy/">
+                  Enforcement strategy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/business-plans/">
+                  Business planning
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/lsb-directions/">
+                  LSB Directions and regulatory approach 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95394" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Policy">
+    <h5><a href="/sra/policy/">Policy</a></h5>
+    <ul id="nav2list-95394" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/policy/our-approach-policy/">
+                  Our approach
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95396" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Decision making">
+    <h5><a href="/sra/decision-making/">Decision making</a></h5>
+    <ul id="nav2list-95396" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/schedule-delegation/">
+                  Who can make decisions at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/adjudicators-panel/">
+                  SRA adjudication
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95395" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Complaints about our service">
+    <h5><a href="/sra/complaints-service/">Complaints about our service</a></h5>
+    <ul id="nav2list-95395" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/make-a-complaint/">
+                  Make a complaint about the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/independent-reviewers-report/">
+                  Independent complaints reviewer&#x27;s annual report
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-charter/">
+                  Complaints charter
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/unreasonable-behaviour-policy/">
+                  Managing unreasonable behaviour towards SRA staff policy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-policy/">
+                  Complaints policy
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96408" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Jobs">
+    <h5><a href="/sra/jobs/">Jobs</a></h5>
+    <ul id="nav2list-96408" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/staff-videos/">
+                  Working at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/use-of-ai/">
+                  Use of Artificial Intelligence (AI)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-process/">
+                  The recruitment process
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/our-offices/">
+                  Our offices
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/values/">
+                  Our values
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/diversity-inclusion/">
+                  Diversity inclusion
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/benefits/">
+                  Benefits
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-agencies/">
+                  For recruitment agencies
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsolicitors" class="megaMenuSection solicitors">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/solicitors/">For law professionals</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/sra-ai.jpg" class="card-img-top" alt="A person typing on a laptop with a web page open. The screen displays a text box and the question, &quot;How can I help you?&quot;">
+                    <div class="card-body">
+                        <h6 class="card-title">Use of AI warning notice</h6>
+                        <p class="card-text">We have published guidance about safe and responsible use of AI in legal sector.</p>
+                        <a href="/solicitors/guidance/misuse-ai/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For law professionals" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/standards-regulations/" data-node-id="135765" aria-role="menuitem">SRA Standards and Regulations</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/guidance/" data-node-id="136892" aria-role="menuitem">Guidance</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/resources/" data-node-id="155170" aria-role="menuitem">Resources</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/firm-based-authorisation/" data-node-id="75658" aria-role="menuitem">Firm-based authorisation</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/certificates/" data-node-id="137639" aria-role="menuitem">Good standing and certificates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/enforcement/" data-node-id="75654" aria-role="menuitem">Investigation and enforcement</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-135765" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Standards and Regulations">
+    <h5><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></h5>
+    <ul id="nav2list-135765" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/principles/">
+                  Principles
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-solicitors/">
+                  SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-firms/">
+                  SRA Code of Conduct for Firms
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/accounts-rules/">
+                  SRA Accounts Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/application-notice-review-appeal-rules/">
+                  SRA Application, Notice, Review and Appeal Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/index/">
+                  Index of SRA Standards and Regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/glossary/">
+                  SRA Glossary
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136892" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Guidance">
+    <h5><a href="/solicitors/guidance/">Guidance</a></h5>
+    <ul id="nav2list-136892" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/accounts-and-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/admissions/">
+                  Admissions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/authorisation/">
+                  Authorisation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/client-care/">
+                  Client Care
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/compensation/">
+                  Compensation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/disciplinary-procedures/">
+                  Disciplinary procedures
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/misconduct/">
+                  Misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/professional-indemnity-insurance/">
+                  Professional indemnity insurance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-155170" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Resources">
+    <h5><a href="/solicitors/resources/">Resources</a></h5>
+    <ul id="nav2list-155170" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/accounts-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/continuing-competence/">
+                  Continuing competence
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/cybercrime/">
+                  Cybercrime
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/equality-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/fees/">
+                  Fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/innovate/">
+                  Innovate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/money-laundering/">
+                  Money laundering 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/professional-indemnity/">
+                  Professional indemnity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/reporting-misconduct/">
+                  Reporting misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/specific-areas-practice/">
+                  Specific areas of practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/all-other-topics/">
+                  All other topics 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75658" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Firm-based authorisation">
+    <h5><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></h5>
+    <ul id="nav2list-75658" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/authorisation-recognition/">
+                  New firm
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/existing-firms-applications/">
+                  Existing firms 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/firm-closures/">
+                  Firm is closing or being acquired
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/decision-authorisation/">
+                  How we make authorisation decisions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/disclosure-barring-service-checks/">
+                  DBS checks
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/abs/abs-search/">
+                  Register of licensed bodies (ABS)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/temporary-emergency-authorisation/">
+                  Temporary emergency authorisation
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137639" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Good standing and certificates">
+    <h5><a href="/solicitors/certificates/">Good standing and certificates</a></h5>
+    <ul id="nav2list-137639" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/replacement-admission-certificate/">
+                  Replacement admission certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/firm-letter-regulatory-standing/">
+                  Firm letter of regulatory standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/extract-from-roll/">
+                  Extract from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-good-standing/">
+                  Certificate of good standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-attestation/">
+                  Certificate of attestation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/faqs/">
+                  FAQs - Certificates
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Investigation and enforcement">
+    <h5><a href="/solicitors/enforcement/">Investigation and enforcement</a></h5>
+    <ul id="nav2list-75654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-reporting-themselves/">
+                  Solicitors reporting themselves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/practising-certificate-pc-conditions-suspension-removal-roll/">
+                  Suspension or removal from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-disciplinary-tribunal/">
+                  Solicitors Disciplinary Tribunal
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/intervention-reasons-costs/">
+                  Intervention into a practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/financial-penalties-default-salaries/">
+                  Financial penalties - default salaries
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionconsumers" class="megaMenuSection consumers">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/consumers/">For the public</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Solicitors Register</h6>
+                        <p class="card-text">Look up the records of the solicitors and law firms we regulate.</p>
+                        <a href="/consumers/register/" class="btn btn-primary btn-sm">Search now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For the public" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/who-we-are/" data-node-id="78136" aria-role="menuitem">Who we are</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/register/" data-node-id="134879" aria-role="menuitem">Solicitors Register</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/choosing/" data-node-id="136472" aria-role="menuitem">Choosing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/instructing/" data-node-id="78135" aria-role="menuitem">Instructing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/problems/" data-node-id="78134" aria-role="menuitem">Problems with a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/compensation-fund/" data-node-id="141935" aria-role="menuitem">Compensation fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/solicitors-indemnity-fund/" data-node-id="156186" aria-role="menuitem">Solicitors Indemnity Fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/scam-alerts/" data-node-id="93557" aria-role="menuitem">Scam alerts</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/professional-indemnity-insurance-guidelines/" data-node-id="166729" aria-role="menuitem">Professional Indemnity Insurance</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-78136" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Who we are">
+    <h5><a href="/consumers/who-we-are/">Who we are</a></h5>
+    <ul id="nav2list-78136" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/what-sra-about/">
+                  Who we are and what we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/sra-regulate/">
+                  How we regulate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/expect-from-us/">
+                  What you can expect from us
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-134879" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Register">
+    <h5><a href="/consumers/register/">Solicitors Register</a></h5>
+    <ul id="nav2list-134879" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/glossary/">
+                  Solicitors Register glossary
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/legal-notice/">
+                  Legal notice 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/others/">
+                  Other searches
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136472" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Choosing a solicitor">
+    <h5><a href="/consumers/choosing/">Choosing a solicitor</a></h5>
+    <ul id="nav2list-136472" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-issue/">
+                  What is a legal issue
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/what-to-expect/">
+                  What to expect
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/get-best-solicitor/">
+                  Get the best from your solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/look-out-for-our-logo/">
+                  Look out for our logo
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/price-advice/">
+                  Price advice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-jargon-explained/">
+                  Legal jargon explained
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/customer-reviews/">
+                  Customer reviews
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/comparison-services/">
+                  Comparison sites
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/no-win-no-fee/">
+                  &#x27;No win, no fee&#x27; agreements: A guide
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/motor-finance-compensation-claims/">
+                  Motor finance compensation claims
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/aml/">
+                  Anti-money laundering checks: What you need to know
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78135" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Instructing a solicitor">
+    <h5><a href="/consumers/instructing/">Instructing a solicitor</a></h5>
+    <ul id="nav2list-78135" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/know-before-sign-up/">
+                  What to know before you sign up
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/costs-legal-aid/">
+                  Understanding costs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/legal-advocacy/">
+                  Legal advocacy 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/using-technology/">
+                  Using technology
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/handling-legal-work-yourself/">
+                  Handling legal work yourself
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78134" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Problems with a solicitor">
+    <h5><a href="/consumers/problems/">Problems with a solicitor</a></h5>
+    <ul id="nav2list-78134" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/report-solicitor/">
+                  Report a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/solicitor-closed-down/">
+                  What to do if a firm has closed
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/claim-papers/">
+                  Claim your papers from us
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/fraud-dishonesty/">
+                  Recognising problems with a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/financial-difficulty/">
+                  Law firms with financial problems
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-141935" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Compensation fund">
+    <h5><a href="/consumers/compensation-fund/">Compensation fund</a></h5>
+    <ul id="nav2list-141935" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/compensation-fund/">
+                  How the compensation fund works
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/claims-process/">
+                  Can you apply to the compensation fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/application-process/">
+                  Apply to the compensation fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/resources/">
+                  How we decide on compensation fund applications
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-156186" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Indemnity Fund">
+    <h5><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></h5>
+    <ul id="nav2list-156186" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/what-solicitors-indemnity-fund/">
+                  What is the Solicitors Indemnity Fund? 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/can-apply-solicitors-indemnity-fund/">
+                  Can you apply to the Solicitors Indemnity Fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/apply-solicitors-indemnity-fund/">
+                  Apply to the Solicitors Indemnity Fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/manage-fund/">
+                  How we manage the fund
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-93557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Scam alerts">
+    <h5><a href="/consumers/scam-alerts/">Scam alerts</a></h5>
+    <ul id="nav2list-93557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-166729" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Professional Indemnity Insurance">
+    <h5><a href="/consumers/professional-indemnity-insurance-guidelines/">Professional Indemnity Insurance</a></h5>
+    <ul id="nav2list-166729" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionbecome-solicitor" class="megaMenuSection become-solicitor">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/become-solicitor/">Becoming a solicitor</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/richard-williams.jpg" class="card-img-top" alt="Video frame of a person speaking, displayed on a video player interface.">
+                    <div class="card-body">
+                        <h6 class="card-title">Understanding the SQE</h6>
+                        <p class="card-text">View our latest on-demand SQE webinar.</p>
+                        <a href="/news/events/on-demand-events/sqe-next/" class="btn btn-primary btn-sm">Watch now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-Becoming a solicitor" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/sqe/" data-node-id="139067" aria-role="menuitem">Solicitors Qualifying Examination (SQE) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/legal-practice-course-route/" data-node-id="145654" aria-role="menuitem">Legal Practice Course (LPC) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/qualified-lawyers/" data-node-id="143099" aria-role="menuitem">Qualified lawyers</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/character-and-suitability/" data-node-id="139126" aria-role="menuitem">Character and suitability</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/admission/" data-node-id="95364" aria-role="menuitem">Admission</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-139067" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Qualifying Examination (SQE) route">
+    <h5><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></h5>
+    <ul id="nav2list-139067" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/check-validate-qualification/">
+                  Checking and validate your degree
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qualifying-work-experience-candidates/">
+                  Qualifying work experience
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-case-studies/">
+                  Insights from aspiring and qualified solicitors
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/access-reinvestment-fund/">
+                  SQE fund for disadvantaged candidates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-training-options/">
+                  SQE training options
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/solicitor-apprenticeships/">
+                  Solicitor apprenticeships
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qa/">
+                  Questions and answers - SQE
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-145654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Legal Practice Course (LPC) route">
+    <h5><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></h5>
+    <ul id="nav2list-145654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/qualifying-law-degree-common-professional-examination/">
+                  Qualifying law degree or Common Professional Examination
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/lpc/">
+                  Legal Practice Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/period-recognised-training/">
+                  Period of recognised training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/professional-skills-course/">
+                  Professional Skills Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/becoming-solicitor-legal-practice-course-transitional-requirements/">
+                  Becoming a solicitor with the Legal Practice Course (transitional requirements)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/substitute-qwe-sqe2-equivalent-training/">
+                  Substitute QWE and SQE2 as an equivalent to a period of recognised training application
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/equivalent-means-information-pack/">
+                  Equivalent Means
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/resources/">
+                  Resources
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-143099" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Qualified lawyers">
+    <h5><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></h5>
+    <ul id="nav2list-143099" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/sqe-exemptions/">
+                  SQE exemptions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/principle-admission/">
+                  Qualified lawyers regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/jurisdictions-political-unrest/">
+                  Jurisdictions where there is political unrest
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139126" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Character and suitability">
+    <h5><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></h5>
+    <ul id="nav2list-139126" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/what-character-suitability/">
+                  What is character and suitability?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/disclosing-character-suitability-issue/">
+                  Disclosing a character and suitability issue 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/early-assessment-character-suitability/">
+                  Applying for an early assessment of character and suitability
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/character-suitability-faqs/">
+                  Character and suitability FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95364" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Admission">
+    <h5><a href="/become-solicitor/admission/">Admission</a></h5>
+    <ul id="nav2list-95364" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/pathways-qualification/">
+                  Pathways to qualification
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/screening/">
+                  Apply for screening
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-forms-fees/">
+                  Admission to the roll of solicitors and related fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-dates/">
+                  Admission dates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/before-after-admission/">
+                  What to expect before and after admission
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/faqs/">
+                  Admission FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionmysra" class="megaMenuSection mysra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/mysra/">mySRA</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Verifying your identity when logging in</h6>
+                        <p class="card-text">You must verify your identity using an authenticator app.</p>
+                        <a href="/mysra/verifying-mysra-account/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-mySRA" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/updates/" data-node-id="97557" aria-role="menuitem">mySRA updates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/manage-account/" data-node-id="139470" aria-role="menuitem">How to manage your account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/fees/" data-node-id="97551" aria-role="menuitem">Fees</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/get-mysra-account/" data-node-id="139463" aria-role="menuitem">Get a mySRA account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/faqs/" data-node-id="97545" aria-role="menuitem">mySRA FAQs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-97557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA updates">
+    <h5><a href="/mysra/updates/">mySRA updates</a></h5>
+    <ul id="nav2list-97557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-139470" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How to manage your account">
+    <h5><a href="/mysra/manage-account/">How to manage your account</a></h5>
+    <ul id="nav2list-139470" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/organisation-account/">
+                  How to manage my organisation account
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/individual-account/">
+                  How to manage my individual account
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97551" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Fees">
+    <h5><a href="/mysra/fees/">Fees</a></h5>
+    <ul id="nav2list-97551" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/current-fees/">
+                  Fee policy  2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator/">
+                  Fee calculator 2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-policy-25-26/">
+                  Fee policy  2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator-25-26/">
+                  Fee calculator 2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/ways-to-pay/">
+                  Ways to pay for your practising certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/compensation-fund-contribution-level-principles/">
+                  Compensation fund contribution level principles
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139463" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Get a mySRA account">
+    <h5><a href="/mysra/get-mysra-account/">Get a mySRA account</a></h5>
+    <ul id="nav2list-139463" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-97545" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA FAQs">
+    <h5><a href="/mysra/faqs/">mySRA FAQs</a></h5>
+    <ul id="nav2list-97545" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</nav>
+
+
+        
+
+        <!-- header end-->
+        <section class="container main-container" id="mainContent">
+
+            <!-- breacrumb -->
+
+
+
+    <!-- Start breadcrumb -->
+    <ol class="breadcrumb d-none d-lg-flex">
+		<li>
+				<a href="/">
+					<span class="visually-hidden">Home</span>
+					<i class="icon-home" aria-hidden="true"></i>
+				</a>
+		</li>
+		<li>
+					<a href="/sra/">About us </a>
+		</li>
+		<li>
+					<a href="/sra/consultations/">Consultation and discussion</a>
+		</li>
+		<li>
+Draft Business Plan and funding requirement 2026/27		</li>
+    </ol>
+    <!-- End breadcrumb -->
+            <!-- breacrumb end -->
+            
+                <div class="row">
+                    
+
+
+
+
+
+
+<article class="col-md-8 article articles-floated " >
+    
+
+
+<h1>Closed Consultation</h1>
+
+<h2 >Draft Business Plan and funding requirement 2026/27</h2>
+
+
+
+
+<ul>
+<li>The consultation period ended on <strong>Monday 22 June 2026</strong></li>
+<li>You can <a href="#download">download the consultation paper</a> or read it below<a href="#respond"></a></li>
+<li><a href="/news/events/on-demand-events/plan-priorities/">Watch our webinar on the proposed priorities for the year ahead</a></li>
+</ul>
+<h3>Next steps</h3>
+<ul>
+<li><a href="#download">Download analysis of responses to the consultation</a></li>
+<li><a href="#download">Download all consultation responses</a></li>
+<li><a href="/sra/corporate-strategy/business-plans/business-plan/business-plan-2026-27/">Read our Business Plan and funding requirements for 2026-27</a></li>
+</ul>
+
+<h2>About this consultation</h2>
+<p>We are seeking views on our draft Business Plan and funding requirement for 2026/27.</p>
+<h3>Our proposed workstreams</h3>
+<p>The Business Plan describes our proposed work plans and funding requirement for the 12-month period between 1 November 2026 and 31 October 2027.</p>
+<h3>Practising fees and compensation fund contributions</h3>
+<p>Feedback from this consultation will be used to set practising fees for 2026/27, payable by regulated individuals and SRA-regulated firms.</p>
+<p>Practising fees fund the SRA's regulatory requirements, alongside:</p>
+<ul>
+<li>permitted purposes work of the Law Society</li>
+<li>levies that are payable for the:
+<ul>
+<li>Legal Services Board</li>
+<li>Solicitors Disciplinary Tribunal</li>
+<li>Legal Ombudsman</li>
+<li>the Financial Conduct Authority (Office for Professional Body Anti-Money Laundering Supervision).</li>
+</ul>
+</li>
+</ul>
+<p>Consultation feedback will also be used to finalise our proposals for the compensation fund contributions for 2026/27.</p>
+<p>We assess the impact of our fees, compensation fund contributions and Business Plan, including for regulatory, equality, diversity and inclusion considerations. Through this consultation process we are also seeking feedback on this area.</p>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_8b67">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_8b67" aria-expanded="true" aria-controls="collapse_8b67" class="collapsed">
+                          <span>Foreword from the Chief Executive</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_8b67" class="panel-collapse" role="tabpanel" aria-labelledby="heading_8b67">
+                  <div class="panel-body">
+
+
+
+          
+<p>Solicitors and law firms play a critical role supporting people at key moments in their lives, enabling businesses to grow and invest, and upholding access to justice. Their work contributes not only to the UK's well-earned reputation as a global leader in legal services, but also to driving growth in our economy. </p>
+<p>Effective regulation underpins this. A regulator needs to be capable, proportionate and trusted. It needs to help maintain high standards across the profession, protect consumers from harm, and support the many solicitors who act ethically and professionally. </p>
+<p>The SRA is staffed by dedicated experts who routinely, and often unnoticed, conduct high quality and important work in the public interest. At the same time, the organisation has not consistently met the standards expected of it in recent years, and its own regulator, the Legal Services Board, has put enforcement action in place. It is important that we do not shy away from this and take bold action to address it.</p>
+<p>I was appointed Chief Executive in November 2025, at a time of growing pressure on the organisation. I spent my first months in the role carefully identifying issues and undertaking an evaluation of the areas that we need to address. While there is much the organisation does well and on which to build, we face multiple challenges which, taken together, mean that a reset is required.</p>
+<p>Fundamentally, the SRA's approach, capabilities and resources have not kept pace as the market it regulates has evolved. Business models, for example, have become ever more complex and advances in technology have rapidly accelerated the pace of change across the delivery of legal services.</p>
+<p>Moving forward, the SRA must focus on fewer priorities, move from a largely reactive to a proactive approach to regulation, and improve operational and technological capabilities to be better prepared for the scale and complexity of the challenges we face. It must focus more on the biggest risks impacting consumers and be more alert to issues on the horizon.</p>
+<p>The volume of misconduct reports we receive continues to grow, impacting on the time taken to complete investigations and consequently the organisation's ability to meet both the public and the profession's expectations. Further improvements in operational delivery must therefore be a priority. The SRA must seek earlier engagement to help prevent issues from occurring rather than rely heavily on enforcement action after an issue has occurred. And it must set itself up for success in how data is collected, used and analysed to identify patterns of harm and make speedier decisions.</p>
+<p>This Business Plan sets out how the organisation will address those challenges by undertaking a necessary transformation to fix its foundations, strengthen its operations and build new capabilities that will put the SRA in a stronger position for the future. This will require bold and sometimes difficult choices to modernise how the SRA works, whilst choosing to reduce activity in areas that are not an immediate priority. This work will be ambitious and wide-ranging, covering everything from investment in technology and new skills through to delivering new capabilities such as a wider menu of regulatory tools around risk identification and early engagement.</p>
+<p>To do this, the SRA must have the right funding in place to bring the organisation back to a stronger financial footing over time and give us the flexibility needed to invest in the people, systems and tools required to deliver regulation that is timely, proportionate and effective. In practice, a programme of transformation will need to be 'dual run' alongside the delivery of our core regulatory activity.</p>
+<p>The proposals set out in this plan will not be easy to deliver, nor was it an easy decision to propose increasing practising certificate fees given the pressures on solicitors and law firms. However, this plan represents a conscious decision to invest in the organisation now, rather than accept the higher risks and costs that would ultimately arise from continuing as normal.</p>
+<p>By investing now to fix and strengthen the SRA's foundations, and by being transparent about the changes being made, we will create the conditions for sustainable improvement. We are confident a modern, trusted, effective SRA will better protect consumers, support confidence in the profession and play its part in supporting a world-leading legal services sector that is vital to the UK's future.</p>
+<p><strong>Sarah Rapson <br />Chief Executive </strong></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_cff9">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_cff9" aria-expanded="true" aria-controls="collapse_cff9" class="collapsed">
+                          <span>Overview of the Business Plan</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_cff9" class="panel-collapse" role="tabpanel" aria-labelledby="heading_cff9">
+                  <div class="panel-body">
+
+
+
+          
+<p>This Business Plan covers November 2026 to October 2027 and sets out what is required to fix the SRA's foundations, strengthen its operations and build new capabilities that will put the organisation in a stronger position for the future. The plan bridges the gap to the introduction of a new corporate strategy covering 2027-30.</p>
+<p>There are three areas of focus for 2026/27. Firstly, we will prioritise operational excellence to strengthen how we operate. This will include further developing and investing in IT infrastructure and developing new ways of working so that casework, decision-making and internal processes are proportionate, robust, consistent and sustainable. This body of work relates to improving core functions to enable us to undertake expected regulatory activity to a high standard.</p>
+<p>Secondly, we will further develop the ability to proactively identify and address risk by shifting towards earlier engagement and intelligence-driven action that supports firms to compliance. This will build on work underway to improve capabilities in areas that spot risk earlier and, where possible, reduce harm and costs later.</p>
+<p>Thirdly, we will be disciplined in where we direct attention and resources, focusing on the issues with the greatest risk of harm to consumers. This work is intended both to make sure that the areas of highest risk are being effectively managed and to remove resources and attention from non-core regulatory activity.</p>
+<p>The specific proposals for 2026/27 include:</p>
+<h4>Priority one: operational excellence</h4>
+<ol>
+<li>Deliver clearer, faster and more proportionate outcomes by refocusing investigations and enforcement work on the areas that best protect the public.</li>
+<li>Expand capability and capacity to deliver the new skillsets required.</li>
+<li>Upgrade IT systems to support new capabilities in risk, data and supervision.</li>
+<li>Build a high-performance culture and drive operational excellence across the organisation.</li>
+</ol>
+<h4>Priority two: develop the ability to proactively identify and address risk</h4>
+<ol>
+<li>Establish a proactive supervision function to undertake engagement directly with firms to identify, understand, and manage risks.</li>
+<li>Strengthen risk-based prioritisation and early case escalation.</li>
+<li>Expand an intelligence-led approach to risk.</li>
+<li>Enhance risk insight through stronger data and analytics.</li>
+<li>Improve the experiences of consumers in vulnerable circumstances when they engage with the organisation.</li>
+<li>Strengthen and build on partnerships with other regulators to mitigate shared risks.</li>
+</ol>
+<h4>Priority three: focus on the biggest issues</h4>
+<ol>
+<li>Strengthen protections for client money and explore ways of reducing future consumer harm.</li>
+<li>Boost consumer protection in high-volume consumer claims.</li>
+<li>Enhance confidence in the Solicitors Qualification Exam (SQE).</li>
+<li>Enable and encourage responsible innovation and growth in legal services by enhancing the support provided to law firms.</li>
+</ol>
+<p>Further detail on each priority can be found below and the spending implications are contained in the section on proposed income and expenditure for 2026/27.</p>
+<h4>Reserves</h4>
+<p>The SRA needs sufficient funding in place to deliver these ambitious priorities. However, over the course of the 2025/26 business year, we have been operating in a period of rapid change and growing pressure on core activities. This has required resourcing decisions to stabilise performance and manage risk. This, together with unexpected expenditure such as adverse cost orders, has resulted in a reduction in the level of reserves we expect to hold at the end of the year.</p>
+<p>We intend to replenish reserves, targeting the minimum level within our approved reserves policy range, to provide flexibility to fund further change next year. This will be subject to the decisions made by the SRA Board.</p>
+<p>Efficiency and careful financial management will be at the heart of how we operate, particularly at a time of significant transformation and competing demands for funding. We will test and challenge proposals before they are approved to confirm that resources are directed towards the highest‑priority work and that lower‑impact activity is reduced or stopped.</p>
+<p>The need to continue to build reserves is likely to continue during 2027/28 as we develop a new three-year corporate strategy, which will aim to set out the path to a more stable level of funding.</p>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2>Our priorities 2026/27</h2>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_b61f">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_b61f" aria-expanded="true" aria-controls="collapse_b61f" class="collapsed">
+                          <span>1. Operational excellence</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_b61f" class="panel-collapse" role="tabpanel" aria-labelledby="heading_b61f">
+                  <div class="panel-body">
+
+
+
+          
+<p>Fixing the foundations starts with operational excellence. The scale of the operational challenges we face has increased sharply. Between November 2022 and October 2025, the number of misconduct reports we assessed rose by 45%, from 11,378 to 16,499.</p>
+<p>This increase has created significant and ultimately unsustainable pressure on the SRA's people and operations. This inevitably results in delays, extends the impact on the regulated community and, critically, increases the likelihood that something may be missed and that consumer harm could occur. While we have managed to respond in the short term by diverting resources, the scale and persistence of the growth mean we require more fundamental change.</p>
+<p>That means strengthening the core of our operations, including investing in technology and our reserves, as well as improving senior expertise and adding capacity, capability and skills in key areas. This will make us more resilient and establish firmer foundations to deliver to a higher standard.</p>
+<p>Establishing these foundations is essential to being able to deliver effective regulation and protect the public.</p>
+<h4>Proposed plans for 2026/27</h4>
+<h5>1.1 Deliver clearer, faster and more proportionate outcomes by refocusing investigations and enforcement work on the areas that best protect the public</h5>
+<p>We will strengthen our investigations and enforcement approach so that regulatory action is targeted, proportionate and focused on the risks that matter most to the public.</p>
+<p>We intend to improve how concerns are assessed, which cases are taken forward, and how they are progressed through to conclusion. Following the review of the Assessment Threshold Test (ATT) in 2026, we will continue to implement a new approach that reflects our risk appetite and ensures consistent application of our enforcement strategy. This will mean that investigative resources can be targeted where they are most needed and reduce the overall number of cases entering investigation, taking alternative actions where that is more appropriate.</p>
+<p>The revised test will be applied both at the outset of a case and throughout its lifecycle, with thresholds reassessed as evidence develops to make sure investigations remain aligned with our strategic objectives.</p>
+<p>We will also continue a comprehensive end to end review of our caseload to confirm that cases pursued are proportionate, well founded, and have strong prospects of success. We will continue to learn from adverse costs outcomes in the courts. This includes live investigations and matters referred to the Solicitors Disciplinary Tribunal (SDT). The review will be supported by improvements to the triage and handling of reports of misconduct, including greater automation, increased personnel and enhanced risk based prioritisation.</p>
+<h5>1.2 Expand capability and capacity to deliver the new skillsets required</h5>
+<p>Capacity constraints have been one of the major causes of poor outcomes. So too a lack of appropriate and dedicated expertise in core functions at a senior level has prevented effective and timely regulatory work.</p>
+<p>The basics need to be done well to tackle the longer-term strategic questions facing the organisation and to drive sustainable change. This investment in people is designed to build expertise and develop skillsets to support the organisation in meeting those aims.</p>
+<h5>1.3 Upgrade IT systems to support new capabilities in risk, data and supervision&nbsp;</h5>
+<p>Technological excellence drives operational excellence. We will strengthen our IT and digital foundations to reduce complexity and duplication and streamline how change is delivered across the organisation. This will mean priority initiatives, such as establishing a supervision pilot, can progress at pace. We will also improve the reliability and responsiveness of technology support, minimising disruption to customers and colleagues and ensuring systems and services consistently enable effective delivery rather than constrain it.</p>
+<p>This investment will also embed technology more effectively across the organisation in 2026/27 so that we can use data and digital tools such as artificial intelligence (AI) to prioritise work, identify risk earlier, and deliver regulatory outcomes more quickly and proportionately. This will require us to address historical challenges in our IT systems and modernise them to meet both current and future needs.</p>
+<p>Alongside this, we will take a more coordinated and purposeful approach to how the organisation adopts technology and AI, making sure that use of these tools is driven by clear business need and delivers tangible improvements in productivity and quality. This includes improving how teams access information, use insight to support decision-making, and automate routine activity, freeing up capacity for higher value regulatory work.</p>
+<h5>1.4 Build a high-performance culture and drive operational excellence across the organisation</h5>
+<p>In 2026/27, we will strengthen organisational capability and the culture needed to support consistent delivery, clear accountability and better outcomes.</p>
+<p>We will refresh our values to ensure they reflect the organisation we need to be. We will deliver a programme of cultural change focused on building a high-performance culture that is rooted in our values and strategic objectives, developing leadership capability to support our teams through a programme of transformation, and further strengthening critical professional skills such as analytical thinking and risk awareness. This builds on continuous improvement work that has already begun, with an enhanced focus following the appointment of a new Chief Executive and her work with leaders across the organisation to identify areas for improvement.</p>
+<p>Focus will be on consistently meeting operational performance standards. We will measure success not only through timeliness, but through outcomes, service quality and ease of contact. Part of that will include making sure our quality assurance approaches are best-in-class.</p>
+<p>We will also streamline and simplify internal processes where possible, strengthen the way we manage and deliver customer contact, and strive to strengthen overall operational performance. We will promote a curious and problem-solving mindset that encourages colleagues to look beyond organisational boundaries and join up issues in a more holistic way.</p>
+<h4>Consultation question</h4>
+<h5>Question 1</h5>
+<p>Do you have any comments on our proposed work commitments for 2026/27 under our 'operational excellence' priority?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_711a">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_711a" aria-expanded="true" aria-controls="collapse_711a" class="collapsed">
+                          <span>2. Develop our ability to proactively identify and address risk </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_711a" class="panel-collapse" role="tabpanel" aria-labelledby="heading_711a">
+                  <div class="panel-body">
+
+
+
+          
+<p>The experiences from the last few years have shown that we have sometimes not identified risk early enough to prevent harm. At the same time, the nature of the sector and the risks that need to be addressed are changing.</p>
+<p>The SRA needs to move away from a largely reactive, enforcement-led model towards one where we are better able to spot problems early and take action before harm occurs. This is essential to protecting consumers, driving the right behaviours in firms by prioritising issues posing the greatest risk, and targeting regulatory action where it will have the greatest impact.</p>
+<p>This priority is about embedding an intelligence-driven, risk-based approach. It requires better use of data, stronger analytical capability and greater engagement with those who we regulate to secure action to address the risks identified.</p>
+<p>It will also include building on our supervisory pilots to continue giving us better choices about the appropriate action to take in response to risks and events earlier, with formal investigations and enforcement action used where that is proportionate. This approach will also bring forward new regulatory tools such as supervisory dialogue and engagement that will help secure a reduction in risk or harm to the public. The aim is for this to happen earlier and at a lower cost for both the regulator and those we regulate.</p>
+<p>During 2026/27, we will focus on strengthening risk identification processes, invest in new data and intelligence tools, and expand a proactive supervision approach. These foundations will allow us to act faster on emerging risks and better prioritise our regulatory response.</p>
+<h4>Proposed plans for 2026/27</h4>
+<h5>2.1 Establish a proactive supervision function to undertake engagement directly with firms to identify, understand, and manage risks</h5>
+<p>We will continue to develop supervision as a core proactive regulatory tool. Building on pilots launched in 2025/26, we will establish a supervision function focused on early engagement with firms working in areas that pose significant risks. This includes those undertaking high volume consumer claims work and firms with complex or higher risk business structures.</p>
+<p>During 2026/27, we will continue and refine supervision pilots, testing new tools and approaches, strengthening collaboration across teams and establishing faster regulatory action where concerns escalate. Learning from this work will help us to understand risks better and inform longer term decisions about our supervisory approach and any potential changes required to the regulatory framework.</p>
+<p>The size and shape of the supervision function will evolve as we work through the pilot in 2026. We will be using resource and expertise drawn from existing functions within the organisation together with bringing in new capability.</p>
+<h5>2.2 Strengthen risk-based prioritisation and early case escalation</h5>
+<p>We will embed a more consistent, risk led approach to how we prioritise and escalate casework, ensuring that our attention and resources are focused on matters that pose the greatest potential risk to the public and trust in the profession.</p>
+<p>This will involve improving processes for receiving and assessing reports of misconduct, using more focused analysis and clearer escalation routes to support earlier identification of serious and emerging risks. This will enable us to act more quickly in appropriate cases and avoid investigative processes becoming too complex to enable swift action to address or prevent harm.</p>
+<p>We will explore alternative regulatory tools to formal investigations and enforcement action. This may include supervisory dialogue and engagement, for example, to support firms to comply. We will better target risk and operate more efficiently by adopting a greater focus on risk-based assessment of what must be subject to investigation and enforcement action and what can be addressed through appropriate supervision.</p>
+<p>We will continue to pursue high impact and high profile cases through the appropriate regulatory and disciplinary routes, ensuring serious misconduct is addressed decisively and transparently.</p>
+<h5>2.3 Expand an intelligence-led approach to risk</h5>
+<p>We will expand and embed advanced intelligence capabilities to support a proactive supervisory function and deliver an intelligence led approach to investigations.</p>
+<p>This involves enhancing our ability to identify connected cases, patterns of behaviour and emerging themes across firms and individuals. This will allow us to take a more strategic view of risk, engage in supervisory dialogue and to deploy specialist investigation capacity more effectively and act earlier where systemic issues are identified. In addition, we will use the insight gathered to develop a better understanding of current and emerging trends across the sector. Improved intelligence capability will support earlier, more targeted regulatory action, reducing reliance on reactive enforcement alone and strengthening overall consumer protection.</p>
+<h5>2.4 Enhance risk insight through stronger data and analytics</h5>
+<p>Effective proactive regulation depends on strong data foundations. In 2026/27, we will continue to strengthen our risk and data operating model by introducing new data sources, analytical tools and technology to improve insight and early identification of potential harm. We will improve data quality through clearer standards, governance and targeted remediation, increasing confidence in reporting and decision making.</p>
+<p>We will embed and enhance our law firm profiler, the single view of a firm, bringing together internal and external intelligence (including data from sources such as Companies House and the Legal Ombudsman), and introduce new risk indicators to strengthen analysis. We will also use improved data and analytics to generate more timely intelligence on market trends and emerging risks, supporting earlier and more effective response.</p>
+<h5>2.5 Improve the experiences of consumers in vulnerable circumstances when they engage with the organisation</h5>
+<p>We will improve how we identify and respond to consumers who may be in vulnerable situations, making sure they are supported to engage effectively with us when reporting concerns. We will adapt our processes to improve how we support consumers in vulnerable circumstances and enable relevant concerns to be progressed appropriately.</p>
+<p>During 2026/27, we will roll out vulnerability leads in our public-facing teams. We will also use feedback from consumers to improve how we identify vulnerability and respond proportionately, strengthening both our intelligence and the fairness of our approach.</p>
+<h5>2.6 Strengthen and build on partnerships with other regulators to mitigate shared risks</h5>
+<p>We will deepen our collaboration and partnership with regulators and law enforcement bodies on core and emerging risks, driving shared understanding, aligned priorities, and more effective intelligence flows.</p>
+<p>Our plans include establishing structured engagement on high impact risks, pursuing joint approaches where appropriate, and expanding intelligence sharing when our casework identifies serious misconduct or criminal indicators. This includes, but is not limited to, engagement with other agencies and authorities, such as the Financial Conduct Authority, Serious Fraud Office, National Crime Agency and Crown Prosecution Service.</p>
+<p>We will also embed more consistent information sharing and coordinated responses to serious and crosscutting harms.</p>
+<h4>Consultation question</h4>
+<h5>Question 2</h5>
+<p>Do you have any comments on our proposed work commitments for 2026/27 under our 'develop the ability to proactively identify and address risk' priority?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_eb26">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_eb26" aria-expanded="true" aria-controls="collapse_eb26" class="collapsed">
+                          <span>3. Focus on the biggest issues</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_eb26" class="panel-collapse" role="tabpanel" aria-labelledby="heading_eb26">
+                  <div class="panel-body">
+
+
+
+          
+<p>Strengthening the SRA's foundations requires us to have sharper focus and establish robust prioritisation.</p>
+<p>As the regulatory environment becomes more complex and demands on us increase, we cannot be effective if resources are spread too thinly or diverted from the issues that pose the greatest risk of harm to the public.</p>
+<p>This priority is about being disciplined and explicit about where we direct our attention and effort. It means prioritising the biggest issues and making sure they receive sustained focus, leadership oversight and appropriate regulatory action, while being mindful of each of our statutory objectives including encouraging an independent, strong, diverse and effective legal profession.</p>
+<p>Focusing on the biggest issues includes protecting consumers involved with high volume consumer claims, safeguarding client money, a focus on professional ethics and acting on alleged misconduct relating to the Post Office Horizon Inquiry, supporting responsible innovation, and continuing to enhance the SQE. We will also continue to prioritise work on business models that pose higher risks, including those that are growing fast, and maintain oversight through our supervision work.</p>
+<p>Over the next year, we must prioritise the most pressing issues, align resources more closely to where we can make the biggest impact and stop or pause work that is not an immediate priority. This includes reducing the number of lower impact cases that enter investigation to better direct resources towards serious and emerging risks. This is a critical step towards reducing unnecessary demand on our investigation and enforcement model and improving overall efficiency in the system.</p>
+<p>Inevitably, some activity we had anticipated progressing next year will need to be paused or rescheduled. Although our consumer empowerment work is important and there is more to do, this year we will prioritise work to safeguard client money and pause further work building on the evaluation of our transparency rules, and on quality indicators and digital comparison tools. Additionally, given the need to focus on our current remit, we will not take forward any further work relating to any potential redelegation of the regulation of CILEX professionals.</p>
+<p>By focusing on the biggest issues, we strengthen the foundations of confidence, consumer protection and trust that underpin legal services.</p>
+<h4>Proposed plans for 2026/27</h4>
+<h5>3.1 Strengthen protections for client money and explore ways of reducing future consumer harm</h5>
+<p>We will deliver targeted improvements in 2026/27 to strengthen protections for client money within the existing system.</p>
+<p>This will include enhancing the effectiveness of external assurance and oversight, reinforcing the checks and balances provided by compliance roles within firms, and improving how we monitor firms undergoing significant changes to their structure, ownership or business model. This includes changes through mergers and acquisitions.</p>
+<p>Alongside this, we will consider and prioritise longer term regulatory reforms to further reduce risks to client money. This involves examining the current model of solicitors holding client money and exploring alternatives, such as new opportunities raised by technological and system developments.</p>
+<p>Additionally, we will explore whether clearer senior accountability frameworks informed by approaches used in other regulated sectors could provide stronger safeguards and more effective protection for consumers.</p>
+<h5>3.2 Boost consumer protection in high-volume consumer claims</h5>
+<p>High-volume consumer claims can provide access to justice for the public when they are managed well. However, they can pose a significant risk to consumers and to confidence in legal services when they are not. Where poor practices occur, the scale of activity means the potential for harm is high, making this a priority area for focused regulatory action.</p>
+<p>In 2026/27, we will build on our earlier thematic work, consumer research and engagement with the sector to deliver a strengthened and more targeted regulatory response. We will prioritise the areas where our evidence shows the most acute risk of harm and produce further guidance and resources to clarify expectations and support firm compliance. Where firms fail to meet required standards, we will take targeted and proportionate enforcement action.</p>
+<p>As part of initiatives to build a supervisory regime, we will also be engaging with firms undertaking high volume consumer claims across the motor finance sector. We will engage through a joint regulatory taskforce which includes the Financial Conduct Authority (FCA), Information Commissioner's Office, and Advertising Standards Authority.</p>
+<p>Alongside this, we will consult on potential new regulatory rules to enhance consumer protection in high volume consumer claims where existing arrangements are not sufficient. This may include proposals to strengthen oversight of third party litigation funding, mitigate risks to firms' financial stability, and improve protections for consumers in the event of firm failure.</p>
+<p>We will also continue to enhance collaboration with other regulators, ombudsmen and stakeholders to provide coordinated action and improved protection for consumers.</p>
+<h5>3.3 Enhance confidence in the SQE</h5>
+<p>We will continue to enhance candidates' experience of the SQE, building on improvements already made whilst recognising that further progress is needed.</p>
+<p>The focus will be on listening carefully to feedback, evaluating the effectiveness of the assessment, and delivering targeted improvements where evidence supports change. We will work with independent assessment experts to complete a technical evaluation of the SQE, providing assurance on its design and operation and helping to identify areas for refinement.</p>
+<p>Alongside this evaluation, we will use feedback from ongoing engagement with candidates, employers and the wider profession to inform continuous improvement.</p>
+<p>We will consult on, and implement where agreed, any changes arising from our review of the Statement of Solicitor Competence and the Functioning Legal Knowledge that underpins the SQE. We will also repeat market research to understand how the SQE is perceived across stakeholder groups and track changes in confidence over time, as well as continuing to explore how best we can support candidates to choose training options appropriate to them.</p>
+<h5>3.4 Enable and encourage responsible innovation and growth in legal services by enhancing the support provided to law firms</h5>
+<p>The use of new technologies, in particular generative artificial intelligence (genAI), continues to develop rapidly. We are seeing new capabilities emerging at pace and increased use of AI by law firms, individual solicitors and consumers. Safe and responsible innovation has the potential to both support economic growth in the legal services sector and support consumers to access justice through more competitive and responsive service provision.</p>
+<p>In 2026/27, we will strengthen SRA Innovate to provide clear, practical, and policy led support for firms looking to innovate and adopt technology.</p>
+<p>We will define more clearly what Innovate offers in practice and improve coordination across the organisation so that support is more accessible to firms. We will also expand our public-facing materials to encourage responsible innovation and use of technology across the sector.</p>
+<p>This work will build on existing engagement with firms, including research we have undertaken, since launching 'SRA Innovate' in 2018. Improving 'SRA Innovate' will aim to make sure that we play our role in enabling innovation that protects consumers and maintains public trust and confidence in legal services.</p>
+<h4>Consultation question</h4>
+<h5>Question 3</h5>
+<p>Do you have any comments on our proposed work commitments for 2026/27 under our 'focus on the biggest issues' priority?</p>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2>Funding requirements 2026/27</h2>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_5272">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_5272" aria-expanded="true" aria-controls="collapse_5272" class="collapsed">
+                          <span>Summary of proposed fees </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_5272" class="panel-collapse" role="tabpanel" aria-labelledby="heading_5272">
+                  <div class="panel-body">
+
+
+
+          
+<p>The proposals in this Business Plan for 2026/27 must be supported by adequate investment in the SRA's people and systems, alongside a strong commitment to efficiency and directing resources to where they have the greatest impact in the public interest.</p>
+<p>The proposed increase in our funding requirements for 2026/27 reflects a deliberate decision to invest now as part of a reset to put the organisation on the right footing for the future. It will require us to 'dual run' a programme of transformation alongside maintaining the delivery of our core regulatory activity.</p>
+<p>Whilst we know that expenditure will need to increase next year, we cannot yet be certain on how much in all areas. We must therefore have an appropriate level of reserves to manage this uncertainty.</p>
+<p>The proposed changes to the funding requirement and fees are essential to getting the basics right, restoring confidence in our delivery and creating the conditions for a more modern, proportionate and effective regulator. Our draft Business Plan for 2026/27 follows thorough scrutiny and rigorous challenge by our Board. As a result of that challenge, we have reduced our initial proposed funding requirement. Any additional requirements above this level will be subject to Board approval for funding through reserves. The Board will, as in past years, focus closely on how additional funding is deployed.</p>
+<h4>Annual practising certificate fee</h4>
+<p>In 2026/27, the SRA's overall funding requirement is &pound;111.5 million. This represents an increase of &pound;25 million (29%) from 2025/26.</p>
+<p>To meet this requirement, we are proposing an increase to the annual practising fees that fund the work of the SRA. For an individual, the proposal is an increase from &pound;190 to &pound;240 for the SRA portion of the fee, an increase of &pound;50.</p>
+<p>Forty per cent of the SRA's funding requirement is met by individuals. The remaining 60% is charged to SRA-regulated firms and is calculated based on bands according to the firm's turnover.</p>
+<h4>Compensation fund</h4>
+<p>In addition to the annual practising certificate fee, most solicitors and SRA-regulated firms are required to contribute to the compensation fund. The fund exists to provide safeguards to members of the public who have lost money when a law firm has closed.</p>
+<p>The unexpected closure of PM Law Limited in February 2026 has led to a significant increase in the value and volume of claims being made to the fund. As of April 2026, the total of current applications is over &pound;20 million. Whilst some claims still need to be assessed for eligibility, further applications are also expected. As a result, the contributions to the compensation fund for 2026/27 must rise to reflect this.</p>
+<p>In addition, we are also experiencing a higher number of interventions, with 35 between November 2025 and mid-April 2026, compared to 42 in the full 2024/25 business year. We also continue to incur high levels of storage costs for the documents and files that we seize from firms we have intervened in (both in the past and from current activity).</p>
+<p>The contributions are expected to be &pound;120 for an individual solicitor and &pound;3,600 for an SRA-regulated firm. <a href="#heading_a98e">Learn more about the proposals relating to the compensation fund</a>.</p>
+<h4>Combined fees</h4>
+<p>The combined SRA-related total for the practising certificate fee and compensation fund contribution for an individual is expected to rise from &pound;260 to &pound;360.</p>
+<p>Please note, this does not include funding requests for other organisations funded by the practising fee:</p>
+<ul>
+<li>the Law Society</li>
+<li>Legal Services Board</li>
+<li>Solicitors Disciplinary Tribunal</li>
+<li>Legal Ombudsman</li>
+<li>the Financial Conduct Authority (Office for Professional Body Anti-Money Laundering Supervision).</li>
+</ul>
+<h4>Longer term considerations</h4>
+<p>There is considerable uncertainty in our operating environment and the fast-changing sector we regulate. We currently expect that the need to continue building reserves, together with 'dual running' a programme of transformation and the maintenance of core regulatory activity, will continue in the 2027/28 business year.</p>
+<p>We will be consulting on a new three-year corporate strategy for 2027-30 and this will set out our medium-term expectations, including the likely future impact on the practising fee, our reserves and how we will establish a path to a more stable level of funding.</p>
+<h4>Consultation questions</h4>
+<h5>Question 4</h5>
+<p>Do you have any comments about our proposed funding requirement via the practising certificate fee for 2026/27?</p>
+<h5>Question 5</h5>
+<p>Do you agree that the SRA's required proportion of the practising certificate fee is reasonable and appropriate?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_eae7">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_eae7" aria-expanded="true" aria-controls="collapse_eae7" class="collapsed">
+                          <span>Overview of income and expenditure</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_eae7" class="panel-collapse" role="tabpanel" aria-labelledby="heading_eae7">
+                  <div class="panel-body">
+
+
+
+          
+<h4>Background</h4>
+<h5>The SRA's funding sources</h5>
+<p>The majority of the SRA's funding (57%) comes from practising fees paid by individuals and by SRA-regulated firms. In addition:</p>
+<ul>
+<li>30% of the current year's income relates to education and training, arising from applicant fees for the SQE. This income funds the cost of delivering the assessment</li>
+<li>around 10% of income is made up from recharges of the costs we have incurred. These include costs where we have intervened into law firms, as well as in relation to handling claims made to the compensation fund</li>
+<li>remaining income comes from fees that cover our administrative costs for certain activities, such as our consideration of authorisation applications from new firms.</li>
+</ul>
+<h5>Tracking and reporting our progress</h5>
+<p>Throughout the 12-month period of our Business Plan, we will track and review progress in meeting our commitments, including performance against the published key performance indicator targets within our balanced scorecard.</p>
+<p>During the business year, the SRA Board reviews the progress we have made. This is reported publicly in-line with our <a href="/sra/how-we-work/our-board/accountability-statement/">accountability statement</a>, which includes updates published through our Chair's blogs on our website, the Board meeting papers and minutes, and other publications.</p>
+<h4>Expected income and expenditure summary for 2026/27</h4>
+<p>In this section we provide further detail on the impact of the fee proposals on SRA funding, including the total impact on each of our regulatory activities.</p>
+<h5>Overview of income for 2026/2027</h5>
+<p>The SRA's financial year runs from 1 November to 31 October. The table below presents our expected income and expenditure summary for 2026/27. Each item is explained in further detail below.</p>
+<table class="table">
+<tbody>
+<tr>
+<th>Summary of income</th>
+<th>2025/26 &pound;m&nbsp;</th>
+<th>2026/27 &pound;m</th>
+<th>Increase / (Decrease) &pound;m</th>
+<th>Increase / (Decrease)&nbsp; %</th>
+</tr>
+<tr>
+<td>Education and training income</td>
+<td>57.8</td>
+<td>59.1</td>
+<td>1.3</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>Compensation fund administration costs recharge</td>
+<td>18.3</td>
+<td>19.0</td>
+<td>0.7</td>
+<td>4%</td>
+</tr>
+<tr>
+<th>Subtotal</th>
+<th>76.1</th>
+<th>78.1</th>
+<th>2.0</th>
+<th>3%</th>
+</tr>
+<tr>
+<td>Practising fees</td>
+<td>86.5</td>
+<td>111.5</td>
+<td>25.0</td>
+<td>29%</td>
+</tr>
+<tr>
+<td>Regulatory income</td>
+<td>4.1</td>
+<td>3.1</td>
+<td>(1.0)</td>
+<td>(24%)</td>
+</tr>
+<tr>
+<th>Subtotal</th>
+<th>90.6</th>
+<th>114.6</th>
+<th>24</th>
+<th>26%</th>
+</tr>
+<tr>
+<td>Interest income</td>
+<td>1.6</td>
+<td>1.9</td>
+<td>0.3</td>
+<td>19%</td>
+</tr>
+<tr>
+<th>Total income for the year</th>
+<th>168.3</th>
+<th>194.6</th>
+<th>26.3</th>
+<th>16%</th>
+</tr>
+</tbody>
+</table>
+<h5>Education and training income</h5>
+<p>Most of this income is generated by the SQE, which is dependent on candidate numbers. The income broadly matches the delivery costs for the assessment. The figure is expected to rise slightly in 2026/27 as the cost of the examination increases annually in line with inflation.</p>
+<h5>Compensation fund administration costs recharge</h5>
+<p>This income represents the recovery of costs incurred in operating and administering the compensation fund. We incur these costs and subsequently recharge them to the fund &ndash; which includes staff costs, and the costs associated with interventions into SRA-regulated firms.</p>
+<p>This income varies with activity within Client Protection, and we recharge only the costs incurred in relation to the compensation fund. Compensation fund contributions are discussed later in this document. Those contributions pay for the operating costs of the fund as well as grants made from the fund.</p>
+<h5>Practising fees</h5>
+<p>We will need to collect &pound;240 from each individual practising certificate fee to generate the 2026/27 funding requirement of &pound;111.5 million.</p>
+<p>The table below presents the trajectory of the SRA's portion of the practising certificate (PC) fee over time.</p>
+<table class="table">
+<thead>
+<tr>
+<th>Practising year</th>
+<th>2021/22</th>
+<th>2022/23</th>
+<th>2023/24</th>
+<th>2024/25</th>
+<th>2025/26</th>
+<th>2026/27</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SRA portion PC fee</td>
+<td>&pound;145</td>
+<td>&pound;151</td>
+<td>&pound;162</td>
+<td>&pound;164</td>
+<td>&pound;190</td>
+<td>&pound;240</td>
+</tr>
+</tbody>
+</table>
+<p>The individual practising certificate fee for each financial year, and the portion that we require from that fee, is calculated from existing numbers of practising solicitors. The fee and our funding requirements are considered and approved by the Legal Services Board.</p>
+<h5>Regulatory income</h5>
+<p>This describes administration fees that are payable as part of processing applications made to us, including applications for admission to the roll of solicitors, initial authorisation applications made by prospective law firm operators and exemption fees relating to the SQE.</p>
+<p>The lower expected income for 2026/27 reflects reductions in the fee for remaining on the roll of solicitors and expected applications for exemptions for the SQE and periods of recognised training.</p>
+<h5>Interest income</h5>
+<p>We hold extensive cash reserves in the early months of each financial year, as practising certificates are renewed and associated funds are received. This capital is actively managed throughout the financial year to secure maximum returns.</p>
+<h4>Proposed funding allocation for 2026/27</h4>
+<p>In the below section we provide an overview of the proposed funding allocations, identifying the impact of the new proposed Business Plan on spending and providing further detail on spending and planning within each area of expenditure.</p>
+<h5>Overview of expenditure and changes</h5>
+<p>In the table below we present how we propose to allocate funds in 2026/27. Within each of these activities, but particularly in Investigation and Enforcement and Authorisation there is an element of continuing work but also funding to support the transformation foreseen within this Business Plan. We will review these activities further as we develop our 2027-30 Corporate Strategy.</p>
+<table class="table">
+<tbody>
+<tr>
+<th>Funding allocation summary&nbsp;&nbsp;&nbsp;</th>
+<th>2025/26 (&pound;m)</th>
+<th>Increase</th>
+<th>2026/27 (&pound;m)</th>
+<th>Funded from practising fees (&pound;m)</th>
+</tr>
+<tr>
+<td>Education and Training</td>
+<td>58.0</td>
+<td>2.9</td>
+<td>60.9</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td>Investigations&nbsp; and Enforcement*</td>
+<td>36.2</td>
+<td>4.2</td>
+<td>40.4</td>
+<td>39.7</td>
+</tr>
+<tr>
+<td>IT and change projects</td>
+<td>21.9</td>
+<td>1.3</td>
+<td>23.2</td>
+<td>21.6&nbsp;</td>
+</tr>
+<tr>
+<td>Client Protection</td>
+<td>16.8</td>
+<td>0.5</td>
+<td>17.3</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>Authorisation</td>
+<td>11.1</td>
+<td>0.7</td>
+<td>11.8</td>
+<td>8.5</td>
+</tr>
+<tr>
+<td>Strategy, Innovation and External Affairs</td>
+<td>8.4</td>
+<td>0.8</td>
+<td>9.3</td>
+<td>9.1</td>
+</tr>
+<tr>
+<td>Resources</td>
+<td>7.8</td>
+<td>0.7</td>
+<td>8.5</td>
+<td>8.3</td>
+</tr>
+<tr>
+<td>Property</td>
+<td>4.0</td>
+<td>3.2</td>
+<td>7.2</td>
+<td>6.6</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>4.2</td>
+<td>1.5</td>
+<td>5.7</td>
+<td>5.6</td>
+</tr>
+<tr>
+<td>Addition to reserves**</td>
+<td>-</td>
+<td>10.3</td>
+<td>10.3</td>
+<td>10.3</td>
+</tr>
+<tr>
+<th>Total</th>
+<th>168.4</th>
+<th>26.1</th>
+<th>194.6</th>
+<th>111.5</th>
+</tr>
+</tbody>
+</table>
+<p>*Includes the costs to continue supervision pilots and establish a supervision function.</p>
+<p>**Included in the funding request is &pound;10.3 million to replenish reserves utilised during the 2025/26 year. &pound;2.7m of reserves were used during the 2024/25 financial year and we are currently forecasting a contribution from reserves of up to &pound;11.5m in the 2025/26 year.</p>
+<h5>Education and training costs</h5>
+<p>These primarily SQE related costs are associated with delivering the assessment and are almost entirely offset through fees paid by the SQE's candidates.</p>
+<h5>Investigation and Enforcement</h5>
+<p>The investigation and enforcement function makes sure solicitors are working to high professional standards, by taking appropriate action when solicitors and firms fall short of them. The function receives reports on solicitors and considers whether the matters raised meet the threshold for a formal investigation.</p>
+<p>Some investigations lead to regulatory action such as issuing a fine, sending a letter of warning or putting conditions on how someone can practise. We refer some cases to the SDT, which has greater powers to sanction solicitors and firms in cases of serious misconduct.</p>
+<p>We recognise the significant increase in misconduct reports and think that consumers and the profession will not find it acceptable to see a material reduction in our performance as measured in the published key performance indicators and so we need to invest in investigation and enforcement resources.</p>
+<p>The proposed increase in funding for this area reflects the need to dual run activity during 2026/27: continuing to manage rising volumes of current investigations and enforcement activity, while building new regulatory capability such as a proactive supervision function. This investment will allow us to drive more timely, proportionate action on existing cases, strengthen triage and prioritisation, and develop new approaches that reduce harm earlier and manage future demand more effectively.</p>
+<p>Also included is the Anti-money Laundering (AML) team which plays a vital role in enforcing AML regulations within the legal profession via:</p>
+<ul>
+<li>publishing guidance</li>
+<li>conducting proactive supervision (desk-based reviews and onsite inspections)</li>
+<li>investigating suspected breaches</li>
+<li>taking enforcement action where required</li>
+<li>working collaboratively with law enforcement agencies.</li>
+</ul>
+<p>Whilst there is a future transition of AML supervision from the SRA to the FCA, the timetable for this is uncertain.</p>
+<h5>IT and change projects</h5>
+<p>Ensuring that we have the appropriate technology to support our transformation and new ways of working is only possible with further investment in IT. Additionally we need to ensure we have funding available to progress key change programmes during the year which allow us to focus resources on the biggest issues.</p>
+<h5>Client Protection</h5>
+<p>The work undertaken as part of our client protection regulatory function includes interventions into failing law firms and associated activities, such as managing claims made to the compensation fund and recovering client money via statutory trust accounts. The cost of these activities is subsequently recharged to the compensation fund.</p>
+<p>There are several factors that have contributed to a rise in costs in this area. We are experiencing a higher number of interventions, with 35 between November 2025 and mid-April 2026, compared to 42 in the full 2024/25 business year. Additionally, we have experienced rising storage costs for the documents and files that we seize from firms we have intervened in (both in the past and from current activity).</p>
+<h5>Authorisation</h5>
+<p>The Authorisation function considers and makes decisions on applications for new law firms, and from individuals to be admitted as regulated solicitors.</p>
+<p>Investment in Authorisation reflects the need to modernise customer contact and strengthen operational delivery as volumes and complexity continue to grow. Funding will support more consistent, timely decision making, improved triage and clearer communication with applicants, while streamlining processes and systems.</p>
+<p>This will improve the experience for firms and individuals, reduce avoidable delays, and support operational excellence across the organisation. In addition, we intend to strengthen the role the Authorisation gateway has in the regulation of firms, linked closely to our work to establish a supervision function.</p>
+<h5>Strategy, Innovation and External Affairs</h5>
+<p>This includes our Regulatory Policy, Consumer Policy and Engagement, Risk, Research and Analysis and Communications functions.</p>
+<h5>Resources</h5>
+<p>Within resources are key support functions including Finance, HR, Risk and Information Governance teams.</p>
+<h5>Property</h5>
+<p>We have offices in Birmingham, London and Cardiff. During 2025/26, we have taken the decision to expand our footprint in Birmingham and London. This is crucial to support recent growth and the more collaborative working environment that we require to deliver the necessary changes in the coming years.</p>
+<h5>Other</h5>
+<p>This includes the costs of our executive team, Board, Corporate Complaints, General Counsel, Regulation Management and Thematic teams.</p>
+<h4>Commitment to efficiency and effectiveness in our delivery</h4>
+<p>We recognise that the proposed funding increase is likely to be unwelcome and, for some, challenging. We have a strong internal financial control environment in place to make sure that expenditure is used wisely and delivers an efficient and effective organisation.</p>
+<h4>Managing cost inflation</h4>
+<p>The Office for National Statistics report on inflation (data for the year ended March 2026) reported CPIH at 3.4%.</p>
+<p>We included this as our planning assumption at the time we set the funding requirement, for all costs, whether staff or procured cost. Clearly it could increase or decrease, and the current geopolitical uncertainty suggests more volatility is likely than we have seen over the past year.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_a98e">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_a98e" aria-expanded="true" aria-controls="collapse_a98e" class="collapsed">
+                          <span>The compensation fund</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_a98e" class="panel-collapse" role="tabpanel" aria-labelledby="heading_a98e">
+                  <div class="panel-body">
+
+
+
+          
+<p>The compensation fund exists to provide safeguards to members of the public who have lost money when a law firm has closed. It is a vital tool in not only protecting the public but in maintaining confidence in legal services overall.</p>
+<p>Contributions to the fund are paid by all practising solicitors (except those working for the Crown Prosecution Service) and by SRA-regulated firms that hold client money.</p>
+<p>The unexpected closure of PM Law Limited in February 2026 has contributed to a significant increase in applications to the fund. As of April 2026, the estimated total of current applications is more than &pound;20 million, with further applications expected. As previously noted, we have also seen an increase in the number of interventions and the costs associated with administering interventions, such as storage costs.</p>
+<p>While the fund is designed to respond to events of this kind, the scale and nature of these claims have placed exceptional pressure on the fund. An increase in contribution is required to make sure the fund remains able to meet its future obligations. These levels of call on the compensation fund inevitably lead to considerations as to whether the current compensation fund arrangements are sustainable in the medium to longer term. This is something we will revisit in the future as part of our ongoing consumer protection work.</p>
+<p>The compensation fund contributions for 2026/27 are expected to be:</p>
+<ul>
+<li>&pound;120 for an individual</li>
+<li>&pound;3,600 for an SRA-regulated firm holding client money.</li>
+</ul>
+<p>The trajectory of the compensation fund contributions over time is as follows:</p>
+<table class="table">
+<tbody>
+<tr>
+<th>Practising year</th>
+<th>2021/22</th>
+<th>2022/23</th>
+<th>2023/24</th>
+<th>2024/25</th>
+<th>2025/26</th>
+<th>2026/27</th>
+</tr>
+<tr>
+<td>Individual contribution</td>
+<td>&pound;40</td>
+<td>&pound;30</td>
+<td>&pound;30</td>
+<td>&pound;90</td>
+<td>&pound;70</td>
+<td>&pound;120</td>
+</tr>
+<tr>
+<td>Firm contribution</td>
+<td>&pound;760</td>
+<td>&pound;690</td>
+<td>&pound;660</td>
+<td>&pound;2,220</td>
+<td>&pound;1,950</td>
+<td>&pound;3,600</td>
+</tr>
+<tr>
+<th>Total contributions</th>
+<th>&pound;11.6m</th>
+<th>&pound;9.7m</th>
+<th>&pound;10.0m</th>
+<th>&pound;31.6m</th>
+<th>&pound;26.0m</th>
+<th>&pound;46.3m</th>
+</tr>
+</tbody>
+</table>
+<p>We will keep the proposed level of contributions under review until later in 2026 to take account of any changing circumstances. In July 2026, we will submit an application to the Legal Services Board to approve the contributions for 2026/27.</p>
+<h4>Apportionment of fees</h4>
+<p>The proposed contributions to the fund are calculated based on 50% being collected from individual solicitors and 50% from firms holding client money. This has been the method for apportioning contributions for several years.</p>
+<p>Ahead of setting fees for 2025/26, we consulted on an alternative proposal whereby 70% of the contributions would be collected from individuals and 30% from law firms. Part of the rationale for this was that the number of individual solicitors has increased significantly over time while the number of firms has decreased. In other words, there are fewer firms paying into the fund now, increasing the costs for those that remain. This can disproportionately impact small firms and those firms operating in less profitable but vital consumer facing areas of legal practice.</p>
+<p>The consultation received mixed views and did not produce a clear consensus, with acknowledgement that any change would impact solicitors in different ways depending on how they practice. Part of the feedback we received was that we should not consider changing how fees are apportioned ahead of completing our wider work around protecting client money, which may impact on the compensation fund and those that contribute to it. As a result, we did not implement changes following the consultation.</p>
+<p>The fee proposal for 2026/27 is based on the traditional 50/50 split between individual solicitors and law firms. However, given the significant increase in contributions required for 2026/27 and our assessment of the potential impact of this, we are inviting evidence and feedback on an alternative approach for this year of 70% of fees apportioned to individual solicitors and 30% to law firms for 2026/27.</p>
+<p>As part of our review of the compensation fund arrangements under our consumer protection work, we will look at the apportionment between individual solicitors and firms. We will also look at wider questions, including whether the flat fee model for firms where all firms holding client money pay the same contribution irrespective of characteristics, such as size or potential risks presented to the compensation fund is appropriate. We will consider any changes in the underlying approach in the context of our broader work around the model of solicitors holding client money.</p>
+<h4>Management of the compensation fund</h4>
+<p>We follow four principles when determining the contribution level from solicitors and law firms to the compensation fund:</p>
+<ol>
+<li>The overriding principle will be to maintain the viability of the fund.</li>
+<li>We will ensure that the professional contributions to the fund are as manageable as possible for those we regulate.</li>
+<li>We will collect the contribution to the fund in a way that is manageable for those we regulate.</li>
+<li>We will be transparent about the fund monies and their management.</li>
+</ol>
+<p>The future cash flows of the compensation fund are inherently uncertain. While precise forecasting is not possible, we develop cash projections using a range of assumptions to inform decisions on the annual contribution required from individuals and firms.</p>
+<p>Our proposed approach reflects a balanced assessment of risk. It takes account of the existence of an overdraft facility, which mitigates short term liquidity risk, and the ability in extreme circumstances to seek a further contribution after the October 2026 collection. This allows us to protect the fund while limiting the impact on the profession as best we can.</p>
+<p>Following interventions, we seek to recover costs from intervened solicitors and insurers to mitigate the overall cost to the profession. In recent years, this is typically around &pound;3 million to &pound;4 million a year although recoveries can often be made many years after the initial costs were incurred. We continue to pursue costs until it becomes disproportionate to do so.</p>
+<h4>Consultation questions</h4>
+<h5>Question 6</h5>
+<p>Do you agree with the compensation fund contribution for individuals for 2026/27?</p>
+<h5>Question 7</h5>
+<p>Do you agree that for 2026/27, we should maintain the apportionment of compensation fund contributions to 50% individuals and 50% firms as the current position rather than moving to 70% for individuals and 30% firms?</p>
+<p>If you do not agree, please provide any insights and suggestions you have on why we should change for the year 2026/27?</p>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2>Impact assessment and consultation questions</h2>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_5fcc">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_5fcc" aria-expanded="true" aria-controls="collapse_5fcc" class="collapsed">
+                          <span>Impact assessment</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_5fcc" class="panel-collapse" role="tabpanel" aria-labelledby="heading_5fcc">
+                  <div class="panel-body">
+
+
+
+          
+<p>We have produced a <a href="#download">regulatory and equality impact assessment</a> on Business Plan and funding requirement 2026/27.</p>
+<h4>Consultation questions</h4>
+<h5>Question 8</h5>
+<p>Do you have any comments on the impact assessment of our proposed fees for 2026/27 and EDI-related work commitments for 2026/27?</p>
+<h5>Question 9</h5>
+<p>Do you have information that will help us to further build our understanding in relation to impacts on different groups of solicitors?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_3fa8">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_3fa8" aria-expanded="true" aria-controls="collapse_3fa8" class="collapsed">
+                          <span>Consultation questions</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_3fa8" class="panel-collapse" role="tabpanel" aria-labelledby="heading_3fa8">
+                  <div class="panel-body">
+
+
+
+          
+<p>We are keen to hear your views on our draft Business Plan and funding requirement 2026-27.</p>
+<ol>
+<li><span data-teams="true">Do you have any comments on our proposed work commitments for 2026/27 under our 'operational excellence' priority?</span></li>
+<li><span data-teams="true">Do you have any comments on our proposed work commitments for 2026/27 under our 'develop the ability to proactively identify and address risk' priority?</span></li>
+<li><span data-teams="true">Do you have any comments on our proposed work commitments for 2026/27 under our 'focus on the biggest issues' priority?</span></li>
+<li>Do you have any comments about our proposed funding requirement via the practising certificate fee for 2026/27?</li>
+<li>Do you agree that the SRA's required proportion of the practising certificate fee is reasonable and appropriate?</li>
+<li>Do you agree with the compensation fund contribution for individuals for 2026/27?</li>
+<li>Do you agree that for 2026/27, we should maintain the apportionment of compensation fund contributions to 50% individuals and 50% firms as the current position rather than moving to 70% for individuals and 30% firms? If you do not agree, please provide any insights and suggestions you have on why we should change for the year 2026/27?</li>
+<li>Do you have any comments on the impact assessment of our proposed fees for 2026/27 and EDI-related work commitments for 2026/27?</li>
+<li>Do you have information that will help us to further build our understanding in relation to impacts on different groups of solicitors?</li>
+</ol>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2 id="download">Consultation documents</h2>
+<ul class="documents-list">
+<li><a href="/globalassets/documents/sra/consultations/2026/consultation-business-plan-budget-2026-27.pdf">Consultation on Draft Business Plan and funding requirement 2026/27 (PDF 15 pages, 346KB)</a></li>
+<li><a href="/globalassets/documents/sra/consultations/2026/draft-business-plan-26-27.pdf">Draft Business Plan and funding requirement 2026/27 (PDF 31 pages, 1MB)</a></li>
+<li><a href="/globalassets/documents/sra/consultations/2026/draft-impact-assessment-sra-business-plan-26-27.pdf">Draft impact assessment for Business Plan and funding requirement 2026/27 (PDF 13 pages, 1MB)</a></li>
+</ul>
+<h2>Consultation responses</h2>
+<ul>
+<li><a href="/globalassets/documents/sra/consultations/2026/annex-1---summary-of-responses----business-plan-and-funding-requirements-for-2026-27.pdf">Consultation response and analysis (PDF 35 pages, 1.21MB)</a></li>
+<li><a href="/globalassets/documents/sra/consultations/2026/annex-2---consultation-responses---business-plan-and-funding-requirements-for-2026-27.pdf">Responses to our consultation (PDF 217 pages, 5.55MB)</a></li>
+<li><a href="/globalassets/documents/sra/consultations/2026/annex-3---impact-assessment---business-plan-and-funding-requirements-for-2026-27.pdf">Impact assessment on our Business Plan and Budget 2026-27 (PDF 14 pages, 334KB)</a></li>
+</ul>
+
+
+
+
+
+<div class="index-nav">
+    <p><a href='/sra/consultations/consultations-closed/' class='back-to-index'>Back to closed consultations</a></p>
+</div>
+</article>
+
+
+
+<aside class="col-md-4">
+
+            <div class="sidebar sidebar-links">
+                <div class="links-icon">
+                    <a href="#" class="printPageLink">
+                        <i class="icon icon-printer" aria-hidden="true"></i>Print this page
+                    </a>
+                    <a href="/pdfcentre/?type=Id&amp;data=685168583" rel="nofollow">
+                        <i class="icon icon-file" aria-hidden="true"></i>Save as PDF
+                    </a>
+                </div>
+            </div>
+
+    
+    
+
+
+   
+    
+
+</aside>
+                </div>
+
+            <!-- page link text -->
+                <p>
+                    Use <strong>www.sra.org.uk/business-plan-2026-27</strong> to link to this page.
+                </p>
+            <!-- page link text end -->
+        </section>
+
+        <!-- Scroll to top -->
+        <div class="footer-links container-fluid">
+            <a href="#mainContent" class="btn btn-secondary btn-sm back-top">
+                <i class="icon icon-chevron-up">
+                </i>Top
+            </a>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+
+
+    <footer class="footer-wrapper" id="Footer">
+        <div class="footer-links">
+            <div class="container footer">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>News</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/news/news/">News releases and statements</a></li>
+            <li><a href="/news/sra-update/">SRA Update</a></li>
+            <li><a href="/news/sqe-update/">SQE Update</a></li>
+            <li><a href="/news/blogs/">Blogs and articles</a></li>
+            <li><a href="/news/lawtech-insight/">Lawtech Insight</a></li>
+            <li><a href="/news/events/">Events and speakers</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For law professionals</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></li>
+            <li><a href="/solicitors/guidance/">Guidance</a></li>
+            <li><a href="/solicitors/resources/">Resources</a></li>
+            <li><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></li>
+            <li><a href="/solicitors/certificates/">Good standing and certificates</a></li>
+            <li><a href="/solicitors/enforcement/">Investigation and enforcement</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For the public</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/consumers/who-we-are/">Who we are</a></li>
+            <li><a href="/consumers/register/">Solicitors Register</a></li>
+            <li><a href="/consumers/choosing/">Choosing a solicitor</a></li>
+            <li><a href="/consumers/instructing/">Instructing a solicitor</a></li>
+            <li><a href="/consumers/problems/">Problems with a solicitor</a></li>
+            <li><a href="/consumers/compensation-fund/">Compensation fund</a></li>
+            <li><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></li>
+            <li><a href="/consumers/scam-alerts/">Scam alerts</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>Becoming a solicitor</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></li>
+            <li><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></li>
+            <li><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></li>
+            <li><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></li>
+            <li><a href="/become-solicitor/admission/">Admission</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>About us</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/sra/how-we-work/">How we work</a></li>
+            <li><a href="/sra/consultations/">Consultations</a></li>
+            <li><a href="/sra/research-publications/">Research and publications</a></li>
+            <li><a href="/sra/equality-diversity/">Equality and diversity</a></li>
+            <li><a href="/sra/corporate-strategy/">Strategy</a></li>
+            <li><a href="/sra/policy/">Regulation and Education policy</a></li>
+            <li><a href="/sra/decision-making/">Decision making</a></li>
+            <li><a href="/sra/complaints-service/">Complaints about our service</a></li>
+            <li><a href="/sra/jobs/">Jobs</a></li>
+    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-darker clearfix">
+            <div class="container d-sm-flex">
+                <div class="col-sm-9">
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/transparency/">Freedom of information</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/publication/">Copyright</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/privacy-notice/">Privacy</a>
+                            <a class="btn btn-link btn-sm" href="/sra/accessibility/">Accessibility</a>
+                            <a class="btn btn-link btn-sm" href="/home/contact-us/">Contact us</a>
+                            <a class="btn btn-link btn-sm" href="/sra/contact-us/difficulties-english/">Difficulties with English?</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/terms-conditions-service/">Terms of service</a>
+                            <a class="btn btn-link btn-sm" href="/home/accreditations/">Accreditations</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/modern-day-slavery-statement/">Modern day slavery statement</a>
+                            <a class="btn btn-link btn-sm" href="/sra/legal-notice/">Legal notice</a>
+                            <a class="btn btn-link btn-sm" href="/sra/jobs/">Jobs at the SRA</a>
+
+                </div>
+                <div class="col-sm-3 social-links">
+                            <a class="btn btn-link btn-sm" href="https://www.facebook.com/srasolicitors/" target="_self">
+            <span class="visually-hidden">Visit the SRA Facebook page</span>
+            <i class="social-icon fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://x.com/sra_solicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA Twitter page</span>
+            <i class="social-icon fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.youtube.com/user/SRAsolicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA YouTube channel</span>
+            <i class="social-icon fa-brands fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.linkedin.com/company/solicitors-regulation-authority" target="_self">
+            <span class="visually-hidden">Visit the SRA LinkedIn page</span>
+            <i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        if (window.requestAnimationFrame) {
+            window.lpTag = window.lpTag || {}; if (typeof window.lpTag._tagCount === 'undefined') { window.lpTag = { site: '9467814' || '', section: lpTag.section || '', autoStart: lpTag.autoStart === false ? false : true, ovr: lpTag.ovr || {}, _v: '1.5.1', _tagCount: 1, protocol: location.protocol, events: { bind: function (app, ev, fn) { lpTag.defer(function () { lpTag.events.bind(app, ev, fn); }, 0); }, trigger: function (app, ev, json) { lpTag.defer(function () { lpTag.events.trigger(app, ev, json); }, 1); } }, defer: function (fn, fnType) { if (fnType == 0) { this._defB = this._defB || []; this._defB.push(fn); } else if (fnType == 1) { this._defT = this._defT || []; this._defT.push(fn); } else { this._defL = this._defL || []; this._defL.push(fn); } }, load: function (src, chr, id) { var t = this; setTimeout(function () { t._load(src, chr, id); }, 0); }, _load: function (src, chr, id) { var url = src; if (!src) { url = this.protocol + '//' + ((this.ovr && this.ovr.domain) ? this.ovr.domain : 'lptag.liveperson.net') + '/tag/tag.js?site=' + this.site; } var s = document.createElement('script'); s.setAttribute('charset', chr ? chr : 'UTF-8'); if (id) { s.setAttribute('id', id); } s.setAttribute('src', url); document.getElementsByTagName('head').item(0).appendChild(s); }, init: function () { this._timing = this._timing || {}; this._timing.start = (new Date()).getTime(); var that = this; if (window.attachEvent) { window.attachEvent('onload', function () { that._domReady('domReady'); }); } else { window.addEventListener('DOMContentLoaded', function () { that._domReady('contReady'); }, false); window.addEventListener('load', function () { that._domReady('domReady'); }, false); } if (typeof (window._lptStop) == 'undefined') { this.load(); } }, start: function () { this.autoStart = true; }, _domReady: function (n) { if (!this.isDom) { this.isDom = true; this.events.trigger('LPT', 'DOM_READY', { t: n }); } this._timing[n] = (new Date()).getTime(); }, vars: lpTag.vars || [], dbs: lpTag.dbs || [], ctn: lpTag.ctn || [], sdes: lpTag.sdes || [], ev: lpTag.ev || [] }; lpTag.init(); } else { window.lpTag._tagCount += 1; }
+        }
+        else {
+            console.log('Upgrade your browser to access web chat');
+        }
+    </script>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    
+    
+
+
+    <!--   Page Feedback Element      -->
+ <script type="text/javascript" src="/Static/build/js/megamenu.js"></script>
+    <script src="/static/build/js/main.js" type="module"></script>
+</body>
+
+</html>

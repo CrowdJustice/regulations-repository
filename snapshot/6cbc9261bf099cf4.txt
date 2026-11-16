@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        // Default ad_storage to 'denied'.
+        gtag('consent', 'default', {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            'wait_for_update': 500
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5L9F7');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="facebook-domain-verification" content="1bk2azzrq6858zdd1idzelo1mwvpb9" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="canonical" href="https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/" />
+        <meta name="twitter:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/" />
+        <meta name="twitter:site" content="@sra_solicitors" />
+        <meta name="twitter:creator" content="@sra_solicitors" />
+        <meta name="twitter:image:alt" content="Logo for the Solicitors Regulation Authority" />
+        <meta name="twitter:title" content="Client money in legal services: Notifying the SRA of changes to help identify and act on risks" />
+        <meta property="twitter:description" content="This consultation is part of our Consumer Protection Review &#x2013; focused on protecting client money held by solicitors." />
+        <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+
+        <meta property="og:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/" />
+        <meta property="og:title" content="Client money in legal services: Notifying the SRA of changes to help identify and act on risks" />
+        <meta property="article:published_time" content="6/19/2026 10:00:17&#x202F;AM" />
+        <meta property="article:modified_time" content="6/19/2026 10:00:17&#x202F;AM" />
+            <meta property="og:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+        <meta property="og:description" content="This consultation is part of our Consumer Protection Review &#x2013; focused on protecting client money held by solicitors." />
+
+    <title>SRA | Client money in legal services: Notifying the SRA of changes to help identify and act on risks  | Solicitors Regulation Authority</title>
+        <meta name="description" content="This consultation is part of our Consumer Protection Review &#x2013; focused on protecting client money held by solicitors." />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="/Static/build/css/styles.css">
+    <link rel="stylesheet" href="/Static/build/css/site.css">
+
+    <script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=32126319-ec4d-4c8b-a221-3dd7343e841f;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=3b5219b5-c2e6-42f4-9861-7f929b886295', disableCookiesUsage: false }});
+</script>
+
+    
+
+    <script src="/Static/src/assets/js/vendor/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5L9F7" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="wrapper" class="wrapper noindex">
+        <!-- header -->
+
+
+<header class="header">
+    <div class="header">
+        <input type="hidden" ID="pageAncestors" value="5,95383,97230,97231,170268" />
+
+
+<div class="top-bar-menu d-none d-lg-flex">
+    <div class="container">
+
+        <div class="text-left col-md-2">
+            <a id="skip" class="btn btn-link btn-sm" href="#mainContent" onclick="ga('send', 'event', 'Navigation', 'Skip to Main Content');">Skip to main content </a>
+        </div>
+
+        <div class="container text-end">
+
+
+                <a class="btn btn-secondary btn-sm mysra-link" id="translate" href="https://my.sra.org.uk/"
+                   >
+                    Log in to mySRA
+                </a>
+
+            <span >
+                    <a href="/home/contact-us/" class="btn btn-link btn-sm margin-right-none padding-right-none">Contact us</a>
+            </span>
+        </div>
+
+    </div>
+</div>
+        <div class="middle-bar-menu container d-none d-lg-block">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="/">
+                              <img class="brand-logo img-responsive" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="330" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="search-box text-end">
+                          <form class="navbar-form" role="search" action="/search-results/" method="get">
+                              <div class="input-group">
+                                  <label for="desktop-search" class="visually-hidden">Search the website</label>
+                                  <input type="text" placeholder="Search" name="searchText" id="desktop-search">
+                                  <div class="input-group-btn input-group-btn--search">
+                                      <button type="submit" class="btn btn-primary" id="globalSearchButton" aria-label="Search">
+                                          <i class="icon icon-magnifier"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar-menu">
+            <div class="big-menu">
+                <nav class="navbar navbar-default container">
+                    <div class="navbar-header">
+                        <a class="d-block d-lg-none" href="/"><img class="brand-logo" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="300" loading="lazy"></a>
+                    </div>
+                    <div class="navbar-extra-xs d-flex d-lg-none row">
+                        <a href="/" class="btn btn-primary col-4">
+                            <i class="icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="btn btn-primary col-4 js-search-show">
+                            <i class="icon icon-magnifier"></i>
+                            <span>Search</span>
+                        </a>
+                        <a href="#menu-sra" class="btn btn-primary small-navigation-button col-4 d-lg-none">
+                            <i class="icon icon-bars"></i>
+                            <span>Menu</span>
+                        </a>
+                    </div>
+                    <div class="search-box-xs d-lg-none" aria-expanded="false"​>
+                        <form role="search" action="/search-results/" method="get">
+                            <div class="input-group input-group--table">
+                                <label for="mobile-search" class="visually-hidden">Search website</label>
+
+                                <input type="text" placeholder="Search" name="searchText" id="mobile-search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-primary" href="#">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="collapse navbar-collapse js-navbar-collapse">
+                            <ul class="nav navbar-nav top-navigation">
+                                    <li class="theme-red">
+                                        <a class="red" href="/news/" title="News" data-page-id="166511">News</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/sra/" title="About us " data-page-id="95383">About us </a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/solicitors/" title="For law professionals" data-page-id="75649">For law professionals</a>
+                                    </li>
+                                    <li class="theme-purple">
+                                        <a class="purple" href="/consumers/" title="For the public" data-page-id="78133">For the public</a>
+                                    </li>
+                                    <li class="theme-blue">
+                                        <a class="blue" href="/become-solicitor/" title="Becoming a solicitor" data-page-id="95018">Becoming a solicitor</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/mysra/" title="mySRA" data-page-id="97544">mySRA</a>
+                                    </li>
+                            </ul>
+                            <script>
+                                    window.cmsThemeOverride = 'red';
+                            </script>
+                        <form class="navbar-form d-block d-lg-none" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav id="menu-sra" class="mob-menu">
+            <a class="mm-close mm-btn" href="#page-wrapper"></a>
+            <!-- First level items -->
+            <ul class="nav nav-pills nav-stacked">
+
+
+                    <li class="red home-link">
+
+                        <a class="expand-children" href="/" data-attribute="/" data-page-id="5">Home</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/news/" data-attribute="/news/" data-page-id="166511">News</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/sra/" data-attribute="/sra/" data-page-id="95383">About us </a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/solicitors/" data-attribute="/solicitors/" data-page-id="75649">For law professionals</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="purple">
+
+                        <a class="expand-children" href="/consumers/" data-attribute="/consumers/" data-page-id="78133">For the public</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="blue">
+
+                        <a class="expand-children" href="/become-solicitor/" data-attribute="/become-solicitor/" data-page-id="95018">Becoming a solicitor</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/mysra/" data-attribute="/mysra/" data-page-id="97544">mySRA</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                <li>
+                </li>
+                <li class="mobile-bottom-link"> <a class="btn btn-secondary mysra-link" href="/mysra">Log in to mySRA</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<nav id="megaMenu" class="megaMenu container main-container navbar" role="navigation" aria-label="Main navigation" aria-hidden="true">
+
+<div id="megaMenuSectionnews" class="megaMenuSection news">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/news/">News</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/home/megamenu/promotional/consumer-crowd.webp" class="card-img-top" alt="A crowd of people on the street">
+                    <div class="card-body">
+                        <h6 class="card-title">High volume consumer claims</h6>
+                        <p class="card-text">Learn how we are tackling issues in the high-volume consumer claims sector.</p>
+                        <a href="/home/hot-topics/high-volume-consumer-claims/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-News" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/news/" data-node-id="95702" aria-role="menuitem">News releases and statements</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sra-update/" data-node-id="95951" aria-role="menuitem">SRA Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sqe-update/" data-node-id="137703" aria-role="menuitem">SQE Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/blogs/" data-node-id="170237" aria-role="menuitem">Blogs and articles</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/lawtech-insight/" data-node-id="148805" aria-role="menuitem">Lawtech Insight</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/events/" data-node-id="96367" aria-role="menuitem">Events and speakers</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95702" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="News releases and statements">
+    <h5><a href="/news/news/">News releases and statements</a></h5>
+    <ul id="nav2list-95702" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/news/releases/">
+                  News archive
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95951" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Update">
+    <h5><a href="/news/sra-update/">SRA Update</a></h5>
+    <ul id="nav2list-95951" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sra-update/unsubscribe/">
+                  SRA Update subscription
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137703" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SQE Update">
+    <h5><a href="/news/sqe-update/">SQE Update</a></h5>
+    <ul id="nav2list-137703" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sqe-update/sqe-subscribe/">
+                  Subscribe to SQE Update
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-170237" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Blogs and articles">
+    <h5><a href="/news/blogs/">Blogs and articles</a></h5>
+    <ul id="nav2list-170237" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-148805" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Lawtech Insight">
+    <h5><a href="/news/lawtech-insight/">Lawtech Insight</a></h5>
+    <ul id="nav2list-148805" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/lawtech-insight/lawtech-insight-subscription/">
+                  Subscribe to Lawtech Insight
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96367" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Events and speakers">
+    <h5><a href="/news/events/">Events and speakers</a></h5>
+    <ul id="nav2list-96367" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/events/on-demand-events/">
+                  On-demand events
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsra" class="megaMenuSection sra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/sra/">About us </a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/crowd-in-street.jpg" class="card-img-top" alt="A busy city street with people walking on a sunny day. The buildings line the sidewalk, and trees are visible along the street.">
+                    <div class="card-body">
+                        <h6 class="card-title">Our priorities for 2026/27</h6>
+                        <p class="card-text">Read our Business Plan and see our key priorities for the year ahead.</p>
+                        <a href="/sra/corporate-strategy/business-plans/business-plan/business-plan-2026-27/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-About us " class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/how-we-work/" data-node-id="95392" aria-role="menuitem">How we work</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/consultations/" data-node-id="97230" aria-role="menuitem">Consultation and discussion</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/research-publications/" data-node-id="144139" aria-role="menuitem">Research and publications</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/equality-diversity/" data-node-id="95393" aria-role="menuitem">Equality and diversity</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/corporate-strategy/" data-node-id="95397" aria-role="menuitem">Strategy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/policy/" data-node-id="95394" aria-role="menuitem">Policy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/decision-making/" data-node-id="95396" aria-role="menuitem">Decision making</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/complaints-service/" data-node-id="95395" aria-role="menuitem">Complaints about our service</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/jobs/" data-node-id="96408" aria-role="menuitem">Jobs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95392" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How we work">
+    <h5><a href="/sra/how-we-work/">How we work</a></h5>
+    <ul id="nav2list-95392" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/what-we-do/">
+                  What we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/our-board/">
+                  Our Board
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/management/">
+                  Our management
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/privacy-data-information/">
+                  Privacy, data and information
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/costs-statement/">
+                  Costs statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/public-legal-education/">
+                  Our Public Legal Education work 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/terms-conditions-service/">
+                  Terms and conditions of service
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/standard-conditions-contract/">
+                  Standard conditions of contract
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/investments-reserves/">
+                  Investments and reserves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/environmental-policy-statement/">
+                  Environmental policy statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/modern-day-slavery-statement/">
+                  Modern day slavery statement
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97230" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Consultation and discussion">
+    <h5><a href="/sra/consultations/">Consultation and discussion</a></h5>
+    <ul id="nav2list-97230" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultations-closed/">
+                  Closed consultations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-responses/">
+                  Our consultation responses
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-alerts/">
+                  Consultation alerts
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/discussion-papers/">
+                  Discussion papers
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-144139" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Research and publications">
+    <h5><a href="/sra/research-publications/">Research and publications</a></h5>
+    <ul id="nav2list-144139" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/about-the-sra/">
+                  About the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/education-training/">
+                  Education and training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/equality-and-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/innovation/">
+                  Innovation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/risk/">
+                  Risk
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/complaints-and-misconduct/">
+                  Complaints and misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/regulation/">
+                  Regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95393" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Equality and diversity">
+    <h5><a href="/sra/equality-diversity/">Equality and diversity</a></h5>
+    <ul id="nav2list-95393" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-work/">
+                  Our work on diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-profession/">
+                  Diversity in the profession
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-policies/">
+                  Diversity policies
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-sra/">
+                  Diversity in the SRA
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95397" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Strategy">
+    <h5><a href="/sra/corporate-strategy/">Strategy</a></h5>
+    <ul id="nav2list-95397" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/expert-panel/">
+                  The Expert Panel
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/independent-regulation/">
+                  Independent regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/sra-enforcement-strategy/">
+                  Enforcement strategy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/business-plans/">
+                  Business planning
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/lsb-directions/">
+                  LSB Directions and regulatory approach 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95394" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Policy">
+    <h5><a href="/sra/policy/">Policy</a></h5>
+    <ul id="nav2list-95394" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/policy/our-approach-policy/">
+                  Our approach
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95396" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Decision making">
+    <h5><a href="/sra/decision-making/">Decision making</a></h5>
+    <ul id="nav2list-95396" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/schedule-delegation/">
+                  Who can make decisions at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/adjudicators-panel/">
+                  SRA adjudication
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95395" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Complaints about our service">
+    <h5><a href="/sra/complaints-service/">Complaints about our service</a></h5>
+    <ul id="nav2list-95395" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/make-a-complaint/">
+                  Make a complaint about the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/independent-reviewers-report/">
+                  Independent complaints reviewer&#x27;s annual report
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-charter/">
+                  Complaints charter
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/unreasonable-behaviour-policy/">
+                  Managing unreasonable behaviour towards SRA staff policy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-policy/">
+                  Complaints policy
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96408" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Jobs">
+    <h5><a href="/sra/jobs/">Jobs</a></h5>
+    <ul id="nav2list-96408" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/staff-videos/">
+                  Working at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/use-of-ai/">
+                  Use of Artificial Intelligence (AI)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-process/">
+                  The recruitment process
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/our-offices/">
+                  Our offices
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/values/">
+                  Our values
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/diversity-inclusion/">
+                  Diversity inclusion
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/benefits/">
+                  Benefits
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-agencies/">
+                  For recruitment agencies
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsolicitors" class="megaMenuSection solicitors">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/solicitors/">For law professionals</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/sra-ai.jpg" class="card-img-top" alt="A person typing on a laptop with a web page open. The screen displays a text box and the question, &quot;How can I help you?&quot;">
+                    <div class="card-body">
+                        <h6 class="card-title">Use of AI warning notice</h6>
+                        <p class="card-text">We have published guidance about safe and responsible use of AI in legal sector.</p>
+                        <a href="/solicitors/guidance/misuse-ai/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For law professionals" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/standards-regulations/" data-node-id="135765" aria-role="menuitem">SRA Standards and Regulations</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/guidance/" data-node-id="136892" aria-role="menuitem">Guidance</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/resources/" data-node-id="155170" aria-role="menuitem">Resources</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/firm-based-authorisation/" data-node-id="75658" aria-role="menuitem">Firm-based authorisation</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/certificates/" data-node-id="137639" aria-role="menuitem">Good standing and certificates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/enforcement/" data-node-id="75654" aria-role="menuitem">Investigation and enforcement</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-135765" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Standards and Regulations">
+    <h5><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></h5>
+    <ul id="nav2list-135765" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/principles/">
+                  Principles
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-solicitors/">
+                  SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-firms/">
+                  SRA Code of Conduct for Firms
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/accounts-rules/">
+                  SRA Accounts Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/application-notice-review-appeal-rules/">
+                  SRA Application, Notice, Review and Appeal Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/index/">
+                  Index of SRA Standards and Regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/glossary/">
+                  SRA Glossary
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136892" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Guidance">
+    <h5><a href="/solicitors/guidance/">Guidance</a></h5>
+    <ul id="nav2list-136892" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/accounts-and-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/admissions/">
+                  Admissions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/authorisation/">
+                  Authorisation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/client-care/">
+                  Client Care
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/compensation/">
+                  Compensation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/disciplinary-procedures/">
+                  Disciplinary procedures
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/misconduct/">
+                  Misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/professional-indemnity-insurance/">
+                  Professional indemnity insurance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-155170" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Resources">
+    <h5><a href="/solicitors/resources/">Resources</a></h5>
+    <ul id="nav2list-155170" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/accounts-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/continuing-competence/">
+                  Continuing competence
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/cybercrime/">
+                  Cybercrime
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/equality-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/fees/">
+                  Fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/innovate/">
+                  Innovate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/money-laundering/">
+                  Money laundering 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/professional-indemnity/">
+                  Professional indemnity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/reporting-misconduct/">
+                  Reporting misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/specific-areas-practice/">
+                  Specific areas of practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/all-other-topics/">
+                  All other topics 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75658" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Firm-based authorisation">
+    <h5><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></h5>
+    <ul id="nav2list-75658" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/authorisation-recognition/">
+                  New firm
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/existing-firms-applications/">
+                  Existing firms 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/firm-closures/">
+                  Firm is closing or being acquired
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/decision-authorisation/">
+                  How we make authorisation decisions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/disclosure-barring-service-checks/">
+                  DBS checks
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/abs/abs-search/">
+                  Register of licensed bodies (ABS)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/temporary-emergency-authorisation/">
+                  Temporary emergency authorisation
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137639" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Good standing and certificates">
+    <h5><a href="/solicitors/certificates/">Good standing and certificates</a></h5>
+    <ul id="nav2list-137639" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/replacement-admission-certificate/">
+                  Replacement admission certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/firm-letter-regulatory-standing/">
+                  Firm letter of regulatory standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/extract-from-roll/">
+                  Extract from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-good-standing/">
+                  Certificate of good standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-attestation/">
+                  Certificate of attestation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/faqs/">
+                  FAQs - Certificates
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Investigation and enforcement">
+    <h5><a href="/solicitors/enforcement/">Investigation and enforcement</a></h5>
+    <ul id="nav2list-75654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-reporting-themselves/">
+                  Solicitors reporting themselves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/practising-certificate-pc-conditions-suspension-removal-roll/">
+                  Suspension or removal from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-disciplinary-tribunal/">
+                  Solicitors Disciplinary Tribunal
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/intervention-reasons-costs/">
+                  Intervention into a practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/financial-penalties-default-salaries/">
+                  Financial penalties - default salaries
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionconsumers" class="megaMenuSection consumers">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/consumers/">For the public</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Solicitors Register</h6>
+                        <p class="card-text">Look up the records of the solicitors and law firms we regulate.</p>
+                        <a href="/consumers/register/" class="btn btn-primary btn-sm">Search now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For the public" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/who-we-are/" data-node-id="78136" aria-role="menuitem">Who we are</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/register/" data-node-id="134879" aria-role="menuitem">Solicitors Register</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/choosing/" data-node-id="136472" aria-role="menuitem">Choosing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/instructing/" data-node-id="78135" aria-role="menuitem">Instructing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/problems/" data-node-id="78134" aria-role="menuitem">Problems with a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/compensation-fund/" data-node-id="141935" aria-role="menuitem">Compensation fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/solicitors-indemnity-fund/" data-node-id="156186" aria-role="menuitem">Solicitors Indemnity Fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/scam-alerts/" data-node-id="93557" aria-role="menuitem">Scam alerts</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/professional-indemnity-insurance-guidelines/" data-node-id="166729" aria-role="menuitem">Professional Indemnity Insurance</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-78136" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Who we are">
+    <h5><a href="/consumers/who-we-are/">Who we are</a></h5>
+    <ul id="nav2list-78136" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/what-sra-about/">
+                  Who we are and what we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/sra-regulate/">
+                  How we regulate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/expect-from-us/">
+                  What you can expect from us
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-134879" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Register">
+    <h5><a href="/consumers/register/">Solicitors Register</a></h5>
+    <ul id="nav2list-134879" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/glossary/">
+                  Solicitors Register glossary
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/legal-notice/">
+                  Legal notice 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/others/">
+                  Other searches
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136472" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Choosing a solicitor">
+    <h5><a href="/consumers/choosing/">Choosing a solicitor</a></h5>
+    <ul id="nav2list-136472" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-issue/">
+                  What is a legal issue
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/what-to-expect/">
+                  What to expect
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/get-best-solicitor/">
+                  Get the best from your solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/look-out-for-our-logo/">
+                  Look out for our logo
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/price-advice/">
+                  Price advice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-jargon-explained/">
+                  Legal jargon explained
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/customer-reviews/">
+                  Customer reviews
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/comparison-services/">
+                  Comparison sites
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/no-win-no-fee/">
+                  &#x27;No win, no fee&#x27; agreements: A guide
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/motor-finance-compensation-claims/">
+                  Motor finance compensation claims
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/aml/">
+                  Anti-money laundering checks: What you need to know
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78135" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Instructing a solicitor">
+    <h5><a href="/consumers/instructing/">Instructing a solicitor</a></h5>
+    <ul id="nav2list-78135" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/know-before-sign-up/">
+                  What to know before you sign up
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/costs-legal-aid/">
+                  Understanding costs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/legal-advocacy/">
+                  Legal advocacy 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/using-technology/">
+                  Using technology
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/handling-legal-work-yourself/">
+                  Handling legal work yourself
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78134" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Problems with a solicitor">
+    <h5><a href="/consumers/problems/">Problems with a solicitor</a></h5>
+    <ul id="nav2list-78134" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/report-solicitor/">
+                  Report a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/solicitor-closed-down/">
+                  What to do if a firm has closed
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/claim-papers/">
+                  Claim your papers from us
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/fraud-dishonesty/">
+                  Recognising problems with a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/financial-difficulty/">
+                  Law firms with financial problems
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-141935" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Compensation fund">
+    <h5><a href="/consumers/compensation-fund/">Compensation fund</a></h5>
+    <ul id="nav2list-141935" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/compensation-fund/">
+                  How the compensation fund works
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/claims-process/">
+                  Can you apply to the compensation fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/application-process/">
+                  Apply to the compensation fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/resources/">
+                  How we decide on compensation fund applications
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-156186" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Indemnity Fund">
+    <h5><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></h5>
+    <ul id="nav2list-156186" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/what-solicitors-indemnity-fund/">
+                  What is the Solicitors Indemnity Fund? 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/can-apply-solicitors-indemnity-fund/">
+                  Can you apply to the Solicitors Indemnity Fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/apply-solicitors-indemnity-fund/">
+                  Apply to the Solicitors Indemnity Fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/manage-fund/">
+                  How we manage the fund
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-93557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Scam alerts">
+    <h5><a href="/consumers/scam-alerts/">Scam alerts</a></h5>
+    <ul id="nav2list-93557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-166729" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Professional Indemnity Insurance">
+    <h5><a href="/consumers/professional-indemnity-insurance-guidelines/">Professional Indemnity Insurance</a></h5>
+    <ul id="nav2list-166729" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionbecome-solicitor" class="megaMenuSection become-solicitor">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/become-solicitor/">Becoming a solicitor</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/richard-williams.jpg" class="card-img-top" alt="Video frame of a person speaking, displayed on a video player interface.">
+                    <div class="card-body">
+                        <h6 class="card-title">Understanding the SQE</h6>
+                        <p class="card-text">View our latest on-demand SQE webinar.</p>
+                        <a href="/news/events/on-demand-events/sqe-next/" class="btn btn-primary btn-sm">Watch now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-Becoming a solicitor" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/sqe/" data-node-id="139067" aria-role="menuitem">Solicitors Qualifying Examination (SQE) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/legal-practice-course-route/" data-node-id="145654" aria-role="menuitem">Legal Practice Course (LPC) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/qualified-lawyers/" data-node-id="143099" aria-role="menuitem">Qualified lawyers</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/character-and-suitability/" data-node-id="139126" aria-role="menuitem">Character and suitability</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/admission/" data-node-id="95364" aria-role="menuitem">Admission</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-139067" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Qualifying Examination (SQE) route">
+    <h5><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></h5>
+    <ul id="nav2list-139067" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/check-validate-qualification/">
+                  Checking and validate your degree
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qualifying-work-experience-candidates/">
+                  Qualifying work experience
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-case-studies/">
+                  Insights from aspiring and qualified solicitors
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/access-reinvestment-fund/">
+                  SQE fund for disadvantaged candidates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-training-options/">
+                  SQE training options
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/solicitor-apprenticeships/">
+                  Solicitor apprenticeships
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qa/">
+                  Questions and answers - SQE
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-145654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Legal Practice Course (LPC) route">
+    <h5><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></h5>
+    <ul id="nav2list-145654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/qualifying-law-degree-common-professional-examination/">
+                  Qualifying law degree or Common Professional Examination
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/lpc/">
+                  Legal Practice Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/period-recognised-training/">
+                  Period of recognised training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/professional-skills-course/">
+                  Professional Skills Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/becoming-solicitor-legal-practice-course-transitional-requirements/">
+                  Becoming a solicitor with the Legal Practice Course (transitional requirements)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/substitute-qwe-sqe2-equivalent-training/">
+                  Substitute QWE and SQE2 as an equivalent to a period of recognised training application
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/equivalent-means-information-pack/">
+                  Equivalent Means
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/resources/">
+                  Resources
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-143099" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Qualified lawyers">
+    <h5><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></h5>
+    <ul id="nav2list-143099" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/sqe-exemptions/">
+                  SQE exemptions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/principle-admission/">
+                  Qualified lawyers regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/jurisdictions-political-unrest/">
+                  Jurisdictions where there is political unrest
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139126" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Character and suitability">
+    <h5><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></h5>
+    <ul id="nav2list-139126" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/what-character-suitability/">
+                  What is character and suitability?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/disclosing-character-suitability-issue/">
+                  Disclosing a character and suitability issue 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/early-assessment-character-suitability/">
+                  Applying for an early assessment of character and suitability
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/character-suitability-faqs/">
+                  Character and suitability FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95364" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Admission">
+    <h5><a href="/become-solicitor/admission/">Admission</a></h5>
+    <ul id="nav2list-95364" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/pathways-qualification/">
+                  Pathways to qualification
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/screening/">
+                  Apply for screening
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-forms-fees/">
+                  Admission to the roll of solicitors and related fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-dates/">
+                  Admission dates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/before-after-admission/">
+                  What to expect before and after admission
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/faqs/">
+                  Admission FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionmysra" class="megaMenuSection mysra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/mysra/">mySRA</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Verifying your identity when logging in</h6>
+                        <p class="card-text">You must verify your identity using an authenticator app.</p>
+                        <a href="/mysra/verifying-mysra-account/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-mySRA" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/updates/" data-node-id="97557" aria-role="menuitem">mySRA updates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/manage-account/" data-node-id="139470" aria-role="menuitem">How to manage your account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/fees/" data-node-id="97551" aria-role="menuitem">Fees</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/get-mysra-account/" data-node-id="139463" aria-role="menuitem">Get a mySRA account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/faqs/" data-node-id="97545" aria-role="menuitem">mySRA FAQs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-97557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA updates">
+    <h5><a href="/mysra/updates/">mySRA updates</a></h5>
+    <ul id="nav2list-97557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-139470" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How to manage your account">
+    <h5><a href="/mysra/manage-account/">How to manage your account</a></h5>
+    <ul id="nav2list-139470" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/organisation-account/">
+                  How to manage my organisation account
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/individual-account/">
+                  How to manage my individual account
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97551" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Fees">
+    <h5><a href="/mysra/fees/">Fees</a></h5>
+    <ul id="nav2list-97551" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/current-fees/">
+                  Fee policy  2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator/">
+                  Fee calculator 2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-policy-25-26/">
+                  Fee policy  2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator-25-26/">
+                  Fee calculator 2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/ways-to-pay/">
+                  Ways to pay for your practising certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/compensation-fund-contribution-level-principles/">
+                  Compensation fund contribution level principles
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139463" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Get a mySRA account">
+    <h5><a href="/mysra/get-mysra-account/">Get a mySRA account</a></h5>
+    <ul id="nav2list-139463" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-97545" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA FAQs">
+    <h5><a href="/mysra/faqs/">mySRA FAQs</a></h5>
+    <ul id="nav2list-97545" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</nav>
+
+
+        
+
+        <!-- header end-->
+        <section class="container main-container" id="mainContent">
+
+            <!-- breacrumb -->
+
+
+
+    <!-- Start breadcrumb -->
+    <ol class="breadcrumb d-none d-lg-flex">
+		<li>
+				<a href="/">
+					<span class="visually-hidden">Home</span>
+					<i class="icon-home" aria-hidden="true"></i>
+				</a>
+		</li>
+		<li>
+					<a href="/sra/">About us </a>
+		</li>
+		<li>
+					<a href="/sra/consultations/">Consultation and discussion</a>
+		</li>
+		<li>
+Client money in legal services: Notifying the SRA of changes to help identify and act on risks 		</li>
+    </ol>
+    <!-- End breadcrumb -->
+            <!-- breacrumb end -->
+            
+                <div class="row">
+                    
+
+
+
+
+
+
+<article class="col-md-8 article articles-floated " >
+    
+
+
+<h1>Closed Consultation</h1>
+
+<h2 >Client money in legal services: Notifying the SRA of changes to help identify and act on risks</h2>
+
+
+
+
+<ul>
+<li>The consultation period ended on <strong>Monday 17 August 2026</strong></li>
+<li>You can <a href="#download">download the consultation paper</a> or read it below<a href="#respond"></a></li>
+<li>Watch our <a href="/news/events/on-demand-events/changes-risk/">webinar on the proposed next steps</a>.</li>
+</ul>
+
+<h2>About this consultation</h2>
+<p>This consultation is part of our <a href="/home/hot-topics/consumer-protection-review/">Consumer Protection Review</a> &ndash; focused on protecting client money held by solicitors.</p>
+<p>Through the review we have identified the need for us to be able to collect different and more timely information from firms in certain circumstances to help spot and target risks.</p>
+<p>This consultation sets out our proposed mechanism to achieve this and how we propose to use this in the first instances.</p>
+<p>We are consulting on proposals to:</p>
+<ul>
+<li>make a rule to require firms to notify us of events that we will prescribe from time to time</li>
+<li>have the option of using fixed financial penalties (FFPs) to help ensure compliance with the proposed notification requirements</li>
+<li>use the new power in the first instances to require firms to:
+<ul>
+<li>pre-notify us of a merger or acquisition that is in contemplation and that has reached the Heads of Term stage or equivalent</li>
+<li>notify us when they begin to receive or hold client money, having previously reported at authorisation or in their most recent practising certificate renewal that they do not do so.</li>
+</ul>
+</li>
+</ul>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_a0ce">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_a0ce" aria-expanded="true" aria-controls="collapse_a0ce" class="collapsed">
+                          <span>Background  </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_a0ce" class="panel-collapse" role="tabpanel" aria-labelledby="heading_a0ce">
+                  <div class="panel-body">
+
+
+
+          
+<p>The proposals in this consultation follow on from our November 2024 consultation <a href="/sra/consultations/consultation-listing/holding-client-money/">Client money in legal services &ndash; safeguarding consumers and providing redress</a>. This was the first formal consultation of the Consumer Protection Review.</p>
+<p>The review was set up to look at steps we might take to better protect client money. This occurred against the backdrop of a changing legal landscape, with a significant increase in both the number and size of firms into which we have had to intervene to protect clients.</p>
+<p>And with high-profile firm failures with significant sums of client money being stolen or lost.</p>
+<p>We engaged extensively and, informed by the feedback we heard, consulted formally in November 2024 on a range of ideas and proposals about potential steps to help protect clients and their money. We explored fundamental long-term questions about whether the existing approach remains fit for purpose in two key areas:</p>
+<ul>
+<li>the current model of solicitors ordinarily holding client money</li>
+<li>funding the compensation scheme &ndash; which can provide redress to clients whose money has been lost or stolen in certain circumstances.</li>
+</ul>
+<p>We also explored potential improvements to the current system that could help protect client money in the near term.</p>
+<p>Following this consultation, we concluded that there is a strong case for considering fundamental, transformational reforms to the model of holding client money and how the profession pays for redress. However, these are complex issues that cannot be quickly resolved.</p>
+<p>We decided that our immediate priority would be taking forward three key areas from our November 2024 consultation that focus on strengthening protections for client money within the current system, to make a difference more quickly. These are:</p>
+<ul>
+<li>improving the accountants' reports regime</li>
+<li>strengthening the checks and balances provided by compliance officers</li>
+<li>improving oversight of firms significantly changing their profile including as a result of sales, mergers and acquisitions.</li>
+</ul>
+<p>In December 2025, we followed with a further consultation &ndash; <a href="/sra/consultations/consultation-listing/legal-services-client-money/">Client money in legal services: protecting the client money that solicitors hold</a>. This set out proposals around the first two changes to the existing system listed above. We have now made rules to provide for changes to improve the accountants' reports regime and to strengthen the checks and balances provided by compliance officers.</p>
+<p>In that consultation, we also set out our direction of travel in relation to improving our oversight of firms. We said that to enable us to better spot and target risks, we think we will need to collect additional, more timely information from some firms when they are changing their profile. This new consultation proposes a rule that we think will effectively facilitate us collecting that information, along with proposals for how the rule would be used in the first instance.</p>
+<p>The need to collect appropriate timely information to better spot and target risks goes beyond the areas considered in the Consumer Protection Review and we will likely require notifications in different contexts. For example, we will shortly be consulting on proposals relating to the notification of third-party litigation funding.</p>
+<p>Looking forward, we are returning now to some of the potential longer-term regulatory reform questions raised in the initial Consumer Protection Review consultation. This includes those around the current model of solicitors holding client money and exploring alternatives, such as new opportunities raised by technological and system developments. We will engage widely as we move forward and we would consult on any future proposals for longer term change.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_7e91">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_7e91" aria-expanded="true" aria-controls="collapse_7e91" class="collapsed">
+                          <span>What we want to achieve </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_7e91" class="panel-collapse" role="tabpanel" aria-labelledby="heading_7e91">
+                  <div class="panel-body">
+
+
+
+          
+<p>We are moving towards a more intelligence-led, proactive supervisory regulatory model. We are developing the ability to identify and address risk earlier, with the aim of reducing the instances and size of harms that might otherwise arise. Effective proactive regulation depends on having strong data foundations. We have already made significant progress in areas such as our risk and data capability to help us spot risks earlier and to increase our capacity to respond to them. But we know that we need to go further.</p>
+<p>To identify and address risks earlier, we need the ability to call in real-time information from firms, targeted at areas or characteristics that may indicate a heightened risk of harm, particularly where that harm could be significant if the risk materialises.</p>
+<p>The Consumer Protection Review has highlighted gaps in the information that we currently receive. We currently collect information from firms at various points during their regulatory lifecycle. This includes at initial authorisation and when firms submit their annual returns through our practising certificate renewals.</p>
+<p>Firms are also obligated to notify us of material changes to information previously provided to us. However, we do not specify the changes we expect to be notified about in detail. In practice, we are often not told of changes that we may consider material in the context of protecting client money at the time that they happen.</p>
+<p>The focus of our information requirements has not historically been to strategically gather data for the purpose of understanding risk patterns, identifying risk characteristics or assessing any changes in the risk profile of a firm. So, information requirements are not calibrated for this purpose. Further, the information we receive is often historical or after the event &ndash; for example reporting client money held the previous year at renewals time.</p>
+<p>We want to bolster our existing information requirements with the ability to prescribe that firms notify us of specific events that are important for helping identify risks and act on them. These are targeted at the big issues that we are concerned about because of the potential harm that may flow from them. This will complement the on-going obligation on firms to notify us of material changes to information previously provided to us.</p>
+<p>The information that we will receive will also help us track activity and changing patterns in the market, which over time will ensure we are better able to identify developments that may require pro-active regulatory action.</p>
+<p>Another important element of our move towards a more intelligence-led, proactive supervisory regulatory model is the introduction of a supervision taskforce, which is piloting proactive supervisory engagement with firms working in areas that pose significant risks. Learning from this work will help us take earlier action and develop a full supervision function over time.</p>
+<h4>What we are proposing</h4>
+<p>We are proposing to complement our existing information provisions with the introduction of a broad rule which will set the environment for us to require notification of specific events that we prescribe:</p>
+<p><strong>'You notify the SRA of any prescribed notifiable event as specified by the SRA.'</strong></p>
+<p>We would from time to time prescribe the events we will require a firm to notify us about through this rule, when we would require notification, and the information we will require from firms in notifying us.</p>
+<p>We consider that this approach will help set the foundations for more proactive and intelligence-led regulation in a future-proofed way. A new, broad notification rule is beneficial as it will provide for us to respond with agility to the risks in the market as they change over time and recalibrate to focus on the biggest issues.</p>
+<p>However, we would provide those we regulate with advanced notice of any plans to prescribe new notifiable events through the proposed rule and the reasons why, as well as what notification information we will require.</p>
+<p>We would engage with those that would be affected, to hear feedback about how the change would likely work in practice and its likely impact.</p>
+<p>We are proposing to prescribe two events in the first instance which will require firms to:</p>
+<ul>
+<li>pre-notify us of a merger or acquisition that is in and that has reached the Heads of Term stage or equivalent</li>
+<li>notify us when they begin to receive or hold client money having previously reported that they do not do so at either authorisation or through the last practising certificate renewals.</li>
+</ul>
+<p>This is also a consultation on these first events we intend to prescribe, with details provided below.</p>
+<h4>Question 1</h4>
+<p>Do you agree with our proposal to create a specific rule that firms must notify us of 'prescribed events' and our approach to prescribing events?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_f426">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_f426" aria-expanded="true" aria-controls="collapse_f426" class="collapsed">
+                          <span>Applying fixed financial penalties </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_f426" class="panel-collapse" role="tabpanel" aria-labelledby="heading_f426">
+                  <div class="panel-body">
+
+
+
+          
+<p>Timely and accurate notification of prescribed events will play an important role in enabling us to identify firms who may pose a risk to client money. we consider that we should have the option of using all tools to help ensure compliance. &nbsp;We propose amending our arrangements to provide the option of using FFPs for clearly defined procedural and administrative failures such as late or incomplete notifications.</p>
+<p>FFPs are already used effectively in other regulatory areas, such as breaches of transparency rules and failure to submit diversity data as required. Should we adopt FFPs, we would be consistent with existing FFP processes. This currently includes giving firms a period in which to bring themselves into compliance by rectifying the breach before the monetary penalty is issued.</p>
+<p>We consider that the option of FFPs may offer an effective and proportionate way of helping ensure compliance with administrative requirements where timely compliance is important for providing the data we need to identify and target risks.</p>
+<p>Continued or persistent non-compliance with our rules would result in more serious action in line with our enforcement strategy.</p>
+<h4>Question 2</h4>
+<p>Do you agree that it is appropriate to have the option of applying the fixed financial penalties regime in the first instance where a firm does not comply with our notification requirements?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_0280">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_0280" aria-expanded="true" aria-controls="collapse_0280" class="collapsed">
+                          <span>Initial prescribed events</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_0280" class="panel-collapse" role="tabpanel" aria-labelledby="heading_0280">
+                  <div class="panel-body">
+
+
+
+          
+<p>We are initially proposing to prescribe two events where we consider that it is necessary and appropriate to have better, timely information to help us to identify potential risk that could result in significant harm if they are realised. We set details of the proposed prescribed events and notification requirements below.</p>
+<h4>Mergers and acquisitions</h4>
+<p>We are proposing to prescribe mergers and acquisitions as a prescribed notifiable event. We will require firms to pre-notify us of mergers and acquisitions.</p>
+<h5>Why</h5>
+<p>A merger or acquisition can significantly change the profile of a firm and therefore its risk profile. Potential risk scenarios that might arise include:</p>
+<ul>
+<li>Risks around misconduct. In the extreme merger and acquisition activity might enable or help to conceal misconduct. For example, firms may acquire other firms to access large client account balances. And firms may adopt complex business and governance structures across a group that make it harder to spot illegitimate money transfers.</li>
+<li>Risks arising from business models or incentives that are misaligned with client interests. This may occur, for example, where firms expand into areas of law or adopt financing arrangements that incentivise high volumes of cases or rapid growth without sufficient regard to client outcomes. Or if expansion is otherwise built on an unsustainable business model. These dynamics can lead to reduced quality of legal advice, poor client outcomes, and, in some cases, financial instability that increases the risk of disorderly firm closure.</li>
+<li>Risks arising from poorly executed change or expansion beyond a firm&rsquo;s capacity and capability. This includes, for example, inadequate systems, governance or expertise to support entry into new practice areas, or ineffective integration following an acquisition. These issues can negatively affect the culture in a firm, compliance, and the effective management of client matters. The resulting harms may include delays, errors, and a deterioration in service quality, as well as an increased risk of disorderly closure where change places unsustainable strain on the business with insufficient controls.</li>
+</ul>
+<p>At the moment, we do not require notification that a merger or acquisition is happening. We do require that if a firm is closing as a result of merger or acquisition, they inform us of this within 28 days of completion in certain circumstances. This information is primarily gathered to help us to monitor the closing firm to make sure that client money and files are appropriately dealt with and to recalculate the acquiring firm's turnover based annual regulatory fee. If the merger or acquisition will result in new owners, managers orother role holders to be approved, we will also be made aware of the change at the point that these approvals are required.</p>
+<p>We do not currently have a requirement for firms to notify us of a likely merger or acquisition in advance. Nor do we ask for information for the purpose of forming a risk assessment related to the transaction.</p>
+<p>In the responses to our previous consultation, there was significant support for us having greater visibility of firms changing their profile as a result of mergers and acquisitions. Many respondents referenced the benefits of capturing additional, more timely information in this area, including through pre-notification of such activity.</p>
+<h5>When will we require notification?</h5>
+<p>We propose prescribing a merger or acquisition that is in contemplation and that has reached the Heads of Term or equivalent stage as a notifiable event.</p>
+<p>We are conscious that it is common for intended mergers and acquisitions not to proceed as discussions progress and due diligence is carried out. We want to target the notification requirements at transactions that are likely to happen. Therefore, we consider that the notifiable event should apply to mergers and acquisitions that have reached the Heads of Term or equivalent stage. The firms that we have engaged with have indicated that in most cases the acquiring firm or merging firms will be in a position to provide basic information that we will ask for at the notification stage to us at the Heads of Term or equivalent stage.</p>
+<p>However, we are also conscious that the period between Heads of Term or equivalent stage and completion of the merger or acquisition can be variable. We consider that it would be beneficial to be notified at least 30 days prior to the likely completion date for the merger or acquisition and as close to 30 days in advance as possible. These timescales will provide for a helpful forward look of what mergers and acquisition activity is happening in the market with up to date and accurate information about them. Therefore, we would be well positioned to identify any emerging patterns that may warrant additional focus.</p>
+<p>However, having requirements that specify a notification date in advance of an uncertain event, ie the completion of a merger or acquisition, is difficult. We would welcome views about whether we should also be looking to have a mechanism to provide for requiring notification information with the timescales indicated above and how we might achieve that while providing certainty for firms. This might for example involve linking the notification requirement to an additional point in the merger or acquisition process.</p>
+<p>We also appreciate that there will be circumstances where the merger and acquisition process will happen on very fast timescales. For example, where there is a quick sale of a firm that is unable to continue operating because, for instance, it is financially unable to do so. We welcome views on whether we should have different notification arrangements in these circumstances and what a practicable and appropriate arrangement might be.</p>
+<h5>Notification details</h5>
+<p>We propose that notification of the event will require the firm to provide us with certain specific information. This will be basic information about the merger or acquisition under contemplation and the parties involved. The information will also help us to see whether there are characteristics present that may be an indicator of risk.</p>
+<p>We propose that notification should include the following information:</p>
+<ul>
+<li>name of the acquiring and target firm</li>
+<li>turnover of the acquiring and target firm</li>
+<li>the value of client money held by the acquiring and target firms</li>
+<li>a breakdown of the areas of law practised by the acquiring and target firms</li>
+<li>expected completion date</li>
+<li>the number of acquisitions by the acquiring and target firm within the last 24 months, and whether this is the acquiring firm&rsquo;s first acquisition</li>
+<li>an indication of the structure after the proposed merger or acquisition ie whether it is likely to be:
+<ol type="a">
+<li>a single standalone firm (no parent, subsidiaries, or group)</li>
+<li>part of a simple group (one parent or a small number of related entities)</li>
+<li>part of a complex group (multiple entities, investors, or cross-business activities).</li>
+</ol>
+</li>
+</ul>
+<h5>What happens next</h5>
+<p>This is a notification, not an approval process.</p>
+<p>As stated earlier, the notification information that we will receive will help us track activity and changing patterns in the market. Over time, this will make us better able to identify market developments that may require pro-active regulatory action and/or engagement with other regulators and bodies if they indicate cross sector or wider public policy issues.</p>
+<p>The information will also provide us with an up to date view of the merger or acquisition under contemplation and the post transaction position at firm/transactional level. Having been notified of the prescribed event, we may engage with the relevant parties further and ask for additional information as appropriate.</p>
+<h5>Question 3</h5>
+<p>Do you agree with our proposal to prescribe as a notifiable event a merger or acquisition that is in contemplation and that has reached the Heads of Term or equivalent stage?</p>
+<h5>Question 4</h5>
+<p>Do you have any comments about whether it would be beneficial to be notified of a merger or acquisition at least 30 days prior to the merger and acquisition completing and how this might be achieved, given that completion is an uncertain event?</p>
+<h5>Question 5</h5>
+<p>Do you have any views on whether different arrangements are needed for requiring notification of mergers and acquisitions that will proceed and complete very quickly? Do you have any suggestions for a more appropriate arrangement in these circumstances?</p>
+<h5>Question 6</h5>
+<p>Do you agree with the specific information that firms will be required to provide in notifying us of the prescribed event?</p>
+<h4>Firms starting to hold and receive client money</h4>
+<p>We are proposing to prescribe a firm starting to hold or receive client money as a notifiable event. This would apply where a firm has not previously held client money, or where it reported in the most recent renewals period that it did not hold client money.</p>
+<p>Currently, firms are not explicitly required to notify us if they start to hold or receive client money until the next renewal period. This means that there is time in the interim for harm to potentially occur, and that we do not have an up-to-date picture of firms that hold client money.</p>
+<p>Given the incidence and impact of client money being lost or stolen, it is important that we know who is holding what amounts of client money. This has a significant bearing on a firm's risk profile. In the responses to our November 2024 consultation, a prevailing view was that risks to client money should be at the core of our regulatory focus.</p>
+<h5>When will we require notification?</h5>
+<p>We propose to require that a firm should notify us within 28 days of starting to receive or hold client money.</p>
+<h5>Notification details</h5>
+<p>We propose to require that the firm:</p>
+<ul>
+<li>informs us of the date that it began to receive or hold client money</li>
+<li>informs us of the amount that it is holding at the point of notification and</li>
+<li>confirms that it is operating a client account as required in compliance with our Accounts Rules.</li>
+</ul>
+<h5>What happens next</h5>
+<p>The information will provide us with an up to date view of firms holding client money. Having been notified of the prescribed event, we may engage with the firm further and ask for additional information as appropriate.</p>
+<h5>Question 7</h5>
+<p>Do you agree with our proposal around holding client money as a notifiable event?</p>
+<h5>Question 8</h5>
+<p>Do you agree with our proposal that firms should notify us of the prescribed event within 28 days of starting to receive or hold client money?</p>
+<h5>Question 9</h5>
+<p>Do you agree with our proposal to require that the firm:</p>
+<ul>
+<li>informs us of the date that it began to receive or hold client money</li>
+<li>informs us of the amount that is is holding at the point of notification and</li>
+<li>confirms that it is operating a client account as required in compliance with our Accounts Rules?</li>
+</ul>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_7f72">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_7f72" aria-expanded="true" aria-controls="collapse_7f72" class="collapsed">
+                          <span>Equalities Impact Assessment </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_7f72" class="panel-collapse" role="tabpanel" aria-labelledby="heading_7f72">
+                  <div class="panel-body">
+
+
+
+          
+<p>We have provided an initial <a href="#download">Equalities Impact Assessment</a> of these proposals alongside this document.</p>
+<h4>Question 10</h4>
+<p>Do you agree with the assumptions about and assessment of potential equality, diversity and inclusion considerations in our initial impact assessment?</p>
+<h4>Question 11</h4>
+<p>Are there any other factors or impacts on particular groups that we should consider or any other evidence sources that we should be considering?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_a701">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_a701" aria-expanded="true" aria-controls="collapse_a701" class="collapsed">
+                          <span>Consultation questions </span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_a701" class="panel-collapse" role="tabpanel" aria-labelledby="heading_a701">
+                  <div class="panel-body">
+
+
+
+          
+<p>We are keen to hear your views on our proposals. An uninterrupted list of our questions is below.</p>
+<h4>Question 1</h4>
+<p>Do you agree with our proposal to create a specific rule that firms must notify us of 'prescribed events' and our approach to prescribing events?</p>
+<h4>Question 2</h4>
+<p>Do you agree that it is appropriate to have the option of applying the fixed financial penalties regime in the first instance where a firm does not comply with our notification requirements?</p>
+<h4>Question 3</h4>
+<p>Do you agree with our proposal to prescribe as a notifiable event a merger or acquisition that is in contemplation and that has reached the Heads of Term or equivalent stage?</p>
+<h4>Question 4</h4>
+<p>Do you have any comments about whether it would be beneficial to be notified of a merger or acquisition at least 30 days prior to the merger and acquisition completing and how this might be achieved, given that completion is an uncertain event?</p>
+<h4>Question 5</h4>
+<p>Do you have any views on whether different arrangements are needed for requiring notification of mergers and acquisitions that will proceed and complete very quickly? Do you have any suggestions for a more appropriate arrangement in these circumstances?</p>
+<h4>Question 6</h4>
+<p>Do you agree with the specific information that firms will be required to provide in notifying us of the prescribed event?</p>
+<h4>Question 7</h4>
+<p>Do you agree with our proposal around holding client money as a notifiable event?</p>
+<h4>Question 8</h4>
+<p>Do you agree with our proposal that firms should notify us of the prescribed event within 28 days of starting to receive or hold client money?</p>
+<h4>Question 9</h4>
+<p>Do you agree with our proposal to require that the firm:</p>
+<ul>
+<li>informs us of the date that it began to receive or hold client money</li>
+<li>informs us of the amount that it is holding at the point of notification and</li>
+<li>confirms that it is operating a client account as required in compliance with our Accounts Rules?</li>
+</ul>
+<h4>Question 10</h4>
+<p>Do you agree with the assumptions about and assessment of potential equality, diversity and inclusion considerations in our initial impact assessment?</p>
+<h4>Question 11</h4>
+<p>Are there any other factors or impacts on particular groups that we should consider or any other evidence sources that we should be considering?</p>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2 id="download">Downloads</h2>
+
+
+
+
+    <ul class="documents-list">
+            <li><a href="/globalassets/documents/sra/consultations/2026/client-money-in-legal-services-notifying-the-sra-of-changes-to-help-identify-and-act-on-risks/consultation-client-money-help-identify-risks.pdf">Consultation &#x2013; Client money in legal services: Notifying the SRA of changes to help identify and act on risks (PDF 17 pages, 376KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/client-money-in-legal-services-notifying-the-sra-of-changes-to-help-identify-and-act-on-risks/initial-equality-impact-assessment-help-identify-risks.pdf">Initial Equality Impact Assessment &#x2013; Client money in legal services: Notifying the SRA of changes to help identify and act on risks (PDF 8 pages, 239KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/client-money-in-legal-services-notifying-the-sra-of-changes-to-help-identify-and-act-on-risks/draft-sra-code-of-conduct-for-firms.pdf">Draft SRA Code of Conduct for Firms (PDF 1 page, 117KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/client-money-in-legal-services-notifying-the-sra-of-changes-to-help-identify-and-act-on-risks/draft-sra-regulatory-and-disciplinary-procedure-rules.pdf">Draft SRA Regulatory and Disciplinary Procedure Rules (PDF 2 pages, 133KB)</a></li>
+    </ul>
+
+<div class="index-nav">
+    <p><a href='/sra/consultations/consultations-closed/' class='back-to-index'>Back to closed consultations</a></p>
+</div>
+</article>
+
+
+
+<aside class="col-md-4">
+
+            <div class="sidebar sidebar-links">
+                <div class="links-icon">
+                    <a href="#" class="printPageLink">
+                        <i class="icon icon-printer" aria-hidden="true"></i>Print this page
+                    </a>
+                    <a href="/pdfcentre/?type=Id&amp;data=416009516" rel="nofollow">
+                        <i class="icon icon-file" aria-hidden="true"></i>Save as PDF
+                    </a>
+                </div>
+            </div>
+
+    
+    
+
+
+   
+    
+
+</aside>
+                </div>
+
+            <!-- page link text -->
+            <!-- page link text end -->
+        </section>
+
+        <!-- Scroll to top -->
+        <div class="footer-links container-fluid">
+            <a href="#mainContent" class="btn btn-secondary btn-sm back-top">
+                <i class="icon icon-chevron-up">
+                </i>Top
+            </a>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+
+
+    <footer class="footer-wrapper" id="Footer">
+        <div class="footer-links">
+            <div class="container footer">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>News</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/news/news/">News releases and statements</a></li>
+            <li><a href="/news/sra-update/">SRA Update</a></li>
+            <li><a href="/news/sqe-update/">SQE Update</a></li>
+            <li><a href="/news/blogs/">Blogs and articles</a></li>
+            <li><a href="/news/lawtech-insight/">Lawtech Insight</a></li>
+            <li><a href="/news/events/">Events and speakers</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For law professionals</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></li>
+            <li><a href="/solicitors/guidance/">Guidance</a></li>
+            <li><a href="/solicitors/resources/">Resources</a></li>
+            <li><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></li>
+            <li><a href="/solicitors/certificates/">Good standing and certificates</a></li>
+            <li><a href="/solicitors/enforcement/">Investigation and enforcement</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For the public</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/consumers/who-we-are/">Who we are</a></li>
+            <li><a href="/consumers/register/">Solicitors Register</a></li>
+            <li><a href="/consumers/choosing/">Choosing a solicitor</a></li>
+            <li><a href="/consumers/instructing/">Instructing a solicitor</a></li>
+            <li><a href="/consumers/problems/">Problems with a solicitor</a></li>
+            <li><a href="/consumers/compensation-fund/">Compensation fund</a></li>
+            <li><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></li>
+            <li><a href="/consumers/scam-alerts/">Scam alerts</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>Becoming a solicitor</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></li>
+            <li><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></li>
+            <li><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></li>
+            <li><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></li>
+            <li><a href="/become-solicitor/admission/">Admission</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>About us</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/sra/how-we-work/">How we work</a></li>
+            <li><a href="/sra/consultations/">Consultations</a></li>
+            <li><a href="/sra/research-publications/">Research and publications</a></li>
+            <li><a href="/sra/equality-diversity/">Equality and diversity</a></li>
+            <li><a href="/sra/corporate-strategy/">Strategy</a></li>
+            <li><a href="/sra/policy/">Regulation and Education policy</a></li>
+            <li><a href="/sra/decision-making/">Decision making</a></li>
+            <li><a href="/sra/complaints-service/">Complaints about our service</a></li>
+            <li><a href="/sra/jobs/">Jobs</a></li>
+    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-darker clearfix">
+            <div class="container d-sm-flex">
+                <div class="col-sm-9">
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/transparency/">Freedom of information</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/publication/">Copyright</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/privacy-notice/">Privacy</a>
+                            <a class="btn btn-link btn-sm" href="/sra/accessibility/">Accessibility</a>
+                            <a class="btn btn-link btn-sm" href="/home/contact-us/">Contact us</a>
+                            <a class="btn btn-link btn-sm" href="/sra/contact-us/difficulties-english/">Difficulties with English?</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/terms-conditions-service/">Terms of service</a>
+                            <a class="btn btn-link btn-sm" href="/home/accreditations/">Accreditations</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/modern-day-slavery-statement/">Modern day slavery statement</a>
+                            <a class="btn btn-link btn-sm" href="/sra/legal-notice/">Legal notice</a>
+                            <a class="btn btn-link btn-sm" href="/sra/jobs/">Jobs at the SRA</a>
+
+                </div>
+                <div class="col-sm-3 social-links">
+                            <a class="btn btn-link btn-sm" href="https://www.facebook.com/srasolicitors/" target="_self">
+            <span class="visually-hidden">Visit the SRA Facebook page</span>
+            <i class="social-icon fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://x.com/sra_solicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA Twitter page</span>
+            <i class="social-icon fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.youtube.com/user/SRAsolicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA YouTube channel</span>
+            <i class="social-icon fa-brands fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.linkedin.com/company/solicitors-regulation-authority" target="_self">
+            <span class="visually-hidden">Visit the SRA LinkedIn page</span>
+            <i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        if (window.requestAnimationFrame) {
+            window.lpTag = window.lpTag || {}; if (typeof window.lpTag._tagCount === 'undefined') { window.lpTag = { site: '9467814' || '', section: lpTag.section || '', autoStart: lpTag.autoStart === false ? false : true, ovr: lpTag.ovr || {}, _v: '1.5.1', _tagCount: 1, protocol: location.protocol, events: { bind: function (app, ev, fn) { lpTag.defer(function () { lpTag.events.bind(app, ev, fn); }, 0); }, trigger: function (app, ev, json) { lpTag.defer(function () { lpTag.events.trigger(app, ev, json); }, 1); } }, defer: function (fn, fnType) { if (fnType == 0) { this._defB = this._defB || []; this._defB.push(fn); } else if (fnType == 1) { this._defT = this._defT || []; this._defT.push(fn); } else { this._defL = this._defL || []; this._defL.push(fn); } }, load: function (src, chr, id) { var t = this; setTimeout(function () { t._load(src, chr, id); }, 0); }, _load: function (src, chr, id) { var url = src; if (!src) { url = this.protocol + '//' + ((this.ovr && this.ovr.domain) ? this.ovr.domain : 'lptag.liveperson.net') + '/tag/tag.js?site=' + this.site; } var s = document.createElement('script'); s.setAttribute('charset', chr ? chr : 'UTF-8'); if (id) { s.setAttribute('id', id); } s.setAttribute('src', url); document.getElementsByTagName('head').item(0).appendChild(s); }, init: function () { this._timing = this._timing || {}; this._timing.start = (new Date()).getTime(); var that = this; if (window.attachEvent) { window.attachEvent('onload', function () { that._domReady('domReady'); }); } else { window.addEventListener('DOMContentLoaded', function () { that._domReady('contReady'); }, false); window.addEventListener('load', function () { that._domReady('domReady'); }, false); } if (typeof (window._lptStop) == 'undefined') { this.load(); } }, start: function () { this.autoStart = true; }, _domReady: function (n) { if (!this.isDom) { this.isDom = true; this.events.trigger('LPT', 'DOM_READY', { t: n }); } this._timing[n] = (new Date()).getTime(); }, vars: lpTag.vars || [], dbs: lpTag.dbs || [], ctn: lpTag.ctn || [], sdes: lpTag.sdes || [], ev: lpTag.ev || [] }; lpTag.init(); } else { window.lpTag._tagCount += 1; }
+        }
+        else {
+            console.log('Upgrade your browser to access web chat');
+        }
+    </script>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    
+    
+
+
+    <!--   Page Feedback Element      -->
+ <script type="text/javascript" src="/Static/build/js/megamenu.js"></script>
+    <script src="/static/build/js/main.js" type="module"></script>
+</body>
+
+</html>

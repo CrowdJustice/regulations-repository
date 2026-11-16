@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+	<meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><style>
+    .cke_wysiwyg_frame, .cke_wysiwyg_div {
+      padding: 10px !important;
+    }
+    .cke_editable {
+      padding: 10px !important;
+    }
+    .cke_editable_content {
+      padding: 10px !important;
+    }
+    .cke_editable[contenteditable="true"] {
+      padding: 10px !important;
+    }
+  </style>
+<meta name="description" content="Commissioner’s message One of the things I often reflect on in my role is how much the integrity of our legal system depends on the everyday decisions lawyers" />
+<link rel="canonical" href="https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="info" content="Commissioner’s message One of the things I often reflect on in my role is how much the integrity of our legal system depends on the everyday decisions lawyers" class="swiftype" data-type="string" />
+<meta name="title" class="swiftype" data-type="string" content="Commissioner Update - June 2026" />
+<meta name="body" class="swiftype" data-type="text" content="Commissioner’s message
+
+One of the things I often reflect on in my role is how much the integrity of our legal system depends on the everyday decisions lawyers make – and on the support they receive to make those decisions well. " />
+<meta name="audience" content="Lawyers" />
+<link rel="icon" href="/themes/vlsbc/favicon.ico" type="image/vnd.microsoft.icon" />
+
+	<title>Commissioner Update - June 2026 | VLSB+C</title>
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Ucm6VOeRfv2GC4Nho7TYyKKhMJ_LIpWioQH2H8Icw_I.css?delta=0&amp;language=en&amp;theme=vlsbc&amp;include=eJx1isEOg0AIBX9ou_tNoEhIYDF9pMa_b0x7M15mDjM0yzhr0M99y3c0nCiJwQRpHwcvQz2Z_IU63aa2Q_gax999ydgTVnIr4hIyq69SZI5eqerPWwhA-txzL8uJW7_wBX-8TyM" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ixEsbKRAeFqISKMvMMHWaex9Z3TrQy7CoQZ22BTFHIo.css?delta=1&amp;language=en&amp;theme=vlsbc&amp;include=eJx1isEOg0AIBX9ou_tNoEhIYDF9pMa_b0x7M15mDjM0yzhr0M99y3c0nCiJwQRpHwcvQz2Z_IU63aa2Q_gax999ydgTVnIr4hIyq69SZI5eqerPWwhA-txzL8uJW7_wBX-8TyM" />
+
+  <script src="https://www.google.com/jsapi"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MT88M79');</script>
+    <!-- End Google Tag Manager -->
+<script type="text/javascript" src="//www.browsealoud.com/plus/scripts/ba.js"></script>
+</head>
+<body  class="node-1291 page-node-type-news-article">
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1291","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"webform":{"xss":{"allowedTags":["a","abbr","acronym","address","article","aside","b","bdi","bdo","big","blockquote","br","caption","cite","code","col","colgroup","command","dd","del","details","dfn","div","dl","dt","em","figcaption","figure","footer","h1","h2","h3","h4","h5","h6","header","hgroup","hr","i","img","ins","kbd","li","mark","menu","meter","nav","ol","output","p","pre","progress","q","rp","rt","ruby","s","samp","section","small","span","strong","sub","summary","sup","table","tbody","td","tfoot","th","thead","time","tr","tt","u","ul","var","wbr","label","fieldset","legend","font"]}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"antibot":{"forms":{"webform-submission-was-this-page-helpful-node-1291-add-form":{"id":"webform-submission-was-this-page-helpful-node-1291-add-form","key":"oOOxFln4pcTTlYc0Tjwd1Yu2se57bIuuQcMdt1xtk4A"}}},"user":{"uid":0,"permissionsHash":"136066ba19e8a7fa2dd293a469a8dc0603a999dcacff5e9e3ff9a2492857ee84"}}</script>
+<script src="/sites/default/files/js/js_AVSW4PdvqJ1tZUQOKIr4YscTnCzN6VVr4IuH_9ccfTY.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=vlsbc&amp;include=eJyFjEEOgCAMBD-E8KaClTQplNAGv2-IejLqZSfZ2SxUoygW4KTfpBc3WGMKmSUCL5o6NdO7FMmMbsc4l-GiR8aC1fyKBsTqFcb_yCR_fRVUhfzupRlJ1YefcQAnJlOA"></script>
+
+	<noscript data-swiftype-index='false'><div>Javascript must be enabled for the correct page display</div></noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT88M79"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<a class="js-smooth-scroll sr-only sr-only-focusable" href="#main" accesskey="s" data-swiftype-index='false'>Skip to Content</a>
+	<div id="wrapper">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="wrapper">
+  <header id="header" class="header bg-white d-flex justify-content-between" data-swiftype-index='false'>
+	<div class="header-wrapper position-relative d-flex justify-content-between align-items-center p-25  px-md-35 py-lg-20 px-lg-25">
+		<a class="navbar-brand p-0 m-0 ml-45 ml-md-50 ml-xl-0" href="/"><img class="img-fluid" src="/themes/vlsbc/images/logo.png" height="43" width="241" alt="victorian Legal Services Board commissioner"></a>
+		<a href="#" class="js-nav-opener nav-opener d-xl-none d-print-none">
+			<span class="bar"></span>
+			<span class="sr-only">opener</span>
+		</a>
+		<nav class="navigation d-xl-flex flex-xl-nowrap justify-content-md-end d-print-none">
+			<div class="navbar-holder d-flex flex-column flex-xl-row justify-content-xl-end">
+				  
+    
+    
+  
+        
+              <ul class="navbar-nav flex-xl-row flex-xl-nowrap">
+        		  		 		  
+		 
+     	 <li  class="navbar-item menu-item--expanded has-drop-down"><a href="/lawyers" class="sub-level-opener has-drop-down-a" data-drupal-link-system-path="node/63">For Lawyers</a>
+                                        <span class="drop-opener"></span>        
+        <ul class="menu-drop">
+              		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/new-lawyers" data-drupal-link-system-path="node/11">New lawyers</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/practising-law" data-drupal-link-system-path="node/64">Practising law</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/complaints" data-drupal-link-system-path="node/60">Complaints</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/trust-accounts" data-drupal-link-system-path="node/48">Trust accounts</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/legal-costs" data-drupal-link-system-path="node/43">Legal costs</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/risk-outlook" data-drupal-link-system-path="node/1002">Risk Outlook</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/lawyers/resources-lawyers" title="Information for lawyers such as forms, fact sheets and policies" data-drupal-link-system-path="node/441">Forms and resources</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/lawyers/lsb-online-resources" data-drupal-link-system-path="node/685">LSB Online Resources</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/lawyers/lawyer-enquiry-form" class="btn btn-light" data-drupal-link-system-path="node/419">Enquire now</a>
+              </li>
+        </ul>
+          
+              </li>
+    		  		 		  
+		 
+     	 <li  class="navbar-item menu-item--expanded has-drop-down"><a href="/consumers" class="sub-level-opener has-drop-down-a" data-drupal-link-system-path="node/95">For Consumers</a>
+                                        <span class="drop-opener"></span>        
+        <ul class="menu-drop">
+              		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/ask-your-lawyer" data-drupal-link-system-path="node/877">Ask your lawyer</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/registers" data-drupal-link-system-path="node/114">Registers of lawyers</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/how-we-can-help" data-drupal-link-system-path="node/69">How we can help</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/consumers/our-enquiry-and-complaint-process" data-drupal-link-system-path="node/776">Our enquiry and complaint process</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/consumers/consumer-enquiry-form" data-drupal-link-system-path="node/667">Consumer enquiry form</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/complaints" data-drupal-link-system-path="node/89">Complaints</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/legal-costs-and-billing" data-drupal-link-system-path="node/805">Legal costs and billing</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/consumers/choosing-and-working-your-lawyer" data-drupal-link-system-path="node/413">Choosing and working with your lawyer</a>
+              </li>
+        </ul>
+          
+              </li>
+    		  		 		  
+		 
+     	 <li  class="navbar-item menu-item--expanded has-drop-down"><a href="/grants-and-funding" class="sub-level-opener has-drop-down-a" data-drupal-link-system-path="node/103">Grants and funding</a>
+                                        <span class="drop-opener"></span>        
+        <ul class="menu-drop">
+              		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/grants-and-funding/public-purpose-fund" data-drupal-link-system-path="node/97">Public Purpose Fund</a>
+              </li>
+    		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/grants-and-funding/grants" data-drupal-link-system-path="node/675">Grants</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/resources/sponsorships" data-drupal-link-system-path="node/752">Sponsorships</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/grants-and-funding/grants-enewsletter" data-drupal-link-system-path="node/1183">Grants enewsletter</a>
+              </li>
+        </ul>
+          
+              </li>
+    		  		 		  
+		 
+     	 <li  class="navbar-item menu-item--expanded has-drop-down"><a href="/about-us" class="sub-level-opener has-drop-down-a" data-drupal-link-system-path="node/115">About us</a>
+                                        <span class="drop-opener"></span>        
+        <ul class="menu-drop">
+              		  		 
+     	<li class="navbar-item menu-item--collapsed"><a href="/about-us/board-and-commissioner" data-drupal-link-system-path="node/431">Board and Commissioner</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/about-us/our-service-charter" data-drupal-link-system-path="node/988">Our Service Charter</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/news-updates" data-drupal-link-system-path="news-updates">News and Updates</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/about-us/publications" data-drupal-link-system-path="publications">Publications</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/about-us/research" data-drupal-link-system-path="node/997">Research</a>
+              </li>
+    		  		 
+     	<li class="navbar-item"><a href="/about-us/join-us" data-drupal-link-system-path="node/768">Join us</a>
+              </li>
+        </ul>
+          
+              </li>
+    		  		 		  
+		 
+     	<li class="navbar-item"><a href="/contact-us" data-drupal-link-system-path="node/187">Contact us</a>
+              </li>
+    		  		 		  
+		 
+     	<li class="navbar-item"><a href="/research-centre" target="_blank" title="Research Centre" data-drupal-link-system-path="node/1128">Research Centre</a>
+              </li>
+        </ul>
+      
+
+
+  
+  
+
+				<a href="#" class="js-nav-opener nav-opener d-xl-none">
+					<span class="bar"></span>
+					<span class="text">Close</span>
+				</a>
+			</div>
+		</nav>
+		
+	</div>
+	<div class="secondary-header-wrapper position-relative  d-flex align-items-stretch text-center">
+		<div class="d-flex align-items-stretch">
+			<a class="translate d-flex align-items-center" href="javascript:;" onclick="BrowseAloud.panel.toggleBar(true,event);return false;">Translate</a>
+			<a class="login d-flex align-items-center" href="https://lsbc.vic.gov.au/lsb-online">LSB Online login</a>
+			<a href="#" class="js-search-opener search-opener d-print-none  d-flex align-items-center" accesskey="4"><span class="d-none d-md-inline-block align-top mr-12">Search</span><span class="icon-search d-inline-block align-top mt-md-2"></span></a>
+		</div>
+		<div class="search-wrapper bg-primary text-white position-fixed d-print-none">
+			
+			<form class="search-form" action="/search/node#" method="get">
+				<h1 class="h2">Search</h1>
+				<div class="form-group position-relative mb-30 mb-md-25 mb-lg-30">
+					<label for="search" class="sr-only white-font">search</label>
+					<input type="search" name="query" class="form-control" placeholder="E.g. Consumer Rights" id="search" value=""/>
+					<button type="submit" class="position-absolute text-white border-0 p-10"><span class="sr-only">search button</span><span class="icon-search"></span></button>
+				</div>
+				<div class="radion-holder d-sm-flex flex-sm-wrap mx-sm-n60 mx-lg-n65">
+					<div class="custom-radio mb-10 mx-sm-60 mb-md-15 mx-lg-65">
+						<input type="radio" name="radio" id="radio3" checked="checked" value="/search/node">
+						<label for="radio3">Whole site</label>
+					</div>
+					<div class="custom-radio mb-10 mx-sm-60 mb-md-15 mx-lg-65">
+						<input type="radio" name="radio" id="radio4" value="/register-of-lawyers">
+						<label for="radio4">Register of lawyers</label>
+					</div>
+				</div>
+			</form>
+			<a href="#" class="js-search-opener nav-opener position-absolute">
+				<span class="text">Close</span>
+			</a>
+		</div>
+		</div>
+</header>
+  <main id="main">
+    <div class="subpage_banner">
+		<div class="container d-flex align-items-center d-print-block">
+			<div class="row flex-grow-1">
+			<div class="col-md-8">
+							  
+    
+    <nav aria-label="breadcrumb">
+	<span class="sr-only">
+	You are here:
+	</span>
+
+    <ul class="breadcrumb mb-9 mb-md-2 d-print-none">
+          <li class="breadcrumb-item ">
+                  <a href="/">Home</a>
+              </li>
+          <li class="breadcrumb-item ">
+                  <a href="/news-updates">News &amp; Updates</a>
+              </li>
+          <li class="breadcrumb-item ">
+                  <a href="/news-updates/news">News</a>
+              </li>
+        </ul>
+</nav>
+
+
+  
+
+					
+                
+    
+    
+              <h1 data-swiftype-index='false'>Commissioner Update - June 2026</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-stretch position-absolute d-none d-lg-block d-print-none">
+        <span data-srcset="/sites/default/files/2026-05/Website%20news%20templates-15-FEATURED%20IMAGE-%20top%20of%20news%20and%20media%20%28606x220%29.png, /sites/default/files/2026-05/Website%20news%20templates-15-FEATURED%20IMAGE-%20top%20of%20news%20and%20media%20%28606x220%29.png 2x"></span>
+      </div>
+    </div>
+			<div class="two-columns pb-40 pb-lg-45">
+				<div class="container">
+					<div class="row mb-30 mb-md-15 mb-lg-0">
+						<div class="col-lg-8">
+							<div class="content pt-55 pt-lg-50 pb-15 pb-md-3">
+																	<nav aria-label="On this page" class="d-none">
+										<span class="on-this-page title d-block mb-7" data-swiftype-index='false'>On this page</span>
+										<div class="link-holder pb-20" data-inpage-navigation>
+																					</div>
+									</nav>
+								
+																	<h5>01 June 2026</h5>
+								
+								<div class="on-this-page-content">
+									<div class="body-content">
+										
+      <h2>Commissioner’s message</h2>
+
+<p>One of the things I often reflect on in my role is how much the integrity of our legal system depends on the everyday decisions lawyers make – and on the support they receive to make those decisions well.&nbsp;</p>
+
+<p>I’m&nbsp;mindful that many of you are currently applying to renew your&nbsp;practising&nbsp;certificates. Although this process can feel routine, it does play&nbsp;an important role&nbsp;in protecting the integrity of the profession.&nbsp;It’s&nbsp;a reminder of the trust your clients place in you to be honest,&nbsp;ethical&nbsp;and accountable, and of your role in upholding the rule of law.&nbsp;</p>
+
+<p>In our&nbsp;<a href="https://lsbc.vic.gov.au/lawyers/risk-outlook/risk-outlook-2026" rel="noreferrer noopener" target="_blank" title="Risk Outlook 2026 | VLSB+C">Risk Outlook 2026</a>, we&nbsp;highlight inadequate supervision as a significant risk, particularly for early career lawyers. Good supervision is not&nbsp;transactional;&nbsp;it&nbsp;isn’t&nbsp;just about&nbsp;ensuring&nbsp;tasks are done on time and to the correct&nbsp;standard.&nbsp;At its core,&nbsp;good supervision also encompasses&nbsp;care and responsibility – taking the time to guide, support and share knowledge.&nbsp;</p>
+
+<p>When supervision is clear and consistent, early career lawyers are more confident,&nbsp;and it helps&nbsp;improve&nbsp;ethical&nbsp;decision-making,&nbsp;supporting&nbsp;lawyers to become more knowledgeable&nbsp;and better equipped to serve their clients. When it&nbsp;isn’t, the impacts can be serious&nbsp;and&nbsp;adversely effect everyone involved&nbsp;– for lawyers’ wellbeing, for clients and for trust in the profession.&nbsp;That’s&nbsp;why I encourage principals, supervisors, and early career lawyers to engage with our practical tools, which you can access below.&nbsp;</p>
+
+<p>We also&nbsp;recognise&nbsp;in&nbsp;the&nbsp;Risk Outlook&nbsp;2026&nbsp;the complex environment that in-house&nbsp;lawyers&nbsp;(corporate lawyers)&nbsp;operate&nbsp;in&nbsp;and&nbsp;that a key pressure for&nbsp;corporate&nbsp;lawyers is managing employer expectations in a way that is consistent with their professional and ethical obligations.&nbsp;While these roles are rewarding, they also&nbsp;come&nbsp;with unique ethical challenges. I encourage you to access our newly designed resources for supporting ethical and effective in-house practice for corporate lawyers, their employers, and lawyers considering a move in-house. You can access these&nbsp;below.</p>
+
+<p>Following&nbsp;this year’s Lawyer Census,&nbsp;I&nbsp;wish to thank&nbsp;everyone who took the time to respond.&nbsp;Your responses&nbsp;provide&nbsp;valuable insights into the issues shaping legal practice in Victoria – from client needs and technology, through to wellbeing, workplace&nbsp;conditions&nbsp;and professional boundaries. When lawyers share their experiences, we can more effectively target policies and resources to support the profession in a rapidly changing environment, track progress over time, and&nbsp;ultimately improve&nbsp;the experience of both lawyers and their clients.&nbsp;</p>
+
+<p>I am pleased to acknowledge the&nbsp;<a href="https://lsbc.vic.gov.au/news-updates/news/sam-hay-kc-appointed-justice-supreme-court-victoria" rel="noreferrer noopener" target="_blank" title="Sam Hay KC appointed as Justice of the Supreme Court of Victoria | VLSB+C">appointment of our former Board Chair&nbsp;Sam Hay KC</a>&nbsp;as a Justice of the Supreme Court of Victoria. Justice Hay’s appointment in late-April reflects his outstanding career at the Bar, and his deep commitment to the administration of justice.&nbsp;We warmly congratulate Sam on his appointment and acknowledge his contribution to our&nbsp;Board.&nbsp;</p>
+
+<p>Finally, I’m excited&nbsp;to share with you our Innovate Reconciliation Action Plan. This is an important milestone for us as we&nbsp;continue to&nbsp;build awareness and&nbsp;First Peoples cultural capability inside and outside our organisation.&nbsp;During Reconciliation&nbsp;Week (27 May to 3 June) we wholeheartedly&nbsp;commit to being ‘All In’ and&nbsp;proudly&nbsp;reiterate our&nbsp;commitment&nbsp;to reconciliation, improving systems,&nbsp;and access to justice&nbsp;with and for First Peoples.&nbsp;</p>
+
+<p><b>Fiona McLeay&nbsp;<br>
+Board&nbsp;CEO and Commissioner&nbsp;</b></p>
+  
+									</div>
+									
+							
+									                                <div class="paragraph-description">
+            <h2>Why kindness matters for early career lawyers and their supervisors</h2>
+
+<p>We&nbsp;invite you to ‘Why kindness matters for early career lawyers and their supervisors’,&nbsp;a CPD&nbsp;webinar&nbsp;with Dr Nicki Macklin,&nbsp;researcher, advisor, and speaker focused on the human side of organisational performance.</p>
+
+<p><a href="https://lsbc.vic.gov.au/research-centre/news/tired-unhealthy-workplaces-uncivil-behaviours-legal-profession" rel="noreferrer noopener" target="_blank" title="‘Tired of unhealthy workplaces’: uncivil behaviours in the legal profession | VLSB+C">Recent findings</a>&nbsp;from the Legal Services Research Centre show that while uncivil behaviour is common across the Victorian legal profession, young and emerging lawyers experience higher rates of workplace incivility.&nbsp;</p>
+
+<p>As part of our ongoing support for early career lawyers and their supervisors,&nbsp;we’re&nbsp;offering this free, CPD-approved&nbsp;webinar, where&nbsp;Nicki will share her research on kindness as a form of social capital and a lever for performance and quality improvement.&nbsp;She’ll&nbsp;also provide practical tips for weaving kindness into the fabric of the supervisor/supervisee relationship, in ways that improve wellbeing and legal practise.</p>
+
+<p>Kerri-anne&nbsp;Millard, our Executive Director of Policy and Outreach, will join&nbsp;Nicki to share&nbsp;<a href="https://lsbc.vic.gov.au/resources/early-career-lawyer-capability-framework" rel="noreferrer noopener" target="_blank" title="Early Career Lawyer Capability Framework | VLSB+C">evidence-based guidance</a>&nbsp;developed by us to support early career lawyers and their supervisors to get the most out of supervised legal practise.</p>
+
+<p>We invite you to share this invitation with the early career lawyers and supervisors in your organisation and professional networks.</p>
+
+<p>When:&nbsp;Tuesday 9 June 2026,&nbsp;12.30pm&nbsp;– 1.30pm<br />
+Where: online, link will be provided ahead of event&nbsp;</p>
+
+<p><a class="newbtn readmore-btn" href="https://events.humanitix.com/kindness-early-career-lawyers" rel="noreferrer noopener" target="_blank" title="VLSB+C Webinar - Why kindness matters for early career lawyers and their supervisors">Register now via&nbsp;Humanitix</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Guidance to support ethical and effective in-house practice</h2>
+
+<p>More Victorian lawyers are choosing to work in‑house as corporate lawyers, with organisations increasingly relying on internal legal teams to manage legal risk and support good decision‑making. In‑house roles can be rewarding and influential, but they also raise distinct professional and ethical challenges.&nbsp;Recent royal commissions and parliamentary inquiries have also drawn attention to the role of&nbsp;in‑house&nbsp;lawyers in organisations facing allegations of wrongdoing, including issues around professional independence and the use of legal privilege.&nbsp;<br />
+<br />
+In the&nbsp;<a href="https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2026" rel="noreferrer noopener" target="_blank" title="Commissioner Update - March 2026 | VLSB+C">March Commissioner Update</a>,&nbsp;we shared new resources for corporate lawyers in a web-friendly format. We did this alongside the&nbsp;<a href="https://lsbc.vic.gov.au/lawyers/risk-outlook/risk-outlook-2026" rel="noreferrer noopener" target="_blank" title="Risk Outlook 2026 | VLSB+C">Risk Outlook 2026</a>, which highlights corporate legal practice as an emerging area of focus.&nbsp;We’ve&nbsp;since developed downloadable versions of these resources so corporate lawyers can use them&nbsp;practically in&nbsp;their&nbsp;day‑to‑day&nbsp;role.&nbsp;&nbsp;<br />
+<br />
+Access our newly designed resources, which are aimed at supporting ethical and effective corporate practice:&nbsp;</p>
+
+<ul>
+	<li><b>Corporate Lawyers: Core Expectations</b><br />
+	This resource sets out what professional and ethical practice looks like for corporate lawyers. It covers fundamental duties, professional independence,&nbsp;identifying&nbsp;who your client is, managing conflicts, access to senior&nbsp;decision‑makers, and the importance of supervision,&nbsp;mentoring&nbsp;and ongoing professional development.&nbsp;</li>
+</ul>
+
+<ul>
+	<li><b>Corporate Lawyers: A Guide for Employers</b><br />
+	This resource explains employers’ responsibilities, what they can and cannot expect from&nbsp;their&nbsp;in‑house lawyers, and how to support independent, ethical legal advice within their organisation.&nbsp;</li>
+</ul>
+
+<ul>
+	<li><b>A Guide&nbsp;for Prospective Corporate Lawyers</b>&nbsp;<br />
+	This resource helps lawyers considering a move in‑house to understand the role, undertake due diligence, and assess culture,&nbsp;support&nbsp;and supervision before accepting a position.&nbsp;</li>
+</ul>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/lawyers/practising-law/corporate-house-lawyers-0" rel="noreferrer noopener" target="_blank" title="Corporate in-house lawyers | VLSB+C">Find&nbsp;out more about these resources</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Supporting early career lawyers</h2>
+
+<p>At the Law Institute of Victoria’s Legal Career Pathways event in April, we enjoyed speaking with the bright and enthusiastic law students who attended. We took the opportunity to share our practical resources designed to support effective supervision of early career lawyers.&nbsp;&nbsp;</p>
+
+<p>Our <a href="https://lsbc.vic.gov.au/lawyers/risk-outlook/risk-outlook-2026" rel="noreferrer noopener" target="_blank" title="Risk Outlook 2026 | VLSB+C">Risk Outlook 2026</a> highlights why this matters&nbsp;– inadequate supervision is a significant risk for law practices, with serious consequences not just for supervisees, but for clients, lawyers, the law practice and the broader justice system. </p>
+
+<p>Supervision of early career lawyers is an important regulatory requirement. It supports the development of the foundational skills&nbsp;required&nbsp;for independent practice so emerging lawyers can practise safely, ethically and confidently.&nbsp;&nbsp;<br />
+<br />
+Supervision also requires guidance and oversight, setting clear expectations, and providing meaningful feedback.&nbsp;&nbsp;<br />
+<br />
+Inadequate supervision – such as limited guidance and oversight or providing files well beyond the supervisee’s capability – can lead to poor outcomes for the supervisee, including undermining their wellbeing and professional development. &nbsp;<br />
+<br />
+Reflective practice is a valuable tool early career lawyers can use to enhance their professional performance and improve wellbeing. &nbsp;Regular reflection helps all lawyers&nbsp;identify&nbsp;risks early, learn from&nbsp;experience,&nbsp;and continually improve their practice and service to clients. &nbsp;<br />
+<br />
+We created practical resources to support&nbsp;early career lawyers develop their capabilities, to ensure&nbsp;safer practice and stronger professional development: &nbsp;</p>
+
+<ul>
+	<li>Early Career Lawyer Capability Framework &nbsp;</li>
+	<li>Reflective Practice Template &nbsp;</li>
+	<li>Supervision Plan Template. &nbsp;</li>
+</ul>
+
+<p>We recommend all principals,&nbsp;supervisors&nbsp;and early career lawyers access these resources.</p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/lawyers/new-lawyers/supervised-legal-practice" rel="noreferrer noopener" target="_blank" title="Supervised legal practice | VLSB+C">Access the resources</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Have you renewed your practising certificate?</h2>
+
+<p>If you&nbsp;haven’t&nbsp;yet applied to renew your practising certificate, we encourage you to do so as early as you can to allow time for processing, and to avoid any interruption to your ability to&nbsp;practise.&nbsp;</p>
+
+<p>If you have taken the time to apply, we would like to thank&nbsp;you, and&nbsp;let you know our team is working hard to process your application as quickly as we can.&nbsp;</p>
+
+<h3>Why renewing is important</h3>
+
+<p>Although&nbsp;renewing your&nbsp;practising&nbsp;certificate&nbsp;may&nbsp;feel like just another task on your to-do list,&nbsp;it’s&nbsp;an essential element of Victoria’s legal regulatory system, playing a crucial role in&nbsp;maintaining&nbsp;the integrity of the legal profession.</p>
+
+<p>Renewing is an opportunity for you to inform us about any significant changes over the past year, including criminal convictions or changes to your ability to&nbsp;practise&nbsp;law. All lawyers&nbsp;are required to&nbsp;be honest in&nbsp;disclosing&nbsp;these matters, and failure to provide&nbsp;accurate&nbsp;information may result in penalties.&nbsp;</p>
+
+<h3>Benefits of renewing now&nbsp;&nbsp;</h3>
+
+<p>Renewals happen at the&nbsp;same time as other important processes – including&nbsp;professional indemnity&nbsp;insurance and trust reporting –&nbsp;making it an ideal time to&nbsp;organise&nbsp;all your compliance obligations. Submitting your renewal early provides peace of mind and ensures your ability to continue&nbsp;practising&nbsp;without interruption.</p>
+
+<p>Missing the 30 June deadline means you cannot&nbsp;practise&nbsp;law and will need to apply for a new certificate, which comes with a 200% surcharge.&nbsp;</p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/lawyers/practising-law/practising-certificates/how-renew-practising-certificate" rel="noreferrer noopener" target="_blank" title="How to renew a Practising Certificate | VLSB+C">Find out how to renew your practising certificate</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>$1 million&nbsp;scam: a reminder to always verify payment details</h2>
+
+<p>We continue to see Victorian law practices fall victim to cybersecurity breaches, resulting in significant losses of client trust money.</p>
+
+<p>In one recent case, a law practice reported that almost $1 million was transferred from its trust account to a scammer’s bank account, instead of the intended recipient. Despite&nbsp;having cybersecurity measures in place, the law practice’s email system was compromised after a staff member was on the receiving end of a phishing&nbsp;scam.</p>
+
+<p>The scammer gained access to the staff member’s email account and waited. When the staff member later emailed a payment requisition to the accounts team, the scammer intercepted the message and altered the bank details in the PDF. The scammer also contacted the intended recipient to say there might be a delay in payment because of a banking issue. This allowed time for the funds to be transferred overseas and become untraceable.</p>
+
+<p>The fraud was only discovered weeks later when the rightful recipient contacted the law practice to ask why they&nbsp;hadn’t&nbsp;received the funds.</p>
+
+<p>This sophisticated&nbsp;scam&nbsp;may have been prevented if the accounts team had strictly followed&nbsp;our minimum cybersecurity expectations, particularly by confirming bank details using verified contact information before processing the payment.</p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/lawyers/practising-law/cybersecurity" rel="noreferrer noopener" target="_blank" title="Cybersecurity | VLSB+C">Review our cybersecurity information</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>1 July 2026: important commencement reminders</h2>
+
+<h3>Anti-money laundering and counter-terrorism financing obligations</h3>
+
+<p>Law practices and lawyers providing&nbsp;<a href="https://www.austrac.gov.au/glossary/designated-service" rel="noreferrer noopener" target="_blank" title="Designated service | AUSTRAC">designated services</a>&nbsp;should be aware that new anti-money laundering and counter-terrorism financing obligations&nbsp;commence&nbsp;on 1 July 2026. If you provide designated services, you must&nbsp;<a href="https://www.austrac.gov.au/new-austrac/enrol-or-register/enrol-us" rel="noreferrer noopener" target="_blank" title="Enrol with us overview | AUSTRAC">enrol</a>&nbsp;with AUSTRAC and&nbsp;comply with&nbsp;the new AML/CTF regime from that date.</p>
+
+<p>By 1 July 2026, affected law practices and lawyers need to have the following arrangements in place:&nbsp;</p>
+
+<ul>
+	<li>be enrolled with AUSTRAC and have an AML/CTF program in place, whether based on AUSTRAC's program starter kit or your own program&nbsp;</li>
+	<li>have an AML/CTF compliance officer&nbsp;</li>
+	<li>train staff on the program, internal&nbsp;processes&nbsp;and relevant AML/CTF risks&nbsp;</li>
+	<li>be&nbsp;ready to undertake customer due diligence and report suspicious matters.</li>
+</ul>
+
+<p>If you are unsure whether the new laws apply to your practice, you can use AUSTRAC's&nbsp;<a href="https://www.austrac.gov.au/check-if-you-need-enrol-and-register" rel="noreferrer noopener" target="_blank" title="Check if you need to enrol and register | AUSTRAC">online checker</a>&nbsp;and review its&nbsp;<a href="https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities" rel="noreferrer noopener" target="_blank" title="Designated services for newly regulated entities | AUSTRAC">guidance</a>&nbsp;on designated services.&nbsp;</p>
+
+<p>To prepare, review the&nbsp;<a href="https://www.liv.asn.au/amlhub?srsltid=AfmBOoojAWVBdZd-Kdheg6cnSFrp68pwpRCp2-6Akag47kptnTaxDQrq" rel="noreferrer noopener" target="_blank" title="Just a moment...">LIV AML/CTF Hub</a>&nbsp;and AUSTRAC's information for legal professionals, including the&nbsp;<a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit" rel="noreferrer noopener" target="_blank" title="Legal profession program starter kit | AUSTRAC">legal profession program starter</a>&nbsp;kit.</p>
+
+<p><a class="newbtn readmore-btn" href="https://www.liv.asn.au/amlhub?srsltid=AfmBOoojAWVBdZd-Kdheg6cnSFrp68pwpRCp2-6Akag47kptnTaxDQrq" rel="noreferrer noopener" target="_blank" title="Just a moment...">Visit LIV AML/CTF Hub</a></p>
+
+<h3>New laws for Non-Disclosure Agreements&nbsp;</h3>
+
+<p>The&nbsp;<a href="https://www.legislation.vic.gov.au/as-made/acts/restricting-non-disclosure-agreements-sexual-harassment-work-act-2025" rel="noreferrer noopener" target="_blank" title="Restricting Non-disclosure Agreements (Sexual Harassment at Work) Act 2025  | legislation.vic.gov.au"><em>Restricting Non‑disclosure Agreements (Sexual Harassment at Work) Act 2025</em>&nbsp;(Vic)</a>&nbsp;commences&nbsp;on&nbsp;1 July 2026. It introduces a new legal framework that limits how non-disclosure agreements (NDAs) can be used, what they can include, and how they may be enforced.</p>
+
+<p>The&nbsp;Act&nbsp;prevents&nbsp;NDAs from being used as the default in settling workplace sexual harassment&nbsp;claims, and&nbsp;reduces&nbsp;power imbalances between&nbsp;the&nbsp;people who make a complaint and respondents.</p>
+
+<p>It is being introduced in response to the&nbsp;<a href="https://www.vic.gov.au/ministerial-taskforce-workplace-sexual-harassment" rel="noreferrer noopener" target="_blank" title="Ministerial Taskforce on Workplace Sexual Harassment | vic.gov.au">Victorian Ministerial Taskforce on Workplace Sexual Harassment's</a>&nbsp;findings that NDAs are often misused to silence victims, protect&nbsp;employer&nbsp;reputations, avoid full liability, and hide serial offending.</p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/news-updates/news/new-act-restrict-use-ndas-workplace-sexual-harassment-mattershttps:/lsbc.vic.gov.au/news-updates/news/new-act-restrict-use-ndas-workplace-sexual-harassment-matters" rel="noreferrer noopener" target="_blank" title="Page not found | VLSB+C">Learn&nbsp;more on our website</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>New report:&nbsp;Generative AI use in the legal profession</h2>
+
+<p>New research by our&nbsp;<a href="https://lsbc.vic.gov.au/research-centre/what-we-do/publications/generative-ai-use-legal-profession-findings-2025-victorian" rel="noreferrer noopener" target="_blank" title="Generative AI Use in the Legal Profession: Findings from the 2025 Victorian Lawyer Census | VLSB+C">Legal Services Research Centre</a>&nbsp;highlights that Victorian lawyers need more support to adopt AI if the profession is to harness the vast possibilities of the technology – beyond just workforce productivity.</p>
+
+<p>The new report,&nbsp;<em>Generative AI use in the legal profession: Findings from the 2025 Victorian Lawyer Census</em>, examines:&nbsp;&nbsp;</p>
+
+<ul>
+	<li>how Victorian lawyers use generative AI&nbsp;</li>
+	<li>the challenges and risks they associate with it&nbsp;</li>
+	<li>the opportunities this transformative technology may present for the profession and&nbsp;ultimately consumers&nbsp;of legal services.&nbsp;</li>
+</ul>
+
+<p>The findings reveal that 36.7% of respondents are using AI tools in their legal practice, with over half using them daily or weekly. Despite the rapid increase in AI use in recent years, the profession is still working out how to fully harness its capabilities, with lawyers&nbsp;mainly using&nbsp;AI to improve workflows and boost productivity.&nbsp;</p>
+
+<p>The VLSB+C encourages lawyers to think beyond simply gaining a competitive advantage and consider how the technology can deliver even greater value through driving increased quality, affordability,&nbsp;accessibility&nbsp;and client satisfaction for legal services.</p>
+
+<p>It’s&nbsp;vital for lawyers to develop the skills to use these technologies responsibly so they meet their ethical and professional obligations while protecting their clients from potential risks. All lawyers are encouraged to familiarise themselves with our&nbsp;<a href="https://lsbc.vic.gov.au/news-updates/news/statement-use-artificial-intelligence-australian-legal-practice" rel="noreferrer noopener" target="_blank" title="Statement on the use of artificial intelligence in Australian legal practice | VLSB+C">statement on the use of artificial intelligence in Australian legal practice</a>&nbsp;and look out for&nbsp;new resources&nbsp;we will&nbsp;provide later this year on the use of AI.&nbsp;For a list of current resources, go to the <a href="https://lsbc.vic.gov.au/lawyers/risk-outlook/risk-outlook-2026#:~:text=Using%20artificial%20intelligence" rel="noreferrer noopener" target="_blank" title="Risk Outlook 2026 | VLSB+C">using artificial intelligence</a> section of the Risk Outlook 2026. </p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/research-centre/what-we-do/publications/generative-ai-use-legal-profession-findings-2025-victorian" rel="noreferrer noopener" target="_blank" title="Generative AI Use in the Legal Profession: Findings from the 2025 Victorian Lawyer Census | VLSB+C">Read the full report</a> </p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/research-centre/what-we-do/publications/generative-ai-use-legal-profession-findings-2025-0" rel="noreferrer noopener" target="_blank" title="Generative AI Use in the Legal Profession: Findings from the 2025 Victorian Lawyer Census Research Brief | VLSB+C">Read the research brief</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Launching our Innovate Reconciliation Action Plan</h2>
+
+<p>We’re proud to share our Innovate Reconciliation Action Plan (RAP), during National Reconciliation Week (27 May to 3 June). The theme for the week is 'All In'&nbsp;– a call for all of us to commit wholeheartedly to reconciliation.</p>
+
+<p>At the VLSB+C we are 'All In'. Following the completion of our foundational plan, our new two-year plan, Innovate, is designed to implement lasting change towards reconciliation with First Peoples. </p>
+
+<p>Our plan outlines the steps we’ll take to build awareness and cultural capability inside and outside our organisation, and how we’ll create meaningful opportunities towards a more just and equitable future for First Peoples communities across Victoria. It harnesses our influence as a leader in the legal sector in Victoria to improve access to justice for First Peoples. </p>
+
+<p>Our RAP has been endorsed by Reconciliation Australia, and shaped through conversations, listening and learning, along with the generous guidance of First Peoples-owned consultancy, NJAC.</p>
+
+<p><a class="newbtn readmore-btn" href="https://lsbc.vic.gov.au/reconciliation" rel="noreferrer noopener" target="_blank" title="Our Innovate Reconciliation Action Plan | VLSB+C">Read our Innovate RAP</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Help improve how we engage with lawyers</h2>
+
+<p>To help&nbsp;us&nbsp;improve how we design services for the legal profession, our Customer Experience team is carrying out ongoing user experience research and testing. This includes testing intake forms, digital platforms, communication platforms,&nbsp;communications,&nbsp;and end‑to‑end service journeys.&nbsp;<br />
+<br />
+We’re&nbsp;looking for lawyers to take&nbsp;part in this initiative over the next 12 months. Sessions take 60–90&nbsp;minutes, and&nbsp;can be online or in person. If you choose to take part,&nbsp;you’ll&nbsp;receive a gift card&nbsp;to thank&nbsp;you for your time.&nbsp;&nbsp;<br />
+<br />
+If&nbsp;you’re&nbsp;interested, follow the link below to answer a few&nbsp;short questions. This will help us match you to the right&nbsp;studies, and&nbsp;allow us to contact you when&nbsp;new studies&nbsp;become available.&nbsp;<br />
+<br />
+This is&nbsp;a great opportunity&nbsp;to share your insights and perspectives and will help inform and improve how we work with you.&nbsp;&nbsp;</p>
+
+<p><a class="newbtn readmore-btn" href="https://forms.office.com/r/zJxj8EkXFn" rel="noreferrer noopener" target="_blank" title="Microsoft Forms">Complete the short form</a></p>
+
+          </div>
+        
+                                        <div class="paragraph-description">
+            <h2>Other news</h2>
+
+<h3>The Torch</h3>
+
+<p><strong>Confined 17</strong></p>
+
+<p>The Torch has launched&nbsp;<a href="https://thetorch.org.au/exhibitions/confined-17/" rel="noreferrer noopener" target="_blank" title="Confined 17 | The Torch">Confined 17</a>&nbsp;at Glen Eira City Council Gallery. The free exhibition showcases 501 works by 424 First Peoples artists with lived experience of incarceration in Victoria.</p>
+
+<p>To&nbsp;date, 260&nbsp;artworks have been sold. 100% of the artwork price goes directly to the artist and artwork sales have generated&nbsp;just over $180K&nbsp;income for First Peoples artists.</p>
+
+<p><a href="https://thetorch.org.au/exhibitions/confined-17/" rel="noreferrer noopener" target="_blank" title="Confined 17 | The Torch">Confined 17</a>&nbsp;is on until 14 June 2026.&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Law Institute of Victoria</h3>
+
+<p><strong>Legal Forum</strong></p>
+
+<p>The&nbsp;Law Institute Victoria’s&nbsp;(LIV) Legal Forum returns on 10 June. The event offers a full day of learning across emerging trends in key practice areas, leadership and skills development, and the chance to meet with sector leaders over fireside chats. Attendees will receive 9.5 CPD points.&nbsp;Read more and register at&nbsp;<a href="https://www.liv.asn.au/web/events/event_information.aspx?EventKey=CPD26F0906" rel="noreferrer noopener" target="_blank" title="Just a moment...">Legal Forum 2026</a>.&nbsp;</p>
+
+<p><strong>Proactive Practice Workshops Series 2026&nbsp;&nbsp;</strong></p>
+
+<p>The LIV’s Proactive Practice Workshop Series brings essential legal risk management strategies directly to practitioners across Victoria. These workshops provide advice and guidance across a range of issues covered by&nbsp;our&nbsp;<a href="https://lsbc.vic.gov.au/lawyers/risk-outlook/risk-outlook-2026" rel="noreferrer noopener" target="_blank" title="Risk Outlook 2026 | VLSB+C">Risk Outlook 2026</a>.&nbsp;To find a workshop near you, visit&nbsp;<a href="https://www.liv.asn.au/proactivepractice" rel="noreferrer noopener" target="_blank" title="Just a moment...">Proactive Practice</a>.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Victorian Bar</h3>
+
+<p><strong>Pilot pro bono scheme&nbsp;</strong></p>
+
+<p>The Victorian Bar, in collaboration with the Federal Court of Australia, has launched the Federal Court Pro Bono Counsel Referral Scheme. The initiative is a 12-month pilot to&nbsp;establish&nbsp;a formal referral pathway for pro bono&nbsp;assistance, with the aim of broadening pro bono opportunities and enhancing access to justice. <a href="https://www.vicbar.com.au/Web/Web/Contents/Galleries/Federal_Court_Pro_Bono_Counsel_Referral_Pilot_Launch.aspx" rel="noreferrer noopener" target="_blank" title="Federal Court Pro Bono Counsel Referral Pilot Launch">Read more about the scheme</a>.</p>
+
+<p><strong>Indigenous Students’ Clerkship Program&nbsp;</strong></p>
+
+<p>The Victorian Bar has entered a Memorandum of Understanding with the Federal Court of Australia, Supreme Court of Victoria, and County Court of Victoria to deliver the Indigenous Students’ Clerkship Program. This program enables First Nations law students to engage in a work experience placement with barristers and judges.&nbsp;<a href="https://www.vicbar.com.au/Web/Web/Contents/Community/Indigenous_Barristers_and_Law_Students.aspx" rel="noreferrer noopener" target="_blank" title="Indigenous Barristers and Law Students">Find out more</a>.</p>
+
+<p>&nbsp;</p>
+
+<h3>Victoria Law Foundation</h3>
+
+<p><strong>New major report&nbsp;</strong></p>
+
+<p>Victoria Law Foundation has published a new major research report,&nbsp;<em><a href="https://www.victorialawfoundation.org.au/research-projects/measure-for-measure" rel="noreferrer noopener" target="_blank" title="Measure for Measure: A People‑Centred Approach to Tailoring Justice | Victoria Law Foundation">Measure for measure: A people‑centred approach to tailoring&nbsp;justice</a></em>. The report draws on the knowledge and experience of justice practitioners across Victoria to explore what works to meet legal need and what more is needed.&nbsp;<a href="http:/www.victorialawfoundation.org.au/research-publications/measure-for-measure?utm_source=newsletter&amp;utm_medium=email&amp;utm_id=VLSBC&amp;utm_campaign=VLSB-2026-03&amp;utm_content=may2026" rel="noreferrer noopener" target="_blank" title="Measure for Measure: A People-Centred Approach to Tailoring Justice  | Victoria Law Foundation">Access the report</a>.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Legal Practitioners’ Liability Committee</h3>
+
+<p><strong>Solicitors’ certificates and guarantee advice&nbsp;</strong></p>
+
+<p>Solicitors’ certificates and guarantee advice continue to be a significant source of professional liability claims for practitioners. Access&nbsp;Legal Practitioners’ Liability Committee’s resources on this topic, including&nbsp;<a href="https://lplc.com.au/risk-advice/securities/solicitors-certificates" rel="noreferrer noopener" target="_blank" title="Solicitors Certificates - Legal Practitioners' Liability Committee">checklists, articles and videos</a>, and&nbsp;their&nbsp;<a href="https://lplc.com.au/resources/webinars/solicitors-certificates-and-guarantee-advice?x-craft-preview=de703f5ed07305a5a646d6f93c3218779a82d7e33acd281dc4816a81bcc3adf7iyxbxhjiyc&amp;token=13AGOEBpcmojqY59UekCVIDKMiTzlNTo" rel="noreferrer noopener" target="_blank" title="Solicitors' Certificates… - Legal Practitioners' Liability Committee">recently delivered webinar</a>.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Victoria Legal Aid</h3>
+
+<p><strong>Federal Court awards penalties and compensation to mother</strong></p>
+
+<p>In February, Victoria Legal Aid client Tatiana Duarte won a landmark case in the Federal Court of Australia after experiencing discrimination by her employer when&nbsp;pregnant, and&nbsp;then breastfeeding and looking after her newborn baby. The Court found that Tatiana’s employer had breached their obligations under the&nbsp;<em>Fair Work Act 2009</em>. <a href="https://www.legalaid.vic.gov.au/federal-court-awards-penalties-and-compensation-mother-discriminated-against-work-while-pregnant-and" rel="noreferrer noopener" target="_blank" title="Federal Court awards penalties and compensation to mother discriminated against at work while pregnant and breastfeeding | Victoria Legal Aid">Read more.</a></p>
+
+<p><strong>Giving young people a voice in family law&nbsp;</strong></p>
+
+<p>Kids Talk is a program that gives children and young people the opportunity to actively&nbsp;participate&nbsp;and be heard in family law decisions, as part of Victoria Legal Aid’s <a href="https://www.legalaid.vic.gov.au/fdrs" rel="noreferrer noopener" target="_blank" title="Family Dispute Resolution Service | Victoria Legal Aid">Family Dispute Resolution Service</a>. Analysis of the program highlights that, generally, children’s participation in family dispute resolution delivers better outcomes for families. <a href="https://www.legalaid.vic.gov.au/kids-talk" rel="noreferrer noopener" target="_blank" title="Kids Talk – hearing from children | Victoria Legal Aid">Learn more.</a>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Law Library Victoria</h3>
+
+<p><strong>Getting AI right in legal research&nbsp;</strong></p>
+
+<p>Law Library Victoria supports lawyers to stay up to date with the growing use of AI in legal practice. Recent updates to their suite of resources include&nbsp;<a href="https://courts.sdp.sirsidynix.net.au/client/en_AU/search/asset/118672/0" rel="noreferrer noopener" target="_blank">AI Capabilities and Limitations,</a> developed with the Legal Practitioners’ Liability Committee.&nbsp;The&nbsp;Library&nbsp;also offers tailored in-person CPD training for legal groups. To discuss training options,&nbsp;<a href="https://www.lawlibrary.vic.gov.au/contact-us" rel="noreferrer noopener" target="_blank" title="Contact Us | Law Library Victoria">contact the Law Library</a>.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3>Sentencing Advisory Council</h3>
+
+<p><strong>A Quick Guide to Sentencing&nbsp;</strong>&nbsp;</p>
+
+<p>The Sentencing Advisory Council has recently released the seventh edition of&nbsp;<em>A Quick Guide to Sentencing</em>.&nbsp;Offering a clear and accessible overview, the Guide breaks down the where, when, what and how of sentencing in Victoria.&nbsp;<a href="https://www.sentencingcouncil.vic.gov.au/publications/quick-guide-to-sentencing" rel="noreferrer noopener" target="_blank" title="A Quick Guide to Sentencing | Sentencing Council">Access the guide</a>.&nbsp;</p>
+
+          </div>
+        
+              
+									
+
+									
+																			
+									
+																			
+									
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<aside class="aside d-print-none">
+								<div class="social-block">
+  <div class="d-flex flex-wrap text-center">
+    <div class="col-12 text-center pt-20 pb-20">
+      <span class="d-block">Share this</span>
+      <ul class="list-unstyled mt-15">
+        <li>
+          <a href="https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026" class="js-copy-link" data-copy-url="https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026" title="Copy link" aria-label="Copy link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" width="24" height="24">
+              <path d="M307.8 18.4c-12 5-19.8 16.6-19.8 29.6l0 80-112 0c-97.2 0-176 78.8-176 176 0 113.3 81.5 163.9 100.2 174.1 2.5 1.4 5.3 1.9 8.1 1.9 10.9 0 19.7-8.9 19.7-19.7 0-7.5-4.3-14.4-9.8-19.5-9.4-8.8-22.2-26.4-22.2-56.7 0-53 43-96 96-96l96 0 0 80c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-9.2-9.2-22.9-11.9-34.9-6.9z"/>
+            </svg>
+            <span class="sr-only js-copy-link-status" aria-live="polite"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" width="24" height="24">
+              <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm5 170.2l66.5 0 0 213.8-66.5 0 0-213.8zm71.7-67.7a38.5 38.5 0 1 1 -77 0 38.5 38.5 0 1 1 77 0zM317.9 416l0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2-66.4 0z"/>
+            </svg>
+            <span class="visually-hidden">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:?body=https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" width="24" height="24">
+              <path d="M48 64c-26.5 0-48 21.5-48 48 0 15.1 7.1 29.3 19.2 38.4l208 156c17.1 12.8 40.5 12.8 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48L48 64zM0 196L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-188-198.4 148.8c-34.1 25.6-81.1 25.6-115.2 0L0 196z"/>
+            </svg>
+            <span class="visually-hidden">Email</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex flex-wrap social_bottom">
+    <div class="col-6 d-flex pt-20 pb-20">
+      <div class="social-holder flex-grow-1 text-center">
+        <span class="d-flex justify-content-center align-items-end">Print or download</span>
+        <ul class="social-networks list-unstyled d-flex flex-wrap mx-n3 justify-content-center mb-0">
+          <li class="mb-3 mx-3">
+            <a href="javascript:if(window.print)window.print()" title="Print or download this page">
+              <span class="icon-print"><span class="sr-only">Print or download</span></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-6 d-flex pt-20 pb-20">
+      <div class="social-holder flex-grow-1 text-center">
+<span class="d-flex justify-content-center align-items-end">Interpreter information</span>
+<ul class="social-networks large-icon list-unstyled d-flex flex-wrap mx-n3 justify-content-center mb-0">
+  <li class="mb-3 mx-3"><a href="/languages"><span class="icon-interpreter"></span><span class="sr-only">interpreter</span></a></li>
+</ul>
+</div>    </div>
+  </div>
+</div>
+
+							</aside>
+						</div>
+					</div>
+									</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+            </div>
+          </div>
+        </div>
+    </div>
+        
+        
+	  <form class="webform-submission-form webform-submission-add-form webform-submission-was-this-page-helpful-form webform-submission-was-this-page-helpful-add-form webform-submission-was-this-page-helpful-node-1291-form webform-submission-was-this-page-helpful-node-1291-add-form feedback-form bg-light border-top border-bottom pt-15 d-print-none t123 js-webform-details-toggle webform-details-toggle antibot" data-drupal-selector="webform-submission-was-this-page-helpful-node-1291-add-form" data-action="/news-updates/news/commissioner-update-june-2026" action="/antibot" method="post" id="webform-submission-was-this-page-helpful-node-1291-add-form" accept-charset="UTF-8">
+	  	<div class="container">
+	    
+	    
+	    <noscript>
+  <div class="antibot-no-js antibot-message antibot-message-warning">You must have JavaScript enabled to use this form.</div>
+</noscript>
+<div class="webform-required">
+  <span class="form-required"></span>* Indicates required field
+</div>
+
+<div class="row">
+    
+    <div class="col-md-6 col-lg-3 mb-20 mb-md-10">
+	<label class="title js-form-required form-required" for="edit-was-this-page-helpful-">Was this page helpful?*</label>
+	</div>
+    
+  
+  <div class="col-md-6 col-lg-9 js-webform-type-radios webform-type-radios input-wrap js-form-item form-item js-form-type-radios form-item-was-this-page-helpful- js-form-item-was-this-page-helpful-">
+      <div id="edit-was-this-page-helpful-" class="js-webform-radios webform-options-display-side-by-side custom-radio mb-10 ml-10">
+<div class="row">
+    
+  
+  <div class="js-webform-type-radio webform-type-radio input-wrap js-form-item form-item js-form-type-radio form-item-was-this-page-helpful- js-form-item-was-this-page-helpful-">
+      <input data-drupal-selector="edit-was-this-page-helpful-yes" type="radio" id="edit-was-this-page-helpful-yes" name="was_this_page_helpful_" value="Yes" class="form-radio" />
+
+        <label for="edit-was-this-page-helpful-yes" class="option">Yes</label>
+      </div>
+</div>
+
+<div class="row">
+    
+  
+  <div class="js-webform-type-radio webform-type-radio input-wrap js-form-item form-item js-form-type-radio form-item-was-this-page-helpful- js-form-item-was-this-page-helpful-">
+      <input data-drupal-selector="edit-was-this-page-helpful-no" type="radio" id="edit-was-this-page-helpful-no" name="was_this_page_helpful_" value="No" class="form-radio" />
+
+        <label for="edit-was-this-page-helpful-no" class="option">No</label>
+      </div>
+</div>
+</div>
+
+        </div>
+</div>
+<div class="pt-10" id="comment-div" >
+	<div class="row">
+		<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-3">
+			<div class="form-group">
+      <label class="font-weight-bold mb-9 visually-hidden" for="edit-any-comments-optional">Comment</label>
+        
+  <textarea class="mt-20 form-textarea form-control" data-webform-required-error="Comment is a required field." data-drupal-selector="edit-any-comments-optional" data-drupal-states="{&quot;invisible&quot;:{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;unchecked&quot;:true}},&quot;optional&quot;:{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;unchecked&quot;:true}}}" id="edit-any-comments-optional" name="any_comments_optional" rows="5" cols="60" placeholder="Your comment"></textarea>
+ 
+
+        </div>
+</div>
+</div>
+</div>
+
+<div class="row feedback_container">
+    
+    <div class="col-md-6 col-lg-3 mb-20 mb-md-10">
+	<label class="title" for="edit-contact-feedback">Would you like to be contacted about your feedback?</label>
+	</div>
+    
+  
+  <div class="col-md-6 col-lg-9 js-webform-states-hidden js-form-item js-webform-type-radios webform-type-radios input-wrap form-item js-form-type-radios form-item-contact-feedback js-form-item-contact-feedback" data-drupal-states="{&quot;visible&quot;:[{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;value&quot;:&quot;Yes&quot;}},&quot;xor&quot;,{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;value&quot;:&quot;No&quot;}}]}">
+      <div id="edit-contact-feedback" class="js-webform-radios webform-options-display-side-by-side custom-radio mb-10 ml-10">
+<div class="row feedback_container">
+    
+  
+  <div class="js-webform-type-radio webform-type-radio input-wrap js-form-item form-item js-form-type-radio form-item-contact-feedback js-form-item-contact-feedback">
+      <input data-drupal-selector="edit-contact-feedback-yes" type="radio" id="edit-contact-feedback-yes" name="contact_feedback" value="Yes" class="form-radio" />
+
+        <label for="edit-contact-feedback-yes" class="option">Yes</label>
+      </div>
+</div>
+
+<div class="row feedback_container">
+    
+  
+  <div class="js-webform-type-radio webform-type-radio input-wrap js-form-item form-item js-form-type-radio form-item-contact-feedback js-form-item-contact-feedback">
+      <input data-drupal-selector="edit-contact-feedback-no" type="radio" id="edit-contact-feedback-no" name="contact_feedback" value="No" class="form-radio" />
+
+        <label for="edit-contact-feedback-no" class="option">No</label>
+      </div>
+</div>
+</div>
+
+        </div>
+</div>
+<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-3 js-webform-states-hidden js-webform-type-textfield webform-type-textfield input-wrap js-form-item form-item js-form-type-textfield form-item-your-full-name js-form-item-your-full-name form-no-label">
+      <label for="edit-your-full-name" class="visually-hidden">Your full name</label>
+        <input data-drupal-selector="edit-your-full-name" type="text" id="edit-your-full-name" name="your_full_name" value="" size="60" maxlength="255" placeholder="Your full name" class="form-control" data-drupal-states="{&quot;visible&quot;:{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022contact_feedback\u0022]&quot;:{&quot;value&quot;:&quot;Yes&quot;},&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;checked&quot;:true}}}" />
+
+        </div>
+<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-3 js-webform-states-hidden js-webform-type-email webform-type-email input-wrap js-form-item form-item js-form-type-email form-item-your-email-address js-form-item-your-email-address form-no-label">
+      <label for="edit-your-email-address" class="visually-hidden">Your email address</label>
+        <input data-drupal-selector="edit-your-email-address" type="email" id="edit-your-email-address" name="your_email_address" value="" size="60" maxlength="254" placeholder="Your email address" class="form-email form-control" data-drupal-states="{&quot;visible&quot;:{&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022contact_feedback\u0022]&quot;:{&quot;value&quot;:&quot;Yes&quot;},&quot;.webform-submission-was-this-page-helpful-node-1291-add-form :input[name=\u0022was_this_page_helpful_\u0022]&quot;:{&quot;checked&quot;:true}}}" />
+
+        </div>
+<div class="pt-10 pb-25" id="button-div">
+	<div class="row">
+		<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-3">
+			<div class="form-group">
+				<input class="webform-button--submit btn btn-primary button button--primary js-form-submit form-submit" data-twig-suggestion="webform-submission-was-this-page-helpful-node-1291-add-form" data-drupal-selector="edit-actions-submit" type="submit" id="edit-actions-submit" name="op" value="Submit" />
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+<input data-drupal-selector="edit-page-id" type="hidden" name="page_id" value="https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026" class="form-control" />
+<input data-twig-suggestion="webform__submission__was__this__page__helpful__node__1291__add__form" data-drupal-selector="edit-honeypot-time" type="hidden" name="honeypot_time" value="KXcQcRbFuWUWGGJg4ZV07duw7oFkSeOOCAswiB7vEDY" class="form-control" />
+<input autocomplete="off" data-twig-suggestion="webform__submission__was__this__page__helpful__node__1291__add__form" data-drupal-selector="form-ylybtuwcdjppteteqcjw2zejhv4-vwhksjhmqfea6-4" type="hidden" name="form_build_id" value="form-YLYbtUWCDjPpteTEqcjW2zejhv4-VWHkSjHmqFeA6_4" class="form-control" />
+<input data-twig-suggestion="webform__submission__was__this__page__helpful__node__1291__add__form" data-drupal-selector="edit-webform-submission-was-this-page-helpful-node-1291-add-form" type="hidden" name="form_id" value="webform_submission_was_this_page_helpful_node_1291_add_form" class="form-control" />
+<input data-twig-suggestion="webform__submission__was__this__page__helpful__node__1291__add__form" data-drupal-selector="edit-antibot-key" type="hidden" name="antibot_key" value="" class="form-control" />
+<div class="input-wrap js-form-item form-item js-form-type-textfield form-item-link js-form-item-link form-no-label">
+      <label for="edit-link" class="visually-hidden">Leave this field blank</label>
+        <input class="link-textfield form-control" style="display: none !important;" autocomplete="off" data-twig-suggestion="webform__submission__was__this__page__helpful__node__1291__add__form" data-drupal-selector="edit-link" type="text" id="edit-link" name="link" value="" size="20" maxlength="128" />
+
+        </div>
+
+
+
+	    
+	    
+		</div>
+	  </form>
+	 
+
+  
+
+  </main>
+  <footer id="footer" class="footer pt-45 pb-40 pt-md-40 pb-md-30">
+
+  <div class="container">
+    <div class="columns d-lg-flex flex-lg-wrap mb-md-45 mb-lg-50 d-print-block">
+      <div class="footer-col d-lg-block d-print-none">
+		  
+    
+    
+  
+    
+      
+              <ul class="list-unstyled mb-40 mb-md-0">
+              <li>
+        <a href="/news-updates" data-drupal-link-system-path="news-updates">News and updates</a>
+              </li>
+          <li>
+        <a href="/news-updates/media" data-drupal-link-system-path="news-updates/media">Media Releases</a>
+              </li>
+        </ul>
+  
+
+
+  
+  
+
+	  </div>
+	  <div class="footer-col">
+		  
+    
+    
+      <h3>Contact</h3>
+
+<div class="row ">
+<div class="col-md-6 col-lg-12">
+<p style="font-weight: normal !important;font-family: Helvetica,'Helvetica Neue',Arial,sans-serif; font-size:1rem"><a href="https://lsbc.vic.gov.au/contact-us">Please view the contact us page for information about how to contact us</a>.</p>
+</div>
+</div>
+<style type="text/css">.nav.nav-tabs.nav-tabs-admin li {
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #005587;
+    margin: 10px;
+}
+.nav.nav-tabs.nav-tabs-admin li  a{
+ color: #FFF;
+}
+.nav.nav-tabs.nav-tabs-admin li:nth-child(3) {
+    display: none;
+}
+.nav.nav-tabs.nav-tabs-admin li:nth-child(4) {
+    display: none;
+}
+</style>
+  
+
+  
+
+	  </div>
+	   <div class="footer-col">
+		<ul class="footer_translation">
+			<li><a href="/languages"><span class="icon-interpreter"></span><span class="d-inline-block ml-15">Interpreter information</span></a></li>
+			<li><a href="javascript:;" onclick="BrowseAloud.panel.toggleBar(true,event);return false;"><span class="icon-translate_blue"></span><span class="d-inline-block ml-15">Translation</span></a></li>
+		</ul>
+	  </div>
+	 </div>
+			  
+    
+    
+      <div class="holder d-md-flex flex-wrap mb-45 mb-md-30 d-print-block">
+<ul class="list-unstyled d-flex flex-wrap mx-n8 mb-0">
+	<li class="mx-8 mb-10"><img alt="Australian Aboriginal Flag" height="29" src="https://lsbc.vic.gov.au/themes/vlsbc/images/flag-01.jpg" width="43" loading="lazy"></li>
+	<li class="mx-8 mb-10"><img alt="Torres Strait Islander Flag" height="29" src="https://lsbc.vic.gov.au/themes/vlsbc/images/flag-02.jpg" width="43" loading="lazy"></li>
+</ul>
+<span class="copyright-text d-block align-self-md-center mb-md-5">The Victorian Legal Services Board + Commissioner acknowledges Aboriginal Traditional Owners of Country throughout Victoria and pays respect to their cultures and Elders past, present and emerging.</span></div>
+  
+
+    
+      <ul class="footer-list list-unstyled d-flex flex-wrap mb-0 mx-n5 mx-md-n12">
+	<li class="mx-5 mb-20 mb-md-10 mx-md-12 d-print-none"><a href="https://lsbc.vic.gov.au/languages">Languages and Accessibility</a></li>
+	<li class="mx-5 mb-20 mb-md-10 mx-md-12 d-print-none"><a href="https://lsbc.vic.gov.au/terms-use">Terms Of Use</a></li>
+	<li class="mx-5 mb-20 mb-md-10 mx-md-12 d-print-none"><a href="https://lsbc.vic.gov.au/privacy">Privacy</a></li>
+	<li class="mx-5 mb-20 mb-md-10 mx-md-12 d-print-none"><a href="https://lsbc.vic.gov.au/sitemap">Sitemap</a></li>
+	<li class="mx-5 mb-20 mb-md-10 mx-md-12"><span>© 2020 <a href="#">Victorian Legal Services Board + Commissioner</a></span></li>
+</ul>
+  
+
+  
+
+	</div>
+</footer></div>
+
+  </div>
+
+    
+	</div>
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+      <path d="M11.5 8.41394V17.9999H13.5V8.41394L17.793 12.7069L19.207 11.2929L12.5 4.58594L5.79297 11.2929L7.20697 12.7069L11.5 8.41394Z" fill="white"/>
+    </svg>
+    <span>Back<br>to top</span>
+  </button>
+  <script type="text/javascript">
+    (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+      (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+      e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+    })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+    _st('install','UvmgZyXTwTMV4BPsVd-8','2.0.0');
+  </script>
+</body>
+</html>

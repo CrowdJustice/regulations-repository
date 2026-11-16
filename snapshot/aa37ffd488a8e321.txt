@@ -1,0 +1,2519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        // Default ad_storage to 'denied'.
+        gtag('consent', 'default', {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            'wait_for_update': 500
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5L9F7');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="facebook-domain-verification" content="1bk2azzrq6858zdd1idzelo1mwvpb9" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="canonical" href="https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/" />
+        <meta name="twitter:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/" />
+        <meta name="twitter:site" content="@sra_solicitors" />
+        <meta name="twitter:creator" content="@sra_solicitors" />
+        <meta name="twitter:image:alt" content="Logo for the Solicitors Regulation Authority" />
+        <meta name="twitter:title" content="Strengthening our continuing competence approach" />
+        <meta property="twitter:description" content="Given the challenges we have identified in how some solicitors maintain their competence and our focus on making sure they act ethically, we are proposing changes to our continuing competence requirements. These are designed to:&#xA0;" />
+        <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+
+        <meta property="og:url" content="https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/" />
+        <meta property="og:title" content="Strengthening our continuing competence approach" />
+        <meta property="article:published_time" content="4/22/2026 11:59:25&#x202F;AM" />
+        <meta property="article:modified_time" content="7/21/2026 12:01:59&#x202F;PM" />
+            <meta property="og:image" content="https://www.sra.org.uk/globalassets/images/200x200-logo.jpg" />
+        <meta property="og:description" content="Given the challenges we have identified in how some solicitors maintain their competence and our focus on making sure they act ethically, we are proposing changes to our continuing competence requirements. These are designed to:&#xA0;" />
+
+    <title>SRA | Strengthening our continuing competence approach | Solicitors Regulation Authority</title>
+        <meta name="description" content="Given the challenges we have identified in how some solicitors maintain their competence and our focus on making sure they act ethically, we are proposing changes to our continuing competence requirements. These are designed to:&#xA0;" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="/Static/build/css/styles.css">
+    <link rel="stylesheet" href="/Static/build/css/site.css">
+
+    <script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=32126319-ec4d-4c8b-a221-3dd7343e841f;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=3b5219b5-c2e6-42f4-9861-7f929b886295', disableCookiesUsage: false }});
+</script>
+
+    
+
+    <script src="/Static/src/assets/js/vendor/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5L9F7" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="wrapper" class="wrapper noindex">
+        <!-- header -->
+
+
+<header class="header">
+    <div class="header">
+        <input type="hidden" ID="pageAncestors" value="5,95383,97230,97231,169501" />
+
+
+<div class="top-bar-menu d-none d-lg-flex">
+    <div class="container">
+
+        <div class="text-left col-md-2">
+            <a id="skip" class="btn btn-link btn-sm" href="#mainContent" onclick="ga('send', 'event', 'Navigation', 'Skip to Main Content');">Skip to main content </a>
+        </div>
+
+        <div class="container text-end">
+
+
+                <a class="btn btn-secondary btn-sm mysra-link" id="translate" href="https://my.sra.org.uk/"
+                   >
+                    Log in to mySRA
+                </a>
+
+            <span >
+                    <a href="/home/contact-us/" class="btn btn-link btn-sm margin-right-none padding-right-none">Contact us</a>
+            </span>
+        </div>
+
+    </div>
+</div>
+        <div class="middle-bar-menu container d-none d-lg-block">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="/">
+                              <img class="brand-logo img-responsive" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="330" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="search-box text-end">
+                          <form class="navbar-form" role="search" action="/search-results/" method="get">
+                              <div class="input-group">
+                                  <label for="desktop-search" class="visually-hidden">Search the website</label>
+                                  <input type="text" placeholder="Search" name="searchText" id="desktop-search">
+                                  <div class="input-group-btn input-group-btn--search">
+                                      <button type="submit" class="btn btn-primary" id="globalSearchButton" aria-label="Search">
+                                          <i class="icon icon-magnifier"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar-menu">
+            <div class="big-menu">
+                <nav class="navbar navbar-default container">
+                    <div class="navbar-header">
+                        <a class="d-block d-lg-none" href="/"><img class="brand-logo" src="/Static/images/sra-web-logo.svg" alt="Solicitors Regulation Authority" height="75" width="300" loading="lazy"></a>
+                    </div>
+                    <div class="navbar-extra-xs d-flex d-lg-none row">
+                        <a href="/" class="btn btn-primary col-4">
+                            <i class="icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="btn btn-primary col-4 js-search-show">
+                            <i class="icon icon-magnifier"></i>
+                            <span>Search</span>
+                        </a>
+                        <a href="#menu-sra" class="btn btn-primary small-navigation-button col-4 d-lg-none">
+                            <i class="icon icon-bars"></i>
+                            <span>Menu</span>
+                        </a>
+                    </div>
+                    <div class="search-box-xs d-lg-none" aria-expanded="false"​>
+                        <form role="search" action="/search-results/" method="get">
+                            <div class="input-group input-group--table">
+                                <label for="mobile-search" class="visually-hidden">Search website</label>
+
+                                <input type="text" placeholder="Search" name="searchText" id="mobile-search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-primary" href="#">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="collapse navbar-collapse js-navbar-collapse">
+                            <ul class="nav navbar-nav top-navigation">
+                                    <li class="theme-red">
+                                        <a class="red" href="/news/" title="News" data-page-id="166511">News</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/sra/" title="About us " data-page-id="95383">About us </a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/solicitors/" title="For law professionals" data-page-id="75649">For law professionals</a>
+                                    </li>
+                                    <li class="theme-purple">
+                                        <a class="purple" href="/consumers/" title="For the public" data-page-id="78133">For the public</a>
+                                    </li>
+                                    <li class="theme-blue">
+                                        <a class="blue" href="/become-solicitor/" title="Becoming a solicitor" data-page-id="95018">Becoming a solicitor</a>
+                                    </li>
+                                    <li class="theme-red">
+                                        <a class="red" href="/mysra/" title="mySRA" data-page-id="97544">mySRA</a>
+                                    </li>
+                            </ul>
+                            <script>
+                                    window.cmsThemeOverride = 'red';
+                            </script>
+                        <form class="navbar-form d-block d-lg-none" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="icon icon-magnifier"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav id="menu-sra" class="mob-menu">
+            <a class="mm-close mm-btn" href="#page-wrapper"></a>
+            <!-- First level items -->
+            <ul class="nav nav-pills nav-stacked">
+
+
+                    <li class="red home-link">
+
+                        <a class="expand-children" href="/" data-attribute="/" data-page-id="5">Home</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/news/" data-attribute="/news/" data-page-id="166511">News</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/sra/" data-attribute="/sra/" data-page-id="95383">About us </a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/solicitors/" data-attribute="/solicitors/" data-page-id="75649">For law professionals</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="purple">
+
+                        <a class="expand-children" href="/consumers/" data-attribute="/consumers/" data-page-id="78133">For the public</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="blue">
+
+                        <a class="expand-children" href="/become-solicitor/" data-attribute="/become-solicitor/" data-page-id="95018">Becoming a solicitor</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                    <li class="red">
+
+                        <a class="expand-children" href="/mysra/" data-attribute="/mysra/" data-page-id="97544">mySRA</a>
+
+                            <ul class="nav nav-pills nav-stacked">
+                            </ul>
+                    </li>
+                <li>
+                </li>
+                <li class="mobile-bottom-link"> <a class="btn btn-secondary mysra-link" href="/mysra">Log in to mySRA</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<nav id="megaMenu" class="megaMenu container main-container navbar" role="navigation" aria-label="Main navigation" aria-hidden="true">
+
+<div id="megaMenuSectionnews" class="megaMenuSection news">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/news/">News</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/home/megamenu/promotional/consumer-crowd.webp" class="card-img-top" alt="A crowd of people on the street">
+                    <div class="card-body">
+                        <h6 class="card-title">High volume consumer claims</h6>
+                        <p class="card-text">Learn how we are tackling issues in the high-volume consumer claims sector.</p>
+                        <a href="/home/hot-topics/high-volume-consumer-claims/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-News" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/news/" data-node-id="95702" aria-role="menuitem">News releases and statements</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sra-update/" data-node-id="95951" aria-role="menuitem">SRA Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/sqe-update/" data-node-id="137703" aria-role="menuitem">SQE Update</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/blogs/" data-node-id="170237" aria-role="menuitem">Blogs and articles</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/lawtech-insight/" data-node-id="148805" aria-role="menuitem">Lawtech Insight</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/news/events/" data-node-id="96367" aria-role="menuitem">Events and speakers</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95702" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="News releases and statements">
+    <h5><a href="/news/news/">News releases and statements</a></h5>
+    <ul id="nav2list-95702" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/news/releases/">
+                  News archive
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95951" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Update">
+    <h5><a href="/news/sra-update/">SRA Update</a></h5>
+    <ul id="nav2list-95951" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sra-update/unsubscribe/">
+                  SRA Update subscription
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137703" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SQE Update">
+    <h5><a href="/news/sqe-update/">SQE Update</a></h5>
+    <ul id="nav2list-137703" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/sqe-update/sqe-subscribe/">
+                  Subscribe to SQE Update
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-170237" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Blogs and articles">
+    <h5><a href="/news/blogs/">Blogs and articles</a></h5>
+    <ul id="nav2list-170237" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-148805" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Lawtech Insight">
+    <h5><a href="/news/lawtech-insight/">Lawtech Insight</a></h5>
+    <ul id="nav2list-148805" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/lawtech-insight/lawtech-insight-subscription/">
+                  Subscribe to Lawtech Insight
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96367" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Events and speakers">
+    <h5><a href="/news/events/">Events and speakers</a></h5>
+    <ul id="nav2list-96367" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/news/events/on-demand-events/">
+                  On-demand events
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsra" class="megaMenuSection sra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/sra/">About us </a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/crowd-in-street.jpg" class="card-img-top" alt="A busy city street with people walking on a sunny day. The buildings line the sidewalk, and trees are visible along the street.">
+                    <div class="card-body">
+                        <h6 class="card-title">Our priorities for 2026/27</h6>
+                        <p class="card-text">Read our Business Plan and see our key priorities for the year ahead.</p>
+                        <a href="/sra/corporate-strategy/business-plans/business-plan/business-plan-2026-27/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-About us " class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/how-we-work/" data-node-id="95392" aria-role="menuitem">How we work</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/consultations/" data-node-id="97230" aria-role="menuitem">Consultation and discussion</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/research-publications/" data-node-id="144139" aria-role="menuitem">Research and publications</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/equality-diversity/" data-node-id="95393" aria-role="menuitem">Equality and diversity</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/corporate-strategy/" data-node-id="95397" aria-role="menuitem">Strategy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/policy/" data-node-id="95394" aria-role="menuitem">Policy</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/decision-making/" data-node-id="95396" aria-role="menuitem">Decision making</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/complaints-service/" data-node-id="95395" aria-role="menuitem">Complaints about our service</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/sra/jobs/" data-node-id="96408" aria-role="menuitem">Jobs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-95392" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How we work">
+    <h5><a href="/sra/how-we-work/">How we work</a></h5>
+    <ul id="nav2list-95392" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/what-we-do/">
+                  What we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/our-board/">
+                  Our Board
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/management/">
+                  Our management
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/privacy-data-information/">
+                  Privacy, data and information
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/costs-statement/">
+                  Costs statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/public-legal-education/">
+                  Our Public Legal Education work 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/terms-conditions-service/">
+                  Terms and conditions of service
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/standard-conditions-contract/">
+                  Standard conditions of contract
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/investments-reserves/">
+                  Investments and reserves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/environmental-policy-statement/">
+                  Environmental policy statement
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/how-we-work/modern-day-slavery-statement/">
+                  Modern day slavery statement
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97230" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Consultation and discussion">
+    <h5><a href="/sra/consultations/">Consultation and discussion</a></h5>
+    <ul id="nav2list-97230" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultations-closed/">
+                  Closed consultations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-responses/">
+                  Our consultation responses
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/consultation-alerts/">
+                  Consultation alerts
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/consultations/discussion-papers/">
+                  Discussion papers
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-144139" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Research and publications">
+    <h5><a href="/sra/research-publications/">Research and publications</a></h5>
+    <ul id="nav2list-144139" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/about-the-sra/">
+                  About the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/education-training/">
+                  Education and training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/equality-and-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/innovation/">
+                  Innovation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/risk/">
+                  Risk
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/complaints-and-misconduct/">
+                  Complaints and misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/regulation/">
+                  Regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/research-publications/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95393" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Equality and diversity">
+    <h5><a href="/sra/equality-diversity/">Equality and diversity</a></h5>
+    <ul id="nav2list-95393" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-work/">
+                  Our work on diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-profession/">
+                  Diversity in the profession
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-policies/">
+                  Diversity policies
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/equality-diversity/diversity-sra/">
+                  Diversity in the SRA
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95397" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Strategy">
+    <h5><a href="/sra/corporate-strategy/">Strategy</a></h5>
+    <ul id="nav2list-95397" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/expert-panel/">
+                  The Expert Panel
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/independent-regulation/">
+                  Independent regulation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/sra-enforcement-strategy/">
+                  Enforcement strategy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/business-plans/">
+                  Business planning
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/corporate-strategy/lsb-directions/">
+                  LSB Directions and regulatory approach 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95394" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Policy">
+    <h5><a href="/sra/policy/">Policy</a></h5>
+    <ul id="nav2list-95394" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/policy/our-approach-policy/">
+                  Our approach
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95396" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Decision making">
+    <h5><a href="/sra/decision-making/">Decision making</a></h5>
+    <ul id="nav2list-95396" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/schedule-delegation/">
+                  Who can make decisions at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/decision-making/adjudicators-panel/">
+                  SRA adjudication
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95395" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Complaints about our service">
+    <h5><a href="/sra/complaints-service/">Complaints about our service</a></h5>
+    <ul id="nav2list-95395" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/make-a-complaint/">
+                  Make a complaint about the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/independent-reviewers-report/">
+                  Independent complaints reviewer&#x27;s annual report
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-charter/">
+                  Complaints charter
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/unreasonable-behaviour-policy/">
+                  Managing unreasonable behaviour towards SRA staff policy
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/complaints-service/complaints-policy/">
+                  Complaints policy
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-96408" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Jobs">
+    <h5><a href="/sra/jobs/">Jobs</a></h5>
+    <ul id="nav2list-96408" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/staff-videos/">
+                  Working at the SRA
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/use-of-ai/">
+                  Use of Artificial Intelligence (AI)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-process/">
+                  The recruitment process
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/our-offices/">
+                  Our offices
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/values/">
+                  Our values
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/diversity-inclusion/">
+                  Diversity inclusion
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/benefits/">
+                  Benefits
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/sra/jobs/recruitment-agencies/">
+                  For recruitment agencies
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionsolicitors" class="megaMenuSection solicitors">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/solicitors/">For law professionals</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/sra-ai.jpg" class="card-img-top" alt="A person typing on a laptop with a web page open. The screen displays a text box and the question, &quot;How can I help you?&quot;">
+                    <div class="card-body">
+                        <h6 class="card-title">Use of AI warning notice</h6>
+                        <p class="card-text">We have published guidance about safe and responsible use of AI in legal sector.</p>
+                        <a href="/solicitors/guidance/misuse-ai/" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For law professionals" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/standards-regulations/" data-node-id="135765" aria-role="menuitem">SRA Standards and Regulations</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/guidance/" data-node-id="136892" aria-role="menuitem">Guidance</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/resources/" data-node-id="155170" aria-role="menuitem">Resources</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/firm-based-authorisation/" data-node-id="75658" aria-role="menuitem">Firm-based authorisation</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/certificates/" data-node-id="137639" aria-role="menuitem">Good standing and certificates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/solicitors/enforcement/" data-node-id="75654" aria-role="menuitem">Investigation and enforcement</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-135765" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="SRA Standards and Regulations">
+    <h5><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></h5>
+    <ul id="nav2list-135765" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/principles/">
+                  Principles
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-solicitors/">
+                  SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/code-conduct-firms/">
+                  SRA Code of Conduct for Firms
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/accounts-rules/">
+                  SRA Accounts Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/application-notice-review-appeal-rules/">
+                  SRA Application, Notice, Review and Appeal Rules
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/index/">
+                  Index of SRA Standards and Regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/standards-regulations/glossary/">
+                  SRA Glossary
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136892" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Guidance">
+    <h5><a href="/solicitors/guidance/">Guidance</a></h5>
+    <ul id="nav2list-136892" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/accounts-and-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/admissions/">
+                  Admissions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/authorisation/">
+                  Authorisation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/client-care/">
+                  Client Care
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/compensation/">
+                  Compensation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/disciplinary-procedures/">
+                  Disciplinary procedures
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/misconduct/">
+                  Misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/money-laundering/">
+                  Money laundering
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/professional-indemnity-insurance/">
+                  Professional indemnity insurance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/guidance/topic/all-topics/">
+                  All topics
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-155170" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Resources">
+    <h5><a href="/solicitors/resources/">Resources</a></h5>
+    <ul id="nav2list-155170" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/accounts-finance/">
+                  Accounts and finance
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/continuing-competence/">
+                  Continuing competence
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/cybercrime/">
+                  Cybercrime
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/equality-diversity/">
+                  Equality and diversity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/fees/">
+                  Fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/innovate/">
+                  Innovate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/money-laundering/">
+                  Money laundering 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/professional-indemnity/">
+                  Professional indemnity
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/reporting-misconduct/">
+                  Reporting misconduct
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/specific-areas-practice/">
+                  Specific areas of practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/resources/topic/all-other-topics/">
+                  All other topics 
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75658" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Firm-based authorisation">
+    <h5><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></h5>
+    <ul id="nav2list-75658" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/authorisation-recognition/">
+                  New firm
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/existing-firms-applications/">
+                  Existing firms 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/firm-closures/">
+                  Firm is closing or being acquired
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/decision-authorisation/">
+                  How we make authorisation decisions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/disclosure-barring-service-checks/">
+                  DBS checks
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/abs/abs-search/">
+                  Register of licensed bodies (ABS)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/firm-based-authorisation/temporary-emergency-authorisation/">
+                  Temporary emergency authorisation
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-137639" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Good standing and certificates">
+    <h5><a href="/solicitors/certificates/">Good standing and certificates</a></h5>
+    <ul id="nav2list-137639" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/replacement-admission-certificate/">
+                  Replacement admission certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/firm-letter-regulatory-standing/">
+                  Firm letter of regulatory standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/extract-from-roll/">
+                  Extract from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-good-standing/">
+                  Certificate of good standing
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/certificate-attestation/">
+                  Certificate of attestation
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/certificates/faqs/">
+                  FAQs - Certificates
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-75654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Investigation and enforcement">
+    <h5><a href="/solicitors/enforcement/">Investigation and enforcement</a></h5>
+    <ul id="nav2list-75654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-reporting-themselves/">
+                  Solicitors reporting themselves
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/practising-certificate-pc-conditions-suspension-removal-roll/">
+                  Suspension or removal from the roll
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/solicitors-disciplinary-tribunal/">
+                  Solicitors Disciplinary Tribunal
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/intervention-reasons-costs/">
+                  Intervention into a practice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/solicitors/enforcement/financial-penalties-default-salaries/">
+                  Financial penalties - default salaries
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionconsumers" class="megaMenuSection consumers">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/consumers/">For the public</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Solicitors Register</h6>
+                        <p class="card-text">Look up the records of the solicitors and law firms we regulate.</p>
+                        <a href="/consumers/register/" class="btn btn-primary btn-sm">Search now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-For the public" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/who-we-are/" data-node-id="78136" aria-role="menuitem">Who we are</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/register/" data-node-id="134879" aria-role="menuitem">Solicitors Register</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/choosing/" data-node-id="136472" aria-role="menuitem">Choosing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/instructing/" data-node-id="78135" aria-role="menuitem">Instructing a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/problems/" data-node-id="78134" aria-role="menuitem">Problems with a solicitor</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/compensation-fund/" data-node-id="141935" aria-role="menuitem">Compensation fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/solicitors-indemnity-fund/" data-node-id="156186" aria-role="menuitem">Solicitors Indemnity Fund</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/scam-alerts/" data-node-id="93557" aria-role="menuitem">Scam alerts</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/consumers/professional-indemnity-insurance-guidelines/" data-node-id="166729" aria-role="menuitem">Professional Indemnity Insurance</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-78136" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Who we are">
+    <h5><a href="/consumers/who-we-are/">Who we are</a></h5>
+    <ul id="nav2list-78136" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/what-sra-about/">
+                  Who we are and what we do
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/sra-regulate/">
+                  How we regulate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/who-we-are/expect-from-us/">
+                  What you can expect from us
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-134879" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Register">
+    <h5><a href="/consumers/register/">Solicitors Register</a></h5>
+    <ul id="nav2list-134879" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/glossary/">
+                  Solicitors Register glossary
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/legal-notice/">
+                  Legal notice 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/register/others/">
+                  Other searches
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-136472" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Choosing a solicitor">
+    <h5><a href="/consumers/choosing/">Choosing a solicitor</a></h5>
+    <ul id="nav2list-136472" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-issue/">
+                  What is a legal issue
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/what-to-expect/">
+                  What to expect
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/get-best-solicitor/">
+                  Get the best from your solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/look-out-for-our-logo/">
+                  Look out for our logo
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/price-advice/">
+                  Price advice
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/legal-jargon-explained/">
+                  Legal jargon explained
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/customer-reviews/">
+                  Customer reviews
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/comparison-services/">
+                  Comparison sites
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/no-win-no-fee/">
+                  &#x27;No win, no fee&#x27; agreements: A guide
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/motor-finance-compensation-claims/">
+                  Motor finance compensation claims
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/choosing/aml/">
+                  Anti-money laundering checks: What you need to know
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78135" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Instructing a solicitor">
+    <h5><a href="/consumers/instructing/">Instructing a solicitor</a></h5>
+    <ul id="nav2list-78135" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/know-before-sign-up/">
+                  What to know before you sign up
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/costs-legal-aid/">
+                  Understanding costs
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/legal-advocacy/">
+                  Legal advocacy 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/using-technology/">
+                  Using technology
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/instructing/handling-legal-work-yourself/">
+                  Handling legal work yourself
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-78134" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Problems with a solicitor">
+    <h5><a href="/consumers/problems/">Problems with a solicitor</a></h5>
+    <ul id="nav2list-78134" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/report-solicitor/">
+                  Report a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/solicitor-closed-down/">
+                  What to do if a firm has closed
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/claim-papers/">
+                  Claim your papers from us
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/fraud-dishonesty/">
+                  Recognising problems with a solicitor
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/problems/financial-difficulty/">
+                  Law firms with financial problems
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-141935" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Compensation fund">
+    <h5><a href="/consumers/compensation-fund/">Compensation fund</a></h5>
+    <ul id="nav2list-141935" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/compensation-fund/">
+                  How the compensation fund works
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/claims-process/">
+                  Can you apply to the compensation fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/application-process/">
+                  Apply to the compensation fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/compensation-fund/resources/">
+                  How we decide on compensation fund applications
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-156186" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Indemnity Fund">
+    <h5><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></h5>
+    <ul id="nav2list-156186" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/what-solicitors-indemnity-fund/">
+                  What is the Solicitors Indemnity Fund? 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/can-apply-solicitors-indemnity-fund/">
+                  Can you apply to the Solicitors Indemnity Fund?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/apply-solicitors-indemnity-fund/">
+                  Apply to the Solicitors Indemnity Fund
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/consumers/solicitors-indemnity-fund/manage-fund/">
+                  How we manage the fund
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-93557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Scam alerts">
+    <h5><a href="/consumers/scam-alerts/">Scam alerts</a></h5>
+    <ul id="nav2list-93557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-166729" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Professional Indemnity Insurance">
+    <h5><a href="/consumers/professional-indemnity-insurance-guidelines/">Professional Indemnity Insurance</a></h5>
+    <ul id="nav2list-166729" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionbecome-solicitor" class="megaMenuSection become-solicitor">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/become-solicitor/">Becoming a solicitor</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/richard-williams.jpg" class="card-img-top" alt="Video frame of a person speaking, displayed on a video player interface.">
+                    <div class="card-body">
+                        <h6 class="card-title">Understanding the SQE</h6>
+                        <p class="card-text">View our latest on-demand SQE webinar.</p>
+                        <a href="/news/events/on-demand-events/sqe-next/" class="btn btn-primary btn-sm">Watch now</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-Becoming a solicitor" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/sqe/" data-node-id="139067" aria-role="menuitem">Solicitors Qualifying Examination (SQE) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/legal-practice-course-route/" data-node-id="145654" aria-role="menuitem">Legal Practice Course (LPC) route</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/qualified-lawyers/" data-node-id="143099" aria-role="menuitem">Qualified lawyers</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/character-and-suitability/" data-node-id="139126" aria-role="menuitem">Character and suitability</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/become-solicitor/admission/" data-node-id="95364" aria-role="menuitem">Admission</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-139067" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Solicitors Qualifying Examination (SQE) route">
+    <h5><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></h5>
+    <ul id="nav2list-139067" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/check-validate-qualification/">
+                  Checking and validate your degree
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qualifying-work-experience-candidates/">
+                  Qualifying work experience
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-case-studies/">
+                  Insights from aspiring and qualified solicitors
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/access-reinvestment-fund/">
+                  SQE fund for disadvantaged candidates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/sqe-training-options/">
+                  SQE training options
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/solicitor-apprenticeships/">
+                  Solicitor apprenticeships
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/sqe/qa/">
+                  Questions and answers - SQE
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-145654" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Legal Practice Course (LPC) route">
+    <h5><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></h5>
+    <ul id="nav2list-145654" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/qualifying-law-degree-common-professional-examination/">
+                  Qualifying law degree or Common Professional Examination
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/lpc/">
+                  Legal Practice Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/period-recognised-training/">
+                  Period of recognised training
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/professional-skills-course/">
+                  Professional Skills Course
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/becoming-solicitor-legal-practice-course-transitional-requirements/">
+                  Becoming a solicitor with the Legal Practice Course (transitional requirements)
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/substitute-qwe-sqe2-equivalent-training/">
+                  Substitute QWE and SQE2 as an equivalent to a period of recognised training application
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/equivalent-means-information-pack/">
+                  Equivalent Means
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/legal-practice-course-route/resources/">
+                  Resources
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-143099" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Qualified lawyers">
+    <h5><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></h5>
+    <ul id="nav2list-143099" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/sqe-exemptions/">
+                  SQE exemptions
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/principle-admission/">
+                  Qualified lawyers regulations
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/qualified-lawyers/jurisdictions-political-unrest/">
+                  Jurisdictions where there is political unrest
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139126" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Character and suitability">
+    <h5><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></h5>
+    <ul id="nav2list-139126" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/what-character-suitability/">
+                  What is character and suitability?
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/disclosing-character-suitability-issue/">
+                  Disclosing a character and suitability issue 
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/early-assessment-character-suitability/">
+                  Applying for an early assessment of character and suitability
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/character-and-suitability/character-suitability-faqs/">
+                  Character and suitability FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-95364" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Admission">
+    <h5><a href="/become-solicitor/admission/">Admission</a></h5>
+    <ul id="nav2list-95364" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/pathways-qualification/">
+                  Pathways to qualification
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/screening/">
+                  Apply for screening
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-forms-fees/">
+                  Admission to the roll of solicitors and related fees
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/admission-dates/">
+                  Admission dates
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/before-after-admission/">
+                  What to expect before and after admission
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/become-solicitor/admission/faqs/">
+                  Admission FAQs
+              </a>
+          </li>
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<div id="megaMenuSectionmysra" class="megaMenuSection mysra">
+    <header>
+        <h2 role="menubar" aria-label="Main menu"><a href="/mysra/">mySRA</a></h2>
+        <button class="btn btn-link menuClose" aria-label="Close menu">Close menu</button>
+    </header>
+    <section role="menu">
+            <div class="promotion-block" role="complementary" aria-label="Trending content">
+                <h4>Trending</h4>
+                <div class="card" style="--i:2" data-animation-offset="1">
+                    <img src="/globalassets/images/homepages/verifying-mysra.webp" class="card-img-top" alt="Person typing on laptop">
+                    <div class="card-body">
+                        <h6 class="card-title">Verifying your identity when logging in</h6>
+                        <p class="card-text">You must verify your identity using an authenticator app.</p>
+                        <a href="/mysra/verifying-mysra-account/" class="btn btn-primary btn-sm">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+        <div id="" class="navbar-nav nav1" role="menu" aria-label="Primary navigation">
+            <ul id="navlist-mySRA" class="px-0 navlist" role="menu">
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/updates/" data-node-id="97557" aria-role="menuitem">mySRA updates</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/manage-account/" data-node-id="139470" aria-role="menuitem">How to manage your account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/fees/" data-node-id="97551" aria-role="menuitem">Fees</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/get-mysra-account/" data-node-id="139463" aria-role="menuitem">Get a mySRA account</a></li>
+
+<li class="nav-item" role="none"><a class="nav-link" aria-expanded="false" aria-haspopup="true" href="/mysra/faqs/" data-node-id="97545" aria-role="menuitem">mySRA FAQs</a></li>
+            </ul>
+        </div>
+
+
+<div id="nav2-97557" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA updates">
+    <h5><a href="/mysra/updates/">mySRA updates</a></h5>
+    <ul id="nav2list-97557" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-139470" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="How to manage your account">
+    <h5><a href="/mysra/manage-account/">How to manage your account</a></h5>
+    <ul id="nav2list-139470" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/organisation-account/">
+                  How to manage my organisation account
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/manage-account/individual-account/">
+                  How to manage my individual account
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-97551" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Fees">
+    <h5><a href="/mysra/fees/">Fees</a></h5>
+    <ul id="nav2list-97551" class="px-0 nav2list" role="menu">
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/current-fees/">
+                  Fee policy  2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator/">
+                  Fee calculator 2026/27
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-policy-25-26/">
+                  Fee policy  2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/fee-calculator-25-26/">
+                  Fee calculator 2025/26
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/ways-to-pay/">
+                  Ways to pay for your practising certificate
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/mysra/fees/compensation-fund-contribution-level-principles/">
+                  Compensation fund contribution level principles
+              </a>
+          </li>
+    </ul>
+</div>
+
+<div id="nav2-139463" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="Get a mySRA account">
+    <h5><a href="/mysra/get-mysra-account/">Get a mySRA account</a></h5>
+    <ul id="nav2list-139463" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+
+<div id="nav2-97545" class="navbar-nav nav2" role="menu" aria-label="Secondary navigation" data-node-id="mySRA FAQs">
+    <h5><a href="/mysra/faqs/">mySRA FAQs</a></h5>
+    <ul id="nav2list-97545" class="px-0 nav2list" role="menu">
+    </ul>
+</div>
+    </section>
+    <footer role="contentinfo">
+        <div class="collapse navbar-collapse navbarNav" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my.sra.org.uk/">Log in to mySRA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consumers/register/">Search the Solicitors Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact-us/">Contact us</a>
+                    </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</nav>
+
+
+        
+
+        <!-- header end-->
+        <section class="container main-container" id="mainContent">
+
+            <!-- breacrumb -->
+
+
+
+    <!-- Start breadcrumb -->
+    <ol class="breadcrumb d-none d-lg-flex">
+		<li>
+				<a href="/">
+					<span class="visually-hidden">Home</span>
+					<i class="icon-home" aria-hidden="true"></i>
+				</a>
+		</li>
+		<li>
+					<a href="/sra/">About us </a>
+		</li>
+		<li>
+					<a href="/sra/consultations/">Consultation and discussion</a>
+		</li>
+		<li>
+Strengthening our continuing competence approach		</li>
+    </ol>
+    <!-- End breadcrumb -->
+            <!-- breacrumb end -->
+            
+                <div class="row">
+                    
+
+
+
+
+
+
+<article class="col-md-8 article articles-floated " >
+    
+
+
+<h1>Closed Consultation</h1>
+
+<h2 >Strengthening our continuing competence approach</h2>
+
+    <p >
+        16 July 2026
+    </p>
+
+
+
+<ul>
+<li>The consultation period ended on <strong>15 July 2026</strong></li>
+<li>You can <a href="#download">download the consultation paper</a> or read it below</li>
+<li><a href="/news/articles-blogs/high-ethical-standards-legal-profession/">Read about our wider approach to professional ethics</a></li>
+</ul>
+
+<h2>About this consultation</h2>
+<p>We are consulting on proposals to strengthen how we make sure that solicitors are keeping their knowledge and skills, including their ethical and professional obligations, up to date.</p>
+<p>You can find information in our&nbsp;<a href="/sra/consultations/consultation-listing/continuing-competence-2026/#download">initial equality and regulatory impact assessment and draft rules</a>.</p>
+<p>This consultation is running from 22 April 2026 until 15 July 2026.</p>
+<p>After this consultation closes, we will analyse the responses and decide how to proceed. We will publish our decision. Should we decide to change our current rules, we will seek approval from the Legal Services Board.</p>
+<h2>Background to consultation</h2>
+<h3>Our rationale for change</h3>
+<p>Consumers of legal services rightly expect their solicitor to be competent when they become a solicitor and remain competent throughout their careers. We work in the public interest and set and oversee standards of entry to the profession in England and Wales.&nbsp;</p>
+<p>We also require solicitors to maintain their competence following qualification. This consultation sets out proposals to update how we require solicitors to do this to give greater assurance that they will maintain their competence effectively.&nbsp;</p>
+<p>Our <a href="/solicitors/standards-regulations/code-conduct-solicitors/">Code of Conduct</a><a href="/solicitors/standards-regulations/code-conduct-solicitors/"> for Solicitors</a> requires them to maintain their competence and keep their professional knowledge and skills up to date. Our requirements apply to:</p>
+<ul>
+<li>solicitors who have a practising certificate</li>
+<li>solicitors who are exempt from holding a practising certificate under Section 88 of the Solicitors Act 1974</li>
+<li>solicitors practising overseas, but their practice predominantly relates to England and Wales, as set out in rule 1.3 of our Overseas and Cross-border Practice Rules</li>
+<li>registered European, foreign or Swiss lawyers.</li>
+</ul>
+<p>Our requirements mean an individual must make sure that:&nbsp;</p>
+<ul>
+<li>they keep their professional knowledge and skills up to date</li>
+<li>their understanding of their legal, ethical and regulatory obligations are up to date</li>
+<li>individuals they manage are competent to carry out their role.</li>
+</ul>
+<p>Our <a href="/solicitors/standards-regulations/code-conduct-firms/">Code of Conduct for Firms</a> requires them to make sure managers and employees also do this.</p>
+<p>We do not prescribe how a solicitor should keep their knowledge and skills and understanding of their professional ethical duties up to date. We could not prescribe an approach that would be meaningful for all solicitors given their distinct roles, practice areas, learning and development styles and requirements of their firm or employer.</p>
+<p>It is likely that in any year, every solicitor will be affected by a change in their role, the law (or its interpretation) and/or the context in which they are practising. We expect a solicitor to meet their obligation to maintain their competence by regularly reflecting on all aspects of their practice and addressing any identified learning and development needs.</p>
+<p>We believe most solicitors take steps to keep their knowledge and skills and understanding of their professional ethical duties up to date. However, we have evidence, through our programme of ongoing monitoring, of shortcomings in how some solicitors do this.&nbsp;</p>
+<p>We know that some solicitors cannot demonstrate that their learning and development is a result of regular and meaningful reflection. We also know many solicitors focus their learning and development on maintaining technical legal knowledge rather than the wider skills needed to maintain competence. Many have not demonstrated that they have carried out regular learning and development relating to ethics. And some have been unaware of, or have not taken account of, relevant warning notices and guidance when identifying their learning needs.</p>
+<p>Professional ethics are fundamental to the role of a solicitor. The majority will meet the standards we set out in our Principles. Cases where solicitors act dishonestly, or without integrity, are rare. But when solicitors act unethically it can have profound consequences not only for those directly impacted &ndash; such as clients or people on the other-side of a case. However, it can also undermine the proper functioning of the justice system and erode public trust in legal services.</p>
+<p>The proper administration of justice relies on solicitors behaving with integrity. As officers of the court, solicitors should never let interests, such as the outcome for their client, undermine the collective trust the public place in the profession.</p>
+<p>We are here to drive high ethical standards in the profession. That starts by making sure those who qualify have demonstrated that they understand their ethical obligations and how they apply in practice. Ethics is assessed throughout the Solicitors Qualifying Examination (SQE).&nbsp;</p>
+<p>We have also published a range of resources to support solicitors. These are focused on areas where we know there can be issues, for example guidance for in-house solicitors. These recognise the unique challenges in their work, including potential pressure from their employer to act unethically.</p>
+<h3>Proposed changes</h3>
+<p>Given the challenges we have identified in how some solicitors maintain their competence and our focus on making sure they act ethically, we are proposing changes to our continuing competence requirements. These are designed to:&nbsp;</p>
+<ul>
+<li>sharpen our expectations</li>
+<li>better drive the learning and development behaviours we want to see</li>
+<li>create a culture of ongoing discussion and focus on ethical decision making</li>
+<li>give us greater assurance that all solicitors are maintaining their competence.</li>
+</ul>
+<p>Our proposals include:</p>
+<ul>
+<li>Requiring solicitors to record their learning and development needs and how they identified and addressed these.</li>
+<li>Requiring solicitors to participate annually in mandatory ethics discussions. They are bound by their ethical duties, wherever and however they practise and will encounter ethical dilemmas and novel scenarios through which they must work. We believe that engaging in such discussions with other solicitors about how to approach ethical dilemmas and unfamiliar scenarios will help them decide on the right course of action when approaching such situations in practice.</li>
+<li>Making a rule so that we can require some or all solicitors to complete specific learning and development where we identify a competence concern or concern in how competence is maintained.</li>
+</ul>
+<p><span>We also intend to introduce a rule that enables us to require non- authorised persons within an SRA regulated organisation to complete learning and development where we identify a competence concern. This strengthens the existing </span><a href="/solicitors/standards-regulations/code-conduct-firms/">requirement</a><span> for SRA regulated organisations to make sure non-authorised staff are competent to carry out their role.</span></p>
+<p>If implemented, our proposals will apply to those solicitors who our covered by our existing requirements.</p>
+<p>We have engaged with stakeholders as we developed our policy thinking. This included meetings with:</p>
+<ul>
+<li>individual solicitors</li>
+<li>small, medium and large SRA-regulated firms</li>
+<li>in-house solicitors and their employers</li>
+<li>the Sole Practitioners Group</li>
+<li>the Society of British Bangladeshi Solicitors</li>
+<li>the Law Society.</li>
+</ul>
+<p>We have also engaged with other regulators to understand how they satisfy themselves that individuals they regulate are maintaining their competence. We have used this engagement to help inform our initial <a href="#download">Regulatory and Equality and Diversity Impact assessments</a>.</p>
+<p>We are grateful for the engagement so far, which has helped us to refine proposals for public consultation. As well as welcoming responses to the proposals, we will engage with stakeholders through meetings and events during this consultation period.</p>
+
+
+
+      <a href="#" class="open-all text-end dyn">Open all</a>
+
+<div class="panel-group accordion collapse in dyn"  role="tablist" aria-multiselectable="true" aria-expanded="true">
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_a042">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_a042" aria-expanded="true" aria-controls="collapse_a042" class="collapsed">
+                          <span>Our current continuing competence approach</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_a042" class="panel-collapse" role="tabpanel" aria-labelledby="heading_a042">
+                  <div class="panel-body">
+
+
+
+          
+<p>We do not prescribe how a solicitor should maintain their competence. We expect solicitors to regularly reflect on all aspects of their practice and address any identified learning and development needs. We provide good practice resources to help solicitors consider how to do this including keeping their understanding of their legal, ethical and regulatory obligations, up to date. In these resources, we say that solicitors should:</p>
+<ul>
+<li>regularly think about their practice to identify if there is knowledge and/or skills they need to develop to maintain their competence</li>
+<li>consider their ethical and professional obligations, including awareness and application of any <a href="/solicitors/guidance/topic/all-topics/">warning notices and guidance</a> that are relevant to their work</li>
+<li>record how they identified and addressed any learning and development needs</li>
+<li>evaluate whether the completed learning and development addressed the identified need and whether anything further is needed.</li>
+</ul>
+<p>We do not currently require solicitors through a rule to record their learning and development. However, we provide a template for solicitors to use should they wish to.</p>
+<p>We set out the skills, knowledge and behaviours required of all solicitors in our <a href="/solicitors/resources/continuing-competence/competence-statement/">Statement of Solicitor Competence</a>. The statement provides the basis for the knowledge and skills assessed on the SQE.</p>
+<p>We define competence as 'the ability to perform the roles and tasks required by one's job to the expected standard' (Eraut &amp; du Boulay, 2001). This definition recognises that requirements and expectations change depending on job role and context. It also recognises that competence develops, and that an individual may work 'competently' at many different levels, either at different stages of their career, or indeed from one day to the next depending on the nature of their work. Solicitors can use the Statement of Solicitor Competence to identify their learning and development needs.</p>
+<p>Solicitors must declare to us annually, when they renew their practising certificate, that they have reflected on their practice and addressed their identified learning and development needs. They must also declare that they have kept their knowledge of legal, ethical and regulatory obligations relevant to their role up to date.</p>
+<p>This is an important regulatory declaration. If a solicitor fails to confirm they meet these requirements, we can impose a condition on their practising certificate to prevent them from practising unsupervised.</p>
+<p>In 2024, we imposed conditions to restrict the practice of 10 solicitors who did not assure us they were maintaining their competence. A solicitor must provide evidence that they have maintained their competence and kept their knowledge of legal, ethical and regulatory obligations relevant to their role up to date to have this condition removed.</p>
+<p>We regularly review whether and how solicitors are meeting their requirement to maintain their competence and whether our regulation continues to drive the learning behaviours we expect to see. Our ongoing monitoring programme includes:</p>
+<ul>
+<li>Analysing reports made to us to identify competence concerns or competence issues in specific practice areas. Since 2019, we have analysed more than 83,000 reports. We publish findings in our annual assessment of competence report.</li>
+<li>Conducting thematic reviews and inspections where we have competence concerns about an area of practice or a type of practice setting. Since 2023, we have carried out reviews and inspections in residential conveyancing, probate, immigration, family law and landlord and tenant law.</li>
+<li>Reviewing training records to understand if and how solicitors have completed learning and development. Since 2023, we have reviewed more than 1,000 individual records in the above practice areas.</li>
+<li>Delivering a rolling programme of inspections to check on the extent to which SRA-regulated firms are complying with anti-money laundering regulations. We carry out around 350 inspections every year.</li>
+<li>Carrying out specific checks on training and supervision arrangements in SRA-regulated firms to understand the steps they take to assure themselves that the solicitors they employ are maintaining their competence.</li>
+<li>Monitoring developments and emerging competence risks through market monitoring.</li>
+<li>Regularly engaging with solicitors to understand the challenges they face maintaining their competence.</li>
+</ul>
+<p>We publish findings from this ongoing work and report on how we address the issues we have identified in our <a href="/sra/research-publications/annual-assessment-continuing-competence-2025/">annual assessment of competence</a>.</p>
+<h4>Why we propose to strengthen our continuing competence approach</h4>
+<p>We have evidence from our monitoring that most solicitors, supported by their firms, take steps to maintain their competence and display the learning and development behaviours we expect to see. Many solicitors demonstrated and documented that they had considered their practice and explained their learning and development needs and how they addressed them. We also have evidence that indicates many firms have robust systems and controls in place to ensure solicitors maintain their competence and deliver good-quality legal services.</p>
+<p>However, this is not always the case. Evidence from our monitoring work does not give us assurance that our current approach is universally driving the learning and development behaviours we expect to see. We have outlined these shortcomings in our recent annual assessments of competence.</p>
+<p>Our evidence suggests that some solicitors are:</p>
+<ul>
+<li>not able to demonstrate that their learning and development was a result of meaningful and regular reflection</li>
+<li>focussing their learning and development exclusively on maintaining their technical legal knowledge rather than other areas of their practice that may be required to maintain their competence</li>
+<li>not regularly undertaking learning and development on their ethical and professional obligations</li>
+<li>not aware of, or not having regard to, our warning notices and guidance when they consider their learning and development needs.</li>
+</ul>
+<p>We have already taken steps to address a number of these issues by:</p>
+<ul>
+<li>Updating our continuing competence resources to further clarify our expectations and the steps a solicitor should take to keep their knowledge and skills up to date. This includes how a solicitor can reflect on all aspects of practice and reiterating the importance of understanding and applying warning notices and guidance to keep ethical and professional obligations up to date.</li>
+<li>Strengthening the declaration that solicitors make when renewing their practising certificate.</li>
+<li>Making it easier for solicitors to find guidance and warning notices we have published.</li>
+<li>Regularly reminding solicitors of their regulatory obligations and providing links to our continuing competence resources in our profession-wide communications and through a social media campaign.</li>
+</ul>
+<p>However, given the evidence, and wider concerns about the ethical conduct of solicitors, we believe there is more we can do. We are therefore consulting on proposals to strengthen our continuing competence requirements.</p>
+<p>We need better assurance that all solicitors are maintaining their competence. This involves solicitors:</p>
+<ul>
+<li>considering all aspects of their practice and their ethical and professional obligations</li>
+<li>addressing all learning and development needs</li>
+<li>maintaining a record of the learning and development they have completed and why.</li>
+</ul>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_2d45">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_2d45" aria-expanded="true" aria-controls="collapse_2d45" class="collapsed">
+                          <span>Consultation proposal one</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_2d45" class="panel-collapse" role="tabpanel" aria-labelledby="heading_2d45">
+                  <div class="panel-body">
+
+
+
+          
+<h3>Requiring solicitors to record their learning and development needs and how they identified and addressed these</h3>
+<h4>Our proposal</h4>
+<p>We want all solicitors to regularly consider their role and their work to help them identify all their learning and development needs. We propose to drive this behaviour by introducing a new rule that requires all solicitors to keep a record of their learning and development that:</p>
+<ul>
+<li>confirms that they considered their role and their work to identify learning and development needs</li>
+<li>explains how they identified their learning and development need(s)</li>
+<li>records what the learning and development need(s) were and how they were addressed.</li>
+</ul>
+<h4>The problem we want to address</h4>
+<p>We already outline in our continuing competence resources that we expect solicitors to regularly consider all aspects of their role and their work. This involves them reviewing whether they have the skills and knowledge to fulfil their role competently and to address any learning and development needs they identify. This is important because a solicitor's role, the law and the demands of legal practice change. Consequently, the skills and knowledge they need to practise competently change too. Regularly considering their role and their work helps to identify all learning and development needs.</p>
+<p>We have evidence from our ongoing monitoring to suggest that some solicitors regularly do this. They actively consider whether they have the skills and knowledge to perform their role competently. They record how they approached this, together with learning and development needs identified and how they addressed them.</p>
+<p>However, most training records we reviewed simply listed the learning and development activity carried out and the date it was completed. There was no explanation as to why it was needed or how this need was identified. For example, in our landlord and tenant training record review, 65% of solicitors listed completed learning and development without providing an explanation as to why it was required. Similarly, 47% of solicitors did the same in our probate review.</p>
+<p>We also regularly see records of learning and development focused mainly or exclusively on technical legal knowledge rather than other areas of a solicitors' role or work. A small number of solicitors could not provide any evidence that they were keeping their knowledge and skills up to date.</p>
+<p>We cannot be certain from the evidence we reviewed whether decisions about the learning and development carried out by many solicitors had been informed by them fully reviewing all aspects of their role and work. This raises concerns that not all learning and development needs are being identified and addressed, and that competence is not being maintained.</p>
+<p>We therefore lack assurance that solicitors are taking the steps we expect to identify their learning and development needs and keep their knowledge and skills up to date.</p>
+<h4>Details of our proposal</h4>
+<p>We want to further strengthen the expectations we currently place on solicitors so that all solicitors regularly consider their practice to identify their learning and development needs. This will help provide greater assurance that all learning and development needs are identified following proper consideration of all aspects of a solicitor's role and practice.</p>
+<p>We propose to require all individuals covered by the scope of the rule to:</p>
+<ul>
+<li>Record how they identified their learning and development needs, having considered all aspects of their role and work. And if no learning and development needs were identified after appropriate consideration, the reason or reasons why the solicitor reached this conclusion.</li>
+<li>Record how they addressed their learning and development needs.</li>
+<li>Retain for a minimum of three years evidence of the learning and development they undertook. We recognise that some firms may wish to keep records longer in line with their own data retention policy.</li>
+</ul>
+<p>We recognise that many firms and employers of solicitors already have systems or approaches in place to record information we are proposing. There are also useful, and often free, tools offered by third parties such as the Law Society Continuing Professional Development diary. As we do not want to disrupt systems that are in place and working well, we will not prescribe the form in which this information is recorded. We will provide an optional template that can be used if we implement this proposal.</p>
+<p>We recognise solicitors and firms may need to implement a new approach or amend their existing approach to recording learning and development to meet the proposed rule. We propose to mitigate this impact by introducing this rule from the start of the 2027/28 practising year. This will provide solicitors and firms with a reasonable lead in time to make any changes before the requirement takes effect.</p>
+<p>We will also strengthen the current declaration that solicitors make when renewing their practising certificate. We will include a declaration that requires solicitors to confirm that they have considered all aspects of their work and role, completed learning and development and have evidence that meets our requirements. We will monitor this and any solicitor who does not make this declaration may be subject to a condition on their practising certificate until they have demonstrated they have met our requirements.</p>
+<h4>Alternative options we considered</h4>
+<p>We considered introducing a new rule to require all solicitors to carry out learning and development under each of the four areas of the Statement of Solicitor Competence (Ethics, professionalism and judgment, Technical legal practice; Working with other people; and Managing themselves and their own work). This would make sure that a solicitor carried out some learning and development on all the skills, knowledge and behaviours required to perform competently.</p>
+<p>However, we discounted this as it could drive perverse learning and development behaviour. For example, to meet the requirement a solicitor could simply carry out any learning and development under each area of the statement without it contributing to their ongoing competence. It could also impose costs on solicitors and firms to complete learning and development under each area, even where it was not required.</p>
+<p>We think that there are benefits in requiring solicitors to upload or input details of their reflection and completed learning and development into our IT systems. This approach is used by other professional service regulators. Doing so would help reinforce our requirements; further drive the behaviours we expect to see and enable us to assess compliance more easily.</p>
+<p>However, implementing this approach would require significant IT development. Our current organisational priority is to further develop the role that data plays in how we regulate. This includes developing a robust data collection, storage and analysis strategy. We will, however, keep our position on uploading training information under review.</p>
+<h4>Consultation questions</h4>
+<h5>Question 1</h5>
+<p>To what extent do you agree or disagree with our proposal to require all solicitors to keep a record of their learning and development that:</p>
+<ul>
+<li>explains how they identified their learning and development need(s)</li>
+<li>sets out the learning and development they carried out to address the identified need(s)</li>
+<li>confirms that they have considered all aspects of their work and role.</li>
+</ul>
+<h5>Question 2</h5>
+<p>To what extent do you agree or disagree with our proposal to require all solicitors to keep a record of their learning and development for at least three years?&nbsp;</p>
+<h5>Question 3</h5>
+<p>To what extent do you agree or disagree with our proposal to require solicitors to confirm that they have:&nbsp;</p>
+<ul>
+<li>considered all aspects of their work and role</li>
+<li>completed learning and development</li>
+<li>evidence that meets our requirements when renewing their practising certificate?</li>
+</ul>
+<h5>Question 4</h5>
+<p>Do you have any other comments on consultation proposal one?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_8a2d">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_8a2d" aria-expanded="true" aria-controls="collapse_8a2d" class="collapsed">
+                          <span>Consultation proposal two</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_8a2d" class="panel-collapse" role="tabpanel" aria-labelledby="heading_8a2d">
+                  <div class="panel-body">
+
+
+
+          
+<h3>Requiring solicitors to participate annually in mandatory ethics discussions</h3>
+<h4>Our proposal</h4>
+<p>We propose to introduce a rule to require all solicitors to take part in a minimum total of three-hours of discussions on professional ethics facilitated by a solicitor who has a current practising certificate or is on the roll.</p>
+<h4>The problem we want to address</h4>
+<p>Solicitors must always behave ethically. This is fundamental to being a solicitor and to public trust in the solicitors' profession. Unethical behaviour can undermine the rule of law and the administration of justice and can cause consumer detriment. Behaving ethically often goes beyond a solicitor simply complying with rules. It involves recognising what may be an ethical scenario and what do to when different ethical duties come into conflict.</p>
+<p>Our regulatory approach provides a strong foundation for ensuring that solicitors uphold their ethical duties. Our framework of Principles and Codes of Conduct clearly sets out what we expect of solicitors. We also provide specific guidance and warning notices to emphasise our expectations in relation to ethical issues.</p>
+<p>We do not currently prescribe that a solicitor must complete any ethical learning and development to maintain their competence post qualification. However, the Statement of Solicitor Competence sets out what a solicitor needs to be able to do to perform their role effectively from the outset of their career. This, and our Standards and Regulations, require solicitors to act honestly and with integrity, in accordance with legal and regulatory requirements and:</p>
+<ul>
+<li>recognise ethical issues and exercise effective judgment in addressing them</li>
+<li>understand and apply the ethical concepts which govern their role and behaviour as a lawyer</li>
+<li>identify the relevant Principles and rules of professional conduct and follow them</li>
+<li>resist pressure to condone, ignore or commit unethical behaviour</li>
+<li>respect diversity and act fairly and inclusively.</li>
+</ul>
+<p>As explained earlier, we have seen evidence that some solicitors focus their learning and development on technical matters. These matters are clearly important. But there is a risk solicitors will not refresh their understanding of ethical matters or learn from recent cases. In our Family Law training record review, over 70% of solicitors in the sample had not documented that they had completed any ethical training during the review period.</p>
+<p>We also know that some solicitors lack awareness of our warning notices and guidance. Understanding and applying warning notices and guidance is important to how a solicitor maintains their competence including keeping their understanding of their legal, ethical and regulatory obligations up to date. Many solicitors we have engaged with have suggested they are unclear on how they should comply with their obligation to keep their understanding of their legal, ethical and regulatory obligations up to date.</p>
+<p>Our analysis of reports made to us between 2019 and 2025 showed 52% of the 83,000 reports related to ethics, professionalism, and judgment (section A of the Statement of Solicitor Competence). Reports relating to this section of the Statement were more likely to result in us investigating the report.</p>
+<p>In March 2026, The Legal Services Board, which regulates frontline regulators such as the SRA, published its '<a href="https://legalservicesboard.org.uk/wp-content/uploads/2026/03/LSB-Upholding-Professional-Ethical-Duties-March-2026.pdf">Statement of policy on upholding professional ethical duties</a>'.</p>
+<p>The LSB's research evidence suggests that one of the possible reasons for regulated legal professionals (authorised persons) failing to meet their ethical duties is a lack of understanding and/or due regard to the significance of what upholding professional ethical duties means in practice, and how to prioritise different duties when they come into conflict with each other.</p>
+<p>The LSB also points to a possible lack of empowerment and support to enable authorised persons to maintain their professional ethical duties in the face of commercial pressures and powerful clients, including in an in-house environment.</p>
+<p>The LSB's statement specifies several outcomes that all frontline regulators must pursue to support those who are regulated to understand and uphold their professional ethical duties. Included within this is that authorised persons should 'have the right knowledge and skills on professional ethical duties, not only in their preparation for qualification, but also throughout their career'.</p>
+<p>The LSB also recognises the importance of authorised persons being supported and empowered to uphold their professional ethical duties, including when they are challenged.</p>
+<p>The House of Lord's Constitution Committee's recent <a href="https://publications.parliament.uk/pa/ld5901/ldselect/ldconst/211/211.pdf">inquiry</a> into the rule of law highlighted concerns [paragraphs 129-133] about the ongoing ethical training of lawyers and recommended that it should be reviewed and strengthened so that lawyers receive dedicated ethical training throughout their careers.</p>
+<h4>Rationale behind our proposal</h4>
+<p>To maintain competence, all solicitors should regularly undertake learning and development to keep their understanding of their legal, ethical and regulatory obligations up to date. We want to drive a culture in which solicitors regularly discuss, consider and are supported to think about ethical duties and how they apply beyond the rules of professional conduct, are confident in making ethical decisions and can deal comfortably with unfamiliar or ethical scenarios.</p>
+<p>We therefore propose to introduce a new rule to require solicitors to participate annually in facilitated group discussions about ethical duties and dilemmas for a total of at least three hours. Solicitors would have to declare that they had met this requirement when renewing their practising certificate.</p>
+<p>Facilitated group discussion is a form of learning that is used in other sectors and other countries. It builds on <a href="https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD#overview">Lave and Wenger's </a>concept of community of practice which emphasises that learning is fundamentally a social process. The benefit of this approach is supported by wider evidence:</p>
+<ul>
+<li>One <a href="https://jle.aals.org/home/vol41/iss1/9/">academic study</a> suggests that 'the discussion method of teaching professional responsibility may encourage 'more reflective moral reasoning'.</li>
+<li><a href="https://scholarship.law.wm.edu/wmlr/vol39/iss2/6">Another study</a> suggests that the 'problem method' of sharing a hypothetical scenario for discussion is beneficial in the teaching of legal ethics.</li>
+<li>A <a href="https://link.springer.com/article/10.1007/s40889-022-00143-9">study in Finland</a> of health and social care students reported that 'Findings suggest that online dilemma discussions can advance students' moral reasoning development. This is especially when students' exposure to higher-level arguments is ensured through complementary means, such as instructions, examples and plenary discussions.'</li>
+<li>A <a href="https://pubmed.ncbi.nlm.nih.gov/28946799/">study</a> of medical students in Turkey found that team-based learning (versus lectures) resulted in improved long-term retention of ethics knowledge.</li>
+<li><a href="https://web.archive.org/web/20220130140207/https:/www.skillsforcare.org.uk/Documents/Learning-and-development/ASYE-child-and-family/Critically-reflective-action-learning.pdf">Research by Skills for Care</a> found that group action learning can lead to improved decision making, increased confidence and a willingness to act in difficult work situations.</li>
+</ul>
+<p>We recognise that solicitors work in a wide range of practice settings and have differing learning styles and practice patterns. We also know that some solicitors may not have worked for a full practising year before being required to confirm that they have participated in mandatory ethics discussions. For example, they may have been on maternity or parental leave or work part time.</p>
+<p>Acting ethically is essential to maintaining public confidence in the legal profession, upholding the rule of law, and supporting the effective administration of justice. Despite the differences in how solicitors practice, we expect all solicitors to meet our proposed requirement. And to participate in three hours of mandatory ethics discussion in each year they have practised even though they may not have practised for a full year.</p>
+<p>Our intention is therefore to provide sufficient flexibility in how this requirement may be met, while making sure that all solicitors can engage meaningfully in mandatory ethics discussions. Further details on this flexibility are set out below and in our regulatory and equality impact assessments.</p>
+<p>This proposal would strengthen our current approach to how solicitors maintain and develop their understanding of their ethical duties. It will help create the conditions for ethical behaviour by enabling solicitors to discuss ethical duties, dilemmas and recent cases with peers or other colleagues and support solicitors to think beyond the application of the rules of professional conduct.</p>
+<p>It will encourage solicitors to consider how they prioritise different duties and help develop confidence in making ethical decisions. Our proposal builds on the expectations of legal services regulators set out in the LSBs statement of policy on upholding professional ethics duties and our wider, proactive work with the profession to&nbsp;<a href="/news/blogs/high-ethical-standards-legal-profession/">better embed ethical conduct</a>.</p>
+<h4>The facilitator</h4>
+<p>We propose that the discussions must be facilitated by a solicitor who has a current practising certificate, or who is on the roll. We also propose that a facilitator must have:</p>
+<ul>
+<li>practised as a solicitor for a minimum of three years since admission; and</li>
+<li>no regulatory or disciplinary record with us.</li>
+</ul>
+<p>Under our proposals, the facilitator would be responsible for:</p>
+<ol>
+<li>Selecting the topic(s) for discussion and providing, introducing and guiding the discussion and providing opportunities for, and encouraging, participation.</li>
+<li>Keeping records of all participants who attended and participated.</li>
+<li>Confirming to us, if requested, that named individuals had attended a session and had actively participated.</li>
+</ol>
+<p>Our objective is to make sure discussions are focussed on ethical dilemmas and challenges and that all participants actively engage. Our requirements for a facilitator will help make sure that sessions are facilitated by an individual who has an understanding and experience of the regulatory and ethical obligations we require of solicitors. We also have a relationship with them which allows us to act if sessions are not delivered in accordance with our requirements and if we require confirmation that a solicitor has participated in a session or not.</p>
+<p>We would not seek to authorise individuals to take on the facilitator role as this could be burdensome and act as a disincentive to do so. Our Code of Conduct provides a clear framework for any solicitor who acted as a facilitator to comply with our requirements, for example, acting with honesty and integrity. If we had evidence that a facilitator had not met the requirements in the above paragraph, we could take regulatory action.</p>
+<p>We recognise that not all solicitors would feel they have the skills to facilitate discussion sessions. If we implement this proposal, we will provide resources to outline our expectations and support the role of facilitators.</p>
+<h4>Participants in mandatory ethics discussions</h4>
+<p>We propose that, to be effective, the discussions must involve at least three participants, one of whom must act as the facilitator and guide the discussion. We also propose setting a maximum number of 12 participants to make sure everyone can engage and participate.</p>
+<p>Participants could include non-solicitor staff and other legal professionals such as barristers, CILEX lawyers or non-qualified staff. This will help maximise flexibility and could also encourage SRA-regulated firms to include non-solicitor staff in discussion and reflection on professional ethical duties, where appropriate.</p>
+<p>Aspiring solicitors must pass the SQE and complete qualifying work experience (QWE) before they can be admitted. Both parts of the SQE assessments focus on ethics.</p>
+<p>We can see value in aspiring solicitors participating in mandatory ethics discussions. Participation would help socialise them to ethical dilemmas in practice, reinforce the importance of ethical decision making from an early stage in their career and help build confidence in their ethical decision making. We are not proposing at this stage that participation for aspiring solicitors is mandatory.</p>
+<p>However, we are interested in your views on whether we should introduce such a requirement. And any other thoughts you might have on whether we should introduce additional requirements on aspiring solicitors to provide additional assurance that, before they are admitted, they have a good understanding of ethics.</p>
+<h4>Content and format of mandatory ethics discussions</h4>
+<p>We do not propose to prescribe the content of the discussions but to instead set out some overarching objectives. We propose the discussion must focus on ethical issues and dilemmas based on hypothetical or actual case studies and do one or more of the following:</p>
+<ol>
+<li>Provide opportunities to discuss application of the code of conduct and professional ethical duties to practice-based scenarios.</li>
+<li>Promote understanding of why ethical conduct is important for solicitors, the role of a solicitor in society and the rationale behind our rules.</li>
+<li>Develop confidence in making ethical decisions, especially where there is a conflict between different duties, and empower participants to challenge others' behaviour when appropriate.</li>
+<li>Promote understanding of the importance of the working culture and environment in supporting ethical decision making.</li>
+<li>Promote understanding of other factors that can affect ethical decisions such as personal difficulties and poor mental health.</li>
+</ol>
+<p>We also do not propose to prescribe the format of the sessions. They could involve short presentations, be online or involve videos but must not consist solely of a lecture. They must require and provide opportunities for participants to actively engage in discussions which enable them to consider how they would behave in the scenarios discussed.</p>
+<p>To support implementation of this requirement, we would provide materials and case studies for facilitators to use, if they wish. These would be based, in part, on anonymised real life ethical scenarios that our Professional Ethics team have encountered.</p>
+<p>To ensure maximum flexibility, we would not require facilitators to use our materials and would allow others to develop materials either for commercial purposes or for use with their own employees. We expect facilitators would want to develop their own materials and case studies over time.</p>
+<p>We also propose not to authorise organisations that produce materials intended to support the discussions. We do not want to make the requirements restrictive or deter firms and other employers from organising their own discussions and producing their own materials.</p>
+<h4>Delivery of mandatory ethics discussions</h4>
+<p>We do not intend to prescribe who could organise the group discussions and we would not seek to authorise or validate providers who may wish to deliver such sessions. We do not want to make the requirements too restrictive or deter firms, employers and other groups from organising sessions for their staff or members.</p>
+<p>We see merit in firms and employers of solicitors delivering the sessions themselves as this would:</p>
+<ul>
+<li>allow the use of case studies relevant to the organisation and its practice areas</li>
+<li>foster a culture of engagement with ethical practice within the organisation</li>
+<li>send a signal that senior leaders, acting as facilitators, are committed to professional ethical behaviour and support a culture of open and honest discussion</li>
+<li>be cost effective.</li>
+</ul>
+<p>Whilst we would encourage employers to organise sessions for their own staff, we intend to allow sessions to be organised by local law societies or other groups for their members. They could also be run by commercial providers, including SQE training providers. We would not seek to authorise or validate providers who may wish to deliver such sessions.</p>
+<p>We do not want to make the requirements too restrictive or deter firms, employers and other groups from organising sessions for their staff or members. We think our proposed approach would enable all solicitors including sole practitioners, those working abroad and sole in-house solicitors to meet our proposed requirement.</p>
+<h4>Confirming participation in mandatory ethics discussions</h4>
+<p>We propose that solicitors would certify that they had met the requirement as part of their declaration when renewing their practising certificate. We would expand the existing continuing competence statement which forms part of that declaration.</p>
+<p>We propose solicitors should be required to keep a record of their participation in facilitated discussions, in line with our proposal, set out earlier, that all solicitors must keep a record of their learning and development. We propose solicitors should keep a record of the date(s) they participated in their discussion(s), the name of the facilitator(s) and the topic(s) of the session(s).</p>
+<p>If we decide to proceed with this proposal, and subject to Legal Services Board approval, we propose the rule would take effect from the start of the 2027/28 practising year. All solicitors would be required to confirm they had met this requirement when they renew their practising certificate in 2028.</p>
+<h4>Alternative options we considered</h4>
+<p>We considered requiring solicitors to complete more than three hours of facilitated discussions. Some organisations we engaged with during the development of our proposals welcomed the focus and clarity on ethical learning development but suggested that our approach could require additional administration to organise and facilitate mandatory ethical discussions.</p>
+<p>We believe that three hours is an appropriate length of time to participate in a facilitated group discussion to achieve our objectives, but we welcome views on this through this consultation. If we introduce this proposal, we will evaluate its impact and keep it under review.</p>
+<p>We also considered introducing a requirement that solicitors must complete a prescribed on-line course on ethics. In many ways, this would be a simpler requirement both to prescribe and fulfil. However, we do not believe it would be as effective. The content could not be tailored to different practice areas. Individuals might complete the course without active engagement.</p>
+<p>Our view is that mandatory participation in facilitated group discussions, focussing on ethical issues and dilemmas, is a more effective method of learning than simply requiring solicitors to learn rules about ethics and professional conduct and then assess their knowledge.</p>
+<h4>Consultation questions</h4>
+<h5>Question 5</h5>
+<p>To what extent do you agree or disagree with the proposal to introduce a new requirement for annual participation in mandatory ethics discussions?&nbsp;</p>
+<h5>Question 6</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should be facilitated by a solicitor with a current practising certificate, or who is on the roll and has practised as a solicitor for a minimum of three years since admission or registration and has no regulatory or disciplinary record with us?&nbsp;</p>
+<h5>Question&nbsp;7</h5>
+<p>To what extent do you agree or disagree with the proposed requirements for facilitators including:</p>
+<ul>
+<li>selecting the topic(s) for discussion and providing, introducing and guiding the discussion and providing opportunities for, and encouraging, participation</li>
+<li>keeping records of all participants who attended and participated</li>
+<li>confirming to us, if requested, that named individuals had attended a session and had actively participated.</li>
+</ul>
+<h5>Question 8</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should involve a minimum of three and a maximum of twelve participants?</p>
+<h5>Question&nbsp;9</h5>
+<p>Do you have any thoughts on allowing aspiring solicitors undertaking qualifying work experience or other non-solicitor staff to participate in mandatory ethics discussions?</p>
+<h5>Question 10</h5>
+<p>Do you have any other thoughts on whether we should introduce additional requirements on aspiring solicitors to provide additional assurance that, before they are admitted, they have a good understanding of ethics?</p>
+<h5>Question 11</h5>
+<p>Do you think that the requirement to participate in three hours of mandatory ethics discussions is a) too short b) about right c) too long?</p>
+<h5>Question 12</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should cover one or more of the following objectives:</p>
+<ul>
+<li>provide opportunities to discuss application of the code of conduct and professional ethical duties to practice-based scenarios</li>
+<li>promote understanding of why ethical conduct is important for solicitors, the role of a solicitor in society and the rationale behind our rules</li>
+<li>develop confidence in making ethical decisions, especially where there is a conflict between different duties, and empower participants to challenge others' behaviour when appropriate</li>
+<li>promote understanding of the importance of the working culture and environment in supporting ethical decision making</li>
+<li>promote understanding of other factors that can affect ethical decisions such as personal difficulties and poor mental health.</li>
+</ul>
+<h5>Question 13</h5>
+<p>To what extent do you agree or disagree that we should provide case studies for optional use during mandatory ethics discussions?</p>
+<h5>Question 14</h5>
+<p>To what extent do you agree with our proposal that solicitors would certify that they had met the requirement as part of their declaration when renewing their practising certificate?</p>
+<h5>Question 15</h5>
+<p>Do you have any other comments on consultation proposal two?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_8fe3">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_8fe3" aria-expanded="true" aria-controls="collapse_8fe3" class="collapsed">
+                          <span>Consultation proposal three</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_8fe3" class="panel-collapse" role="tabpanel" aria-labelledby="heading_8fe3">
+                  <div class="panel-body">
+
+
+
+          
+<h3>We propose to make a rule so that we can require some or all solicitors to complete specific learning and development where we identify a competence concern or concerns in how competence is maintained.</h3>
+<h4>Our proposal</h4>
+<p>We propose to make a rule so that we can require some or all solicitors to complete specific learning and development where we identify a competence concern or concern in how competence is maintained.</p>
+<h4>The problem we want to address</h4>
+<p>We monitor whether and how solicitors are maintaining their competence through our ongoing programme of monitoring. We have found competence concerns or concerns in how a solicitor maintains their competence, for example solicitors not regularly carrying out learning and development to keep their understanding of ethics and their professional obligations up to date. These shortcomings often relate to, or involve, all solicitors or firms but sometimes relate to a specific practice area or cohort of solicitors.</p>
+<p>We want to strengthen our approach so we can take targeted and appropriate remedial and preventative action where we identify concerns about specific issues or shortcomings in how competence is being maintained. We propose to do this by making a rule so that we can require some or all solicitors to complete specific learning and development when we have identified concerns.</p>
+<h4>Details of our proposal</h4>
+<p>Our proposal would enable us to prescribe and require learning and development that is proportionate to the competence issue we have identified. The requirement might relate to specific practice areas or role holders or be profession wide.</p>
+<p>We have illustrated below two indicative examples of the types of situations where we could deploy our proposed approach:</p>
+<h4>Example 1</h4>
+<p>We identify a practice issue where there is significant potential or actual harm and concerns about how solicitors are complying with our requirements. In response, we issue profession wide guidance.</p>
+<p>We develop an online course to raise awareness and understanding of the guidance and to help solicitors to meet our expectations. We require all solicitors to complete the course within two months and confirm that they have done so by making a declaration to us.</p>
+<p>Any solicitor failing to complete the learning and development and declaration could be subject to enforcement action.</p>
+<h4>Example 2</h4>
+<p>Our analysis of reports made to us and stakeholder engagement identifies potential or actual client harm because some solicitors practising a specific area of law are not completing learning and development to help them identify and engage with vulnerable clients.</p>
+<p>In response, we use the proposed rule to require solicitors working in the specific area of law to complete learning and development. We do not prescribe the learning and development a solicitor needs to complete but we highlight the different approaches that could be used.</p>
+<p>All solicitors covered by the requirement would need to complete learning and development within three months and confirm to us through making a declaration that they have done so. Any solicitor failing to complete the learning and development and declaration could be subject to enforcement action.</p>
+<p>We may identify competence concerns that relate to non-authorised persons within an SRA regulated organisation. A non-authorised person is an individual who is not authorised by us directly but is involved in a firm we regulate or works for or is supervised by a solicitor.</p>
+<p>SRA regulated organisations are already <a href="/solicitors/standards-regulations/code-conduct-firms/">required</a> to make sure that non-authorised staff maintain their competence. We intend to strengthen and clarify this approach by introducing a rule that enables us to prescribe or specify the learning and development that must be completed by non-authorised persons where we identify a competence concern.</p>
+<p>We recognise there would be an impact on those who were subject to a learning and development requirement introduced under any such rule. We propose that we would make sure that any requirements were proportionate by:</p>
+<ul>
+<li>Publishing a regulatory and equality impact assessment before deploying requirements under this rule. This would demonstrate how we have considered impacts and identified an appropriate and proportionate approach.</li>
+<li>Publishing a clear, evidence-based rationale for the prescribed learning and development. This would include explaining the concerns raised and how the approach would address it.</li>
+<li>Considering whether the approach should be adopted on a targeted and/or time-limited basis.</li>
+</ul>
+<p>The proposed draft rule to require solicitors to complete learning and development we require is outlined in our <a href="#download">Annex</a>. Should we decide to proceed with this proposal, and subject to Legal Services Board approval, the rule will take effect from the start of the 2027/28 practising year.</p>
+<p>Our proposal, if implemented, will enable us to protect consumers of legal services by taking quick, appropriate and proportionate remedial action when standards of competence or our requirements are not met.</p>
+<p>In considering whether there were any viable alternatives to achieve this aim, we explored seeking Legal Services Board approval to introduce a targeted, time‑limited learning and development requirement each time we identify a specific concern.</p>
+<p>However, this would require us to consult and seek Legal Services Board approval each time we identified a need for a targeted learning and development requirement. Such an approach would significantly limit our ability to respond quickly and proportionately to emerging issues and would introduce administrative delays that are inconsistent with the need for agile, evidence- and risk‑based regulation.</p>
+<p>We have not identified a credible alternative to our proposal. If we do not introduce a rule to allow us to require completion of learning and development where we have a specific concern, we would have to introduce blanket requirements which would apply to all solicitors. This would be disproportionate and mean some solicitors would be undertaking unnecessary learning and development.</p>
+<h4>Consultation questions</h4>
+<h5>Question 16</h5>
+<p>To what extent do you agree or disagree with our proposal to make a rule so that we can require some or all solicitors to complete specific learning and development where we identify a competence concern or concern in how competence is maintained?</p>
+<h5>Question 17</h5>
+<p>To what extent do you agree or disagree with our proposal to make a rule that enables us to require non authorised staff within SRA regulated organisations to complete specific learning and development we have identify a competence concern or concern in how competence is maintained?</p>
+<h5>Question 18</h5>
+<p>To what extent do you agree or disagree with our proposal to make sure that any requirements as part of our proposed rule were proportionate by:&nbsp;</p>
+<ul>
+<li>Publishing a regulatory and equality impact assessment before deploying requirements under this rule. This would demonstrate how we have considered impacts and identified an appropriate and proportionate approach.</li>
+<li>Publishing a clear, evidence-based rationale for the prescribed learning and development. This would include explaining the concerns raised and how the approach would address it.</li>
+<li>Considering whether the approach should be adopted on a targeted and/or time-limited basis.</li>
+</ul>
+<h5>Question&nbsp;19</h5>
+<p>Do you have any other comments on consultation proposal three?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_bb35">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_bb35" aria-expanded="true" aria-controls="collapse_bb35" class="collapsed">
+                          <span>Continuing to support solicitors and firms</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_bb35" class="panel-collapse" role="tabpanel" aria-labelledby="heading_bb35">
+                  <div class="panel-body">
+
+
+
+          
+<p>We already publish&nbsp;<a href="/solicitors/resources/continuing-competence/understanding-continuing-competence/">resources</a> to help solicitors understand and meet their continuing competence obligation. They explain:</p>
+<ul>
+<li>what reflection looks like and when and how to do it so that all learning and development needs are identified, including how to identify and prioritise needs</li>
+<li>how the Statement of Solicitor Competence can be used to support reflection and learning and development</li>
+<li>how to plan and address identified learning and development needs</li>
+<li>how to record and evaluate completed learning and development.</li>
+</ul>
+<p>We also provide a learning and development template solicitors can use to capture their reflection and identify, record and evaluate their learning and development. It is not a regulatory requirement for solicitors and firms to use this template, but we know that many do.</p>
+<p>We also publish warning notices and guidance. These help a solicitor or firm understand their regulatory obligations and how to comply with them. They can be used to help a solicitor to maintain their competence. We also publish an annual assessment of competence designed to drive positive learning and development behaviour. We highlight examples of good practice, as well as challenges some solicitors face in maintaining their competence.</p>
+<p>We know that some solicitors and firms are not always aware of, or face challenges accessing, our resources and warning notices and guidance. For example, some solicitors have told us they do not always engage with our warning notices and guidance because they are difficult to locate on our website. And some solicitors say they are not confident they have found all warning notices and guidance relevant to them.</p>
+<p>We have explained the steps we have taken to help solicitors maintain their competence. In addition, we are also exploring what more we can do to improve how solicitors find the guidance, resources and warning notices we publish including piloting persona-based webpages showing tailored warning notices, guidance and compliance information and engaging with solicitors to improve naming and drafting of notices for better searchability.</p>
+<p>We will enhance our continuing competence resources to reflect the proposals outlined in this consultation, if they are implemented. For example, we could publish resources to help solicitors to understand and comply with their requirement to participate in facilitate ethics discussion.</p>
+<p>We also propose to further assist solicitors to meet their continuing competence obligations by publishing an annual summary of current practice issues of which we are aware, significant regulatory findings, revisions to existing guidance and any new guidance and warnings notices. The summary would be designed to direct and prompt solicitors to consider whether they need to develop or enhance their understanding of these areas as part of maintaining their competence. We would also like to hear views on our annual assessment of competence reports and whether solicitors and firms find them useful in helping to maintain their competence.</p>
+<h4>Supporting solicitors</h4>
+<p>We would like to hear views on what else we should include in resources to help solicitors and firms understand how to maintain their competence. We would also like to hear views on how we can make the content of our resources more engaging and how we can raise awareness of their availability.</p>
+<h4>Consultation questions</h4>
+<h5>Question 20</h5>
+<p>Do you have any suggestions on how we can make the content of our continuing competence resources, warning notices, guidance and annual assessment of competence more engaging and increase awareness of their availability?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_3179">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_3179" aria-expanded="true" aria-controls="collapse_3179" class="collapsed">
+                          <span>Draft regulatory and equality impact assessment</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_3179" class="panel-collapse" role="tabpanel" aria-labelledby="heading_3179">
+                  <div class="panel-body">
+
+
+
+          
+<p>We have produced a <a>draft initial equality impact assessment on: Strengthening our continuing competence approach</a>.</p>
+<h4>Consultation question</h4>
+<h5>Question 21</h5>
+<p>Do you have any comments on our draft regulatory and quality impact assessment?</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading_86b2">
+                  <h3 class="panel-title">
+                      <a role="button" data-toggle="collapse" href="#collapse_86b2" aria-expanded="true" aria-controls="collapse_86b2" class="collapsed">
+                          <span>Consultation questions</span>
+                      </a>
+                  </h3>
+              </div>
+              <div id="collapse_86b2" class="panel-collapse" role="tabpanel" aria-labelledby="heading_86b2">
+                  <div class="panel-body">
+
+
+
+          
+<h3>Consultation proposal one</h3>
+<h5>Question 1</h5>
+<p>To what extent do you agree or disagree with our proposal to require all solicitors to keep a record of their learning and development that:</p>
+<ul>
+<li>explains how they identified their learning and development need(s)</li>
+<li>sets out the learning and development they carried out to address the identified need(s)</li>
+<li>confirms that they have considered all aspects of their work and role.</li>
+</ul>
+<h5>Question 2</h5>
+<p>To what extent do you agree or disagree with our proposal to require all solicitors to keep a record of their learning and development for at least three years?</p>
+<h5>Question 3</h5>
+<p>To what extent do you agree or disagree with our proposal to require solicitors to confirm that they have:</p>
+<ul>
+<li>considered all aspects of their work and role</li>
+<li>completed learning and development</li>
+<li>evidence that meets our requirements when renewing their practising certificate?</li>
+</ul>
+<h5>Question 4</h5>
+<p>Do you have any other comments on consultation proposal one?</p>
+<h3>Consultation proposal two</h3>
+<h5>Question 5</h5>
+<p>To what extent do you agree or disagree with the proposal to introduce a new requirement for annual participation in mandatory ethics discussions?</p>
+<h5>Question 6</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should be facilitated by a solicitor with a current practising certificate, or who is on the roll and has practised as a solicitor for a minimum of three years since admission or registration and has no regulatory or disciplinary record with us?</p>
+<h5>Question 7</h5>
+<p>To what extent do you agree or disagree with the proposed requirements for facilitators including:</p>
+<ul>
+<li>selecting the topic(s) for discussion and providing, introducing and guiding the discussion and providing opportunities for, and encouraging, participation</li>
+<li>keeping records of all participants who attended and participated</li>
+<li>confirming to us, if requested, that named individuals had attended a session and had actively participated.</li>
+</ul>
+<h5>Question 8</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should involve a minimum of three and a maximum of twelve participants?</p>
+<h5>Question 9</h5>
+<p>Do you have any thoughts on allowing aspiring solicitors undertaking qualifying work experience or other non-solicitor staff to participate in mandatory ethics discussions?</p>
+<h5>Question 10</h5>
+<p>Do you have any other thoughts on whether we should introduce additional requirements on aspiring solicitors to provide additional assurance that, before they are admitted, they have a good understanding of ethics?</p>
+<h5>Question 11</h5>
+<p>Do you think that the requirement to participate in three hours of mandatory ethics discussions is a) too short b) about right c) too long?</p>
+<h5>Question 12</h5>
+<p>To what extent do you agree or disagree that mandatory ethics discussions should cover one or more of the following objectives:</p>
+<ul>
+<li>provide opportunities to discuss application of the code of conduct and professional ethical duties to practice-based scenarios</li>
+<li>promote understanding of why ethical conduct is important for solicitors, the role of a solicitor in society and the rationale behind our rules</li>
+<li>develop confidence in making ethical decisions, especially where there is a conflict between different duties, and empower participants to challenge others&rsquo; behaviour when appropriate promote understanding of the importance of the working culture and environment in supporting ethical decision making</li>
+<li>promote understanding of other factors that can affect ethical decisions such as personal difficulties and poor mental health.</li>
+</ul>
+<h5>Question 13</h5>
+<p>To what extent do you agree or disagree that we should provide case studies for optional use during mandatory ethics discussions?</p>
+<h5>Question 14</h5>
+<p>To what extent do you agree with our proposal that solicitors would certify that they had met the requirement as part of their declaration when renewing their practising certificate?</p>
+<h5>Question 15</h5>
+<p>Do you have any other comments on consultation proposal two?</p>
+<h3>Consultation proposal three</h3>
+<h5>Question 16</h5>
+<p>To what extent do you agree or disagree with our proposal to make a rule so that we can require some or all solicitors to complete specific learning and development where we identify a competence concern or concern in how competence is maintained?</p>
+<h5>Question 17</h5>
+<p>To what extent do you agree or disagree with our proposal to make a rule that enables us to require non authorised staff within SRA regulated organisations to complete specific learning and development we have identify a competence concern or concern in how competence is maintained?</p>
+<h5>Question 18</h5>
+<p>To what extent do you agree or disagree with our proposal to make sure that any requirements as part of our proposed rule were proportionate by:</p>
+<ul>
+<li>Publishing a regulatory and equality impact assessment before deploying requirements under this rule. This would demonstrate how we have considered impacts and identified an appropriate and proportionate approach.</li>
+<li>Publishing a clear, evidence-based rationale for the prescribed learning and development. This would include explaining the concerns raised and how the approach would address it.</li>
+<li>Considering whether the approach should be adopted on a targeted and/or time-limited basis.</li>
+</ul>
+<h5>Question 19</h5>
+<p>Do you have any other comments on consultation proposal three?</p>
+<h3>Supporting solicitors</h3>
+<h5>Question 20</h5>
+<p>Do you have any suggestions on how we can make the content of our continuing competence resources, warning notices, guidance and annual assessment of competence more engaging and increase awareness of their availability?</p>
+<h3>Draft regulatory impact and equality impact assessment</h3>
+<h5>Question 21</h5>
+<p>Do you have any comments on our draft regulatory and equality impact assessment?</p>
+<h3>Draft rules</h3>
+<h5>Question 22</h5>
+<p>Do you have comments on our&nbsp;draft rules?</p>
+                  </div>
+              </div>
+          </div>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+          if (document.location.href.toLowerCase().indexOf('?ispdf=1') == -1) {
+            var genericAccItems = document.getElementsByClassName('panel-collapse');
+            for (i = 0; i < genericAccItems.length; i++) {
+              genericAccItems[i].setAttribute('class', 'panel-collapse collapse');
+              genericAccItems[i].setAttribute('style', 'height:0px;');
+            }
+            var ariaGenericAccItem = document.getElementsByClassName('panel-title');
+            for (i = 0; i < ariaGenericAccItem.length; i++) {
+              var ariaTarget = ariaGenericAccItem[i].getElementsByTagName('A');
+              ariaTarget[0].setAttribute('aria-expanded', 'false');
+            }
+          }
+      });
+</script>
+    
+
+<h2 id="download">Downloads and related documents</h2>
+
+
+
+
+    <ul class="documents-list">
+            <li><a href="/globalassets/documents/sra/consultations/2026/continuing-comeptence-consultation-2026.pdf">Consultation: Strengthening our continuing competence approach (PDF 29 pages, 416KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/annex---proposed-changes-to-sra-code-of-conduct-for-solicitors-rels-rfls-and-rsls.pdf">Annex - Proposed changes to SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs (PDF2 pages, 166KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/annex---proposed-changes-to-sra-code-of-conduct-for-firms.pdf">Annex - Proposed changes to SRA Code of Conduct for Firms (PDF 1 page, 130KB)</a></li>
+            <li><a href="/globalassets/documents/sra/consultations/2026/eia-continuing-competence.pdf">Draft regulatory impact and equality impact assessment: Strengthening our continuing competence approach (PDF 22 pages, 363KB)</a></li>
+    </ul>
+
+<div class="index-nav">
+    <p><a href='/sra/consultations/consultations-closed/' class='back-to-index'>Back to closed consultations</a></p>
+</div>
+</article>
+
+
+
+<aside class="col-md-4">
+
+            <div class="sidebar sidebar-links">
+                <div class="links-icon">
+                    <a href="#" class="printPageLink">
+                        <i class="icon icon-printer" aria-hidden="true"></i>Print this page
+                    </a>
+                    <a href="/pdfcentre/?type=Id&amp;data=1861127945" rel="nofollow">
+                        <i class="icon icon-file" aria-hidden="true"></i>Save as PDF
+                    </a>
+                </div>
+            </div>
+
+    
+    
+
+
+   
+    
+
+</aside>
+                </div>
+
+            <!-- page link text -->
+            <!-- page link text end -->
+        </section>
+
+        <!-- Scroll to top -->
+        <div class="footer-links container-fluid">
+            <a href="#mainContent" class="btn btn-secondary btn-sm back-top">
+                <i class="icon icon-chevron-up">
+                </i>Top
+            </a>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+
+
+    <footer class="footer-wrapper" id="Footer">
+        <div class="footer-links">
+            <div class="container footer">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>News</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/news/news/">News releases and statements</a></li>
+            <li><a href="/news/sra-update/">SRA Update</a></li>
+            <li><a href="/news/sqe-update/">SQE Update</a></li>
+            <li><a href="/news/blogs/">Blogs and articles</a></li>
+            <li><a href="/news/lawtech-insight/">Lawtech Insight</a></li>
+            <li><a href="/news/events/">Events and speakers</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For law professionals</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/solicitors/standards-regulations/">SRA Standards and Regulations</a></li>
+            <li><a href="/solicitors/guidance/">Guidance</a></li>
+            <li><a href="/solicitors/resources/">Resources</a></li>
+            <li><a href="/solicitors/firm-based-authorisation/">Firm-based authorisation</a></li>
+            <li><a href="/solicitors/certificates/">Good standing and certificates</a></li>
+            <li><a href="/solicitors/enforcement/">Investigation and enforcement</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>For the public</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/consumers/who-we-are/">Who we are</a></li>
+            <li><a href="/consumers/register/">Solicitors Register</a></li>
+            <li><a href="/consumers/choosing/">Choosing a solicitor</a></li>
+            <li><a href="/consumers/instructing/">Instructing a solicitor</a></li>
+            <li><a href="/consumers/problems/">Problems with a solicitor</a></li>
+            <li><a href="/consumers/compensation-fund/">Compensation fund</a></li>
+            <li><a href="/consumers/solicitors-indemnity-fund/">Solicitors Indemnity Fund</a></li>
+            <li><a href="/consumers/scam-alerts/">Scam alerts</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>Becoming a solicitor</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/become-solicitor/sqe/">Solicitors Qualifying Examination (SQE) route</a></li>
+            <li><a href="/become-solicitor/legal-practice-course-route/">Legal Practice Course (LPC) route</a></li>
+            <li><a href="/become-solicitor/qualified-lawyers/">Qualified lawyers</a></li>
+            <li><a href="/become-solicitor/character-and-suitability/">Character and suitability</a></li>
+            <li><a href="/become-solicitor/admission/">Admission</a></li>
+    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <p>About us</p>
+                        <ul class="list-no-bullets">
+            <li><a href="/sra/how-we-work/">How we work</a></li>
+            <li><a href="/sra/consultations/">Consultations</a></li>
+            <li><a href="/sra/research-publications/">Research and publications</a></li>
+            <li><a href="/sra/equality-diversity/">Equality and diversity</a></li>
+            <li><a href="/sra/corporate-strategy/">Strategy</a></li>
+            <li><a href="/sra/policy/">Regulation and Education policy</a></li>
+            <li><a href="/sra/decision-making/">Decision making</a></li>
+            <li><a href="/sra/complaints-service/">Complaints about our service</a></li>
+            <li><a href="/sra/jobs/">Jobs</a></li>
+    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-darker clearfix">
+            <div class="container d-sm-flex">
+                <div class="col-sm-9">
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/transparency/">Freedom of information</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/disclosure-policy/publication/">Copyright</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/privacy-data-information/privacy-notice/">Privacy</a>
+                            <a class="btn btn-link btn-sm" href="/sra/accessibility/">Accessibility</a>
+                            <a class="btn btn-link btn-sm" href="/home/contact-us/">Contact us</a>
+                            <a class="btn btn-link btn-sm" href="/sra/contact-us/difficulties-english/">Difficulties with English?</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/terms-conditions-service/">Terms of service</a>
+                            <a class="btn btn-link btn-sm" href="/home/accreditations/">Accreditations</a>
+                            <a class="btn btn-link btn-sm" href="/sra/how-we-work/modern-day-slavery-statement/">Modern day slavery statement</a>
+                            <a class="btn btn-link btn-sm" href="/sra/legal-notice/">Legal notice</a>
+                            <a class="btn btn-link btn-sm" href="/sra/jobs/">Jobs at the SRA</a>
+
+                </div>
+                <div class="col-sm-3 social-links">
+                            <a class="btn btn-link btn-sm" href="https://www.facebook.com/srasolicitors/" target="_self">
+            <span class="visually-hidden">Visit the SRA Facebook page</span>
+            <i class="social-icon fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://x.com/sra_solicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA Twitter page</span>
+            <i class="social-icon fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.youtube.com/user/SRAsolicitors" target="_self">
+            <span class="visually-hidden">Visit the SRA YouTube channel</span>
+            <i class="social-icon fa-brands fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link btn-sm" href="https://www.linkedin.com/company/solicitors-regulation-authority" target="_self">
+            <span class="visually-hidden">Visit the SRA LinkedIn page</span>
+            <i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        if (window.requestAnimationFrame) {
+            window.lpTag = window.lpTag || {}; if (typeof window.lpTag._tagCount === 'undefined') { window.lpTag = { site: '9467814' || '', section: lpTag.section || '', autoStart: lpTag.autoStart === false ? false : true, ovr: lpTag.ovr || {}, _v: '1.5.1', _tagCount: 1, protocol: location.protocol, events: { bind: function (app, ev, fn) { lpTag.defer(function () { lpTag.events.bind(app, ev, fn); }, 0); }, trigger: function (app, ev, json) { lpTag.defer(function () { lpTag.events.trigger(app, ev, json); }, 1); } }, defer: function (fn, fnType) { if (fnType == 0) { this._defB = this._defB || []; this._defB.push(fn); } else if (fnType == 1) { this._defT = this._defT || []; this._defT.push(fn); } else { this._defL = this._defL || []; this._defL.push(fn); } }, load: function (src, chr, id) { var t = this; setTimeout(function () { t._load(src, chr, id); }, 0); }, _load: function (src, chr, id) { var url = src; if (!src) { url = this.protocol + '//' + ((this.ovr && this.ovr.domain) ? this.ovr.domain : 'lptag.liveperson.net') + '/tag/tag.js?site=' + this.site; } var s = document.createElement('script'); s.setAttribute('charset', chr ? chr : 'UTF-8'); if (id) { s.setAttribute('id', id); } s.setAttribute('src', url); document.getElementsByTagName('head').item(0).appendChild(s); }, init: function () { this._timing = this._timing || {}; this._timing.start = (new Date()).getTime(); var that = this; if (window.attachEvent) { window.attachEvent('onload', function () { that._domReady('domReady'); }); } else { window.addEventListener('DOMContentLoaded', function () { that._domReady('contReady'); }, false); window.addEventListener('load', function () { that._domReady('domReady'); }, false); } if (typeof (window._lptStop) == 'undefined') { this.load(); } }, start: function () { this.autoStart = true; }, _domReady: function (n) { if (!this.isDom) { this.isDom = true; this.events.trigger('LPT', 'DOM_READY', { t: n }); } this._timing[n] = (new Date()).getTime(); }, vars: lpTag.vars || [], dbs: lpTag.dbs || [], ctn: lpTag.ctn || [], sdes: lpTag.sdes || [], ev: lpTag.ev || [] }; lpTag.init(); } else { window.lpTag._tagCount += 1; }
+        }
+        else {
+            console.log('Upgrade your browser to access web chat');
+        }
+    </script>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    
+    
+
+
+    <!--   Page Feedback Element      -->
+ <script type="text/javascript" src="/Static/build/js/megamenu.js"></script>
+    <script src="/static/build/js/main.js" type="module"></script>
+</body>
+
+</html>
