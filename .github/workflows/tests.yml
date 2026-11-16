@@ -2,9 +2,9 @@ name: Tests
 
 on:
   push:
-    paths: ["agent/**", "sources/**"]
+    paths: ["agent/**", "sources/**", "web/**", "data/**"]
   pull_request:
-    paths: ["agent/**", "sources/**"]
+    paths: ["agent/**", "sources/**", "web/**", "data/**"]
 
 jobs:
   test:
@@ -15,3 +15,5 @@ jobs:
         with:
           node-version: 22
       - run: node --test "agent/test/*.test.mjs"
+      - name: The pages build
+        run: node agent/build-page.mjs

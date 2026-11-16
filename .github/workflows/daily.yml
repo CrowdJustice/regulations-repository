@@ -1,4 +1,5 @@
 name: Daily check
+run-name: "Daily check${{ inputs.request && format(' [{0}]', inputs.request) || '' }}"
 
 on:
   schedule:
@@ -6,33 +7,46 @@ on:
   workflow_dispatch:
     inputs:
       since:
-        description: "Look back to this date (YYYY-MM-DD). Leave empty for the default."
+        description: "The run of the past: look back to this date (YYYY-MM-DD) and read older listing pages too. Leave empty for a normal check."
         required: false
       source:
         description: "Only check this source id. Leave empty for all sources."
+        required: false
+      include:
+        description: "Add this one page that the assistant ignored. The admin page fills this in."
+        required: false
+      request:
+        description: "Lets the admin page follow this run. Leave it empty."
         required: false
 
 permissions:
   contents: write
   issues: write
+  actions: write # lets a long look-back start itself again when it runs out of time
 
+# One check at a time. Admin actions do not wait for it: both save with agent/push.sh, which merges.
 concurrency:
-  group: tracker
+  group: daily-check
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 350
     env:
       HAS_AI: ${{ secrets.ANTHROPIC_API_KEY != '' || secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+      SINCE: ${{ inputs.since }}
+      SOURCE: ${{ inputs.source }}
+      INCLUDE: ${{ inputs.include }}
     steps:
       - name: Skip when no AI credential is set
         if: env.HAS_AI != 'true'
         run: echo "::notice::No AI credential is set for this repository, so the assistant did not run. Add ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN as a secret."
 
+      # "ref" makes a run that waited in the queue start from the newest commit, not the one that was newest when it was asked for.
       - uses: actions/checkout@v4
         if: env.HAS_AI == 'true'
         with:
+          ref: ${{ github.ref }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -40,46 +54,57 @@ jobs:
         with:
           node-version: 22
 
+      # Pinned to the version the assistant was tested with. Raise it on purpose, after running agent/test/scenario.mjs.
       - name: Install Claude Code
         if: env.HAS_AI == 'true'
-        run: npm install -g @anthropic-ai/claude-code
+        run: npm install -g @anthropic-ai/claude-code@2.1.325
 
       - name: Run the assistant
+        id: assistant
         if: env.HAS_AI == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          SINCE: ${{ inputs.since }}
-          SOURCE: ${{ inputs.source }}
         run: |
           # Use whichever sign-in is set. An empty value would hide the other one.
           [ -z "$ANTHROPIC_API_KEY" ] && unset ANTHROPIC_API_KEY
           [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && unset CLAUDE_CODE_OAUTH_TOKEN
           git config user.name "regulation-tracker"
           git config user.email "regulation-tracker@users.noreply.github.com"
-          args=(--commit)
-          if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
-          if [ -n "$SOURCE" ]; then args+=(--source "$SOURCE"); fi
-          # On Mondays, also re-read the source of every change that is still moving.
-          if [ "$(date -u +%u)" = "1" ]; then args+=(--recheck); fi
+          # Stop taking new pages after five hours, so the run always finishes cleanly inside GitHub's six-hour limit.
+          args=(--commit --max-minutes 300)
+          if [ -n "$INCLUDE" ]; then
+            args+=(--include "$INCLUDE")
+          else
+            # A look further back also reads older listing pages, and more pages per source.
+            if [ -n "$SINCE" ]; then args+=(--since "$SINCE" --pages 15 --max-items 250); fi
+            if [ -n "$SOURCE" ]; then args+=(--source "$SOURCE"); fi
+            # On Mondays, also re-read the source of every change that is still moving.
+            if [ "$(date -u +%u)" = "1" ]; then args+=(--recheck); fi
+          fi
           node agent/run.mjs "${args[@]}"
 
-      - name: Rebuild the page
+      - name: Save the changes
+        id: save
         if: always() && env.HAS_AI == 'true'
         run: |
-          node agent/build-page.mjs
-          git add site
-          git diff --cached --quiet || git commit -q -m "Rebuild the page"
-
-      - name: Save the changes
-        if: always() && env.HAS_AI == 'true'
-        run: git push
+          # Anything a cut-off run left unsaved is kept, so the next run does not repeat it.
+          git add -A data
+          if [ -d review ]; then git add -A review; fi
+          git diff --cached --quiet || git commit -q -m "Save an unfinished run"
+          bash agent/push.sh theirs
 
       - name: Notify the admin
-        if: always() && env.HAS_AI == 'true'
+        if: always() && env.HAS_AI == 'true' && steps.save.outcome == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -s digest.md ]; then
             gh issue create --title "Tracker update, $(date -u +'%-d %b %Y')" --body-file digest.md
           fi
+
+      - name: Carry on with a long look-back
+        if: steps.assistant.outputs.more == 'true' && inputs.since != '' && steps.save.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run daily.yml --ref "$GITHUB_REF_NAME" -f since="$SINCE" -f source="$SOURCE"

@@ -12,7 +12,7 @@
     "Regulator warns against uploading sensitive client information into public-facing AI tools."
   ],
   "applies_to": [
-    "uniform"
+    "vic"
   ],
   "who_it_applies_to": "Victorian lawyers and law practices, with the regulator noting particular value for small practices and sole practitioners.",
   "topic": "Technology and AI",
@@ -32,5 +32,7 @@
       "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence"
     }
   ],
-  "admin_notes": []
+  "admin_notes": [
+    "An admin edited this change on 2026-11-16. Reason: Guidance from the Victorian regulator applies in Victoria only. Keep the admin's wording unless a fact changes."
+  ]
 }

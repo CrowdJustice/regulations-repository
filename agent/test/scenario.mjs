@@ -42,7 +42,8 @@ async function runAssistant(today, listing) {
   return log.at(-1);
 }
 
-const admin = (command, id, today) => console.log(`  ${execFileSync('node', [path.join(here, '..', 'admin.mjs'), command, id, '--root', root, '--today', today, '--commit'], { encoding: 'utf8' }).trim()}`);
+const admin = (command, id, today, payload) => console.log(`  ${execFileSync('node', [path.join(here, '..', 'admin.mjs'), command, id, '--root', root, '--today', today, '--commit',
+  ...(payload ? ['--payload', JSON.stringify(payload)] : [])], { encoding: 'utf8' }).trim()}`);
 
 async function records() {
   const dir = path.join(root, 'data', 'uk');
@@ -65,12 +66,13 @@ run = await runAssistant('2026-11-13', 'listing-2.html');
 all = await records();
 const after = all.find((r) => r.id === money?.id);
 const warning = all.find((r) => r.stage === 'guidance');
-check('the decision updates the existing change, with no duplicate', run.updated.length === 1 && run.updated[0].id === money?.id && all.length === 2, JSON.stringify({ updated: run.updated, held: run.held }));
+check('the decision updates the existing change, with no duplicate', run.updated.length === 1 && run.updated[0].id === money?.id && all.filter((r) => r.applies_to.includes('money')).length === 1, JSON.stringify({ updated: run.updated, held: run.held }));
 check('it is now decided, starting 1 Mar 2027', after?.stage === 'decided' && after?.dates.decided === '2026-11-11' && after?.dates.in_force === '2027-03-01', JSON.stringify(after?.dates));
 check('the proposal date is kept', after?.dates.proposed === '2026-10-02');
 check('the record did not grow past its limits', withinLimits(all, '2026-11-13'));
 check('history has two short entries', after?.history.length === 2, JSON.stringify(after?.history));
-check('the warning notice is a new guidance record for all firms', run.published.length === 1 && warning?.applies_to.join() === 'all', JSON.stringify(run.published));
+// The second reader is free to hold the notice if it doubts a sentence. What must not happen is ignoring it or mislabelling it.
+check('the warning notice is published as guidance for all firms, or held for review', (run.published.length === 1 && warning?.applies_to.join() === 'all') || (run.held.length === 1 && !warning), JSON.stringify({ published: run.published, held: run.held }));
 check('the reminder is ignored', run.ignored.length === 1, JSON.stringify(run.ignored));
 console.log(`\n--- The notification an admin would get ---\n${await readFile(path.join(root, 'digest.md'), 'utf8')}\n---`);
 
@@ -85,10 +87,10 @@ check('the change is back to a proposal, with an admin note', reverted.stage ===
 run = await runAssistant('2026-11-15', 'listing-3.html');
 reverted = (await records()).find((r) => r.id === money.id);
 check('the assistant does not re-apply the reverted update', run.ignored.length === 1 && !run.updated.length && reverted.stage === 'proposed', JSON.stringify({ ignored: run.ignored, updated: run.updated, held: run.held }));
-check('still two changes', (await records()).length === 2);
+check('no change was added or lost', (await records()).length === all.length);
 
-console.log('\n5. The admin undoes the revert. The start date then arrives');
-admin('revert', money.id, '2026-11-16');
+console.log('\n5. The admin puts the decision in by hand. The start date then arrives');
+admin('edit', money.id, '2026-11-16', { stage: 'decided', dates: { proposed: '2026-10-02', decided: '2026-11-11', in_force: '2027-03-01' } });
 run = await runAssistant('2027-03-02', 'listing-3.html');
 const final = (await records()).find((r) => r.id === money.id);
 check('the change moves to in force on its own', final.stage === 'in_force' && final.history.at(-1).event === 'Came into force.' && run.now_in_force.length === 1, JSON.stringify(final.history));

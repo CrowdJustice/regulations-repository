@@ -401,7 +401,11 @@ footer p + p { margin-top: 6px; }
           all: { label: 'All firms' },
           designated: { label: 'Property, trust or company work', chip: 'Do property, trust or company work' },
           trust: { label: 'Firms holding trust money', chip: 'Hold trust money' },
-          uniform: { label: 'NSW, Victoria and WA', chip: 'Practise in NSW, Victoria or WA' },
+          uniform: { label: 'NSW, Victoria and WA', chip: 'Practise in NSW, Victoria or WA', includes: ['nsw', 'vic', 'wa'] },
+          nsw: { label: 'New South Wales' },
+          vic: { label: 'Victoria' },
+          wa: { label: 'Western Australia' },
+          qld: { label: 'Queensland', chip: 'Practise in Queensland' },
           turnover: { label: 'Turnover over $3m', chip: 'Turn over more than $3m' }
         }
       }
@@ -568,7 +572,13 @@ footer p + p { margin-top: 6px; }
     var list = mine().filter(function (r) {
       if (state.stage !== 'all' && r.stage !== state.stage) return false;
       if (state.topic !== 'all' && r.topic !== state.topic) return false;
-      if (state.firm.length && r.applies_to.indexOf('all') === -1 && !r.applies_to.some(function (k) { return state.firm.indexOf(k) !== -1; })) return false;
+      if (state.firm.length && r.applies_to.indexOf('all') === -1) {
+        // A chip can stand for several keys: "NSW, Victoria or WA" also finds a change that applies in Victoria alone.
+        var keys = DATA.countries[state.c].applies_to;
+        var wanted = [];
+        state.firm.forEach(function (k) { wanted = wanted.concat([k], (keys[k] && keys[k].includes) || []); });
+        if (!r.applies_to.some(function (k) { return wanted.indexOf(k) !== -1; })) return false;
+      }
       if (words.length) { var h = hay(r); if (!words.every(function (w) { return h.indexOf(w) !== -1; })) return false; }
       return true;
     });

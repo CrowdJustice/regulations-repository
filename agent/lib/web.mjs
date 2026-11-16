@@ -139,45 +139,87 @@ export function parseFeed(xml) {
   return items;
 }
 
-async function govukSearch(source) {
-  const params = new URLSearchParams({ filter_organisations: source.organisation, order: '-public_timestamp', count: '40', fields: 'title,link,public_timestamp,description' });
-  if (source.query) params.set('q', source.query);
-  const data = JSON.parse(await fetchRaw(`https://www.gov.uk/api/search.json?${params}`));
-  return (data.results ?? []).map((r) => ({
-    url: normaliseUrl(new URL(r.link, 'https://www.gov.uk').toString()),
-    title: r.title ?? '',
-    date: r.public_timestamp ? toDate(r.public_timestamp) : null,
-    summary: r.description ?? '',
-  }));
+// A look further back walks older listing pages too. These cap how far it will walk.
+const MAX_DATED_PAGES = 400; // a listing with dates stops by itself once it passes the look-back date
+const pause = (ms) => new Promise((done) => setTimeout(done, ms));
+const reachedBack = (items, since) => Boolean(since) && items.length > 0 && items.every((i) => i.date) && items.some((i) => i.date < since);
+
+async function govukSearch(source, { pages, since }) {
+  const size = pages > 1 ? 100 : 40;
+  const items = [];
+  for (let start = 0; start < size * (pages > 1 ? 20 : 1); start += size) {
+    const params = new URLSearchParams({ filter_organisations: source.organisation, order: '-public_timestamp', count: String(size), fields: 'title,link,public_timestamp,description' });
+    if (source.query) params.set('q', source.query);
+    if (start) params.set('start', String(start));
+    const data = JSON.parse(await fetchRaw(`https://www.gov.uk/api/search.json?${params}`));
+    const found = (data.results ?? []).map((r) => ({
+      url: normaliseUrl(new URL(r.link, 'https://www.gov.uk').toString()),
+      title: r.title ?? '',
+      date: r.public_timestamp ? toDate(r.public_timestamp) : null,
+      summary: r.description ?? '',
+    }));
+    items.push(...found);
+    if (found.length < size || reachedBack(found, since)) break;
+    await pause(300);
+  }
+  return items;
+}
+
+// The address of the next, older page of a listing: the source's own "more" pattern, or the page's rel="next" link.
+function nextPage(source, body, current, n) {
+  if (source.more) return source.more.replace('{n}', String(n + 1));
+  const tag = body.match(/<(?:a|link)\b[^>]*\brel=["']next["'][^>]*>/i)?.[0];
+  const href = tag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
+  if (!href) return null;
+  try { return new URL(decodeEntities(href), current).toString(); } catch { return null; }
 }
 
 // The items from a source that a run should read now: in the look-back window, not seen before, oldest first.
-export async function newItems(source, { seen, since, max }) {
-  const all = await listAll(source);
+export async function newItems(source, { seen, since, max, pages = 1 }) {
+  const all = await listAll(source, { pages, since });
   const words = (source.keywords ?? []).map((k) => k.toLowerCase());
   const items = words.length ? all.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : all;
   const inWindow = items.filter((i) => !i.date || i.date >= since);
-  const fresh = inWindow.filter((i) => !seen[normaliseUrl(i.url)]);
+  // New means: never read, or not read successfully yet, or listed with a later date than when it was last read (the page was updated).
+  const fresh = inWindow.filter((i) => {
+    const before = seen[normaliseUrl(i.url)];
+    return !before || before.decision === 'failed' || Boolean(i.date && i.date > (before.listed ?? before.date));
+  });
   // Oldest first, so a proposal is recorded before the decision on it.
   const batch = fresh.slice(0, max).reverse();
   if (batch.every((i) => i.date)) batch.sort((a, b) => a.date.localeCompare(b.date));
-  return { listed: all.length, matched: items.length, inWindow: inWindow.length, batch };
+  return { listed: all.length, matched: items.length, inWindow: inWindow.length, fresh: fresh.length, batch };
 }
 
 // Everything a source currently lists, newest first: [{ url, title, date, summary }].
-export async function listAll(source) {
-  let items;
-  if (source.how === 'govuk') items = await govukSearch(source);
-  else if (source.how === 'feed') items = parseFeed(await fetchRaw(source.url));
-  else if (source.how === 'page') {
-    const match = new RegExp(source.match);
-    const listing = normaliseUrl(source.url);
-    let html = await fetchRaw(source.url);
-    // "main_only" ignores menus and footers, for sites whose item links look like every other link.
-    if (source.main_only) html = html.match(/<main\b[\s\S]*<\/main>/i)?.[0] ?? html;
-    items = extractLinks(html, source.url)
-      .filter((l) => match.test(l.url) && l.url !== listing)
-      .map((l) => ({ ...l, date: null, summary: '' }));
-  } else throw new Error(`unknown source type "${source.how}"`);
-  return items;
+// "pages" above 1 also reads older listing pages: up to that many when the listing shows no dates,
+// and as many as it takes to pass "since" when it does.
+export async function listAll(source, { pages = 1, since = null } = {}) {
+  if (source.how === 'govuk') return govukSearch(source, { pages, since });
+  if (!['feed', 'page'].includes(source.how)) throw new Error(`unknown source type "${source.how}"`);
+  const match = source.how === 'page' ? new RegExp(source.match) : null;
+  // The listing itself, whatever its query string: page 2 of a listing is not an item.
+  const bare = (address) => { const u = new URL(address); return `${u.origin}${u.pathname.replace(/\/$/, '')}`; };
+  const listing = bare(source.url);
+  const items = new Map();
+  const visited = new Set();
+  let url = source.url;
+  for (let n = 1; url && !visited.has(url); n++) {
+    visited.add(url);
+    const body = await fetchRaw(url);
+    let found;
+    if (source.how === 'feed') found = parseFeed(body);
+    else {
+      // "main_only" ignores menus and footers, for sites whose item links look like every other link.
+      const html = source.main_only ? body.match(/<main\b[\s\S]*<\/main>/i)?.[0] ?? body : body;
+      found = extractLinks(html, url).filter((l) => match.test(l.url) && bare(l.url) !== listing).map((l) => ({ ...l, date: null, summary: '' }));
+    }
+    const fresh = found.filter((item) => !items.has(item.url));
+    for (const item of fresh) items.set(item.url, item);
+    const dated = found.length > 0 && found.every((i) => i.date);
+    if (pages <= 1 || !fresh.length || reachedBack(found, since) || n >= (dated ? MAX_DATED_PAGES : pages)) break;
+    url = nextPage(source, body, url, n);
+    if (url) await pause(300);
+  }
+  return [...items.values()];
 }

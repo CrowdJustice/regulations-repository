@@ -62,6 +62,8 @@ Write sentences that stay true after the start date passes. Anchor them to the d
 
 Describe what the rule says. Give no advice, and never write "you must" or "you should". Never name individual people.
 
+Match the force of the source. A rule says what firms "must" do. Guidance and warning notices say what the regulator "expects", "recommends" or "warns about". Never turn an expectation into a requirement.
+
 ### Dates
 
 - `proposed`: when the proposal was published.

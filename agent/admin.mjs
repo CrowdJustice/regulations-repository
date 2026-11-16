@@ -37,6 +37,8 @@ const agentDir = import.meta.dirname;
 const store = createStore(path.resolve(flags.root ?? path.join(agentDir, '..')));
 const cfg = JSON.parse(await readFile(path.join(agentDir, 'config.json'), 'utf8'));
 const today = flags.today ?? new Date().toISOString().slice(0, 10);
+// The date where the country is, so a date that is today in Sydney is not refused as "in the future".
+const todayIn = (country) => flags.today ?? new Intl.DateTimeFormat('en-CA', { timeZone: cfg.countries[country]?.timezone ?? 'UTC' }).format(new Date());
 const why = flags.reason?.trim() ? ` Reason: ${flags.reason.trim().slice(0, 200)}` : '';
 
 // On GitHub the message is also raised as an error annotation, which is what the admin page shows.
@@ -79,7 +81,7 @@ function edits() {
   return out;
 }
 function mustPass(record, prev) {
-  const problems = [...validateRecord(record, cfg, today), ...(prev ? validateUpdate(prev, record) : [])];
+  const problems = [...validateRecord(record, cfg, todayIn(record.country)), ...(prev ? validateUpdate(prev, record) : [])];
   if (problems.length) fail(`Not saved: ${problems.join('; ')}.`);
 }
 
@@ -93,9 +95,13 @@ if (['revert', 'archive', 'restore', 'edit'].includes(command)) {
   if (command === 'revert') {
     const versions = store.git('log', '--format=%H', '--', file).split('\n').filter(Boolean);
     if (versions.length < 2) fail('This change has no earlier version to go back to. To take it off the page, archive it.');
+    // Undoing an undo would bring back the very thing that was undone.
+    if (store.git('log', '-1', '--format=%s', '--', file).startsWith('Revert:')) fail('The last change to this was already an undo. To change it further, edit it.');
     next = JSON.parse(store.git('show', `${versions[1]}:${file}`));
     const undone = current.history.at(-1);
     const wasUpdate = current.history.length > next.history.length;
+    // A change that started on its start date would only start again tomorrow. The date itself has to change.
+    if (wasUpdate && undone.event === 'Came into force.') fail('This change started automatically on its start date. To change that, edit its stage and start date.');
     next.admin_notes = withNote(next.admin_notes, wasUpdate
       ? `An admin reverted this update on ${today}: "${undone.event}" (${undone.url}).${why} Do not apply it again from any source.`
       : `An admin undid the last change on ${today}.${why}`);

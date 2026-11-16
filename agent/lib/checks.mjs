@@ -14,6 +14,13 @@ export function periodStart(date) {
   return date.length === 4 ? `${date}-01-01` : date.length === 7 ? `${date}-01` : date;
 }
 
+// Last day of the period a date names: "2027" → 2027-12-31, "2027-02" → 2027-02-28.
+export function periodEnd(date) {
+  if (date.length === 10) return date;
+  const [year, month] = date.length === 4 ? [Number(date), 12] : date.split('-').map(Number);
+  return new Date(Date.UTC(year, month, 0)).toISOString().slice(0, 10);
+}
+
 function isRealDate(date) {
   const d = new Date(`${periodStart(date)}T00:00:00Z`);
   return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === periodStart(date);
@@ -74,7 +81,7 @@ export function validateRecord(rec, cfg, today) {
   if (rec.stage === 'in_force' && dates.in_force && periodStart(dates.in_force) > today) {
     problems.push(`stage is "in_force" but dates.in_force (${dates.in_force}) is in the future; use "decided"`);
   }
-  if (rec.stage === 'decided' && /^\d{4}-\d{2}-\d{2}$/.test(dates.in_force ?? '') && dates.in_force <= today) {
+  if (rec.stage === 'decided' && dates.in_force && (dates.in_force.length === 10 ? dates.in_force <= today : periodEnd(dates.in_force) < today)) {
     problems.push(`dates.in_force (${dates.in_force}) has passed; the stage should be "in_force"`);
   }
   if (['in_force', 'guidance'].includes(rec.stage) && dates.in_force_text) {

@@ -7,11 +7,13 @@
   "countries": {
     "uk": {
       "name": "United Kingdom",
-      "adjective": "UK"
+      "adjective": "UK",
+      "timezone": "Europe/London"
     },
     "au": {
       "name": "Australia",
-      "adjective": "Australian"
+      "adjective": "Australian",
+      "timezone": "Australia/Sydney"
     }
   },
   "limits": {
@@ -88,12 +90,34 @@
       "uniform": {
         "label": "NSW, Victoria and WA",
         "chip": "Practise in NSW, Victoria or WA",
-        "means": "the firm practises in a Uniform Law state"
+        "means": "a Uniform Law rule that applies across NSW, Victoria and WA. For a rule or guidance from one state alone, use that state's key instead",
+        "includes": [
+          "nsw",
+          "vic",
+          "wa"
+        ]
       },
       "turnover": {
         "label": "Turnover over $3m",
         "chip": "Turn over more than $3m",
         "means": "annual turnover above $3m"
+      },
+      "nsw": {
+        "label": "New South Wales",
+        "means": "applies in New South Wales only"
+      },
+      "vic": {
+        "label": "Victoria",
+        "means": "applies in Victoria only"
+      },
+      "wa": {
+        "label": "Western Australia",
+        "means": "applies in Western Australia only"
+      },
+      "qld": {
+        "label": "Queensland",
+        "chip": "Practise in Queensland",
+        "means": "applies in Queensland only"
       }
     }
   }

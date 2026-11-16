@@ -32,6 +32,11 @@
   // Only ever link to a web address. Anything else, such as "javascript:", becomes no link at all.
   function safeUrl(u) { return /^https?:\/\//i.test(String(u || '')) ? String(u) : ''; }
   function today() { return new Date().toISOString().slice(0, 10); }
+  // The date where the country is, which is what the server checks dates against.
+  function todayIn(country) {
+    var zone = data.cfg && data.cfg.countries[country] && data.cfg.countries[country].timezone;
+    try { return new Intl.DateTimeFormat('en-CA', { timeZone: zone || 'UTC' }).format(new Date()); } catch (e) { return today(); }
+  }
   function fmt(d) {
     var p = String(d || '').split('-');
     if (p.length === 1) return p[0];
@@ -147,8 +152,9 @@
   function reviewCountry(rv) {
     return (rv.proposed_record && rv.proposed_record.country) || (rv.current_record && rv.current_record.country) || sourceCountry(rv.item && rv.item.source);
   }
+  // Which country a line of the run log belongs to. Newer logs say so; older ones are worked out from the id or the source.
   function entryCountry(e) {
-    return e.country || (e.id ? e.id.slice(0, 2) : null) || sourceCountry(String(e.source || '').replace(/^recheck /, '').slice(0, 40)) || (/^recheck ([a-z]{2})-/.exec(e.source || '') || [])[1] || null;
+    return e.country || (e.id ? e.id.slice(0, 2) : null) || sourceCountry(e.source) || (/^recheck ([a-z]{2})-/.exec(e.source || '') || [])[1] || null;
   }
   function activity() {
     var c = state.c;
@@ -188,10 +194,13 @@
       return ORDER.indexOf(a.kind) - ORDER.indexOf(b.kind);
     });
   }
-  function lastRun() {
+  // The latest day anything ran, with that day's runs added together.
+  function lastDay() {
     for (var i = 0; i < data.logs.length; i++) {
       var runs = data.logs[i].runs || [];
-      if (runs.length) return { date: data.logs[i].date, run: runs[runs.length - 1] };
+      if (!runs.length) continue;
+      var all = function (key) { return runs.reduce(function (list, run) { return list.concat(run[key] || []); }, []); };
+      return { date: data.logs[i].date, published: all('published'), updated: all('updated'), ignored: all('ignored') };
     }
     return null;
   }
@@ -231,12 +240,12 @@
     }
     var needs = data.reviews.filter(function (rv) { return reviewCountry(rv) === state.c; }).length;
     $('headline').textContent = needs ? needs + (needs === 1 ? ' change needs' : ' changes need') + ' your decision' : 'Nothing needs you';
-    var last = lastRun();
+    var last = lastDay();
     if (!last) $('subline').textContent = 'No check has run yet.';
     else {
-      var mine = function (list) { return (list || []).filter(function (e) { return entryCountry(e) === state.c; }).length; };
+      var mine = function (list) { return list.filter(function (e) { return entryCountry(e) === state.c; }).length; };
       var stale = Math.round((Date.parse(today()) - Date.parse(last.date)) / 864e5) > 2;
-      $('subline').textContent = 'Last check ' + dayLabel(last.date).toLowerCase() + ': ' + mine(last.run.published) + ' new, ' + mine(last.run.updated) + ' updated, ' + mine(last.run.ignored) + ' ignored.' +
+      $('subline').textContent = 'Last check ' + dayLabel(last.date).toLowerCase() + ': ' + mine(last.published) + ' new, ' + mine(last.updated) + ' updated, ' + mine(last.ignored) + ' ignored.' +
         (stale ? ' No automatic check has run since.' : '');
     }
     $('run-now').disabled = state.checking;
@@ -356,6 +365,10 @@
         (state.pending[key] ? '<span class="working"><i></i>' + esc(state.pending[key]) + '</span>'
           : '<button type="button" class="switch" role="switch" aria-checked="' + !!s.enabled + '" aria-label="Watch ' + esc(s.regulator) + ': ' + esc(s.covers) + '" data-switch="' + esc(s.id) + '"></button>') + '</div>';
     }).join('') + '</div>';
+    html += '<form class="older" id="older-form"><label for="older-date">Load older changes, back to</label>' +
+      '<input class="input" id="older-date" type="date" max="' + today() + '" required>' +
+      '<button type="submit" class="btn"' + (state.checking ? ' disabled' : '') + '>Start</button>' +
+      '<span class="hint">Reads older pages from every source that is on, for both countries. It can take several hours and continues by itself.</span></form>';
     $('view').innerHTML = html;
   }
 
@@ -421,15 +434,16 @@
       toast(e.status ? friendly(e) : e.message, e.link);
     }
   }
-  async function check(include) {
+  // Runs the daily check now. "include" asks for one ignored page to be added; "since" reads further back than usual.
+  async function check(include, since) {
     if (!token()) { openPanel('connect'); return; }
     var request = Math.random().toString(16).slice(2, 10);
     state.checking = true;
     render();
     try {
-      await gh('/repos/' + REPO + '/actions/workflows/daily.yml/dispatches', { method: 'POST', body: { ref: BRANCH, inputs: { include: include || '', request: request } } });
-      toast(include ? 'Asked the assistant to add it. This takes a few minutes.' : 'Check started. Results appear here when it finishes.');
-      var run = await waitForRun('daily.yml', request, 120);
+      await gh('/repos/' + REPO + '/actions/workflows/daily.yml/dispatches', { method: 'POST', body: { ref: BRANCH, inputs: { include: include || '', since: since || '', request: request } } });
+      toast(include ? 'Asked the assistant to add it. This takes a few minutes.' : since ? 'Started. Older changes appear here as they are found.' : 'Check started. Results appear here when it finishes.');
+      var run = await waitForRun('daily.yml', request, 345);
       var job = await jobOf(run).catch(function () { return null; });
       var skipped = job && (job.steps || []).some(function (s) { return s.name === 'Run the assistant' && s.conclusion === 'skipped'; });
       state.checking = false;
@@ -531,7 +545,7 @@
   }
   function problemsOf(r) {
     var rec = Object.assign({}, r, edited(r));
-    if (typeof validateRecord === 'function') return validateRecord(rec, data.cfg, today());
+    if (typeof validateRecord === 'function') return validateRecord(rec, data.cfg, todayIn(rec.country));
     return rec.title && rec.summary && rec.who_it_applies_to && rec.applies_to.length && rec.what_changes.length ? [] : ['Something is empty.'];
   }
   function checkDraft() {
@@ -611,6 +625,8 @@
       var url = $('new-url').value.trim();
       state.adding = false;
       act({ command: 'source-add', target: state.c, payload: { regulator: name, url: url }, key: 'add-source', busy: 'Checking the address…', done: name + ' added. It will be read on the next check.' });
+    } else if (e.target.id === 'older-form') {
+      check(null, $('older-date').value);
     } else if (e.target.hasAttribute('data-why') && state.confirm) {
       var c = state.confirm;
       act({ command: c.command, target: c.target, reason: $('why').value.trim(), key: c.key, busy: c.busy, done: c.done });

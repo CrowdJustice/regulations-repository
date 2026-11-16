@@ -39,7 +39,7 @@ for (const [code, country] of Object.entries(cfg.countries)) {
     name: country.name,
     adj: country.adjective,
     sources: list(regulators),
-    applies_to: Object.fromEntries(Object.entries(cfg.applies_to[code]).map(([key, v]) => [key, { label: v.label, ...(v.chip ? { chip: v.chip } : {}) }])),
+    applies_to: Object.fromEntries(Object.entries(cfg.applies_to[code]).map(([key, v]) => [key, { label: v.label, ...(v.chip ? { chip: v.chip } : {}), ...(v.includes ? { includes: v.includes } : {}) }])),
   };
   for (const r of records) {
     data.records.push({
