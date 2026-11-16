@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { normaliseUrl, htmlToText, extractLinks, parseFeed, hash, listAll } from '../lib/web.mjs';
+import { normaliseUrl, htmlToText, extractLinks, parseFeed, hash, listAll, newItems } from '../lib/web.mjs';
 
 test('one page has one address', () => {
   assert.equal(normaliseUrl('https://www.sra.org.uk/news/news/press/x/?utm_source=a#top'), 'https://www.sra.org.uk/news/news/press/x');
@@ -54,6 +54,21 @@ test('a listing can be limited to the main part of the page', async () => {
     const source = { how: 'page', url, match: '^https://example\\.org/[^/]+$' };
     assert.equal((await listAll(source)).length, 3);
     assert.deepEqual(await listAll({ ...source, main_only: true }), [{ url: 'https://example.org/rule-change', title: 'Rule change', date: null, summary: '' }]);
+  } finally {
+    delete process.env.TRACKER_FIXTURES;
+  }
+});
+
+test('links to PDFs are left out of what a run will read', async () => {
+  const dir = mkdtempSync(path.join(tmpdir(), 'tracker-'));
+  const url = 'https://example.net/list';
+  writeFileSync(path.join(dir, 'index.json'), JSON.stringify({ [url]: 'list.txt' }));
+  writeFileSync(path.join(dir, 'list.txt'), '<main><a href="/list/rule">Rule</a><a href="/list/slip.pdf">Correction slip</a></main>');
+  process.env.TRACKER_FIXTURES = dir;
+  try {
+    const found = await newItems({ how: 'page', url, match: '^https://example\\.net/list/.+' }, { seen: {}, since: '2000-01-01', max: 10 });
+    assert.equal(found.listed, 2);
+    assert.deepEqual(found.batch.map((i) => i.url), ['https://example.net/list/rule']);
   } finally {
     delete process.env.TRACKER_FIXTURES;
   }

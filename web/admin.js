@@ -215,7 +215,9 @@
         if (stat) return { text: 'Read ' + fmt(data.logs[i].date) + ' · ' + stat.listed + ' listed', cls: '' };
       }
     }
-    return { text: 'Not read yet', cls: ' off' };
+    // Logs from before per-source figures were kept say nothing either way.
+    var counted = data.logs.some(function (log) { return (log.runs || []).some(function (run) { return run.sources; }); });
+    return { text: counted ? 'Not read yet' : 'On', cls: counted ? ' off' : '' };
   }
   function address(s) {
     if (s.how === 'govuk') return 'GOV.UK search: ' + s.organisation + (s.query ? ', “' + s.query + '”' : '');

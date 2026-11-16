@@ -22,10 +22,11 @@ export function normaliseUrl(raw) {
 
 // Tests read pages from a folder instead of the web: TRACKER_FIXTURES/index.json maps URL → file.
 let fixtures;
+let fixturesDir;
 async function fixtureFor(url) {
   const dir = process.env.TRACKER_FIXTURES;
   if (!dir) return null;
-  fixtures ??= JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
+  if (dir !== fixturesDir) [fixtures, fixturesDir] = [JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8')), dir];
   const file = fixtures[url];
   if (!file) throw new Error('HTTP 404 (no fixture)');
   return readFile(path.join(dir, file), 'utf8');
@@ -180,7 +181,9 @@ function nextPage(source, body, current, n) {
 export async function newItems(source, { seen, since, max, pages = 1 }) {
   const all = await listAll(source, { pages, since });
   const words = (source.keywords ?? []).map((k) => k.toLowerCase());
-  const items = words.length ? all.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : all;
+  // PDFs cannot be read yet, so they are left out here rather than failing on every run.
+  const readable = all.filter((i) => !/\.pdf($|\?)/i.test(i.url));
+  const items = words.length ? readable.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : readable;
   const inWindow = items.filter((i) => !i.date || i.date >= since);
   // New means: never read, or not read successfully yet, or listed with a later date than when it was last read (the page was updated).
   const fresh = inWindow.filter((i) => {
