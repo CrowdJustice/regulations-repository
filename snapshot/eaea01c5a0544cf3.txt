@@ -1,0 +1,1619 @@
+<!DOCTYPE HTML>
+<html lang="en-AU">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=11"/>
+    <meta name="content-page-ref" content="1dNX_KiTE1YWyfWKPpOJMVepcz585srZAtbfcsc9QRF5jwbPKQlMZh710tkDcjSucSN7tSnggwEC3CyOgRh0uK65Qr5SUJBpvm8eknle9ofhRxcoAdZRNVZ54yHOdaVFD-SQhIlkWgfGXEIQ48JfZ2eulJdzqUoqqzgLzoJCa9HuzpppblefsEo2Ypj0IK7ooVsGmtFk3TWzWMc4hfllkQ"/>
+<script defer="defer" type="text/javascript" src="https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js" data-routing="env=prod,tier=publish,ams=NSW Department of Communities and Justice (Enterprise)" integrity="" crossorigin="anonymous" data-enhancer-version="" data-enhancer-hash=""></script>
+<link rel="apple-touch-icon" sizes="180x180" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/favicon-16x16.png"/>
+<link rel="manifest" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/site.webmanifest"/>
+<link rel="mask-icon" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/safari-pinned-tab.svg" color="#055975"/>
+<link rel="shortcut icon" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/favicon.ico"/>
+<meta name="msapplication-TileColor" content="#055975"/>
+<meta name="msapplication-config" content="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council/resources/favicons/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+
+
+    
+    <meta name="description" content="Updated cost disclosure documents: results of user testing"/>
+    <meta name="template" content="legal-services-council-content-right-related-links"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+	
+		<meta name="AGLS.CorporateName" content="NSW Department of Communities and Justice"/>
+	
+		<meta name="AGLS.Jurisdiction" content="New South Wales"/>
+	
+		<meta name="AGLS.PostalAddress" content="Locked Bag 5111, Parramatta NSW 2124"/>
+	
+		<meta name="DC.Audience" content="All"/>
+	
+		<meta name="DC.Creator" content="replication-receiver"/>
+	
+		<meta name="DC.Description" content="Updated cost disclosure documents: results of user testing"/>
+	
+		<meta name="DC.DocumentType" content="News"/>
+	
+		<meta name="DC.Format" content="text/html"/>
+	
+		<meta name="DC.Language" content="en-AU"/>
+	
+		<meta name="DC.Publisher" content="NSW Department of Communities and Justice"/>
+	
+		<meta name="DC.Title" content="Updated cost disclosure documents: results of user testing"/>
+	
+		<meta name="category.name" content="Highlights"/>
+	
+		<meta name="category.url" content="/content/dcj/legal-services-council/legal-services-council-home/highlights.html"/>
+	
+		<meta name="effective.date" content="23/03/2026"/>
+	
+		<meta name="home" content="/content/dcj/legal-services-council/legal-services-council-home"/>
+	
+		<meta name="home-test" content="/content/dcj/legal-services-council/legal-services-council-home"/>
+	
+		<meta name="sitename" content="Legal Services Council "/>
+	
+		<meta name="twitter:description" content="Updated cost disclosure documents: results of user testing"/>
+	
+		<meta name="twitter:image:src" content="https://legalservicescouncil.org.au/content/dam/dcj/global/common/NSW-Government-official-logo.jpg"/>
+	
+		<meta name="twitter:title" content="Updated cost disclosure documents: results of user testing"/>
+	
+	
+		<meta property="fb:app_id"/>
+	
+		<meta property="og:description" content="Updated cost disclosure documents: results of user testing"/>
+	
+		<meta property="og:image" content="https://legalservicescouncil.org.au/content/dam/dcj/global/common/NSW-Government-official-logo.jpg"/>
+	
+		<meta property="og:site_name" content="Legal Services Council "/>
+	
+		<meta property="og:title" content="Updated cost disclosure documents: results of user testing"/>
+	
+		<meta property="og:type" content="article"/>
+	
+		<meta property="og:url" content="https://legalservicescouncil.org.au/highlights/updated-cost-disclosure-documents--results-of-user-testing.html"/>
+	
+	
+		<link rel="canonical" href="https://legalservicescouncil.org.au/highlights/updated-cost-disclosure-documents--results-of-user-testing.html"/>
+	
+
+
+
+    
+        
+    
+
+    
+
+	
+    
+
+
+    
+    
+    	<title>Updated cost disclosure documents: results of user testing | Legal Services Council  </title>
+    
+
+    
+
+    
+    <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"/>
+    
+
+    
+    
+    
+
+    
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/7049a969e2e3/3650c9c541a4/launch-d557c66b7ef7.min.js" async></script>
+
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-digital-nsw-design-system.min.ACSHASH3f5b19dc0cb1f0b7e78ff45b80d7650e.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-dcj-digital-design-system.min.ACSHASH2c3f9dcea033c57706ed9cc423e9da9b.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council.min.ACSHASH40c78e48895e718600be7fb8c754dfc3.css" type="text/css">
+
+
+
+    
+
+    
+
+<!-- Google translation -->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKFR2HX');</script>
+<!-- End Google Tag Manager -->
+<!-- Readspeaker script start-->
+<script type="text/javascript">
+<!--window.rsConf = {general: {usePost: true},ui: {displayDownload: false}};//-->
+</script>
+<script src="//f1-oc.readspeaker.com/script/4696/webReader/webReader.js?pids=wr&disable=translation,lookup" type="text/javascript"></script>
+<!-- Readspeaker script end-->
+
+
+        
+    
+<script src="/etc.clientlibs/justice-cxp/clientlibs/clientlib-grecaptcha.min.ACSHASHbe51aaae2ce78a51335aa7382e08a743.js"></script>
+
+
+
+
+<script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit' async defer></script>
+
+
+</head>
+    <body class="legal-services-council-metadata internet-metadata page basicpage ">
+        
+        
+            
+
+
+
+              <!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKFR2HX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <div id="globalheader">
+        <div class="skiplink-container" id="top-mobile">
+            <div class="skiplink">
+                <div class="nsw-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>
+                                    <a class="skiplink__link" id="top-desktop" href="#mainContent">Skip to content</a>
+                                </li>
+                                <li>
+                                    <a class="skiplink__link" href="#search">Skip to search</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xfpage page basicpage">
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="alert aem-GridColumn aem-GridColumn--default--12"><!--noindex-->
+<div>
+
+    
+    
+        
+    
+</div>
+ <!--endnoindex--></div>
+<div class="global-header aem-GridColumn aem-GridColumn--default--12">
+<div class="nsw-masthead" role="banner">
+    <div class="global-header-container nsw-container nsw-section--invert">
+       <div class="global-header-wrapper">
+				 
+				
+         <div class="global-header-right-nav">
+          	
+              
+              
+	          <div id="listenbutton" class="globalheader-listen-button">
+	                <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve nsw-m-0">
+	                     
+	                      
+	                           <a rel="nofollow" class="rsbtn_play" accesskey="L" href="//app-oc.readspeaker.com/cgi-bin/rsent?customerid=4696&lang=en_au&readclass=bannercontainer,nsw-layout__main,hero-banner&url=" title="Listen to this page using ReadSpeaker">
+	                                <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+	                                 <span class="rsbtn_right rsimg rsplay rspart"></span>
+	                            </a>
+	                       
+	                       
+	                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="header aem-GridColumn aem-GridColumn--default--12">
+
+
+<!--noindex-->
+<div class="nsw-header">
+  
+  <div class="hidden" data-hide-global-search="False"></div>
+  <div class="nsw-header__container">
+    <div class="nsw-header__inner">
+      <div class="nsw-header__main">
+		<div class="nsw-header__waratah nsw-header__site-logo">
+          	<a href="/content/dcj/legal-services-council/legal-services-council-home.html">
+			  	
+				<img src="/content/dam/dcj/legal-services-council/images/Logo_-_LSC_and_CULSR_-_155x48.svg" alt="The webite of Legal Services council" class="nsw-header__site-logo"/>
+			  
+			</a>			
+		</div>
+        
+      </div>
+      <div class="nsw-header__menu">
+        <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">menu</span>
+          <span><span class="sr-only">Open</span> Menu</span>
+        </button>
+      </div>
+      <div class="nsw-header__search">
+        <button id="search" type="button" class="js-open-search" aria-expanded="false" aria-controls="header-search">
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">search</span>
+          <span><span class="sr-only">Show</span> Search</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nsw-header__search-area js-search-area" id="header-search" hidden>
+      <form role="search" action="/content/dcj/legal-services-council/legal-services-council-home/search.html">
+        <label for="nsw-header-input" class="sr-only">Enter search terms:</label>
+        <input class="nsw-header__input js-search-input" type="text" autocomplete="off" id="nsw-header-input" name="searchtext"/>
+        <button class="nsw-icon-button nsw-icon-button--flex" type="submit">
+          <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">search</span>
+          <span class="sr-only">Submit search</span>
+        </button>
+      </form>
+      <button class="nsw-icon-button js-close-search" aria-expanded="true" aria-controls="header-search">
+        <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+        <span class="sr-only">Close search</span>
+      </button>
+    </div>
+	<div class="language-translation">
+		
+			
+    </div>
+    
+  </div>
+</div>
+<!--endnoindex--></div>
+<div class="main-navigation aem-GridColumn aem-GridColumn--default--12"><!--noindex-->
+
+
+
+
+<!-- Component -Megamenu code fragment starts here-->
+
+ <nav id="main-nav" class="nsw-main-nav js-mega-menu" aria-label="Main menu">
+     <div class="nsw-main-nav__header">
+         <div class="nsw-main-nav__title" role="heading" aria-level="2">Menu</div>
+         <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+             <span class="sr-only">Close Menu</span>
+         </button>
+     </div>
+     <ul class="nsw-main-nav__list">
+         
+             <li>
+                 
+                     <a href="/content/dcj/legal-services-council/legal-services-council-home.html" class="megamenu-home-link">Home</a>
+                 
+                 <span class="megamenu-home-icon">
+                    <a href="/content/dcj/legal-services-council/legal-services-council-home.html">
+                        <span class="material-circle"><i class="material-icons">home</i></span>
+                    </a>
+                </span>
+             </li>
+         
+         <li>
+         
+         <button>
+                 <span>About us</span>
+                 <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+             </button>
+             <div class="nsw-main-nav__sub-nav" id="sub-nav-0" role="region" aria-label="About us Submenu">
+                 <div class="nsw-main-nav__header">
+                     <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-0">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                         <span>Back<span class="sr-only"> to previous menu</span></span>
+                     </button>
+
+                     <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                         <span class="sr-only">Close Menu</span>
+                     </button>
+                 </div>
+                 <div class="nsw-main-nav__title" role="heading" aria-level="3">
+                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us.html">
+                         <span>About us</span>
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                     </a>
+                 </div>
+                 <div class="nsw-main-nav__description">Together, the Legal Services Council (LSC) and Commissioner for Uniform Legal Services Regulation oversee the operation of the Legal Profession Uniform Law scheme.</div>
+                 <ul class="nsw-main-nav__sub-list">
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/how-we-work-together.html">
+                             <span>How we work together</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council.html">
+                             <span>Council</span>
+                             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+                         </a>
+                         <div class="nsw-main-nav__sub-nav" id="sub-nav-a97d1b081c1141daa0ef3eff6a9f5374" role="region" aria-label="Council Submenu">
+                             <div class="nsw-main-nav__header">
+                                 <button type="button" class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" aria-controls="sub-nav-a97d1b081c1141daa0ef3eff6a9f5374" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                                     <span>Back<span class="sr-only"> to previous menu</span></span>
+                                 </button>
+
+                                 <button type="button" class="nsw-icon-button js-close-nav" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                                     <span class="sr-only">Close Menu</span>
+                                 </button>
+                             </div>
+                             <div class="nsw-main-nav__title">
+                                 <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council.html">
+                                     <span>Council</span>
+                                 </a>
+                             </div>
+                            
+                             <ul class="nsw-main-nav__sub-list">
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council/sitesh-bhojani-.html">
+                                         <span>Sitesh Bhojani (Chair) </span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council/amber-cerny.html">
+                                         <span>Amber Cerny</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council/tim-hammond-sc.html">
+                                         <span>Tim Hammond SC </span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council/andrew-pascoe.html">
+                                         <span>Andrew Pascoe</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/commissioner.html">
+                             <span>Commissioner</span>
+                             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+                         </a>
+                         <div class="nsw-main-nav__sub-nav" id="sub-nav-53e56664b64f43f3b163b8934aae311e" role="region" aria-label="Commissioner Submenu">
+                             <div class="nsw-main-nav__header">
+                                 <button type="button" class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" aria-controls="sub-nav-53e56664b64f43f3b163b8934aae311e" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                                     <span>Back<span class="sr-only"> to previous menu</span></span>
+                                 </button>
+
+                                 <button type="button" class="nsw-icon-button js-close-nav" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                                     <span class="sr-only">Close Menu</span>
+                                 </button>
+                             </div>
+                             <div class="nsw-main-nav__title">
+                                 <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/commissioner.html">
+                                     <span>Commissioner</span>
+                                 </a>
+                             </div>
+                            
+                             <ul class="nsw-main-nav__sub-list">
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/commissioner/stephen-bray.html">
+                                         <span>Stephen Bray</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions.html">
+                             <span>Admissions Committee</span>
+                             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+                         </a>
+                         <div class="nsw-main-nav__sub-nav" id="sub-nav-8fcb8d597d3a475babf9c63cde1c3890" role="region" aria-label="Admissions Committee Submenu">
+                             <div class="nsw-main-nav__header">
+                                 <button type="button" class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" aria-controls="sub-nav-8fcb8d597d3a475babf9c63cde1c3890" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                                     <span>Back<span class="sr-only"> to previous menu</span></span>
+                                 </button>
+
+                                 <button type="button" class="nsw-icon-button js-close-nav" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                                     <span class="sr-only">Close Menu</span>
+                                 </button>
+                             </div>
+                             <div class="nsw-main-nav__title">
+                                 <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions.html">
+                                     <span>Admissions Committee</span>
+                                 </a>
+                             </div>
+                            
+                             <ul class="nsw-main-nav__sub-list">
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/the-hon-justice-francois-kunc--chair-.html">
+                                         <span>The Hon Justice François Kunc-(Chair)</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/professor-belinda-bennett.html">
+                                         <span>Professor Belinda Bennett</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/ross-drinnan.html">
+                                         <span>Mr Ross Drinnan</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/david-habersberger.html">
+                                         <span>The Hon David Habersberger KC</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/the-hon-justice-matthew-howard.html">
+                                         <span>The Hon Justice Matthew Howard</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/rebecca-o-brien.html">
+                                         <span>Rebecca O&#39;Brien</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions/sophie-williams-.html">
+                                         <span>Sophie Williams </span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/law-admissions-consultative-committee.html">
+                             <span>Law Admissions Consultative Committee (LACC)</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/audit-and-risk-committee.html">
+                             <span>Audit and Risk Committee</span>
+                             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+                         </a>
+                         <div class="nsw-main-nav__sub-nav" id="sub-nav-958992685f6f46ecbbd4a1053a91c8c4" role="region" aria-label="Audit and Risk Committee Submenu">
+                             <div class="nsw-main-nav__header">
+                                 <button type="button" class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" aria-controls="sub-nav-958992685f6f46ecbbd4a1053a91c8c4" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                                     <span>Back<span class="sr-only"> to previous menu</span></span>
+                                 </button>
+
+                                 <button type="button" class="nsw-icon-button js-close-nav" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                                     <span class="sr-only">Close Menu</span>
+                                 </button>
+                             </div>
+                             <div class="nsw-main-nav__title">
+                                 <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/audit-and-risk-committee.html">
+                                     <span>Audit and Risk Committee</span>
+                                 </a>
+                             </div>
+                            
+                             <ul class="nsw-main-nav__sub-list">
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/audit-and-risk-committee/malcolm-freame-.html">
+                                         <span>Malcolm Freame </span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/audit-and-risk-committee/andrew-pascoe.html">
+                                         <span>Andrew Pascoe</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/access-to-information-privacy-and-policies.html">
+                             <span>Access to Information, Privacy and Policies</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/contact-us.html">
+                             <span>Contact us</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 </ul>
+             </div>
+         </li>
+     
+         
+         <li>
+         
+         <button>
+                 <span>Uniform Framework</span>
+                 <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+             </button>
+             <div class="nsw-main-nav__sub-nav" id="sub-nav-1" role="region" aria-label="Uniform Framework Submenu">
+                 <div class="nsw-main-nav__header">
+                     <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-1">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                         <span>Back<span class="sr-only"> to previous menu</span></span>
+                     </button>
+
+                     <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                         <span class="sr-only">Close Menu</span>
+                     </button>
+                 </div>
+                 <div class="nsw-main-nav__title" role="heading" aria-level="3">
+                     <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework.html">
+                         <span>Uniform Framework</span>
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                     </a>
+                 </div>
+                 <div class="nsw-main-nav__description">Uniform Framework
+</div>
+                 <ul class="nsw-main-nav__sub-list">
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/what-is-the-uniform-framework.html">
+                             <span>What is the Uniform Framework?</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/Recent-changes.html">
+                             <span>Recent changes</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-law.html">
+                             <span>Uniform Law</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-rules.html">
+                             <span>Uniform Rules</span>
+                             <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+                         </a>
+                         <div class="nsw-main-nav__sub-nav" id="sub-nav-625a9d5a6af14ed480cfa6c9bd09dc3b" role="region" aria-label="Uniform Rules Submenu">
+                             <div class="nsw-main-nav__header">
+                                 <button type="button" class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" aria-controls="sub-nav-625a9d5a6af14ed480cfa6c9bd09dc3b" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                                     <span>Back<span class="sr-only"> to previous menu</span></span>
+                                 </button>
+
+                                 <button type="button" class="nsw-icon-button js-close-nav" aria-expanded="true">
+                                     <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                                     <span class="sr-only">Close Menu</span>
+                                 </button>
+                             </div>
+                             <div class="nsw-main-nav__title">
+                                 <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-rules.html">
+                                     <span>Uniform Rules</span>
+                                 </a>
+                             </div>
+                            
+                             <ul class="nsw-main-nav__sub-list">
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-rules/admission-rules.html">
+                                         <span>Admission Rules</span>
+                                     </a>
+                                 </li>
+                             
+                                 <li>
+                                     <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-rules/general-rules.html">
+                                         <span>General Rules</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/guidelines-directions.html">
+                             <span>Guidelines and Directions</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/designated-local-regulatory-authorities.html">
+                             <span>Designated Local Regulatory Authorities</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 </ul>
+             </div>
+         </li>
+     
+         
+         <li>
+         <a href="/content/dcj/legal-services-council/legal-services-council-home/for-legal-practitioners.html">
+            <span>For Legal Practitioners</span>
+         </a>
+         
+             
+         </li>
+     
+         
+         <li>
+         
+         <button>
+                 <span>For Consumers</span>
+                 <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+             </button>
+             <div class="nsw-main-nav__sub-nav" id="sub-nav-3" role="region" aria-label="For Consumers Submenu">
+                 <div class="nsw-main-nav__header">
+                     <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-3">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                         <span>Back<span class="sr-only"> to previous menu</span></span>
+                     </button>
+
+                     <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                         <span class="sr-only">Close Menu</span>
+                     </button>
+                 </div>
+                 <div class="nsw-main-nav__title" role="heading" aria-level="3">
+                     <a href="/content/dcj/legal-services-council/legal-services-council-home/for-consumers.html">
+                         <span>For Consumers</span>
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                     </a>
+                 </div>
+                 <div class="nsw-main-nav__description">The Legal Profession Uniform Law provides a balanced approach to the regulation of legal practitioners and law practices and the protection of consumers.</div>
+                 <ul class="nsw-main-nav__sub-list">
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/for-consumers/legislation-and-rules.html">
+                             <span>Legislation and rules</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 </ul>
+             </div>
+         </li>
+     
+         
+         <li>
+         
+         <button>
+                 <span>Consultations</span>
+                 <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+             </button>
+             <div class="nsw-main-nav__sub-nav" id="sub-nav-4" role="region" aria-label="Consultations Submenu">
+                 <div class="nsw-main-nav__header">
+                     <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-4">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                         <span>Back<span class="sr-only"> to previous menu</span></span>
+                     </button>
+
+                     <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                         <span class="sr-only">Close Menu</span>
+                     </button>
+                 </div>
+                 <div class="nsw-main-nav__title" role="heading" aria-level="3">
+                     <a href="/content/dcj/legal-services-council/legal-services-council-home/consultations.html">
+                         <span>Consultations</span>
+                         <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                     </a>
+                 </div>
+                 <div class="nsw-main-nav__description">Bringing together community, client and legal practitioner perspectives is vital to the work of the Legal Services Council and the Commissioner for Uniform Legal Services Regulation.</div>
+                 <ul class="nsw-main-nav__sub-list">
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/consultations/current-consultations.html">
+                             <span>Current Consultations</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 
+                     <li>
+                         <a href="/content/dcj/legal-services-council/legal-services-council-home/consultations/recent-consultations.html">
+                             <span>Recent Consultations</span>
+                             
+                         </a>
+                         
+                     </li>
+
+                 </ul>
+             </div>
+         </li>
+     
+         
+         <li>
+         <a href="/content/dcj/legal-services-council/legal-services-council-home/highlights.html">
+            <span>Highlights</span>
+         </a>
+         
+             
+         </li>
+     </ul>
+ </nav>
+<div id="contentstart"></div>
+	
+    <!-- Component - Megamenu code fragment ends here.uk-grid-->
+   <!--endnoindex-->
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="breadcrumb aem-GridColumn aem-GridColumn--default--12">
+<!--noindex-->
+
+<div class="nsw-container">
+    <nav aria-label="Breadcrumbs" class="nsw-breadcrumbs">
+        <ol>
+            <li>
+                <a href="/content/dcj/legal-services-council/legal-services-council-home.html">Home</a>
+            </li>
+                
+                    <li>
+                        <span class="material-icons" aria-hidden="true">keyboard_arrow_right</span>
+                        <a href="/content/dcj/legal-services-council/legal-services-council-home/highlights.html">Highlights</a>
+                    </li>
+                          
+            <li>
+                <span class="material-icons" aria-hidden="true">keyboard_arrow_right</span>
+                <span class="current" aria-current="page">Updated cost disclosure documents: results of user testing</span>
+            </li>
+      </ol>
+    </nav>
+</div>
+<!--endnoindex-->
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div>
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div></div>
+
+</header>
+  
+      <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="columncontrol aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+	<span id="content" tabindex="-1"></span>
+     <!--end of columncontrol.columnWidth=100-->
+  <!--end of columncontrol.columnWidth=33-66-->
+
+  <div class="nsw-container">
+    <div class="nsw-layout">
+      <main class="nsw-layout__main" id="mainContent">
+        <!-- START: Main content -->
+		
+        
+        	<div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cmp cmp-title aem-GridColumn aem-GridColumn--default--12">
+<h1>Updated cost disclosure documents: results of user testing</h1>
+
+    
+
+
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<div id="text-52f0291c2c" class="cmp-text">
+    <p>The Legal Services Council engaged Nature, a strategic insights research company, to assess the usability of updated cost disclosure forms and information sheets for consumers and legal practitioners. The Council developed the updated documents in accordance with recommendations from an independent review of cost disclosure thresholds.</p>
+<p>The research involved a survey of over 1,000 consumers and interviews with 30 solicitors and barristers across New South Wales, Victoria, and Western Australia. Key takeouts from the research include the following:</p>
+<ul><li>85% of consumers agreed that the cost disclosure form clearly and transparently explained the scope of services and provided information they need to make an informed decision.</li><li>Practitioners interviewed for the research described the cost disclosure form as clear, convenient, and easy to navigate, while suggesting opportunities for enhancements.</li><li>Consumers and practitioners viewed the information sheets as practical, user-friendly resources that support comprehension of the cost disclosure forms.</li><li>Younger consumers and those from low-income households were more likely to experience difficulties in understanding the cost disclosure form.</li><li>Opportunities to improve the cost disclosure forms were identified by both consumers and practitioners, including greater flexibility for different matter types, clearer explanations of cost and billing, less reliance on legal jargon by practitioners, and better alignment with existing practitioner workflows.</li></ul>
+<p>The report is available <a href="/content/dam/dcj/legal-services-council/documents/Nature_User_Testing_Research_Report_Final.pdf">here</a><span class="file-info"> (PDF, 3.0 MB)</span>.</p>
+<p>In light of the research findings, the Council will be undertaking targeted consultation on implementing several recommendations arising from the independent review of cost disclosure thresholds. These recommendations include amending the Uniform General Rules to adjust the lower and upper cost disclosure thresholds, expand the list of commercial and government clients in the Uniform General Rules to include three new classes of persons, and require regulatory authorities and professional associations to issue guidance on the importance of keeping records of compliance with the cost disclosure requirements. </p>
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="updateddate aem-GridColumn aem-GridColumn--default--12"><!--noindex--> 
+
+	 
+		 
+			<div class="nsw-container nsw-m-top-md nsw-p-left-0">
+				<div class="nsw-layout">
+                	<div class="nsw-col nsw-col-12">
+         
+		 <p class="nsw-p-bottom-sm"><span>Last updated: </span><time datetime="2026-06-19">19 June 2026</time></p>
+          
+					</div>
+				</div>
+			</div>
+        
+   
+
+<!--endnoindex--></div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div>
+</div>
+
+    
+</div>
+</div>
+        
+        <!-- END: Main content -->
+      </main>
+      <div class="nsw-layout__sidebar">
+        <!-- START: Right sidebar content -->
+         <div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+</div>
+
+    
+</div>
+</div>
+        <!-- END: Right sidebar content -->
+      </div>
+    </div>
+  </div>
+ <!--end of columncontrol.columnWidth=33-66-->
+<!-- end of columncontrol.isMain-->
+
+
+
+
+
+
+
+
+ <!-- end of slingModel--></div>
+
+    
+</div>
+</div>
+
+    
+</div>
+</div>
+
+  
+  
+
+<footer>
+    <div class="xfpage page basicpage">
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="inpage-feedback aem-GridColumn aem-GridColumn--default--12">
+<!--noindex-->
+<div class="nsw-container inpage-container">
+    <form class="nsw-form">    
+      <fieldset class="nsw-form__fieldset">
+          <div class="nsw-grid nsw-form__group inpage-feedback-first-section">
+            <div class="nsw-form__fieldset">
+                <div class="nsw-col nsw-col-lg-3">
+                    <div>
+                        <legend class="nsw-form__legend" id="feedback-title-identifier">Was this content useful?  </legend>
+                    </div>
+                </div>
+
+               <div class="nsw-col nsw-col-lg-4 inpage-button-container">
+                    <label for="option-yes" class="nsw-button nsw-button--dark inpage-feedback-yesbutton">
+                        <input id="option-yes" type="radio" name="feedback-option" class="nsw-form__radio-input" aria-describedby="feedback-title-identifier" value="yes"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="16px" focusable="false" aria-hidden="true" fill="#ffffff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg>
+                        
+                        <span class="yesLabel">Yes</span>
+                    </label>
+
+                    <label for="option-no" class="nsw-button nsw-button--dark inpage-feedback-nobutton">
+                        <input id="option-no" type="radio" name="feedback-option" class="nsw-form__radio-input" aria-describedby="feedback-title-identifier" value="no"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="16px" focusable="false" aria-hidden="true" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/></svg>
+                        <span class="noLabel">No</span>
+                    </label>
+                </div>
+            </div>
+                <div class="nsw-col nsw-col-lg-5">
+                    <span class="nsw-form__label inpage-feedback-title-right"> We will use your rating to help improve the site.</span>
+                </div>
+                <input type="hidden" id="feedbackOpted"/>
+           </div>
+
+            <div class="nsw-grid inpage-feedback-yes">
+                <div class="nsw-col nsw-col-lg-7"> 
+                    <div class="nsw-form__group">
+                        <label class="nsw-form__label" for="yesdropdownlist">
+                            *What did you like about it?
+                            <span class="sr-only"> (required)</span>
+                        </label>
+                      <select class="nsw-form__select" id="yesdropdownlist">
+                            <option selected disabled>--Please select--</option>
+                             
+                                <option>I found the information that I was looking for </option> 
+                             
+                                <option> Website search worked well </option> 
+                             
+                                <option>Information is easy to read and understand </option> 
+                             
+                                <option>Other </option> 
+                            
+                        </select>
+                         <span class="nsw-form__helper nsw-form__helper--error" id="yesdropdownlist-error-text" aria-hidden="true">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 2C6.97 2 2.5 6.47 2.5 12C2.5 17.53 6.97 22 12.5 22C18.03 22 22.5 17.53 22.5 12C22.5 6.47 18.03 2 12.5 2ZM17.5 15.59L16.09 17L12.5 13.41L8.91 17L7.5 15.59L11.09 12L7.5 8.41L8.91 7L12.5 10.59L16.09 7L17.5 8.41L13.91 12L17.5 15.59Z" fill="#b81237"/>
+                            </svg>
+                             This field is required 
+                         </span>
+                      </div>
+                      <div class="nsw-form__group">
+                            <label class="nsw-form__label" for="yescomment">Additional comments (optional)</label>
+                            <span class="nsw-form__helper" id="form-text-2-helper-text">Please don't include personal or financial information here</span>
+                            <textarea class="nsw-form__input" name="textarea" id="yescomment" aria-describedby="form-text-2-helper-text"></textarea>
+                      </div>
+                </div>
+            </div>
+
+
+         <div class="nsw-grid inpage-feedback-no">
+               <div class="nsw-col nsw-col-lg-7"> 
+                    <div class="nsw-form__group">
+                        <label class="nsw-form__label" for="nodropdownlist">*Help us improve the website. How could we make it better?
+                            <span class="sr-only"> (required)</span>
+                        </label>
+                      <select class="nsw-form__select" id="nodropdownlist">
+                            <option selected disabled>--Please select--</option>
+                             
+                                <option>I could not find the information I was looking for </option> 
+                             
+                                <option>Search does not work </option> 
+                             
+                                <option>Information is hard to read and understand </option> 
+                             
+                                <option>Some content was not accessible </option> 
+                             
+                                <option>Other </option> 
+                            
+                        </select>
+                         <span class="nsw-form__helper nsw-form__helper--error" id="nodropdownlist-error-text" aria-hidden="true">
+                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 2C6.97 2 2.5 6.47 2.5 12C2.5 17.53 6.97 22 12.5 22C18.03 22 22.5 17.53 22.5 12C22.5 6.47 18.03 2 12.5 2ZM17.5 15.59L16.09 17L12.5 13.41L8.91 17L7.5 15.59L11.09 12L7.5 8.41L8.91 7L12.5 10.59L16.09 7L17.5 8.41L13.91 12L17.5 15.59Z" fill="#b81237"/>
+                            </svg>
+                            This field is required 
+                         </span>  
+                      </div>
+                      <div class="nsw-form__group">
+                            <label class="nsw-form__label" for="nocomment">Additional comments (optional)</label>
+                            <span class="nsw-form__helper" id="form-text-2-helper-text">Please don't include personal or financial information here</span>
+                            <textarea class="nsw-form__input" name="textarea" id="nocomment" aria-describedby="form-text-2-helper-text"></textarea>
+                     </div>
+                </div>
+            </div>
+
+             <div class="nsw-grid inpage-feedback-grecaptcha">
+                <div class="nsw-col nsw-col-lg-12 nsw-form__group"> 
+                    <div id="rcaptcha" class="g-recaptcha" data-sitekey="6LeAjgEaAAAAAAGM7z0y6FVKxDOUtpn4YCIuym3R"></div>
+                    <input type="hidden" value="true" id="recaptchaRequired" name="recaptchaRequired"/> 
+                </div>
+                <div class="nsw-col nsw-col-lg-12 nsw-form__group"> 
+                    <button type="button" class="nsw-button nsw-button--dark invisible" id="sendEmail">Send</button>
+                    <button type="button" class="nsw-button nsw-button--dark invisible" id="cancel">Cancel</button>
+                </div>
+            </div>
+
+            <div class="nsw-grid nsw-form__group inpage-feedback-submit">
+
+            </div>
+
+             <div class="nsw-grid nsw-form__group inpage-feedback-submit-result top-pd-1">
+                <div class="nsw-col nsw-col-lg-12" id="feedback-thank-you" tabindex="-1"> 
+                    <label class="nsw-form__label">Thank you for your feedback.</label>
+                    <button type="button" class="nsw-button nsw-button--dark close-button" id="close">Close</button>
+                 </div>
+            </div>
+          </fieldset>
+        </form>
+   </div>
+<!--endnoindex-->
+
+
+
+
+
+
+
+
+</div>
+<div class="footer-links aem-GridColumn aem-GridColumn--default--12"> <!--noindex-->
+
+
+<nav aria-label="Footer links">
+	<div class="nsw-footer__upper">
+    	<div class="nsw-container">
+        	<ul class="nsw-footer__group nsw-footer-columns4-columns">
+        		
+                   <li>
+                       	
+                        	
+                                
+                                    <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us.html">About us
+                                </a>
+
+                                <ul>
+                                    
+                                
+                                    <li>
+                                        
+                                        <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/council.html">Council
+                                        </a>
+
+                                    </li>
+                                
+                                    <li>
+                                        
+                                        <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/commissioner.html">Commissioner
+                                        </a>
+
+                                    </li>
+                                
+                                    <li>
+                                        
+                                        <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/admissions.html">Admissions Committee
+                                        </a>
+
+                                    </li>
+                                </ul>
+                            
+                   		
+                        	
+                   		
+                        	
+                   		
+                        	
+                   		
+                   </li>
+                   
+                   
+                   
+				
+                   
+                   <li>
+                   		
+							
+                                
+                                <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/what-is-the-uniform-framework.html">Uniform Law Framework
+                                </a>
+								<ul>
+                                    
+                                
+                                    <li>
+                                        
+                                            <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-law.html">Uniform Law
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/uniform-rules.html">Uniform Rules
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            <a href="/content/dcj/legal-services-council/legal-services-council-home/uniform-framework/guidelines-directions.html">Guidelines and Directions
+                                        </a>
+                                    </li>
+                                </ul>
+                        	
+                   		
+							
+                   		
+							
+                   		
+							
+                   		
+                   </li>
+                   
+                   
+				
+                   
+                   
+                   <li>
+                   		
+                        	
+								
+                                <a href="/content/dcj/legal-services-council/legal-services-council-home/publications.html">Publications
+                                </a>
+                                <ul>
+                                    
+                                
+                                    <li>
+                                    	
+                                        <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/access-to-information-and-privacy.html">Access to Information and privacy
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                    	<a href="http://www.austlii.edu.au/au/special/lpuniformlaw/">Uniform Law Library
+                                        </a>
+                                        
+                                    </li>
+                                </ul>
+                        	
+                   		
+                        	
+                   		
+                        	
+                   		
+                   </li>
+                   
+				
+                   
+                   
+                   
+                   <li>
+                   		
+                        	
+								
+	                            <a href="/content/dcj/legal-services-council/legal-services-council-home/about-us/contact-us.html">Contact us
+	                            </a>
+	                            <ul>
+	                                
+	                            
+	                                <li>
+	                                	<a href="tel:+61296921300">+61 2 9692 1300
+	                                    </a>
+	                                    
+	                                </li>
+	                            
+	                                <li>
+	                                	<a href="/cdn-cgi/l/email-protection#28445b4b68444d4f49445b4d5a5e414b4d5b4b475d464b414406475a4f06495d"><span class="__cf_email__" data-cfemail="9df1eefeddf1f8fafcf1eef8efebf4fef8eefef2e8f3fef4f1b3f2effab3fce8">[email&#160;protected]</span>
+	                                    </a>
+	                                    
+	                                </li>
+	                            </ul>
+                            
+						
+                        	
+						
+                        	
+						     
+                   </li>
+				
+        	</ul>
+        </div>
+    </div>
+
+</nav>
+
+<!--endnoindex-->
+
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="acknowledgementtext aem-GridColumn aem-GridColumn--default--12"><!--noindex-->
+
+<div class="acknowledgement container">
+	<div class="acknowledgement-logo"><img class="img-fluid" src="/content/dam/dcj/global/common/Flags.svg" alt="Aboriginal Flag and Torres Strait Islander Flag"/></div>
+    <div>
+    	<p>The Legal Services Council and Commissioner for Uniform Legal Services Regulation acknowledges the Aboriginal and Torres Strait Islander peoples as custodians of Australia and pay their respects to Elders, past and present. We also acknowledge their ongoing connection to land, sea and communities throughout Australia, and their contributions to the lives of all Australians.</p>
+
+   		
+    </div>
+</div>
+<!--endnoindex-->
+
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div>
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="columncontrol bg-black aem-GridColumn aem-GridColumn--default--12">
+
+
+
+<!-- end of columncontrol.isMain-->
+
+
+
+
+			
+
+	<!--end of columncontrol.columnWidth=100-->
+
+	 <!--end of columncontrol.columnWidth=50-50-->
+
+	<!--end of columncontrol.columnWidth=33-33-33-->
+
+	<!--end of columncontrol.columnWidth=30-70-->
+
+	<!--end of columncontrol.columnWidth=66-33-->
+
+		<!--end of columncontrol.columnWidth=33-66-->
+
+	<!--end of columncontrol.columnWidth=25-25-25-25-->
+
+	<!--end of columncontrol.columnWidth=25-50-25-->
+
+	<!--end of columncontrol.columnWidth=50-25-25-->
+
+	<!--end of columncontrol.columnWidth=25-25-50-->
+
+	<!--end of columncontrol.columnWidth=25-75-->
+
+	<!--end of columncontrol.columnWidth=75-25-->
+
+	
+    <div class="container" id="sub-footer">
+	 <div class="nsw-grid">
+    	<div class="nsw-col nsw-col-md-10">
+      		<!-- START: Column content -->
+			<div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="footerlinkcolumns nsw-footer__lower aem-GridColumn aem-GridColumn--default--12"> <!--noindex-->
+
+
+
+
+<ul>
+        <li>
+            <a href="/content/dcj/legal-services-council/legal-services-council-home/sitemap.html">Sitemap</a>
+            
+        </li>
+    
+        <li>
+            
+            <a href="https://www.dcj.nsw.gov.au/statements/privacy.html">Privacy</a>
+        </li>
+    
+        <li>
+            
+            <a href="https://www.dcj.nsw.gov.au/accessibility.html">Website Accessibility</a>
+        </li>
+    
+        <li>
+            
+            <a href="https://www.dcj.nsw.gov.au/statements/copyright-and-disclaimer.html">Copyright and Disclaimer</a>
+        </li>
+    </ul>
+
+<!--endnoindex-->
+
+</div>
+
+    
+</div>
+</div>
+			<!-- END: Column content -->
+   		</div>
+    	<div class="nsw-col nsw-col-md-2">
+      		<!-- START: Column content -->
+			<div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="footerlinkcolumns copyright-footer nsw-footer__lower aem-GridColumn aem-GridColumn--default--12"> <!--noindex-->
+
+
+
+
+<ul>
+        <li>
+            
+            <a href="https://www.dcj.nsw.gov.au/copyright-and-disclaimer">Copyright ©</a>
+        </li>
+    </ul>
+
+<!--endnoindex-->
+
+</div>
+
+    
+</div>
+</div>
+			<!-- END: Column content -->
+    	</div>
+  	   </div>
+       </div>
+	<!--end of columncontrol.columnWidth=80-20-->
+
+	<!--end of columncontrol.columnWidth=60-40-->
+
+	<!--end of columncontrol.columnWidth=40-60-->
+
+
+	<!--end of columncontrol.columnWidth=1:5-->
+
+
+
+
+
+
+
+ <!-- end of slingModel--></div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div>
+</div>
+<div class="quick-exit aem-GridColumn aem-GridColumn--default--12">
+
+	
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</div></div>
+
+    <div class="backtotop">
+        <a class="gel-btt" href="#top-desktop" data-gel-back-to-top="data-gel-back-to-top" data-show="false">
+            Top
+            <span class="gel-backtotop-icon" aria-hidden="true"></span>
+            <span class="show-on-sr">Return to top of page</span>
+        </a>
+        <a class="gel-mobile-btt btn btn-lg btn-block" href="#top-mobile" data-show="false">Top <span class="gel-backtotop-icon" aria-hidden="true"></span></a>
+    </div>
+</footer>
+
+
+            
+    
+    
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/etc.clientlibs/justice-cxp/clientlibs/clientlib-digital-nsw-design-system.min.ACSHASHb501b1d6b937714ee34ac5705100c8be.js"></script>
+<script src="/etc.clientlibs/justice-cxp/clientlibs/clientlib-dcj-digital-design-system.min.ACSHASH35c0f49d296f736a8db9c707e0bb3d32.js"></script>
+<script src="/etc.clientlibs/justice-cxp/clientlibs/clientlib-legal-services-council.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+
+
+    
+
+
+<script>window.NSW.initSite()</script>
+    
+
+    
+
+    
+
+
+
+    
+    
+    
+
+            
+
+        
+    </body>
+</html>

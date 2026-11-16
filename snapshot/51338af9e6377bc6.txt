@@ -1,0 +1,675 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty - Law Council of Australia</title>
+	
+    <meta name="description" content="Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty">
+    <meta name="keywords" content="death penalty, international, police, crime, strategy, policy statement">
+    <meta property="og:title">
+
+	<link href="/ThirdParty/AdminLTE2/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"/>
+<link href="/ThirdParty/AdminLTE2/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/ThirdParty/AdminLTE2/plugins/iCheck/square/blue.css" rel="stylesheet"/>
+<link href="/ThirdParty/AdminLTE2/dist/css/skins/_all-skins.min.css" rel="stylesheet"/>
+<link href="/ThirdParty/AdminLTE2/plugins/datepicker/datepicker3.css" rel="stylesheet"/>
+
+
+	<link href="/assets/add-to-cart-interaction/css/reset.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/ui/jquery-ui.min.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/lca.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/jquery.alerts.css?nocache=1.2c" rel="stylesheet" />
+<link href="/ThirdParty/lightbox2/css/lightbox.min.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/dev.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/fa-brands.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/css/style.css?nocache=1.2c" rel="stylesheet" />
+<link href="/assets/add-to-cart-interaction/css/style.css?nocache=1.2c" rel="stylesheet" />
+
+	<link rel="stylesheet" href="/ThirdParty/chosen/chosen.min.css">
+
+	<!--[if IE]>
+	  <link rel="stylesheet" type="text/css" href="/assets/css/ie.css" />
+	<![endif]-->
+	<link href="/ThirdParty/jquery-confirm-master/dist/jquery-confirm.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBFPTV8X7C"></script>
+ <script> 
+	window.dataLayer = window.dataLayer || []; 
+	function gtag(){dataLayer.push(arguments);} 
+	gtag('js', new Date()); 
+	gtag('config', 'G-GBFPTV8X7C'); 
+</script>
+<script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "rYHx0sOanm");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+</head>
+<body class=" ">
+		<header class="login-holder">
+			<div class="login-drop">
+				<div class="inner-holder">
+    <div class="drop-holder">
+        <a href="#" class="close-btn js-login-opener"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <div class="logo-holder">
+            <img src="/assets/images/lca-logo.png" alt="Law Council of Australia" />
+        </div>
+<form action="/Account/Login" class="form-inline" method="post"><input name="__RequestVerificationToken" type="hidden" value="cRBMkfVgCWUXYVWt-L7ibjDnbV1aKn-n_zRj0eqyup9qjN2eOG8kAqVETa5u9bjF3Kgdwi8MwAbMkuphLNeJzzf0XniBiZXo58yqJClt7tU1" />            <div class="members-login-meta">
+                <p>Please enter your login details below to access your user dashboard</p>
+            </div>
+            <div>
+                <label for="login-email">Enter email address</label>
+                <input autocomplete="off" class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Enter email address" type="text" value="" />
+            </div>
+            <div>
+                <label for="login-password">Enter password</label>
+                <input autocomplete="off" class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Enter password" type="password" />
+            </div>
+            <div class="members-login-submit">
+                <button class="button" type="submit">Login</button>
+            </div>
+            <div class="members-login-meta">
+                <a href="/Account/GetANewPassword">I have forgotten my password</a><br />
+                <a href="/workflows/join">Apply for a Law Council Section Membership</a>
+            </div>
+</form>    </div>
+</div>
+			</div>
+		</header>
+	<header id="header">
+		<section id="members-login" aria-hidden="true">
+			<ul>
+				<li>
+					<a href="/">
+						<img src="/assets/images/lca-logo-white.png" alt="Law Council of Australia" />
+					</a>
+				</li>
+				
+			</ul>
+		</section>
+		<div id="header-left">
+				<a href="/">
+					<img src="/assets/images/lca-logo.png" alt="Law Council of Australia" />
+				</a>
+		</div>
+		<div id="header-right">
+			<div id="header-meta-menu-container" class="show-for-large">
+				<ul id="header-meta-menu" class="menu">
+					<li><a href="/">Home</a></li>
+					<li><a href="/about-us">About Us</a></li>
+					<li><a href="/membership">Membership</a></li>
+					<li><a href="/contact-us">Contact Us</a></li>
+						<li class="has-button"><a class="button" href="https://member.lawcouncil.au/">Member Login</a></li>
+				</ul>
+			</div>
+			<div id="header-main-menu-container">
+				<ul id="header-main-menu" class="menu show-for-large">
+						<li data-mega-menu="policy-agenda"><a href="/policy-agenda" >Policy Agenda</a></li>
+						<li data-mega-menu="media"><a href="/media" >Media</a></li>
+						<li data-mega-menu="events"><a href="/events" >Events</a></li>
+						<li data-mega-menu="resources"><a href="/resources" >Resources</a></li>
+				</ul>
+				<div id="small-menu-toggle" data-responsive-toggle="small-menu" data-hide-for="large">
+					<button class="fa fa-bars" type="button" data-toggle></button>
+				</div>
+			</div>
+		</div>
+		<ul id="small-menu" class="vertical dropdown menu hide-for-large" data-dropdown-menu>
+			<li ><a href="/">Home</a></li>
+				<li ><a href="/contact-us" >Contact Us</a></li>
+				<li ><a href="/about-us" >About Us</a></li>
+				<li ><a href="/membership" >Membership</a></li>
+				<li ><a href="/policy-agenda" >Policy Agenda</a></li>
+				<li   class="active"  ><a href="/media" >Media</a></li>
+				<li ><a href="/events" >Events</a></li>
+				<li ><a href="/resources" >Resources</a></li>
+							<li class="members-login"><a href="/account/login" class="button">Member Login</a></li>
+		</ul>
+	</header>
+	<ul id="mega-menu">
+				<li class="policy-agenda">
+					<div class="large-4 columns">
+						<ul class="menu vertical">
+								<li><a href="/tags/access-to-justice" >Access to Justice</a></li>
+								<li><a href="/tags/advancing-the-profession" >Advancing the Profession</a></li>
+								<li><a href="/tags/criminal-law-and-national-security" >Criminal Law and National Security</a></li>
+								<li><a href="/tags/human-rights" >Human Rights</a></li>
+								<li><a href="/tags/international-law" >International Law</a></li>
+								<li><a href="/tags/regulation-of-the-profession-and-ethics" >Regulation of the Profession and Ethics</a></li>
+						</ul>
+					</div>
+					<div class="large-4 columns">
+								<a class="row" href="https://lawcouncil.au/policy-portal">
+									<div>
+										<img src="/Library/CallToActions/7241152c-a1a9-ec11-944c-005056be13b5/Large/Computer 192x114.jpg" alt="Policy Portal" />
+									</div>
+									<div>
+										<p>Policy Portal</p>
+									</div>
+								</a>
+								<a class="row" href="https://lawcouncil.au/policy-agenda/advancing-the-profession/time-for-change-addressing-sexual-harassment">
+									<div>
+										<img src="/Library/CallToActions/1accf186-e439-f011-94b4-005056be13b5/Large/Sexualharassment 192x114.jpg" alt="Time for Change: Addressing Sexual Harassment" />
+									</div>
+									<div>
+										<p>Time for Change: Addressing Sexual Harassment</p>
+									</div>
+								</a>
+					</div>
+					<div class="large-4 columns">
+								<a class="row" href="https://lawcouncil.au/tags/submissions">
+									<div>
+										<img src="/Library/CallToActions/da7d11c2-b66c-ea11-9404-005056be13b5/Large/Submission 192x114.jpg" alt="Read our latest submissions" />
+									</div>
+									<div>
+										<p>Read our latest submissions</p>
+									</div>
+								</a>
+								<a class="row" href="https://lawcouncil.au/policy-agenda/criminal-law-and-national-security/youth-justice">
+									<div>
+										<img src="/Library/CallToActions/8b5748af-bc39-ef11-94a4-005056be13b5/Large/Ladyjustice 192x114.jpg" alt="Youth Justice" />
+									</div>
+									<div>
+										<p>Youth Justice</p>
+									</div>
+								</a>
+					</div>
+				</li>
+				<li class="media">
+					<div class="large-4 columns">
+						<ul class="menu vertical">
+								<li><a href="https://lawcouncil.au/tags/media-statement" >Media Statements</a></li>
+								<li><a href="/tags/media-release" >Media Releases</a></li>
+								<li><a href="/media/news" >News</a></li>
+								<li><a href="/tags/speech" >Speeches</a></li>
+						</ul>
+					</div>
+					<div class="large-4 columns">
+								<a class="row" href="https://lawcouncil.au/resources/lca-update">
+									<div>
+										<img src="/Library/CallToActions/07e20d71-4cf5-ee11-9494-005056be13b5/Large/LCA Update Tile  2.png" alt="Read the latest edition LCA Update " />
+									</div>
+									<div>
+										<p>Read the latest edition LCA Update </p>
+									</div>
+								</a>
+					</div>
+					<div class="large-4 columns">
+					</div>
+				</li>
+				<li class="resources">
+					<div class="large-4 columns">
+						<ul class="menu vertical">
+								<li><a href="/tags/submissions" >Submissions</a></li>
+								<li><a href="/tags/corporate-document" >Corporate Documents</a></li>
+								<li><a href="https://lawcouncil.au/tags/policies-and-guidelines" >Policies and Guidelines</a></li>
+								<li><a href="/resources/publications" >Publications</a></li>
+								<li><a href="https://lawcouncil.au/policy-portal" >Policy Portal</a></li>
+						</ul>
+					</div>
+					<div class="large-4 columns">
+								<a class="row" href="https://lawcouncil.au/policy-portal">
+									<div>
+										<img src="/Library/CallToActions/dfeb3aa9-a5a9-ec11-944c-005056be13b5/Large/Computer 192x114.jpg" alt="Policy Portal" />
+									</div>
+									<div>
+										<p>Policy Portal</p>
+									</div>
+								</a>
+								<a class="row" href="https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules">
+									<div>
+										<img src="/Library/CallToActions/8a4f38bc-bf39-f011-94b4-005056be13b5/Large/lawpublication 192x114.jpg" alt="Australian Solicitors’ Conduct Rules" />
+									</div>
+									<div>
+										<p>Australian Solicitors’ Conduct Rules</p>
+									</div>
+								</a>
+					</div>
+					<div class="large-4 columns">
+								<a class="row" href="https://lawcouncil.au/resources/lca-update">
+									<div>
+										<img src="/Library/CallToActions/c25ddf48-92fe-ed11-9482-005056be13b5/Large/LCA Update Tile  2.png" alt="Read the latest edition of LCA Update" />
+									</div>
+									<div>
+										<p>Read the latest edition of LCA Update</p>
+									</div>
+								</a>
+								<a class="row" href="https://lawcouncil.au/resources/policies-and-guidelines/national-legal-profession-anti-money-laundering---counter-terrorism-financing-guidance">
+									<div>
+										<img src="/Library/CallToActions/08fcd034-bd39-ef11-94a4-005056be13b5/Large/Officespace 192x114.jpg" alt="National Legal Profession Anti-Money Laundering &amp; Counter-Terrorism Financing Guidance" />
+									</div>
+									<div>
+										<p>National Legal Profession Anti-Money Laundering &amp; Counter-Terrorism Financing Guidance</p>
+									</div>
+								</a>
+					</div>
+				</li>
+	</ul>
+	
+
+<section id="content-hero" class="container expanded">
+    <div class="hero small" style="background-image:url('/Library/PageHeadings/LCAOfficeBanner-7.png');">
+        <div class="hero-content">
+            <div class="small-12 medium-6 large-5 columns">
+                <h1>Media</h1>
+            </div>
+        </div>
+        <div class="toolbar blue navigation">
+            <div class="toolbar-content">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                                                <li><a href="/media" target="_self">Media</a></li>
+                        <li><a href="/tags/media-release" target="_self">Media Releases</a></li>
+                        <li>Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty</li>
+                    </ul>
+                </div>
+
+                <form action="/Search/Page" id="frmPageSearch" method="post"><input data-val="true" data-val-number="The field PageNum must be a number." data-val-required="The PageNum field is required." id="PageNum" name="PageNum" type="hidden" value="1" /><input id="SectionId" name="SectionId" type="hidden" value="" />    <ul>
+        <li>
+            <label for="search" aria-hidden="true">Search</label>
+            <input id="search" name="Keyword" placeholder="Search" type="text" value="" />
+            <button type="submit">Search</button>
+        </li>
+        
+        
+            <li><a href="https://twitter.com/thelawcouncil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social x-twitter">Twitter</a></li>                                                    <li><a href="https://www.linkedin.com/company/law-council-of-australia" target="_blank" class="social linkedin">LinkedIn</a></li>
+    </ul>
+</form>
+            </div>
+        </div>
+    </div>
+</section>
+<main id="content" class="no-bottom-margin">
+    <article>
+        <h1>Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty</h1>
+        <h2>2 November 2026</h2>
+
+<p>The Law Council of Australia welcomes the release of the Australian Government&rsquo;s revised Strategy for the Global Abolition of the Death Penalty.</p>
+
+<p>&ldquo;The updated Strategy reaffirms Australia&rsquo;s strong opposition to the death penalty in all circumstances and for all people, and includes important updates to the Government&rsquo;s policy goals and methods of international advocacy,&rdquo; Law Council of Australia President-elect, Elizabeth Shearer said.</p>
+
+<p>&ldquo;The Law Council is pleased to see a number of its <a href="https://lawcouncil.au/publicassets/643d8fce-3059-ef11-94a7-005056be13b5/4574%20-%20S%20-%20Australias%20efforts%20to%20advocate%20for%20the%20worldwide%20abolition%20of%20the%20death%20penalty.pdf">recommendations</a> made as part of the 2024 Joint Standing Committee on Foreign Affairs, Defence and Trade Inquiry into Australia&rsquo;s efforts to advocate for the worldwide abolition of the death penalty reflected in the updated Strategy.</p>
+
+<p>&ldquo;In particular, the updated Strategy now addresses international crime cooperation in its policy goals and as part of its whole-of-government approach.</p>
+
+<p>&ldquo;Consistent with the Law Council&rsquo;s <a href="https://lawcouncil.au/publicassets/ffd693d9-e527-ec11-9442-005056be13b5/2021%2010%2007%20-%20PS%20-%20Policy%20Statement%20on%20the%20Death%20Penalty.pdf">Death Penalty Policy Statement</a>, we will continue to advocate for reforms to ensure that Australia both upholds its international obligations and maintains its avowed opposition to the death penalty across the whole sphere of government.</p>
+
+<p>&ldquo;We also welcome the Government&rsquo;s commitment to convene a dedicated annual civil society consultation session on the abolition of the death penalty, and deliver an annual statement to Parliament outlining Australia&rsquo;s advocacy efforts.</p>
+
+<p>&ldquo;Since the launch of the previous Strategy in 2018, progress has been made on a number of fronts. In our region alone, we have seen the abolition of the death penalty in Papua New Guinea and the repeal of the mandatory death penalty in Malaysia.</p>
+
+<p>&ldquo;Retentionist jurisdictions such as Vietnam and Pakistan have reduced the number of crimes that attract the death penalty. Globally, the number of countries that are abolitionist in practice has increased,&rdquo; Ms Shearer said.</p>
+
+<p>&ldquo;Despite positive developments, the Law Council is concerned by an increase in the number of executions worldwide by a small number of retentionist jurisdictions, and coordinated efforts in multilateral forums to limit and undermine international human rights obligations relating to the death penalty. We have also seen disturbing developments in the method of execution and treatment of individuals facing the death penalty.</p>
+
+<p>&ldquo;In some cases, formerly abolitionist jurisdictions have either proposed or implemented the re-introduction of capital punishment, despite the absence of persuasive evidence that the death penalty is an effective deterrent and the disproportionate impact on the most vulnerable members of society.</p>
+
+<p>&ldquo;These developments highlight the continued need for strong, principled international advocacy and leadership by Australia, implemented consistently across government and in partnership with civil society and like-minded states.&rdquo;</p>
+
+<p>Contact: Kristen Connell | 0400 054 227 | kristen.connell@lawcouncil.au</p>
+
+        
+<div class="attachment-block">
+            <h5>Related Documents</h5>
+        <ul class="related-links">
+                <li>
+                    <a href="/publicassets/3b685d69-83d6-f111-94ce-005056acd090/2026 11 02 - LCA welcomes revised Death Penalty Strategy.pdf" class="" attachmentid="565fff86-83d6-f111-94ce-005056acd090" assetid="3b685d69-83d6-f111-94ce-005056acd090" target="_self"><i class="fa fa-download"></i> Media release: LCA welcomes revised Death Penalty Strategy (PDF)</a>
+                </li>
+        </ul>
+</div>
+        
+        
+            <p><i>Last Updated on 02/11/2026</i></p>
+    <h4>Share</h4>
+    <ul class="social-links">
+        <li><a target="_blank" data-toggle="tooltip" title="share this page on twitter" href="https://twitter.com/intent/tweet?url=https://lawcouncil.au/media/media-releases/law-council-welcomes-release-of-australian-governments-revised-global-strategy-for-abolition-of-the-death-penalty&amp;text=" class="social x-twitter">Share this on Twitter</a></li>
+        <li><a target="_blank" data-toggle="tooltip" title="share this page on linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://lawcouncil.au/media/media-releases/law-council-welcomes-release-of-australian-governments-revised-global-strategy-for-abolition-of-the-death-penalty&amp;title=Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty&amp;summary=&amp;source=LCA" class="social linkedin">Share this on LinkedIn</a></li>
+        <li><a target="_blank" data-toggle="tooltip" title="share this page on facebook" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https://lawcouncil.au/media/media-releases/law-council-welcomes-release-of-australian-governments-revised-global-strategy-for-abolition-of-the-death-penalty&amp;p[images][0]=https://lawcouncil.au/assets/images/lca-logo.png&amp;p[title]=Law Council welcomes release of Australian Government’s revised Global Strategy for Abolition of the Death Penalty&amp;p[summary]" class="social facebook">Share this on Facebook</a></li>
+    </ul>
+    <div class="clearfix"></div>            <h5>Tags</h5>
+    <ul class="related-links tags">
+        <li>
+
+                    <a href="/tags/media">Media</a>
+                    <a href="/tags/media-release">Media Release</a>
+                    <a href="/tags/death-penalty">Death Penalty</a>
+        </li>
+    </ul>
+
+        
+                    <h4>
+                Most recent items             </h4>
+            <section class="feature-grid">
+                <div class="set of-three top-margin" data-equalizer data-equalize-on="medium">
+                        <article class="feature-box cream sector-default sector-full small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2026-11-16 12:00">16 November 2026</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/2026-australian-young-lawyer-awards">
+                                    <h2>2026 Australian Young Lawyer Awards</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/media">Media</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media-release">Media Release</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/young-lawyers">Young Lawyers</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box cream sector-default sector-full small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2026-10-23 12:00">23 October 2026</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/law-council-supports-acic-reform-recommendations">
+                                    <h2>Law Council supports ACIC reform recommendations</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/media-release">Media Release</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media">Media</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/criminal-law">Criminal Law</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box cream sector-default sector-full small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2026-10-22 12:00">22 October 2026</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/national-family-law-conference-bold-conversations-and-groundbreaking-ideas">
+                                    <h2>National Family Law Conference: Bold conversations and groundbreaking ideas</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/media">Media</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media-release">Media Release</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                </div>
+            </section>
+                    <br />
+            <h4>
+                Trending Items             </h4>
+            <section class="feature-grid">
+                <div class="set of-three small-margin " data-equalizer data-equalize-on="medium">
+                        <article class="feature-box cream sector-default small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2022-07-08 12:00">08 July 2022</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/australia-must-formally-adopt-un-declaration-on-rights-of-indigenous-people">
+                                    <h2>Australia must formally adopt UN Declaration on Rights of Indigenous People</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/media">Media</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media-release">Media Release</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box cream sector-default small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2019-11-27 12:00">27 November 2019</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/removal-of-dual-regulation-to-reduce-costs-for-consumers">
+                                    <h2>Removal of dual regulation to reduce costs for consumers</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/media-release">Media Release</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media">Media</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/migration-law">Migration Law</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box cream sector-default small-12 medium-6 large-4 columns" data-equalizer-watch>
+                            <div>
+                                <header>
+<time datetime="2016-11-23 12:00">23 November 2016</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/policy-agenda/human-rights/death-penalty">
+                                    <h2>Death Penalty</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/human-rights">Human Rights</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/death-penalty">Death Penalty</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                </div>
+            </section>
+    </article>
+    <aside>
+            <section id="sidebar-menu" class="hidden-xs">
+        <ul class="vertical menu">
+            <li>In this section</li>
+                    <li><a href="https://lawcouncil.au/tags/media-statement" target="_self">Media Statements</a></li>
+                    <li class="current"><a href="/tags/media-release" target="_self">Media Releases</a></li>
+                    <li><a href="/media/news" target="_self">News</a></li>
+                    <li><a href="/tags/speech" target="_self">Speeches</a></li>
+        </ul>
+    </section>
+
+                    <h4 class="visible-xs">Related items</h4>
+            <section id="sidebar-articles">
+                        <article class="feature-box no-overlay cream sector-blue">
+                            <div>
+                                <header>
+<time datetime="2023-11-29 12:00">29 November 2023</time>&mdash;                                    <p>Legal Practice Section</p>
+                                </header>
+                                <a href="/media/news/fourth-john-emerson-oration-and-claanz-annual-lecture">
+                                    <h2>Fourth John Emerson Oration and CLAANZ Annual Lecture</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/news">News</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/events">Events</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box no-overlay cream sector-blue">
+                            <div>
+                                <header>
+<time datetime="2019-08-07 12:00">07 August 2019</time>&mdash;                                    <p>Legal Practice Section</p>
+                                </header>
+                                <a href="/media/news/inaugural-john-emerson-am-oration">
+                                    <h2>Inaugural John Emerson AM Oration </h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/events">Events</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/news">News</a>
+</div></footer>
+
+                            </div>
+                        </article>
+                        <article class="feature-box no-overlay cream sector-default">
+                            <div>
+                                <header>
+<time datetime="2016-10-19 12:00">19 October 2016</time>&mdash;                                    <p>Law Council</p>
+                                </header>
+                                <a href="/media/media-releases/crisis-in-courts-legal-aid-a-focus-of-family-law-conference">
+                                    <h2>Crisis in courts, legal aid a focus of Family Law Conference</h2>
+                                </a>
+                                <footer><div class="menu">&nbsp;
+
+<a class="inline" href="/tags/family-law">Family Law</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/media-release">Media Release</a>
+&nbsp;|&nbsp;
+<a class="inline" href="/tags/legal-aid">Legal Aid</a>
+</div></footer>
+
+                            </div>
+                        </article>
+            </section>
+    </aside>
+</main>
+
+	<div id="footer-container">
+		<footer id="footer">
+			<div class="row">
+				<div id="footer-menus">
+						<ul>
+							<li><strong>Policy Agenda</strong></li>
+								<li><a href="/tags/access-to-justice" >Access to Justice</a></li>
+								<li><a href="/tags/advancing-the-profession" >Advancing the Profession</a></li>
+								<li><a href="/tags/criminal-law-and-national-security" >Criminal Law and National Security</a></li>
+								<li><a href="/tags/human-rights" >Human Rights</a></li>
+								<li><a href="/tags/international-law" >International Law</a></li>
+								<li><a href="/tags/regulation-of-the-profession-and-ethics" >Regulation of the Profession and Ethics</a></li>
+						</ul>
+						<ul>
+							<li><strong>Media</strong></li>
+								<li><a href="https://lawcouncil.au/tags/media-statement" >Media Statements</a></li>
+								<li><a href="/tags/media-release" >Media Releases</a></li>
+								<li><a href="/media/news" >News</a></li>
+								<li><a href="/tags/speech" >Speeches</a></li>
+						</ul>
+						<ul>
+							<li><strong>Resources</strong></li>
+								<li><a href="/tags/submissions" >Submissions</a></li>
+								<li><a href="/tags/corporate-document" >Corporate Documents</a></li>
+								<li><a href="https://lawcouncil.au/tags/policies-and-guidelines" >Policies and Guidelines</a></li>
+								<li><a href="/resources/publications" >Publications</a></li>
+						</ul>
+				</div>
+				<aside>
+					<h6>Stay Informed</h6>
+					<ul class="social-links margin-bottom-20">
+							<li><a href="https://twitter.com/thelawcouncil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="x-twitter">Twitter</a></li>
+																																					<li><a href="https://www.linkedin.com/company/law-council-of-australia" target="_blank" class="linkedin">LinkedIn</a></li>
+					</ul>
+					
+					<br/>
+					<a class="button-extra-small button-blue" style="margin-left:14px" href="https://confirmsubscription.com/h/i/31A6E24976DE1705" target="_blank">Subscribe to LCA Update</a>
+				</aside>
+			</div>
+		</footer>
+		<footer class="footer-bottom">
+			<div class="container">
+				<div class="d-flex">
+					<ul class="flag-list d-sm-flex flex-sm-wrap align-items-sm-center">
+						<li><img src="https://lmhub.com.au/images/footer/aboriginal.png" alt="image description" style="width: 50px"></li>
+						<li><img src="https://lmhub.com.au//images/footer/torres_strait.png" alt="image description" style="width: 50px"></li>
+					</ul>
+					<div class="footer-bottom__text">
+						<p>
+							Law Council of Australia acknowledges and pays respect to the past, present and future Traditional Custodians and Elders of this nation and the continuation of
+							cultural, spiritual and educational practices of Aboriginal and Torres Strait Islander peoples.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<footer id="footer-meta">
+			<div>
+				<ul class="menu">                      <li class="hidden"><a href="#">Terms of Use</a></li>                      <li><a href="/privacy-policy">Privacy Policy</a></li>                      <li><a href="@(websiteUrl)membership">Members Information</a></li>                  </ul>                  <p>© Copyright Law Council of Australia 2017-2026. All rights reserved. ABN: 85 005 260 622. Site & MCRM by Bond.</p>
+				
+			</div>
+		</footer>
+
+		<div class="cd-cart-container empty">
+			<a href="#0" class="cd-cart-trigger">
+				Cart
+				<ul class="count">
+					<!-- cart items count -->
+					<li>0</li>
+					<li>0</li>
+				</ul> <!-- .count -->
+			</a>
+			<div class="cd-cart">
+				<div class="wrapper">
+					<header>
+						<h2>Cart</h2>
+						<span class="undo">Item removed. <a href="#0">Undo</a></span>
+					</header>
+
+					<div class="body">
+						<ul>
+							<!-- products added to the cart will be inserted here using JavaScript -->
+						</ul>
+					</div>
+					<footer>
+						<a style="border: 0 !important;" href="javascript:void(0)" onclick="eventsCheckOut()" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+					</footer>
+				</div>
+			</div> <!-- .cd-cart -->
+		</div> <!-- cd-cart-container -->
+	</div>
+	<script src="/assets/js/lca.js"></script>
+	<script>
+        var Empty_GUID = '00000000-0000-0000-0000-000000000000';
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+
+	
+	<script src="/assets/js/jquery-ui.min.js"></script>
+<script src="/assets/js/jquery.alerts.js"></script>
+<script src="/ThirdParty/lightbox2/js/lightbox.min.js"></script>
+<script src="/assets/js/dev.js"></script>
+<script src="/assets/add-to-cart-interaction/js/main.js"></script>
+
+	<script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+	<script src="/ThirdParty/jquery-confirm-master/dist/jquery-confirm.min.js"></script>
+	<script src="/ThirdParty/js.cookie.js"></script>
+	<script type="text/javascript" src="/ThirdParty/chosen/chosen.jquery.min.js"></script>
+	
+    <script>
+        $(function () {
+            $(".accordion").accordion();
+        });
+    </script>
+<script>
+window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+	<script>
+		(function ($) {
+			$(document).on('contextmenu', 'img', function () {
+				return false;
+			})
+		})(jQuery);
+	</script>
+</body>
+</html>
