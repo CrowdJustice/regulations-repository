@@ -1,0 +1,49 @@
+name: Check sources
+
+# Reads every source that is switched on and reports what it found. No AI, so it needs no credential.
+
+on:
+  workflow_dispatch:
+    inputs:
+      save:
+        description: "Also save a copy of the pages to this branch (for testing; not allowed on main)."
+        type: boolean
+        default: false
+      since:
+        description: "Look back to this date (YYYY-MM-DD). Leave empty for the default."
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Read the sources
+        env:
+          SINCE: ${{ inputs.since }}
+          SAVE: ${{ inputs.save }}
+        run: |
+          args=()
+          if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
+          if [ "$SAVE" = "true" ]; then export TRACKER_RECORD=snapshot; fi
+          node agent/check-sources.mjs "${args[@]}" | tee report.md || true
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save the pages to this branch
+        if: inputs.save && github.ref_name != github.event.repository.default_branch
+        run: |
+          cp report.md snapshot/report.md
+          git config user.name "regulation-tracker"
+          git config user.email "regulation-tracker@users.noreply.github.com"
+          git add snapshot
+          git commit -q -m "Save a copy of the source pages for testing"
+          git push

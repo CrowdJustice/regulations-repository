@@ -1,6 +1,7 @@
 // Reading sources: listings (page, feed, GOV.UK search) and the text of one page.
 
 import { readFile } from 'node:fs/promises';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 
@@ -30,6 +31,17 @@ async function fixtureFor(url) {
   return readFile(path.join(dir, file), 'utf8');
 }
 
+// Set TRACKER_RECORD to a folder to keep a copy of every page read, in the layout TRACKER_FIXTURES expects.
+const recorded = {};
+function record(url, body) {
+  const dir = process.env.TRACKER_RECORD;
+  if (!dir) return;
+  mkdirSync(dir, { recursive: true });
+  recorded[url] = `${hash(url)}.txt`;
+  writeFileSync(path.join(dir, recorded[url]), body);
+  writeFileSync(path.join(dir, 'index.json'), `${JSON.stringify(recorded, null, 1)}\n`);
+}
+
 export async function fetchRaw(url) {
   const fixture = await fixtureFor(url);
   if (fixture != null) return fixture;
@@ -43,7 +55,9 @@ export async function fetchRaw(url) {
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       if (/application\/pdf/i.test(res.headers.get('content-type') ?? '')) throw new Error('PDF pages are not supported yet');
-      return await res.text();
+      const body = await res.text();
+      record(url, body);
+      return body;
     } catch (error) {
       lastError = error;
     }
@@ -134,6 +148,17 @@ async function govukSearch(source) {
     date: r.public_timestamp ? toDate(r.public_timestamp) : null,
     summary: r.description ?? '',
   }));
+}
+
+// The items from a source that a run should read now: in the look-back window, not seen before, oldest first.
+export async function newItems(source, { seen, since, max }) {
+  const items = await listCandidates(source);
+  const inWindow = items.filter((i) => !i.date || i.date >= since);
+  const fresh = inWindow.filter((i) => !seen[normaliseUrl(i.url)]);
+  // Oldest first, so a proposal is recorded before the decision on it.
+  const batch = fresh.slice(0, max).reverse();
+  if (batch.every((i) => i.date)) batch.sort((a, b) => a.date.localeCompare(b.date));
+  return { listed: items.length, inWindow: inWindow.length, batch };
 }
 
 // The items a source currently lists, newest first: [{ url, title, date, summary }].

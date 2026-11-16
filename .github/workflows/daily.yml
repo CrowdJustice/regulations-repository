@@ -23,19 +23,29 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      HAS_AI: ${{ secrets.ANTHROPIC_API_KEY != '' || secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
     steps:
+      - name: Skip when no AI credential is set
+        if: env.HAS_AI != 'true'
+        run: echo "::notice::No AI credential is set for this repository, so the assistant did not run. Add ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN as a secret."
+
       - uses: actions/checkout@v4
+        if: env.HAS_AI == 'true'
         with:
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
+        if: env.HAS_AI == 'true'
         with:
           node-version: 22
 
       - name: Install Claude Code
+        if: env.HAS_AI == 'true'
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Run the assistant
+        if: env.HAS_AI == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -55,11 +65,11 @@ jobs:
           node agent/run.mjs "${args[@]}"
 
       - name: Save the changes
-        if: always()
+        if: always() && env.HAS_AI == 'true'
         run: git push
 
       - name: Notify the admin
-        if: always()
+        if: always() && env.HAS_AI == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

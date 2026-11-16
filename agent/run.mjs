@@ -8,7 +8,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createStore } from './lib/store.mjs';
-import { listCandidates, fetchPageText, normaliseUrl, hash } from './lib/web.mjs';
+import { newItems, fetchPageText, normaliseUrl, hash } from './lib/web.mjs';
 import { ask } from './lib/llm.mjs';
 import { WRITER_ANSWER, CHECKER_ANSWER } from './lib/answers.mjs';
 import { validateRecord, validateUpdate, isMaterialChange, findDuplicate, periodStart, STAGES, STAGE_DATE } from './lib/checks.mjs';
@@ -39,20 +39,15 @@ try {
     await startDueChanges(records);
 
     for (const source of sources) {
-      let items;
+      let found;
       try {
-        items = await listCandidates(source);
+        found = await newItems(source, { seen, since, max: cfg.max_items_per_source });
       } catch (error) {
         run.source_problems.push({ source: source.id, url: source.url ?? source.organisation, problem: error.message });
         continue;
       }
-      const inWindow = items.filter((i) => !i.date || i.date >= since);
-      const fresh = inWindow.filter((i) => !seen[normaliseUrl(i.url)]);
-      run.already_seen += inWindow.length - fresh.length;
-      // Oldest first, so a proposal is recorded before the decision on it.
-      const batch = fresh.slice(0, cfg.max_items_per_source).reverse();
-      if (batch.every((i) => i.date)) batch.sort((a, b) => a.date.localeCompare(b.date));
-      for (const item of batch) await handle(item, source, country, records);
+      run.already_seen += found.inWindow - found.batch.length;
+      for (const item of found.batch) await handle(item, source, country, records);
     }
 
     if (args.recheck) await recheckOpenChanges(country, records);
