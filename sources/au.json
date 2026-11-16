@@ -3,37 +3,50 @@
     "id": "austrac-news",
     "regulator": "AUSTRAC",
     "covers": "AML/CTF rules, guidance and Tranche 2 announcements",
-    "enabled": true,
+    "enabled": false,
     "how": "page",
     "url": "https://www.austrac.gov.au/news-and-media/news-and-media-releases",
-    "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+"
+    "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+",
+    "note": "Does not answer requests from GitHub's servers (checked 2026-11-16). Switch on once the daily run has somewhere else to read it from."
   },
   {
     "id": "austrac-consultations",
     "regulator": "AUSTRAC",
     "covers": "Consultations on the AML/CTF Rules",
-    "enabled": true,
+    "enabled": false,
     "how": "page",
     "url": "https://www.austrac.gov.au/industry-and-business/consultations",
-    "match": "^https://www\\.austrac\\.gov\\.au/industry-and-business/consultations/.+"
+    "match": "^https://www\\.austrac\\.gov\\.au/industry-and-business/consultations/.+",
+    "note": "Does not answer requests from GitHub's servers (checked 2026-11-16). Switch on once the daily run has somewhere else to read it from."
   },
   {
     "id": "oaic-news",
     "regulator": "OAIC",
     "covers": "Privacy Act changes and guidance",
-    "enabled": true,
+    "enabled": false,
     "how": "page",
     "url": "https://www.oaic.gov.au/news/media-centre",
-    "match": "^https://www\\.oaic\\.gov\\.au/news/media-centre/.+"
+    "match": "^https://www\\.oaic\\.gov\\.au/news/media-centre/.+",
+    "note": "Does not answer requests from GitHub's servers (checked 2026-11-16). Switch on once the daily run has somewhere else to read it from."
   },
   {
     "id": "oaic-consultations",
     "regulator": "OAIC",
     "covers": "Privacy consultations",
-    "enabled": true,
+    "enabled": false,
     "how": "page",
     "url": "https://www.oaic.gov.au/engage-with-us/consultations",
-    "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+"
+    "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+",
+    "note": "Does not answer requests from GitHub's servers (checked 2026-11-16). Switch on once the daily run has somewhere else to read it from."
+  },
+  {
+    "id": "agd-consultations",
+    "regulator": "Attorney-General's Department",
+    "covers": "Federal consultations, including privacy and AML/CTF reform",
+    "enabled": true,
+    "how": "page",
+    "url": "https://consultations.ag.gov.au/",
+    "match": "^https://consultations\\.ag\\.gov\\.au/[^/]+/[^/]+/?$"
   },
   {
     "id": "lsc-news",
@@ -79,6 +92,7 @@
     "enabled": false,
     "how": "page",
     "url": "https://lawcouncil.au/tags/media-release",
-    "match": "^https://lawcouncil\\.au/media/media-releases/.+"
+    "match": "^https://lawcouncil\\.au/media/media-releases/.+",
+    "note": "Works, but mostly advocacy rather than rule changes. Off to keep noise down."
   }
 ]

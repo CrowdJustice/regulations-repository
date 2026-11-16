@@ -1,4 +1,55 @@
 {
+  "https://consultations.ag.gov.au/crime/modern-slavery": {
+    "decision": "ignored",
+    "reason": "published 2026-08-21, before the look-back date 2026-09-17",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "340071f6be082f33",
+    "too_old": "2026-08-21"
+  },
+  "https://consultations.ag.gov.au/integrity/ogp-fnap": {
+    "decision": "ignored",
+    "reason": "This consultation asks for views on possible government commitments for Australia's Open Government Partnership action plan; it proposes no rule, legislation or guidance that changes how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "f7afbb5725fdf3bd"
+  },
+  "https://consultations.ag.gov.au/legal-system/arc-inquiry-on-migration": {
+    "decision": "ignored",
+    "reason": "This is feedback on an Administrative Review Council inquiry into how the tribunal reviews migration decisions; it sets no new rule or proposal and doesn't change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "b6689df8949195e4"
+  },
+  "https://consultations.ag.gov.au/legal-system/stat-dec-act-review": {
+    "decision": "ignored",
+    "reason": "The item is feedback on a closed statutory review: a final report with recommendations was tabled, but no rule, proposal or guidance changes how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "33be1c548d2f4736"
+  },
+  "https://consultations.ag.gov.au/national-security/rnsir": {
+    "decision": "ignored",
+    "reason": "This draft remakes an expiring regulation with largely the same content, and it only covers federal cases involving national security information, so it doesn't affect how law firms operate.",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "2bed982280440764"
+  },
+  "https://consultations.ag.gov.au/rights-and-protections/iccpr": {
+    "decision": "ignored",
+    "reason": "This is a consultation on Australia's UN human rights report under the ICCPR, not a rule, proposal or guidance that changes how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "9f81b529c79f0c6b"
+  },
+  "https://consultations.ag.gov.au/rights-and-protections/privacy-reform": {
+    "decision": "ignored",
+    "reason": "published 2026-08-31, before the look-back date 2026-09-17",
+    "date": "2026-11-16",
+    "source": "agd-consultations",
+    "hash": "1f66a6c0dfddbfdb",
+    "too_old": "2026-08-31"
+  },
   "https://legalservicesboard.org.uk/news/legal-problems-are-holding-back-small-business-growth-new-survey-finds": {
     "decision": "ignored",
     "reason": "This is research on small business legal needs plus a general call for action, not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
@@ -61,6 +112,148 @@
     "date": "2026-11-16",
     "source": "lsb-news",
     "hash": "c16b2721e4c4bc3b"
+  },
+  "https://legalservicescouncil.org.au/highlights/admissions-committee-and-lacc-launch-national-survey-as-part-of-.html": {
+    "decision": "ignored",
+    "reason": "This is a survey announcement for a research review of Practical Legal Training. It contains no proposed or final rules and nothing that changes how a law firm must operate.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "be08e5271c73f638"
+  },
+  "https://legalservicescouncil.org.au/highlights/aml-ctf-related-amendments-to-uniform-rules-.html": {
+    "decision": "ignored",
+    "reason": "published 2026-06-19, before the look-back date 2026-09-17",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "b334d06de21abe6a",
+    "too_old": "2026-06-19"
+  },
+  "https://legalservicescouncil.org.au/highlights/consultation-on-enabling-corporate-legal-practitioners-to-suppor.html": {
+    "decision": "ignored",
+    "reason": "The consultation is about in-house corporate legal practitioners employed by non-company entities and does not affect how a law firm must operate.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "fcd17c1c403d73c4"
+  },
+  "https://legalservicescouncil.org.au/highlights/consultation-on-practical-legal-training.html": {
+    "decision": "ignored",
+    "reason": "This consultation is about practical legal training for admission to practice and legal education. It doesn't change how law firms must operate, the page gives no concrete requirements, and the submission deadline (14 May 2026) has passed.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "e8dfe8a0f77b2808"
+  },
+  "https://legalservicescouncil.org.au/highlights/consultation-on-proposed-amendments-to-the-definition-of--relate.html": {
+    "decision": "ignored",
+    "reason": "This consultation is about the 'related entity' definition for in-house corporate legal practitioners employed by non-company entities, so it does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "7c09b8097fe5ce33"
+  },
+  "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html": {
+    "decision": "ignored",
+    "reason": "published 2026-06-26, before the look-back date 2026-09-17",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "334eafe3ce545350",
+    "too_old": "2026-06-26"
+  },
+  "https://legalservicescouncil.org.au/highlights/consumer-remedies-under-the-uniform-law.html": {
+    "decision": "ignored",
+    "reason": "This is a summary of research the Legal Services Council commissioned on consumer remedies under the Uniform Law, and it sets no new rule, proposal, decision or guidance on how firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "1a5c8f8ae5fb8372"
+  },
+  "https://legalservicescouncil.org.au/highlights/foreign-lawyers-amendments-to-the-uniform-admission-rules-and-gu.html": {
+    "decision": "ignored",
+    "reason": "The rule and guideline tell admitting authorities how to assess foreign lawyers' admission exemptions under s 18 of the Uniform Law and do not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "338489eda5f014c4"
+  },
+  "https://legalservicescouncil.org.au/highlights/legal-services-regulatory-dialogue-report-.html": {
+    "decision": "ignored",
+    "reason": "This is a report on the Australia-UK regulatory dialogue with recommendations for others to consider; it does not create, propose or change any rule or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "bcc3dc47a1f2412e"
+  },
+  "https://legalservicescouncil.org.au/highlights/updated-cost-disclosure-documents--results-of-user-testing.html": {
+    "decision": "ignored",
+    "reason": "This item reports user-testing research on cost disclosure forms. It only says a targeted consultation will happen later, so there is no open consultation, draft rule or decision to record yet.",
+    "date": "2026-11-16",
+    "source": "lsc-news",
+    "hash": "e2cd255708c8aed4"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/2-84-million-grants-drive-innovation-and-improve-access-justice": {
+    "decision": "ignored",
+    "reason": "This is a grant funding announcement from the Public Purpose Fund, not a change to rules, guidance or how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "8f94f7a2e0f96db2"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/ai-use-victorian-lawyers-surges-benefits-clients-remain-uneven": {
+    "decision": "ignored",
+    "reason": "This is a research report on how lawyers use AI, with survey statistics; it brings in no new rule, proposal or guidance, and only mentions that further resources are coming at an unstated date.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "13895c7f4cd8558f"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-november-2026": {
+    "decision": "new",
+    "record_id": "au-lsc-amlctf-conduct-rules",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "ee08bdf1fd9098e7"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/consumer-warning-unauthorised-legal-work-dr-james-mcconvill-uplands-dispute": {
+    "decision": "ignored",
+    "reason": "This is a consumer warning about one named person and business doing unauthorised legal work, so it falls under enforcement against named people. It does not change any rule or how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "27308cb4b5d6404a"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/new-chair-appointed-victorian-legal-services-board": {
+    "decision": "ignored",
+    "reason": "This announces the appointment of a new Board Chair, so it is an appointment notice. It does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "24c833e2af345683"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence": {
+    "decision": "new",
+    "record_id": "au-vlsbc-ai-use-guidance",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "935b8513fa52f7e3"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/victorias-legal-regulator-maintains-momentum-change-lawyers-and-community": {
+    "decision": "ignored",
+    "reason": "This is an annual report announcement summarising past activity, statistics and an enforcement action; it sets no new rule, proposal or guidance with new facts.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "14e1e3d13bd284c5"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/vlsbc-statement-reign-legal": {
+    "decision": "ignored",
+    "reason": "Enforcement action against a named law practice and its principal (manager appointed, practising certificate suspended); not a rule, proposal or guidance change.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "1922045546aca854"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/we-are-developing-consumer-strategy": {
+    "decision": "ignored",
+    "reason": "This is a closed consultation on the regulator's own Consumer Strategy. It proposes no new or amended rules and no guidance that changes how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "a9f34404eeb474a1"
+  },
+  "https://lsbc.vic.gov.au/news-updates/news/what-makes-competent-lawyer-victorian-lawyers-have-their-say": {
+    "decision": "ignored",
+    "reason": "This is a news item about a research report on how lawyers see competence; it brings in no new rule, proposal, decision or guidance that firms have to act on.",
+    "date": "2026-11-16",
+    "source": "vlsbc-news",
+    "hash": "6d2762ae1f06bee0"
   },
   "https://www.gov.uk/government/collections/companies-house-management-information-identity-verification-statistics": {
     "decision": "ignored",
@@ -180,6 +373,119 @@
     "date": "2026-11-16",
     "source": "ofsi",
     "hash": "17775f616265ec6e"
+  },
+  "https://www.lpbwa.org.au/aml-ctf-related-amendments-to-uniform-rules": {
+    "decision": "ignored",
+    "reason": "The tracker already holds this change as au-lsc-amlctf-conduct-rules, in force from 1 July 2026, and this page adds no new stage, date, scope or requirement.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "518848f7fac79ccf"
+  },
+  "https://www.lpbwa.org.au/applicants-for-admission-as-a-lawyer-december-2026": {
+    "decision": "ignored",
+    "reason": "This is a notice listing individual applicants for admission, with a window for objections. It is not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "4cde74f150e31c3f"
+  },
+  "https://www.lpbwa.org.au/board-and-committees-announced-following-inaugural-2026-meeting": {
+    "decision": "ignored",
+    "reason": "This is an announcement of board appointments and committee membership, which is not a regulatory change affecting how law firms operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "b6224ccab1ab925c"
+  },
+  "https://www.lpbwa.org.au/board-deputy-chair-wins-lawyer-of-the-year-and-government-lawyer-of-the-year": {
+    "decision": "ignored",
+    "reason": "This item is a congratulatory notice about an award given to a Board member. It is not a change to rules, guidance or how law firms operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "ef28c74f36640e9e"
+  },
+  "https://www.lpbwa.org.au/board-member-wins-ag-award": {
+    "decision": "ignored",
+    "reason": "This is news about an award to a board member, not a change to rules, guidance or how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "7648e444b577c59a"
+  },
+  "https://www.lpbwa.org.au/expressions-of-interest-welcomed-for-legal-services-and-complaints-committee": {
+    "decision": "ignored",
+    "reason": "This is a call for expressions of interest to join a Legal Practice Board committee, which is an appointments matter and does not change how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "4dac78c2c6e71c72"
+  },
+  "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs": {
+    "decision": "ignored",
+    "reason": "published 2026-07-16, before the look-back date 2026-09-17",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "16e13bd67ce51cd7",
+    "too_old": "2026-07-16"
+  },
+  "https://www.lpbwa.org.au/new-privacy-obligations-come-into-effect": {
+    "decision": "ignored",
+    "reason": "The notice covers the Board's own duties as a WA public body under the PRIS Act, such as its privacy policy and collection notices, and sets no new obligation for law firms.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "f3f9693099aa5f23"
+  },
+  "https://www.lpbwa.org.au/service-hub-access-and-multi-factor-authentication-(mfa)": {
+    "decision": "ignored",
+    "reason": "This is an IT notice about logging in to the Board's own Service Hub with multi-factor authentication, not a rule, proposal or guidance that changes how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "9903880e6049bea4"
+  },
+  "https://www.lpbwa.org.au/the-law-library-upcoming-complimentary-cpd-sessions": {
+    "decision": "ignored",
+    "reason": "This is an event notice about free CPD training sessions plus a reminder of an existing CPD deadline, so it is not a regulatory change.",
+    "date": "2026-11-16",
+    "source": "lpbwa-news",
+    "hash": "8f0669036ea7c32d"
+  },
+  "https://www.qls.com.au/news-media-advocacy/assess-your-aml-ctf-compliance-at-the-aml-health-check-online-workshop": {
+    "decision": "ignored",
+    "reason": "This is a QLS notice promoting a paid AML/CTF training workshop, an event announcement that adds no new rule, guidance or date affecting how firms must operate.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "adef125ab107f48c"
+  },
+  "https://www.qls.com.au/news-media-advocacy/justice-legislation-(strengthening-victim-s-rights)-amendment-bill-2026": {
+    "decision": "ignored",
+    "reason": "This is a QLS submission to a parliamentary committee on a victims' rights bill. It is advocacy, not a rule change or guidance on how law firms must operate, and the page has no substantive content.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "62380e9f50f61d42"
+  },
+  "https://www.qls.com.au/news-media-advocacy/planning-a-practice-change-in-2027-act-now-for-year-end-processing": {
+    "decision": "ignored",
+    "reason": "This is an administrative processing deadline for QLS membership and practising certificate applications, not a change to rules or guidance on how firms must operate.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "d9e3fa9e63a76f10"
+  },
+  "https://www.qls.com.au/news-media-advocacy/qls-welcomes-youth-bail-support-program": {
+    "decision": "ignored",
+    "reason": "This is a QLS media statement welcoming a government youth bail support program; it is not a rule, proposal, decision or guidance that affects how law firms must operate.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "3c05f3a224083d17"
+  },
+  "https://www.qls.com.au/news-media-advocacy/service-notice-microsoft-365-outage": {
+    "decision": "ignored",
+    "reason": "This is a QLS notice about a Microsoft 365 outage slowing its own replies, not a change to rules or guidance for law firms.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "71f42b8e4cb24e3e"
+  },
+  "https://www.qls.com.au/news-media-advocacy/specialist-accreditation-update": {
+    "decision": "ignored",
+    "reason": "This is a QLS notice about specialist accreditation programs for 2027. It changes no rule, gives no guidance and has no bearing on how a law firm must operate.",
+    "date": "2026-11-16",
+    "source": "qls-news",
+    "hash": "45149b7cac681bfb"
   },
   "https://www.sra.org.uk/news/news/firm-governance": {
     "decision": "new",

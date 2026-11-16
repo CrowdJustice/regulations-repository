@@ -1,8 +1,0 @@
-[
-  { "id": "agd-consultations", "regulator": "AGD", "covers": "probe", "enabled": true, "how": "page", "url": "https://consultations.ag.gov.au/", "match": "^https://consultations\\.ag\\.gov\\.au/[^/]+/[^/]+/?$" },
-  { "id": "agd-aml", "regulator": "AGD", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.ag.gov.au/crime/anti-money-laundering-and-counter-terrorism-financing", "match": "^https://www\\.ag\\.gov\\.au/crime/anti-money-laundering-and-counter-terrorism-financing/.+" },
-  { "id": "frl-api", "regulator": "FRL", "covers": "probe", "enabled": true, "how": "page", "url": "https://api.prod.legislation.gov.au/v1/titles?$top=3", "match": "^$" },
-  { "id": "frl-site", "regulator": "FRL", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.legislation.gov.au/whats-new", "match": "^$" },
-  { "id": "austrac-bare", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://austrac.gov.au/news-and-media", "match": "^https://(www\\.)?austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+" },
-  { "id": "lsnsw-news", "regulator": "Law Society of NSW", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.lawsociety.com.au/resources/news-and-media", "match": "^https://www\\.lawsociety\\.com\\.au/resources/news-(and-media|media-releases)/.+" }
-]

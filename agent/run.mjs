@@ -23,6 +23,8 @@ const countries = args.country ? [args.country] : Object.keys(cfg.applies_to);
 
 const run = { date: today, since, published: [], updated: [], now_in_force: [], held: [], ignored: [], due_check: [], source_problems: [], already_seen: 0, cost_usd: 0, stopped_early: null };
 const seen = await store.loadSeen();
+// A page skipped only for being older than the look-back is read again when the look-back reaches it.
+for (const [url, entry] of Object.entries(seen)) if (entry.too_old && entry.too_old >= since) delete seen[url];
 let failuresInARow = 0;
 
 const prompts = {
@@ -72,8 +74,8 @@ async function handle(item, source, country, records, { isRecheck = false } = {}
     return;
   }
   const remember = (entry) => { seen[url] = { ...entry, date: today, source: source.id, hash: hash(text) }; };
-  const ignore = (reason) => {
-    remember({ decision: 'ignored', reason });
+  const ignore = (reason, extra = {}) => {
+    remember({ decision: 'ignored', reason, ...extra });
     if (!isRecheck) run.ignored.push({ title: item.title, url, reason });
   };
 
@@ -108,7 +110,7 @@ async function handle(item, source, country, records, { isRecheck = false } = {}
   const itemDate = validDate(out.published) ?? item.date ?? (stageDate ? periodStart(stageDate) : null);
   if (out.decision === 'new') {
     if (isRecheck) return ignore('a re-check cannot create a new change');
-    if (itemDate && itemDate < since) return ignore(`published ${itemDate}, before the look-back date ${since}`);
+    if (itemDate && itemDate < since) return ignore(`published ${itemDate}, before the look-back date ${since}`, { too_old: itemDate });
     const duplicate = findDuplicate(record, records);
     if (duplicate) return hold({ item, url, source, record, prev, reasons: [`possible duplicate of ${duplicate.id}: ${duplicate.why}`], remember });
   } else if (!isMaterialChange(prev, record)) {

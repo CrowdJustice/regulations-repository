@@ -101,4 +101,12 @@ Useful options for `run.mjs`:
    - `CLAUDE_CODE_OAUTH_TOKEN`, made by running `claude setup-token`, which uses that person's Claude subscription.
 3. Run **Daily check** once by hand from the Actions tab and read the notification it opens.
 
-The source addresses in `sources/` have not been tested against the live sites yet. The first run reports any that fail.
+## Sources today
+
+| Country | Switched on | Notes |
+|---|---|---|
+| UK | SRA news and consultations, Legal Services Board, HM Treasury, OFSI, Companies House, new legislation | All read cleanly from GitHub. |
+| Australia | Legal Services Council, VLSB+C, Legal Practice Board of WA, Queensland Law Society, Attorney-General's consultations | All read cleanly from GitHub. |
+| Australia | AUSTRAC, OAIC | Switched off. Both refuse connections from GitHub's servers, so the daily run cannot read them from there. |
+
+A page skipped for being older than the look-back is read again if a later run uses an earlier `--since`.
