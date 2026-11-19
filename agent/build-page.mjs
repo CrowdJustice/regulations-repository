@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Builds the website into site/: the public tracker (index.html) and the admin page (admin.html).
+// Builds the tracker's output into site/: the public page (index.html), its data alone (tracker.json) and the admin page (admin.html).
 // The public page gets the live records from data/. The admin page gets no data at all: it reads the repository itself.
 //
 //   node agent/build-page.mjs [--out DIR] [--root DIR] [--fragment FILE]
@@ -87,6 +87,7 @@ const adminPage = shell
 await mkdir(outDir, { recursive: true });
 await writeFile(path.join(outDir, 'index.html'), publicPage);
 await writeFile(path.join(outDir, 'admin.html'), adminPage);
-await writeFile(path.join(outDir, '.nojekyll'), '');
+// The same data on its own, for a website that wants to show the tracker in its own design.
+await writeFile(path.join(outDir, 'tracker.json'), `${JSON.stringify({ built_at: new Date().toISOString(), ...data }, null, 1)}\n`);
 if (args.fragment) await writeFile(path.resolve(args.fragment), fragment);
-console.log(`Built ${path.relative(root, outDir) || '.'}: ${data.records.length} changes across ${Object.keys(data.countries).length} countries, plus the admin page.`);
+console.log(`Built ${path.relative(root, outDir) || '.'}: ${data.records.length} changes across ${Object.keys(data.countries).length} countries, plus the data feed and the admin page.`);

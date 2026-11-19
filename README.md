@@ -26,7 +26,7 @@ The repo is the database. Every change to it is a dated commit that can be undon
 | `data/log/` | What each run did, including what it ignored and why. |
 | `review/` | Items the assistant drafted but did not publish, with the reason. |
 | `agent/` | The assistant: its rules, its limits and its code. |
-| `web/` | The two pages: the public tracker (`index.html`) and the admin page (`admin.html`, `admin.js`). |
+| `web/` | The two pages: the public tracker (`index.html`) and the admin page (`admin.html`, `admin.js`). Their built versions go to the `published` branch. |
 
 ## What the assistant does each morning
 
@@ -103,7 +103,7 @@ node --test "agent/test/*.test.mjs"   # every check, and rehearsals of whole run
 node agent/test/scenario.mjs           # a full trial on made-up pages; uses the real AI
 node agent/check-sources.mjs           # read every source and report what it lists; no AI
 node agent/run.mjs                     # a real run; add --commit to save each change as a commit
-node agent/build-page.mjs              # build both pages into site/
+node agent/build-page.mjs              # build the pages and the data feed into site/
 ```
 
 Useful options for `run.mjs`:
@@ -122,20 +122,26 @@ Useful options for `run.mjs`:
 | Australia | Legal Services Council, VLSB+C, Legal Practice Board of WA, Queensland Law Society, Attorney-General's consultations | All read cleanly from GitHub. |
 | Australia | AUSTRAC, OAIC | Switched off until proved. Both refuse GitHub's network, so they are read through Claude's web fetch instead: the request comes from Anthropic's network and follows each site's robots.txt. It needs the `ANTHROPIC_API_KEY` secret. Prove one with **Check sources** and its source id, then switch it on. |
 
+## Where the tracker shows up
+
+Nothing is hosted from this repository. After every daily check and admin action, the **Publish the feed** workflow puts the latest build on the `published` branch:
+
+| File | For |
+|---|---|
+| `tracker.json` | The Legl website. It holds every live change and the labels to show them with. |
+| `index.html` | The same data as a finished, self-contained page, if a ready-made page is wanted. |
+| `admin.html` | The admin page. An admin downloads it once and opens it on their own computer. |
+
+**On legl.com:** the website reads `https://raw.githubusercontent.com/<owner>/<repo>/published/tracker.json` and shows it in its own design. The tracker then updates every morning with no change to the website.
+
+**The admin page:** download `admin.html` from the `published` branch and open it in a browser. It is not on any website, so there is nothing public to find. Download it again after the admin page itself changes.
+
 ## To switch it on
 
-Everything is built and tested. What is left needs an owner of the GitHub organisation and of the Anthropic account.
+Everything is built and tested. Two things are left.
 
-**Where it lives.** Transfer the repository into the organisation (Settings, General, Transfer ownership). Nothing in the code names the old location, so nothing needs editing afterwards. It works as a public or a private repository.
-
-**Settings, in the repository:**
-
-1. **Actions, General.** Allow GitHub Actions to run, including `actions/checkout`, `actions/setup-node`, `actions/upload-pages-artifact` and `actions/deploy-pages`.
-2. **The `main` branch.** The daily check and admin actions save by pushing to `main` as the Actions bot. If a rule requires pull requests on `main`, exempt GitHub Actions from it.
-3. **Pages.** Build and deployment, Source: **GitHub Actions**. The public page then lives at `https://<owner>.github.io/<repo>/` and the admin page at `.../admin.html`.
-4. **The AI key.** Secrets and variables, Actions, New repository secret: `ANTHROPIC_API_KEY`. Use a key made for this alone, in its own workspace, with a monthly spend limit. It pays for the daily check and for reading AUSTRAC and OAIC.
-5. **Who is an admin.** Anyone with write access can run admin actions, so give write access only to the admins. Each admin connects the admin page with their own fine-grained token for this one repository (Actions: read and write; Contents: read-only).
-6. **Notifications.** Each admin watches the repository (Watch, All activity) to get the daily update by email.
+1. **The AI key.** A repository admin adds the Actions secret `ANTHROPIC_API_KEY`. Use a key made for this alone, in its own workspace, with a monthly spend limit. It pays for the daily check and for reading AUSTRAC and OAIC.
+2. **Admins.** Anyone with write access can run admin actions, so give write access only to the admins. Each admin connects the admin page with their own fine-grained token for this one repository (Actions: read and write; Contents: read-only), and watches the repository to get the daily update by email.
 
 **What is kept where:**
 
