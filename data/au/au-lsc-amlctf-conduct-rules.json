@@ -1,0 +1,35 @@
+{
+  "id": "au-lsc-amlctf-conduct-rules",
+  "country": "au",
+  "status": "live",
+  "regulator": "LSC",
+  "title": "Solicitors' conduct rules amended to fit AML/CTF obligations",
+  "summary": "From 1 July 2026, new Legal Services Council rules deal with conflicts between solicitors' AML/CTF obligations and their ethical duties, including confidentiality and loyalty to clients.",
+  "what_changes": [
+    "Solicitors must only accept and follow lawful, proper and competent client instructions.",
+    "The rules clarify when a solicitor may have just cause to terminate an engagement.",
+    "Retainer agreements should explain relevant statutory disclosure obligations and when a retainer may need to be terminated."
+  ],
+  "applies_to": [
+    "uniform"
+  ],
+  "who_it_applies_to": "Solicitors and law practices in Uniform Law states, in particular those with AML/CTF obligations.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "in_force": "2026-07-01"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-november-2026"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-11-10",
+      "event": "VLSB+C reported that Legal Services Council rules on AML/CTF and professional duties commenced on 1 July 2026.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-november-2026"
+    }
+  ],
+  "admin_notes": []
+}

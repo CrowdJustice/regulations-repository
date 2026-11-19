@@ -1,38 +1,99 @@
 [
   {
-    "id": "austrac-guidance",
+    "id": "austrac-news",
     "regulator": "AUSTRAC",
-    "covers": "AML/CTF rules and Tranche 2 guidance for lawyers",
+    "covers": "AML/CTF rules, guidance and Tranche 2 announcements",
     "enabled": false,
     "how": "page",
-    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/latest-guidance-updates",
-    "match": "^https://www\\.austrac\\.gov\\.au/.+"
+    "url": "https://www.austrac.gov.au/news-and-media/news-and-media-releases",
+    "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+",
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
-    "id": "lsc-consultations",
-    "regulator": "Legal Services Council",
-    "covers": "Uniform Law rules for NSW, Victoria and WA",
+    "id": "austrac-consultations",
+    "regulator": "AUSTRAC",
+    "covers": "Consultations on the AML/CTF Rules",
     "enabled": false,
     "how": "page",
-    "url": "https://legalservicescouncil.org.au/consultations/current-consultations.html",
-    "match": "^https://legalservicescouncil\\.org\\.au/.+"
+    "url": "https://www.austrac.gov.au/industry-and-business/consultations",
+    "match": "^https://www\\.austrac\\.gov\\.au/industry-and-business/consultations/.+",
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
-    "id": "oaic-consultations",
+    "id": "oaic-news",
     "regulator": "OAIC",
     "covers": "Privacy Act changes and guidance",
     "enabled": false,
     "how": "page",
+    "url": "https://www.oaic.gov.au/news/media-centre",
+    "match": "^https://www\\.oaic\\.gov\\.au/news/media-centre/.+",
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+  },
+  {
+    "id": "oaic-consultations",
+    "regulator": "OAIC",
+    "covers": "Privacy consultations",
+    "enabled": false,
+    "how": "page",
     "url": "https://www.oaic.gov.au/engage-with-us/consultations",
-    "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+"
+    "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+",
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+  },
+  {
+    "id": "agd-consultations",
+    "regulator": "Attorney-General's Department",
+    "covers": "Federal consultations, including privacy and AML/CTF reform",
+    "enabled": true,
+    "how": "page",
+    "url": "https://consultations.ag.gov.au/",
+    "match": "^https://consultations\\.ag\\.gov\\.au/[^/]+/[^/]+/?$",
+    "more": "https://consultations.ag.gov.au/consultation_finder/?sort_on=iconsultable_enddate&sort_order=descending&st=closed"
+  },
+  {
+    "id": "lsc-news",
+    "regulator": "Legal Services Council",
+    "covers": "Uniform Law rules for NSW, Victoria and WA",
+    "enabled": true,
+    "how": "page",
+    "url": "https://legalservicescouncil.org.au/highlights.html",
+    "match": "^https://legalservicescouncil\\.org\\.au/highlights/.+"
   },
   {
     "id": "vlsbc-news",
     "regulator": "VLSB+C",
     "covers": "Victorian regulator updates",
-    "enabled": false,
+    "enabled": true,
     "how": "page",
     "url": "https://lsbc.vic.gov.au/news-updates",
-    "match": "^https://lsbc\\.vic\\.gov\\.au/news-updates/.+"
+    "match": "^https://lsbc\\.vic\\.gov\\.au/news-updates/news/.+"
+  },
+  {
+    "id": "lpbwa-news",
+    "regulator": "Legal Practice Board of WA",
+    "covers": "Western Australian regulator updates",
+    "enabled": true,
+    "how": "page",
+    "url": "https://www.lpbwa.org.au/news-list",
+    "match": "^https://www\\.lpbwa\\.org\\.au/(?!login$)[^/?]+$",
+    "main_only": true
+  },
+  {
+    "id": "qls-news",
+    "regulator": "Queensland Law Society",
+    "covers": "Queensland trust account and practice rules",
+    "enabled": true,
+    "how": "page",
+    "url": "https://www.qls.com.au/news-media-advocacy",
+    "match": "^https://www\\.qls\\.com\\.au/news-media-advocacy/(?!legal-policy$).+"
+  },
+  {
+    "id": "lca-news",
+    "regulator": "Law Council of Australia",
+    "covers": "Conduct rules and national profession policy",
+    "enabled": false,
+    "how": "page",
+    "url": "https://lawcouncil.au/tags/media-release",
+    "match": "^https://lawcouncil\\.au/media/media-releases/.+",
+    "note": "Works, but mostly advocacy rather than rule changes. Off to keep noise down."
   }
 ]

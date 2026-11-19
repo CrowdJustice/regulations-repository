@@ -1,12 +1,14 @@
 // Reading sources: listings (page, feed, GOV.UK search) and the text of one page.
 
 import { readFile } from 'node:fs/promises';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 
-const USER_AGENT = 'LeglRegulationTracker/1.0 (+https://www.legl.com)';
+const USER_AGENT = 'Mozilla/5.0 (compatible; LeglRegulationTracker/1.0; +https://www.legl.com)';
 const MAX_PAGE_CHARS = 24000;
+// A few sites do not answer the network this runs on. config.json lists, by host name, the ones to read through Claude instead.
+const READERS = JSON.parse(readFileSync(new URL('../config.json', import.meta.url), 'utf8')).readers ?? {};
 
 export const hash = (text) => createHash('sha256').update(text).digest('hex').slice(0, 16);
 
@@ -22,10 +24,11 @@ export function normaliseUrl(raw) {
 
 // Tests read pages from a folder instead of the web: TRACKER_FIXTURES/index.json maps URL → file.
 let fixtures;
+let fixturesDir;
 async function fixtureFor(url) {
   const dir = process.env.TRACKER_FIXTURES;
   if (!dir) return null;
-  fixtures ??= JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
+  if (dir !== fixturesDir) [fixtures, fixturesDir] = [JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8')), dir];
   const file = fixtures[url];
   if (!file) throw new Error('HTTP 404 (no fixture)');
   return readFile(path.join(dir, file), 'utf8');
@@ -42,14 +45,67 @@ function record(url, body) {
   writeFileSync(path.join(dir, 'index.json'), `${JSON.stringify(recorded, null, 1)}\n`);
 }
 
-export async function fetchRaw(url) {
+// Reads a page through Claude's web fetch tool. The request to the site is made from Anthropic's network, under
+// Anthropic's own name, and it follows the site's robots.txt. What comes back is the page's text, not its HTML.
+// "fresh" asks for today's version of a page that changes, such as a listing.
+const FETCH_PROBLEMS = {
+  url_not_allowed: 'the site\'s robots.txt, or Anthropic\'s rules, do not allow this page to be fetched',
+  url_not_accessible: 'the site did not answer Claude\'s web fetch either',
+  too_many_requests: 'Claude\'s web fetch is rate limited just now',
+  unsupported_content_type: 'the page is not text, HTML or a PDF',
+};
+async function viaClaude(url, fresh) {
+  if (!process.env.ANTHROPIC_API_KEY) throw new Error('this site is read through Claude\'s web fetch, which needs the ANTHROPIC_API_KEY secret');
+  const { default: Anthropic } = await import('@anthropic-ai/sdk');
+  const client = new Anthropic();
+  const messages = [{ role: 'user', content: `Call the web_fetch tool once, directly, on ${url} and then reply with the single word "done". Do not summarise the page.` }];
+  // A server-side tool can pause a turn; sending the turn back lets it finish.
+  for (let round = 0; round < 3; round++) {
+    let response;
+    try {
+      response = await client.beta.messages.create({
+        model: 'claude-opus-5-5',
+        max_tokens: 1024,
+        output_config: { effort: 'low' },
+        // If a safety filter declines the request, the API retries it on a fallback model inside the same call.
+        betas: ['server-side-fallback-2026-07-01'],
+        fallbacks: 'default',
+        tools: [{ type: 'web_fetch_20260309', name: 'web_fetch', max_uses: 1, allowed_domains: [new URL(url).hostname], max_content_tokens: 30000, use_cache: !fresh }],
+        messages,
+      });
+    } catch (error) {
+      if (error instanceof Anthropic.AuthenticationError) throw new Error('the ANTHROPIC_API_KEY secret was not accepted');
+      if (error instanceof Anthropic.RateLimitError) throw new Error('the Claude API is rate limited just now');
+      if (error instanceof Anthropic.APIError) throw new Error(`the Claude API answered ${error.status}: ${error.message.slice(0, 200)}`);
+      throw error;
+    }
+    if (response.stop_reason === 'refusal') throw new Error('Claude declined to fetch this page');
+    const result = response.content.find((block) => block.type === 'web_fetch_tool_result');
+    if (result?.content.type === 'web_fetch_result') {
+      const source = result.content.content.source;
+      if (source.type !== 'text') throw new Error('PDF pages are not supported yet');
+      return source.data;
+    }
+    if (result) throw new Error(FETCH_PROBLEMS[result.content.error_code] ?? `Claude's web fetch failed (${result.content.error_code})`);
+    if (response.stop_reason !== 'pause_turn') break;
+    messages.push({ role: 'assistant', content: response.content });
+  }
+  throw new Error('Claude did not fetch the page');
+}
+
+export async function fetchRaw(url, { fresh = false } = {}) {
   const fixture = await fixtureFor(url);
   if (fixture != null) return fixture;
+  if (READERS[new URL(url).hostname] === 'claude') {
+    const body = await viaClaude(url, fresh);
+    record(url, body);
+    return body;
+  }
   let lastError;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { 'user-agent': USER_AGENT, accept: 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.5' },
+        headers: { 'user-agent': USER_AGENT, accept: 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.5', 'accept-language': 'en-GB,en;q=0.9' },
         signal: AbortSignal.timeout(30000),
         redirect: 'follow',
       });
@@ -107,7 +163,14 @@ export function extractLinks(html, baseUrl) {
   for (const m of html.matchAll(/<a\b[^>]*?href\s*=\s*["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     let url;
     try { url = normaliseUrl(new URL(decodeEntities(m[1]), baseUrl).toString()); } catch { continue; }
-    if (!links.has(url)) links.set(url, stripTags(m[2]));
+    // Keep the first link text that is not empty (an image link often comes before the headline link).
+    if (!links.get(url)) links.set(url, stripTags(m[2]));
+  }
+  // A page read as text has its links in markdown form: [words](address).
+  for (const m of html.matchAll(/\[([^\]\n]+)\]\(\s*([^)\s#]+)[^)]*\)/g)) {
+    let url;
+    try { url = normaliseUrl(new URL(m[2], baseUrl).toString()); } catch { continue; }
+    if (/^https?:/.test(url) && !links.get(url)) links.set(url, m[1].replace(/[*_`]/g, '').trim());
   }
   return [...links].map(([url, title]) => ({ url, title }));
 }
@@ -138,42 +201,91 @@ export function parseFeed(xml) {
   return items;
 }
 
-async function govukSearch(source) {
-  const params = new URLSearchParams({ filter_organisations: source.organisation, order: '-public_timestamp', count: '40', fields: 'title,link,public_timestamp,description' });
-  if (source.query) params.set('q', source.query);
-  const data = JSON.parse(await fetchRaw(`https://www.gov.uk/api/search.json?${params}`));
-  return (data.results ?? []).map((r) => ({
-    url: normaliseUrl(new URL(r.link, 'https://www.gov.uk').toString()),
-    title: r.title ?? '',
-    date: r.public_timestamp ? toDate(r.public_timestamp) : null,
-    summary: r.description ?? '',
-  }));
+// A look further back walks older listing pages too. These cap how far it will walk.
+const MAX_DATED_PAGES = 400; // a listing with dates stops by itself once it passes the look-back date
+const pause = (ms) => new Promise((done) => setTimeout(done, ms));
+const reachedBack = (items, since) => Boolean(since) && items.length > 0 && items.every((i) => i.date) && items.some((i) => i.date < since);
+
+async function govukSearch(source, { pages, since }) {
+  const size = pages > 1 ? 100 : 40;
+  const items = [];
+  for (let start = 0; start < size * (pages > 1 ? 20 : 1); start += size) {
+    const params = new URLSearchParams({ filter_organisations: source.organisation, order: '-public_timestamp', count: String(size), fields: 'title,link,public_timestamp,description' });
+    if (source.query) params.set('q', source.query);
+    if (start) params.set('start', String(start));
+    const data = JSON.parse(await fetchRaw(`https://www.gov.uk/api/search.json?${params}`));
+    const found = (data.results ?? []).map((r) => ({
+      url: normaliseUrl(new URL(r.link, 'https://www.gov.uk').toString()),
+      title: r.title ?? '',
+      date: r.public_timestamp ? toDate(r.public_timestamp) : null,
+      summary: r.description ?? '',
+    }));
+    items.push(...found);
+    if (found.length < size || reachedBack(found, since)) break;
+    await pause(300);
+  }
+  return items;
+}
+
+// The address of the next, older page of a listing. A source can name it as "more": either a pattern with {n} for the page
+// number, or the address of an archive that carries on where the listing stops. Otherwise the page's rel="next" link is followed.
+function nextPage(source, body, current, n) {
+  if (source.more?.includes('{n}')) return source.more.replace('{n}', String(n + 1));
+  if (source.more && n === 1) return source.more;
+  const tag = body.match(/<(?:a|link)\b[^>]*\brel=["']next["'][^>]*>/i)?.[0];
+  const href = tag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
+  if (!href) return null;
+  try { return new URL(decodeEntities(href), current).toString(); } catch { return null; }
 }
 
 // The items from a source that a run should read now: in the look-back window, not seen before, oldest first.
-export async function newItems(source, { seen, since, max }) {
-  const all = await listAll(source);
+export async function newItems(source, { seen, since, max, pages = 1 }) {
+  const all = await listAll(source, { pages, since });
   const words = (source.keywords ?? []).map((k) => k.toLowerCase());
-  const items = words.length ? all.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : all;
+  // PDFs cannot be read yet, so they are left out here rather than failing on every run.
+  const readable = all.filter((i) => !/\.pdf($|\?)/i.test(i.url));
+  const items = words.length ? readable.filter((i) => words.some((k) => `${i.title} ${i.summary}`.toLowerCase().includes(k))) : readable;
   const inWindow = items.filter((i) => !i.date || i.date >= since);
-  const fresh = inWindow.filter((i) => !seen[normaliseUrl(i.url)]);
+  // New means: never read, or not read successfully yet, or listed with a later date than when it was last read (the page was updated).
+  const fresh = inWindow.filter((i) => {
+    const before = seen[normaliseUrl(i.url)];
+    return !before || before.decision === 'failed' || Boolean(i.date && i.date > (before.listed ?? before.date));
+  });
   // Oldest first, so a proposal is recorded before the decision on it.
   const batch = fresh.slice(0, max).reverse();
   if (batch.every((i) => i.date)) batch.sort((a, b) => a.date.localeCompare(b.date));
-  return { listed: all.length, matched: items.length, inWindow: inWindow.length, batch };
+  return { listed: all.length, matched: items.length, inWindow: inWindow.length, fresh: fresh.length, batch };
 }
 
 // Everything a source currently lists, newest first: [{ url, title, date, summary }].
-export async function listAll(source) {
-  let items;
-  if (source.how === 'govuk') items = await govukSearch(source);
-  else if (source.how === 'feed') items = parseFeed(await fetchRaw(source.url));
-  else if (source.how === 'page') {
-    const match = new RegExp(source.match);
-    const listing = normaliseUrl(source.url);
-    items = extractLinks(await fetchRaw(source.url), source.url)
-      .filter((l) => match.test(l.url) && l.url !== listing)
-      .map((l) => ({ ...l, date: null, summary: '' }));
-  } else throw new Error(`unknown source type "${source.how}"`);
-  return items;
+// "pages" above 1 also reads older listing pages: up to that many when the listing shows no dates,
+// and as many as it takes to pass "since" when it does.
+export async function listAll(source, { pages = 1, since = null } = {}) {
+  if (source.how === 'govuk') return govukSearch(source, { pages, since });
+  if (!['feed', 'page'].includes(source.how)) throw new Error(`unknown source type "${source.how}"`);
+  const match = source.how === 'page' ? new RegExp(source.match) : null;
+  // The listing itself, whatever its query string: page 2 of a listing is not an item.
+  const bare = (address) => { const u = new URL(address); return `${u.origin}${u.pathname.replace(/\/$/, '')}`; };
+  const listing = bare(source.url);
+  const items = new Map();
+  const visited = new Set();
+  let url = source.url;
+  for (let n = 1; url && !visited.has(url); n++) {
+    visited.add(url);
+    const body = await fetchRaw(url, { fresh: true });
+    let found;
+    if (source.how === 'feed') found = parseFeed(body);
+    else {
+      // "main_only" ignores menus and footers, for sites whose item links look like every other link.
+      const html = source.main_only ? body.match(/<main\b[\s\S]*<\/main>/i)?.[0] ?? body : body;
+      found = extractLinks(html, url).filter((l) => match.test(l.url) && bare(l.url) !== listing).map((l) => ({ ...l, date: null, summary: '' }));
+    }
+    const fresh = found.filter((item) => !items.has(item.url));
+    for (const item of fresh) items.set(item.url, item);
+    const dated = found.length > 0 && found.every((i) => i.date);
+    if (pages <= 1 || !fresh.length || reachedBack(found, since) || n >= (dated ? MAX_DATED_PAGES : pages)) break;
+    url = nextPage(source, body, url, n);
+    if (url) await pause(300);
+  }
+  return [...items.values()];
 }

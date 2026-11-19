@@ -1,0 +1,38 @@
+{
+  "id": "au-vlsbc-ai-use-guidance",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Guidance and checklists on using AI in legal practice in Victoria",
+  "summary": "The VLSB+C has published guidance and checklists on using AI safely. It states that lawyers remain responsible for AI-assisted work and must keep it consistent with their professional duties, including confidentiality.",
+  "what_changes": [
+    "New checklist for law practice leaders and principals on introducing and managing AI in a practice.",
+    "New checklist for lawyers on using AI in line with their professional obligations.",
+    "Regulator flags unchecked AI output, including hallucinated cases in court documents, and seniors not checking juniors' AI work.",
+    "Regulator warns against uploading sensitive client information into public-facing AI tools."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian lawyers and law practices, with the regulator noting particular value for small practices and sole practitioners.",
+  "topic": "Technology and AI",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-11-09"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence"
+  },
+  "last_checked": "2026-11-16",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "VLSB+C published new AI guidance and checklists for lawyers and law practice leaders.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence"
+    }
+  ],
+  "admin_notes": [
+    "An admin edited this change on 2026-11-16. Reason: Guidance from the Victorian regulator applies in Victoria only. Keep the admin's wording unless a fact changes."
+  ]
+}
