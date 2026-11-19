@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 // Reads every source that is switched on and reports what it found. No AI, so it needs no credential.
 //
-//   node agent/check-sources.mjs [--country uk] [--since YYYY-MM-DD] [--pages N] [--root DIR]
+//   node agent/check-sources.mjs [--country uk] [--source ID] [--since YYYY-MM-DD] [--pages N] [--root DIR]
+//
+// --source checks that one source even if it is switched off, to prove it before switching it on.
 //
 // With --since and --pages it shows what the run of the past would find, without spending anything on AI.
 // Set TRACKER_RECORD to a folder to also keep a copy of every page read.
@@ -29,7 +31,7 @@ const examples = [];
 let failed = 0;
 
 for (const country of countries) {
-  for (const source of (await store.loadSources(country)).filter((s) => s.enabled)) {
+  for (const source of (await store.loadSources(country)).filter((s) => (args.source ? s.id === args.source : s.enabled))) {
     let found;
     try {
       found = await newItems(source, { seen, since, max: cfg.max_items_per_source, pages });

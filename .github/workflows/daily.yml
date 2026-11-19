@@ -59,6 +59,11 @@ jobs:
         if: env.HAS_AI == 'true'
         run: npm install -g @anthropic-ai/claude-code@2.1.325
 
+      # For the few sites that are read through Claude's web fetch.
+      - name: Install the Anthropic SDK
+        if: env.HAS_AI == 'true'
+        run: npm ci --silent
+
       - name: Run the assistant
         id: assistant
         if: env.HAS_AI == 'true'

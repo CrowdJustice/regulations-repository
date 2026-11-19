@@ -120,7 +120,7 @@ Useful options for `run.mjs`:
 |---|---|---|
 | UK | SRA news and consultations, Legal Services Board, HM Treasury, OFSI, Companies House, new legislation | All read cleanly from GitHub. |
 | Australia | Legal Services Council, VLSB+C, Legal Practice Board of WA, Queensland Law Society, Attorney-General's consultations | All read cleanly from GitHub. |
-| Australia | AUSTRAC, OAIC | Switched off. AUSTRAC's site closes every connection from GitHub's servers. OAIC's shows automated readers a browser check instead of the page. Reading them needs their permission or a different route. |
+| Australia | AUSTRAC, OAIC | Switched off until proved. Both refuse GitHub's network, so they are read through Claude's web fetch instead: the request comes from Anthropic's network and follows each site's robots.txt. It needs the `ANTHROPIC_API_KEY` secret. Prove one with **Check sources** and its source id, then switch it on. |
 
 ## To switch it on
 

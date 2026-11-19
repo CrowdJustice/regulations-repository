@@ -4,6 +4,10 @@
   "model": "opus",
   "window_days": 60,
   "max_items_per_source": 15,
+  "readers": {
+    "www.austrac.gov.au": "claude",
+    "www.oaic.gov.au": "claude"
+  },
   "countries": {
     "uk": {
       "name": "United Kingdom",

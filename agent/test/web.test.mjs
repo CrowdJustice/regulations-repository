@@ -73,3 +73,11 @@ test('links to PDFs are left out of what a run will read', async () => {
     delete process.env.TRACKER_FIXTURES;
   }
 });
+
+test('links are also found on a page that arrives as text', () => {
+  const page = '# News\n\n- [AUSTRAC updates its guidance](/news-and-media/media-release/guidance-update) 12 November 2026\n- [**Rules** made](https://reg.example/news-and-media/media-release/rules-made "title")\n';
+  assert.deepEqual(extractLinks(page, 'https://reg.example/news-and-media/'), [
+    { url: 'https://reg.example/news-and-media/media-release/guidance-update', title: 'AUSTRAC updates its guidance' },
+    { url: 'https://reg.example/news-and-media/media-release/rules-made', title: 'Rules made' },
+  ]);
+});

@@ -7,7 +7,7 @@
     "how": "page",
     "url": "https://www.austrac.gov.au/news-and-media/news-and-media-releases",
     "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+",
-    "note": "Switched off: AUSTRAC's site closes every connection from GitHub's servers (checked 2026-11-16)."
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
     "id": "austrac-consultations",
@@ -17,7 +17,7 @@
     "how": "page",
     "url": "https://www.austrac.gov.au/industry-and-business/consultations",
     "match": "^https://www\\.austrac\\.gov\\.au/industry-and-business/consultations/.+",
-    "note": "Switched off: AUSTRAC's site closes every connection from GitHub's servers (checked 2026-11-16)."
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
     "id": "oaic-news",
@@ -27,7 +27,7 @@
     "how": "page",
     "url": "https://www.oaic.gov.au/news/media-centre",
     "match": "^https://www\\.oaic\\.gov\\.au/news/media-centre/.+",
-    "note": "Switched off: OAIC's site shows automated readers a browser check instead of the page (checked 2026-11-16)."
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
     "id": "oaic-consultations",
@@ -37,7 +37,7 @@
     "how": "page",
     "url": "https://www.oaic.gov.au/engage-with-us/consultations",
     "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+",
-    "note": "Switched off: OAIC's site shows automated readers a browser check instead of the page (checked 2026-11-16)."
+    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
   },
   {
     "id": "agd-consultations",
