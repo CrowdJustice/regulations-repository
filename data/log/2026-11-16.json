@@ -9,7 +9,8 @@
         "regulator": "SRA",
         "stage": "proposed",
         "source": "https://www.sra.org.uk/news/news/firm-governance",
-        "summary": "The SRA has paused its proposed rules requiring firms to separate compliance officer roles from individuals with unilateral control. The rules will not start in January as originally planned."
+        "summary": "The SRA has paused its proposed rules requiring firms to separate compliance officer roles from individuals with unilateral control. The rules will not start in January as originally planned.",
+        "country": "uk"
       },
       {
         "id": "uk-sra-solicitor-competence-statement",
@@ -17,7 +18,8 @@
         "regulator": "SRA",
         "stage": "proposed",
         "source": "https://www.sra.org.uk/news/news/releases/competence-framework",
-        "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence, which sets the competence standards expected of all solicitors throughout their careers, and to the SQE functioning legal knowledge."
+        "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence, which sets the competence standards expected of all solicitors throughout their careers, and to the SQE functioning legal knowledge.",
+        "country": "uk"
       },
       {
         "id": "uk-hmt-high-risk-third-countries",
@@ -25,7 +27,8 @@
         "regulator": "HM Treasury",
         "stage": "guidance",
         "source": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2",
-        "summary": "HM Treasury has updated its advisory notice on High Risk Third Countries under the Money Laundering Regulations. The update reflects changes to the FATF lists agreed at its October 2026 plenary."
+        "summary": "HM Treasury has updated its advisory notice on High Risk Third Countries under the Money Laundering Regulations. The update reflects changes to the FATF lists agreed at its October 2026 plenary.",
+        "country": "uk"
       },
       {
         "id": "uk-ofsi-frozen-asset-review",
@@ -33,7 +36,8 @@
         "regulator": "OFSI",
         "stage": "guidance",
         "source": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form",
-        "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026."
+        "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026.",
+        "country": "uk"
       },
       {
         "id": "uk-ofsi-legal-services-general-licence",
@@ -41,7 +45,8 @@
         "regulator": "OFSI",
         "stage": "in_force",
         "source": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108",
-        "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if the licence terms are met."
+        "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if the licence terms are met.",
+        "country": "uk"
       }
     ],
     "updated": [
@@ -56,7 +61,8 @@
           "summary reworded",
           "what changes reworded"
         ],
-        "event": "OFSI confirmed General Licence INT/2026/11112108 expires on 28 April 2027."
+        "event": "OFSI confirmed General Licence INT/2026/11112108 expires on 28 April 2027.",
+        "country": "uk"
       }
     ],
     "now_in_force": [],
@@ -67,154 +73,214 @@
         "reasons": [
           "\"The consultation ran until 3 December 2026\" uses the past tense, which suggests the consultation has closed. The source says it ends at 23.59 on 3 December 2026, so it is still open on 16 November 2026."
         ],
-        "review_file": "review/2026-11-16-uk-sra-solicitor-competence-statement.json"
+        "review_file": "review/2026-11-16-uk-sra-solicitor-competence-statement.json",
+        "country": "uk",
+        "source": "sra-consultations"
       }
     ],
     "ignored": [
       {
         "title": "New resource launched to help widen access to legal careers 14 September 2026 A new toolkit is now available to help law schools, law firms, in-house teams and other legal sector organisations develop partnerships and initiatives that support aspiring solicitors from underrepresented backgrounds.",
         "url": "https://www.sra.org.uk/news/news/resource-legal-careers",
-        "reason": "This is a voluntary toolkit for widening access to legal careers. It adds no new rules, guidance or obligations that change how a law firm has to operate."
+        "reason": "This is a voluntary toolkit for widening access to legal careers. It adds no new rules, guidance or obligations that change how a law firm has to operate.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SRA statement in relation to the High Court's ruling in the case between Carter Ruck Solicitors/Amersi and the SRA 21 September 2026 This case relates to whether under Section 44B of the Solicitors Act 1974, the SRA can require regulated persons to produce documents or information which are subject to legal professional privilege ('LPP').",
         "url": "https://www.sra.org.uk/news/news/ruling-statement",
-        "reason": "This is the SRA's reaction to a High Court ruling in litigation it is appealing, so it sets no new rule, decision or guidance on how firms must act."
+        "reason": "This is the SRA's reaction to a High Court ruling in litigation it is appealing, so it sets no new rule, decision or guidance on how firms must act.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SQE1 pass rates up slightly year-on-year for July sittings 29 September 2026 Recent SQE1 results show the proportion of candidates who sat and passed SQE1 in July 2026 (42%) was up slightly on the pass rate seen for those sitting the assessment in July 2025 (41%).",
         "url": "https://www.sra.org.uk/news/news/jul-sqe1-26",
-        "reason": "This item reports SQE1 pass-rate statistics. It contains no new or changed rule, proposal, decision or guidance that affects how law firms must operate."
+        "reason": "This item reports SQE1 pass-rate statistics. It contains no new or changed rule, proposal, decision or guidance that affects how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SRA publishes independent review into its pre-intervention handling of PM Law 03 September 2026 The SRA has published the findings of an independent review conducted by law firm Jenner & Block LLP into the handling of the events leading up to the intervention into the PM Law Group in February 2026.",
         "url": "https://www.sra.org.uk/news/news/releases/review-handling-pm-law",
-        "reason": "This is an independent review of how the SRA handled PM Law before intervening, plus an assurance report on its own progress; it sets no new rule, proposal or guidance for law firms."
+        "reason": "This is an independent review of how the SRA handled PM Law before intervening, plus an assurance report on its own progress; it sets no new rule, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SRA makes new appointments to the Board 08 October 2026 The Solicitors Regulation Authority (SRA) has appointed two new Board members, Shrin Honap and Ben Allgrove, as part of its ongoing programme of board renewal to balance continuity with fresh perspectives and expertise.",
         "url": "https://www.sra.org.uk/news/news/releases/sra-appointments-board",
-        "reason": "This item announces SRA Board appointments, which the tracker does not cover because they do not change how law firms must operate."
+        "reason": "This item announces SRA Board appointments, which the tracker does not cover because they do not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SRA announces appointment of new Chair 14 October 2026 The Solicitors Regulation Authority (SRA) has announced that Caroline Corby will become the new Chair of the Board, with effect from 23 November 2026.",
         "url": "https://www.sra.org.uk/news/news/releases/sra-appointment-chair",
-        "reason": "This is a board appointment announcement, which does not change how law firms must operate."
+        "reason": "This is a board appointment announcement, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "SRA 2026/27 Business Plan published 12 November 2026 The Solicitors Regulation Authority (SRA) has published its final 2026/27 Business Plan outlining the regulators' key planned activities and priorities for the year ahead.",
         "url": "https://www.sra.org.uk/news/news/releases/202627-business-plan",
-        "reason": "This is the SRA's annual business plan. It sets out the regulator's own priorities and does not create or change any rule, proposal or guidance for firms."
+        "reason": "This is the SRA's annual business plan. It sets out the regulator's own priorities and does not create or change any rule, proposal or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
       },
       {
         "title": "Our statement on High Court ruling on Carter-Ruck solicitors and another vs SRA",
         "url": "https://legalservicesboard.org.uk/news/our-statement-on-high-court-ruling-on-carter-ruck-solicitors-and-another-vs-sra",
-        "reason": "This is an LSB statement about a court case involving a named firm and the SRA. It does not create or change any rule or guidance that firms must follow."
+        "reason": "This is an LSB statement about a court case involving a named firm and the SRA. It does not create or change any rule or guidance that firms must follow.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Protecting consumers in a changing legal services market",
         "url": "https://legalservicesboard.org.uk/news/protecting-consumers-in-a-changing-legal-services-market",
-        "reason": "This is a conference speech by the LSB Chair with general remarks on regulation, and it sets out no new rule, consultation, decision or guidance for law firms."
+        "reason": "This is a conference speech by the LSB Chair with general remarks on regulation, and it sets out no new rule, consultation, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "The edge of regulation: the unregulated market, access to justice and AI",
         "url": "https://legalservicesboard.org.uk/news/the-edge-of-regulation-the-unregulated-market-access-to-justice-and-ai",
-        "reason": "This is a conference speech about unregulated legal services and AI; it brings in no new rule, proposal, decision or guidance that law firms must act on."
+        "reason": "This is a conference speech about unregulated legal services and AI; it brings in no new rule, proposal, decision or guidance that law firms must act on.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Our approach to encouraging a diverse legal profession through regulation",
         "url": "https://legalservicesboard.org.uk/news/our-approach-to-encouraging-a-diverse-legal-profession-through-regulation",
-        "reason": "The LSB dropped its proposed diversity policy statement and kept its 2017 guidance for regulators, so nothing changes in how law firms must operate."
+        "reason": "The LSB dropped its proposed diversity policy statement and kept its 2017 guidance for regulators, so nothing changes in how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Meeting shared challenges: legal regulation in a changing world",
         "url": "https://legalservicesboard.org.uk/news/meeting-shared-challenges-legal-regulation-in-a-changing-world",
-        "reason": "This is a speech closing a conference, and it adds no new rule, proposal, decision or guidance for law firms."
+        "reason": "This is a speech closing a conference, and it adds no new rule, proposal, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Stronger oversight, better outcomes for consumers: LSB makes three senior appointments",
         "url": "https://legalservicesboard.org.uk/news/stronger-oversight-better-outcomes-for-consumers",
-        "reason": "This item announces LSB senior staff appointments, which are out of scope and do not change how law firms must operate."
+        "reason": "This item announces LSB senior staff appointments, which are out of scope and do not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Stronger consumer protection through more focused oversight",
         "url": "https://legalservicesboard.org.uk/news/stronger-consumer-protection-through-more-focused-oversight",
-        "reason": "The LSB's response to the Public Bodies Review is about how it oversees regulators and plans its strategy; it sets no new rule, proposal or guidance on how law firms must operate."
+        "reason": "The LSB's response to the Public Bodies Review is about how it oversees regulators and plans its strategy; it sets no new rule, proposal or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Legal problems are holding back small business growth, new survey finds",
         "url": "https://legalservicesboard.org.uk/news/legal-problems-are-holding-back-small-business-growth-new-survey-finds",
-        "reason": "This is research on small business legal needs plus a general call for action, not a new or amended rule, proposal, decision or guidance on how law firms must operate."
+        "reason": "This is research on small business legal needs plus a general call for action, not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "LSB launches review of guidance on reserved legal activities",
         "url": "https://legalservicesboard.org.uk/news/lsb-launches-review-of-guidance-on-reserved-legal-activities",
-        "reason": "The LSB has only started reviewing regulators' guidance on reserved legal activities, with findings due in early 2027; it proposes no new rule or guidance and does not yet change what firms must do."
+        "reason": "The LSB has only started reviewing regulators' guidance on reserved legal activities, with findings due in early 2027; it proposes no new rule or guidance and does not yet change what firms must do.",
+        "country": "uk",
+        "source": "lsb-news"
       },
       {
         "title": "Directors warned to verify identities with Companies House following first Insolvency Service prosecutions",
         "url": "https://www.gov.uk/government/news/directors-warned-to-verify-identities-with-companies-house-following-first-insolvency-service-prosecutions",
-        "reason": "This is a press release about enforcement against named directors. It restates existing identity verification duties under the Economic Crime and Corporate Transparency Act 2023 and adds no new rule, date or requirement."
+        "reason": "This is a press release about enforcement against named directors. It restates existing identity verification duties under the Economic Crime and Corporate Transparency Act 2023 and adds no new rule, date or requirement.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "How to prove your identity for Companies House at the Post Office",
         "url": "https://www.gov.uk/guidance/how-to-prove-your-identity-for-companies-house-at-the-post-office",
-        "reason": "This is a step-by-step guide for individuals verifying their identity at a Post Office, and its latest edit only adds a 21-day completion limit, which changes no requirement for how law firms operate."
+        "reason": "This is a step-by-step guide for individuals verifying their identity at a Post Office, and its latest edit only adds a 21-day completion limit, which changes no requirement for how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Companies House",
         "url": "https://www.gov.uk/government/organisations/companies-house",
-        "reason": "The item is the Companies House organisation homepage, a list of links with no single new rule, consultation, decision or guidance to record."
+        "reason": "The item is the Companies House organisation homepage, a list of links with no single new rule, consultation, decision or guidance to record.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Filing your Companies House accounts",
         "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
-        "reason": "This general Companies House guidance on filing company accounts was updated to drop a paused plan for small companies to file profit and loss accounts; it adds no new obligation and does not change how law firms must operate."
+        "reason": "This general Companies House guidance on filing company accounts was updated to drop a paused plan for small companies to file profit and loss accounts; it adds no new obligation and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Economic Crime and Corporate Transparency Act: outline transition plan for Companies House",
         "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
-        "reason": "The update pauses a general company accounts filing requirement for small and micro entities; it is not specific to how law firms must operate, and the page gives too little detail for an accurate record."
+        "reason": "The update pauses a general company accounts filing requirement for small and micro entities; it is not specific to how law firms must operate, and the page gives too little detail for an accurate record.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Incorporated companies in the UK July to September 2026",
         "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-july-to-september-2026",
-        "reason": "This is a quarterly statistics release on the size of the companies register, so it does not change how law firms must operate."
+        "reason": "This is a quarterly statistics release on the size of the companies register, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Companies House management information: identity verification July to September 2026",
         "url": "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-identity-verification-july-to-september-2026",
-        "reason": "This is a quarterly statistical data set on identity verification compliance and adds no new rule, proposal, decision or guidance for law firms."
+        "reason": "This is a quarterly statistical data set on identity verification compliance and adds no new rule, proposal, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "Companies House management information: identity verification statistics",
         "url": "https://www.gov.uk/government/collections/companies-house-management-information-identity-verification-statistics",
-        "reason": "The item is a quarterly statistics release on identity verification compliance and adds no new rule, guidance or change to how law firms must operate."
+        "reason": "The item is a quarterly statistics release on identity verification compliance and adds no new rule, guidance or change to how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "List of Authorised Corporate Service Providers (ACSPs)",
         "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-        "reason": "This is a routine refresh of Companies House's published list of registered agents (ACSPs); it adds no new rule, guidance or requirement for law firms."
+        "reason": "This is a routine refresh of Companies House's published list of registered agents (ACSPs); it adds no new rule, guidance or requirement for law firms.",
+        "country": "uk",
+        "source": "companies-house"
       },
       {
         "title": "HMT Licensing Guidance –Presumption of Denial of Licence Applications for Designated Iranian banks",
         "url": "https://www.gov.uk/government/publications/hmt-licensing-guidance-presumption-of-denial-of-licence-applications-for-designated-iranian-banks",
-        "reason": "This guidance sets out HM Treasury's own approach to licence applications from certain designated Iranian banks; it does not change how law firms generally must operate, and the page gives too little detail to write an accurate record."
+        "reason": "This guidance sets out HM Treasury's own approach to licence applications from certain designated Iranian banks; it does not change how law firms generally must operate, and the page gives too little detail to write an accurate record.",
+        "country": "uk",
+        "source": "ofsi"
       },
       {
         "title": "Maritime Services Ban and Oil Price Cap: licences and reporting forms",
         "url": "https://www.gov.uk/government/publications/russian-oil-services-ban",
-        "reason": "The 1 October 2026 change only updates publication notices and the exempt-projects general licence for the maritime oil industry. The page gives no detail of what changed, and the change does not affect how law firms must operate."
+        "reason": "The 1 October 2026 change only updates publication notices and the exempt-projects general licence for the maritime oil industry. The page gives no detail of what changed, and the change does not affect how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
       },
       {
         "title": "UK Financial Sanctions FAQs",
         "url": "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs",
-        "reason": "The item is an update log for OFSI's general FAQ page; it lists FAQ numbers that were added, amended or withdrawn but does not say what they contain, so it gives firms no new fact about a rule, and the related legal services general licence change from the same day is already tracked."
+        "reason": "The item is an update log for OFSI's general FAQ page; it lists FAQ numbers that were added, amended or withdrawn but does not say what they contain, so it gives firms no new fact about a rule, and the related legal services general licence change from the same day is already tracked.",
+        "country": "uk",
+        "source": "ofsi"
       },
       {
         "title": "UK financial sanctions guidance",
         "url": "https://www.gov.uk/guidance/uk-financial-sanctions-guidance",
-        "reason": "The only change to this OFSI guidance index page is a new two-page Sanctions Factsheet for Overseas Business, which adds no new rule or guidance on how UK law firms must operate."
+        "reason": "The only change to this OFSI guidance index page is a new two-page Sanctions Factsheet for Overseas Business, which adds no new rule or guidance on how UK law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
       }
     ],
     "due_check": [],
@@ -223,5 +289,391 @@
     "cost_usd": 2.1,
     "stopped_early": null,
     "finished_at": "2026-11-16T11:35:43.842Z"
+  },
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "Consumer remedies under the Uniform Law",
+        "url": "https://legalservicescouncil.org.au/highlights/consumer-remedies-under-the-uniform-law.html",
+        "reason": "This is a summary of research the Legal Services Council commissioned on consumer remedies under the Uniform Law, and it sets no new rule, proposal, decision or guidance on how firms must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Foreign lawyers amendments to the Uniform Admission Rules and Guideline",
+        "url": "https://legalservicescouncil.org.au/highlights/foreign-lawyers-amendments-to-the-uniform-admission-rules-and-gu.html",
+        "reason": "The rule and guideline tell admitting authorities how to assess foreign lawyers' admission exemptions under s 18 of the Uniform Law and do not change how law firms must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Admissions Committee and LACC launch national survey as part of a review of Practical Legal Training",
+        "url": "https://legalservicescouncil.org.au/highlights/admissions-committee-and-lacc-launch-national-survey-as-part-of-.html",
+        "reason": "This is a survey announcement for a research review of Practical Legal Training. It contains no proposed or final rules and nothing that changes how a law firm must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Updated cost disclosure documents: results of user testing",
+        "url": "https://legalservicescouncil.org.au/highlights/updated-cost-disclosure-documents--results-of-user-testing.html",
+        "reason": "This item reports user-testing research on cost disclosure forms. It only says a targeted consultation will happen later, so there is no open consultation, draft rule or decision to record yet.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Consultation on practical legal training (PLT)",
+        "url": "https://legalservicescouncil.org.au/highlights/consultation-on-practical-legal-training.html",
+        "reason": "This consultation is about practical legal training for admission to practice and legal education. It doesn't change how law firms must operate, the page gives no concrete requirements, and the submission deadline (14 May 2026) has passed.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Consultation on proposed amendments to the definition of “related entity” for corporate legal practitioners",
+        "url": "https://legalservicescouncil.org.au/highlights/consultation-on-proposed-amendments-to-the-definition-of--relate.html",
+        "reason": "This consultation is about the 'related entity' definition for in-house corporate legal practitioners employed by non-company entities, so it does not change how law firms must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Consultation on enabling corporate legal practitioners to support related entities of their employer",
+        "url": "https://legalservicescouncil.org.au/highlights/consultation-on-enabling-corporate-legal-practitioners-to-suppor.html",
+        "reason": "The consultation is about in-house corporate legal practitioners employed by non-company entities and does not affect how a law firm must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Consultation on the Costs Disclosure Amendment Rule",
+        "url": "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html",
+        "reason": "published 2026-06-26, before the look-back date 2026-09-17",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "AML/CTF-related amendments to uniform rules",
+        "url": "https://legalservicescouncil.org.au/highlights/aml-ctf-related-amendments-to-uniform-rules-.html",
+        "reason": "published 2026-06-19, before the look-back date 2026-09-17",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Legal Services Regulatory Dialogue report",
+        "url": "https://legalservicescouncil.org.au/highlights/legal-services-regulatory-dialogue-report-.html",
+        "reason": "This is a report on the Australia-UK regulatory dialogue with recommendations for others to consider; it does not create, propose or change any rule or guidance for law firms.",
+        "country": "au",
+        "source": "lsc-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 0.39,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T14:29:56.888Z"
+  },
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [
+      {
+        "id": "au-vlsbc-ai-use-guidance",
+        "title": "Guidance and checklists on using AI in legal practice in Victoria",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence",
+        "summary": "The VLSB+C has published guidance and checklists on using AI safely. It states that lawyers remain responsible for AI-assisted work and must keep it consistent with their professional duties, including confidentiality.",
+        "country": "au"
+      },
+      {
+        "id": "au-lsc-amlctf-conduct-rules",
+        "title": "Solicitors' conduct rules amended to fit AML/CTF obligations",
+        "regulator": "LSC",
+        "stage": "in_force",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-november-2026",
+        "summary": "From 1 July 2026, new Legal Services Council rules deal with conflicts between solicitors' AML/CTF obligations and their ethical duties, including confidentiality and loyalty to clients.",
+        "country": "au"
+      }
+    ],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "We are developing a Consumer Strategy",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/we-are-developing-consumer-strategy",
+        "reason": "This is a closed consultation on the regulator's own Consumer Strategy. It proposes no new or amended rules and no guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Consumer warning: unauthorised legal work by Dr James McConvill, Uplands Dispute Resolution",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/consumer-warning-unauthorised-legal-work-dr-james-mcconvill-uplands-dispute",
+        "reason": "This is a consumer warning about one named person and business doing unauthorised legal work, so it falls under enforcement against named people. It does not change any rule or how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "What makes a competent lawyer? Victorian lawyers have their say",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/what-makes-competent-lawyer-victorian-lawyers-have-their-say",
+        "reason": "This is a news item about a research report on how lawyers see competence; it brings in no new rule, proposal, decision or guidance that firms have to act on.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "$28.4 million in grants to drive innovation and improve access to justice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/2-84-million-grants-drive-innovation-and-improve-access-justice",
+        "reason": "This is a grant funding announcement from the Public Purpose Fund, not a change to rules, guidance or how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New Chair appointed to the Victorian Legal Services Board",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-chair-appointed-victorian-legal-services-board",
+        "reason": "This announces the appointment of a new Board Chair, so it is an appointment notice. It does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "AI use by Victorian lawyers surges, but benefits for clients remain uneven",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/ai-use-victorian-lawyers-surges-benefits-clients-remain-uneven",
+        "reason": "This is a research report on how lawyers use AI, with survey statistics; it brings in no new rule, proposal or guidance, and only mentions that further resources are coming at an unstated date.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Victoria’s legal regulator maintains momentum for change for lawyers and the community",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/victorias-legal-regulator-maintains-momentum-change-lawyers-and-community",
+        "reason": "This is an annual report announcement summarising past activity, statistics and an enforcement action; it sets no new rule, proposal or guidance with new facts.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C statement: Reign Legal",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-statement-reign-legal",
+        "reason": "Enforcement action against a named law practice and its principal (manager appointed, practising certificate suspended); not a rule, proposal or guidance change.",
+        "country": "au",
+        "source": "vlsbc-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 0.48,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T14:31:13.070Z"
+  },
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "The Law Library upcoming complimentary CPD Sessions",
+        "url": "https://www.lpbwa.org.au/the-law-library-upcoming-complimentary-cpd-sessions",
+        "reason": "This is an event notice about free CPD training sessions plus a reminder of an existing CPD deadline, so it is not a regulatory change.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Service Hub Access and Multi-Factor Authentication (MFA)",
+        "url": "https://www.lpbwa.org.au/service-hub-access-and-multi-factor-authentication-(mfa)",
+        "reason": "This is an IT notice about logging in to the Board's own Service Hub with multi-factor authentication, not a rule, proposal or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Board and committees announced following inaugural 2026 meeting",
+        "url": "https://www.lpbwa.org.au/board-and-committees-announced-following-inaugural-2026-meeting",
+        "reason": "This is an announcement of board appointments and committee membership, which is not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "AML/CTF-related amendments to Uniform rules",
+        "url": "https://www.lpbwa.org.au/aml-ctf-related-amendments-to-uniform-rules",
+        "reason": "The tracker already holds this change as au-lsc-amlctf-conduct-rules, in force from 1 July 2026, and this page adds no new stage, date, scope or requirement.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "New privacy obligations come into effect",
+        "url": "https://www.lpbwa.org.au/new-privacy-obligations-come-into-effect",
+        "reason": "The notice covers the Board's own duties as a WA public body under the PRIS Act, such as its privacy policy and collection notices, and sets no new obligation for law firms.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Information sheet on charging AML/CTF costs",
+        "url": "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs",
+        "reason": "published 2026-07-16, before the look-back date 2026-09-17",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Board member wins AG award",
+        "url": "https://www.lpbwa.org.au/board-member-wins-ag-award",
+        "reason": "This is news about an award to a board member, not a change to rules, guidance or how law firms must operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Board Deputy Chair wins Lawyer of the Year and Government Lawyer of the Year",
+        "url": "https://www.lpbwa.org.au/board-deputy-chair-wins-lawyer-of-the-year-and-government-lawyer-of-the-year",
+        "reason": "This item is a congratulatory notice about an award given to a Board member. It is not a change to rules, guidance or how law firms operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Expressions of interest welcomed for Legal Services and Complaints Committee",
+        "url": "https://www.lpbwa.org.au/expressions-of-interest-welcomed-for-legal-services-and-complaints-committee",
+        "reason": "This is a call for expressions of interest to join a Legal Practice Board committee, which is an appointments matter and does not change how law firms must operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "Applicants for admission as a lawyer December 2026",
+        "url": "https://www.lpbwa.org.au/applicants-for-admission-as-a-lawyer-december-2026",
+        "reason": "This is a notice listing individual applicants for admission, with a window for objections. It is not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
+        "country": "au",
+        "source": "lpbwa-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 0.33,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T14:32:27.644Z"
+  },
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "Submissions | 08 Oct 2026 Justice Legislation (Strengthening Victim's Rights) Amendment Bill 2026",
+        "url": "https://www.qls.com.au/news-media-advocacy/justice-legislation-(strengthening-victim-s-rights)-amendment-bill-2026",
+        "reason": "This is a QLS submission to a parliamentary committee on a victims' rights bill. It is advocacy, not a rule change or guidance on how law firms must operate, and the page has no substantive content.",
+        "country": "au",
+        "source": "qls-news"
+      },
+      {
+        "title": "News | 12 Oct 2026 Assess your AML/CTF compliance at the AML Health Check online workshop",
+        "url": "https://www.qls.com.au/news-media-advocacy/assess-your-aml-ctf-compliance-at-the-aml-health-check-online-workshop",
+        "reason": "This is a QLS notice promoting a paid AML/CTF training workshop, an event announcement that adds no new rule, guidance or date affecting how firms must operate.",
+        "country": "au",
+        "source": "qls-news"
+      },
+      {
+        "title": "Media | 23 Oct 2026 QLS welcomes youth bail support program",
+        "url": "https://www.qls.com.au/news-media-advocacy/qls-welcomes-youth-bail-support-program",
+        "reason": "This is a QLS media statement welcoming a government youth bail support program; it is not a rule, proposal, decision or guidance that affects how law firms must operate.",
+        "country": "au",
+        "source": "qls-news"
+      },
+      {
+        "title": "News | 04 Nov 2026 Specialist Accreditation Update",
+        "url": "https://www.qls.com.au/news-media-advocacy/specialist-accreditation-update",
+        "reason": "This is a QLS notice about specialist accreditation programs for 2027. It changes no rule, gives no guidance and has no bearing on how a law firm must operate.",
+        "country": "au",
+        "source": "qls-news"
+      },
+      {
+        "title": "News | 10 Nov 2026 Planning a practice change in 2027? Act now for year-end processing",
+        "url": "https://www.qls.com.au/news-media-advocacy/planning-a-practice-change-in-2027-act-now-for-year-end-processing",
+        "reason": "This is an administrative processing deadline for QLS membership and practising certificate applications, not a change to rules or guidance on how firms must operate.",
+        "country": "au",
+        "source": "qls-news"
+      },
+      {
+        "title": "News | 13 Nov 2026 Service Notice - Microsoft 365 Outage",
+        "url": "https://www.qls.com.au/news-media-advocacy/service-notice-microsoft-365-outage",
+        "reason": "This is a QLS notice about a Microsoft 365 outage slowing its own replies, not a change to rules or guidance for law firms.",
+        "country": "au",
+        "source": "qls-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 0.18,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T14:32:49.355Z"
+  },
+  {
+    "date": "2026-11-16",
+    "since": "2026-09-17",
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "Administrative Review Council Inquiry on Migration",
+        "url": "https://consultations.ag.gov.au/legal-system/arc-inquiry-on-migration",
+        "reason": "This is feedback on an Administrative Review Council inquiry into how the tribunal reviews migration decisions; it sets no new rule or proposal and doesn't change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Statutory Review of the Statutory Declarations Act 1959",
+        "url": "https://consultations.ag.gov.au/legal-system/stat-dec-act-review",
+        "reason": "The item is feedback on a closed statutory review: a final report with recommendations was tabled, but no rule, proposal or guidance changes how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Australia's draft Seventh Periodic Report under the International Covenant on Civil and Political Rights (ICCPR)",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/iccpr",
+        "reason": "This is a consultation on Australia's UN human rights report under the ICCPR, not a rule, proposal or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Privacy Reform – Consultation on Exposure Draft legislation",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform",
+        "reason": "published 2026-08-31, before the look-back date 2026-09-17",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Strengthening Australia’s response to modern slavery in supply chains",
+        "url": "https://consultations.ag.gov.au/crime/modern-slavery",
+        "reason": "published 2026-08-21, before the look-back date 2026-09-17",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan",
+        "url": "https://consultations.ag.gov.au/integrity/ogp-fnap",
+        "reason": "This consultation asks for views on possible government commitments for Australia's Open Government Partnership action plan; it proposes no rule, legislation or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Exposure draft: Remake of the National Security Information (Criminal and Civil Proceedings) Regulation",
+        "url": "https://consultations.ag.gov.au/national-security/rnsir",
+        "reason": "This draft remakes an expiring regulation with largely the same content, and it only covers federal cases involving national security information, so it doesn't affect how law firms operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 0,
+    "cost_usd": 0.47,
+    "stopped_early": null,
+    "finished_at": "2026-11-16T14:36:22.385Z"
   }
 ]

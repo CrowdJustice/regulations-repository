@@ -32,5 +32,8 @@
       "url": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form"
     }
   ],
-  "admin_notes": []
+  "admin_notes": [
+    "An admin archived this change on 2026-11-16. Reason: Workflow test",
+    "An admin restored this change on 2026-11-16."
+  ]
 }

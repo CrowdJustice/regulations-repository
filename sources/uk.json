@@ -6,7 +6,8 @@
     "enabled": true,
     "how": "page",
     "url": "https://www.sra.org.uk/news/news/",
-    "match": "^https://www\\.sra\\.org\\.uk/news/news/(?!releases$|press-office$).+"
+    "match": "^https://www\\.sra\\.org\\.uk/news/news/(?!releases$|press-office$).+",
+    "more": "https://www.sra.org.uk/news/news/releases"
   },
   {
     "id": "sra-consultations",
@@ -15,7 +16,8 @@
     "enabled": true,
     "how": "page",
     "url": "https://www.sra.org.uk/sra/consultations/",
-    "match": "^https://www\\.sra\\.org\\.uk/sra/consultations/consultation-listing/.+"
+    "match": "^https://www\\.sra\\.org\\.uk/sra/consultations/consultation-listing/.+",
+    "more": "https://www.sra.org.uk/sra/consultations/consultations-closed"
   },
   {
     "id": "lsb-news",
@@ -23,7 +25,8 @@
     "covers": "Approvals that turn into SRA, CLC and CILEx rules",
     "enabled": true,
     "how": "feed",
-    "url": "https://legalservicesboard.org.uk/feed"
+    "url": "https://legalservicesboard.org.uk/feed",
+    "more": "https://legalservicesboard.org.uk/feed?paged={n}"
   },
   {
     "id": "hmt-aml",

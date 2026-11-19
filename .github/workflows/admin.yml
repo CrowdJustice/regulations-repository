@@ -1,32 +1,41 @@
 name: Admin action
+run-name: "${{ inputs.command }} ${{ inputs.target }} [${{ inputs.request }}]"
+
+# Every button on the admin page runs this once. It can also be run by hand from the Actions tab.
 
 on:
   workflow_dispatch:
     inputs:
       command:
-        description: "revert = undo the last change to it. archive = remove it from the page. restore = show it again."
+        description: "revert, archive, restore or edit a change. publish or dismiss a held item. Turn a source on or off, or add one."
         type: choice
-        options: [revert, archive, restore]
+        options: [revert, archive, restore, edit, publish, dismiss, source-on, source-off, source-add]
         required: true
-      id:
-        description: "The change id, for example uk-sra-client-money-reports"
+      target:
+        description: "A change id (uk-sra-client-money-reports), a held item's name, country/source-id (uk/sra-news), or a country (uk) when adding a source."
         required: true
       reason:
         description: "Why (optional). The assistant reads this and follows it."
+        required: false
+      payload:
+        description: "Details as JSON. The admin page fills this in; leave it empty when running by hand."
+        required: false
+      request:
+        description: "Lets the admin page follow this run. Leave it empty."
         required: false
 
 permissions:
   contents: write
 
-concurrency:
-  group: tracker
-
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
+      # "ref" makes a run that waited start from the newest commit, not the one that was newest when the button was pressed.
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.ref }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -36,13 +45,11 @@ jobs:
       - name: Apply
         env:
           COMMAND: ${{ inputs.command }}
-          ID: ${{ inputs.id }}
+          TARGET: ${{ inputs.target }}
           REASON: ${{ inputs.reason }}
+          PAYLOAD: ${{ inputs.payload }}
         run: |
           git config user.name "regulation-tracker"
           git config user.email "regulation-tracker@users.noreply.github.com"
-          node agent/admin.mjs "$COMMAND" "$ID" --reason "$REASON" --commit
-          node agent/build-page.mjs
-          git add site
-          git diff --cached --quiet || git commit -q -m "Rebuild the page"
-          git push
+          node agent/admin.mjs "$COMMAND" "$TARGET" --reason "$REASON" --commit
+          bash agent/push.sh ours

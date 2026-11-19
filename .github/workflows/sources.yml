@@ -12,6 +12,15 @@ on:
       since:
         description: "Look back to this date (YYYY-MM-DD). Leave empty for the default."
         required: false
+      country:
+        description: "Check one country only (uk or au). Leave empty for all."
+        required: false
+      pages:
+        description: "Also read this many older listing pages per source, to preview the run of the past. Leave empty for one."
+        required: false
+      source:
+        description: "Check this one source id, even if it is switched off. Leave empty for every source that is on."
+        required: false
 
 permissions:
   contents: write
@@ -30,10 +39,19 @@ jobs:
       - name: Read the sources
         env:
           SINCE: ${{ inputs.since }}
+          COUNTRY: ${{ inputs.country }}
+          PAGES: ${{ inputs.pages }}
+          ONE_SOURCE: ${{ inputs.source }}
+          # Only used for the few sites that are read through Claude's web fetch.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SAVE: ${{ inputs.save }}
         run: |
           args=()
           if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
+          if [ -n "$COUNTRY" ]; then args+=(--country "$COUNTRY"); fi
+          if [ -n "$PAGES" ]; then args+=(--pages "$PAGES"); fi
+          if [ -n "$ONE_SOURCE" ]; then args+=(--source "$ONE_SOURCE"); fi
+          npm ci --silent
           if [ "$SAVE" = "true" ]; then export TRACKER_RECORD=snapshot; fi
           node agent/check-sources.mjs "${args[@]}" | tee report.md || true
           cat report.md >> "$GITHUB_STEP_SUMMARY"
@@ -41,6 +59,7 @@ jobs:
       - name: Save the pages to this branch
         if: inputs.save && github.ref_name != github.event.repository.default_branch
         run: |
+          mkdir -p snapshot
           cp report.md snapshot/report.md
           git config user.name "regulation-tracker"
           git config user.email "regulation-tracker@users.noreply.github.com"
