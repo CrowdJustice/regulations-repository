@@ -124,12 +124,23 @@ Useful options for `run.mjs`:
 
 ## To switch it on
 
-Everything is built. Three settings in GitHub turn it on. All are under the repository's **Settings**.
+Everything is built and tested. What is left needs an owner of the GitHub organisation and of the Anthropic account.
 
-1. **Publish the pages.** Pages, Build and deployment, Source: **GitHub Actions**. The public page then lives at `https://<owner>.github.io/<repo>/` and the admin page at `.../admin.html`.
-2. **Give the assistant its AI sign-in.** Secrets and variables, Actions, New repository secret. Add one of:
-   - `ANTHROPIC_API_KEY`, a dedicated API key; or
-   - `CLAUDE_CODE_OAUTH_TOKEN`, made by running `claude setup-token`, which uses that person's Claude subscription.
-3. **Get the notifications.** Watch the repository (the Watch button, All activity) so GitHub emails each update.
+**Where it lives.** Transfer the repository into the organisation (Settings, General, Transfer ownership). Nothing in the code names the old location, so nothing needs editing afterwards. It works as a public or a private repository.
 
-After that the check runs every morning at 06:17 UTC. To fill in history, start the run of the past once.
+**Settings, in the repository:**
+
+1. **Actions, General.** Allow GitHub Actions to run, including `actions/checkout`, `actions/setup-node`, `actions/upload-pages-artifact` and `actions/deploy-pages`.
+2. **The `main` branch.** The daily check and admin actions save by pushing to `main` as the Actions bot. If a rule requires pull requests on `main`, exempt GitHub Actions from it.
+3. **Pages.** Build and deployment, Source: **GitHub Actions**. The public page then lives at `https://<owner>.github.io/<repo>/` and the admin page at `.../admin.html`.
+4. **The AI key.** Secrets and variables, Actions, New repository secret: `ANTHROPIC_API_KEY`. Use a key made for this alone, in its own workspace, with a monthly spend limit. It pays for the daily check and for reading AUSTRAC and OAIC.
+5. **Who is an admin.** Anyone with write access can run admin actions, so give write access only to the admins. Each admin connects the admin page with their own fine-grained token for this one repository (Actions: read and write; Contents: read-only).
+6. **Notifications.** Each admin watches the repository (Watch, All activity) to get the daily update by email.
+
+**What is kept where:**
+
+- The AI key exists only as the repository secret. It is passed only to the two steps that call the AI, and never to a web page being read.
+- An admin's token stays in that admin's browser. The admin page can talk only to GitHub and runs only its own script.
+- The tracker holds public regulator pages and what was written from them. It holds no customer data.
+
+After that the check runs every morning at 06:17 UTC. To fill in history, start the run of the past once from the admin page.

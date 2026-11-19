@@ -77,7 +77,8 @@
   function friendly(e) {
     if (e.status === 401) return 'GitHub did not accept the token. Connect again.';
     if (e.status === 403 && /rate limit/i.test(e.message)) return 'GitHub is limiting requests from this network. Connect, or try again in an hour.';
-    if (e.status === 403 || e.status === 404) return 'This token cannot run actions on the repository. It needs “Actions: Read and write”.';
+    if (e.status === 404 && !token()) return 'Connect to see the tracker. This repository is private.';
+    if (e.status === 403 || e.status === 404) return 'This token cannot do that on the repository. It needs “Contents: Read-only” and “Actions: Read and write”.';
     if (e.status === 422) return 'GitHub refused the request: ' + e.message;
     return e.message || 'Something went wrong.';
   }
@@ -93,9 +94,16 @@
         var entry = queue.shift();
         if (!entry) return;
         if (!(entry.sha in files)) {
-          var res = await fetch(RAW + '/' + REPO + '/' + commit + '/' + entry.path.split('/').map(encodeURIComponent).join('/'));
-          if (!res.ok) throw new Error('Could not read ' + entry.path + ' (' + res.status + ')');
-          files[entry.sha] = await res.json();
+          if (token()) {
+            // Signed in: read through GitHub's API, which also works when the repository is private.
+            var blob = await gh('/repos/' + REPO + '/git/blobs/' + entry.sha);
+            var bytes = Uint8Array.from(atob(blob.content.replace(/\s/g, '')), function (ch) { return ch.charCodeAt(0); });
+            files[entry.sha] = JSON.parse(new TextDecoder().decode(bytes));
+          } else {
+            var res = await fetch(RAW + '/' + REPO + '/' + commit + '/' + entry.path.split('/').map(encodeURIComponent).join('/'));
+            if (!res.ok) throw new Error('Could not read ' + entry.path + ' (' + res.status + ')');
+            files[entry.sha] = await res.json();
+          }
         }
         out[entry.path] = files[entry.sha];
       }
@@ -565,7 +573,7 @@
         : '<p>Every action here is saved to the repository, so GitHub needs to know it is you. You do this once per browser.</p>' +
           '<ol class="steps"><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub’s new token page</a>.</li>' +
           '<li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> and pick <strong>' + esc(REPO.split('/')[1]) + '</strong>.</li>' +
-          '<li>Under <strong>Permissions</strong>, set <strong>Actions</strong> to <strong>Read and write</strong>.</li>' +
+          '<li>Under <strong>Permissions</strong>, set <strong>Actions</strong> to <strong>Read and write</strong> and <strong>Contents</strong> to <strong>Read-only</strong>.</li>' +
           '<li>Generate the token, copy it and paste it below.</li></ol>' +
           '<form id="connect-form" class="field"><label for="f-token">Token</label><input class="input" id="f-token" type="password" autocomplete="off" placeholder="github_pat_…" required>' +
           '<p class="hint" id="connect-error" hidden></p></form>' +
@@ -604,6 +612,7 @@
       closePanel();
       render();
       toast('Connected.');
+      if (!state.loaded) start();
     } catch (err) {
       $('connect-save').disabled = false;
       $('connect-error').hidden = false;

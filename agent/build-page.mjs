@@ -66,7 +66,8 @@ const publicPage = [
 
 const checks = (await readFile(path.join(agentDir, 'lib', 'checks.mjs'), 'utf8')).replace(/^export /gm, '');
 let script = await readFile(path.join(root, 'web', 'admin.js'), 'utf8');
-script = fill(script, 'TRACKER-CONFIG', `  var CONFIG = ${JSON.stringify({ repo: cfg.repo, branch: cfg.branch })};`);
+// On GitHub the repository names itself, so moving or renaming it needs no change here.
+script = fill(script, 'TRACKER-CONFIG', `  var CONFIG = ${JSON.stringify({ repo: process.env.GITHUB_REPOSITORY ?? cfg.repo, branch: cfg.branch })};`);
 script = fill(script, 'TRACKER-CHECKS', checks);
 script = `\n${script.replace(/<\/script/gi, '<\\/script')}\n`;
 

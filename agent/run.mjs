@@ -376,8 +376,9 @@ function buildDigest() {
     ...(run.stopped_early ? [`- The run stopped early: ${run.stopped_early}`] : []),
     ...run.source_problems.map((p) => `- ${p.source}: ${p.problem} (${p.url})`),
   ]);
-  const [owner, name] = cfg.repo.split('/');
-  const adminPage = `${cfg.site_url ?? `https://${owner}.github.io/${name}/`}admin.html`;
+  // On GitHub the repository names itself, so moving or renaming it needs no change here.
+  const [owner, name] = (process.env.GITHUB_REPOSITORY ?? cfg.repo).split('/');
+  const adminPage = `${cfg.site_url ?? `https://${owner.toLowerCase()}.github.io/${name}/`}admin.html`;
   lines.push(`To publish, undo or remove anything, open the [admin page](${adminPage}). Ignored: ${run.ignored.length}. Seen before: ${run.already_seen}.`);
   return lines.join('\n');
 }
