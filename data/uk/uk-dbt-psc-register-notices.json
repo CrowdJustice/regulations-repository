@@ -1,0 +1,37 @@
+{
+  "id": "uk-dbt-psc-register-notices",
+  "country": "uk",
+  "status": "live",
+  "regulator": "Department for Business and Trade",
+  "title": "New company duties to notify Companies House about PSC information",
+  "summary": "Since 18 November 2025, companies must give Companies House more detail in PSC notices. They must also report restrictions notices, and tell it when PSC information they sent earlier is no longer true.",
+  "what_changes": [
+    "PSC notices to Companies House must include key dates, such as when the company had confirmation of a person's status or a change.",
+    "Companies must notify the registrar within 14 days of giving or withdrawing a restrictions notice, or of a court order ending restrictions.",
+    "Companies must notify the registrar within 14 days when PSC information they delivered earlier is no longer true.",
+    "Companies must notify the registrar if they know or have cause to believe they have no PSC, whether or not they had one before."
+  ],
+  "applies_to": [
+    "corporate"
+  ],
+  "who_it_applies_to": "Firms that file PSC information with Companies House for client companies, and incorporated firms with their own PSC notification duties.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2025-09-18",
+    "in_force": "2025-11-18"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/1036/2026-01-23"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-09-23",
+      "event": "Regulations made on 18 September 2025 and in force from 18 November 2025.",
+      "url": "http://www.legislation.gov.uk/uksi/2025/1036/2026-01-23"
+    }
+  ],
+  "admin_notes": []
+}
