@@ -1,0 +1,36 @@
+{
+  "id": "au-vlsbc-nda-sexual-harassment",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Updated guidance on NDAs in workplace sexual harassment matters",
+  "summary": "The VLSB+C has updated its guidance on NDAs in workplace sexual harassment matters after a new Victorian Act commenced on 1 July 2026. It warns that lawyers who breach the Act's requirements could face disciplinary action.",
+  "what_changes": [
+    "Under the Act, an NDA is enforceable only if the complainant initiates it and is not influenced or pressured into signing.",
+    "The complainant must receive a mandatory information statement and a 21-day review period in which to get legal advice.",
+    "Each party must confirm on an approved form that the preconditions were met.",
+    "The regulator states that lawyers who draft, negotiate or advise on NDAs must be familiar with the Act."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian lawyers who draft, negotiate or advise on NDAs in workplace sexual harassment matters.",
+  "topic": "Other",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-07-01"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/updated-guidance-non-disclosure-agreements"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-07-01",
+      "event": "VLSB+C updated its NDA guidance after the Victorian Act restricting NDAs commenced on 1 July 2026.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/updated-guidance-non-disclosure-agreements"
+    }
+  ],
+  "admin_notes": []
+}
