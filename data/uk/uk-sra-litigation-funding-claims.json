@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-litigation-funding-claims",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Stronger rules on third-party litigation funding in consumer claims proposed",
+  "summary": "The SRA has proposed new requirements for firms that use or arrange third-party litigation funding in consumer claims. These include notifying the SRA, a risk assessment and summary documents for clients.",
+  "what_changes": [
+    "Firms would have to notify the SRA when they use or arrange third-party litigation funding.",
+    "Firms would have to produce and keep a third-party litigation funding risk assessment.",
+    "Firms would have to give clients summary documents before they sign a third-party funding agreement.",
+    "Separate SRA guidance covers current duties on client best interests, independence, conflicts, client information and money laundering."
+  ],
+  "applies_to": [
+    "claims"
+  ],
+  "who_it_applies_to": "SRA-regulated firms that use or arrange third-party litigation funding for consumer claims, including high-volume consumer claims.",
+  "topic": "Consumer claims",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2026-07-09"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/consults-new-proposals-consumer-claims"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-07-09",
+      "event": "Consultation opened, running until 17 September 2026; new guidance on current obligations published at the same time.",
+      "url": "https://www.sra.org.uk/news/news/releases/consults-new-proposals-consumer-claims"
+    }
+  ],
+  "admin_notes": []
+}
