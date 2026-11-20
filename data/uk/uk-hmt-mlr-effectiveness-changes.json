@@ -1,0 +1,37 @@
+{
+  "id": "uk-hmt-mlr-effectiveness-changes",
+  "country": "uk",
+  "status": "live",
+  "regulator": "HM Treasury",
+  "title": "Changes to the Money Laundering Regulations confirmed",
+  "summary": "The government has confirmed it will amend the Money Laundering Regulations to close loopholes, clarify requirements and focus customer due diligence on high-risk activity. The source gives no start date.",
+  "what_changes": [
+    "The Money Laundering Regulations will be amended to close loopholes and clarify requirements.",
+    "Customer due diligence is to be more proportionate and targeted at high-risk activity.",
+    "The consultation also covered system coordination, the scope of the Regulations and Trust Registration Service registration.",
+    "Other issues will be dealt with through guidance, written with AML supervisors."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "AML and ID checks",
+  "stage": "decided",
+  "dates": {
+    "proposed": "2024-03-11",
+    "decided": "2025-07-17"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/consultations/improving-the-effectiveness-of-the-money-laundering-regulations"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-07-17",
+      "event": "Government published its consultation response confirming changes to the Money Laundering Regulations.",
+      "url": "https://www.gov.uk/government/consultations/improving-the-effectiveness-of-the-money-laundering-regulations"
+    }
+  ],
+  "admin_notes": []
+}
