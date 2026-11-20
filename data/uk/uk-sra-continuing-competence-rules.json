@@ -1,0 +1,37 @@
+{
+  "id": "uk-sra-continuing-competence-rules",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Mandatory learning records and annual ethics discussions for solicitors proposed",
+  "summary": "The SRA has proposed rules requiring solicitors to record their learning and development and take part in annual ethics discussions. Any rule changes would need Legal Services Board approval.",
+  "what_changes": [
+    "Solicitors would have to record how they identified and addressed their learning needs, and keep evidence for at least three years.",
+    "Solicitors would have to take part in at least three hours of facilitated professional ethics discussions each year.",
+    "The SRA could require solicitors, or non-authorised staff in firms, to do specific training where it finds a competence concern.",
+    "The recording rule is proposed to start from the 2027/28 practising year, with a stronger practising certificate declaration."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "Solicitors and registered European, foreign or Swiss lawyers covered by SRA competence requirements, and the SRA-regulated firms that employ them.",
+  "topic": "Firm management",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2026-04-22",
+    "in_force_text": "2027/28 practising year"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/?s=c"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "event": "Consultation ran from 22 April to 15 July 2026; the SRA is analysing responses.",
+      "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/?s=c"
+    }
+  ],
+  "admin_notes": []
+}
