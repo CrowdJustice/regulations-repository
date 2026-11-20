@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-no-win-no-fee-warning",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Warning notice on 'no win, no fee' marketing and client information",
+  "summary": "The SRA has issued a warning notice on 'no win, no fee' arrangements in consumer claims. It covers how these claims are marketed and the clear information on costs and risks it expects firms to give clients.",
+  "what_changes": [
+    "The SRA warns firms to be cautious when using the term 'no win, no fee' in marketing or advertising.",
+    "It expects firms to be clear about fees payable if a claim wins and costs the client faces if it loses.",
+    "It expects firms to check clients understand how these claims work and to give them chances to ask questions.",
+    "It warns about poor due diligence on third-party referrers and poor handling of 'no win, no fee' financial safeguards."
+  ],
+  "applies_to": [
+    "claims"
+  ],
+  "who_it_applies_to": "SRA-regulated firms and solicitors that run consumer claims on a 'no win, no fee' basis, especially in high-volume claims.",
+  "topic": "Consumer claims",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-01-28"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/nwnf-warning"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-01-28",
+      "event": "SRA issued a warning notice on 'no win, no fee' arrangements in high-volume consumer claims.",
+      "url": "https://www.sra.org.uk/news/news/releases/nwnf-warning"
+    }
+  ],
+  "admin_notes": []
+}
