@@ -59,11 +59,6 @@ jobs:
         if: env.HAS_AI == 'true'
         run: npm install -g @anthropic-ai/claude-code@2.1.325
 
-      # For the few sites that are read through Claude's web fetch.
-      - name: Install the Anthropic SDK
-        if: env.HAS_AI == 'true'
-        run: npm ci --silent
-
       - name: Run the assistant
         id: assistant
         if: env.HAS_AI == 'true'
@@ -74,8 +69,8 @@ jobs:
           # Use whichever sign-in is set. An empty value would hide the other one.
           [ -z "$ANTHROPIC_API_KEY" ] && unset ANTHROPIC_API_KEY
           [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && unset CLAUDE_CODE_OAUTH_TOKEN
-          git config user.name "regulation-tracker"
-          git config user.email "regulation-tracker@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Stop taking new pages after five hours, so the run always finishes cleanly inside GitHub's six-hour limit.
           args=(--commit --max-minutes 300)
           if [ -n "$INCLUDE" ]; then

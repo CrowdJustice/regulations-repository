@@ -7,7 +7,7 @@
     "how": "page",
     "url": "https://www.austrac.gov.au/news-and-media/news-and-media-releases",
     "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/(media-release|article|speech)/.+",
-    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+    "note": "Off. This site refuses automated readers: GitHub's network gets no answer, and Claude's web fetch only returns stored copies weeks old (checked 2026-11-20). It needs the regulator's permission or feed, or a reader on a network the site accepts."
   },
   {
     "id": "austrac-consultations",
@@ -17,7 +17,7 @@
     "how": "page",
     "url": "https://www.austrac.gov.au/industry-and-business/consultations",
     "match": "^https://www\\.austrac\\.gov\\.au/industry-and-business/consultations/.+",
-    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+    "note": "Off. This site refuses automated readers: GitHub's network gets no answer, and Claude's web fetch only returns stored copies weeks old (checked 2026-11-20). It needs the regulator's permission or feed, or a reader on a network the site accepts."
   },
   {
     "id": "oaic-news",
@@ -27,7 +27,7 @@
     "how": "page",
     "url": "https://www.oaic.gov.au/news/media-centre",
     "match": "^https://www\\.oaic\\.gov\\.au/news/media-centre/.+",
-    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+    "note": "Off. This site refuses automated readers: GitHub's network gets no answer, and Claude's web fetch only returns stored copies weeks old (checked 2026-11-20). It needs the regulator's permission or feed, or a reader on a network the site accepts."
   },
   {
     "id": "oaic-consultations",
@@ -37,7 +37,7 @@
     "how": "page",
     "url": "https://www.oaic.gov.au/engage-with-us/consultations",
     "match": "^https://www\\.oaic\\.gov\\.au/engage-with-us/consultations/.+",
-    "note": "Off until proved. This site refuses GitHub's network, so it is read through Claude's web fetch, which needs the ANTHROPIC_API_KEY secret."
+    "note": "Off. This site refuses automated readers: GitHub's network gets no answer, and Claude's web fetch only returns stored copies weeks old (checked 2026-11-20). It needs the regulator's permission or feed, or a reader on a network the site accepts."
   },
   {
     "id": "agd-consultations",
