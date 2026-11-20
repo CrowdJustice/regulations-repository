@@ -1,0 +1,36 @@
+{
+  "id": "uk-homeoffice-poca-threshold-amount",
+  "country": "uk",
+  "status": "live",
+  "regulator": "Home Office",
+  "title": "POCA threshold for returning client property raised from £1,000 to £3,000",
+  "summary": "Since 31 July 2025, regulated-sector businesses can return criminal property worth less than £3,000 to a client to end the business relationship without committing a POCA money laundering offence. The limit was £1,000.",
+  "what_changes": [
+    "The threshold amount in section 339A(6A) of the Proceeds of Crime Act 2002 rose from £1,000 to £3,000.",
+    "Below this threshold, a regulated-sector business can return money or property to a client to end the relationship without a section 327-329 offence.",
+    "The separate threshold for banks and similar firms operating customer accounts also rose from £1,000 to £3,000."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Law firms carrying on business in the regulated sector under the Proceeds of Crime Act 2002, such as firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2025-07-10",
+    "in_force": "2025-07-31"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/877/made"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-07-16",
+      "event": "Order made on 10 July 2025 and in force from 31 July 2025.",
+      "url": "http://www.legislation.gov.uk/uksi/2025/877/made"
+    }
+  ],
+  "admin_notes": []
+}
