@@ -1,0 +1,37 @@
+{
+  "id": "uk-gov-irregular-migration-trafficking-sanctions",
+  "country": "uk",
+  "status": "live",
+  "regulator": "UK Government",
+  "title": "New sanctions regime targeting people smuggling and human trafficking",
+  "summary": "The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025 came into force on 23 July 2025. They allow asset freezes and other sanctions against people involved in people smuggling or trafficking.",
+  "what_changes": [
+    "People can be designated for involvement in people smuggling, trafficking in persons or using migration to destabilise other countries.",
+    "Designated persons can face asset freezes, director disqualification sanctions and immigration restrictions.",
+    "An urgent procedure allows designation for an initial 56 days where the US, EU, Australia or Canada has similar sanctions.",
+    "The finance prohibitions and information requirements apply to UK persons for conduct wholly or partly outside the UK."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All UK law firms, as UK persons bound by the asset-freeze prohibitions and the information requirements in the Regulations.",
+  "topic": "Sanctions",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2025-07-21",
+    "in_force": "2025-07-23"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/902/2026-05-13"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-07-22",
+      "event": "Regulations made on 21 July 2025 and in force from 23 July 2025.",
+      "url": "http://www.legislation.gov.uk/uksi/2025/902/2026-05-13"
+    }
+  ],
+  "admin_notes": []
+}
