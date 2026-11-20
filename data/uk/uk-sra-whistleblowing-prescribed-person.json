@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-whistleblowing-prescribed-person",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Whistleblowing reports to the SRA protected under PIDA",
+  "summary": "The SRA is a prescribed person under the Public Interest Disclosure Act 1998. This means people who work for or with SRA-regulated firms are legally protected when they report wrongdoing to the SRA.",
+  "what_changes": [
+    "The SRA has been designated as a prescribed person under the Public Interest Disclosure Act 1998.",
+    "Protection covers anyone working for or with an SRA-regulated firm or individual, including paralegals, clerks, trainees and agency workers.",
+    "The person making the report must reasonably believe they are acting in the public interest.",
+    "Protected disclosures must relate to wrongdoing by people or firms the SRA regulates, whether past, current or likely in future."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All SRA-regulated firms and individuals, and the employees and agency workers who work for or with them.",
+  "topic": "Other",
+  "stage": "in_force",
+  "dates": {
+    "in_force": "2026-06-02"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/pida-status"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "event": "SRA designated as a prescribed person under the Public Interest Disclosure Act 1998.",
+      "url": "https://www.sra.org.uk/news/news/releases/pida-status"
+    }
+  ],
+  "admin_notes": []
+}
