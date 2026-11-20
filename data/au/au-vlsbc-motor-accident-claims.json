@@ -1,0 +1,36 @@
+{
+  "id": "au-vlsbc-motor-accident-claims",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Guidance on acting in motor vehicle accident claims and 'car napping'",
+  "summary": "The VLSB+C has updated its guidance for lawyers acting in motor vehicle accident claims. It warns that acting without a client's knowledge through 'Authority to Act' forms is unacceptable and may lead to disciplinary action.",
+  "what_changes": [
+    "Sets out the obligations lawyers must meet, the regulator's minimum expectations and unacceptable practices in these claims.",
+    "Warns about 'car napping', where businesses offer 'free' towing, repairs or hire cars and pass the claim to lawyers.",
+    "Warns against treating an 'Authority to Act' form as a standing authority to act without taking further steps.",
+    "Regulator flags legal work, such as starting proceedings or settling claims, done without the client's knowledge."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian lawyers and law practices that act in motor vehicle accident claims, including those engaged through referring businesses.",
+  "topic": "Consumer claims",
+  "stage": "guidance",
+  "dates": {
+    "published": "2025-12-12"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/new-guidance-lawyers-who-act-motor-vehicle-accident-claims"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-12-12",
+      "event": "VLSB+C published updated guidance for lawyers acting in motor vehicle accident claims.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/new-guidance-lawyers-who-act-motor-vehicle-accident-claims"
+    }
+  ],
+  "admin_notes": []
+}
