@@ -1,0 +1,36 @@
+{
+  "id": "uk-lsb-professional-ethical-duties",
+  "country": "uk",
+  "status": "live",
+  "regulator": "LSB",
+  "title": "Stronger ethics expectations for legal regulators and lawyers",
+  "summary": "The LSB has set final policy requiring legal regulators to put professional ethical duties at the heart of how lawyers must behave. It confirms that duties to the court and the rule of law come before duties to the client.",
+  "what_changes": [
+    "Where duties conflict, lawyers must put their duties to the court and the rule of law ahead of their duty to their client.",
+    "Regulators must provide more consistent education and training in ethics.",
+    "Regulators must provide clearer and more practical guidance, and stronger workplace support for lawyers upholding standards.",
+    "Regulators had up to six months to develop plans to meet the new expectations for those they regulate."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All regulated law firms and lawyers, through changes their regulators make to meet the LSB's expectations.",
+  "topic": "Firm management",
+  "stage": "decided",
+  "dates": {
+    "decided": "2026-03-26"
+  },
+  "source": {
+    "name": "LSB",
+    "url": "https://legalservicesboard.org.uk/news/lsb-leads-sector-wide-effort-to-strengthen-legal-ethics"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-03-26",
+      "event": "LSB published its final statement of policy on upholding professional ethical duties after consultation.",
+      "url": "https://legalservicesboard.org.uk/news/lsb-leads-sector-wide-effort-to-strengthen-legal-ethics"
+    }
+  ],
+  "admin_notes": []
+}
