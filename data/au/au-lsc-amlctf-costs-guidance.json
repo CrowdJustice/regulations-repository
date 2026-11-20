@@ -1,0 +1,36 @@
+{
+  "id": "au-lsc-amlctf-costs-guidance",
+  "country": "au",
+  "status": "live",
+  "regulator": "LSC",
+  "title": "Guidance on passing AML/CTF compliance costs on to clients",
+  "summary": "The Legal Services Council has published an information sheet on how law practices treat AML/CTF compliance costs and when they can pass them on to clients.",
+  "what_changes": [
+    "Covers how AML/CTF compliance costs should be treated.",
+    "Sets out factors on when and how AML/CTF costs can be passed on to clients.",
+    "Stresses transparency, proportionality and disclosure when charging these costs.",
+    "Developed with regulators in Western Australia, Victoria and New South Wales."
+  ],
+  "applies_to": [
+    "uniform"
+  ],
+  "who_it_applies_to": "Law practices in NSW, Victoria and WA, in particular those with AML/CTF obligations that may charge compliance costs to clients.",
+  "topic": "Costs and billing",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-07-16"
+  },
+  "source": {
+    "name": "Legal Practice Board of WA",
+    "url": "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "event": "Legal Services Council published an information sheet on charging AML/CTF compliance costs.",
+      "url": "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs"
+    }
+  ],
+  "admin_notes": []
+}
