@@ -1,0 +1,53 @@
+{
+  "held_on": "2026-11-20",
+  "reasons": [
+    "The who_it_applies_to thresholds (\"more than 250 staff, more than £36m turnover and more than £18m total assets\") are not in the source, which never defines a large organisation.",
+    "The title's \"for large organisations\" and the summary's \"It applies to large organisations, including large law firms\" are not supported: the source does not say who the offence applies to.",
+    "The point \"A large organisation can commit an offence if a person associated with it commits a specified fraud intended to benefit it\" is not supported: the source only names the 'failure to prevent fraud' offence and gives none of its elements.",
+    "The applies_to key \"large\" depends on scope details the source does not give."
+  ],
+  "item": {
+    "title": "The Economic Crime and Corporate Transparency Act 2023 (Commencement No. 4) Regulations 2025",
+    "url": "http://www.legislation.gov.uk/uksi/2025/349/made",
+    "source": "legislation-new"
+  },
+  "would_be": "new",
+  "proposed_record": {
+    "id": "uk-dbt-failure-to-prevent-fraud",
+    "country": "uk",
+    "status": "live",
+    "regulator": "DBT",
+    "title": "Failure to prevent fraud offence for large organisations",
+    "summary": "Since 1 September 2025, the failure to prevent fraud offence in the Economic Crime and Corporate Transparency Act 2023 has been in force across the UK. It applies to large organisations, including large law firms.",
+    "what_changes": [
+      "Sections 199 to 206 of, and Schedule 13 to, the Act came fully into force on 1 September 2025.",
+      "A large organisation can commit an offence if a person associated with it commits a specified fraud intended to benefit it.",
+      "The government published guidance under section 204 of the Act before the offence was brought into force.",
+      "An earlier commencement provision for the offence was revoked and replaced by these Regulations."
+    ],
+    "applies_to": [
+      "large"
+    ],
+    "who_it_applies_to": "Law firms that are large organisations under the Act: meeting two of more than 250 staff, more than £36m turnover and more than £18m total assets.",
+    "topic": "Fraud and economic crime",
+    "stage": "in_force",
+    "dates": {
+      "decided": "2025-03-13",
+      "in_force": "2025-09-01"
+    },
+    "source": {
+      "name": "legislation.gov.uk",
+      "url": "http://www.legislation.gov.uk/uksi/2025/349/made"
+    },
+    "last_checked": "2026-11-20",
+    "history": [
+      {
+        "date": "2025-03-14",
+        "event": "Commencement Regulations made; failure to prevent fraud offence in force from 1 September 2025.",
+        "url": "http://www.legislation.gov.uk/uksi/2025/349/made"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": null
+}

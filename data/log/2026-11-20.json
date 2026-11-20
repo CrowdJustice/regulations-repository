@@ -2188,5 +2188,1871 @@
     "cost_usd": 10.69,
     "stopped_early": null,
     "finished_at": "2026-11-20T14:44:30.868Z"
+  },
+  {
+    "date": "2026-11-20",
+    "since": "2025-01-01",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 48,
+        "relevant": 48,
+        "read": 4
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 0
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 70,
+        "relevant": 70,
+        "read": 44
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 500,
+        "relevant": 22,
+        "read": 16
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 400,
+        "relevant": 170,
+        "read": 89
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 200,
+        "relevant": 81,
+        "read": 54
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 4039,
+        "relevant": 36,
+        "read": 33
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 32,
+        "relevant": 32,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 149,
+        "relevant": 149,
+        "read": 5
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 6,
+        "relevant": 6,
+        "read": 0
+      }
+    ],
+    "published": [
+      {
+        "id": "uk-sra-no-win-no-fee-warning",
+        "country": "uk",
+        "title": "Warning notice on 'no win, no fee' marketing and client information",
+        "regulator": "SRA",
+        "stage": "guidance",
+        "source": "https://www.sra.org.uk/news/news/releases/nwnf-warning",
+        "summary": "The SRA has issued a warning notice on 'no win, no fee' arrangements in consumer claims. It covers how these claims are marketed and the clear information on costs and risks it expects firms to give clients."
+      },
+      {
+        "id": "uk-sra-motor-finance-claims-warning",
+        "country": "uk",
+        "title": "Joint FCA and SRA warning on motor finance claims and termination fees",
+        "regulator": "SRA",
+        "stage": "guidance",
+        "source": "https://www.sra.org.uk/news/news/releases/fca-sra-joint-warning-motor-finance-commission-claims",
+        "summary": "The FCA and SRA have jointly warned firms handling motor finance commission claims. They expect checks that clients have no other representative, and any termination fee to be reasonable."
+      },
+      {
+        "id": "uk-lsb-professional-ethical-duties",
+        "country": "uk",
+        "title": "Stronger ethics expectations for legal regulators and lawyers",
+        "regulator": "LSB",
+        "stage": "decided",
+        "source": "https://legalservicesboard.org.uk/news/lsb-leads-sector-wide-effort-to-strengthen-legal-ethics",
+        "summary": "The LSB has set final policy requiring legal regulators to put professional ethical duties at the heart of how lawyers must behave. It confirms that duties to the court and the rule of law come before duties to the client."
+      },
+      {
+        "id": "uk-hmt-mlr-effectiveness-changes",
+        "country": "uk",
+        "title": "Changes to the Money Laundering Regulations confirmed",
+        "regulator": "HM Treasury",
+        "stage": "decided",
+        "source": "https://www.gov.uk/government/consultations/improving-the-effectiveness-of-the-money-laundering-regulations",
+        "summary": "The government has confirmed it will amend the Money Laundering Regulations to close loopholes, clarify requirements and focus customer due diligence on high-risk activity. The source gives no start date."
+      },
+      {
+        "id": "uk-homeoffice-eccta-information-sharing",
+        "country": "uk",
+        "title": "Guidance on sharing information to prevent economic crime",
+        "regulator": "Home Office",
+        "stage": "guidance",
+        "source": "https://www.gov.uk/government/publications/information-sharing-measures-in-the-economic-crime-and-corporate-transparency-act",
+        "summary": "Government guidance explains how businesses in the AML regulated sector can share information with each other under the Economic Crime and Corporate Transparency Act 2023 to prevent and detect economic crime."
+      },
+      {
+        "id": "uk-fcdo-single-sanctions-list",
+        "country": "uk",
+        "title": "UK Sanctions List becomes the single source for sanctions designations",
+        "regulator": "FCDO",
+        "stage": "guidance",
+        "source": "https://www.gov.uk/guidance/moving-to-a-single-list-for-uk-sanctions-designations-28-january-2026",
+        "summary": "Since 28 January 2026, the UK Sanctions List has been the only list of UK sanctions designations. The OFSI Consolidated List is no longer updated, and the guidance says screening systems need to use the UK Sanctions List."
+      },
+      {
+        "id": "uk-hmt-digital-identity-mlr",
+        "country": "uk",
+        "title": "Guidance on using digital identity services for AML customer due diligence",
+        "regulator": "HM Treasury",
+        "stage": "guidance",
+        "source": "https://www.gov.uk/government/publications/using-digital-identities-with-the-money-laundering-regulations",
+        "summary": "Government guidance explains how firms can use digital verification services for identity checks under the Money Laundering Regulations. The services must be certified under the UK digital verification services trust framework."
+      },
+      {
+        "id": "uk-dbt-overseas-entities-annotation",
+        "country": "uk",
+        "title": "Companies House can annotate the Register of Overseas Entities",
+        "regulator": "Department for Business and Trade",
+        "stage": "in_force",
+        "source": "http://www.legislation.gov.uk/uksi/2025/651/made",
+        "summary": "Since 30 June 2025, Companies House can add notes to the Register of Overseas Entities. This includes where a person who verified an entity's information does not show that they are AML-supervised when asked."
+      },
+      {
+        "id": "uk-homeoffice-poca-threshold-amount",
+        "country": "uk",
+        "title": "POCA threshold for returning client property raised from £1,000 to £3,000",
+        "regulator": "Home Office",
+        "stage": "in_force",
+        "source": "http://www.legislation.gov.uk/uksi/2025/877/made",
+        "summary": "Since 31 July 2025, regulated-sector businesses can return criminal property worth less than £3,000 to a client to end the business relationship without committing a POCA money laundering offence. The limit was £1,000."
+      },
+      {
+        "id": "uk-gov-irregular-migration-trafficking-sanctions",
+        "country": "uk",
+        "title": "New sanctions regime targeting people smuggling and human trafficking",
+        "regulator": "UK Government",
+        "stage": "in_force",
+        "source": "http://www.legislation.gov.uk/uksi/2025/902/2026-05-13",
+        "summary": "The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025 came into force on 23 July 2025. They allow asset freezes and other sanctions against people involved in people smuggling or trafficking."
+      },
+      {
+        "id": "uk-dbt-psc-register-notices",
+        "country": "uk",
+        "title": "New company duties to notify Companies House about PSC information",
+        "regulator": "Department for Business and Trade",
+        "stage": "in_force",
+        "source": "http://www.legislation.gov.uk/uksi/2025/1036/2026-01-23",
+        "summary": "Since 18 November 2025, companies must give Companies House more detail in PSC notices. They must also report restrictions notices, and tell it when PSC information they sent earlier is no longer true."
+      },
+      {
+        "id": "au-vlsbc-claim-farming-redress",
+        "country": "au",
+        "title": "Warning on claim farming involving people eligible for government redress",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/legal-regulators-move-safeguard-victorians-eligible-government-redress",
+        "summary": "The VLSB+C has issued guidance warning that lawyer involvement in claim farming is unacceptable. It warns this can amount to unsatisfactory professional conduct or professional misconduct."
+      },
+      {
+        "id": "au-vlsbc-escrow-scam-warning",
+        "country": "au",
+        "title": "Warning on escrow agreements used for investment scams and money laundering",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/warning-escrow-agreements-used-potential-investment-scams-and-money-laundering",
+        "summary": "The VLSB+C warns that scammers posing as clients and investors are using law practices' trust accounts and escrow services to make investment scams and money laundering look legitimate."
+      },
+      {
+        "id": "au-vlsbc-motor-accident-claims",
+        "country": "au",
+        "title": "Guidance on acting in motor vehicle accident claims and 'car napping'",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/new-guidance-lawyers-who-act-motor-vehicle-accident-claims",
+        "summary": "The VLSB+C has updated its guidance for lawyers acting in motor vehicle accident claims. It warns that acting without a client's knowledge through 'Authority to Act' forms is unacceptable and may lead to disciplinary action."
+      },
+      {
+        "id": "au-vlsbc-reporting-serious-misconduct",
+        "country": "au",
+        "title": "Regulator expects lawyers to report serious misconduct by other lawyers",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/telling-us-about-serious-misconduct-lawyers",
+        "summary": "The VLSB+C expects lawyers to tell it when they reasonably believe a Victorian lawyer is engaging in serious misconduct. Its statement sets out what to report and how."
+      }
+    ],
+    "updated": [],
+    "now_in_force": [],
+    "held": [
+      {
+        "title": "Failure to prevent fraud offence for large organisations",
+        "url": "http://www.legislation.gov.uk/uksi/2025/349/made",
+        "reasons": [
+          "The who_it_applies_to thresholds (\"more than 250 staff, more than £36m turnover and more than £18m total assets\") are not in the source, which never defines a large organisation.",
+          "The title's \"for large organisations\" and the summary's \"It applies to large organisations, including large law firms\" are not supported: the source does not say who the offence applies to.",
+          "The point \"A large organisation can commit an offence if a person associated with it commits a specified fraud intended to benefit it\" is not supported: the source only names the 'failure to prevent fraud' offence and gives none of its elements.",
+          "The applies_to key \"large\" depends on scope details the source does not give."
+        ],
+        "country": "uk",
+        "source": "legislation-new",
+        "review_file": "review/2026-11-20-uk-dbt-failure-to-prevent-fraud-0522e4.json"
+      }
+    ],
+    "ignored": [
+      {
+        "title": "SRA consults on proposals to strengthen continuing competence requirements, 22 April 2026 We are consulting on potential new rules which will require all solicitors to keep a record of how they are reviewing and addressing their learning and development needs.",
+        "url": "https://www.sra.org.uk/news/news/releases/competence-requirements",
+        "reason": "This is the original 22 April 2026 launch announcement for the SRA continuing competence consultation, already held as uk-sra-continuing-competence-rules, and it adds no new fact.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "\"\"+c",
+        "url": "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D",
+        "reason": "set aside after 3 failed tries: HTTP 404",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Chair’s blog: regulatory oversight and professional ethics in focus",
+        "url": "https://legalservicesboard.org.uk/news/chairs-blog-regulatory-oversight-professional-ethics",
+        "reason": "This is a chair's blog post about an LSB Board meeting. It mentions a draft policy statement but sets no rule, guidance or consultation that firms must act on, and it is an old post from January 2025.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB confirms appointment of new member of the Legal Services Consumer Panel",
+        "url": "https://legalservicesboard.org.uk/news/michael-mack-legal-services-consumer-panel",
+        "reason": "This is an appointment announcement for the Legal Services Consumer Panel, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Alan Kershaw steps down as LSB Chair",
+        "url": "https://legalservicesboard.org.uk/news/alan-kershaw-steps-down-as-lsb-chair",
+        "reason": "This is an appointment notice about the LSB Chair stepping down, not a change to rules, guidance or how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "The Legal Services Board’s response to Civil Justice Council’s Consultation on Litigation Funding",
+        "url": "https://legalservicesboard.org.uk/news/the-legal-services-boards-response-to-civil-justice-councils-consultation-on-litigation-funding",
+        "reason": "This is the LSB's written evidence to a Civil Justice Council review, not a new or amended rule, proposal, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "New regulatory proposals to strengthen lawyers’ ethical standards",
+        "url": "https://legalservicesboard.org.uk/news/new-regulatory-proposals-to-strengthen-lawyers-ethical-standards",
+        "reason": "This March 2025 LSB consultation closed in May 2025 and the page gives no outcome, so a record would be out of date; it is aimed at regulators, and the SRA rules that follow from it are tracked separately.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Major legal regulators fall short in latest performance assessment",
+        "url": "https://legalservicesboard.org.uk/news/major-legal-regulators-fall-short-in-latest-performance-assessment",
+        "reason": "This is the LSB's annual performance assessment of the regulators, which the tracker does not cover, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chairs blog: driving improvements in legal services",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-driving-improvements-legal-services",
+        "reason": "This is a chair's blog post about LSB board business, including budgets, performance assessments and a conference, and it brings in no new or changed rule for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Policy priorities set out in LSB business plan 2025/26",
+        "url": "https://legalservicesboard.org.uk/news/business-plan-priorities-2025-26",
+        "reason": "This is the LSB's business plan announcement with its policy priorities and budget, so it is not a rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: addressing today’s challenges, embracing tomorrow’s opportunities",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-april-2025",
+        "reason": "This is a chair's blog post about board business, performance assessments, oversight of regulators and finances. It sets no new rule, guidance or proposal for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB orders SRA actions after £60m client money loss at Axiom Ince",
+        "url": "https://legalservicesboard.org.uk/news/sra-actions-axiom-ince",
+        "reason": "This is LSB enforcement action directing the SRA from May 2025, not a rule or guidance that changes how law firms must operate; resulting SRA rule changes are tracked separately.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: steady progress and strategic reflection",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-june-2025",
+        "reason": "This is a chair's blog about LSB board business and governance updates; it sets no new rule, decision or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "More legal services offered remotely, but prices continuing to increase",
+        "url": "https://legalservicesboard.org.uk/news/prices_research_2024",
+        "reason": "This is LSB research into the prices of legal services, not a new rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Craig Westwood steps down as LSB Chief Executive",
+        "url": "https://legalservicesboard.org.uk/news/craig-westwood-steps-down-as-lsb-chief-executive",
+        "reason": "This is an appointment and resignation announcement about LSB staff, not a regulatory change that affects how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB strengthens legal sector oversight to safeguard public trust and support economic growth",
+        "url": "https://legalservicesboard.org.uk/news/annual-report-2425-lsb-strengthens-oversight",
+        "reason": "This is an LSB annual report announcement about oversight and enforcement against regulators, not a rule change, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Legal Services Board issues guidance highlighting lawyers’ vital role in tackling economic crime",
+        "url": "https://legalservicesboard.org.uk/news/economic-crime-story",
+        "reason": "This LSB guidance from July 2025 tells legal services regulators how to meet their economic crime objective; it places no new requirements on law firms and doesn't tell them how to act.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: encouraging a diverse profession",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-july-2025",
+        "reason": "This is a chair's blog post about a board meeting and a planned consultation for regulators, so it adds no new or changed rule or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "BSB gives commitments to LSB to improve performance",
+        "url": "https://legalservicesboard.org.uk/news/bsb-voluntary-undertakings",
+        "reason": "This is about the LSB overseeing how well the BSB performs as a regulator, and it does not change any rule or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB responds to independent review of bullying and harassment at the Bar",
+        "url": "https://legalservicesboard.org.uk/news/lsb-statement-harman-review-bar",
+        "reason": "This is an LSB statement responding to a review of bullying at the Bar. It sets no new rule, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: smarter regulation",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-sept-2025",
+        "reason": "This is the LSB Chair's blog covering events, recruitment, strategy discussions and an office move, so it sets out no new or amended rule, proposal, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB statement: High Court decision in Mazur – 3 October 2025",
+        "url": "https://legalservicesboard.org.uk/news/lsb-statement-high-court-decision-in-mazur",
+        "reason": "This is an LSB statement from 2025 that adds no new rule or guidance for firms. It only says the LSB is talking to the regulators about Mazur, and the tracker already holds the SRA's later supervision guidance on Mazur.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB Statement: High Court Decision in Mazur – 13 October 2025",
+        "url": "https://legalservicesboard.org.uk/news/lsb-statement-high-court-decision-in-mazur-13-october-2025",
+        "reason": "This 2025 LSB statement reports a meeting, a pending CILEx application and a planned review; it sets no new rule or guidance for firms, and the Mazur guidance is already tracked.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Kate Briscoe steps down from the Legal Services Board",
+        "url": "https://legalservicesboard.org.uk/news/kate-briscoe-steps-down-from-the-legal-services-board",
+        "reason": "This is an announcement about a board appointment and departure, not a regulatory change, and it does not affect how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB to act after review finds SRA failed to protect consumers affected by SSB collapse",
+        "url": "https://legalservicesboard.org.uk/news/lsb-to-act-after-ssb-review",
+        "reason": "This is LSB enforcement action against the SRA after the SSB review, not a new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s Blog – 21 October 2025",
+        "url": "https://legalservicesboard.org.uk/news/october-2025-board-meeting",
+        "reason": "This is a Chair's blog post about an LSB Board meeting. It covers oversight, budgets and future work, but sets out no new rule, decision or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "CILEx Regulation Limited’s application for stand-alone litigation rights",
+        "url": "https://legalservicesboard.org.uk/news/cilex-regulation-limiteds-application-for-stand-alone-litigation-rights",
+        "reason": "The LSB approval lets individual legal executives get standalone litigation rights without changing firm obligations, matches no applies_to key and gives no start date, so it is too uncertain to publish.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB statement on the House of Lords Constitution Committee’s report on the rule of law",
+        "url": "https://legalservicesboard.org.uk/news/lsb-statement-on-the-house-of-lords-constitution-committees-report-on-the-rule-of-law",
+        "reason": "This is an LSB statement welcoming a House of Lords committee report; it contains no new rule, proposal, decision or guidance that changes how law firms operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB publishes plans to tackle barriers to a more diverse legal services profession",
+        "url": "https://legalservicesboard.org.uk/news/lsb-publishes-plans-to-tackle-barriers-to-a-more-diverse-legal-services-profession",
+        "reason": "This LSB consultation proposes a diversity policy framework for the legal services regulators, not rules for law firms, so it does not directly change how a firm must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: towards a more diverse legal profession",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-towards-a-more-diverse-legal-profession",
+        "reason": "This is a Chair's blog post, which is commentary. It only mentions the diversity consultation without saying what firms would have to do, and its other topics (budgets, Board meetings) do not affect how firms operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB outlines plans as report shows legal sector’s progress – and challenges",
+        "url": "https://legalservicesboard.org.uk/news/business-plan-consultation-state-of-legal-services",
+        "reason": "This is a consultation on the LSB's own business plan and budget, published with a sector progress report, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB announces new Chief Executive",
+        "url": "https://legalservicesboard.org.uk/news/lsb-announces-new-ceo",
+        "reason": "This is a senior appointment at the LSB, not a change to rules, guidance or how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB publishes interim findings on litigation guidance",
+        "url": "https://legalservicesboard.org.uk/news/interim-findings-litigation-guidance",
+        "reason": "This is the LSB's interim review report on how regulators have advised on conducting litigation. It makes no final findings and sets no new rules or guidance that change how law firms must work.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB statement on its Public Bodies Review",
+        "url": "https://legalservicesboard.org.uk/news/lsb-public-bodies-review",
+        "reason": "This is a statement about the LSB taking part in a Ministry of Justice review of the LSB itself, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB announces preferred candidate for the Chair of the Office for Legal Complaints",
+        "url": "https://legalservicesboard.org.uk/news/lsb-announces-preferred-candidate-for-the-chair-of-the-office-for-legal-complaints-2",
+        "reason": "This is an announcement about an appointment (the preferred candidate for Chair of the Office for Legal Complaints), not a change to rules or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Solicitors’ regulator censured over failures to protect SSB Law consumers",
+        "url": "https://legalservicesboard.org.uk/news/solicitors-regulator-censured-over-failures-to-protect-ssb-law-consumers",
+        "reason": "This is enforcement action by the LSB against the SRA over its handling of SSB Law. It does not change any rule, guidance or requirement for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: sanctions, oversight, ethics, and more",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-sanctions-oversight-ethics-and-more",
+        "reason": "This is a chair's blog. It covers sanctions against the SRA, LSB oversight plans, the progress of the PERL policy statement and a public bodies review, none of which sets a new rule, decision or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB statement: Court of Appeal judgment in Mazur",
+        "url": "https://legalservicesboard.org.uk/news/lsb-statement-court-of-appeal-judgment-in-mazur",
+        "reason": "This is an LSB press statement responding to the Mazur judgment. It sets no new rule, proposal or guidance for firms, and its notes only repeat interim review findings.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB announces Richard Blakeway as the Chair of the Office for Legal Complaints",
+        "url": "https://legalservicesboard.org.uk/news/lsb-announces-richard-blakeway-as-the-chair-of-the-office-for-legal-complaints",
+        "reason": "This is an appointment announcement for the Chair of the Office for Legal Complaints and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Monisha Shah confirmed as the new Chair of the Legal Services Board",
+        "url": "https://legalservicesboard.org.uk/news/monisha-shah-confirmed-as-the-new-chair-of-the-legal-services-board",
+        "reason": "This is an appointment announcement for the LSB Chair, not a change to rules or guidance affecting how law firms operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Smarter, risk-based oversight to drive up regulators’ performance",
+        "url": "https://legalservicesboard.org.uk/news/business_plan_2026_27",
+        "reason": "This is the LSB's business plan and budget announcement, which is a fee and corporate planning item and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Statement on PM Law",
+        "url": "https://legalservicesboard.org.uk/news/statement-on-pm-law",
+        "reason": "This is an LSB statement about its oversight of the SRA after the PM Law case; it makes no new rule, guidance or proposal that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: strengthening ethics and setting priorities",
+        "url": "https://legalservicesboard.org.uk/news/chairs-blog-strengthening-ethics-and-setting-priorities",
+        "reason": "This Chair's blog covers appointments, budgets and the business plan. It also mentions the LSB ethics policy, which uk-lsb-professional-ethical-duties already tracks, but adds no new requirement, stage, start date or scope.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Legal Services Board Statement on SRA Regulatory Performance – 6 May 2026",
+        "url": "https://legalservicesboard.org.uk/news/legal-services-board-statement-on-sra-regulatory-performance-6-may-2026",
+        "reason": "This is an LSB statement about its oversight and enforcement of the SRA as a regulator, and it sets no new rule or guidance for how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: strengthening ethics and setting priorities",
+        "url": "https://legalservicesboard.org.uk/news/chairs-blog-strengthening-ethics-and-setting-priorities-2",
+        "reason": "This chair's blog covers board business, appointments and budgets, and the one rule-related part (the ethics policy) is already tracked with no new fact about stage, dates, scope or requirements.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Anti-money laundering and countering the financing of terrorism: Supervision Report 2023-24",
+        "url": "https://www.gov.uk/government/publications/anti-money-laundering-and-countering-the-financing-of-terrorism-supervision-report-2023-24",
+        "reason": "This is HM Treasury's annual report on AML/CTF supervision activity and statistics, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Sanctions implementation and enforcement: cross-government review, May 2025",
+        "url": "https://www.gov.uk/government/publications/sanctions-implementation-and-enforcement-cross-government-review-may-2025",
+        "reason": "This is a May 2025 policy paper giving the conclusions of a government review of sanctions enforcement; it is not a new or amended rule, consultation, decision or guidance on how firms must act.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "National risk assessment of money laundering and terrorist financing 2025",
+        "url": "https://www.gov.uk/government/publications/national-risk-assessment-of-money-laundering-and-terrorist-financing-2025",
+        "reason": "The national risk assessment is a research and risk report from July 2025, not a new or amended rule, consultation, decision or guidance telling firms how to act.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Proposed amendments to the Money Laundering Regulations - draft SI and policy note",
+        "url": "https://www.gov.uk/government/publications/proposed-amendments-to-the-money-laundering-regulations-draft-si-and-policy-note",
+        "reason": "This September 2025 draft SI and technical consultation belong to the Money Laundering Regulations amendments already tracked as uk-hmt-mlr-effectiveness-changes; they change no stage or date, and draft details may have changed since.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Covid repayment window opens",
+        "url": "https://www.gov.uk/government/news/covid-repayment-window-opens",
+        "reason": "A news story about a voluntary Covid repayment scheme for those who received pandemic money is not a rule, consultation or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Reforming anti-money laundering and counter-terrorism financing supervision",
+        "url": "https://www.gov.uk/government/consultations/reforming-anti-money-laundering-and-counter-terrorism-financing-supervision",
+        "reason": "The tracker already holds this change: the 2025 decision to make the FCA the AML supervisor for law firms sits under uk-hmt-fca-aml-supervision-reform, which is already at the decided stage with later facts, so this older outcome page adds nothing new.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Counter terrorism financial sanctions: list of asset-freeze targets",
+        "url": "https://www.gov.uk/government/publications/counter-terrorism-financial-sanctions-list-of-asset-freeze-targets",
+        "reason": "This page lists counter-terrorism asset-freeze targets and designation notices, and it is no longer being updated, so it brings in no new rule, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Anti-money laundering and countering the financing of terrorism reports",
+        "url": "https://www.gov.uk/government/collections/anti-money-laundering-and-countering-the-financing-of-terrorism-reports",
+        "reason": "This is a collection page of HM Treasury's annual reports on how AML supervisors performed, which is reporting rather than a change to rules or guidance.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Anti-money laundering and countering the financing of terrorism: Supervision Report 2024-25",
+        "url": "https://www.gov.uk/government/publications/anti-money-laundering-and-countering-the-financing-of-terrorism-supervision-report-2024-25",
+        "reason": "This is HM Treasury's yearly report on AML supervision activity and statistics, and it does not set any new rule or guidance for law firms.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Financial sanctions guidance for letting agents",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-letting-agents",
+        "reason": "This sanctions guidance is written for letting agents, not law firms. Its latest update only covers the move to the UK Sanctions List, which the tracker already holds as uk-fcdo-single-sanctions-list.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Financial sanctions guidance for Insolvency Practitioners",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-insolvency-practitioners",
+        "reason": "This is sanctions guidance for insolvency practitioners, and its 28 January 2026 update only repeats the move to the UK Sanctions List, which uk-fcdo-single-sanctions-list already covers.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Anti-money laundering supervision: detailed information",
+        "url": "https://www.gov.uk/government/collections/anti-money-laundering-supervision-detailed-information",
+        "reason": "This is an HMRC/HM Treasury collection page. Its latest update only adds promotional communication resources. Its guidance is mainly for HMRC-supervised businesses, not SRA-supervised law firms, and it brings no new or amended rule.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Companies House webinars",
+        "url": "https://www.gov.uk/government/publications/companies-house-events-calendar",
+        "reason": "This page lists Companies House webinars and events. It does not change any rule or give guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Stop Companies House from providing your personal details",
+        "url": "https://www.gov.uk/stop-companies-house-from-publishing-personal-details",
+        "reason": "This is a general GOV.UK help page on how individuals can ask Companies House to remove personal details from the register. It sets no new or amended rule and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Set up a private limited company",
+        "url": "https://www.gov.uk/limited-company-formation",
+        "reason": "This is a general GOV.UK guide to setting up a private limited company. It contains no new or amended rule, consultation, decision or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register of Overseas Entities",
+        "url": "https://www.gov.uk/government/collections/register-of-overseas-entities",
+        "reason": "This is a collection index page that only lists documents about the Register of Overseas Entities, a regime in force since 2022, and gives no new rule, requirement or date for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK October to December 2024",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-october-to-december-2024",
+        "reason": "This is a quarterly statistics release on company incorporations and removals, not a rule, proposal, decision or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Find software to register or file changes to a company",
+        "url": "https://www.gov.uk/software-company-changes",
+        "reason": "This page only lists software suppliers for Companies House filings, so it does not change any rule or tell firms how to act.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Restoring a limited liability partnership to the Companies House register",
+        "url": "https://www.gov.uk/government/publications/restoring-a-limited-liability-partnership-to-the-companies-house-register",
+        "reason": "This is procedural Companies House guidance from 2025 on restoring a dissolved LLP to the register; it is not a new or changed rule and does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Restoring a company to the Companies House register",
+        "url": "https://www.gov.uk/government/publications/restoring-a-company-to-the-companies-house-register",
+        "reason": "This is general Companies House procedural guidance on restoring dissolved companies. It brings in no new or amended rule, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Striking off or dissolving a limited liability partnership",
+        "url": "https://www.gov.uk/government/publications/striking-off-or-dissolving-a-limited-liability-partnership",
+        "reason": "This is general Companies House procedural guidance on striking off an LLP, published in March 2025, and it brings in no new or changed rule that affects how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Louise Smyth CBE ends presidency of global business registry network",
+        "url": "https://www.gov.uk/government/news/louise-smyth-cbe-ends-presidency-of-global-business-registry-network",
+        "reason": "This news story is about a Companies House executive leaving an international role, which is an appointment item with no effect on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House starts to verify identities",
+        "url": "https://www.gov.uk/government/news/companies-house-starts-to-verify-identities",
+        "reason": "This April 2025 press release covers the launch of voluntary identity verification. The tracker already holds this change as uk-ch-identity-verification, which is now in force, so the item adds no new fact.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK January to March 2025",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-january-to-march-2025",
+        "reason": "This is a quarterly statistics release on the size of the companies register, not a rule, consultation, decision or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Economic Crime and Corporate Transparency Act 2023: second progress report",
+        "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-2023-second-progress-report",
+        "reason": "This is a government progress report on putting the Economic Crime and Corporate Transparency Act into effect, so it is not a rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House celebrates 10 years of open data",
+        "url": "https://www.gov.uk/government/news/companies-house-celebrates-10-years-of-open-data",
+        "reason": "This is an anniversary press release about Companies House open data and its statistics, not a new rule, decision or guidance, and it adds no new fact about identity verification.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "New powers yield \"real-world impact\" in Companies House economic crime crackdown",
+        "url": "https://www.gov.uk/government/news/new-powers-yield-real-world-impact-in-companies-house-economic-crime-crackdown",
+        "reason": "This is a 2025 news story about a progress report and enforcement statistics. It adds no new rule, guidance or date beyond the identity verification record the tracker already holds.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House bilingual forms (English and Welsh)",
+        "url": "https://www.gov.uk/government/collections/bilingual-forms-for-limited-companies-and-limited-liability-partnerships",
+        "reason": "This page is just a list of Companies House bilingual paper forms, so it adds no new rule, guidance or fact about any change in the tracker.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies register activities: statistical release April 2024 to March 2025",
+        "url": "https://www.gov.uk/government/statistics/companies-register-activities-statistical-release-april-2024-to-march-2025",
+        "reason": "This is a Companies House statistics release about register activity, not a change to rules, guidance or how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK April to June 2025",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-april-to-june-2025",
+        "reason": "This is a quarterly Companies House statistics release on register size, not a regulatory change affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House confirms identity verification rollout from 18 November 2025",
+        "url": "https://www.gov.uk/government/news/companies-house-confirms-identity-verification-rollout-from-18-november-2025",
+        "reason": "This is an older August 2025 press release about the Companies House identity verification rollout, which is already tracked as uk-ch-identity-verification (in force since 18 November 2025), and it adds no new facts.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply to protect your details on the Register of Overseas Entities",
+        "url": "https://www.gov.uk/guidance/apply-to-protect-your-details-on-the-register-of-overseas-entities",
+        "reason": "Procedural guidance for individuals seeking protection of their details on the Register of Overseas Entities; it sets no new requirement for law firms and the latest update only added a link.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Martin Swain joins executive committee of global business registry network",
+        "url": "https://www.gov.uk/government/news/martin-swain-joins-executive-committee-of-global-business-registry-network",
+        "reason": "This is news about an appointment to an international registry forum, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House outlines ambitious long-term vision to support economic growth",
+        "url": "https://www.gov.uk/government/news/companies-house-outlines-ambitious-long-term-vision-to-support-economic-growth",
+        "reason": "This is a news story about Companies House's 2025–2030 strategy. It sets out aims, not a new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK July to September 2025",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-july-to-september-2025",
+        "reason": "This is a quarterly statistics release on company register size, not a regulatory change affecting law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "One million people verify identity early ahead of Companies House changes",
+        "url": "https://www.gov.uk/government/news/one-million-people-verify-identity-early-ahead-of-companies-house-changes",
+        "reason": "This old news story is about Companies House identity verification, which is already tracked as uk-ch-identity-verification. Its only new fact is a statistic (one million people verified early), so nothing in the record needs to change.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK July to September 2026",
+        "url": "https://www.gov.uk/government/statistics/announcements/incorporated-companies-in-the-uk-july-to-september-2026",
+        "reason": "This is an official statistics release announcement about the size of the companies register, not a regulatory change affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK October to December 2026",
+        "url": "https://www.gov.uk/government/statistics/announcements/incorporated-companies-in-the-uk-october-to-december-2026",
+        "reason": "This is a notice announcing when official statistics on incorporated companies will be published, not a change to regulation or guidance for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Change a company's registered office address (AD01)",
+        "url": "https://www.gov.uk/government/publications/change-a-registered-office-address-ad01",
+        "reason": "This is a standard Companies House form page, and its only recent update adds a webchat link, so nothing about how law firms must operate has changed.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Notice served on bogus directors as Companies House changes come into force",
+        "url": "https://www.gov.uk/government/news/notice-served-on-bogus-directors-as-companies-house-changes-come-into-force",
+        "reason": "This November 2025 press release covers the Companies House identity verification change already held as uk-ch-identity-verification, and it adds no new stage, date, scope or requirement.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply to remove your personal details from the Companies House register (SR01c)",
+        "url": "https://www.gov.uk/government/publications/apply-to-remove-your-personal-details-from-the-companies-house-register-sr01c",
+        "reason": "This is an administrative Companies House form (with a fee) that lets individuals remove personal details from the register; it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Give notice of change of name of overseas company as registered in the UK (OS NM01)",
+        "url": "https://www.gov.uk/government/publications/give-notice-of-change-of-name-by-company-previously-registered-in-uk-os-nm01",
+        "reason": "This is a Companies House filing form page with only an administrative update, which adds no new fact to the existing identity verification record and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "File a Single Alternative Inspection Location: limited liability partnership (LL AD02)",
+        "url": "https://www.gov.uk/government/publications/file-a-single-alternative-inspection-location-limited-liability-partnership-ll-ad02",
+        "reason": "This is a Companies House filing form page, updated only to match the register changes. It adds no new rule, date or requirement beyond the identity verification change the tracker already holds.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a single alternative inspection location (AD02)",
+        "url": "https://www.gov.uk/government/publications/file-a-single-alternative-inspection-location-ad02",
+        "reason": "This is a Companies House filing form page for notifying a SAIL address, and its only change is an administrative refresh; it adds no new rule, guidance or fact affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Change location of records to registered office: limited liability partnership (LL AD04)",
+        "url": "https://www.gov.uk/government/publications/change-location-of-records-to-registered-office-limited-liability-partnership-ll-ad04",
+        "reason": "This is an administrative Companies House filing form for LLP records, updated in line with identity verification, and it adds no new regulatory fact beyond the existing identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Terminate an appointment of a secretary (TM02c)",
+        "url": "https://www.gov.uk/government/publications/terminate-an-appointment-of-a-secretary-tm02c",
+        "reason": "This is an administrative Companies House form page, last updated for the register and identity verification changes the tracker already holds, and it adds no new fact that affects how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "About us - Companies House",
+        "url": "https://www.gov.uk/government/organisations/companies-house/about",
+        "reason": "This is Companies House's general 'About us' page and does not contain any rule change, consultation, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register of people with significant control",
+        "url": "https://www.gov.uk/government/publications/register-of-people-with-significant-control",
+        "reason": "This is general guidance explaining existing PSC register duties, with no new rule, date or requirement, and PSC identity verification is already covered by uk-ch-identity-verification.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Move your company's records to the registered office (AD04)",
+        "url": "https://www.gov.uk/government/publications/change-location-of-company-records-to-registered-office-ad04",
+        "reason": "This is an administrative Companies House filing form (AD04) with routine page updates; it adds no new rule, guidance or fact affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Striking off or dissolving a limited company",
+        "url": "https://www.gov.uk/government/publications/striking-off-or-dissolving-a-limited-company",
+        "reason": "This is general Companies House guidance on striking off a company, with small additions about insolvency and employees, and it does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register of Overseas Entities: approach to enforcement",
+        "url": "https://www.gov.uk/government/publications/register-of-overseas-entities-approach-to-enforcement",
+        "reason": "This is Companies House's framework for enforcing against overseas entities, and the January 2026 update only adds detail on penalties and representations; it sets no new rule or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a charge: property or undertaking acquired (MR02)",
+        "url": "https://www.gov.uk/government/publications/register-a-charge-property-or-undertaking-acquired-mr02",
+        "reason": "This is a Companies House form page whose January 2026 edits were administrative (a section was removed and the guidance moved from PDF to HTML), so no rule or requirement for law firms changed.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Sign in to your authorised agent account",
+        "url": "https://www.gov.uk/guidance/sign-in-to-your-authorised-agent-account",
+        "reason": "This is an operational page about signing in to the Companies House authorised agent account; it adds no new rule, date or requirement beyond the existing identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Identity verification for Companies House",
+        "url": "https://www.gov.uk/government/collections/identity-verification-for-companies-house",
+        "reason": "This collection page covers Companies House identity verification, which the tracker already holds, and it adds no new fact about the stage, dates, who it applies to or what is required.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK October to December 2025",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-october-to-december-2025",
+        "reason": "This is a quarterly Companies House statistics release on company register size, and statistics are out of scope.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House management information: identity verification October to December 2025",
+        "url": "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-identity-verification-october-to-december-2025",
+        "reason": "This is a set of quarterly statistics on identity verification compliance, not a change to rules or guidance, and the identity verification requirement is already tracked.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a limited liability partnership (LL IN01c)",
+        "url": "https://www.gov.uk/government/publications/register-a-limited-liability-partnership-ll-in01c",
+        "reason": "This is a Companies House form page whose latest update only changed the fee, so it adds no new rule, date or requirement for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register an unlimited company as a limited company (RR06)",
+        "url": "https://www.gov.uk/government/publications/re-register-an-unlimited-company-as-a-limited-company-rr06",
+        "reason": "This Companies House form page only had its fee updated, and fee notices and filing forms do not change how a law firm must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register your limited company as unlimited company (RR05)",
+        "url": "https://www.gov.uk/government/publications/re-register-your-limited-company-as-unlimited-company-rr05",
+        "reason": "This is a Companies House form page whose only change is a fee update, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for restoration of a limited liability partnership (LL RT01)",
+        "url": "https://www.gov.uk/government/publications/apply-for-restoration-of-a-limited-liability-partnership-ll-rt01",
+        "reason": "This is a Companies House form page whose latest update is only a fee change, and fee notices do not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register a public company as a private company following a cancellation of shares (RR09)",
+        "url": "https://www.gov.uk/government/publications/re-register-a-public-company-as-a-private-company-following-a-cancellation-of-shares-rr09",
+        "reason": "This is a Companies House form page whose only change is a fee update, and fee notices do not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register a public company as a private limited company following a court order reducing capital (RR08)",
+        "url": "https://www.gov.uk/government/publications/re-register-a-public-company-as-a-private-limited-company-following-a-court-order-reducing-capital-rr08",
+        "reason": "This is a Companies House form page whose only change is a fee update, and fee notices do not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register a public company as a private unlimited company (RR07)",
+        "url": "https://www.gov.uk/government/publications/re-register-a-public-company-as-a-private-unlimited-company-rr07",
+        "reason": "This is a Companies House form page whose only update was a fee change, so it is a fee notice and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register your public limited company as a private company (RR02)",
+        "url": "https://www.gov.uk/government/publications/re-register-your-public-limited-company-as-a-private-company-rr02",
+        "reason": "The only change is a fee update to the Companies House RR02 re-registration form, which is a fee notice and doesn't change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Re-register your private limited company to a plc (RR01)",
+        "url": "https://www.gov.uk/government/publications/re-register-your-private-limited-company-to-a-plc-rr01",
+        "reason": "This is a Companies House form page whose only update was a fee change, so it is a fee notice that does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for administrative restoration to the register (RT01)",
+        "url": "https://www.gov.uk/government/publications/apply-for-administrative-restoration-to-the-register-rt01",
+        "reason": "This is a Companies House form page whose latest update was a fee change, which the instructions say to ignore, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Confirmation statement for a Scottish qualifying partnership (SQP CS01)",
+        "url": "https://www.gov.uk/government/publications/confirmation-statement-for-a-scottish-qualifying-partnership-sqp-cs01",
+        "reason": "This is a Companies House form page, and its only update is a fee change, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a private or public company (IN01c)",
+        "url": "https://www.gov.uk/government/publications/register-a-private-or-public-company-in01c",
+        "reason": "This page is the Companies House IN01c registration form, and the latest change to it was a fee update on 1 February 2026; the tracker ignores fee notices, and the form does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Strike off application by limited liability partnership (LL DS01c)",
+        "url": "https://www.gov.uk/government/publications/strike-off-application-by-limited-liability-partnership-ll-ds01c",
+        "reason": "This is a Companies House form page whose only update is a fee change, so it is a fee notice and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Strike off a company from the register (DS01c)",
+        "url": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01c",
+        "reason": "This is a Companies House form page whose only update is a fee change, so it adds no new rule or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Strike off application by limited liability partnership (LL DS01)",
+        "url": "https://www.gov.uk/government/publications/strike-off-application-by-limited-liability-partnership-ll-ds01",
+        "reason": "This is a Companies House form page whose only update is a fee change. Fee notices are out of scope, and it doesn't change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Strike off a company from the register (DS01)",
+        "url": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01",
+        "reason": "This is a Companies House form page for striking off a company, and the latest update is only a fee change, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register an establishment of a European economic interest grouping (EEIG) whose official address is outside the UK (EE FM02)",
+        "url": "https://www.gov.uk/government/publications/register-an-establishment-of-a-european-economic-interest-grouping-eeig-outside-the-uk-ee-fm02",
+        "reason": "This is a Companies House filing form page whose only update is a fee change, which is not a regulatory change affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Confirmation statement (CS01c)",
+        "url": "https://www.gov.uk/government/publications/confirmation-statement-cs01c-new-version",
+        "reason": "This is a Companies House form page, and its latest change is a fee update. It adds nothing new to the identity verification record the tracker already holds.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a Scottish qualifying partnership (SQP1)",
+        "url": "https://www.gov.uk/government/publications/register-a-scottish-qualifying-partnership",
+        "reason": "This is a Companies House form page whose only update is a fee change, which is not a regulatory change affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "UK economic interest groupings (UKEIG)",
+        "url": "https://www.gov.uk/government/publications/uk-economic-interest-groupings-ukeig",
+        "reason": "The only change on this page is a fee update to Companies House guidance on UK economic interest groupings, and it does not affect how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a limited partnership",
+        "url": "https://www.gov.uk/government/publications/limited-partnership-act",
+        "reason": "The only change on this page is an update to fees in the Companies House guide on registering a limited partnership, and fee notices that add no new requirement for law firms are out of scope.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Life of a limited liability partnership",
+        "url": "https://www.gov.uk/government/publications/life-of-a-limited-liability-partnership",
+        "reason": "This is general LLP filing guidance, and its latest update on 1 February 2026 was a fee update; it adds no new rule, and the related identity verification change is already held as uk-ch-identity-verification.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Overseas companies: restricting disclosure of your address",
+        "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
+        "reason": "This is long-standing Companies House guidance for overseas company directors, and the latest update only changed fees, so nothing changes how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a charge (mortgage) for a limited company",
+        "url": "https://www.gov.uk/guidance/register-a-charge-mortgage-for-a-limited-company",
+        "reason": "The only change is a filing fee update to Companies House guidance on registering charges. Fee notices are outside the tracker's scope, and nothing changes how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply to remove an overseas entity from the register",
+        "url": "https://www.gov.uk/guidance/remove-an-overseas-entity",
+        "reason": "This is a procedural service page, and its only update (1 February 2026) was a fee change; it adds no new or amended rule that affects how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register an overseas entity and its beneficial owners",
+        "url": "https://www.gov.uk/guidance/register-an-overseas-entity",
+        "reason": "This long-standing Register of Overseas Entities guidance was last updated on 1 February 2026 only to change the fee, so it adds no new rule or requirement for firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a UK establishment of an overseas company (OS IN01)",
+        "url": "https://www.gov.uk/government/publications/register-a-uk-establishment-of-an-overseas-company-os-in01",
+        "reason": "This is a form page whose latest update only changed a fee, and its identity verification note is already covered by the existing Companies House identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for a registration of a limited partnership (LP5)",
+        "url": "https://www.gov.uk/government/publications/apply-for-a-registration-of-a-limited-partnership-lp5",
+        "reason": "This is a Companies House form page whose only update is a change to the registration fee, so it is a fee notice and does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for registration as a private fund limited partnership (LP7)",
+        "url": "https://www.gov.uk/government/publications/apply-for-registration-as-a-private-fund-limited-partnership-lp7",
+        "reason": "This is a Companies House form page with a fee update. Fee notices are excluded and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for registration as a private fund limited partnership in Scotland (LP7(s))",
+        "url": "https://www.gov.uk/government/publications/apply-for-registration-as-a-private-fund-limited-partnership-in-scotland-lp7s--2",
+        "reason": "This is a Companies House form page whose only update is a filing fee change, which is a fee notice and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply for a registration of a limited partnership in Scotland (LP5(s))",
+        "url": "https://www.gov.uk/government/publications/apply-for-a-registration-of-a-limited-partnership-in-scotland-lp5s--2",
+        "reason": "This is a Companies House form page whose only update was a fee change, so it is a fee notice that does not affect how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Removing your personal details from the Companies House register",
+        "url": "https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register",
+        "reason": "Companies House how-to guidance on removing personal details from the register, with a small process update; it doesn't change any rule or tell law firms how to operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register particulars of a charge (MR01)",
+        "url": "https://www.gov.uk/government/publications/register-particulars-of-a-charge-mr01",
+        "reason": "This is a Companies House form page with a fee correction. It is a fee notice and administrative form update, not a regulatory change affecting how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Make a representation for not filing an identity verification statement",
+        "url": "https://www.gov.uk/government/publications/make-a-representation-for-not-filing-an-identity-verification-statement",
+        "reason": "This is a procedural form for asking Companies House to delay enforcement after a missed identity verification filing. The existing uk-ch-identity-verification record already covers the change, and the form does not alter its stage, dates, scope or requirements.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Request to extend the identity verification deadline for a person with significant control (PSC)",
+        "url": "https://www.gov.uk/government/publications/request-to-extend-the-identity-verification-deadline-for-a-person-with-significant-control-psc",
+        "reason": "This is an administrative form for PSC deadline extensions under the identity verification regime already tracked as uk-ch-identity-verification, and it changes no stage, date, scope or requirement.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Email to registered companies about the WebFiling security issue",
+        "url": "https://www.gov.uk/government/publications/email-to-registered-companies-about-the-webfiling-security-issue",
+        "reason": "This is correspondence telling companies about a WebFiling security incident, not a new or amended rule, proposal, decision or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Directors’ identity verification for an overseas company (OS VS01)",
+        "url": "https://www.gov.uk/government/publications/directors-identity-verification-for-an-overseas-company-os-vs01",
+        "reason": "This is a filing form within the existing Companies House identity verification change, and its latest update only clarifies how to complete the form, so no tracked fact changes.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Set up a limited company: step by step",
+        "url": "https://www.gov.uk/set-up-limited-company",
+        "reason": "This is a general step-by-step guide to setting up a limited company. It contains no new or amended rule, proposal, decision or guidance that changes how a law firm must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Replace a document on the Companies House register (RP01)",
+        "url": "https://www.gov.uk/government/publications/replace-a-document-on-the-companies-house-register-rp01",
+        "reason": "This is a Companies House form page for replacing filings. The latest update only adds a warning that details must match, so it is administrative filing guidance and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply to remove your personal details from the Companies House register (SR01)",
+        "url": "https://www.gov.uk/government/publications/apply-to-remove-your-personal-details-from-the-companies-house-register-sr01",
+        "reason": "This is an administrative form page for individuals who want their personal details removed from the Companies House register; the latest update only adds a note on how to fill in the form and changes no regulatory obligation for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House management information: identity verification January to March 2026",
+        "url": "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-identity-verification-january-to-march-2026",
+        "reason": "This is a quarterly statistics release on identity verification compliance; statistics are out of scope and it adds no new fact to the existing identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK January to March 2026",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-january-to-march-2026",
+        "reason": "This is a quarterly official statistics release on the size of the companies register, not a regulatory change affecting how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Your personal information on the Companies House register",
+        "url": "https://www.gov.uk/guidance/your-personal-information-on-the-companies-house-register",
+        "reason": "This is general Companies House guidance on what goes on the public register, and its 12 May 2026 update only concerns a review of how long dissolved company records are kept. It sets no new requirement for how law firms operate and adds no new fact to the identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House: equality impact assessment for identity verification",
+        "url": "https://www.gov.uk/government/publications/companies-house-equality-impact-assessment-for-identity-verification",
+        "reason": "An equality impact assessment is a research-type publication that adds no new requirement, date or scope to the existing identity verification record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Using an Authorised Corporate Service Provider (ACSP) to verify your identity",
+        "url": "https://www.gov.uk/guidance/using-an-authorised-corporate-service-provider-acsp-to-verify-your-identity",
+        "reason": "This is consumer-facing guidance on using an ACSP for Companies House identity verification. That change is already tracked as uk-ch-identity-verification, and the item adds no new fact about stage, dates, scope or requirements.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Extreme Right Wing group sanctioned by HM Treasury under Domestic Counter-Terrorism Regulations",
+        "url": "https://www.gov.uk/government/news/extreme-right-wing-group-sanctioned-by-hm-treasury-under-domestic-counter-terrorism-regulations",
+        "reason": "This is a sanctions designation of a single named entity, which counts as enforcement against a named party, not a change to how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Sanctions compliance in the Legal Services sector: Threat Assessment",
+        "url": "https://www.gov.uk/government/publications/sanctions-compliance-in-the-legal-services-sector-threat-assessment",
+        "reason": "This is an OFSI threat assessment report from April 2025 describing suspected sanctions breaches; it is research that sets no new rules or expectations, and the page gives no requirements to record.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Confidential reporting to OFSI",
+        "url": "https://www.gov.uk/guidance/confidential-reporting-to-ofsi",
+        "reason": "This is OFSI guidance for individuals and whistleblowers on how to report suspected sanctions breaches in confidence; it sets no new requirement or expectation for how law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Oil Price Cap suspected breach reporting form",
+        "url": "https://www.gov.uk/guidance/oil-price-cap-suspected-breach-reporting-form",
+        "reason": "This is an OFSI reporting form for suspected breaches of the Oil Price Cap and Maritime Services Ban, aimed at the maritime oil trade; it adds no new rule or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions suspected breach reporting form",
+        "url": "https://www.gov.uk/guidance/financial-sanctions-suspected-breach-reporting-form",
+        "reason": "This is OFSI's existing form for reporting suspected breaches, with practical tips, published in July 2025; it does not create or amend a rule, consultation, decision or new guidance.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Reporting information to OFSI – what to do",
+        "url": "https://www.gov.uk/guidance/suspected-breach-of-financial-sanctions-what-to-do",
+        "reason": "This is a long-standing OFSI reporting reference page whose latest update (July 2025) only added online form links; it adds no new change, and the annual frozen asset reporting duty it describes is already tracked.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Imposition of monetary penalty: Markom Management Limited",
+        "url": "https://www.gov.uk/government/publications/imposition-of-monetary-penalty-markom-management-limited",
+        "reason": "This is an enforcement penalty notice against a named company, not a change to rules or guidance for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "OFSI General Licence INT/2025/7323088",
+        "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int20257323088",
+        "reason": "This is an older, superseded Legal Services General Licence (INT/2025/7323088); the tracker already covers the current one (INT/2026/11112108), and this page adds nothing new.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Maritime Services Ban and Oil Price Cap: industry guidance",
+        "url": "https://www.gov.uk/government/publications/uk-maritime-services-ban-and-oil-price-cap-industry-guidance",
+        "reason": "This is OFSI industry guidance on the maritime services ban and oil price cap, aimed at shipping and oil trade businesses rather than law firms. The latest update only changes the cap-lowering date, and the page doesn't give the details.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for maritime shipping",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-maritime-shipping",
+        "reason": "This is sector guidance for maritime shipping that doesn't affect how law firms operate, and its only update (closure of the OFSI Consolidated List) is already covered by uk-fcdo-single-sanctions-list.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for Libya",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-libya",
+        "reason": "This update only changes a country-specific guidance page to reflect the single sanctions list change, which the tracker already holds as uk-fcdo-single-sanctions-list, so it adds no new fact.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for importers and exporters",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-importers-and-exporters",
+        "reason": "This sector guidance for importers and exporters doesn't affect how law firms operate, and its only update (the single sanctions list) is already tracked in uk-fcdo-single-sanctions-list.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for charities and NGOs",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-charities",
+        "reason": "This is OFSI sanctions guidance for charities and NGOs, not law firms. Its only recent update reflects the single UK Sanctions List change, which the tracker already holds as uk-fcdo-single-sanctions-list.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for Russia",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-russia",
+        "reason": "The 28 January 2026 update only reflects the closure of the OFSI Consolidated List, which the tracker already covers in uk-fcdo-single-sanctions-list. It adds no new rule, date or requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for ransomware",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-ransomware",
+        "reason": "The only change was a routine update to point the existing 2024 ransomware guidance to the UK Sanctions List, which the tracker already covers in uk-fcdo-single-sanctions-list; it adds nothing new for firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions enforcement: assessment and monetary penalties",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-enforcement-and-monetary-penalties-guidance",
+        "reason": "The page only says OFSI's enforcement and penalties guidance was updated for the outcome of the 2025 civil enforcement consultation, and it gives no details of what changed, so an accurate record isn't possible from this source.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "OFSI Video Guidance",
+        "url": "https://www.gov.uk/guidance/ofsi-video-guidance",
+        "reason": "This is an educational video series. The only update swaps one video for another, which adds no new requirement and no new expectation of firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Mali sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/mali-sanctions-guidance",
+        "reason": "The update only adds a summary of the existing Mali sanctions regime and creates no new rule or requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Global anti-corruption sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/global-anti-corruption-sanctions-guidance",
+        "reason": "The 25 March 2026 update only added a summary of an existing 2021 sanctions regime, so it sets no new requirement and changes no fact for firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Lebanon (Assassination of Rafiq Hariri and others) sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/lebanon-assassination-of-rafiq-hariri-and-others-sanctions-guidance",
+        "reason": "This update only adds a summary of an existing country-specific sanctions regime's purposes and scope. It sets no new rule or obligation and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Guinea sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/guinea-sanctions-guidance",
+        "reason": "This is an update to the statutory guidance for an existing country-specific sanctions regime that only adds a summary of the regime, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Republic of Guinea-Bissau sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/guinea-bissau-sanctions-guidance",
+        "reason": "The page is a long-standing guidance page for an existing country sanctions regime. The 25 March 2026 update only added a summary of the regime, so it brings no new rule or requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Lebanon sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/lebanon-sanctions-guidance",
+        "reason": "This update only adds a summary of an existing Lebanon arms-related sanctions regime, with no new rule or designated persons, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Syria cultural property sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/syria-cultural-property-sanctions-guidance",
+        "reason": "This is a summary added to long-standing guidance for the Syria cultural property sanctions regime. It contains no new rule or obligation and has little relevance to how law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Global human rights sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/global-human-rights-sanctions-guidance",
+        "reason": "The 25 March 2026 update only adds a short overview to guidance on the 2020 Global Human Rights sanctions regime, and changes nothing about what firms must do.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Nicaragua sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/nicaragua-sanctions-guidance",
+        "reason": "The 25 March 2026 update only added a summary of the existing Nicaragua sanctions regime, so no rule, duty or date has changed for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Bosnia and Herzegovina sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/bosnia-and-herzegovina-sanctions-guidance",
+        "reason": "This update only adds a summary page for an existing sanctions regime that targets designated persons. It changes no rule and gives firms no new guidance on how to act.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Unauthorised drilling activities sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/unauthorised-drilling-activities-sanctions-guidance",
+        "reason": "This update only adds a summary of a long-standing, narrow sanctions regime and creates no new rule or obligation for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Chemical weapons sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/chemical-weapons-sanctions-guidance",
+        "reason": "This update only adds a summary of an existing sanctions regime to the guidance page, with no new or changed requirements for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Cyber sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/cyber-sanctions-guidance",
+        "reason": "The 25 March 2026 update only adds a summary of the existing Cyber sanctions regime. It sets no new rule or requirement, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Counter-terrorism sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/counter-terrorism-sanctions-guidance",
+        "reason": "This update only adds a summary of an existing sanctions regime to the guidance page; it creates no new requirement and changes nothing about how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "UK sanctions",
+        "url": "https://www.gov.uk/government/collections/uk-sanctions",
+        "reason": "This is a collection index page for UK sanctions content; its latest update (30 March 2026) only added a link to an existing guide and introduces no new rule, proposal or guidance not already tracked.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Ownership and Control Test in UK Financial Sanctions Regulations",
+        "url": "https://www.gov.uk/government/calls-for-evidence/ownership-and-control-test-in-uk-financial-sanctions-regulations",
+        "reason": "This closed call for evidence only gathered views on how the ownership and control test works and proposes no rule change, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Afghanistan sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/afghanistan-sanctions-guidance",
+        "reason": "This is a routine administrative update to long-standing guidance on a country sanctions regime: the April 2026 change only clarified which DBT teams lead, with no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Democratic Republic of the Congo sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/the-democratic-republic-of-the-congo-guidance",
+        "reason": "This is a minor update to the guidance for an existing country sanctions regime. It only clarifies which DBT teams lead on trade sanctions licensing, so it brings in no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Haiti Sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/haiti-sanctions-guidance",
+        "reason": "The latest update (23 April 2026) only clarifies which DBT teams handle trade sanctions licensing for the Haiti regime, which does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Central African Republic sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/central-african-republic-sanctions-guidance",
+        "reason": "This is an administrative change to an existing country-specific sanctions guidance page: it now names the DBT teams that lead on trade licensing, and it adds no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Democratic People's Republic of Korea sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/democratic-peoples-republic-of-korea-sanctions-guidance",
+        "reason": "The only change in this update is an administrative note about which DBT teams now handle sanctions licensing, so firms' obligations under the DPRK sanctions regime stay the same.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Iraq sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/iraq-sanctions-guidance",
+        "reason": "This is a routine update to country-specific Iraq sanctions guidance: it changes which Department for Business and Trade (DBT) team handles licensing, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Zimbabwe sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/zimbabwe-sanctions-guidance",
+        "reason": "This is a minor administrative update to existing country-specific sanctions guidance (clarifying which DBT teams lead on trade licensing) and changes nothing about how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Yemen sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/yemen-sanctions-guidance",
+        "reason": "The only update is an administrative note on which Department for Business and Trade teams handle trade sanctions licensing; it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Venezuela sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/venezuela-sanctions-guidance",
+        "reason": "This is a routine update to long-standing country-regime sanctions guidance: the 1 May 2026 change only clarifies which DBT teams lead on trade sanctions licensing, and it adds nothing about how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Syria sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/syria-sanctions-guidance",
+        "reason": "This is a minor administrative update to the Syria sanctions guidance. It only clarifies which DBT teams handle trade sanctions licensing, and it adds no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Sudan sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/sudan-sanctions-guidance",
+        "reason": "This is an administrative update to existing Sudan sanctions guidance, clarifying which DBT teams lead on trade sanctions licensing; it changes nothing about how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "South Sudan sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/south-sudan-sanctions-guidance",
+        "reason": "This is an administrative update to existing country-specific sanctions guidance, clarifying which DBT teams handle trade sanctions licensing. It adds no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Counter-terrorism international sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/counter-terrorism-international-sanctions-guidance",
+        "reason": "The 1 May 2026 update only clarifies which DBT teams handle trade sanctions licensing for an existing regime, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Myanmar sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/myanmar-sanctions-guidance",
+        "reason": "This is an administrative update to existing Myanmar sanctions guidance: it only clarifies which DBT teams handle trade sanctions licensing, with no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Republic of Belarus sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/republic-of-belarus-sanctions-guidance",
+        "reason": "The 1 May 2026 update only clarifies which Department for Business and Trade teams handle trade sanctions licensing, so it adds no new requirement or change that affects how law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Somalia sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/somalia-sanctions-guidance",
+        "reason": "This is an administrative update to existing Somalia sanctions guidance: it clarifies which DBT teams handle trade sanctions licensing. It sets no new requirement for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Libya sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/libya-sanctions-guidance",
+        "reason": "This is an administrative update to existing Libya sanctions guidance: it only clarifies which DBT teams lead on trade sanctions licensing, adds no new requirement and has no specific effect on how law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "ISIL (Da’esh) and Al-Qaida sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/isil-daesh-and-al-qaida-sanctions-guidance",
+        "reason": "This is a small update to long-standing statutory guidance for an existing sanctions regime: it only clarifies which DBT teams handle trade sanctions licensing, so it adds nothing new about how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions guidance for high value dealers and art market participants",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants",
+        "reason": "This OFSI guidance is for high value dealers and art market participants, not law firms, and its latest update only changes the currency of transaction values.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions general guidance",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-general-guidance",
+        "reason": "The only new entry is an unexplained amendment to section 6.21, the HM Treasury debt exception, which gives no new fact a law firm needs to act on; the earlier change to the Consolidated List is already tracked.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Russia sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/russia-sanctions-guidance",
+        "reason": "The page is a general summary of the long-standing Russia sanctions regime, and its 20 May 2026 update only says it reflects 'significant changes to legislation' without naming any new requirement, date or scope change, so there is no reliable new fact to report.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "The Ivory Act 2018 (Meaning of “Ivory” and Miscellaneous Amendments) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/9/made",
+        "reason": "These regulations widen the Ivory Act's meaning of \"ivory\" and make minor wording changes to related wildlife trade regulations, which does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Data Protection (Charges and Information) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/63/made",
+        "reason": "This instrument only raises the annual data protection fee paid to the Information Commissioner; it is a fee change and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Data Protection (Law Enforcement) (Adequacy) (Isle of Man) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/89/made",
+        "reason": "This adequacy regulation covers only transfers of personal data for law enforcement between UK competent authorities and Isle of Man authorities, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Register of Overseas Entities (Protection and Trusts) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/231/2026-07-09",
+        "reason": "These 2025 regulations, with 2026 amendments, change how the Register of Overseas Entities protects personal information and when the registrar discloses trust information; they place no operating duties on law firms as such.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Food (Promotion and Presentation) (Wales) Regulations 2025 / Rheoliadau Bwyd (Hyrwyddo a Chyflwyno) (Cymru) 2025",
+        "url": "http://www.legislation.gov.uk/wsi/2025/395/made",
+        "reason": "These Welsh regulations limit how food businesses promote and display less healthy food, so they do not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Sanctions (EU Exit) (Miscellaneous Amendments) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/394/made",
+        "reason": "This 2025 instrument only changes how the Secretary of State designates people under several sanctions regimes and adds no new duty on law firms.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Civil Legal Aid (Remuneration) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/415/made",
+        "reason": "The item only changes what the Lord Chancellor pays legal aid providers for welfare benefits work, a fee change that sets no new duty on law firms and is outside the tracker's scope.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Russia (Sanctions) (EU Exit) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/504/made",
+        "reason": "This April 2025 amendment adds Russia trade bans on technology, software and synthetic diamonds, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Syria (Sanctions) (EU Exit) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/507/made",
+        "reason": "This 2025 Syria sanctions amendment mainly lifts sectoral trade and finance sanctions and changes designation criteria; it does not change how law firms must operate, and it took effect in April 2025.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Economic Crime and Corporate Transparency Act 2023 (Commencement No. 5) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/718/made",
+        "reason": "This commencement order only brings into force the Act's duty to make SLAPP court rules and its SLAPP definition; it puts no direct obligation on law firms, and the actual rules are in a separate instrument the page doesn't detail, so a record would be thin and could mislead.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "Regulation of Legal Services (Scotland) Act 2025",
+        "url": "http://www.legislation.gov.uk/asp/2025/8/2026-07-01",
+        "reason": "The shown parts change how legal regulators in Scotland are set up, with partial commencement only 'for specified purposes' not given here, so no clear firm duty or date can be stated accurately.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Legal Complaints and Regulation (Penalty) Order (Northern Ireland) 2025",
+        "url": "http://www.legislation.gov.uk/nisr/2025/118/2025-09-01",
+        "reason": "The Order only caps at £20,000 the penalty the NI Legal Services Oversight Commissioner can impose on professional bodies (Law Society NI, Inn of Court NI); it places no requirements on law firms and does not change how they must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Public Interest Disclosure (Prescribed Persons) (Amendment No.2) Order (Northern Ireland) 2025",
+        "url": "http://www.legislation.gov.uk/nisr/2025/140/2025-09-04",
+        "reason": "This Northern Ireland order updates the list of bodies that whistleblowers can report to about sanctions matters, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Economic Crime and Corporate Transparency Act 2023 (Consequential, Incidental and Miscellaneous Provisions) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1037/2026-01-23",
+        "reason": "These are mainly consequential, technical amendments, in force since 18 November 2025 alongside Companies House identity verification (already tracked); they add no material new requirement for law firms.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Limited Liability Partnerships (Application and Modification of Company Law) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1033/2026-01-23",
+        "reason": "These Regulations apply Companies House identity verification to LLP members from 18 November 2025, which the existing identity verification record already covers with the same date, so they add no new fact.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Iran (Sanctions) (Nuclear) (EU Exit) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1052/made",
+        "reason": "This is a technical amendment to the existing Iran nuclear sanctions rules (UN purposes, trade goods lists, an exception for gilt payments, Treasury licence purposes) that does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Data Protection Act 2018 (Qualifying Competent Authorities) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1128/made",
+        "reason": "These Regulations list which public authorities can process data jointly with the intelligence services for national security purposes, so they do not change how a law firm must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Economic Crime and Corporate Transparency Act 2023 (Commencement) (Scotland) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/ssi/2025/304/made",
+        "reason": "This Scottish commencement order only extends POCA confiscation powers in Scotland to cryptoassets, from 31 March 2026, and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Economic Crime (Anti-Money Laundering) Levy (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1146/made",
+        "reason": "This narrow technical amendment only decides which collection authority repays overpaid AML levy after the FCA or Gambling Commission has passed responsibility to HMRC; it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Biocidal Products (Data Protection Periods) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1221/made",
+        "reason": "These Regulations extend data protection periods for biocidal active substances under the GB Biocidal Products Regulation, which does not affect how a law firm must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Magistrates’ Courts and County Court Appeals (Criminal Legal Aid) (Costs) (Amendment) Rules (Northern Ireland) 2025",
+        "url": "http://www.legislation.gov.uk/nisr/2025/199/2026-01-07",
+        "reason": "These Northern Ireland rules only update criminal legal aid fees and travel rates, and change nothing about how firms must operate, so the item counts as a fee notice.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Central African Republic (Sanctions) (EU Exit) (Amendment) Regulations 2025",
+        "url": "http://www.legislation.gov.uk/uksi/2025/1327/made",
+        "reason": "This narrow technical amendment limits the Central African Republic arms embargo to armed groups and the people linked to them; it creates no new sanctions regime and changes no asset-freeze or reporting duty that affects how law firms operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Legal Aid for Crown Court Proceedings (Costs) (Amendment) Rules (Northern Ireland) 2025",
+        "url": "http://www.legislation.gov.uk/nisr/2025/197/2026-01-07",
+        "reason": "This changes Northern Ireland criminal legal aid fee rates, which is a fee notice and doesn't change how law firms must operate, so it is out of the tracker's scope.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Economic Crime and Corporate Transparency Act 2023 (Commencement No. 7) Regulations 2026",
+        "url": "http://www.legislation.gov.uk/uksi/2026/57/made",
+        "reason": "These commencement regulations change a company's own register-keeping duty, not how law firms operate, and otherwise only insert the known 18 November 2025 start date into earlier instruments, which the tracker already records.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Regulation of Legal Services (Scotland) Act 2025 (Commencement No. 1) Regulations 2026",
+        "url": "http://www.legislation.gov.uk/ssi/2026/96/made",
+        "reason": "This order only starts provisions so that rules can be prepared, plus some changes to oversight bodies and third-sector employment, so it puts no new duty on law firms yet.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Syria (Sanctions) (EU Exit) (Amendment) Regulations 2026",
+        "url": "http://www.legislation.gov.uk/uksi/2026/436/made",
+        "reason": "The instrument only revokes Syria trade prohibitions on gold, precious metals, diamonds and luxury goods and makes technical corrections, which does not affect how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026",
+        "url": "http://www.legislation.gov.uk/uksi/2026/425/made",
+        "reason": "The Regulations only require the Information Commissioner to prepare a code of practice on AI and automated decision-making, so they do not change how law firms must operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "The Russia (Sanctions) (EU Exit) (Amendment) Regulations 2026",
+        "url": "http://www.legislation.gov.uk/uksi/2026/543/made",
+        "reason": "These amendments add Russia trade restrictions on ships, oil products, uranium, LNG shipping, detained transport assets and construction services, none of which change how law firms operate.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "New Act to restrict use of NDAs in workplace sexual harassment matters",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-act-restrict-use-ndas-workplace-sexual-harassment-matters",
+        "reason": "The tracker already covers the Victorian NDA Act and the updated VLSB+C guidance in au-vlsbc-nda-sexual-harassment, and this earlier May 2026 announcement adds no new fact.",
+        "country": "au",
+        "source": "vlsbc-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [
+      {
+        "source": "sra-news",
+        "country": "uk",
+        "url": "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D",
+        "problem": "HTTP 404"
+      }
+    ],
+    "already_seen": 342,
+    "cost_usd": 19.3,
+    "stopped_early": null,
+    "finished_at": "2026-11-20T15:13:37.992Z"
   }
 ]
