@@ -1,0 +1,37 @@
+{
+  "id": "uk-sra-accountants-reports-submission",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "All firms holding client money to submit annual accountants' reports",
+  "summary": "The SRA has asked the LSB to approve rules requiring every firm that holds client money to submit an annual accountants' report and declaration to the SRA. Fixed penalties would apply for late or missing reports.",
+  "what_changes": [
+    "All firms that hold client money would have to submit annual accountants' reports to the SRA.",
+    "Firms would also have to give key further information through a declaration.",
+    "Firms relying on an exemption would have to give information on their exemption status.",
+    "Fixed financial penalties would be extended to late submission or non-submission."
+  ],
+  "applies_to": [
+    "money"
+  ],
+  "who_it_applies_to": "SRA-regulated firms that hold client money, including those claiming an exemption from the accountants' report requirement.",
+  "topic": "Client money",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2025-12",
+    "in_force_text": "By early 2027, if approved"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/safeguards-protect-client-money"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "event": "SRA submitted accountants' report rule changes to the LSB for approval after its consultation.",
+      "url": "https://www.sra.org.uk/news/news/releases/safeguards-protect-client-money"
+    }
+  ],
+  "admin_notes": []
+}
