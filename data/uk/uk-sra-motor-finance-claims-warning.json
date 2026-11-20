@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-motor-finance-claims-warning",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Joint FCA and SRA warning on motor finance claims and termination fees",
+  "summary": "The FCA and SRA have jointly warned firms handling motor finance commission claims. They expect checks that clients have no other representative, and any termination fee to be reasonable.",
+  "what_changes": [
+    "The regulators expect firms to have robust checks to confirm a client has not already instructed another representative.",
+    "Fees for switching or ending an agreement must be reasonable and reflect the work done.",
+    "Law firms can only bill in line with the agreement signed before work started, and any termination fee must have been stated up front.",
+    "The regulators expect duplicate claims to be resolved through efficient, cost-effective co-operation between firms."
+  ],
+  "applies_to": [
+    "claims"
+  ],
+  "who_it_applies_to": "SRA-regulated law firms that act for consumers in motor finance commission claims.",
+  "topic": "Consumer claims",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-02-04"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/fca-sra-joint-warning-motor-finance-commission-claims"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-02-04",
+      "event": "FCA and SRA issued a joint warning on motor finance commission claims.",
+      "url": "https://www.sra.org.uk/news/news/releases/fca-sra-joint-warning-motor-finance-commission-claims"
+    }
+  ],
+  "admin_notes": []
+}
