@@ -1,0 +1,36 @@
+{
+  "id": "au-vlsbc-claim-farming-redress",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Warning on claim farming involving people eligible for government redress",
+  "summary": "The VLSB+C has issued guidance warning that lawyer involvement in claim farming is unacceptable. It warns this can amount to unsatisfactory professional conduct or professional misconduct.",
+  "what_changes": [
+    "Sets out the regulator's expectations of lawyers acting for people eligible for redress, with examples of good and bad practice.",
+    "Warns about cold-call claim farming aimed at abuse victim-survivors and Stolen Generations members, with claims sold on to lawyers.",
+    "Raises concern about misleading clients into thinking they need a lawyer, or hiding that a referrer was paid.",
+    "The regulator states it will treat complaints about overcharging in redress matters seriously."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian lawyers and law practices that act for, or are referred, people eligible for government redress schemes.",
+  "topic": "Consumer claims",
+  "stage": "guidance",
+  "dates": {
+    "published": "2025-06-13"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/legal-regulators-move-safeguard-victorians-eligible-government-redress"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-06-13",
+      "event": "VLSB+C issued guidance and a warning on lawyer involvement in claim farming of redress claims.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/legal-regulators-move-safeguard-victorians-eligible-government-redress"
+    }
+  ],
+  "admin_notes": []
+}
