@@ -43,7 +43,7 @@ jobs:
         run: echo "::notice::No AI credential is set for this repository, so the assistant did not run. Add ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN as a secret."
 
       # "ref" makes a run that waited in the queue start from the newest commit, not the one that was newest when it was asked for.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         if: env.HAS_AI == 'true'
         with:
           ref: ${{ github.ref }}
