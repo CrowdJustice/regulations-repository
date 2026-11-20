@@ -120,7 +120,7 @@ Useful options for `run.mjs`:
 |---|---|---|
 | UK | SRA news and consultations, Legal Services Board, HM Treasury, OFSI, Companies House, new legislation | All read cleanly from GitHub. |
 | Australia | Legal Services Council, VLSB+C, Legal Practice Board of WA, Queensland Law Society, Attorney-General's consultations | All read cleanly from GitHub. |
-| Australia | AUSTRAC, OAIC | Switched off until proved. Both refuse GitHub's network, so they are read through Claude's web fetch instead: the request comes from Anthropic's network and follows each site's robots.txt. It needs the `ANTHROPIC_API_KEY` secret. Prove one with **Check sources** and its source id, then switch it on. |
+| Australia | AUSTRAC, OAIC | Switched off. Both refuse automated readers. GitHub's network gets no answer, and Claude's web fetch returns only stored copies that are weeks old, so neither can be trusted for a daily check. Reading them needs the regulator's permission or feed, or a reader running on a network they accept. |
 
 ## Where the tracker shows up
 
@@ -140,7 +140,7 @@ Nothing is hosted from this repository. After every daily check and admin action
 
 Everything is built and tested. Two things are left.
 
-1. **The AI key.** A repository admin adds the Actions secret `ANTHROPIC_API_KEY`. Use a key made for this alone, in its own workspace, with a monthly spend limit. It pays for the daily check and for reading AUSTRAC and OAIC.
+1. **The AI key.** A repository admin adds the Actions secret `ANTHROPIC_API_KEY`. Use a key made for this alone, in its own workspace, with a monthly spend limit. It pays for the daily check.
 2. **Admins.** Anyone with write access can run admin actions, so give write access only to the admins. Each admin connects the admin page with their own fine-grained token for this one repository (Actions: read and write; Contents: read-only), and watches the repository to get the daily update by email.
 
 **What is kept where:**
