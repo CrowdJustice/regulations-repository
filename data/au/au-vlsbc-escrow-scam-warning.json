@@ -1,0 +1,37 @@
+{
+  "id": "au-vlsbc-escrow-scam-warning",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Warning on escrow agreements used for investment scams and money laundering",
+  "summary": "The VLSB+C warns that scammers posing as clients and investors are using law practices' trust accounts and escrow services to make investment scams and money laundering look legitimate.",
+  "what_changes": [
+    "Warns against relying on introductions from third parties or existing clients to verify new clients and investors.",
+    "Expects thorough identity checks on the client and, where possible, the investor, and an assessment of their ML/TF risk.",
+    "Recommends executing escrow agreements directly with the investor and checking investor details with any broker.",
+    "Recommends reporting suspected scams to the bank, AUSTRAC, Victoria Police, Scamwatch and the VLSB+C."
+  ],
+  "applies_to": [
+    "vic",
+    "trust"
+  ],
+  "who_it_applies_to": "Victorian law practices that hold trust money, in particular those preparing escrow agreements or holding and paying out funds as agents.",
+  "topic": "Fraud and economic crime",
+  "stage": "guidance",
+  "dates": {
+    "published": "2025-12-10"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/warning-escrow-agreements-used-potential-investment-scams-and-money-laundering"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-12-10",
+      "event": "VLSB+C issued a warning on escrow agreements being used for investment scams and money laundering.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/warning-escrow-agreements-used-potential-investment-scams-and-money-laundering"
+    }
+  ],
+  "admin_notes": []
+}
