@@ -1,0 +1,36 @@
+{
+  "id": "au-vlsbc-reporting-serious-misconduct",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Regulator expects lawyers to report serious misconduct by other lawyers",
+  "summary": "The VLSB+C expects lawyers to tell it when they reasonably believe a Victorian lawyer is engaging in serious misconduct. Its statement sets out what to report and how.",
+  "what_changes": [
+    "The regulator expects reports where a lawyer reasonably believes a Victorian lawyer is engaging in serious misconduct.",
+    "Covers conduct that calls a lawyer's fundamental integrity into question or could lead to a miscarriage of justice.",
+    "Also covers conduct that otherwise undermines the integrity of the justice system.",
+    "Reports go to seriousmisconduct@lsbc.vic.gov.au or, from 5 January 2026, by phone on (03) 9679 8092."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian lawyers who reasonably believe another Victorian lawyer is engaging in serious misconduct.",
+  "topic": "Other",
+  "stage": "guidance",
+  "dates": {
+    "published": "2025-12-17"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/telling-us-about-serious-misconduct-lawyers"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-12-17",
+      "event": "VLSB+C published a statement expecting lawyers to report serious misconduct by other Victorian lawyers.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/telling-us-about-serious-misconduct-lawyers"
+    }
+  ],
+  "admin_notes": []
+}
