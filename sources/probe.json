@@ -1,8 +1,0 @@
-[
-  { "id": "p-robots", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/robots.txt", "match": "^$" },
-  { "id": "p-item-old", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/news-and-media/media-release/cybercrime-squad-and-austrac-remind-digital-currency-exchanges-reporting-obligations", "match": "^$" },
-  { "id": "p-newsroot", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/news-and-media", "match": "^$" },
-  { "id": "p-home", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/", "match": "^$" },
-  { "id": "p-oaic-robots", "regulator": "OAIC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.oaic.gov.au/robots.txt", "match": "^$" },
-  { "id": "p-oaic-item", "regulator": "OAIC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.oaic.gov.au/news/media-centre/oaic-closes-preliminary-inquiries-into-viq-solutions", "match": "^$" }
-]
