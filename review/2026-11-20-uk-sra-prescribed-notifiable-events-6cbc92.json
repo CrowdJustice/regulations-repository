@@ -1,0 +1,47 @@
+{
+  "held_on": "2026-11-20",
+  "reasons": [
+    "stage is \"proposed\", so dates.proposed is required"
+  ],
+  "item": {
+    "title": "Client money in legal services: Notifying the SRA of changes to help identify and act on risks",
+    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/?s=c",
+    "source": "sra-consultations"
+  },
+  "would_be": "new",
+  "proposed_record": {
+    "id": "uk-sra-prescribed-notifiable-events",
+    "country": "uk",
+    "status": "live",
+    "regulator": "SRA",
+    "title": "Firms to notify the SRA of mergers and of starting to hold client money proposed",
+    "summary": "The SRA has proposed a rule requiring firms to notify it of events it prescribes. The first two events would be planned mergers or acquisitions and starting to hold client money.",
+    "what_changes": [
+      "A new rule would require firms to notify the SRA of any notifiable event it prescribes from time to time.",
+      "Firms would have to pre-notify the SRA of a merger or acquisition once it reaches the Heads of Terms stage or equivalent.",
+      "Firms would have to notify the SRA within 28 days of starting to receive or hold client money, if they had previously reported they did not.",
+      "The SRA could use fixed financial penalties for late or incomplete notifications."
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "who_it_applies_to": "All SRA-regulated firms, especially those planning a merger or acquisition and those starting to hold client money for the first time.",
+    "topic": "Client money",
+    "stage": "proposed",
+    "dates": {},
+    "source": {
+      "name": "SRA",
+      "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/?s=c"
+    },
+    "last_checked": "2026-11-20",
+    "history": [
+      {
+        "date": "2026-11-20",
+        "event": "Consultation closed on 17 August 2026; SRA has published a webinar on proposed next steps.",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/?s=c"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": null
+}

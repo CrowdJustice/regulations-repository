@@ -1,0 +1,48 @@
+{
+  "held_on": "2026-11-20",
+  "reasons": [
+    "applies_to key \"turnover\" is not supported: the source never mentions a turnover threshold or the small business exemption, and the who_it_applies_to sentence (\"regulated entities under the Privacy Act 1988\") does not match it."
+  ],
+  "item": {
+    "title": "Privacy Reform – Consultation on Exposure Draft legislation",
+    "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform",
+    "source": "agd-consultations"
+  },
+  "would_be": "new",
+  "proposed_record": {
+    "id": "au-agd-privacy-act-reform",
+    "country": "au",
+    "status": "live",
+    "regulator": "AGD",
+    "title": "Draft bill to strengthen the Privacy Act 1988",
+    "summary": "The Australian Government has released the Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026 to modernise and strengthen privacy law. The Bill is a draft and the government is still considering it.",
+    "what_changes": [
+      "The draft Bill proposes amendments to the Privacy Act 1988 (Cth), the economy-wide framework for handling personal information.",
+      "The reforms aim to address risks from new technologies, including AI and wearable devices such as smart glasses.",
+      "The government says the Bill aims to give regulated entities greater certainty."
+    ],
+    "applies_to": [
+      "turnover"
+    ],
+    "who_it_applies_to": "Law practices that are regulated entities under the Privacy Act 1988 (Cth).",
+    "topic": "Privacy and data",
+    "stage": "proposed",
+    "dates": {
+      "proposed": "2026-08-31"
+    },
+    "source": {
+      "name": "AGD Consultation Hub",
+      "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform"
+    },
+    "last_checked": "2026-11-20",
+    "history": [
+      {
+        "date": "2026-08-31",
+        "event": "Exposure Draft Bill and Consultation Paper released for consultation, which closed on 18 September 2026.",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": null
+}

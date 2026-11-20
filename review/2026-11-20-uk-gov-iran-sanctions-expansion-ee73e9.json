@@ -1,0 +1,50 @@
+{
+  "held_on": "2026-11-20",
+  "reasons": [
+    "\"New offences cover brokering, financial services and funds linked to gold, precious metals, diamonds and energy-related goods for Iran\" is not supported for energy-related goods: the source only shows export and supply bans for those goods (27H, 27I) and cuts off at 27J, with no brokering, financial services or funds offences for them."
+  ],
+  "item": {
+    "title": "The Iran (Sanctions) (Amendment) Regulations 2026",
+    "url": "http://www.legislation.gov.uk/uksi/2026/983/made",
+    "source": "legislation-new"
+  },
+  "would_be": "new",
+  "proposed_record": {
+    "id": "uk-gov-iran-sanctions-expansion",
+    "country": "uk",
+    "status": "live",
+    "regulator": "UK Government",
+    "title": "Wider UK sanctions on Iran covering finance, investment, bonds, gold and energy",
+    "summary": "Since 29 September 2026, the UK's Iran sanctions include new bans on lending to, investing in and forming joint ventures with Iranian energy and nuclear-linked businesses, and on services that help Iran issue bonds.",
+    "what_changes": [
+      "It is an offence to lend to, take an ownership interest in or form a joint venture with Iran-connected firms in oil, gas, petrochemicals or uranium.",
+      "It is an offence to provide brokering, advertising or any other service that helps the Government of Iran or Iranian banks issue bonds.",
+      "Insurance and reinsurance for persons connected with Iran is banned, except under agreements made before 8 September 2026.",
+      "New offences cover brokering, financial services and funds linked to gold, precious metals, diamonds and energy-related goods for Iran."
+    ],
+    "applies_to": [
+      "corporate"
+    ],
+    "who_it_applies_to": "Firms acting for companies or clients with dealings connected to Iran, including finance, investment, insurance, commodities and energy work.",
+    "topic": "Sanctions",
+    "stage": "in_force",
+    "dates": {
+      "decided": "2026-09-07",
+      "in_force": "2026-09-29"
+    },
+    "source": {
+      "name": "legislation.gov.uk",
+      "url": "http://www.legislation.gov.uk/uksi/2026/983/made"
+    },
+    "last_checked": "2026-11-20",
+    "history": [
+      {
+        "date": "2026-09-08",
+        "event": "Regulations made on 7 September 2026 and in force from 29 September 2026.",
+        "url": "http://www.legislation.gov.uk/uksi/2026/983/made"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": null
+}

@@ -1,0 +1,49 @@
+{
+  "held_on": "2026-11-20",
+  "reasons": [
+    "title is 82 characters; the limit is 80"
+  ],
+  "item": {
+    "title": "SRA consults on strengthened notification requirements to help identify risk earlier, 19 June 2026 We have launched a consultation on further reforms intended to strengthen the protection of client money and enable earlier identification and action on risk. The changes are designed to reduce the likelihood of consumer harm, while maintaining public confidence in legal services.",
+    "url": "https://www.sra.org.uk/news/news/releases/consumer-protection-review-consultation-2026",
+    "source": "sra-news"
+  },
+  "would_be": "new",
+  "proposed_record": {
+    "id": "uk-sra-prescribed-event-notifications",
+    "country": "uk",
+    "status": "live",
+    "regulator": "SRA",
+    "title": "Firms to notify the SRA of mergers, acquisitions and starting to hold client money",
+    "summary": "The SRA has proposed a new rule that would require law firms to notify it of set events. These are starting to hold or receive client money, and merging with or acquiring other firms.",
+    "what_changes": [
+      "A proposed new rule would set out events that firms must notify the SRA about.",
+      "Firms would have to notify the SRA when they start holding or receiving client money.",
+      "Firms would have to notify the SRA of planned mergers with, or acquisitions of, other firms.",
+      "The consultation ran until 17 August 2026."
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "who_it_applies_to": "All SRA-regulated firms, especially those starting to hold client money or merging with or acquiring other firms.",
+    "topic": "Client money",
+    "stage": "proposed",
+    "dates": {
+      "proposed": "2026-06-19"
+    },
+    "source": {
+      "name": "SRA",
+      "url": "https://www.sra.org.uk/news/news/releases/consumer-protection-review-consultation-2026"
+    },
+    "last_checked": "2026-11-20",
+    "history": [
+      {
+        "date": "2026-06-19",
+        "event": "Consultation opened, running until 17 August 2026.",
+        "url": "https://www.sra.org.uk/news/news/releases/consumer-protection-review-consultation-2026"
+      }
+    ],
+    "admin_notes": []
+  },
+  "current_record": null
+}

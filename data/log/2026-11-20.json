@@ -191,5 +191,2002 @@
     "cost_usd": 0.46,
     "stopped_early": null,
     "finished_at": "2026-11-20T10:45:16.969Z"
+  },
+  {
+    "date": "2026-11-20",
+    "since": "2026-06-01",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 48,
+        "relevant": 48,
+        "read": 38
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 9
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 30,
+        "relevant": 30,
+        "read": 13
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 200,
+        "relevant": 8,
+        "read": 5
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 100,
+        "relevant": 36,
+        "read": 19
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 100,
+        "relevant": 64,
+        "read": 7
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 1000,
+        "relevant": 3,
+        "read": 3
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 32,
+        "relevant": 32,
+        "read": 27
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 2
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 149,
+        "relevant": 149,
+        "read": 139
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 1
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 6,
+        "relevant": 6,
+        "read": 0
+      }
+    ],
+    "published": [
+      {
+        "id": "uk-sra-whistleblowing-prescribed-person",
+        "country": "uk",
+        "title": "Whistleblowing reports to the SRA protected under PIDA",
+        "regulator": "SRA",
+        "stage": "in_force",
+        "source": "https://www.sra.org.uk/news/news/releases/pida-status",
+        "summary": "The SRA is a prescribed person under the Public Interest Disclosure Act 1998. This means people who work for or with SRA-regulated firms are legally protected when they report wrongdoing to the SRA."
+      },
+      {
+        "id": "uk-sra-accountants-reports-submission",
+        "country": "uk",
+        "title": "All firms holding client money to submit annual accountants' reports",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/news/news/releases/safeguards-protect-client-money",
+        "summary": "The SRA has asked the LSB to approve rules requiring every firm that holds client money to submit an annual accountants' report and declaration to the SRA. Fixed penalties would apply for late or missing reports."
+      },
+      {
+        "id": "uk-sra-supervision-guidance-mazur",
+        "country": "uk",
+        "title": "Expanded supervision guidance for litigation work after Mazur judgment",
+        "regulator": "SRA",
+        "stage": "guidance",
+        "source": "https://www.sra.org.uk/news/news/releases/supervision-guidance-updated",
+        "summary": "The SRA has expanded its supervision guidance after the Court of Appeal ruled in Mazur on what non-regulated staff can do under supervision when conducting litigation. It advises firms to check their arrangements are lawful."
+      },
+      {
+        "id": "uk-sra-complaints-handling-rules",
+        "country": "uk",
+        "title": "New rules on keeping clients informed about their complaints proposed",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/news/news/releases/first-tier-complaints-consultation-2026",
+        "summary": "The SRA has proposed rules that would require firms to give clients a timeline for resolving a complaint and regular updates on its progress. Final proposals go to the LSB for approval."
+      },
+      {
+        "id": "uk-sra-litigation-funding-claims",
+        "country": "uk",
+        "title": "Stronger rules on third-party litigation funding in consumer claims proposed",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/news/news/releases/consults-new-proposals-consumer-claims",
+        "summary": "The SRA has proposed new requirements for firms that use or arrange third-party litigation funding in consumer claims. These include notifying the SRA, a risk assessment and summary documents for clients."
+      },
+      {
+        "id": "uk-sra-ai-warning-notice",
+        "country": "uk",
+        "title": "Warning notice on safe and responsible use of AI by law firms",
+        "regulator": "SRA",
+        "stage": "guidance",
+        "source": "https://www.sra.org.uk/news/news/releases/responsible-use-ai",
+        "summary": "The SRA has issued a warning notice about misuse of AI. It reminds firms that their professional obligations stay the same when they use AI, and that it expects them to have proper oversight and controls."
+      },
+      {
+        "id": "uk-sra-continuing-competence-rules",
+        "country": "uk",
+        "title": "Mandatory learning records and annual ethics discussions for solicitors proposed",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/?s=c",
+        "summary": "The SRA has proposed rules requiring solicitors to record their learning and development and take part in annual ethics discussions. Any rule changes would need Legal Services Board approval."
+      },
+      {
+        "id": "uk-hmt-fca-aml-supervision-reform",
+        "country": "uk",
+        "title": "FCA to take over AML supervision of law firms: final policy set",
+        "regulator": "HM Treasury",
+        "stage": "decided",
+        "source": "https://www.gov.uk/government/consultations/anti-money-laundering-and-counter-terrorist-financing-supervision-reform-duties-powers-and-accountability-consultation",
+        "summary": "The government has set its final policy on how the FCA will supervise anti-money laundering compliance in professional services firms, including law firms. Legislation is still needed and no start date has been given."
+      },
+      {
+        "id": "uk-gov-global-human-rights-ihl-sanctions",
+        "country": "uk",
+        "title": "New sanctions regime for human rights and humanitarian law violations",
+        "regulator": "UK Government",
+        "stage": "in_force",
+        "source": "http://www.legislation.gov.uk/uksi/2026/1071/2026-10-15",
+        "summary": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 came into force on 15 October 2026. They allow asset freezes and other sanctions against people involved in serious abuses."
+      },
+      {
+        "id": "au-lsc-costs-disclosure-threshold",
+        "country": "au",
+        "title": "Higher costs disclosure threshold and updated shortform disclosure forms",
+        "regulator": "LSC",
+        "stage": "proposed",
+        "source": "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html",
+        "summary": "The Legal Services Council has proposed raising the upper costs disclosure threshold to $10,000 and replacing the shortform disclosure forms under the Uniform General Rules."
+      },
+      {
+        "id": "au-austrac-amlctf-legal-services",
+        "country": "au",
+        "title": "AML/CTF obligations extended to lawyers providing designated services",
+        "regulator": "AUSTRAC",
+        "stage": "in_force",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026",
+        "summary": "From 1 July 2026, law practices and lawyers providing designated services must enrol with AUSTRAC and comply with the anti-money laundering and counter-terrorism financing regime."
+      },
+      {
+        "id": "au-vlsbc-nda-sexual-harassment",
+        "country": "au",
+        "title": "Updated guidance on NDAs in workplace sexual harassment matters",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/updated-guidance-non-disclosure-agreements",
+        "summary": "The VLSB+C has updated its guidance on NDAs in workplace sexual harassment matters after a new Victorian Act commenced on 1 July 2026. It warns that lawyers who breach the Act's requirements could face disciplinary action."
+      },
+      {
+        "id": "au-lsc-amlctf-costs-guidance",
+        "country": "au",
+        "title": "Guidance on passing AML/CTF compliance costs on to clients",
+        "regulator": "LSC",
+        "stage": "guidance",
+        "source": "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs",
+        "summary": "The Legal Services Council has published an information sheet on how law practices treat AML/CTF compliance costs and when they can pass them on to clients."
+      }
+    ],
+    "updated": [
+      {
+        "id": "uk-sra-litigation-funding-claims",
+        "country": "uk",
+        "title": "Stronger rules on third-party litigation funding proposed",
+        "regulator": "SRA",
+        "stage": "proposed",
+        "source": "https://www.sra.org.uk/sra/consultations/consultation-listing/protecting-consumers-third-party-funding/?s=c",
+        "summary": "The SRA has proposed new rules for firms that use or arrange third-party litigation funding. Most apply only to consumer claims, but core conduct duties would apply to all funded claims. The consultation closed on 17 September 2026.",
+        "what_changed": [
+          "title reworded",
+          "summary reworded",
+          "what changes reworded",
+          "who it applies to reworded"
+        ],
+        "event": "Consultation closed on 17 September 2026. The SRA is analysing responses before deciding whether to seek LSB approval."
+      }
+    ],
+    "now_in_force": [],
+    "held": [
+      {
+        "title": "Firms to notify the SRA of mergers, acquisitions and starting to hold client money",
+        "url": "https://www.sra.org.uk/news/news/releases/consumer-protection-review-consultation-2026",
+        "reasons": [
+          "title is 82 characters; the limit is 80"
+        ],
+        "country": "uk",
+        "source": "sra-news",
+        "review_file": "review/2026-11-20-uk-sra-prescribed-event-notifications-78efe3.json"
+      },
+      {
+        "title": "Firms to notify the SRA of mergers and of starting to hold client money proposed",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/identify-risks/?s=c",
+        "reasons": [
+          "stage is \"proposed\", so dates.proposed is required"
+        ],
+        "country": "uk",
+        "source": "sra-consultations",
+        "review_file": "review/2026-11-20-uk-sra-prescribed-notifiable-events-6cbc92.json"
+      },
+      {
+        "title": "Wider UK sanctions on Iran covering finance, investment, bonds, gold and energy",
+        "url": "http://www.legislation.gov.uk/uksi/2026/983/made",
+        "reasons": [
+          "\"New offences cover brokering, financial services and funds linked to gold, precious metals, diamonds and energy-related goods for Iran\" is not supported for energy-related goods: the source only shows export and supply bans for those goods (27H, 27I) and cuts off at 27J, with no brokering, financial services or funds offences for them."
+        ],
+        "country": "uk",
+        "source": "legislation-new",
+        "review_file": "review/2026-11-20-uk-gov-iran-sanctions-expansion-ee73e9.json"
+      },
+      {
+        "title": "Draft bill to strengthen the Privacy Act 1988",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform",
+        "reasons": [
+          "applies_to key \"turnover\" is not supported: the source never mentions a turnover threshold or the small business exemption, and the who_it_applies_to sentence (\"regulated entities under the Privacy Act 1988\") does not match it."
+        ],
+        "country": "au",
+        "source": "agd-consultations",
+        "review_file": "review/2026-11-20-au-agd-privacy-act-reform-35049d.json"
+      }
+    ],
+    "ignored": [
+      {
+        "title": "2020",
+        "url": "https://www.sra.org.uk/news/news/releases/2020",
+        "reason": "This is an archive page listing SRA news releases from 2020; it gives no new or current change, and those items are long out of date.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "2021",
+        "url": "https://www.sra.org.uk/news/news/releases/2021",
+        "reason": "This is a 2021 news archive page that lists a standards review and a research commission, with no new or amended rule, proposal, decision or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "2022",
+        "url": "https://www.sra.org.uk/news/news/releases/2022",
+        "reason": "This is an archive page listing the SRA's 2022 news releases, so it adds no current change to the tracker.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "2023",
+        "url": "https://www.sra.org.uk/news/news/releases/2023",
+        "reason": "This is the SRA's archive index of 2023 news releases, not a single change, and it gives no new fact about any change the tracker holds.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "2024",
+        "url": "https://www.sra.org.uk/news/news/releases/2024",
+        "reason": "This is an archive index of the SRA's 2024 news releases rather than a single change, and it gives no new facts that are current enough to track.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "2025",
+        "url": "https://www.sra.org.uk/news/news/releases/2025",
+        "reason": "This is an archive page listing 2025 news releases, not a single change, and it gives too little detail to write an accurate record for any one item.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA strengthens executive team with new Executive Director for Transformation, 26 January 2026 We have strengthened our executive team by appointing Deborah Jones as our new Executive Director for Transformation.",
+        "url": "https://www.sra.org.uk/news/news/releases/executive-director-transformation",
+        "reason": "This is an SRA staff appointment announcement, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA warning notice over 'no win, no fee' practices, 28 January 2026 Amid concerns over how the market for high-volume consumer claims operates and the risks this can pose to the public, we have issued a formal warning on 'no win, no fee' arrangements to law firms and solicitors.",
+        "url": "https://www.sra.org.uk/news/news/releases/nwnf-warning",
+        "reason": "published 2026-01-28, before the look-back date 2026-06-01",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "The SQE: Four Years On - new report highlights diversity and assesses factors affecting performance, 29 January 2026 We have published a new report providing data and insights from the first four years of the Solicitors Qualifying Examination (SQE).",
+        "url": "https://www.sra.org.uk/news/news/releases/sqe-four-years",
+        "reason": "This is a research and statistics report on SQE candidate performance and diversity, with no new rule, proposal, decision or guidance affecting how law firms operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "FCA and SRA issue joint warning to firms representing motor finance commission claims, 04 February 2026 The Financial Conduct Authority and Solicitors Regulation Authority have today issued a joint warning to claims management companies and law firms involved in motor finance commission claims to make sure consumers don’t have multiple representatives for the same claim and are not charged excessive termination fees.",
+        "url": "https://www.sra.org.uk/news/news/releases/fca-sra-joint-warning-motor-finance-commission-claims",
+        "reason": "published 2026-02-04, before the look-back date 2026-06-01",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA intervention into PM Law Ltd, 04 February 2026 We were alerted to the unexpected closure of PM Law Ltd and associated firms on Monday 2 February.",
+        "url": "https://www.sra.org.uk/news/news/releases/pm-law-4-feb",
+        "reason": "This is enforcement against named firms (an SRA intervention into PM Law Ltd and associated firms), not a change to rules or guidance for law firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA intervention into PM Law Ltd, 12 February 2026 Update on our statement of 4 February about PM Law Ltd and associated firms",
+        "url": "https://www.sra.org.uk/news/news/releases/pm-law-12-feb",
+        "reason": "This is enforcement action against named firms (an SRA intervention into PM Law Ltd and associated firms), not a change to rules or guidance affecting how law firms operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Update on the SRA's investigation into PM Law Ltd group, 16 February 2026 We were alerted to the unexpected closure of PM Law Ltd on Monday 2 February 2026. The alert came from the firm, followed by concerns from clients being raised on the same day.",
+        "url": "https://www.sra.org.uk/news/news/releases/pm-law",
+        "reason": "This is an update on enforcement against a named firm (the investigation and intervention into PM Law Ltd), not a change to rules or guidance for law firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Ten-year diversity data shows improvements but more to be done, 11 March 2026 We have released law firm diversity data spanning the past 10 years revealing, for the first time, how representation levels are changing over time across the profession in characteristics such as sex, ethnicity, disability and socio-economic factors.",
+        "url": "https://www.sra.org.uk/news/news/releases/fdd-trends",
+        "reason": "This is a statistics and research release on diversity data in the profession, and it does not change any rule or tell firms how to act.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Update on the Solicitors Regulation Authority investigation on the Post Office Horizon IT scandal, 12 March 2026 Statement by the Solicitors Regulation Authority to provide an update on the Solicitors Regulation Authority investigation on the Post Office Horizon IT Scandal",
+        "url": "https://www.sra.org.uk/news/news/releases/post-office-mar-26",
+        "reason": "This is a superseded SRA update on its enforcement investigations into the Post Office Horizon scandal, and it sets out no new or amended rule or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Chief executive sets out priorities for change in 2026, 19 March 2026 Speaking at a meeting of the Law Society Council on 18 March 2026, Chief Executive Sarah Rapson shared our priorities for 2026, focussed on fixing our foundations and rebuilding trust with both the public and the profession.",
+        "url": "https://www.sra.org.uk/news/news/releases/priorities-2026",
+        "reason": "This is a speech by the SRA chief executive setting out the regulator's own priorities, and it makes no new rule, decision or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Regulators launch joint taskforce to crack down on poor practice in motor finance claims, 30 March 2026 A new taskforce will tackle poor handling of motor finance claims by some claims management companies and law firms, after the Financial Conduct Authority, Solicitors Regulation Authority, Information Commissioner’s Office and Advertising Standards Authority agreed to join up their efforts.",
+        "url": "https://www.sra.org.uk/news/news/releases/motor-finance-claims",
+        "reason": "The item announces a joint regulators' enforcement taskforce and gives advice to consumers; it creates no new rule, proposal, decision or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA to expand executive leadership team as part of operational excellence drive, 17 April 2026 We are expanding our executive leadership team with the creation of four new posts. The new roles - across supervision, risk and data, General Counsel, external affairs – will bring experience, expertise and capacity into the organisation, as we look to tackle broader sectoral challenges and rebuild trust.",
+        "url": "https://www.sra.org.uk/news/news/releases/operational-excellence",
+        "reason": "This is an SRA announcement about its own leadership structure and appointments, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Update on support for clients of PM Law, 21 April 2026 We can confirm that our ongoing investigation into the PM Law Ltd involves a sophisticated suspected fraud, involving the improper removal and misuse of around £39.5 million of client funds.",
+        "url": "https://www.sra.org.uk/news/news/releases/update-support-clients-pm-law",
+        "reason": "This is an update on enforcement and the intervention into a named firm, with compensation fund statistics; it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Reports find SQE to be robust with improvements made, 21 April 2026 We have published a suite of annual reports on the fourth full year of the Solicitors Qualifying Examination (SQE).",
+        "url": "https://www.sra.org.uk/news/news/releases/sqe-2026",
+        "reason": "This item is a set of SQE annual reports and statistics plus an exam fee notice, so it does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA consults on proposals to strengthen continuing competence requirements, 22 April 2026 We are consulting on potential new rules which will require all solicitors to keep a record of how they are reviewing and addressing their learning and development needs.",
+        "url": "https://www.sra.org.uk/news/news/releases/competence-requirements",
+        "reason": "published 2026-04-22, before the look-back date 2026-06-01",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA seeks feedback on reforms as Business Plan published, 08 May 2026 We have published our draft Business Plan and funding requirements for 2026/27, setting out our proposed programme of changes to improve how we regulate solicitors and law firms, with a sharper focus on protecting the public from the biggest risks.",
+        "url": "https://www.sra.org.uk/news/news/releases/bp-2026",
+        "reason": "This is the SRA's draft business plan and a consultation on practising fees and compensation fund contributions. Business plans and fee notices are excluded, and the item does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "New data reveals significant rise in reports and investigations, 15 May 2026 New data confirms a large increase in misconduct reports and the number of investigations we are having to undertake as result.",
+        "url": "https://www.sra.org.uk/news/news/releases/data-2026",
+        "reason": "The item gives statistics on misconduct reports and investigations and sets no new rule, proposal, decision or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA begins formal process to hire new Board Chair, 26 May 2026 We have announced the formal process to identify its new Board Chair will begin on Monday 1 June.",
+        "url": "https://www.sra.org.uk/news/news/releases/hire-new-board-chair",
+        "reason": "This is about the SRA hiring a new Board Chair, which is an appointment, not a change to rules that affects how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA joins Advisory AI Growth Lab to support responsible AI adoption in legal services, 08 June 2026 The AI Growth Lab will provide the opportunity for innovators to responsibly develop and adopt AI products within existing regulatory frameworks.",
+        "url": "https://www.sra.org.uk/news/news/releases/ai-growth-lab",
+        "reason": "This is an announcement that the SRA has joined a voluntary AI sandbox. It creates no new rule, proposal or guidance, and it says legal and regulatory requirements stay the same.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Research highlights risks in high-volume consumer claims sector, 02 July 2026 A new report has found that, while high-volume consumer claims can provide an important route to redress, many people experience problems or are unclear about what they have signed up to.",
+        "url": "https://www.sra.org.uk/news/news/releases/high-volume-claims-experience-research",
+        "reason": "This is a research report on the high-volume consumer claims sector, with statistics and investigation numbers but no new rule, proposal, decision or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA responds to feedback on its 2026/27 business plan and compensation fund proposals, 16 July 2026 The Solicitors Regulation Authority (SRA) has welcomed feedback on its draft 2026/27 Business Plan and funding requirement and has outlined changes it will make to final proposals to reflect what it has heard.",
+        "url": "https://www.sra.org.uk/news/news/releases/business-plan-comp-fund-response-2026",
+        "reason": "This covers the SRA business plan, budget and compensation fund contribution levels, which is a fee or funding matter rather than a change to how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA continues planned expansion of executive leadership team, 29 July 2026 As part of its ongoing drive to transform the way it operates and become a modern, proportionate regulator, the Solicitors Regulation Authority (SRA) has announced two new appointments to its executive leadership team.",
+        "url": "https://www.sra.org.uk/news/news/releases/expansion-executive-team",
+        "reason": "This is an announcement of SRA staff appointments, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Applications open for government's Advisory AI Growth Lab in legal services, 05 August 2026 Applications for the government's first advisory AI Growth Lab (AIGL) are now open. The government-funded initiative is designed to accelerate the development and deployment of AI products and services by helping innovators navigate existing regulatory frameworks with greater confidence.",
+        "url": "https://www.sra.org.uk/news/news/releases/growth-lab-ai",
+        "reason": "This is an invitation to apply to a voluntary government AI programme, and the applications closed on 27 September 2026; it adds no rule, proposal or guidance that changes how firms must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Media team",
+        "url": "https://www.sra.org.uk/news/news/media",
+        "reason": "This is the SRA media team contact page, not a regulatory change, consultation, decision or guidance for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "Changing our requirements on first-tier complaints",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/requirements-ftc/?s=c",
+        "reason": "This closed 2025 SRA consultation on first-tier complaints is already mentioned in the existing complaints-handling record, and the page gives no decision, start date or other new fact.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Business Plan and Budget 2025-26",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/business-plan-budget-2025-26/?s=c",
+        "reason": "This is a closed consultation on the SRA's business plan, budget and practising fees for 2025-26, which is a fee and planning item rather than a change to how law firms must operate.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Draft Business Plan and funding requirement 2026/27",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/business-plan-funding-requirements-2026-27/?s=c",
+        "reason": "This is the SRA's business plan and funding consultation, which is now closed. It covers the SRA's own priorities and how practising fees are set, so it does not change any rule firms must follow.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Further consultation on client money in legal services: Protecting the client money that solicitors hold",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/legal-services-client-money/?s=c",
+        "reason": "This is the same SRA accountants' reports change already tracked as uk-sra-accountants-reports-submission, and the page adds no new stage, date, scope or requirement.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Changing our requirements on first-tier complaints",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/first-tier-complaints/?s=c",
+        "reason": "This is the SRA first-tier complaints consultation already tracked as uk-sra-complaints-handling-rules; the page only confirms it closed on 1 September 2026, which the record already reflects, with no decision or new date.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Learn more",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/sqe-assessment-regulations",
+        "reason": "This consultation changes SQE exam rules for candidates (splitting the FLK, unlimited resits, when a pass stays valid), not how law firms must operate, so it is outside the tracker's scope.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "Flora Page KC steps down from the Legal Services Board",
+        "url": "https://legalservicesboard.org.uk/news/flora-page-steps-down-lsb",
+        "reason": "This is a board appointment and resignation notice, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Driving growth and protecting consumers: LSB appoints new Director of Strategy, Policy & Engagement",
+        "url": "https://legalservicesboard.org.uk/news/lsb-appoints-new-director",
+        "reason": "This is a staff appointment announcement, not a change to rules, guidance or how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Legal Services Board confirms appointment of three new Members of the Legal Services Consumer Panel",
+        "url": "https://legalservicesboard.org.uk/news/legal-services-board-confirms-appointment-of-three-new-members-of-the-legal-services-consumer-panel",
+        "reason": "This is an announcement of appointments to the Legal Services Consumer Panel, and it does not change any rule or how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Legal Services Board joins AI Growth Lab to drive responsible innovation in legal services",
+        "url": "https://legalservicesboard.org.uk/news/legal-services-board-joins-ai-growth-lab-to-drive-responsible-innovation-in-legal-services",
+        "reason": "This is an announcement about the LSB joining a voluntary AI sandbox, and it does not change any rule or require law firms to do anything differently.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: my first six weeks",
+        "url": "https://legalservicesboard.org.uk/news/chairs-blog-my-first-six-weeks",
+        "reason": "This is a blog post from the LSB Chair about board discussions and oversight of the SRA, with no new rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "AI tools show real promise to increase access to legal services, but consumers lack basic protections",
+        "url": "https://legalservicesboard.org.uk/news/ai-tools-show-real-promise-to-increase-access-to-legal-service",
+        "reason": "This is LSB research on consumer AI legal tools plus a note on joining the AI Growth Lab; it creates no new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Chair’s blog: reshaping our approach",
+        "url": "https://legalservicesboard.org.uk/chairs-blogs/chairs-blog-reshaping-our-approach",
+        "reason": "This is a chair's blog about the LSB's strategy and oversight approach, not a rule, consultation or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB annual report highlights stronger oversight and action to protect consumers",
+        "url": "https://legalservicesboard.org.uk/news/lsb-annual-report-25-26-stronger-oversight",
+        "reason": "This is the LSB's annual report announcement, which the instructions exclude, and it adds no new or changed rule for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Independent review of the Legal Services Board",
+        "url": "https://legalservicesboard.org.uk/news/independent-review-of-the-legal-services-board",
+        "reason": "This is the LSB's statement on an independent review of the LSB itself, so it is a review and a reaction to it, not a change to the rules law firms work under.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB recruits senior leaders to support new direction",
+        "url": "https://legalservicesboard.org.uk/news/lsb-recruits-senior-leaders-to-support-new-direction",
+        "reason": "This is an LSB recruitment and appointments announcement, and it does not change any rule or tell law firms how to operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Legal services regulators work together to strengthen conduct of litigation guidance",
+        "url": "https://legalservicesboard.org.uk/news/regulators-strengthen-conduct-of-litigation-guidance",
+        "reason": "This is an LSB review of past guidance on conduct of litigation, with actions aimed at regulators rather than firms; it sets no new rule or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "LSB intensifies action to improve SRA performance and protect consumers",
+        "url": "https://legalservicesboard.org.uk/news/lsb-intensifies-action-to-improve-sra-performance-and-protect-consumers",
+        "reason": "This is LSB oversight and enforcement action against the SRA as a regulator, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "We’re recruiting new Board Members!",
+        "url": "https://legalservicesboard.org.uk/news/were-recruiting-new-board-members",
+        "reason": "This is an LSB board recruitment notice, which is about appointments and does not change how law firms must operate.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "The U.S. and UK Economic Sanctions Authorities: A Comparative Overview",
+        "url": "https://www.gov.uk/government/publications/the-us-and-uk-economic-sanctions-authorities-a-comparative-overview",
+        "reason": "This is a reference document comparing the US and UK sanctions regimes; it sets no new rule, expectation or warning for law firms.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Economic Crime Levy Report 2024-25",
+        "url": "https://www.gov.uk/government/publications/economic-crime-levy-report-2024-25",
+        "reason": "This is an annual report on how the Economic Crime Levy was collected and spent in 2024-25, and it changes nothing about how law firms must operate.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "UK leads way in disrupting shadowy Russian sanctions evasion network",
+        "url": "https://www.gov.uk/government/news/uk-leads-way-in-disrupting-shadowy-russian-sanctions-evasion-network",
+        "reason": "This is a political press release about sanctions action against Russia; the announced doubling of OFSI's maximum fine has no detail, mechanism or date, and the A7 alert is aimed at the financial sector rather than setting rules or guidance for law firms.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Hundreds of new officers to hunt down dirty money networks",
+        "url": "https://www.gov.uk/government/news/hundreds-of-new-officers-to-hunt-down-dirty-money-networks",
+        "reason": "This is a news story about funding for law enforcement and statistics on asset recovery, with no new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "hmt-aml"
+      },
+      {
+        "title": "Use a formation agent to register your company",
+        "url": "https://www.gov.uk/government/publications/formation-and-company-secretarial-agents",
+        "reason": "This is a list of company formation agents, updated with new company information, and it does not change any rule, guidance or requirement for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Insolvency Service continues crackdown on companies exploiting UK business register for China-based clients",
+        "url": "https://www.gov.uk/government/news/insolvency-service-continues-crackdown-on-companies-exploiting-uk-business-register-for-china-based-clients",
+        "reason": "This is a press release about enforcement against named companies that were wound up, and it does not introduce any new rule, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Searching the Companies House register",
+        "url": "https://www.gov.uk/guidance/searching-the-companies-house-register",
+        "reason": "This is general service guidance on searching the Companies House register, and its latest update only changes the wording about external links, so it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Economic Crime and Corporate Transparency Act 2023: third progress report",
+        "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-2023-third-progress-report",
+        "reason": "This is a progress report on how the Act is being put into practice. It adds no new rule, guidance, date or requirement for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Economic Crime and Corporate Transparency Act 2023: progress reports",
+        "url": "https://www.gov.uk/government/collections/economic-crime-and-corporate-transparency-act-2023-progress-reports",
+        "reason": "This is a collection page of annual progress reports on the Economic Crime and Corporate Transparency Act, which is reporting rather than a new or amended rule, consultation or guidance for firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Progress made in cleaning up Companies House register as further steps taken to tackle economic crime",
+        "url": "https://www.gov.uk/government/news/progress-made-in-cleaning-up-companies-house-register-as-further-steps-taken-to-tackle-economic-crime",
+        "reason": "This is a progress report with statistics on Companies House reforms. It adds no new rule, date or requirement for law firms.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Applying to register as a Companies House authorised agent",
+        "url": "https://www.gov.uk/guidance/applying-to-register-as-a-companies-house-authorised-agent",
+        "reason": "This is procedural guidance on registering as an authorised agent (ACSP), which the existing identity verification record already covers. The 19 June 2026 edit only clarifies that people usually need to verify once, so no fact in the record changes.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "How to meet Companies House identity verification standard",
+        "url": "https://www.gov.uk/guidance/how-to-meet-companies-house-identity-verification-standard",
+        "reason": "This guidance is part of the Companies House identity verification change the tracker already holds, and its June 2026 edits only adjust the lists of accepted documents, which changes no stage, date, scope or core requirement in that record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Tell Companies House you have verified someone's identity",
+        "url": "https://www.gov.uk/guidance/tell-companies-house-you-have-verified-someones-identity",
+        "reason": "This is how-to guidance for authorised agents under the existing Companies House identity verification change, and its June 2026 edit only clarifies that agents can't report their own verification, so no tracked fact changes.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies register activities: statistical release April 2025 to March 2026",
+        "url": "https://www.gov.uk/government/statistics/companies-register-activities-statistical-release-april-2025-to-march-2026",
+        "reason": "This is a Companies House statistics release about register activity, not a change to rules or guidance that affects how law firms operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Incorporated companies in the UK April to June 2026",
+        "url": "https://www.gov.uk/government/statistics/incorporated-companies-in-the-uk-april-to-june-2026",
+        "reason": "This is a quarterly statistics release on the size of the companies register, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House management information: identity verification April to June 2026",
+        "url": "https://www.gov.uk/government/statistics/companies-house-management-information-identity-verification-april-to-june-2026",
+        "reason": "This is a quarterly statistics release on identity verification compliance and adds no new requirement, date or guidance beyond the existing Companies House record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Guidance for limited companies, partnerships and other company types",
+        "url": "https://www.gov.uk/government/collections/guidance-for-limited-companies-partnerships-and-other-company-types",
+        "reason": "This is a Companies House collection index page that lists guidance links; its identity verification content is already covered by uk-ch-identity-verification and it adds no new fact.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Apply to protect your details on the Companies House register",
+        "url": "https://www.gov.uk/guidance/applying-to-protect-your-personal-information-on-the-companies-house-register",
+        "reason": "This is long-standing Companies House guidance for individuals who want their details protected. The update only withdraws the online service and refunds fees on refusal, which does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Order certified documents and certificates from Companies House",
+        "url": "https://www.gov.uk/guidance/order-certified-copies-and-certificates-from-companies-house",
+        "reason": "This is an operational service page about ordering Companies House certificates, with fees and a resolved service outage, and it does not change how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Objections to company strike off to be submitted online only from 1 December 2026",
+        "url": "https://www.gov.uk/government/news/objections-to-company-strike-off-to-be-submitted-online-only-from-1-december-2026",
+        "reason": "This is a change to how Companies House accepts strike-off objections (online only, no longer by email), not a new or amended rule, proposal or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Set up and run a limited liability partnership (LLP)",
+        "url": "https://www.gov.uk/guidance/set-up-and-run-a-limited-liability-partnership-llp",
+        "reason": "This is general LLP guidance, and its latest edit only clarifies the existing duty to report PSC changes; it adds no new rule, date or requirement to track.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a private or public company (IN01)",
+        "url": "https://www.gov.uk/government/publications/register-a-private-or-public-company-in01",
+        "reason": "This is an update to a form page that only adds a postal address, so it brings no new rule or requirement, and identity verification is already covered by uk-ch-identity-verification.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Register a limited liability partnership (LL IN01)",
+        "url": "https://www.gov.uk/government/publications/register-a-limited-liability-partnership-ll-in01",
+        "reason": "This is an administrative form update that adds a postal address to the LLP registration form. It contains no new rule, guidance or change that affects how law firms must operate.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "UK issues largest penalty for financial sanctions breaches since Russia’s 2022 illegal invasion of Ukraine",
+        "url": "https://www.gov.uk/government/news/uk-issues-largest-penalty-for-financial-sanctions-breaches-since-russias-2022-illegal-invasion-of-ukraine",
+        "reason": "This is enforcement action against a named firm (a sanctions penalty), not a new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Check if an email or communication claiming to be from OFSI is genuine",
+        "url": "https://www.gov.uk/government/publications/check-if-an-email-or-communication-claiming-to-be-from-ofsi-is-genuine",
+        "reason": "This is general public advice on spotting scam messages that pretend to be from OFSI; it sets no new rule or regulatory expectation for how law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions webinars and events",
+        "url": "https://www.gov.uk/guidance/financial-sanctions-webinars-and-events",
+        "reason": "This page lists OFSI's webinars and events and adds a form for inviting OFSI to speak, so it does not change any rule or guidance on how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Sanctions enforcement action",
+        "url": "https://www.gov.uk/government/collections/sanctions-enforcement-action",
+        "reason": "This is a collection page listing sanctions enforcement actions against named firms and vessels, with case studies; it is enforcement material, not a new rule, proposal or guidance for law firms.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Iran nuclear sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance",
+        "reason": "This is a routine update to regime-specific Iran sanctions guidance, mostly about trade in goods. It does not say what the 2026 amendments change or how they affect the way law firms operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Iran sanctions: guidance",
+        "url": "https://www.gov.uk/government/publications/iran-sanctions-guidance",
+        "reason": "The guidance was updated for the Iran (Sanctions) (Amendments) Regulations 2026, but the page doesn't say what changed or how it affects law firms, so an accurate record isn't possible.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "Financial sanctions licensing: supplementary guidance",
+        "url": "https://www.gov.uk/government/publications/financial-sanctions-licensing",
+        "reason": "The page shows only that OFSI's travel expenses guidance for licence applications was amended, without saying what changed, and it has little direct effect on how law firms must operate.",
+        "country": "uk",
+        "source": "ofsi"
+      },
+      {
+        "title": "The Global Human Rights and International Humanitarian Law Sanctions (Overseas Territories) Order 2026",
+        "url": "http://www.legislation.gov.uk/uksi/2026/1089/made",
+        "reason": "The Order extends the human rights sanctions regime to the British overseas territories, binding people in those territories rather than UK law firms, so nothing in the existing UK record changes.",
+        "country": "uk",
+        "source": "legislation-new"
+      },
+      {
+        "title": "Next page",
+        "url": "https://consultations.ag.gov.au/consultation_finder/?sort_on=iconsultable_enddate&sort_order=descending&st=closed&b_start=30",
+        "reason": "This is page 2 of a list of closed consultations from 2022 to 2024. It has no single item, no new fact and no outcome, so there is nothing reliable to record.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Draft guidance on adequate procedures to prevent the commission of foreign bribery",
+        "url": "https://consultations.ag.gov.au/crime/draft-guidance-on-adequate-procedures",
+        "reason": "This is a 2024 consultation on general guidance for companies, closed 9 June 2024; the page doesn't confirm the final guidance or the offence's start date, and it isn't aimed at law firms, so a record could be wrong.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Administrative Review Tribunal Rules 2024 – Public Consultation",
+        "url": "https://consultations.ag.gov.au/legal-system/art-rules",
+        "reason": "The Administrative Review Tribunal Rules set procedure for a federal tribunal (time limits, fees, notices of decision), do not change how law firms must operate, and took effect in October 2024.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Exposure Draft: Family Law Regulations 2024",
+        "url": "https://consultations.ag.gov.au/families-and-marriage/family-law-regs-2024",
+        "reason": "This remakes the family law procedure regulations in substantially the same form, and they started on 1 April 2025, so it does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Enhancing Civil Protections and Remedies for Forced Marriage",
+        "url": "https://consultations.ag.gov.au/integrity/forced-marriage",
+        "reason": "A 2024 public consultation on civil protections for forced marriage victims does not change how law firms must operate, and it has not produced any rule or guidance for firms.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Consultation to inform options for implementing the Model Law on Electronic Transferable Records in Australia",
+        "url": "https://consultations.ag.gov.au/international-relations/mletr",
+        "reason": "This is a closed 2024 consultation on recognising electronic trade documents, with no decision yet; it is trade law reform and does not affect how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Public consultation ­­– Review of the Federal Circuit and Family Court of Australia Act 2021",
+        "url": "https://consultations.ag.gov.au/legal-system/fcfcoa-act-review",
+        "reason": "This is a closed consultation for a statutory review of court structure, and the report has already been tabled. It does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Automated Decision-Making Reform",
+        "url": "https://consultations.ag.gov.au/integrity/adm",
+        "reason": "This consultation is about government agencies' use of automated decision-making (ADM) and imposes nothing on law firms; it closed in January 2025 and no rules have followed.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Consultation draft of the National Plan to End the Abuse and Mistreatment of Older People 2024-2034",
+        "url": "https://consultations.ag.gov.au/families-and-marriage/eamop",
+        "reason": "This is a government policy consultation on a national plan about elder abuse, and it closed in February 2025. It does not change any rule or set any expectation for how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Review of the use of legal professional privilege in Commonwealth investigations",
+        "url": "https://consultations.ag.gov.au/legal-system/lpp-review",
+        "reason": "This is an early discussion paper that tests issues without proposing specific rule changes, and its consultation closed in February 2025; reform options were to follow in a later paper.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Consultation on the Identity Verification Services Amendment (Participation Agreements) Rules 2025",
+        "url": "https://consultations.ag.gov.au/national-security/ivs-amendment-rules-2025",
+        "reason": "The rules only extended a transition deadline (now passed) for Document Verification Service users to sign participation agreements with the department, which does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Australia's fourth Universal Periodic Review (UPR) – draft national report",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/upr",
+        "reason": "This was a consultation on Australia's UN human rights report. It does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Strengthening the Modern Slavery Act 2018 (Cth)",
+        "url": "https://consultations.ag.gov.au/crime/modern-slavery-act",
+        "reason": "This is a feedback summary of a Modern Slavery Act consultation that closed in 2025, with no concrete proposal, decision or date. It also only affects entities with revenue of A$100m or more, so few law firms would be affected.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Consultation on the 'Happily Ever (before and) After' brochure for marrying couples",
+        "url": "https://consultations.ag.gov.au/families-and-marriage/heba",
+        "reason": "This consultation is about a brochure that marriage celebrants give to couples, so it doesn't change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Establishment of an Accreditation Scheme for Children’s Contact Services",
+        "url": "https://consultations.ag.gov.au/families-and-marriage/establishment-of-an-accreditation-scheme-for-ccs",
+        "reason": "This is a consultation on accrediting children's contact services. It does not affect how law firms must operate, and the page only reports feedback without any decision.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Proposed amendments to the Administrative Review Tribunal Rules 2024 – authorisations for registrars and staff",
+        "url": "https://consultations.ag.gov.au/integrity/art-amendments",
+        "reason": "The item proposes giving tribunal registrars and staff more procedural powers, which changes how the tribunal runs but not how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Administrative Review Council Inquiry on Social Security",
+        "url": "https://consultations.ag.gov.au/legal-system/arc-inquiry-social-security",
+        "reason": "This is an Administrative Review Council inquiry into how social security decisions are reviewed, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Public sector whistleblower reforms",
+        "url": "https://consultations.ag.gov.au/integrity/public_sector_whistleblower_reforms",
+        "reason": "This is about whistleblower reform for the Commonwealth public sector under the PID Act. It does not affect how law firms must operate, and it is a closed consultation feedback page from 2025.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Disability Discrimination Act Review – Community Survey",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/dda-community-survey",
+        "reason": "This is a general community survey on reforming the Disability Discrimination Act, and it closed in November 2025; it sets no legal-sector rule, guidance or obligation that changes how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Disability Discrimination Act Review – Issues Paper",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/dda-issues-paper",
+        "reason": "This page summarises feedback on a general Disability Discrimination Act review whose consultation closed in 2025, and it contains no new proposal, decision or law-firm-specific obligation.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Evaluation of the operation of amendments made by the Native Title Legislation Amendment Act 2021",
+        "url": "https://consultations.ag.gov.au/legal-system/evaluation-of-amendments-to-the-native-title-act",
+        "reason": "This is a closed consultation whose evaluation report on the 2021 native title amendments was tabled in parliament; it makes no new rule and does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Notice of proposed agreement under section 47C of the Native Title Act 1993 (Cth)",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/section-47c-native-title-act",
+        "reason": "This is a notice of a native title agreement for specific land in Queensland, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Community survey to inform the development of the Second Action Plan under the National Strategy to Prevent and Respond to Child Sexual Abuse 2021-2030",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/nocs-community-survey",
+        "reason": "A community survey on a national child sexual abuse action plan is a policy consultation that does not change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Statutory Review of the Crimes Legislation Amendment (Combatting Foreign Bribery) Act 2024",
+        "url": "https://consultations.ag.gov.au/crime/combatting_foreign_bribery",
+        "reason": "This is a statutory review of an existing Act, and its consultation has already closed. It proposes no specific rule change, so it does not yet change how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Australia’s draft seventh periodic report under the Convention against Torture and other Cruel, Inhuman or Degrading Treatment or Punishment",
+        "url": "https://consultations.ag.gov.au/rights-and-protections/cat",
+        "reason": "This is a consultation on Australia's draft UN torture convention report, not a rule, proposal or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "Strengthening Australia’s response to modern slavery in supply chains",
+        "url": "https://consultations.ag.gov.au/crime/modern-slavery",
+        "reason": "This is a general consultation, now closed, on a proposed failure-to-prevent modern slavery offence for businesses. It is not specific to law firm practice and does not say who would be covered, so a record can't say accurately which firms it applies to.",
+        "country": "au",
+        "source": "agd-consultations"
+      },
+      {
+        "title": "AML/CTF-related amendments to uniform rules",
+        "url": "https://legalservicescouncil.org.au/highlights/aml-ctf-related-amendments-to-uniform-rules-.html",
+        "reason": "This is the same AML/CTF conduct and practice rule change already tracked as au-lsc-amlctf-conduct-rules, which is in force from 1 July 2026, and the item adds no new fact.",
+        "country": "au",
+        "source": "lsc-news"
+      },
+      {
+        "title": "Webinar: Family Violence in the Victorian Indian Community",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/webinar-family-violence-victorian-indian-community",
+        "reason": "This is a 2021 notice for a webinar launching a research report. Events and research are out of scope, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Report into Sexual Harassment in Victorian Courts provides roadmap for creating safe and respectful workplaces",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/report-sexual-harassment-victorian-courts-provides-roadmap-creating-safe-and",
+        "reason": "This is a 2021 media statement welcoming a report on sexual harassment in Victorian courts; it is not a new or amended rule, consultation, decision or guidance for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New CPD year – what to consider",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-cpd-year-what-consider",
+        "reason": "This is a 2021 CPD planning article about the 2021/22 CPD year. It is out of date and mostly gives general tips, so it adds no current change for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Workplace culture survey",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/workplace-culture-survey",
+        "reason": "This is an optional workplace culture survey with early statistics from 2021, not a rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - May 2021",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-may-2021",
+        "reason": "This is a newsletter from May 2021 that mostly contains reminders, survey results and routine notices; the CPD provider guidance and cyber security tips in it are more than five years old and add no new change that is current for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "WAM Celebrates 10 Years and Launches Evaluation Report",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/wam-celebrates-10-years-and-launches-evaluation-report",
+        "reason": "This is a 2021 news item about a grant-funded mentoring program's anniversary and evaluation report, not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Joining Up Justice website launch",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/joining-justice-website-launch",
+        "reason": "This is a 2021 announcement that a grant-funded research website launched. It is not a rule, consultation, decision or guidance, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Northern CLC’s Abused and Abandoned Report Now Available",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/northern-clcs-abused-and-abandoned-report-now-available",
+        "reason": "This is a 2021 research report from a community legal centre funded by a grant, not a rule, consultation, decision or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Health Justice Australia – Building Blocks for HJP Development Resource",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/health-justice-australia-building-blocks-hjp-development-resource",
+        "reason": "This is a 2021 promotion of a third-party resource on health justice partnerships, not a regulatory change affecting how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - August 2021",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-august-2021",
+        "reason": "This is a VLSB+C newsletter from August 2021: mostly regulator news, statistics, research and reminders, plus two 2021 guidance notes that may have been replaced since, so there is no current change to track.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New tool for reporting lawyer sexual harassment",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-tool-reporting-lawyer-sexual-harassment",
+        "reason": "This 2021 announcement launches a reporting tool and does not change any rule, guidance or obligation on how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - October 2021",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-october-2021",
+        "reason": "This is an October 2021 newsletter whose items are long out of date (COVID vaccine mandates, 2021 court rule changes, older guidance), so it adds no current change for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C annual report 2020/21 tabled in Parliament",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-annual-report-202021-tabled-parliament",
+        "reason": "This is a 2021 annual report announcement with statistics and no new or amended rule, consultation, decision or guidance affecting how firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Guidance on providing in person services to unvaccinated clients",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/guidance-providing-person-services-unvaccinated-clients",
+        "reason": "This is VLSB+C guidance from November 2021 on seeing unvaccinated clients during COVID-19 reopening, so it is historical and not a current change affecting how firms operate in 2026.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "$1.4 million funding boost to improve Victorians’ access to justice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/14-million-funding-boost-improve-victorians-access-justice",
+        "reason": "This is a 2021 announcement about grant funding for access-to-justice projects, not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - December 2021",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-december-2021",
+        "reason": "This is a December 2021 newsletter with office closures, events, podcasts and general commentary, and it sets out no new or changed rule or formal guidance that would still be current.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "$20,000 in VLF Community Legal Grants available",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/20000-vlf-community-legal-grants-available",
+        "reason": "This 2022 notice about community legal grant funding is not a regulatory change and does not affect how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "End of CPD year – 31 March",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/end-cpd-year-31-march",
+        "reason": "This is a 2022 reminder about the CPD year-end deadline. It adds no new rule or change, and it is out of date.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "End of trust year – 31 March",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/end-trust-year-31-march",
+        "reason": "This is a reminder from 2022 about the end of the trust year and existing trust account duties. It adds no new rule, proposal or current guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Where lawyers are located in Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/where-lawyers-are-located-victoria",
+        "reason": "This is a 2022 statistics item about where Victorian lawyers are located and about grant projects, with no regulatory change for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - March 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2022",
+        "reason": "This is a 2022 newsletter with routine reminders about CPD, the trust year and certificate renewals, plus grants and events; it contains no new or amended rule, proposal or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Legal costs and protecting consumer rights",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/legal-costs-and-protecting-consumer-rights",
+        "reason": "This is a 2022 commentary article for World Consumer Rights Day about why clients complain over legal costs, and it sets out no new rule, proposal or formal guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Survey findings highlight diversity of workplace wellbeing experiences",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/survey-findings-highlight-diversity-workplace-wellbeing-experiences",
+        "reason": "This is a 2022 report of survey findings on lawyer wellbeing. It is research, not a rule, proposal, decision or guidance that changes how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Reminder to Victorian lawyers on importance of Russia/Ukraine sanctions compliance",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/reminder-victorian-lawyers-importance-russiaukraine-sanctions-compliance",
+        "reason": "This is a 2022 reminder of existing sanctions duties with no new rule or fact, and its description of a fast-changing regime is now outdated, so publishing it risks misleading firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - May 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-may-2022",
+        "reason": "This is a May 2022 newsletter whose regulatory items (Rule 11A from April 2022, WA joining the Uniform Law in July 2022, digital records guidance) are years old, and the rest is surveys, renewal reminders and other content outside the tracker's scope, so it adds no current fact worth tracking.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - July 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-july-2022",
+        "reason": "This 2022 newsletter mainly covers wellbeing resources, certificate renewals, research, a court portal and a webinar; its one procedural item (supervised practice plans) is a minor change from four years ago, so no current change needs tracking.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Lawyer-Client Relationship Survey 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/lawyer-client-relationship-survey-2022",
+        "reason": "This is a 2022 survey and research report, not a new or amended rule, proposal, decision or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - October 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-october-2022",
+        "reason": "This is an October 2022 newsletter made up of survey results, trust-year statistics, reminders and general cyber security advice, with no new or amended rule or new guidance that is still current.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Australian-first whistleblower legal project to share in $4.8 million in funding",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/whistleblower-legal-project-to-share-in-grants-funding",
+        "reason": "This is a 2022 announcement of grant funding for access-to-justice projects, not a rule, proposal or guidance affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - December 2022",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-december-2022",
+        "reason": "This December 2022 newsletter covers an office closure, an enforcement case study, grants and reminders of existing duties, and it contains no new or amended rule, proposal or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C annual report for 2021/22 tabled in Parliament",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-annual-report-202122-tabled-parliament",
+        "reason": "This is an annual report announcement with statistics and no new or changed rule or guidance, so it falls outside the tracker's scope.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Fiona McLeay reappointed as Victorian Legal Services Board CEO and Commissioner",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/fiona-mcleay-reappointed-victorian-legal-services-board-ceo-and-commissioner",
+        "reason": "This is a 2023 announcement that a regulator's CEO was reappointed, and appointments do not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Statement from Victorian Legal Services Board CEO and Commissioner Fiona McLeay on the Coroner's findings into the death of Veronica Nelson",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/statement-victorian-legal-services-board-ceo-and-commissioner-fiona-mcleay",
+        "reason": "This 2023 statement responds to a coroner's findings and starts an investigation into a named lawyer, so it is enforcement, not a rule or guidance that changes how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - March 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2023",
+        "reason": "This is a March 2023 newsletter made up of reminders about deadlines (CPD, trust year, practising certificate renewal), event notices and general tips, and it announces no new or amended rule that is still current.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Notice to clients and all other parties dealing with lawyer Roland Voon and the law practice Lloyd Meridian Legal",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/notice-clients-and-all-other-parties-dealing-lawyer-roland-voon-and-law-practice",
+        "reason": "This is an intervention notice about one named lawyer and law practice. It is enforcement-type action against a specific firm, not a change to rules or guidance for firms generally.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "External examiner newsletter 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/external-examiner-newsletter-2023",
+        "reason": "This is a 2023 newsletter for external examiners. It gives reminders about deadlines and how to report, and it does not announce any new or changed rule, proposal or guidance that the tracker should record.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New campaign builds trust with lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-campaign-builds-trust-lawyers",
+        "reason": "This is a 2023 public awareness campaign for clients, not a new rule, proposal or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Public statement on Alexander Stuart Pinnock (aka Alec Stuart; Alec Anton Stuart)",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/public-statement-alexander-stuart-pinnock-aka-alec-stuart-alec-anton-stuart",
+        "reason": "This is a public statement about one named unqualified person, which counts as enforcement, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Statement on the Human Source Management Act 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/statement-human-source-management-act-2023",
+        "reason": "This 2023 statement reminds Victorian lawyers of their existing confidentiality and conflict duties and says the Human Source Management Act does not change them, so it adds no new rule or fact for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - May 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-may-2023",
+        "reason": "This is a May 2023 newsletter. It covers a risk outlook, reminders about renewals and registration, a public campaign and events, and none of it is a new or changed rule that the tracker needs.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New lawyer members for the Victorian Legal Services Board",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-lawyer-members-victorian-legal-services-board",
+        "reason": "This is a 2023 announcement of board appointments, which does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Renew your practising certificate – only one week remaining!",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/renew-your-practising-certificate-only-one-week-remaining",
+        "reason": "This is an old 2023 reminder to renew practising certificates, which counts as a fee and admin notice, so it is not a regulatory change.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - July 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-july-2023",
+        "reason": "This is a July 2023 newsletter, more than three years old, and none of its guidance or form notices can be confirmed as still current, so it should not be published as a new change.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Introducing our Access to Justice Policy Statement",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/introducing-our-access-justice-policy-statement",
+        "reason": "This is a 2023 policy statement about the regulator's own access-to-justice funding and strategy, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Climate justice a hot topic in record grants round",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/climate-justice-hot-topic-record-grants-round",
+        "reason": "This is a 2023 announcement of grant funding. It does not change any rule and does not affect how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - September 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-september-2023",
+        "reason": "This 2023 newsletter is mostly grants, events and research; its AI item is superseded by the tracked 2026 AI guidance, and its other guidance notes are too old to confirm as current.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Generative AI and Lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/generative-ai-and-lawyers",
+        "reason": "This is VLSB+C's 2023 generative AI note, likely superseded; the existing record au-vlsbc-ai-use-guidance covers the newer guidance and this page adds no new fact.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C statement on outcome of investigation into conduct of lawyer Tass Antos",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-statement-outcome-investigation-conduct-lawyer-tass-antos",
+        "reason": "This is a 2023 statement about the outcome of a complaint against a named lawyer. It is an enforcement matter, not a rule, proposal or guidance for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Women lawyers still on the rise in Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/women-lawyers-still-rise-victoria",
+        "reason": "This is a 2023 news release about the VLSB+C annual report and workforce statistics. It does not change any rule or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Modelling change: how VLSB+C funding helped over 700 women and girls access justice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/modelling-change-how-vlsbc-funding-helped-over-700-women-and-girls-access-justice",
+        "reason": "This is a report on grant-funded access-to-justice projects. It does not change any rule and does not affect how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Protect your law practice from cyberattacks",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/protect-your-law-practice-cyberattacks",
+        "reason": "This is a short news post from December 2023 announcing cybersecurity resources, and the page gives no specific expectations or controls to report accurately.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Early career lawyers’ experiences of supervised legal practice: 2023 survey",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/early-career-lawyers-experiences-supervised-legal-practice-2023-survey",
+        "reason": "This is a 2023 research survey of early career lawyers' experiences of supervised legal practice; it sets no rule, proposal or guidance for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - December 2023",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-december-2023",
+        "reason": "This is a December 2023 newsletter containing reminders, annual report highlights, research, survey results and notices of future cyber resources, with no new rule, consultation or decision.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "External examiner newsletter 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/external-examiner-newsletter-2024",
+        "reason": "This is a January 2024 newsletter for external examiners; it holds past deadlines, reminders, an action against one examiner and a 2024 change to examiners' report form, not a current rule change for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Public statement about Spiros Kalotihos",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/public-statement-about-spiros-kalotihos",
+        "reason": "This is a public statement about one named person who is not a registered lawyer. It is enforcement against an individual and does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Wellness for Law Forum returns in February",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/wellness-law-forum-returns-february",
+        "reason": "This is a notice for a wellbeing forum held in 2024, not a rule, proposal, decision or guidance that affects how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New study invites lawyers to share their views on wellbeing and workplace culture",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-study-invites-lawyers-share-their-views-wellbeing-and-workplace-culture",
+        "reason": "This is a 2024 research survey invitation on lawyer wellbeing, not a rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - March 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2024",
+        "reason": "This March 2024 newsletter mostly holds reminders, events and third-party news, and the one relevant item (2024 cybersecurity guidance) lacks a confirmed issue date or proof it is still current.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Survey on supervised legal practise",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/survey-supervised-legal-practise",
+        "reason": "This is a voluntary research survey from 2024 on supervised legal practice, so it is not a rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New legal funding stream a game changer for regional Victorians",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-legal-funding-stream-game-changer-regional-victorians",
+        "reason": "A grant funding announcement for community legal centres is not a rule, proposal or guidance and does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - June 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2024",
+        "reason": "This is a June 2024 newsletter that is now more than two years old; it covers a risk outlook, practising certificate renewal reminders, surveys, events and a short, now-dated cyber impersonation alert, none of which is a new or changed rule for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New report reveals how legal services can help fix Victoria’s growing housing crisis",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-report-reveals-how-legal-services-can-help-fix-victorias-growing-housing",
+        "reason": "This is a research report about housing justice and grants. It does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Introducing the Risk Outlook 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/introducing-risk-outlook-2024",
+        "reason": "This is an old 2024 annual risk outlook publication summarising risks, not a new rule, proposal or actionable guidance change.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New Advancing Housing Justice Grants Round – now open",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-advancing-housing-justice-grants-round-now-open",
+        "reason": "This is a 2024 grants round announcement. It is not a rule, proposal, decision or guidance, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Law practices at risk of losing client money, and their reputation",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/law-practices-risk-losing-client-money-and-their-reputation",
+        "reason": "This is a July 2024 media release about the criminal sentencing of a named paralegal; its warning about staff checks and supervision repeats existing duties rather than setting new rules or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - August 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-august-2024",
+        "reason": "This is an August 2024 newsletter. Its guidance items are only summarised, are two years old and may have been superseded, and the rest is news, research and events, so writing a record from it is not reliable.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C grantee wins Good Design Award 2024 for social impact",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-grantee-wins-good-design-award-2024-social-impact",
+        "reason": "This is news about a grant recipient winning a design award, not a change to rules or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Initial findings from new lawyer wellbeing research",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/initial-findings-new-lawyer-wellbeing-research",
+        "reason": "This item shares early research findings on lawyer wellbeing. It sets out no new rule, proposal, decision or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Improving lawyer and consumer experiences: a clear focus for Victoria’s legal regulator",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/improving-lawyer-and-consumer-experiences-clear-focus-victorias-legal-regulator",
+        "reason": "This is a news item about the VLSB+C's 2023–24 annual report, which is excluded, and it sets out no new rule or guidance that firms must act on.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Announcing the 2024 Change Grant recipients",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/announcing-2024-change-grant-recipients",
+        "reason": "This is an announcement about grant funding to community organisations, not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Statement on the use of artificial intelligence in Australian legal practice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/statement-use-artificial-intelligence-australian-legal-practice",
+        "reason": "published 2024-12-06, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Warning of increase in impersonation scams targeting law practice bank accounts",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/warning-increase-impersonation-scams-targeting-law-practice-bank-accounts",
+        "reason": "published 2024-12-04, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update – December 2024",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-december-2024",
+        "reason": "This December 2024 newsletter mostly repeats or links to material published elsewhere, such as the 2024 Uniform Law AI statement, and adds no new or updated fact for any tracked change.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Welcoming Sam Hay KC as the new Chair of the Victorian Legal Services Board",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/welcoming-sam-hay-kc-new-chair-victorian-legal-services-board",
+        "reason": "This is an appointment announcement for a board chair, not a change to rules or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Change Grantee project Yallum Yallum featured on ABC News",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/change-grantee-project-yallum-yallum-featured-abc-news",
+        "reason": "This is a news item about a grant-funded project appearing in the media, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Last chance to help create a lawyer wellbeing Theory of Change",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/last-chance-help-create-lawyer-wellbeing-theory-change",
+        "reason": "This is a 2025 request for sector feedback on a lawyer wellbeing Theory of Change model, not a rule, proposal or guidance that changes how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Take part in the Lawyer Census 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/take-part-lawyer-census-2025",
+        "reason": "This is an invitation to a voluntary research survey, the Lawyer Census 2025. It does not change any rule and gives firms no guidance on how to operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - March 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2025",
+        "reason": "This is an old newsletter of reminders, a disciplinary case study, a census, appointments and events; its trust money warning restates existing rules and adds no new fact.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Announcing the latest Strong Foundations grant recipients",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/announcing-latest-strong-foundations-grant-recipients",
+        "reason": "This is an announcement of grant recipients from the Public Purpose Fund, not a change to rules or guidance affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Announcing the Housing Justice grant recipients",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/announcing-housing-justice-grant-recipients",
+        "reason": "This is an announcement of Public Purpose Fund grant recipients, not a rule, proposal, decision or guidance affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New exhibition explores the intersection of Indigenous incarceration, art and culture",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-exhibition-explores-intersection-indigenous-incarceration-art-and-culture",
+        "reason": "This is an announcement about an art exhibition the regulator sponsored, not a rule, consultation or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New research on lawyer wellbeing informs pathway for systemic change",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-research-lawyer-wellbeing-informs-pathway-systemic-change",
+        "reason": "This item announces a research report on lawyer wellbeing. Research is out of scope, and the item sets no new rule, guidance or obligation for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "External examiner newsletter 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/external-examiner-newsletter-2025",
+        "reason": "An April 2025 newsletter for external examiners repeating reporting deadlines and existing trust-account expectations, with surveys; no new rule or guidance change for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New framework sets course for better lawyer wellbeing in Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-framework-sets-course-better-lawyer-wellbeing-victoria",
+        "reason": "This is a research-based wellbeing framework from 2025 that sets no new rule, requirement or guidance on how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C statement on the matter of Sarah Tricarico v Victorian Legal Services Board",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-statement-matter-sarah-tricarico-v-victorian-legal-services-board",
+        "reason": "This is a statement about court proceedings involving a named individual and a practising certificate suspension. It does not change any rule or give firms guidance on how to operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update May 2025 – the wellbeing edition",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-may-2025-wellbeing-edition",
+        "reason": "This is an old May 2025 newsletter about wellbeing frameworks, research, practising certificate renewal reminders, appointments and grants, and contains no new or amended rule, proposal or binding guidance relevant to how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Legal regulator's move to safeguard Victorians eligible for government redress",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/legal-regulators-move-safeguard-victorians-eligible-government-redress",
+        "reason": "published 2025-06-13, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Victorian Legal Services Board provides record $173.9 million in funding for access to justice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/victorian-legal-services-board-provides-record-1739-million-funding-access",
+        "reason": "This is an access-to-justice funding report with statistics. It does not change any rule, guidance or obligation for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Completing the picture: Supervisors’ experiences of supervising early career lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/completing-picture-supervisors-experiences-supervising-early-career-lawyers",
+        "reason": "This item reports survey results on supervising early career lawyers and only promises future resources, so it changes no rule and gives firms no guidance on how to act.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Supervisors’ experiences of supervising early career lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/supervisors-experiences-supervising-early-career-lawyers",
+        "reason": "This item reports survey results on supervising early career lawyers, which is research, and it does not change any rule or tell firms how to act.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Safeguarding against claim farming: Protecting people eligible for redress",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/safeguarding-against-claim-farming-protecting-people-eligible-redress",
+        "reason": "This is a fact sheet for consumers about claim farming. It mentions earlier VLSB+C guidance to lawyers but gives none of its content or its date, so it adds no rule or guidance that firms can act on.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C receives Scope communication accreditation",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-receives-scope-communication-accreditation",
+        "reason": "This is news about the regulator's own accessibility accreditation and does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - July 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-july-2025",
+        "reason": "This is a July 2025 newsletter of news, research and short guidance summaries, none of them a new rule; any separate guidance (such as on claim farming) is better tracked from its own page.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New lawyer representative member for the Victorian Legal Services Board",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-lawyer-representative-member-victorian-legal-services-board",
+        "reason": "This is a board appointment announcement, not a change to rules or guidance affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Victorian solicitor referred for strike-off for sexual harassment, bullying",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/victorian-solicitor-referred-strike-sexual-harassment-bullying",
+        "reason": "This is enforcement against a named solicitor (a tribunal disciplinary outcome), not a new rule, proposal, decision or guidance affecting how firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New tool to improve wellbeing in legal workplaces",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-tool-improve-wellbeing-legal-workplaces",
+        "reason": "This announces a voluntary wellbeing resource and CPD sessions, not a rule, regulatory expectation or warning, so it does not change how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Findings of Pilot Victorian Legal Understanding and Lawyer Use Survey released",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/findings-pilot-victorian-legal-understanding-and-lawyer-use-survey-released",
+        "reason": "This is a research report on how the public uses legal services, and it does not change any rule or tell firms how to act.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New independent research centre to boost access to justice for Victorians",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-independent-research-centre-boost-access-justice-victorians",
+        "reason": "The launch of a research centre and its first survey report is research, not a change to rules or guidance that affects how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Statement on the ‘Mr Dayal’ matter",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/statement-mr-dayal-matter",
+        "reason": "This is enforcement action against a named practitioner, not a new rule or guidance, so the tracker does not cover it.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - October 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-october-2025",
+        "reason": "An October 2025 newsletter of enforcement case studies, a research launch, events, an appointment and reminders of existing duties and earlier guidance, with no new or changed rule or guidance to record.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Wellbeing Guidelines for Legal Workplaces CPD event",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/wellbeing-guidelines-legal-workplaces-cpd-event",
+        "reason": "This item announces a CPD webinar event, and events are outside the tracker's scope; it adds no new rule, proposal or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Allegations of misappropriation of investment funds by Mr John Adams (deceased) of AMS Ivanhoe Lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/allegations-misappropriation-investment-funds-mr-john-adams-deceased-ams-ivanhoe",
+        "reason": "This is an update on an investigation into one named practitioner and law practice, not a change to rules or guidance for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New lay member for the Victorian Legal Services Board - Bronwen Bock",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-lay-member-victorian-legal-services-board-bronwen-bock",
+        "reason": "This is a board appointment announcement, which does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Victoria’s legal regulator driving meaningful and lasting change for lawyers and the wider community",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/annual-report-2024-25",
+        "reason": "This is an annual report announcement summarising past activity, with no new rule, proposal or guidance for firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C welcomes the commencement of Victoria’s first Statewide Treaty Agreement",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-welcomes-commencement-victorias-first-statewide-treaty-agreement",
+        "reason": "This is a statement welcoming the Victorian Statewide Treaty, not a change to legal regulation that affects how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Warning – escrow agreements used for potential investment scams and money laundering",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/warning-escrow-agreements-used-potential-investment-scams-and-money-laundering",
+        "reason": "published 2025-12-10, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New report examines sexual harassment in the legal profession in Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-report-examines-sexual-harassment-legal-profession-victoria",
+        "reason": "This is a research report with survey statistics and a new reporting phone line. It adds no new rule, proposal or guidance on how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Increased pathways for reporting sexual harassment to us",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/increased-pathways-reporting-sexual-harassment-us",
+        "reason": "The item announces new ways to report sexual harassment to the regulator and links to research findings; it sets no new rule, proposal or guidance on how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New guidance for lawyers who act in motor vehicle accident claims",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-guidance-lawyers-who-act-motor-vehicle-accident-claims",
+        "reason": "published 2025-12-12, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New resources to support supervised legal practice",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-supervised-legal-practice",
+        "reason": "The item announces optional development resources for supervised legal practice (a capability framework and templates) that create no new obligation, expectation or warning for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New lay member for the Victorian Legal Services Board - Dr Alice Parkhill",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-lay-member-victorian-legal-services-board-dr-alice-parkhill",
+        "reason": "This is a board appointment announcement, which is not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Joint statement on behalf of the legal profession",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/joint-statement-bondi",
+        "reason": "This is a joint statement of solidarity after the Bondi Beach attacks, not a change to rules, guidance or how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Telling us about serious misconduct by lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/telling-us-about-serious-misconduct-lawyers",
+        "reason": "published 2025-12-17, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - December 2025",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-december-2025",
+        "reason": "This is an old newsletter roundup. Its AML/CTF dates repeat known facts, and its new guidance items are only summarised, with the detail on separate pages, so no single accurate record can be written from it.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "National Day of Mourning for the victims of the Bondi Beach terrorist attack",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/national-day-mourning-victims-bondi-beach-terrorist-attack",
+        "reason": "This is a commemorative statement about a National Day of Mourning, not a regulatory change, consultation or guidance affecting how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Announcing the 2025 Strong Foundations grant recipients",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/announcing-2025-strong-foundations-grant-recipients",
+        "reason": "A grant funding announcement for community legal centres does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Interactive map modelling legal need now available",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/interactive-map-modelling-legal-need-now-available",
+        "reason": "This is a research resource (an interactive map of legal need), not a rule, proposal, decision or guidance that affects how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Take part in the 2026 Lawyer Census",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/take-part-2026-lawyer-census",
+        "reason": "This is an invitation to a voluntary research survey. It is not a rule, proposal, decision or guidance, and it does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "2026–27 practising certificate renewals open on 1 April 2026",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/2026-practising-certificate-renewals",
+        "reason": "This is an administrative notice about the yearly practising certificate renewal period, not a new or amended rule or guidance, and that period has already passed.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - March 2026",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-march-2026",
+        "reason": "This March 2026 newsletter is mostly reminders (renewals, trust year, CPD), research findings, events and an annual risk outlook, with no new or amended rule, decision or standalone guidance that the tracker does not already hold.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Risk Outlook 2026: new and persistent risks for lawyers highlighted",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/risk-outlook-2026-new-and-persistent-risks-lawyers-highlighted",
+        "reason": "The VLSB+C Risk Outlook 2026 is a report-style list of risk areas, not a new rule, proposal, decision or guidance that sets specific expectations, so it does not affect how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "2026–27 practising certificate renewals now open",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/2026-27-practising-certificate-renewals-now-open",
+        "reason": "This is a routine notice that practising certificate renewals are open, with administrative steps and deadlines; it is not a new or amended rule, consultation, decision or guidance on how firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New report explores uncivil behaviours in the legal profession in Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-report-explores-uncivil-behaviours-legal-profession-victoria",
+        "reason": "This is a research report on uncivil behaviour drawn from the legal census, not a new rule, proposal or guidance that changes how firms must operate; it only points to existing resources.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "External examiner newsletter 2026",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/external-examiner-newsletter-2026",
+        "reason": "This newsletter is for external examiners. It repeats trust reporting deadlines and existing duties but announces no new rule, proposal, decision or guidance for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Sam Hay KC appointed as Justice of the Supreme Court of Victoria",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/sam-hay-kc-appointed-justice-supreme-court-victoria",
+        "reason": "This is an appointment announcement, not a regulatory change, and it does not affect how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New research examines AI use in the Victorian legal profession",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-research-examines-ai-use-victorian-legal-profession",
+        "reason": "This is a research report on how lawyers use AI. It sets no new rule or guidance, and the AI guidance it mentions is already in the tracker.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Meeting the community in Law Week 2026",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/meeting-community-law-week-2026",
+        "reason": "This is an announcement of a public Law Week event. It does not change any rule or give firms guidance on how to operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New Act to restrict use of NDAs in workplace sexual harassment matters",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-act-restrict-use-ndas-workplace-sexual-harassment-matters",
+        "reason": "published 2026-05-18, before the look-back date 2026-06-01",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Innovate Reconciliation Action Plan",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/innovate-reconciliation-action-plan",
+        "reason": "This is the regulator's own Reconciliation Action Plan, an internal organisational document that does not change how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New resources for corporate lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-corporate-lawyers",
+        "reason": "This VLSB+C guidance is for in-house corporate lawyers and their employers, not law firms, so it does not change how a law firm must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "VLSB+C statement: Gold Migration Lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/vlsbc-statement-gold-migration-lawyers",
+        "reason": "This is a regulatory action against one named law practice (appointing a manager to it), not a change to the rules that apply to law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "New research shows that workplace conditions are critical to wellbeing",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/new-research-shows-workplace-conditions-are-critical-wellbeing",
+        "reason": "This item reports research findings on lawyer wellbeing and points to existing resources, so it contains no new rule, proposal, decision or guidance.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Transfer of wills to the Probate Office",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/transfer-wills-probate-office",
+        "reason": "This is an administrative notice that the VLSB+C is moving the wills it holds to the Supreme Court Probate Office, not a new rule, proposal or guidance changing how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "A tribute to our colleague Dr Hugh McDonald",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/tribute-our-colleague-dr-hugh-mcdonald",
+        "reason": "This is a memorial tribute, not a change to regulation, and it does not affect how law firms must operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Watch now: CPD webinar on why kindness matters for early career lawyers and their supervisors",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/watch-now-cpd-webinar-why-kindness-matters",
+        "reason": "This is a CPD webinar recording, an event. It does not create or change any rule or guidance for law firms.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Commissioner Update - August 2026",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-august-2026",
+        "reason": "This newsletter adds no new fact: the updated NDA guidance is already tracked, and everything else is enforcement case studies, research, events or general news.",
+        "country": "au",
+        "source": "vlsbc-news"
+      },
+      {
+        "title": "Glenn Thexton struck-off roll of lawyers",
+        "url": "https://lsbc.vic.gov.au/news-updates/news/glenn-thexton-struck-roll-lawyers",
+        "reason": "This is enforcement action against a named lawyer (a strike-off order), not a change to rules or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "vlsbc-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [
+      {
+        "source": "sra-news",
+        "country": "uk",
+        "url": "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D",
+        "problem": "HTTP 404"
+      }
+    ],
+    "already_seen": 84,
+    "cost_usd": 10.69,
+    "stopped_early": null,
+    "finished_at": "2026-11-20T14:44:30.868Z"
   }
 ]
