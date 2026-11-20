@@ -1,0 +1,37 @@
+{
+  "id": "uk-hmt-fca-aml-supervision-reform",
+  "country": "uk",
+  "status": "live",
+  "regulator": "HM Treasury",
+  "title": "FCA to take over AML supervision of law firms: final policy set",
+  "summary": "The government has set its final policy on how the FCA will supervise anti-money laundering compliance in professional services firms, including law firms. Legislation is still needed and no start date has been given.",
+  "what_changes": [
+    "The FCA will take over AML/CTF supervision of legal, accountancy, and trust and company service providers.",
+    "The final policy covers registration and gatekeeping, supervisory powers, guidance, information-sharing and enforcement.",
+    "It also covers funding, transition arrangements and how the FCA will be held accountable.",
+    "Legislative changes are still needed before the new supervisory model takes effect."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "AML and ID checks",
+  "stage": "decided",
+  "dates": {
+    "proposed": "2025-11-06",
+    "decided": "2026-06-18"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/consultations/anti-money-laundering-and-counter-terrorist-financing-supervision-reform-duties-powers-and-accountability-consultation"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-18",
+      "event": "Government published its consultation response setting out final policy positions.",
+      "url": "https://www.gov.uk/government/consultations/anti-money-laundering-and-counter-terrorist-financing-supervision-reform-duties-powers-and-accountability-consultation"
+    }
+  ],
+  "admin_notes": []
+}
