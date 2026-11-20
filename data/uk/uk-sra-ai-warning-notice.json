@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-ai-warning-notice",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Warning notice on safe and responsible use of AI by law firms",
+  "summary": "The SRA has issued a warning notice about misuse of AI. It reminds firms that their professional obligations stay the same when they use AI, and that it expects them to have proper oversight and controls.",
+  "what_changes": [
+    "The SRA warns about AI-generated inaccuracies ('hallucinations') in legal research, advice, analysis and court submissions.",
+    "It warns about confidential client information being entered into AI tools that lack appropriate safeguards.",
+    "The SRA expects firms and solicitors to have appropriate oversight and controls over their use of AI.",
+    "Individuals remain responsible for the work and advice they produce, whether or not AI is used."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All SRA-regulated firms and solicitors, especially those using AI for research, drafting, document review or admin.",
+  "topic": "Technology and AI",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-08-17"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/responsible-use-ai"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-08-17",
+      "event": "SRA published a warning notice on the misuse of AI.",
+      "url": "https://www.sra.org.uk/news/news/releases/responsible-use-ai"
+    }
+  ],
+  "admin_notes": []
+}
