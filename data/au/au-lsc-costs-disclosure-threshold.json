@@ -1,0 +1,36 @@
+{
+  "id": "au-lsc-costs-disclosure-threshold",
+  "country": "au",
+  "status": "live",
+  "regulator": "LSC",
+  "title": "Higher costs disclosure threshold and updated shortform disclosure forms",
+  "summary": "The Legal Services Council has proposed raising the upper costs disclosure threshold to $10,000 and replacing the shortform disclosure forms under the Uniform General Rules.",
+  "what_changes": [
+    "Upper costs disclosure threshold would rise to $10,000, excluding GST and disbursements.",
+    "Trustees in bankruptcy would be added to the clients exempt from Part 4.3 costs disclosure.",
+    "Overseas-registered foreign law practices and some government-controlled companies would also be exempt.",
+    "Shortform disclosure Forms 1 and 2 would be replaced with redesigned, user-tested versions."
+  ],
+  "applies_to": [
+    "uniform"
+  ],
+  "who_it_applies_to": "Law practices in NSW, Victoria and WA that are subject to the Uniform Law costs disclosure obligations.",
+  "topic": "Costs and billing",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2026"
+  },
+  "source": {
+    "name": "Legal Services Council",
+    "url": "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-26",
+      "event": "Consultation opened on the draft Costs Disclosure Amendment Rule, closing 16 July 2026.",
+      "url": "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html"
+    }
+  ],
+  "admin_notes": []
+}
