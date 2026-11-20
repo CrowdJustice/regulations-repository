@@ -1,0 +1,36 @@
+{
+  "id": "uk-homeoffice-eccta-information-sharing",
+  "country": "uk",
+  "status": "live",
+  "regulator": "Home Office",
+  "title": "Guidance on sharing information to prevent economic crime",
+  "summary": "Government guidance explains how businesses in the AML regulated sector can share information with each other under the Economic Crime and Corporate Transparency Act 2023 to prevent and detect economic crime.",
+  "what_changes": [
+    "The Act allows direct and indirect information sharing between businesses in the AML regulated sector.",
+    "Sharing is for preventing, detecting and helping investigate economic crime.",
+    "The guidance covers practical points for businesses, including how to share information across sectors.",
+    "It also covers law enforcement reporting, UK GDPR compliance and customer redress."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "Fraud and economic crime",
+  "stage": "guidance",
+  "dates": {
+    "published": "2025-10-03"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/information-sharing-measures-in-the-economic-crime-and-corporate-transparency-act"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-10-03",
+      "event": "Guidance on ECCTA information-sharing measures updated throughout on 3 October 2025.",
+      "url": "https://www.gov.uk/government/publications/information-sharing-measures-in-the-economic-crime-and-corporate-transparency-act"
+    }
+  ],
+  "admin_notes": []
+}
