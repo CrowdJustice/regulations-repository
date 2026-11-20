@@ -1,0 +1,36 @@
+{
+  "id": "uk-fcdo-single-sanctions-list",
+  "country": "uk",
+  "status": "live",
+  "regulator": "FCDO",
+  "title": "UK Sanctions List becomes the single source for sanctions designations",
+  "summary": "Since 28 January 2026, the UK Sanctions List has been the only list of UK sanctions designations. The OFSI Consolidated List is no longer updated, and the guidance says screening systems need to use the UK Sanctions List.",
+  "what_changes": [
+    "The OFSI Consolidated List of Asset Freeze Targets and its search tool stopped being updated on 28 January 2026.",
+    "The guidance says systems that screen against the OFSI Consolidated List need to switch to UK Sanctions List data.",
+    "People designated from 28 January 2026 get only a UK Sanctions List 'Unique ID', not an 'OFSI Group ID'. Historic Group IDs remain valid.",
+    "The guidance recommends that firms using third-party screening providers ask them about the impact on the data they receive."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All UK law firms that carry out sanctions screening, including those using specialist screening tools or third-party data providers.",
+  "topic": "Sanctions",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-01-28"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/guidance/moving-to-a-single-list-for-uk-sanctions-designations-28-january-2026"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-01-28",
+      "event": "Guidance updated to reflect the closure of the OFSI Consolidated List on 28 January 2026.",
+      "url": "https://www.gov.uk/guidance/moving-to-a-single-list-for-uk-sanctions-designations-28-january-2026"
+    }
+  ],
+  "admin_notes": []
+}
