@@ -1,0 +1,8 @@
+[
+  { "id": "p-rss", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "feed", "url": "https://www.austrac.gov.au/media-release/rss.xml" },
+  { "id": "p-sitemap", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/sitemap.xml", "match": "^https://www\\.austrac\\.gov\\.au/news-and-media/.+" },
+  { "id": "p-item", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/news-and-media/media-release/austrac-begins-issuing-infringement-notices-non-enrolled-businesses", "match": "^$" },
+  { "id": "p-guidance", "regulator": "AUSTRAC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/latest-guidance-updates", "match": "^$" },
+  { "id": "p-oaic", "regulator": "OAIC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.oaic.gov.au/news/media-centre", "match": "^$" },
+  { "id": "p-oaic-rss", "regulator": "OAIC", "covers": "probe", "enabled": true, "how": "page", "url": "https://www.oaic.gov.au/sitemap.xml", "match": "^$" }
+]
