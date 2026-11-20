@@ -1,0 +1,36 @@
+{
+  "id": "au-austrac-amlctf-legal-services",
+  "country": "au",
+  "status": "live",
+  "regulator": "AUSTRAC",
+  "title": "AML/CTF obligations extended to lawyers providing designated services",
+  "summary": "From 1 July 2026, law practices and lawyers providing designated services must enrol with AUSTRAC and comply with the anti-money laundering and counter-terrorism financing regime.",
+  "what_changes": [
+    "Firms providing designated services must enrol with AUSTRAC and have an AML/CTF program in place.",
+    "Firms must appoint an AML/CTF compliance officer.",
+    "Staff must be trained on the program, internal processes and relevant AML/CTF risks.",
+    "Firms must carry out customer due diligence and report suspicious matters."
+  ],
+  "applies_to": [
+    "designated"
+  ],
+  "who_it_applies_to": "Law practices and lawyers that provide AML/CTF designated services.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "in_force": "2026-07-01"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-01",
+      "event": "AML/CTF obligations for lawyers providing designated services commenced on 1 July 2026.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026"
+    }
+  ],
+  "admin_notes": []
+}
