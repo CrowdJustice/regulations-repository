@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-complaints-handling-rules",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "New rules on keeping clients informed about their complaints proposed",
+  "summary": "The SRA has proposed rules that would require firms to give clients a timeline for resolving a complaint and regular updates on its progress. Final proposals go to the LSB for approval.",
+  "what_changes": [
+    "When a complaint is first made, firms would have to give the client a timeline for resolving it.",
+    "Firms would have to give clients regular updates on how their complaint is progressing.",
+    "A new Complaints Handling Requirements Statement would explain the existing and new complaints rules.",
+    "These rules add to 2025 proposals that would make firms' complaints information clearer and easier for clients to find."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All SRA-regulated law firms that deal with complaints from clients.",
+  "topic": "Complaints",
+  "stage": "proposed",
+  "dates": {
+    "proposed": "2026-07-03"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/first-tier-complaints-consultation-2026"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-07-03",
+      "event": "Consultation on more complaints-handling rules opened, running from 3 July to 1 September 2026.",
+      "url": "https://www.sra.org.uk/news/news/releases/first-tier-complaints-consultation-2026"
+    }
+  ],
+  "admin_notes": []
+}
