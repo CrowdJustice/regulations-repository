@@ -1,10 +1,6 @@
-# Keeps the one npm dependency and the GitHub Actions the workflows use up to date, with a pull request for each update.
+# Keeps the GitHub Actions the workflows use up to date, with a pull request for each update.
 version: 2
 updates:
-  - package-ecosystem: npm
-    directory: /
-    schedule:
-      interval: weekly
   - package-ecosystem: github-actions
     directory: /
     schedule:

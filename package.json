@@ -1,8 +1,0 @@
-{
-  "name": "regulation-tracker",
-  "private": true,
-  "description": "Only needed for sources that are read through Claude's web fetch. Everything else runs on plain Node.",
-  "dependencies": {
-    "@anthropic-ai/sdk": "^1.10.0"
-  }
-}

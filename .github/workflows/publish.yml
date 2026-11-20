@@ -1,0 +1,52 @@
+name: Publish the feed
+
+# Builds the tracker's output from what is on main and puts it on the "published" branch:
+#   tracker.json  the data, for the Legl website to show
+#   index.html    the same data as a ready-made page
+#   admin.html    the admin page, to download and open on an admin's own computer
+# Nothing is hosted from here. It runs after every daily check and admin action, and when main changes.
+
+on:
+  workflow_run:
+    workflows: ["Daily check", "Admin action"]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths: ["data/**", "sources/**", "web/**", "agent/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build
+        run: node agent/build-page.mjs --out "$RUNNER_TEMP/out"
+
+      # The branch holds only the latest build, as a single commit, so it never conflicts with anything.
+      - name: Put it on the published branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan published
+          git rm -rfq .
+          cp "$RUNNER_TEMP"/out/index.html "$RUNNER_TEMP"/out/admin.html "$RUNNER_TEMP"/out/tracker.json .
+          echo "Built by the Publish the feed workflow. Do not edit; change the main branch instead." > README.md
+          git add index.html admin.html tracker.json README.md
+          git commit -q -m "Publish $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push -q --force origin published

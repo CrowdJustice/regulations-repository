@@ -1,14 +1,12 @@
 // Reading sources: listings (page, feed, GOV.UK search) and the text of one page.
 
 import { readFile } from 'node:fs/promises';
-import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 
 const USER_AGENT = 'Mozilla/5.0 (compatible; LeglRegulationTracker/1.0; +https://www.legl.com)';
 const MAX_PAGE_CHARS = 24000;
-// A few sites do not answer the network this runs on. config.json lists, by host name, the ones to read through Claude instead.
-const READERS = JSON.parse(readFileSync(new URL('../config.json', import.meta.url), 'utf8')).readers ?? {};
 
 export const hash = (text) => createHash('sha256').update(text).digest('hex').slice(0, 16);
 
@@ -45,62 +43,9 @@ function record(url, body) {
   writeFileSync(path.join(dir, 'index.json'), `${JSON.stringify(recorded, null, 1)}\n`);
 }
 
-// Reads a page through Claude's web fetch tool. The request to the site is made from Anthropic's network, under
-// Anthropic's own name, and it follows the site's robots.txt. What comes back is the page's text, not its HTML.
-// "fresh" asks for today's version of a page that changes, such as a listing.
-const FETCH_PROBLEMS = {
-  url_not_allowed: 'the site\'s robots.txt, or Anthropic\'s rules, do not allow this page to be fetched',
-  url_not_accessible: 'the site did not answer Claude\'s web fetch either',
-  too_many_requests: 'Claude\'s web fetch is rate limited just now',
-  unsupported_content_type: 'the page is not text, HTML or a PDF',
-};
-async function viaClaude(url, fresh) {
-  if (!process.env.ANTHROPIC_API_KEY) throw new Error('this site is read through Claude\'s web fetch, which needs the ANTHROPIC_API_KEY secret');
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
-  const messages = [{ role: 'user', content: `Call the web_fetch tool once, directly, on ${url} and then reply with the single word "done". Do not summarise the page.` }];
-  // A server-side tool can pause a turn; sending the turn back lets it finish.
-  for (let round = 0; round < 3; round++) {
-    let response;
-    try {
-      response = await client.beta.messages.create({
-        model: 'claude-opus-5-5',
-        max_tokens: 1024,
-        output_config: { effort: 'low' },
-        // If a safety filter declines the request, the API retries it on a fallback model inside the same call.
-        betas: ['server-side-fallback-2026-07-01'],
-        fallbacks: 'default',
-        tools: [{ type: 'web_fetch_20260309', name: 'web_fetch', max_uses: 1, allowed_domains: [new URL(url).hostname], max_content_tokens: 30000, use_cache: !fresh }],
-        messages,
-      });
-    } catch (error) {
-      if (error instanceof Anthropic.AuthenticationError) throw new Error('the ANTHROPIC_API_KEY secret was not accepted');
-      if (error instanceof Anthropic.RateLimitError) throw new Error('the Claude API is rate limited just now');
-      if (error instanceof Anthropic.APIError) throw new Error(`the Claude API answered ${error.status}: ${error.message.slice(0, 200)}`);
-      throw error;
-    }
-    if (response.stop_reason === 'refusal') throw new Error('Claude declined to fetch this page');
-    const result = response.content.find((block) => block.type === 'web_fetch_tool_result');
-    if (result?.content.type === 'web_fetch_result') {
-      const source = result.content.content.source;
-      if (source.type !== 'text') throw new Error('PDF pages are not supported yet');
-      return source.data;
-    }
-    if (result) throw new Error(FETCH_PROBLEMS[result.content.error_code] ?? `Claude's web fetch failed (${result.content.error_code})`);
-    if (response.stop_reason !== 'pause_turn') break;
-    messages.push({ role: 'assistant', content: response.content });
-  }
-  throw new Error('Claude did not fetch the page');
-}
-
-export async function fetchRaw(url, { fresh = false } = {}) {
+export async function fetchRaw(url) {
   const fixture = await fixtureFor(url);
   if (fixture != null) return fixture;
-  if (READERS[new URL(url).hostname] === 'claude') {
-    const body = await viaClaude(url, fresh);
-    record(url, body);
-    return body;
-  }
   let lastError;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
@@ -272,7 +217,7 @@ export async function listAll(source, { pages = 1, since = null } = {}) {
   let url = source.url;
   for (let n = 1; url && !visited.has(url); n++) {
     visited.add(url);
-    const body = await fetchRaw(url, { fresh: true });
+    const body = await fetchRaw(url);
     let found;
     if (source.how === 'feed') found = parseFeed(body);
     else {

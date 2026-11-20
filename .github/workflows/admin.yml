@@ -49,7 +49,7 @@ jobs:
           REASON: ${{ inputs.reason }}
           PAYLOAD: ${{ inputs.payload }}
         run: |
-          git config user.name "regulation-tracker"
-          git config user.email "regulation-tracker@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           node agent/admin.mjs "$COMMAND" "$TARGET" --reason "$REASON" --commit
           bash agent/push.sh ours
