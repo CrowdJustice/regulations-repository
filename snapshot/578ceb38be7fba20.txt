@@ -1,0 +1,22 @@
+Skip to main content
+Published:  
+
+The Australian Information Commissioner has published a report outlining the findings of the Office of the Australian Information Commissioner (OAIC)’s preliminary inquiries into VIQ Solutions Pty Ltd (VIQ Solutions), a provider of transcription services for Australian courts and other organisations.
+
+VIQ Solutions was reported to have allowed sensitive court audio recordings and transcripts to be accessed offshore without notifying relevant Commonwealth agencies of the incident prior to being placed into voluntary administration in March 2026.
+
+The OAIC’s enquiries established that the extent of this access was limited by duration, the number of transcripts and the employees with access. In summary, a limited number of Australian court hearing recordings were accessed by 3 employees of an India-based subcontractor to provide transcription services between September 2025 and February 2026.
+
+Our enquiries found that the contractual arrangements put in place by the Courts were privacy preserving and that the granting of access to the 3 employees occurred outside these arrangements.
+
+Given the circumstances of the matter as established by our enquiries, the steps taken by the affected courts to preserve privacy under the contractual arrangements and in response to the incident, and the fact that VIQ Solutions is now in liquidation, the OAIC does not consider further regulatory action would be an appropriate and proportional application of resources.
+
+‘The arrangements put in place by Courts in dealing with this sensitive information is an important privacy preserving measure. The publication of this outcome serves to promote compliance by raising awareness of privacy preserving practices. These published outcomes help to promote transparency and support improved privacy practices,’ said Australian Information Commissioner Elizabeth Tydd.
+
+‘I trust this report will provide confidence to the community about the steps that this office and the relevant courts took in response to the issue and provide greater understanding about an incident of considerable public concern.’
+
+The OAIC made preliminary inquiries with VIQ Solutions and relevant third parties to ascertain the facts about the incident, and to decide whether to conduct a commissioner-initiated investigation. The report attached provides more detailed information.
+
+By publishing this report into preliminary enquiries, the OAIC helps APP entities and the broader community to understand privacy obligations and put them into practice.
+
+Report: VIQ Solutions Pty Ltd and Commonwealth agency contracting.
