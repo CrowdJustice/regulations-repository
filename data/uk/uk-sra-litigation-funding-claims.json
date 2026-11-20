@@ -3,18 +3,18 @@
   "country": "uk",
   "status": "live",
   "regulator": "SRA",
-  "title": "Stronger rules on third-party litigation funding in consumer claims proposed",
-  "summary": "The SRA has proposed new requirements for firms that use or arrange third-party litigation funding in consumer claims. These include notifying the SRA, a risk assessment and summary documents for clients.",
+  "title": "Stronger rules on third-party litigation funding proposed",
+  "summary": "The SRA has proposed new rules for firms that use or arrange third-party litigation funding. Most apply only to consumer claims, but core conduct duties would apply to all funded claims. The consultation closed on 17 September 2026.",
   "what_changes": [
-    "Firms would have to notify the SRA when they use or arrange third-party litigation funding.",
-    "Firms would have to produce and keep a third-party litigation funding risk assessment.",
-    "Firms would have to give clients summary documents before they sign a third-party funding agreement.",
-    "Separate SRA guidance covers current duties on client best interests, independence, conflicts, client information and money laundering."
+    "For any type of funded claim, firms would have to stay independent of funders and share client information only with informed consent.",
+    "For consumer claims, firms would have to notify the SRA and give clients a funding information document before they sign a funding agreement.",
+    "Firms would have to keep a funding risk assessment, updated every six months and approved by the firm's head and compliance officers.",
+    "Some firms would also need an orderly closure plan. Personal injury, clinical negligence and CAT collective actions are excluded."
   ],
   "applies_to": [
     "claims"
   ],
-  "who_it_applies_to": "SRA-regulated firms that use or arrange third-party litigation funding for consumer claims, including high-volume consumer claims.",
+  "who_it_applies_to": "SRA-regulated firms that use or arrange third-party litigation funding. Most proposals cover consumer claims only, excluding personal injury and clinical negligence.",
   "topic": "Consumer claims",
   "stage": "proposed",
   "dates": {
@@ -30,6 +30,11 @@
       "date": "2026-07-09",
       "event": "Consultation opened, running until 17 September 2026; new guidance on current obligations published at the same time.",
       "url": "https://www.sra.org.uk/news/news/releases/consults-new-proposals-consumer-claims"
+    },
+    {
+      "date": "2026-07-09",
+      "event": "Consultation closed on 17 September 2026. The SRA is analysing responses before deciding whether to seek LSB approval.",
+      "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/protecting-consumers-third-party-funding/?s=c"
     }
   ],
   "admin_notes": []
