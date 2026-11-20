@@ -1,0 +1,37 @@
+{
+  "id": "uk-dbt-overseas-entities-annotation",
+  "country": "uk",
+  "status": "live",
+  "regulator": "Department for Business and Trade",
+  "title": "Companies House can annotate the Register of Overseas Entities",
+  "summary": "Since 30 June 2025, Companies House can add notes to the Register of Overseas Entities. This includes where a person who verified an entity's information does not show that they are AML-supervised when asked.",
+  "what_changes": [
+    "The registrar may note on the register where an overseas entity appears to have been dissolved, wound up or otherwise ceased to exist.",
+    "The registrar may note where a person has not fully complied with an information notice under section 1092A of the Companies Act 2006.",
+    "The registrar may note where a verifying agent does not reply in time to a request to show that a supervisory authority supervises them."
+  ],
+  "applies_to": [
+    "corporate",
+    "aml"
+  ],
+  "who_it_applies_to": "Firms that verify information for overseas entities on the Register of Overseas Entities, and firms acting for those entities.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2025-06-02",
+    "in_force": "2025-06-30"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/651/made"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2025-06-06",
+      "event": "Regulations made on 2 June 2025 and in force from 30 June 2025.",
+      "url": "http://www.legislation.gov.uk/uksi/2025/651/made"
+    }
+  ],
+  "admin_notes": []
+}
