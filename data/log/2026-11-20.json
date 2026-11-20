@@ -1,0 +1,195 @@
+[
+  {
+    "date": "2026-11-20",
+    "since": "2026-09-21",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 2
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 2,
+        "relevant": 2,
+        "read": 1
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 1
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 15,
+        "read": 6
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 20,
+        "read": 0
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 20,
+        "relevant": 0,
+        "read": 0
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 7,
+        "relevant": 7,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 1
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 6,
+        "relevant": 6,
+        "read": 1
+      }
+    ],
+    "published": [
+      {
+        "id": "uk-ch-identity-verification",
+        "country": "uk",
+        "title": "Identity verification required for directors, PSCs and authorised agents",
+        "regulator": "Companies House",
+        "stage": "in_force",
+        "source": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+        "summary": "Since 18 November 2025, directors, people with significant control and authorised agents must verify their identity with Companies House. The 12-month transition period has ended. Failing to comply may be an offence."
+      }
+    ],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "SRA proposes SQE improvements after extensive stakeholder feedback 19 November 2026 The Solicitors Regulation Authority (SRA) has today launched a consultation on a package of proposed changes to the Solicitors Qualifying Examination (SQE) designed to address concerns from candidates about how and when they sit assessments.",
+        "url": "https://www.sra.org.uk/news/news/releases/sra-proposes-sqe",
+        "reason": "The SQE consultation changes exam rules for candidates (attempts, timing, qualification period) and does not change how a law firm must operate.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SQE assessment regulations consultation",
+        "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/sqe-assessment-regulations/?s=o",
+        "reason": "This consultation changes the SQE Assessment Regulations for candidates (splitting FLK sittings, unlimited resits, validity periods), but it places no new duty on law firms and does not change how a firm must operate.",
+        "country": "uk",
+        "source": "sra-consultations"
+      },
+      {
+        "title": "LSB response to the Justice Committee’s report on access to legal services",
+        "url": "https://legalservicesboard.org.uk/news/lsb-response-to-the-justice-committees-report-on-access-to-legal-services",
+        "reason": "This is the LSB's statement responding to a Justice Committee report, and it contains no new or amended rule, proposal, decision or guidance for law firms.",
+        "country": "uk",
+        "source": "lsb-news"
+      },
+      {
+        "title": "Identity verification is making the UK's company register more trustworthy",
+        "url": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+        "reason": "This press release marks one year of ID checks with statistics and enforcement results; it brings in no new rule or change, and the planned register notes have no details or date yet.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Provide identity verification details for a person with significant control (PSC)",
+        "url": "https://www.gov.uk/guidance/provide-psc-verification",
+        "reason": "This is a Companies House service page on how a PSC gives an identity verification code, and its update only rewrites the text for the end of the transition period without stating a new requirement or date.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House personal codes for identity verification",
+        "url": "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification",
+        "reason": "This page is part of the Companies House identity verification change already tracked as uk-ch-identity-verification, and it adds no new stage, date, scope or requirement.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Companies House approach to non-compliance with mandatory identity verification",
+        "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+        "reason": "This update belongs to the identity verification change the tracker already holds (uk-ch-identity-verification), and the page adds no new fact about stage, dates, scope or requirements beyond the transition-period update already recorded.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Verify your identity for Companies House",
+        "url": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+        "reason": "This page covers the Companies House identity verification change that the tracker already holds, and the only new fact (the 12-month transition period has ended) is already in that record.",
+        "country": "uk",
+        "source": "companies-house"
+      },
+      {
+        "title": "Digital reform across the Board",
+        "url": "https://www.lpbwa.org.au/digital-reform-across-the-board",
+        "reason": "This is news about the Board's own internal IT modernisation plan and does not change any rule, guidance or obligation for law firms.",
+        "country": "au",
+        "source": "lpbwa-news"
+      },
+      {
+        "title": "News | 17 Nov 2026 Symposium 2027 Early Bird dates updated",
+        "url": "https://www.qls.com.au/news-media-advocacy/symposium-2027-early-bird-dates-updated",
+        "reason": "This is an event notice about early bird registration dates for the QLS Symposium, not a regulatory change affecting how law firms operate.",
+        "country": "au",
+        "source": "qls-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [
+      {
+        "source": "sra-news",
+        "country": "uk",
+        "url": "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D",
+        "problem": "HTTP 404"
+      }
+    ],
+    "already_seen": 75,
+    "cost_usd": 0.46,
+    "stopped_early": null,
+    "finished_at": "2026-11-20T10:45:16.969Z"
+  }
+]

@@ -64,6 +64,14 @@
     "source": "lsb-news",
     "hash": "eda11bfafc180656"
   },
+  "https://legalservicesboard.org.uk/news/lsb-response-to-the-justice-committees-report-on-access-to-legal-services": {
+    "decision": "ignored",
+    "reason": "This is the LSB's statement responding to a Justice Committee report, and it contains no new or amended rule, proposal, decision or guidance for law firms.",
+    "date": "2026-11-20",
+    "source": "lsb-news",
+    "hash": "505913b7aee683a4",
+    "listed": "2026-11-19"
+  },
   "https://legalservicesboard.org.uk/news/meeting-shared-challenges-legal-regulation-in-a-changing-world": {
     "decision": "ignored",
     "reason": "This is a speech closing a conference, and it adds no new rule, proposal, decision or guidance for law firms.",
@@ -269,6 +277,14 @@
     "source": "companies-house",
     "hash": "6b1805743abdf950"
   },
+  "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy": {
+    "decision": "ignored",
+    "reason": "This press release marks one year of ID checks with statistics and enforcement results; it brings in no new rule or change, and the planned register notes have no details or date yet.",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "bc48d4984ad0b940",
+    "listed": "2026-11-18"
+  },
   "https://www.gov.uk/government/organisations/companies-house": {
     "decision": "ignored",
     "reason": "The item is the Companies House organisation homepage, a list of links with no single new rule, consultation, decision or guidance to record.",
@@ -282,6 +298,14 @@
     "date": "2026-11-16",
     "source": "ofsi",
     "hash": "8159b8b7360539d2"
+  },
+  "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification": {
+    "decision": "ignored",
+    "reason": "This update belongs to the identity verification change the tracker already holds (uk-ch-identity-verification), and the page adds no new fact about stage, dates, scope or requirements beyond the transition-period update already recorded.",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "32ff80b3fc8a6482",
+    "listed": "2026-11-19"
   },
   "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house": {
     "decision": "ignored",
@@ -360,6 +384,14 @@
     "source": "companies-house",
     "hash": "2e601cc108b8cd1f"
   },
+  "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification": {
+    "decision": "ignored",
+    "reason": "This page is part of the Companies House identity verification change already tracked as uk-ch-identity-verification, and it adds no new stage, date, scope or requirement.",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "a01266cbf822cd79",
+    "listed": "2026-11-19"
+  },
   "https://www.gov.uk/guidance/how-to-prove-your-identity-for-companies-house-at-the-post-office": {
     "decision": "ignored",
     "reason": "This is a step-by-step guide for individuals verifying their identity at a Post Office, and its latest edit only adds a 21-day completion limit, which changes no requirement for how law firms operate.",
@@ -367,12 +399,36 @@
     "source": "companies-house",
     "hash": "28cda683f138e150"
   },
+  "https://www.gov.uk/guidance/provide-psc-verification": {
+    "decision": "ignored",
+    "reason": "This is a Companies House service page on how a PSC gives an identity verification code, and its update only rewrites the text for the end of the transition period without stating a new requirement or date.",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "5b867cee67c18dd2",
+    "listed": "2026-11-19"
+  },
   "https://www.gov.uk/guidance/uk-financial-sanctions-guidance": {
     "decision": "ignored",
     "reason": "The only change to this OFSI guidance index page is a new two-page Sanctions Factsheet for Overseas Business, which adds no new rule or guidance on how UK law firms must operate.",
     "date": "2026-11-16",
     "source": "ofsi",
     "hash": "17775f616265ec6e"
+  },
+  "https://www.gov.uk/guidance/verify-your-identity-for-companies-house": {
+    "decision": "ignored",
+    "reason": "This page covers the Companies House identity verification change that the tracker already holds, and the only new fact (the 12-month transition period has ended) is already in that record.",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "24b98a269198c307",
+    "listed": "2026-11-19"
+  },
+  "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
+    "decision": "new",
+    "record_id": "uk-ch-identity-verification",
+    "date": "2026-11-20",
+    "source": "companies-house",
+    "hash": "efe9f2be331458ff",
+    "listed": "2026-11-19"
   },
   "https://www.lpbwa.org.au/aml-ctf-related-amendments-to-uniform-rules": {
     "decision": "ignored",
@@ -408,6 +464,13 @@
     "date": "2026-11-16",
     "source": "lpbwa-news",
     "hash": "7648e444b577c59a"
+  },
+  "https://www.lpbwa.org.au/digital-reform-across-the-board": {
+    "decision": "ignored",
+    "reason": "This is news about the Board's own internal IT modernisation plan and does not change any rule, guidance or obligation for law firms.",
+    "date": "2026-11-20",
+    "source": "lpbwa-news",
+    "hash": "4c501751499f9229"
   },
   "https://www.lpbwa.org.au/expressions-of-interest-welcomed-for-legal-services-and-complaints-committee": {
     "decision": "ignored",
@@ -487,6 +550,20 @@
     "source": "qls-news",
     "hash": "45149b7cac681bfb"
   },
+  "https://www.qls.com.au/news-media-advocacy/symposium-2027-early-bird-dates-updated": {
+    "decision": "ignored",
+    "reason": "This is an event notice about early bird registration dates for the QLS Symposium, not a regulatory change affecting how law firms operate.",
+    "date": "2026-11-20",
+    "source": "qls-news",
+    "hash": "28d935c46aaf7888"
+  },
+  "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D": {
+    "decision": "failed",
+    "attempts": 1,
+    "problem": "HTTP 404",
+    "date": "2026-11-20",
+    "source": "sra-news"
+  },
   "https://www.sra.org.uk/news/news/firm-governance": {
     "decision": "new",
     "record_id": "uk-sra-compliance-role-separation",
@@ -536,6 +613,13 @@
     "source": "sra-news",
     "hash": "f2416c78e29df49d"
   },
+  "https://www.sra.org.uk/news/news/releases/sra-proposes-sqe": {
+    "decision": "ignored",
+    "reason": "The SQE consultation changes exam rules for candidates (attempts, timing, qualification period) and does not change how a law firm must operate.",
+    "date": "2026-11-20",
+    "source": "sra-news",
+    "hash": "3f386b6aa03eaa66"
+  },
   "https://www.sra.org.uk/news/news/resource-legal-careers": {
     "decision": "ignored",
     "reason": "This is a voluntary toolkit for widening access to legal careers. It adds no new rules, guidance or obligations that change how a law firm has to operate.",
@@ -556,5 +640,12 @@
     "date": "2026-11-16",
     "source": "sra-consultations",
     "hash": "f51126317b506248"
+  },
+  "https://www.sra.org.uk/sra/consultations/consultation-listing/sqe-assessment-regulations/?s=o": {
+    "decision": "ignored",
+    "reason": "This consultation changes the SQE Assessment Regulations for candidates (splitting FLK sittings, unlimited resits, validity periods), but it places no new duty on law firms and does not change how a firm must operate.",
+    "date": "2026-11-20",
+    "source": "sra-consultations",
+    "hash": "d4f0b170d6d5c139"
   }
 }
