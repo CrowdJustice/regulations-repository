@@ -1,0 +1,36 @@
+{
+  "id": "uk-hmt-digital-identity-mlr",
+  "country": "uk",
+  "status": "live",
+  "regulator": "HM Treasury",
+  "title": "Guidance on using digital identity services for AML customer due diligence",
+  "summary": "Government guidance explains how firms can use digital verification services for identity checks under the Money Laundering Regulations. The services must be certified under the UK digital verification services trust framework.",
+  "what_changes": [
+    "The guidance explains how digital verification services can be used for identity checks required under the Money Laundering Regulations.",
+    "Services must be on the GOV.UK register certified against the UK digital verification services trust framework.",
+    "The guidance supplements but does not replace firms' obligations under the Money Laundering Regulations.",
+    "It is jointly published by HM Treasury and the Department for Science, Innovation and Technology."
+  ],
+  "applies_to": [
+    "aml"
+  ],
+  "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+  "topic": "AML and ID checks",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-02-26"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/using-digital-identities-with-the-money-laundering-regulations"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-02-26",
+      "event": "HM Treasury and DSIT published guidance on using digital verification services for checks under the Regulations.",
+      "url": "https://www.gov.uk/government/publications/using-digital-identities-with-the-money-laundering-regulations"
+    }
+  ],
+  "admin_notes": []
+}
