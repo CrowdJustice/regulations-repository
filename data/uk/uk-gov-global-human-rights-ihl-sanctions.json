@@ -1,0 +1,37 @@
+{
+  "id": "uk-gov-global-human-rights-ihl-sanctions",
+  "country": "uk",
+  "status": "live",
+  "regulator": "UK Government",
+  "title": "New sanctions regime for human rights and humanitarian law violations",
+  "summary": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 came into force on 15 October 2026. They allow asset freezes and other sanctions against people involved in serious abuses.",
+  "what_changes": [
+    "People can be designated for serious human rights violations, serious breaches of international humanitarian law or obstructing humanitarian aid.",
+    "Designated persons can face asset freezes, director disqualification sanctions and immigration restrictions.",
+    "An urgent procedure allows designation for an initial 56 days where the US, EU, Australia or Canada has similar sanctions.",
+    "The finance prohibitions and information requirements apply to UK persons for conduct wholly or partly outside the UK."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All UK law firms, as UK persons bound by the asset-freeze prohibitions and the information requirements in the Regulations.",
+  "topic": "Sanctions",
+  "stage": "in_force",
+  "dates": {
+    "decided": "2026-10-12",
+    "in_force": "2026-10-15"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2026/1071/2026-10-15"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-10-13",
+      "event": "Regulations made on 12 October 2026 and in force from 15 October 2026.",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1071/2026-10-15"
+    }
+  ],
+  "admin_notes": []
+}
