@@ -1,0 +1,37 @@
+{
+  "id": "uk-ch-identity-verification",
+  "country": "uk",
+  "status": "live",
+  "regulator": "Companies House",
+  "title": "Identity verification required for directors, PSCs and authorised agents",
+  "summary": "Since 18 November 2025, directors, people with significant control and authorised agents must verify their identity with Companies House. The 12-month transition period has ended. Failing to comply may be an offence.",
+  "what_changes": [
+    "Directors and their equivalents, including LLP members, and PSCs must verify their identity and link their personal code to each role.",
+    "New directors must give their personal code when appointed. New PSCs must give it when added to the register or within 14 days.",
+    "Authorised Corporate Service Providers (ACSPs) must be AML-supervised and registered with Companies House to verify identities for others.",
+    "Acting as a director without verifying is an offence. Penalties include prosecution, fines or financial penalties."
+  ],
+  "applies_to": [
+    "corporate",
+    "aml"
+  ],
+  "who_it_applies_to": "Firms acting for companies or acting as Companies House authorised agents, and LLP firms whose members must verify their identity.",
+  "topic": "AML and ID checks",
+  "stage": "in_force",
+  "dates": {
+    "in_force": "2025-11-18"
+  },
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-11-19",
+      "event": "Companies House updated its guidance for the end of the 12-month identity verification transition period.",
+      "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house"
+    }
+  ],
+  "admin_notes": []
+}
