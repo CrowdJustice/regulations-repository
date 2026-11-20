@@ -1,0 +1,36 @@
+{
+  "id": "uk-sra-supervision-guidance-mazur",
+  "country": "uk",
+  "status": "live",
+  "regulator": "SRA",
+  "title": "Expanded supervision guidance for litigation work after Mazur judgment",
+  "summary": "The SRA has expanded its supervision guidance after the Court of Appeal ruled in Mazur on what non-regulated staff can do under supervision when conducting litigation. It advises firms to check their arrangements are lawful.",
+  "what_changes": [
+    "The guidance covers how and when tasks are delegated to non-regulated staff.",
+    "It explains how a solicitor can show responsibility through direction, management, supervision and control.",
+    "It adds expanded sections for supervisors and supervisees, with case studies.",
+    "The SRA expects firms to take a risk-based approach to supervision, tailored to their circumstances."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "SRA-regulated firms that delegate work to non-regulated staff, especially firms conducting litigation.",
+  "topic": "Firm management",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-06-12"
+  },
+  "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/supervision-guidance-updated"
+  },
+  "last_checked": "2026-11-20",
+  "history": [
+    {
+      "date": "2026-06-12",
+      "event": "SRA published expanded supervision guidance following the Court of Appeal judgment in Mazur.",
+      "url": "https://www.sra.org.uk/news/news/releases/supervision-guidance-updated"
+    }
+  ],
+  "admin_notes": []
+}
