@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-SZ38xx85T5sirl2X7LGEsrD8zBd4m5TiavC3wx/aF1w='; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://api.github.com https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<title>Regulation tracker admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: one calm column. A one-line status (what needs you) → three text tabs (Activity, Changes, Sources) → rows separated by lines → an edit drawer and an undo toast. Same tokens as the public tracker. */
+:root {
+  --page: #F7F8FA;
+  --card: #FFFFFF;
+  --sunk: #EEF0F3;
+  --line: #E5E7EB;
+  --line-strong: #CDD2D9;
+  --ink: #1B1B1B;
+  --body: #3F444B;
+  --muted: #6B7280;
+  --green: #018568;
+  --green-mid: #01B890;
+  --green-surface: #E6F8F4;
+  --amber: #8A5C00;
+  --amber-surface: #FFF3D6;
+  --indigo: #4F46E5;
+  --indigo-surface: #EFEEFF;
+  --red: #B42318;
+  --red-surface: #FDECEA;
+  --btn: #1B1B1B;
+  --btn-ink: #FFFFFF;
+  --logo: #01B88E;
+  --scrim: rgba(17, 18, 19, 0.35);
+  --float: 0 12px 32px rgba(16, 24, 40, 0.14), 0 2px 6px rgba(16, 24, 40, 0.06);
+  --font: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #111213;
+    --card: #1A1C1F;
+    --sunk: #23262A;
+    --line: #2B2E33;
+    --line-strong: #3E4248;
+    --ink: #F2F2F2;
+    --body: #CDD0D5;
+    --muted: #9AA0A8;
+    --green: #4DCDB1;
+    --green-mid: #01B890;
+    --green-surface: #12302A;
+    --amber: #F0C060;
+    --amber-surface: #33280F;
+    --indigo: #A7A3F2;
+    --indigo-surface: #24213F;
+    --red: #FF9B8F;
+    --red-surface: #3A1714;
+    --btn: #F2F2F2;
+    --btn-ink: #111213;
+    --logo: #FFFFFF;
+    --scrim: rgba(0, 0, 0, 0.55);
+    --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #111213;
+  --card: #1A1C1F;
+  --sunk: #23262A;
+  --line: #2B2E33;
+  --line-strong: #3E4248;
+  --ink: #F2F2F2;
+  --body: #CDD0D5;
+  --muted: #9AA0A8;
+  --green: #4DCDB1;
+  --green-mid: #01B890;
+  --green-surface: #12302A;
+  --amber: #F0C060;
+  --amber-surface: #33280F;
+  --indigo: #A7A3F2;
+  --indigo-surface: #24213F;
+  --red: #FF9B8F;
+  --red-surface: #3A1714;
+  --btn: #F2F2F2;
+  --btn-ink: #111213;
+  --logo: #FFFFFF;
+  --scrim: rgba(0, 0, 0, 0.55);
+  --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--page); color: var(--body); font-family: var(--font); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+body.locked { overflow: hidden; }
+h1, h2, h3, h4 { color: var(--ink); font-weight: 600; margin: 0; letter-spacing: -0.02em; line-height: 1.2; text-wrap: balance; }
+p { margin: 0; }
+a { color: var(--green); text-underline-offset: 3px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--green-mid); outline-offset: 2px; }
+.wrap { max-width: 920px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+
+/* Nav */
+.nav .wrap { max-width: 1120px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 500; min-width: 0; }
+.brand svg { width: 44px; height: auto; color: var(--logo); flex: none; }
+.brand .sep { width: 1px; height: 18px; background: var(--line-strong); flex: none; }
+.brand .name { white-space: nowrap; }
+.tagline { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.country { position: relative; }
+.country-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px 7px 10px; font-size: 14px; font-weight: 500; color: var(--ink); white-space: nowrap; }
+.country-btn svg { width: 16px; height: 16px; color: var(--muted); }
+.country-menu { position: absolute; right: 0; top: calc(100% + 8px); background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--float); padding: 6px; min-width: 200px; z-index: 30; }
+.country-menu button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 10px; text-align: left; background: transparent; border: 0; border-radius: 8px; padding: 9px 10px; font-size: 15px; color: var(--ink); }
+.country-menu button:hover { background: var(--sunk); }
+.country-menu .tick { width: 16px; height: 16px; color: var(--green); }
+
+/* Status */
+.status { padding-block: 40px 28px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; }
+.status h1 { font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.03em; }
+.status p { margin-top: 6px; color: var(--muted); font-size: 15px; }
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: 6px; border-radius: 6px; padding: 7px 12px; font-size: 14px; font-weight: 500; border: 1px solid var(--line-strong); background: var(--card); color: var(--ink); white-space: nowrap; text-decoration: none; }
+.btn:hover { border-color: var(--ink); }
+.btn-dark { background: var(--btn); border-color: var(--btn); color: var(--btn-ink); }
+.btn-dark:hover { opacity: 0.88; }
+.btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+.link { background: none; border: 0; padding: 0; font-size: 14px; color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Tabs */
+.tabs { display: flex; gap: 24px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 0 11px; margin-bottom: -1px; font-size: 15px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tabs button:hover { color: var(--ink); }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.count { display: inline-block; min-width: 18px; margin-left: 6px; padding: 0 5px; border-radius: 999px; background: var(--amber-surface); color: var(--amber); font-size: 12px; font-weight: 600; text-align: center; }
+
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; padding-block: 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 5px 12px; font-size: 14px; color: var(--body); }
+.chip:hover { border-color: var(--line-strong); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
+.search { position: relative; flex: 0 1 280px; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--muted); }
+.search input { width: 100%; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 7px 14px 7px 34px; font-size: 14px; color: var(--ink); }
+.search input:focus { outline: none; border-color: var(--line-strong); }
+
+/* Rows */
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+.day { padding: 10px 22px; font-size: 12px; color: var(--muted); background: var(--page); border-bottom: 1px solid var(--line); font-family: var(--mono); }
+.row { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: 16px; padding: 16px 22px; align-items: start; border-bottom: 1px solid var(--line); }
+.row:last-child { border-bottom: 0; }
+.row.done .main, .row.done .pill { opacity: 0.55; }
+.main { display: grid; gap: 3px; min-width: 0; }
+.main h3 { font-size: 16px; font-weight: 600; line-height: 1.35; }
+.main p { font-size: 14px; color: var(--muted); }
+.main .result { font-size: 14px; color: var(--ink); font-weight: 500; }
+.acts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px; white-space: nowrap; justify-self: start; margin-top: 2px; }
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill.needs, .pill.proposed { background: var(--amber-surface); color: var(--amber); }
+.pill.new, .pill.in_force { background: var(--green-surface); color: var(--green); }
+.pill.updated, .pill.decided { background: var(--indigo-surface); color: var(--indigo); }
+.pill.ignored, .pill.guidance, .pill.archived { background: var(--sunk); color: var(--muted); }
+.pill.problem { background: var(--red-surface); color: var(--red); }
+.quiet { padding: 16px 22px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.empty { padding: 40px 22px; text-align: center; color: var(--muted); font-size: 15px; }
+
+/* Sources */
+.switch { position: relative; width: 38px; height: 22px; border-radius: 999px; border: 0; background: var(--line-strong); flex: none; padding: 0; }
+.switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--card); transition: transform .15s ease; }
+.switch[aria-checked="true"] { background: var(--green-mid); }
+.switch[aria-checked="true"]::after { transform: translateX(16px); }
+.health { font-size: 13px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+.health i { width: 7px; height: 7px; border-radius: 50%; background: var(--green-mid); }
+.health.bad { color: var(--red); }
+.health.bad i { background: var(--red); }
+.health.off i { background: var(--line-strong); }
+.src-row { grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; }
+.addr { font-family: var(--mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.add-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) auto auto; gap: 8px; padding: 16px 22px; border-bottom: 1px solid var(--line); background: var(--page); }
+
+/* Forms */
+.field { display: grid; gap: 6px; }
+.field label, .field .lab { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); }
+.field .n { font-family: var(--mono); font-size: 12px; }
+.field .n.over { color: var(--red); font-weight: 600; }
+.input, .field textarea, .field select { width: 100%; border: 1px solid var(--line-strong); background: var(--card); border-radius: 8px; padding: 9px 11px; font-size: 15px; color: var(--ink); }
+.field textarea { resize: vertical; min-height: 84px; line-height: 1.45; }
+.input:focus, .field textarea:focus, .field select:focus { outline: none; border-color: var(--ink); }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.three { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.point { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+.icon-btn { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); display: grid; place-items: center; color: var(--muted); }
+.icon-btn:hover { color: var(--ink); border-color: var(--ink); }
+.icon-btn svg { width: 14px; height: 14px; }
+
+/* Drawer */
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(580px, 100%); background: var(--card); z-index: 41; box-shadow: var(--float); display: flex; flex-direction: column; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.drawer-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+.drawer-bar span { font-size: 13px; color: var(--muted); }
+.drawer-body { overflow-y: auto; padding: 22px 24px; display: grid; gap: 18px; align-content: start; flex: 1; }
+.drawer-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 20px; border-top: 1px solid var(--line); }
+.drawer-foot .right { display: flex; gap: 8px; }
+.sub-h { font-size: 12px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 400; }
+.hist { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 14px; }
+.hist time { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-right: 8px; }
+.note { background: var(--sunk); border-radius: 10px; padding: 10px 12px; font-size: 14px; color: var(--ink); }
+
+/* Toast */
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--btn); color: var(--btn-ink); border-radius: 10px; padding: 11px 14px; font-size: 14px; display: flex; align-items: center; gap: 14px; box-shadow: var(--float); z-index: 60; max-width: calc(100% - 32px); }
+.toast button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+footer { padding-block: 32px 48px; font-size: 13px; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .brand .name, .brand .sep { display: none; }
+  .tagline { font-size: 11px; padding: 2px 7px; }
+  .country-btn { padding: 6px 10px; gap: 6px; }
+  .country-btn svg:first-child { display: none; }
+  .status { padding-block: 28px 20px; }
+  .row { grid-template-columns: 1fr; gap: 8px; padding: 16px; }
+  .acts { justify-content: flex-start; }
+  .src-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .src-row .health { grid-column: 1; grid-row: 2; }
+  .add-form { grid-template-columns: 1fr; padding: 16px; }
+  .day, .quiet { padding-inline: 16px; }
+  .search { flex: 1 1 100%; }
+  .two, .three { grid-template-columns: 1fr; }
+  .drawer-body { padding: 18px 16px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .drawer { animation: slide .22s ease-out; }
+  @keyframes slide { from { transform: translateX(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+
+/* Connected page: busy rows, the reason prompt, form problems, the connect steps */
+.hint { font-size: 14px; color: var(--muted); }
+.working { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); white-space: nowrap; }
+.working i { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line-strong); border-top-color: var(--ink); }
+.why { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.why .input { width: 260px; max-width: 100%; padding: 7px 10px; font-size: 14px; }
+.src-note { font-size: 13px; color: var(--amber); }
+.problems { background: var(--red-surface); color: var(--red); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.problems ul { margin: 4px 0 0; padding-left: 18px; }
+.steps { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: var(--ink); }
+.toast a { color: inherit; font-weight: 600; text-underline-offset: 3px; }
+.nav-right { display: flex; align-items: center; gap: 8px; }
+.older { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; padding: 20px 4px 0; font-size: 14px; color: var(--body); }
+.older .input { width: auto; padding: 6px 10px; font-size: 14px; }
+.older .hint { flex-basis: 100%; }
+@media (prefers-reduced-motion: no-preference) {
+  .working i { animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 268 151" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Legl">
+        <path d="M137.239 97.061C138.113 94.4298 134.62 90.483 132.291 91.7986C128.653 93.8451 116.719 100.131 106.968 100.131C97.0716 100.131 92.1234 96.9148 89.6493 94.2836C88.7761 93.2604 88.0485 92.091 87.3208 90.6292C86.7387 89.0213 86.302 87.2672 86.011 85.2207L140.15 85.2207C140.15 85.2207 140.441 80.6892 140.441 77.0348C140.441 54.6699 124.869 39.6137 102.311 39.6137C79.753 39.6137 61.27 54.0852 61.27 79.3736C61.27 83.1742 61.7066 86.8286 62.4343 90.0445C67.6736 106.562 83.1003 118.549 101.292 118.549C116.864 118.549 130.254 109.778 137.239 97.061ZM101.874 55.8393C112.207 55.8393 117.301 64.1713 117.447 71.1878L86.011 71.1878C86.4476 63.879 91.6868 55.8393 101.874 55.8393Z" fill="currentColor"/>
+        <path d="M231.837 39.9061C231.837 39.029 231.109 38.2982 230.236 38.2982C221.795 38.2982 213.936 40.9293 207.533 45.607C207.096 45.8993 206.805 46.3378 206.805 46.9225L206.805 54.3775C202.73 49.2614 195.599 43.5605 183.083 43.5605C164.454 43.5605 147.136 56.5702 147.136 81.274C147.136 105.978 164.454 118.987 183.083 118.987C195.017 118.987 202.439 114.164 206.951 108.17L207.242 108.17L207.242 110.655C207.242 117.526 205.204 122.934 202.585 125.858C199.965 128.635 194.871 131.851 184.684 131.851C174.496 131.851 162.271 125.273 158.487 123.227C154.995 121.326 152.229 129.512 153.394 131.412C160.962 143.545 174.351 151 189.341 151C189.632 151 189.923 151 190.214 151C194.144 150.708 197.782 150.123 200.984 149.392C214.518 145.591 225.288 135.359 229.945 122.057C231.109 117.526 231.692 112.263 231.692 105.978L231.692 48.969L231.837 39.9061ZM190.214 99.9845C179.299 99.9845 172.313 91.9448 172.313 81.4201C172.313 71.0416 179.299 63.0019 190.214 63.0019C201.129 63.0019 207.969 71.0416 207.969 81.4201C207.969 91.9448 201.129 99.9845 190.214 99.9845Z" fill="currentColor"/>
+        <path d="M265.747 6.4364e-08C256.724 4.1163e-08 248.428 2.77735 241.588 7.60116C241.151 7.89351 240.715 8.47822 240.715 8.91675L240.715 117.672C240.715 118.549 241.443 119.28 242.461 119.28C251.484 119.28 259.925 116.502 266.766 111.679C267.202 111.386 267.493 110.802 267.493 110.363L267.493 1.60794C267.493 0.730881 266.766 6.69834e-08 265.747 6.4364e-08Z" fill="currentColor"/>
+        <path d="M55.7399 96.4763C55.5944 96.184 55.1578 96.0378 54.8667 96.0378L25.032 96.0378L25.032 95.8916L25.032 10.9632C25.032 10.2324 24.4499 9.50148 23.5767 9.64766C3.92945 9.79384 0 19.5876 0 19.5876L0.145535 19.5876L0 19.5876L0 110.363C0 113.871 2.9107 116.795 6.40354 116.795L60.397 116.649C61.1247 116.649 61.7068 116.064 61.7068 115.333C61.7068 108.317 59.5238 101.739 55.7399 96.4763Z" fill="currentColor"/>
+      </svg>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="name">Regulation tracker</span>
+      <span class="tagline">Admin</span>
+    </div>
+    <div class="nav-right">
+      <button type="button" class="btn" id="connect-btn">Connect</button>
+      <div class="country">
+        <button type="button" class="country-btn" id="country-btn" aria-haspopup="true" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></svg>
+          <span id="country-name"></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="country-menu" id="country-menu" role="menu" hidden></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="status">
+    <div>
+      <h1 id="headline"></h1>
+      <p id="subline"></p>
+    </div>
+    <button type="button" class="btn" id="run-now">Run a check now</button>
+  </section>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div id="view"></div>
+</main>
+
+<footer><div class="wrap">Every action here is saved as a dated change in the repository and can be undone.</div></footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden></aside>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+// The admin page. It reads the repository straight from GitHub and makes every change by running the
+// "Admin action" workflow, so the rules in agent/ apply to an admin's edits exactly as they do to the assistant's.
+(function () {
+  'use strict';
+
+  /* TRACKER-CONFIG:START */
+  var CONFIG = {"repo":"CrowdJustice/regulations-repository","branch":"main"};
+  /* TRACKER-CONFIG:END */
+
+  /* TRACKER-CHECKS:START */
+// Rules the code enforces on every record, whatever the AI wrote.
+// Nothing reaches data/ unless it passes these.
+
+const STAGES = ['proposed', 'decided', 'in_force', 'guidance'];
+const STAGE_ORDER = { proposed: 0, decided: 1, in_force: 2 };
+// The date that marks when a record reached its stage.
+const STAGE_DATE = { proposed: 'proposed', decided: 'decided', in_force: 'in_force', guidance: 'published' };
+const DATE_KEYS = ['proposed', 'decided', 'in_force', 'published'];
+const PARTIAL_DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
+const ID = /^[a-z]{2}-[a-z0-9]+(-[a-z0-9]+)*$/;
+
+// First day of the period a date names: "2027" → 2027-01-01, "2027-03" → 2027-03-01.
+function periodStart(date) {
+  return date.length === 4 ? `${date}-01-01` : date.length === 7 ? `${date}-01` : date;
+}
+
+// Last day of the period a date names: "2027" → 2027-12-31, "2027-02" → 2027-02-28.
+function periodEnd(date) {
+  if (date.length === 10) return date;
+  const [year, month] = date.length === 4 ? [Number(date), 12] : date.split('-').map(Number);
+  return new Date(Date.UTC(year, month, 0)).toISOString().slice(0, 10);
+}
+
+function isRealDate(date) {
+  const d = new Date(`${periodStart(date)}T00:00:00Z`);
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === periodStart(date);
+}
+
+function validateRecord(rec, cfg, today) {
+  const problems = [];
+  const lim = cfg.limits;
+  const text = (v) => typeof v === 'string' && v.trim().length > 0;
+  const tooLong = (name, value, max) => {
+    if (text(value) && value.length > max) problems.push(`${name} is ${value.length} characters; the limit is ${max}`);
+  };
+
+  if (!ID.test(rec.id ?? '') || rec.id.length > 60) problems.push('id must be lowercase words joined by hyphens, 60 characters at most');
+  else if (!rec.id.startsWith(`${rec.country}-`)) problems.push(`id must start with "${rec.country}-"`);
+
+  for (const field of ['regulator', 'title', 'summary', 'who_it_applies_to']) {
+    if (!text(rec[field])) problems.push(`${field} is missing`);
+  }
+  tooLong('title', rec.title, lim.title);
+  tooLong('summary', rec.summary, lim.summary);
+  tooLong('who_it_applies_to', rec.who_it_applies_to, lim.who_it_applies_to);
+  tooLong('regulator', rec.regulator, 40);
+
+  if (!Array.isArray(rec.what_changes) || rec.what_changes.length === 0) problems.push('what_changes needs at least one point');
+  else {
+    if (rec.what_changes.length > lim.what_changes_max_items) {
+      problems.push(`what_changes has ${rec.what_changes.length} points; the limit is ${lim.what_changes_max_items}`);
+    }
+    rec.what_changes.forEach((point, i) => {
+      if (!text(point)) problems.push(`what_changes point ${i + 1} is empty`);
+      tooLong(`what_changes point ${i + 1}`, point, lim.what_changes_item);
+    });
+  }
+
+  const keys = Object.keys(cfg.applies_to[rec.country] ?? {});
+  if (!Array.isArray(rec.applies_to) || rec.applies_to.length === 0) problems.push('applies_to needs at least one key');
+  else {
+    for (const key of rec.applies_to) if (!keys.includes(key)) problems.push(`applies_to key "${key}" is not allowed; use one of: ${keys.join(', ')}`);
+    if (rec.applies_to.includes('all') && rec.applies_to.length > 1) problems.push('applies_to "all" cannot be combined with other keys');
+  }
+
+  if (!cfg.topics.includes(rec.topic)) problems.push(`topic must be one of: ${cfg.topics.join(', ')}`);
+  if (!STAGES.includes(rec.stage)) problems.push(`stage must be one of: ${STAGES.join(', ')}`);
+
+  const dates = rec.dates ?? {};
+  for (const key of DATE_KEYS) {
+    const value = dates[key];
+    if (value == null) continue;
+    if (!PARTIAL_DATE.test(value) || !isRealDate(value)) problems.push(`dates.${key} "${value}" must be YYYY, YYYY-MM or YYYY-MM-DD`);
+  }
+  tooLong('dates.in_force_text', dates.in_force_text, lim.in_force_text);
+  if (problems.length) return problems;
+
+  if (STAGES.includes(rec.stage) && !dates[STAGE_DATE[rec.stage]]) {
+    problems.push(`stage is "${rec.stage}", so dates.${STAGE_DATE[rec.stage]} is required`);
+  }
+  if (rec.stage === 'in_force' && dates.in_force && periodStart(dates.in_force) > today) {
+    problems.push(`stage is "in_force" but dates.in_force (${dates.in_force}) is in the future; use "decided"`);
+  }
+  if (rec.stage === 'decided' && dates.in_force && (dates.in_force.length === 10 ? dates.in_force <= today : periodEnd(dates.in_force) < today)) {
+    problems.push(`dates.in_force (${dates.in_force}) has passed; the stage should be "in_force"`);
+  }
+  if (['in_force', 'guidance'].includes(rec.stage) && dates.in_force_text) {
+    problems.push('dates.in_force_text is only for a start date that is still to come; leave it empty here');
+  }
+  if (rec.stage === 'proposed' && dates.decided) {
+    problems.push('a proposed change cannot have a decided date');
+  }
+  for (const key of ['proposed', 'decided', 'published']) {
+    if (dates[key] && periodStart(dates[key]) > today) problems.push(`dates.${key} (${dates[key]}) is in the future`);
+  }
+  return problems;
+}
+
+// Extra rules when the AI updates an existing record.
+function validateUpdate(prev, next) {
+  const problems = [];
+  if (prev.status === 'archived') problems.push('this change was archived by an admin and must not be updated');
+  if ((prev.stage === 'guidance') !== (next.stage === 'guidance')) problems.push('guidance cannot turn into a rule change, or the reverse; that is a different change');
+  else if (STAGE_ORDER[next.stage] < STAGE_ORDER[prev.stage]) problems.push(`stage cannot move backwards from "${prev.stage}" to "${next.stage}"`);
+  for (const key of ['proposed', 'decided']) {
+    const before = prev.dates?.[key];
+    if (before && next.dates?.[key] !== before && STAGE_ORDER[prev.stage] > STAGE_ORDER[key]) {
+      problems.push(`dates.${key} was ${before} and must not change`);
+    }
+  }
+  return problems;
+}
+
+// An update must change a fact. Rewording alone is not an update.
+function isMaterialChange(prev, next) {
+  const facts = (r) => JSON.stringify([r.stage, r.dates, [...r.applies_to].sort(), r.what_changes]);
+  return facts(prev) !== facts(next);
+}
+
+const STOP = new Set(('a an and are as at be by for from has have in into is it its must new now of on or that the their ' +
+  'to will with firms firm law rules rule change changes').split(' '));
+
+function titleWords(title) {
+  return new Set(title.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/)
+    .map((w) => w.replace(/(ies|es|s|ing|ed)$/, ''))
+    .filter((w) => w.length > 2 && !STOP.has(w)));
+}
+
+function titleSimilarity(a, b) {
+  const x = titleWords(a);
+  const y = titleWords(b);
+  if (!x.size || !y.size) return 0;
+  let shared = 0;
+  for (const w of x) if (y.has(w)) shared++;
+  return shared / (x.size + y.size - shared);
+}
+
+// Does a brand new record look like one we already hold (live or archived)?
+function findDuplicate(rec, existing, threshold = 0.6) {
+  for (const other of existing) {
+    if (other.id === rec.id) return { id: other.id, why: 'same id' };
+    const urls = [other.source?.url, ...(other.history ?? []).map((h) => h.url)].filter(Boolean);
+    if (urls.includes(rec.source?.url)) return { id: other.id, why: 'same source page' };
+    if (other.regulator === rec.regulator && titleSimilarity(other.title, rec.title) >= threshold) {
+      return { id: other.id, why: 'very similar title from the same regulator' };
+    }
+  }
+  return null;
+}
+
+  /* TRACKER-CHECKS:END */
+
+  var REPO = CONFIG.repo;
+  var BRANCH = new URLSearchParams(location.search).get('branch') || CONFIG.branch;
+  var API = 'https://api.github.com';
+  var RAW = 'https://raw.githubusercontent.com';
+  var TOKEN_KEY = 'tracker-admin-token';
+  var CACHE_KEY = 'tracker-admin-files';
+  var LOG_DAYS = 21;
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var STAGE = { proposed: 'Proposed', decided: 'Decided', in_force: 'In force', guidance: 'Guidance' };
+  var KIND = { needs: 'Needs you', 'new': 'New', updated: 'Updated', inforce: 'In force', ignored: 'Ignored', problem: 'Problem' };
+  var ORDER = ['needs', 'problem', 'updated', 'new', 'inforce', 'ignored', 'quiet'];
+
+  var data = { commit: null, cfg: null, sources: {}, records: [], reviews: [], logs: [] };
+  var state = { c: null, tab: 'activity', filter: 'all', q: '', show: 'live', adding: false, draft: null, confirm: null, panel: null, lastFocus: null, pending: {}, error: null, loaded: false, checking: false };
+  var toastTimer = null;
+
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]; }); }
+  // Only ever link to a web address. Anything else, such as "javascript:", becomes no link at all.
+  function safeUrl(u) { return /^https?:\/\//i.test(String(u || '')) ? String(u) : ''; }
+  function today() { return new Date().toISOString().slice(0, 10); }
+  // The date where the country is, which is what the server checks dates against.
+  function todayIn(country) {
+    var zone = data.cfg && data.cfg.countries[country] && data.cfg.countries[country].timezone;
+    try { return new Intl.DateTimeFormat('en-CA', { timeZone: zone || 'UTC' }).format(new Date()); } catch (e) { return today(); }
+  }
+  function fmt(d) {
+    var p = String(d || '').split('-');
+    if (p.length === 1) return p[0];
+    if (p.length === 2) return MONTHS[+p[1] - 1] + ' ' + p[0];
+    return (+p[2]) + ' ' + MONTHS[+p[1] - 1] + ' ' + p[0];
+  }
+  function dayLabel(d) {
+    var diff = Math.round((Date.parse(today()) - Date.parse(d)) / 864e5);
+    if (diff === 0) return 'Today';
+    if (diff === 1) return 'Yesterday';
+    var date = new Date(d + 'T00:00:00Z');
+    return DAYS[date.getUTCDay()] + ' ' + date.getUTCDate() + ' ' + MONTHS[date.getUTCMonth()] + (date.getUTCFullYear() !== new Date().getUTCFullYear() ? ' ' + date.getUTCFullYear() : '');
+  }
+  function clone(v) { return JSON.parse(JSON.stringify(v)); }
+
+  /* Sign-in: a GitHub token kept in this browser only. */
+  function token() { try { return localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { return ''; } }
+  function setToken(value) { try { if (value) localStorage.setItem(TOKEN_KEY, value); else localStorage.removeItem(TOKEN_KEY); } catch (e) { /* private window: stays signed out */ } }
+
+  /* GitHub */
+  async function gh(path, opts) {
+    opts = opts || {};
+    var headers = { Accept: 'application/vnd.github+json' };
+    var t = opts.token != null ? opts.token : token();
+    if (t) headers.Authorization = 'Bearer ' + t;
+    if (opts.body) headers['Content-Type'] = 'application/json';
+    var res = await fetch(API + path, { method: opts.method || 'GET', headers: headers, body: opts.body ? JSON.stringify(opts.body) : undefined, cache: 'no-store' });
+    if (res.status === 204) return null;
+    var body = null;
+    try { body = await res.json(); } catch (e) { /* no body */ }
+    if (!res.ok) {
+      var err = new Error((body && body.message) || 'GitHub answered ' + res.status);
+      err.status = res.status;
+      throw err;
+    }
+    return body;
+  }
+  function friendly(e) {
+    if (e.status === 401) return 'GitHub did not accept the token. Connect again.';
+    if (e.status === 403 && /rate limit/i.test(e.message)) return 'GitHub is limiting requests from this network. Connect, or try again in an hour.';
+    if (e.status === 404 && !token()) return 'Connect to see the tracker. This repository is private.';
+    if (e.status === 403 || e.status === 404) return 'This token cannot do that on the repository. It needs “Contents: Read-only” and “Actions: Read and write”.';
+    if (e.status === 422) return 'GitHub refused the request: ' + e.message;
+    return e.message || 'Something went wrong.';
+  }
+
+  /* Reading the repository. Files are kept by their content id, so only what changed is fetched again. */
+  var files = {};
+  try { files = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}'); } catch (e) { files = {}; }
+  async function fetchFiles(entries, commit) {
+    var out = {};
+    var queue = entries.slice();
+    async function worker() {
+      for (;;) {
+        var entry = queue.shift();
+        if (!entry) return;
+        if (!(entry.sha in files)) {
+          if (token()) {
+            // Signed in: read through GitHub's API, which also works when the repository is private.
+            var blob = await gh('/repos/' + REPO + '/git/blobs/' + entry.sha);
+            var bytes = Uint8Array.from(atob(blob.content.replace(/\s/g, '')), function (ch) { return ch.charCodeAt(0); });
+            files[entry.sha] = JSON.parse(new TextDecoder().decode(bytes));
+          } else {
+            var res = await fetch(RAW + '/' + REPO + '/' + commit + '/' + entry.path.split('/').map(encodeURIComponent).join('/'));
+            if (!res.ok) throw new Error('Could not read ' + entry.path + ' (' + res.status + ')');
+            files[entry.sha] = await res.json();
+          }
+        }
+        out[entry.path] = files[entry.sha];
+      }
+    }
+    await Promise.all([1, 2, 3, 4, 5, 6, 7, 8].map(worker));
+    var keep = {};
+    entries.forEach(function (entry) { keep[entry.sha] = files[entry.sha]; });
+    files = keep;
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify(files)); } catch (e) { /* too big or unavailable: fetch again next time */ }
+    return out;
+  }
+  // Returns true when the repository has changed since the last read.
+  async function loadRepo() {
+    var branch = await gh('/repos/' + REPO + '/branches/' + BRANCH.split('/').map(encodeURIComponent).join('/'));
+    var commit = branch.commit.sha;
+    if (commit === data.commit) return false;
+    var tree = await gh('/repos/' + REPO + '/git/trees/' + branch.commit.commit.tree.sha + '?recursive=1');
+    var blobs = tree.tree.filter(function (e) { return e.type === 'blob'; });
+    var logs = blobs.filter(function (e) { return /^data\/log\/\d{4}-\d{2}-\d{2}\.json$/.test(e.path); })
+      .sort(function (a, b) { return a.path < b.path ? 1 : -1; }).slice(0, LOG_DAYS);
+    var wanted = blobs.filter(function (e) {
+      return e.path === 'agent/config.json' || /^sources\/[a-z]{2}\.json$/.test(e.path) || /^data\/[a-z]{2}\/[^/]+\.json$/.test(e.path) || /^review\/[^/]+\.json$/.test(e.path);
+    }).concat(logs);
+    var content = await fetchFiles(wanted, commit);
+    var next = { commit: commit, cfg: content['agent/config.json'], sources: {}, records: [], reviews: [], logs: [] };
+    Object.keys(content).forEach(function (path) {
+      var m;
+      if ((m = path.match(/^sources\/([a-z]{2})\.json$/))) next.sources[m[1]] = content[path];
+      else if (/^data\/[a-z]{2}\//.test(path)) next.records.push(content[path]);
+      else if ((m = path.match(/^review\/(.+)\.json$/))) next.reviews.push(Object.assign({ name: m[1] }, content[path]));
+      else if ((m = path.match(/^data\/log\/(.+)\.json$/))) next.logs.push({ date: m[1], runs: content[path] });
+    });
+    next.logs.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    data = next;
+    if (!state.c || !data.cfg.countries[state.c]) state.c = Object.keys(data.cfg.countries)[0];
+    return true;
+  }
+  async function refresh(untilChanged) {
+    for (var i = 0; i < (untilChanged ? 8 : 1); i++) {
+      if (await loadRepo()) break;
+      if (untilChanged) await new Promise(function (r) { setTimeout(r, 1500); });
+    }
+    state.error = null;
+    state.loaded = true;
+    render();
+  }
+
+  /* Working out what to show */
+  function record(id) { return data.records.filter(function (r) { return r.id === id; })[0]; }
+  function review(name) { return data.reviews.filter(function (r) { return r.name === name; })[0]; }
+  function sourceCountry(id) {
+    return Object.keys(data.sources).filter(function (c) { return data.sources[c].some(function (s) { return s.id === id; }); })[0] || null;
+  }
+  function reviewCountry(rv) {
+    return (rv.proposed_record && rv.proposed_record.country) || (rv.current_record && rv.current_record.country) || sourceCountry(rv.item && rv.item.source);
+  }
+  // Which country a line of the run log belongs to. Newer logs say so; older ones are worked out from the id or the source.
+  function entryCountry(e) {
+    return e.country || (e.id ? e.id.slice(0, 2) : null) || sourceCountry(e.source) || (/^recheck ([a-z]{2})-/.exec(e.source || '') || [])[1] || null;
+  }
+  function activity() {
+    var c = state.c;
+    var items = [];
+    data.reviews.forEach(function (rv) {
+      if (reviewCountry(rv) !== c) return;
+      var rec = rv.proposed_record;
+      items.push({ kind: 'needs', day: rv.held_on, key: 'review:' + rv.name, review: rv.name, title: (rec && rec.title) || (rv.item && rv.item.title) || 'Untitled item',
+        detail: 'Held: ' + (rv.reasons || []).join('; '), url: rv.item && rv.item.url });
+    });
+    data.logs.forEach(function (log) {
+      (log.runs || []).forEach(function (run, n) {
+        var before = items.length;
+        var mine = function (list) { return (list || []).filter(function (e) { return entryCountry(e) === c; }); };
+        mine(run.published).forEach(function (e) {
+          items.push({ kind: 'new', day: log.date, key: e.id, record: e.id, title: e.title, detail: e.regulator + ' · ' + STAGE[e.stage], url: e.source });
+        });
+        mine(run.updated).forEach(function (e) {
+          items.push({ kind: 'updated', day: log.date, key: e.id, record: e.id, title: e.title, detail: (e.event || '') + ' Changed: ' + (e.what_changed || []).join('; ') + '.', url: e.source });
+        });
+        mine(run.now_in_force).forEach(function (e) {
+          items.push({ kind: 'inforce', day: log.date, key: e.id, record: e.id, title: e.title, detail: 'Came into force on ' + fmt(e.date) + '.' });
+        });
+        mine(run.ignored).forEach(function (e, i) {
+          items.push({ kind: 'ignored', day: log.date, key: 'ignored:' + e.url, title: e.title || e.url, detail: e.reason, url: e.url });
+        });
+        mine(run.source_problems).forEach(function (e) {
+          items.push({ kind: 'problem', day: log.date, key: 'problem:' + log.date + n + e.source + e.url, title: e.source === 'assistant' ? 'The AI could not process a page' : e.source + ' could not be read', detail: e.problem, url: e.url });
+        });
+        if (run.stopped_early) items.push({ kind: 'problem', day: log.date, key: 'stopped:' + log.date + n, title: 'The check stopped early', detail: run.stopped_early });
+        var covered = !run.countries || run.countries.indexOf(c) !== -1;
+        if (items.length === before && covered && run.countries) items.push({ kind: 'quiet', day: log.date, detail: 'Nothing new. ' + (run.already_seen || 0) + ' pages listed had been seen before.' });
+      });
+    });
+    return items.sort(function (a, b) {
+      if (a.day !== b.day) return a.day < b.day ? 1 : -1;
+      return ORDER.indexOf(a.kind) - ORDER.indexOf(b.kind);
+    });
+  }
+  // The latest day anything ran, with that day's runs added together.
+  function lastDay() {
+    for (var i = 0; i < data.logs.length; i++) {
+      var runs = data.logs[i].runs || [];
+      if (!runs.length) continue;
+      var all = function (key) { return runs.reduce(function (list, run) { return list.concat(run[key] || []); }, []); };
+      return { date: data.logs[i].date, published: all('published'), updated: all('updated'), ignored: all('ignored') };
+    }
+    return null;
+  }
+  function sourceHealth(s) {
+    if (!s.enabled) return { text: 'Off', cls: ' off' };
+    for (var i = 0; i < data.logs.length; i++) {
+      var runs = (data.logs[i].runs || []).slice().reverse();
+      for (var j = 0; j < runs.length; j++) {
+        var problem = (runs[j].source_problems || []).filter(function (p) { return p.source === s.id; })[0];
+        if (problem) return { text: 'Failed ' + fmt(data.logs[i].date) + ': ' + problem.problem, cls: ' bad' };
+        var stat = (runs[j].sources || []).filter(function (x) { return x.id === s.id; })[0];
+        if (stat) return { text: 'Read ' + fmt(data.logs[i].date) + ' · ' + stat.listed + ' listed', cls: '' };
+      }
+    }
+    // Logs from before per-source figures were kept say nothing either way.
+    var counted = data.logs.some(function (log) { return (log.runs || []).some(function (run) { return run.sources; }); });
+    return { text: counted ? 'Not read yet' : 'On', cls: counted ? ' off' : '' };
+  }
+  function address(s) {
+    if (s.how === 'govuk') return 'GOV.UK search: ' + s.organisation + (s.query ? ', “' + s.query + '”' : '');
+    return s.url || '';
+  }
+
+  /* Header */
+  function renderHead() {
+    var countries = data.cfg ? data.cfg.countries : {};
+    $('country-name').textContent = countries[state.c] ? countries[state.c].name : '';
+    $('country-menu').innerHTML = Object.keys(countries).map(function (c) {
+      return '<button type="button" role="menuitemradio" aria-checked="' + (c === state.c) + '" data-country="' + esc(c) + '">' + esc(countries[c].name) +
+        '<svg class="tick" style="visibility:' + (c === state.c ? 'visible' : 'hidden') + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>';
+    }).join('');
+    $('connect-btn').textContent = token() ? 'Connected' : 'Connect';
+    $('connect-btn').classList.toggle('btn-dark', !token());
+    if (!state.loaded) {
+      $('headline').textContent = state.error ? 'Could not load the tracker' : 'Loading…';
+      $('subline').textContent = state.error || '';
+      $('tabs').innerHTML = '';
+      return;
+    }
+    var needs = data.reviews.filter(function (rv) { return reviewCountry(rv) === state.c; }).length;
+    $('headline').textContent = needs ? needs + (needs === 1 ? ' change needs' : ' changes need') + ' your decision' : 'Nothing needs you';
+    var last = lastDay();
+    if (!last) $('subline').textContent = 'No check has run yet.';
+    else {
+      var mine = function (list) { return list.filter(function (e) { return entryCountry(e) === state.c; }).length; };
+      var stale = Math.round((Date.parse(today()) - Date.parse(last.date)) / 864e5) > 2;
+      $('subline').textContent = 'Last check ' + dayLabel(last.date).toLowerCase() + ': ' + mine(last.published) + ' new, ' + mine(last.updated) + ' updated, ' + mine(last.ignored) + ' ignored.' +
+        (stale ? ' No automatic check has run since.' : '');
+    }
+    $('run-now').disabled = state.checking;
+    $('run-now').textContent = state.checking ? 'Check running…' : 'Run a check now';
+    var tabs = [['activity', 'Activity'], ['changes', 'Changes'], ['sources', 'Sources']];
+    $('tabs').innerHTML = tabs.map(function (t) {
+      return '<button type="button" role="tab" data-tab="' + t[0] + '" aria-selected="' + (state.tab === t[0]) + '">' + t[1] + (t[0] === 'activity' && needs ? '<span class="count">' + needs + '</span>' : '') + '</button>';
+    }).join('');
+  }
+
+  /* A row's buttons: normal, waiting for a reason, or busy. */
+  function actions(key, buttons) {
+    if (state.pending[key]) return '<span class="working"><i></i>' + esc(state.pending[key]) + '</span>';
+    if (state.confirm && state.confirm.key === key) {
+      return '<form class="why" data-why="1"><input class="input" id="why" placeholder="Why? Optional. The assistant follows it." aria-label="Reason" maxlength="200">' +
+        '<button type="submit" class="btn btn-dark">' + esc(state.confirm.verb) + '</button><button type="button" class="btn" data-cancel-why="1">Cancel</button></form>';
+    }
+    return buttons;
+  }
+  function ask(el) {
+    return ' data-ask="' + esc(el.command) + '" data-target="' + esc(el.target) + '" data-key="' + esc(el.key) + '" data-verb="' + esc(el.verb) + '" data-busy="' + esc(el.busy) + '" data-done="' + esc(el.done) + '"';
+  }
+
+  /* Activity */
+  function activityRow(a) {
+    if (a.kind === 'quiet') return '<div class="quiet">' + esc(a.detail) + '</div>';
+    var buttons = '';
+    if (a.kind === 'needs') {
+      buttons = '<button type="button" class="btn btn-dark" data-review="' + esc(a.review) + '">Review</button>' +
+        '<button type="button" class="btn"' + ask({ command: 'dismiss', target: a.review, key: a.key, verb: 'Dismiss', busy: 'Dismissing…', done: 'Dismissed. The assistant will not raise it again.' }) + '>Dismiss</button>';
+    } else if ((a.kind === 'updated' || a.kind === 'new' || a.kind === 'inforce') && record(a.record)) {
+      var rec = record(a.record);
+      buttons = '<button type="button" class="btn" data-edit="' + esc(a.record) + '">View</button>';
+      if (a.kind === 'updated') buttons += '<button type="button" class="btn"' + ask({ command: 'revert', target: a.record, key: a.key, verb: 'Undo update', busy: 'Undoing…', done: 'Update undone. The assistant will not apply it again.' }) + '>Undo update</button>';
+      else if (a.kind === 'new' && rec.status === 'live') buttons += '<button type="button" class="btn"' + ask({ command: 'archive', target: a.record, key: a.key, verb: 'Remove', busy: 'Removing…', done: 'Removed from the page. The assistant will not add it again.' }) + '>Remove</button>';
+    } else if (a.kind === 'ignored' && a.url) {
+      buttons = '<button type="button" class="btn" data-include="' + esc(a.url) + '" data-key="' + esc(a.key) + '">Add anyway</button>';
+    } else if (a.kind === 'problem') {
+      buttons = '<button type="button" class="btn" data-tab="sources">Open sources</button>';
+    }
+    var src = safeUrl(a.url) ? ' <a href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener noreferrer">Source</a>' : '';
+    var gone = (a.kind === 'new' || a.kind === 'updated') && record(a.record) && record(a.record).status === 'archived';
+    return '<div class="row' + (gone ? ' done' : '') + '"><span class="pill ' + (a.kind === 'inforce' ? 'in_force' : a.kind) + '"><span class="dot"></span>' + KIND[a.kind] + '</span>' +
+      '<div class="main"><h3>' + esc(a.title) + '</h3><p>' + esc(a.detail) + src + '</p>' + (gone ? '<span class="result">Removed from the page.</span>' : '') + '</div>' +
+      '<div class="acts">' + actions(a.key, buttons) + '</div></div>';
+  }
+  function renderActivity() {
+    var all = activity();
+    var match = { all: function () { return true; }, needs: function (a) { return a.kind === 'needs'; }, published: function (a) { return a.kind === 'new' || a.kind === 'updated' || a.kind === 'inforce'; }, ignored: function (a) { return a.kind === 'ignored'; }, problem: function (a) { return a.kind === 'problem'; } };
+    var chips = [['all', 'All'], ['needs', 'Needs you'], ['published', 'Published'], ['ignored', 'Ignored'], ['problem', 'Problems']];
+    var list = all.filter(function (a) { return state.filter === 'all' || (a.kind !== 'quiet' && match[state.filter](a)); });
+    var html = '<div class="bar"><div class="chips" role="group" aria-label="Show">' + chips.map(function (c) {
+      var n = c[0] === 'all' ? '' : ' ' + all.filter(function (a) { return a.kind !== 'quiet' && match[c[0]](a); }).length;
+      return '<button type="button" class="chip" data-filter="' + c[0] + '" aria-pressed="' + (state.filter === c[0]) + '">' + c[1] + n + '</button>';
+    }).join('') + '</div></div>';
+    if (!list.length) html += '<div class="panel"><div class="empty">' + (all.length ? 'Nothing here.' : 'No checks have run for ' + esc(data.cfg.countries[state.c].name) + ' yet.') + '</div></div>';
+    else {
+      var days = [];
+      list.forEach(function (a) { if (days.indexOf(a.day) === -1) days.push(a.day); });
+      html += '<div class="panel">' + days.map(function (d) {
+        return '<div class="day">' + esc(dayLabel(d)) + '</div>' + list.filter(function (a) { return a.day === d; }).map(activityRow).join('');
+      }).join('') + '</div>';
+    }
+    $('view').innerHTML = html;
+  }
+
+  /* Changes */
+  function lastChanged(r) { var h = r.history || []; return h.length ? h[h.length - 1].date : r.last_checked; }
+  function matching() {
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    return data.records.filter(function (r) {
+      if (r.country !== state.c || r.status !== state.show) return false;
+      var h = (r.title + ' ' + r.regulator + ' ' + r.topic + ' ' + r.summary + ' ' + r.id).toLowerCase();
+      return words.every(function (w) { return h.indexOf(w) !== -1; });
+    }).sort(function (a, b) { return lastChanged(a) < lastChanged(b) ? 1 : -1; });
+  }
+  function changeRows(list) {
+    if (!list.length) return '<div class="empty">' + (state.show === 'archived' ? 'Nothing is archived.' : 'No changes match.') + '</div>';
+    return list.map(function (r) {
+      var archived = r.status === 'archived';
+      var toggle = archived
+        ? '<button type="button" class="btn"' + ask({ command: 'restore', target: r.id, key: r.id, verb: 'Restore', busy: 'Restoring…', done: 'Restored. It is back on the page.' }) + '>Restore</button>'
+        : '<button type="button" class="btn"' + ask({ command: 'archive', target: r.id, key: r.id, verb: 'Archive', busy: 'Archiving…', done: 'Archived. It is off the page.' }) + '>Archive</button>';
+      return '<div class="row"><span class="pill ' + (archived ? 'archived' : esc(r.stage)) + '"><span class="dot"></span>' + (archived ? 'Archived' : STAGE[r.stage]) + '</span>' +
+        '<div class="main"><h3>' + esc(r.title) + '</h3><p>' + esc(r.regulator) + ' · ' + esc(r.topic) + ' · last changed ' + esc(fmt(lastChanged(r))) + '</p></div>' +
+        '<div class="acts">' + actions(r.id, '<button type="button" class="btn" data-edit="' + esc(r.id) + '">Edit</button>' + toggle) + '</div></div>';
+    }).join('');
+  }
+  function renderChanges() {
+    var mine = data.records.filter(function (r) { return r.country === state.c; });
+    var n = function (s) { return mine.filter(function (r) { return r.status === s; }).length; };
+    $('view').innerHTML = '<div class="bar"><div class="chips" role="group" aria-label="Show">' +
+      '<button type="button" class="chip" data-show="live" aria-pressed="' + (state.show === 'live') + '">On the page ' + n('live') + '</button>' +
+      '<button type="button" class="chip" data-show="archived" aria-pressed="' + (state.show === 'archived') + '">Archived ' + n('archived') + '</button></div>' +
+      '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+      '<input type="search" id="search" placeholder="Search changes" autocomplete="off" aria-label="Search changes" value="' + esc(state.q) + '"></label></div>' +
+      '<div class="panel" id="change-list">' + changeRows(matching()) + '</div>';
+  }
+
+  /* Sources */
+  function renderSources() {
+    var list = data.sources[state.c] || [];
+    var html = '<div class="bar"><span class="hint">' + list.filter(function (s) { return s.enabled; }).length + ' of ' + list.length + ' sources are on. Official sites only.</span>' +
+      (state.pending['add-source'] ? '<span class="working"><i></i>' + esc(state.pending['add-source']) + '</span>' : '<button type="button" class="btn" id="add-source">Add a source</button>') + '</div><div class="panel">';
+    if (state.adding) {
+      html += '<form class="add-form" id="add-form"><input class="input" id="new-name" placeholder="Regulator name" aria-label="Regulator name" maxlength="40" required>' +
+        '<input class="input" id="new-url" type="url" placeholder="https://… the page that lists its news or consultations" aria-label="Address" required>' +
+        '<button type="submit" class="btn btn-dark">Add</button><button type="button" class="btn" id="cancel-add">Cancel</button></form>';
+    }
+    if (!list.length && !state.adding) html += '<div class="empty">No sources yet.</div>';
+    html += list.map(function (s) {
+      var key = 'source:' + s.id;
+      var health = sourceHealth(s);
+      return '<div class="row src-row"><div class="main"><h3>' + esc(s.regulator) + '</h3><p>' + esc(s.covers) + '</p><span class="addr">' + esc(address(s)) + '</span>' +
+        (s.note ? '<p class="src-note">' + esc(s.note) + '</p>' : '') + '</div>' +
+        '<span class="health' + health.cls + '"><i></i>' + esc(health.text) + '</span>' +
+        (state.pending[key] ? '<span class="working"><i></i>' + esc(state.pending[key]) + '</span>'
+          : '<button type="button" class="switch" role="switch" aria-checked="' + !!s.enabled + '" aria-label="Watch ' + esc(s.regulator) + ': ' + esc(s.covers) + '" data-switch="' + esc(s.id) + '"></button>') + '</div>';
+    }).join('') + '</div>';
+    html += '<form class="older" id="older-form"><label for="older-date">Load older changes, back to</label>' +
+      '<input class="input" id="older-date" type="date" max="' + today() + '" required>' +
+      '<button type="submit" class="btn"' + (state.checking ? ' disabled' : '') + '>Start</button>' +
+      '<span class="hint">Reads older pages from every source that is on, for both countries. It can take several hours and continues by itself.</span></form>';
+    $('view').innerHTML = html;
+  }
+
+  function render() {
+    renderHead();
+    if (!state.loaded) { $('view').innerHTML = state.error ? '<div class="panel"><div class="empty"><button type="button" class="btn" id="retry">Try again</button></div></div>' : ''; return; }
+    if (state.tab === 'activity') renderActivity();
+    else if (state.tab === 'changes') renderChanges();
+    else renderSources();
+    var why = $('why');
+    if (why) why.focus();
+  }
+
+  function toast(message, link) {
+    clearTimeout(toastTimer);
+    $('toast').innerHTML = '<span>' + esc(message) + '</span>' + (safeUrl(link) ? '<a href="' + esc(safeUrl(link)) + '" target="_blank" rel="noopener noreferrer">Details</a>' : '');
+    $('toast').hidden = false;
+    toastTimer = setTimeout(function () { $('toast').hidden = true; }, link ? 15000 : 6000);
+  }
+
+  /* Doing things. Every action is one run of a workflow; the page waits for it and then reads the repository again. */
+  async function waitForRun(workflow, request, minutes) {
+    var deadline = Date.now() + minutes * 60000;
+    var pause = minutes > 10 ? 15000 : 3000;
+    while (Date.now() < deadline) {
+      await new Promise(function (r) { setTimeout(r, pause); });
+      var list = await gh('/repos/' + REPO + '/actions/workflows/' + workflow + '/runs?event=workflow_dispatch&per_page=20');
+      var run = (list.workflow_runs || []).filter(function (r) { return (r.display_title || r.name || '').indexOf('[' + request + ']') !== -1; })[0];
+      if (run && run.status === 'completed') return run;
+    }
+    throw new Error('It is taking longer than expected. Check back in a few minutes.');
+  }
+  async function jobOf(run) {
+    var jobs = await gh('/repos/' + REPO + '/actions/runs/' + run.id + '/jobs');
+    return (jobs.jobs || [])[0] || null;
+  }
+  async function failureOf(run) {
+    try {
+      var job = await jobOf(run);
+      var notes = job ? await gh('/repos/' + REPO + '/check-runs/' + job.id + '/annotations') : [];
+      var own = notes.filter(function (n) { return n.annotation_level === 'failure' && !/^Process completed with exit code/.test(n.message); })[0];
+      if (own) return own.message;
+    } catch (e) { /* fall through to the plain message */ }
+    return 'The action did not go through.';
+  }
+  async function act(a) {
+    if (!token()) { openPanel('connect'); return; }
+    var request = Math.random().toString(16).slice(2, 10);
+    state.pending[a.key] = a.busy;
+    state.confirm = null;
+    render();
+    try {
+      await gh('/repos/' + REPO + '/actions/workflows/admin.yml/dispatches', { method: 'POST', body: { ref: BRANCH, inputs: {
+        command: a.command, target: a.target, reason: a.reason || '', payload: a.payload ? JSON.stringify(a.payload) : '', request: request } } });
+      var run = await waitForRun('admin.yml', request, 6);
+      if (run.conclusion !== 'success') { var failed = new Error(await failureOf(run)); failed.link = run.html_url; throw failed; }
+      delete state.pending[a.key];
+      await refresh(true);
+      toast(a.done);
+    } catch (e) {
+      delete state.pending[a.key];
+      render();
+      toast(e.status ? friendly(e) : e.message, e.link);
+    }
+  }
+  // Runs the daily check now. "include" asks for one ignored page to be added; "since" reads further back than usual.
+  async function check(include, since) {
+    if (!token()) { openPanel('connect'); return; }
+    var request = Math.random().toString(16).slice(2, 10);
+    state.checking = true;
+    render();
+    try {
+      await gh('/repos/' + REPO + '/actions/workflows/daily.yml/dispatches', { method: 'POST', body: { ref: BRANCH, inputs: { include: include || '', since: since || '', request: request } } });
+      toast(include ? 'Asked the assistant to add it. This takes a few minutes.' : since ? 'Started. Older changes appear here as they are found.' : 'Check started. Results appear here when it finishes.');
+      var run = await waitForRun('daily.yml', request, 345);
+      var job = await jobOf(run).catch(function () { return null; });
+      var skipped = job && (job.steps || []).some(function (s) { return s.name === 'Run the assistant' && s.conclusion === 'skipped'; });
+      state.checking = false;
+      await refresh(true);
+      if (skipped) toast('The check did not run: no AI credential is set for the repository yet.', run.html_url);
+      else if (run.conclusion !== 'success') toast('The check finished with a problem.', run.html_url);
+      else toast('Check finished.');
+    } catch (e) {
+      state.checking = false;
+      render();
+      toast(e.status ? friendly(e) : e.message);
+    }
+  }
+
+  /* The side panel: edit a change, review a held one, or connect. */
+  function openPanel(kind, id) {
+    state.lastFocus = document.activeElement;
+    state.panel = kind;
+    if (kind === 'edit') state.draft = { mode: 'edit', rec: clone(record(id)) };
+    else if (kind === 'review') {
+      var rv = review(id);
+      state.draft = { mode: 'review', name: rv.name, reasons: rv.reasons || [], current: rv.current_record, item: rv.item, rec: rv.proposed_record ? clone(rv.proposed_record) : null };
+    }
+    if (state.draft && state.draft.rec) state.draft.rec.dates = state.draft.rec.dates || {};
+    renderPanel();
+    $('drawer').hidden = false;
+    $('scrim').hidden = false;
+    document.body.classList.add('locked');
+    var first = $('drawer').querySelector('input, textarea, button.btn-dark');
+    if (first) first.focus();
+  }
+  function closePanel() {
+    $('drawer').hidden = true;
+    $('scrim').hidden = true;
+    document.body.classList.remove('locked');
+    state.draft = null;
+    state.panel = null;
+    if (state.lastFocus && document.contains(state.lastFocus)) state.lastFocus.focus();
+  }
+  var X = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+  function bar(title) { return '<div class="drawer-bar"><span id="d-title">' + esc(title) + '</span><button type="button" class="icon-btn" id="close" aria-label="Close">' + X + '</button></div>'; }
+  function renderPanel() {
+    if (state.panel === 'connect') return renderConnect();
+    var d = state.draft;
+    var r = d.rec;
+    var top = '';
+    if (d.mode === 'review') {
+      top = '<div class="note"><strong>Held because:</strong> ' + esc(d.reasons.join('; ')) + '</div>' +
+        (d.current ? '<p class="hint">This would update “' + esc(d.current.title) + '”.</p>' : '');
+      if (!r) {
+        $('drawer').innerHTML = bar('Held for review') + '<div class="drawer-body">' + top + '<p class="hint">The assistant could not draft a record for this page, so it can only be dismissed.</p></div>' +
+          '<div class="drawer-foot">' + sourceLink(d.item && d.item.url) + '<div class="right"><button type="button" class="btn" id="cancel">Close</button><button type="button" class="btn btn-dark" id="dismiss">Dismiss</button></div></div>';
+        return;
+      }
+    }
+    var lim = data.cfg.limits;
+    var keys = data.cfg.applies_to[r.country] || {};
+    var count = function (value, max) { return '<span class="n' + (value.length > max ? ' over' : '') + '">' + value.length + ' / ' + max + '</span>'; };
+    var dateField = function (k, label, hint) {
+      return '<div class="field"><label for="f-' + k + '">' + label + '</label><input class="input" id="f-' + k + '" data-date="' + k + '" value="' + esc(r.dates[k] || '') + '" placeholder="' + hint + '"></div>';
+    };
+    $('drawer').innerHTML = bar((d.mode === 'review' ? 'Held for review · ' : 'Edit change · ') + r.regulator) +
+      '<div class="drawer-body">' + top +
+        '<div class="field"><label for="f-title">Title <span id="c-title">' + count(r.title, lim.title) + '</span></label><input class="input" id="f-title" value="' + esc(r.title) + '"></div>' +
+        '<div class="field"><label for="f-summary">Summary <span id="c-summary">' + count(r.summary, lim.summary) + '</span></label><textarea id="f-summary">' + esc(r.summary) + '</textarea></div>' +
+        '<div class="field"><span class="lab">What changes <span class="n">' + r.what_changes.length + ' / ' + lim.what_changes_max_items + ' points, ' + lim.what_changes_item + ' characters each</span></span>' +
+          r.what_changes.map(function (p, i) {
+            return '<div class="point"><input class="input" data-point="' + i + '" aria-label="Point ' + (i + 1) + '" value="' + esc(p) + '">' +
+              '<button type="button" class="icon-btn" data-drop="' + i + '" aria-label="Remove point ' + (i + 1) + '">' + X + '</button></div>';
+          }).join('') +
+          (r.what_changes.length < lim.what_changes_max_items ? '<div><button type="button" class="link" id="add-point">Add a point</button></div>' : '') + '</div>' +
+        '<div class="field"><label for="f-who">Who it applies to <span id="c-who">' + count(r.who_it_applies_to, lim.who_it_applies_to) + '</span></label><textarea id="f-who" style="min-height:64px">' + esc(r.who_it_applies_to) + '</textarea></div>' +
+        '<div class="field"><span class="lab">Applies to</span><div class="chips">' + Object.keys(keys).map(function (k) {
+          return '<button type="button" class="chip" data-key="' + esc(k) + '" aria-pressed="' + (r.applies_to.indexOf(k) !== -1) + '">' + esc(keys[k].label) + '</button>';
+        }).join('') + '</div></div>' +
+        '<div class="two"><div class="field"><label for="f-stage">Stage</label><select id="f-stage">' + Object.keys(STAGE).map(function (s) { return '<option value="' + s + '"' + (s === r.stage ? ' selected' : '') + '>' + STAGE[s] + '</option>'; }).join('') + '</select></div>' +
+          '<div class="field"><label for="f-topic">Topic</label><select id="f-topic">' + data.cfg.topics.map(function (t) { return '<option' + (t === r.topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join('') + '</select></div></div>' +
+        (r.stage === 'guidance' ? dateField('published', 'Issued', 'YYYY-MM-DD')
+          : '<div class="three">' + dateField('proposed', 'Proposed', 'YYYY-MM-DD') + dateField('decided', 'Decided', 'YYYY-MM-DD') + dateField('in_force', 'In force', 'YYYY-MM-DD') + '</div>' +
+            (r.stage === 'in_force' ? '' : dateField('in_force_text', 'Start date in words, if not exact', 'early 2027'))) +
+        ((r.history || []).length ? '<div><h4 class="sub-h">History</h4><ul class="hist" style="margin-top:8px">' + r.history.map(function (h) { return '<li><time>' + esc(fmt(h.date)) + '</time>' + esc(h.event) + '</li>'; }).join('') + '</ul></div>' : '') +
+        ((r.admin_notes || []).length ? '<div><h4 class="sub-h">Admin notes the assistant follows</h4>' + r.admin_notes.map(function (n) { return '<p class="note" style="margin-top:8px">' + esc(n) + '</p>'; }).join('') + '</div>' : '') +
+        '<div class="problems" id="problems" hidden></div>' +
+      '</div>' +
+      '<div class="drawer-foot">' + sourceLink(d.mode === 'review' ? d.item && d.item.url : r.source && r.source.url) +
+        '<div class="right">' + (d.mode === 'review'
+          ? '<button type="button" class="btn" id="dismiss">Dismiss</button><button type="button" class="btn btn-dark" id="save">Publish</button>'
+          : '<button type="button" class="btn" id="cancel">Cancel</button><button type="button" class="btn btn-dark" id="save">Save</button>') + '</div></div>';
+    checkDraft();
+  }
+  function sourceLink(url) { return safeUrl(url) ? '<a class="link" href="' + esc(safeUrl(url)) + '" target="_blank" rel="noopener noreferrer">Open the source</a>' : '<span></span>'; }
+  // The fields an admin may change, cleaned up the way the server stores them.
+  function edited(r) {
+    var dates = {};
+    var wanted = r.stage === 'guidance' ? ['published'] : r.stage === 'in_force' ? ['proposed', 'decided', 'in_force'] : ['proposed', 'decided', 'in_force', 'in_force_text'];
+    wanted.forEach(function (k) { if ((r.dates[k] || '').trim()) dates[k] = r.dates[k].trim(); });
+    return { title: r.title.trim(), summary: r.summary.trim(), what_changes: r.what_changes.map(function (p) { return p.trim(); }), applies_to: r.applies_to,
+      who_it_applies_to: r.who_it_applies_to.trim(), topic: r.topic, stage: r.stage, dates: dates };
+  }
+  function problemsOf(r) {
+    var rec = Object.assign({}, r, edited(r));
+    if (typeof validateRecord === 'function') return validateRecord(rec, data.cfg, todayIn(rec.country));
+    return rec.title && rec.summary && rec.who_it_applies_to && rec.applies_to.length && rec.what_changes.length ? [] : ['Something is empty.'];
+  }
+  function checkDraft() {
+    if (!state.draft || !state.draft.rec || !$('save')) return;
+    var problems = problemsOf(state.draft.rec);
+    $('save').disabled = problems.length > 0;
+    $('problems').hidden = !problems.length;
+    $('problems').innerHTML = problems.length ? '<strong>Fix before saving</strong><ul>' + problems.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '';
+  }
+  function renderConnect() {
+    var connected = !!token();
+    $('drawer').innerHTML = bar('Connect to GitHub') + '<div class="drawer-body">' +
+      (connected
+        ? '<p>This browser is connected. Every action you take here is saved to the repository under your GitHub account.</p>'
+        : '<p>Every action here is saved to the repository, so GitHub needs to know it is you. You do this once per browser.</p>' +
+          '<ol class="steps"><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub’s new token page</a>.</li>' +
+          '<li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> and pick <strong>' + esc(REPO.split('/')[1]) + '</strong>.</li>' +
+          '<li>Under <strong>Permissions</strong>, set <strong>Actions</strong> to <strong>Read and write</strong> and <strong>Contents</strong> to <strong>Read-only</strong>.</li>' +
+          '<li>Generate the token, copy it and paste it below.</li></ol>' +
+          '<form id="connect-form" class="field"><label for="f-token">Token</label><input class="input" id="f-token" type="password" autocomplete="off" placeholder="github_pat_…" required>' +
+          '<p class="hint" id="connect-error" hidden></p></form>' +
+          '<p class="hint">The token is kept in this browser only. It is never saved in the repository.</p>') +
+      '</div><div class="drawer-foot"><span></span><div class="right"><button type="button" class="btn" id="cancel">Close</button>' +
+      (connected ? '<button type="button" class="btn" id="disconnect">Disconnect</button>' : '<button type="submit" form="connect-form" class="btn btn-dark" id="connect-save">Connect</button>') + '</div></div>';
+  }
+
+  /* Events */
+  $('drawer').addEventListener('input', function (e) {
+    if (!state.draft || !state.draft.rec) return;
+    var r = state.draft.rec;
+    var t = e.target;
+    var lim = data.cfg.limits;
+    var count = function (value, max) { return '<span class="n' + (value.length > max ? ' over' : '') + '">' + value.length + ' / ' + max + '</span>'; };
+    if (t.id === 'f-title') { r.title = t.value; $('c-title').innerHTML = count(r.title, lim.title); }
+    else if (t.id === 'f-summary') { r.summary = t.value; $('c-summary').innerHTML = count(r.summary, lim.summary); }
+    else if (t.id === 'f-who') { r.who_it_applies_to = t.value; $('c-who').innerHTML = count(r.who_it_applies_to, lim.who_it_applies_to); }
+    else if (t.hasAttribute('data-point')) r.what_changes[+t.getAttribute('data-point')] = t.value;
+    else if (t.hasAttribute('data-date')) r.dates[t.getAttribute('data-date')] = t.value;
+    checkDraft();
+  });
+  $('drawer').addEventListener('change', function (e) {
+    if (!state.draft || !state.draft.rec) return;
+    if (e.target.id === 'f-stage') { state.draft.rec.stage = e.target.value; renderPanel(); }
+    else if (e.target.id === 'f-topic') { state.draft.rec.topic = e.target.value; checkDraft(); }
+  });
+  $('drawer').addEventListener('submit', async function (e) {
+    if (e.target.id !== 'connect-form') return;
+    e.preventDefault();
+    var value = $('f-token').value.trim();
+    $('connect-save').disabled = true;
+    try {
+      await gh('/repos/' + REPO + '/actions/workflows/admin.yml', { token: value });
+      setToken(value);
+      closePanel();
+      render();
+      toast('Connected.');
+      if (!state.loaded) start();
+    } catch (err) {
+      $('connect-save').disabled = false;
+      $('connect-error').hidden = false;
+      $('connect-error').textContent = err.status === 401 ? 'GitHub did not accept that token.' : 'That token cannot see the repository’s actions. Check steps 2 and 3.';
+    }
+  });
+  $('scrim').addEventListener('click', closePanel);
+  $('country-btn').addEventListener('click', function (e) { e.stopPropagation(); $('country-menu').hidden = !$('country-menu').hidden; });
+  $('connect-btn').addEventListener('click', function () { openPanel('connect'); });
+  $('run-now').addEventListener('click', function () { check(); });
+
+  $('view').addEventListener('input', function (e) {
+    if (e.target.id !== 'search') return;
+    state.q = e.target.value;
+    $('change-list').innerHTML = changeRows(matching());
+  });
+  $('view').addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (e.target.id === 'add-form') {
+      var name = $('new-name').value.trim();
+      var url = $('new-url').value.trim();
+      state.adding = false;
+      act({ command: 'source-add', target: state.c, payload: { regulator: name, url: url }, key: 'add-source', busy: 'Checking the address…', done: name + ' added. It will be read on the next check.' });
+    } else if (e.target.id === 'older-form') {
+      check(null, $('older-date').value);
+    } else if (e.target.hasAttribute('data-why') && state.confirm) {
+      var c = state.confirm;
+      act({ command: c.command, target: c.target, reason: $('why').value.trim(), key: c.key, busy: c.busy, done: c.done });
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t.closest('.country')) $('country-menu').hidden = true;
+    var el;
+    if (t.closest('#retry')) { start(); return; }
+    if ((el = t.closest('[data-country]'))) { state.c = el.getAttribute('data-country'); state.filter = 'all'; state.q = ''; state.adding = false; state.confirm = null; $('country-menu').hidden = true; render(); return; }
+    if ((el = t.closest('[data-tab]'))) { state.tab = el.getAttribute('data-tab'); state.confirm = null; render(); return; }
+    if ((el = t.closest('[data-filter]'))) { state.filter = el.getAttribute('data-filter'); render(); return; }
+    if ((el = t.closest('[data-show]'))) { state.show = el.getAttribute('data-show'); render(); return; }
+    if ((el = t.closest('[data-edit]'))) { openPanel('edit', el.getAttribute('data-edit')); return; }
+    if ((el = t.closest('[data-review]'))) { openPanel('review', el.getAttribute('data-review')); return; }
+    if ((el = t.closest('[data-include]'))) { check(el.getAttribute('data-include')); return; }
+    if ((el = t.closest('[data-ask]'))) {
+      if (!token()) { openPanel('connect'); return; }
+      state.confirm = { command: el.getAttribute('data-ask'), target: el.getAttribute('data-target'), key: el.getAttribute('data-key'), verb: el.getAttribute('data-verb'), busy: el.getAttribute('data-busy'), done: el.getAttribute('data-done') };
+      render();
+      return;
+    }
+    if (t.closest('[data-cancel-why]')) { state.confirm = null; render(); return; }
+    if ((el = t.closest('[data-switch]'))) {
+      var s = (data.sources[state.c] || []).filter(function (x) { return x.id === el.getAttribute('data-switch'); })[0];
+      act({ command: s.enabled ? 'source-off' : 'source-on', target: state.c + '/' + s.id, key: 'source:' + s.id, busy: s.enabled ? 'Turning off…' : 'Turning on…',
+        done: s.regulator + (s.enabled ? ' is off.' : ' is on. It will be read on the next check.') });
+      return;
+    }
+    if (t.closest('#add-source')) { if (!token()) { openPanel('connect'); return; } state.adding = true; render(); $('new-name').focus(); return; }
+    if (t.closest('#cancel-add')) { state.adding = false; render(); return; }
+
+    if (!state.panel) return;
+    if (t.closest('#close') || t.closest('#cancel')) { closePanel(); return; }
+    if (t.closest('#disconnect')) { setToken(''); closePanel(); render(); toast('Disconnected.'); return; }
+    var d = state.draft;
+    if (!d) return;
+    if (t.closest('#dismiss')) {
+      var name = d.name;
+      closePanel();
+      state.confirm = { command: 'dismiss', target: name, key: 'review:' + name, verb: 'Dismiss', busy: 'Dismissing…', done: 'Dismissed. The assistant will not raise it again.' };
+      state.tab = 'activity';
+      render();
+      return;
+    }
+    if (!d.rec) return;
+    if ((el = t.closest('[data-key]')) && el.closest('#drawer')) {
+      var k = el.getAttribute('data-key');
+      var list = d.rec.applies_to;
+      var i = list.indexOf(k);
+      if (k === 'all') d.rec.applies_to = i === -1 ? ['all'] : [];
+      else { if (i === -1) list.push(k); else list.splice(i, 1); d.rec.applies_to = list.filter(function (x) { return x !== 'all'; }); }
+      renderPanel();
+      return;
+    }
+    if ((el = t.closest('[data-drop]'))) { d.rec.what_changes.splice(+el.getAttribute('data-drop'), 1); renderPanel(); return; }
+    if (t.closest('#add-point')) { d.rec.what_changes.push(''); renderPanel(); var inputs = document.querySelectorAll('[data-point]'); inputs[inputs.length - 1].focus(); return; }
+    if (t.closest('#save') && !$('save').disabled) {
+      var payload = edited(d.rec);
+      var job = d.mode === 'review'
+        ? { command: 'publish', target: d.name, payload: payload, key: 'review:' + d.name, busy: 'Publishing…', done: 'Published.' }
+        : { command: 'edit', target: d.rec.id, payload: payload, key: d.rec.id, busy: 'Saving…', done: 'Saved.' };
+      closePanel();
+      act(job);
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    $('country-menu').hidden = true;
+    if (state.panel) closePanel();
+    else if (state.confirm) { state.confirm = null; render(); }
+  });
+
+  async function start() {
+    state.error = null;
+    render();
+    try { await refresh(false); }
+    catch (e) { state.loaded = false; state.error = e.status ? friendly(e) : e.message; render(); }
+  }
+  start();
+})();
+
+</script>
+</body>
+</html>
