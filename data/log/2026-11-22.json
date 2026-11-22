@@ -1,0 +1,115 @@
+[
+  {
+    "date": "2026-11-22",
+    "since": "2026-09-23",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 0
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 3,
+        "relevant": 3,
+        "read": 0
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 15,
+        "read": 0
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 20,
+        "read": 0
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 20,
+        "relevant": 0,
+        "read": 0
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 7,
+        "relevant": 7,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 1
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 6,
+        "relevant": 6,
+        "read": 0
+      }
+    ],
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "Uniform Law Conference 2026",
+        "url": "https://legalservicescouncil.org.au/highlights/uniform-law-conference-2026.html",
+        "reason": "The item is a report on a conference and its speeches. It contains no new or amended rule, proposal, decision or guidance that affects how law firms must operate.",
+        "country": "au",
+        "source": "lsc-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 86,
+    "cost_usd": 0.06,
+    "stopped_early": null,
+    "finished_at": "2026-11-22T06:28:15.088Z"
+  }
+]

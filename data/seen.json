@@ -1101,6 +1101,13 @@
     "source": "lsc-news",
     "hash": "bcc3dc47a1f2412e"
   },
+  "https://legalservicescouncil.org.au/highlights/uniform-law-conference-2026.html": {
+    "decision": "ignored",
+    "reason": "The item is a report on a conference and its speeches. It contains no new or amended rule, proposal, decision or guidance that affects how law firms must operate.",
+    "date": "2026-11-22",
+    "source": "lsc-news",
+    "hash": "41a035045fbe6c5c"
+  },
   "https://legalservicescouncil.org.au/highlights/updated-cost-disclosure-documents--results-of-user-testing.html": {
     "decision": "ignored",
     "reason": "This item reports user-testing research on cost disclosure forms. It only says a targeted consultation will happen later, so there is no open consultation, draft rule or decision to record yet.",
