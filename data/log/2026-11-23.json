@@ -1,0 +1,125 @@
+[
+  {
+    "date": "2026-11-23",
+    "since": "2026-09-24",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 0
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 3,
+        "relevant": 3,
+        "read": 0
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 15,
+        "read": 0
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 20,
+        "read": 0
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 20,
+        "relevant": 0,
+        "read": 0
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 7,
+        "relevant": 7,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 1
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 6,
+        "relevant": 6,
+        "read": 1
+      }
+    ],
+    "published": [
+      {
+        "id": "au-vlsbc-legal-mail-custody",
+        "country": "au",
+        "title": "Warning on law practice details misused to smuggle contraband into prisons",
+        "regulator": "VLSB+C",
+        "stage": "guidance",
+        "source": "https://lsbc.vic.gov.au/news-updates/news/help-protect-integrity-legal-mail-sent-people-custody",
+        "summary": "The VLSB+C warns that people are using law practices' names and letterheads to disguise contraband as legal mail sent into prisons. It recommends steps to make genuine legal mail easy to verify."
+      }
+    ],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "News | 23 Nov 2026 Members save over 10% on Symposium 2027 Early Bird tickets",
+        "url": "https://www.qls.com.au/news-media-advocacy/members-save-over-10-on-symposium-2027-early-bird-tickets",
+        "reason": "This is a promotion for event tickets, not a change to rules, a consultation or guidance that affects how law firms operate.",
+        "country": "au",
+        "source": "qls-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 84,
+    "cost_usd": 0.15,
+    "stopped_early": null,
+    "finished_at": "2026-11-23T06:40:34.806Z"
+  }
+]

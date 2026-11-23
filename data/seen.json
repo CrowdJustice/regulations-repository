@@ -1507,6 +1507,13 @@
     "source": "vlsbc-news",
     "hash": "6aa84247d440d456"
   },
+  "https://lsbc.vic.gov.au/news-updates/news/help-protect-integrity-legal-mail-sent-people-custody": {
+    "decision": "new",
+    "record_id": "au-vlsbc-legal-mail-custody",
+    "date": "2026-11-23",
+    "source": "vlsbc-news",
+    "hash": "506563799bbd7dc7"
+  },
   "https://lsbc.vic.gov.au/news-updates/news/improving-lawyer-and-consumer-experiences-clear-focus-victorias-legal-regulator": {
     "decision": "ignored",
     "reason": "This is a news item about the VLSB+C's 2023–24 annual report, which is excluded, and it sets out no new rule or guidance that firms must act on.",
@@ -3937,6 +3944,13 @@
     "date": "2026-11-16",
     "source": "qls-news",
     "hash": "62380e9f50f61d42"
+  },
+  "https://www.qls.com.au/news-media-advocacy/members-save-over-10-on-symposium-2027-early-bird-tickets": {
+    "decision": "ignored",
+    "reason": "This is a promotion for event tickets, not a change to rules, a consultation or guidance that affects how law firms operate.",
+    "date": "2026-11-23",
+    "source": "qls-news",
+    "hash": "3ba04356a1445254"
   },
   "https://www.qls.com.au/news-media-advocacy/planning-a-practice-change-in-2027-act-now-for-year-end-processing": {
     "decision": "ignored",
