@@ -1,0 +1,36 @@
+{
+  "id": "au-vlsbc-legal-mail-custody",
+  "country": "au",
+  "status": "live",
+  "regulator": "VLSB+C",
+  "title": "Warning on law practice details misused to smuggle contraband into prisons",
+  "summary": "The VLSB+C warns that people are using law practices' names and letterheads to disguise contraband as legal mail sent into prisons. It recommends steps to make genuine legal mail easy to verify.",
+  "what_changes": [
+    "Corrections Victoria has intercepted contraband packaged as legal mail using law practices' details, with no evidence the practices knew.",
+    "Recommends consistent letterhead, packaging, return address and a practice-specific identifier on mail to people in custody.",
+    "Recommends keeping accurate records of items sent to clients in custody and using tamper-proof packaging where practical.",
+    "Practices that learn their details may have been misused are expected to contact Corrections Victoria directly."
+  ],
+  "applies_to": [
+    "vic"
+  ],
+  "who_it_applies_to": "Victorian law practices that send legal mail to clients in custody.",
+  "topic": "Other",
+  "stage": "guidance",
+  "dates": {
+    "published": "2026-11-23"
+  },
+  "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/help-protect-integrity-legal-mail-sent-people-custody"
+  },
+  "last_checked": "2026-11-23",
+  "history": [
+    {
+      "date": "2026-11-23",
+      "event": "VLSB+C warned that law practice details are being misused to smuggle contraband into prisons as legal mail.",
+      "url": "https://lsbc.vic.gov.au/news-updates/news/help-protect-integrity-legal-mail-sent-people-custody"
+    }
+  ],
+  "admin_notes": []
+}
