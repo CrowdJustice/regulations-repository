@@ -3705,11 +3705,11 @@
   },
   "https://www.gov.uk/guidance/provide-psc-verification": {
     "decision": "ignored",
-    "reason": "This is a Companies House service page on how a PSC gives an identity verification code, and its update only rewrites the text for the end of the transition period without stating a new requirement or date.",
-    "date": "2026-11-20",
+    "reason": "The tracker already covers PSC identity verification (uk-ch-identity-verification), and the 23 November 2026 update to this page only adds help and contact details, so no stage, date, scope or requirement has changed.",
+    "date": "2026-11-24",
     "source": "companies-house",
-    "hash": "5b867cee67c18dd2",
-    "listed": "2026-11-19"
+    "hash": "2da2e88de7830ff7",
+    "listed": "2026-11-23"
   },
   "https://www.gov.uk/guidance/register-a-charge-mortgage-for-a-limited-company": {
     "decision": "ignored",
@@ -3800,11 +3800,11 @@
   },
   "https://www.gov.uk/guidance/verify-your-identity-for-companies-house": {
     "decision": "ignored",
-    "reason": "This page covers the Companies House identity verification change that the tracker already holds, and the only new fact (the 12-month transition period has ended) is already in that record.",
-    "date": "2026-11-20",
+    "reason": "This page is about identity verification, which the tracker already covers, and its 23 November 2026 update only adds details on getting help through webchat, so no stage, date, scope or requirement has changed.",
+    "date": "2026-11-24",
     "source": "companies-house",
-    "hash": "24b98a269198c307",
-    "listed": "2026-11-19"
+    "hash": "1992952fb1050c69",
+    "listed": "2026-11-23"
   },
   "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
     "decision": "new",
