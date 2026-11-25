@@ -3421,10 +3421,11 @@
   },
   "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs": {
     "decision": "ignored",
-    "reason": "The item is an update log for OFSI's general FAQ page; it lists FAQ numbers that were added, amended or withdrawn but does not say what they contain, so it gives firms no new fact about a rule, and the related legal services general licence change from the same day is already tracked.",
-    "date": "2026-11-16",
+    "reason": "The FAQ page update only says FAQs were added about general licence INT/2026/11404204, but doesn't say what that licence covers or whether it affects law firms, so no accurate record can be written; it is not the held legal services licence INT/2026/11112108.",
+    "date": "2026-11-25",
     "source": "ofsi",
-    "hash": "f865c3556a55c36e"
+    "hash": "f7b116ef74dc69fb",
+    "listed": "2026-11-24"
   },
   "https://www.gov.uk/government/publications/uk-maritime-services-ban-and-oil-price-cap-industry-guidance": {
     "decision": "ignored",
