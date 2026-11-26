@@ -3994,6 +3994,13 @@
     "date": "2026-11-20",
     "source": "sra-news"
   },
+  "https://www.sra.org.uk/news/news/abusive-litigation": {
+    "decision": "ignored",
+    "reason": "The statement only restates the SRA's commitment to taking action on abuse of power, and confirms its earlier guidance and warning notices remain current; it adds no new rule, requirement or expectation for firms.",
+    "date": "2026-11-26",
+    "source": "sra-news",
+    "hash": "3aeeecc70dfe0170"
+  },
   "https://www.sra.org.uk/news/news/firm-governance": {
     "decision": "new",
     "record_id": "uk-sra-compliance-role-separation",
@@ -4294,6 +4301,13 @@
     "date": "2026-11-20",
     "source": "sra-news",
     "hash": "3f386b6aa03eaa66"
+  },
+  "https://www.sra.org.uk/news/news/releases/sra-reaffirms": {
+    "decision": "ignored",
+    "reason": "The statement restates the SRA's existing position, collecting guidance and warning notices already in force, and adds no new rule, requirement or date.",
+    "date": "2026-11-26",
+    "source": "sra-news",
+    "hash": "b29b79104b32e3c3"
   },
   "https://www.sra.org.uk/news/news/releases/supervision-guidance-updated": {
     "decision": "new",

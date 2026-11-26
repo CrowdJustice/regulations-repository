@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2026-11-26",
+    "since": "2026-09-27",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 2
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 3,
+        "relevant": 3,
+        "read": 0
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 13,
+        "read": 0
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 19,
+        "read": 0
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 20,
+        "relevant": 0,
+        "read": 0
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 7,
+        "relevant": 7,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 5,
+        "relevant": 5,
+        "read": 0
+      }
+    ],
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [
+      {
+        "title": "SRA's position on the abuse of power by the profession 25 November 2026 The purpose of this statement is to restate the SRA's unreserved commitment to investigating and pursuing regulatory sanction for any such misconduct.",
+        "url": "https://www.sra.org.uk/news/news/abusive-litigation",
+        "reason": "The statement only restates the SRA's commitment to taking action on abuse of power, and confirms its earlier guidance and warning notices remain current; it adds no new rule, requirement or expectation for firms.",
+        "country": "uk",
+        "source": "sra-news"
+      },
+      {
+        "title": "SRA reaffirms its position on abuse of power by those that it regulates 25 November 2026 The Solicitors Regulation Authority (SRA) has today reiterated its position on abuse of power by the solicitors and law firms it regulates.",
+        "url": "https://www.sra.org.uk/news/news/releases/sra-reaffirms",
+        "reason": "The statement restates the SRA's existing position, collecting guidance and warning notices already in force, and adds no new rule, requirement or date.",
+        "country": "uk",
+        "source": "sra-news"
+      }
+    ],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 83,
+    "cost_usd": 0.19,
+    "stopped_early": null,
+    "finished_at": "2026-11-26T06:31:35.401Z"
+  }
+]
