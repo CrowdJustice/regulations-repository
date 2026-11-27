@@ -239,6 +239,14 @@
     "hash": "293f4e2906b34c20",
     "listed": "2026-10-15"
   },
+  "http://www.legislation.gov.uk/uksi/2026/1236/made": {
+    "decision": "new",
+    "record_id": "uk-fcdo-libya-sanctions-amendment",
+    "date": "2026-11-27",
+    "source": "legislation-new",
+    "hash": "c0212259a7c64ea7",
+    "listed": "2026-11-26"
+  },
   "http://www.legislation.gov.uk/uksi/2026/425/made": {
     "decision": "ignored",
     "reason": "The Regulations only require the Information Commissioner to prepare a code of practice on AI and automated decision-making, so they do not change how law firms must operate.",
@@ -3001,10 +3009,11 @@
   },
   "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps": {
     "decision": "ignored",
-    "reason": "This is a routine refresh of Companies House's published list of registered agents (ACSPs); it adds no new rule, guidance or requirement for law firms.",
-    "date": "2026-11-16",
+    "reason": "This is a routine update to Companies House's published list of ACSPs. It adds no new rule, guidance, date or requirement, and the ACSP regime is already covered by uk-ch-identity-verification.",
+    "date": "2026-11-27",
     "source": "companies-house",
-    "hash": "2ac103e745b040ad"
+    "hash": "9a7c3a1fdbccbc37",
+    "listed": "2026-11-26"
   },
   "https://www.gov.uk/government/publications/make-a-representation-for-not-filing-an-identity-verification-statement": {
     "decision": "ignored",
@@ -3987,6 +3996,13 @@
     "date": "2026-11-20",
     "source": "qls-news",
     "hash": "28d935c46aaf7888"
+  },
+  "https://www.qls.com.au/news-media-advocacy/the-qls-shop-black-friday-sale-is-now-live!": {
+    "decision": "ignored",
+    "reason": "This is a QLS Shop discount on CPD courses, not a change to rules, guidance or how law firms must operate.",
+    "date": "2026-11-27",
+    "source": "qls-news",
+    "hash": "81aaa137fa4f7049"
   },
   "https://www.sra.org.uk/news/news/%7Bmessage:e,url:t,lineNumber:n,columnNumber:a,error:i%7D": {
     "decision": "ignored",
