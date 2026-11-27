@@ -1,0 +1,37 @@
+{
+  "id": "uk-fcdo-libya-sanctions-amendment",
+  "country": "uk",
+  "status": "live",
+  "regulator": "FCDO",
+  "title": "Libya sanctions amended: new offence of receiving frozen Libyan funds",
+  "summary": "From 16 December 2026, it is an offence under the Libya sanctions to receive frozen funds of a designated person in response to a payment request. The changes also add a targeted arms embargo and new grounds for designation.",
+  "what_changes": [
+    "It is an offence to receive frozen funds of a designated person in response to a payment request, if the receiver knows or suspects their source.",
+    "The explanatory note says this covers funds of the Libyan Investment Authority and the Libyan Africa Investment Portfolio.",
+    "A new power allows designations for a targeted arms embargo covering goods, technology, technical assistance, finance and brokering.",
+    "New designation grounds include illicitly exporting crude oil, refined petroleum products or other natural resources from Libya."
+  ],
+  "applies_to": [
+    "all"
+  ],
+  "who_it_applies_to": "All UK law firms, as UK persons bound by the Libya sanctions, especially firms that may receive payments linked to Libyan state investment bodies.",
+  "topic": "Sanctions",
+  "stage": "decided",
+  "dates": {
+    "decided": "2026-11-24",
+    "in_force": "2026-12-16"
+  },
+  "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2026/1236/made"
+  },
+  "last_checked": "2026-11-27",
+  "history": [
+    {
+      "date": "2026-11-26",
+      "event": "Regulations made on 24 November 2026 and in force from 16 December 2026.",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1236/made"
+    }
+  ],
+  "admin_notes": []
+}
