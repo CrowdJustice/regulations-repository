@@ -1,0 +1,107 @@
+[
+  {
+    "date": "2026-11-28",
+    "since": "2026-09-29",
+    "countries": [
+      "uk",
+      "au"
+    ],
+    "sources": [
+      {
+        "id": "sra-news",
+        "country": "uk",
+        "listed": 11,
+        "relevant": 11,
+        "read": 0
+      },
+      {
+        "id": "sra-consultations",
+        "country": "uk",
+        "listed": 3,
+        "relevant": 3,
+        "read": 0
+      },
+      {
+        "id": "lsb-news",
+        "country": "uk",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "hmt-aml",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "companies-house",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 13,
+        "read": 0
+      },
+      {
+        "id": "ofsi",
+        "country": "uk",
+        "listed": 40,
+        "relevant": 19,
+        "read": 0
+      },
+      {
+        "id": "legislation-new",
+        "country": "uk",
+        "listed": 20,
+        "relevant": 1,
+        "read": 0
+      },
+      {
+        "id": "agd-consultations",
+        "country": "au",
+        "listed": 7,
+        "relevant": 7,
+        "read": 0
+      },
+      {
+        "id": "lsc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "vlsbc-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "lpbwa-news",
+        "country": "au",
+        "listed": 10,
+        "relevant": 10,
+        "read": 0
+      },
+      {
+        "id": "qls-news",
+        "country": "au",
+        "listed": 5,
+        "relevant": 5,
+        "read": 0
+      }
+    ],
+    "published": [],
+    "updated": [],
+    "now_in_force": [],
+    "held": [],
+    "ignored": [],
+    "due_check": [],
+    "source_problems": [],
+    "already_seen": 85,
+    "cost_usd": 0,
+    "stopped_early": null,
+    "finished_at": "2026-11-28T06:28:41.548Z"
+  }
+]
