@@ -1,0 +1,1822 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Changes to legal regulation that affect law firms: what changed, who it applies to and when. Checked against official sources.">
+<title>Legl regulation tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: quiet nav (country picker top right) → question + the timeline as the hero (in force ● Today ○ coming up, with earlier/later arrows) → search and filters as plain text → one list panel with a date column → detail drawer. Tokens follow the new legl.com. */
+:root {
+  --page: #F7F8FA;
+  --card: #FFFFFF;
+  --sunk: #EEF0F3;
+  --line: #E5E7EB;
+  --line-strong: #CDD2D9;
+  --ink: #1B1B1B;
+  --body: #3F444B;
+  --muted: #6B7280;
+  --green: #018568;
+  --green-mid: #01B890;
+  --green-surface: #E6F8F4;
+  --green-tint: #CCF1E9;
+  --glow: rgba(1, 184, 144, 0.10);
+  --amber: #8A5C00;
+  --amber-surface: #FFF3D6;
+  --indigo: #4F46E5;
+  --indigo-surface: #EFEEFF;
+  --indigo-tint: #DCDAFA;
+  --blue: #00739F;
+  --blue-surface: #EBF9FF;
+  --btn: #1B1B1B;
+  --btn-ink: #FFFFFF;
+  --logo: #01B88E;
+  --scrim: rgba(17, 18, 19, 0.35);
+  --float: 0 12px 32px rgba(16, 24, 40, 0.14), 0 2px 6px rgba(16, 24, 40, 0.06);
+  --font: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #111213;
+    --card: #1A1C1F;
+    --sunk: #23262A;
+    --line: #2B2E33;
+    --line-strong: #3E4248;
+    --ink: #F2F2F2;
+    --body: #CDD0D5;
+    --muted: #9AA0A8;
+    --green: #4DCDB1;
+    --green-mid: #01B890;
+    --green-surface: #12302A;
+    --green-tint: #174036;
+    --glow: rgba(1, 184, 144, 0.10);
+    --amber: #F0C060;
+    --amber-surface: #33280F;
+    --indigo: #A7A3F2;
+    --indigo-surface: #24213F;
+    --indigo-tint: #2F2B55;
+    --blue: #70D4FF;
+    --blue-surface: #0F2A36;
+    --btn: #F2F2F2;
+    --btn-ink: #111213;
+    --logo: #FFFFFF;
+    --scrim: rgba(0, 0, 0, 0.55);
+    --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #111213;
+  --card: #1A1C1F;
+  --sunk: #23262A;
+  --line: #2B2E33;
+  --line-strong: #3E4248;
+  --ink: #F2F2F2;
+  --body: #CDD0D5;
+  --muted: #9AA0A8;
+  --green: #4DCDB1;
+  --green-mid: #01B890;
+  --green-surface: #12302A;
+  --green-tint: #174036;
+  --glow: rgba(1, 184, 144, 0.10);
+  --amber: #F0C060;
+  --amber-surface: #33280F;
+  --indigo: #A7A3F2;
+  --indigo-surface: #24213F;
+  --indigo-tint: #2F2B55;
+  --blue: #70D4FF;
+  --blue-surface: #0F2A36;
+  --btn: #F2F2F2;
+  --btn-ink: #111213;
+  --logo: #FFFFFF;
+  --scrim: rgba(0, 0, 0, 0.55);
+  --float: 0 12px 32px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--body);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+body.locked { overflow: hidden; }
+h1, h2, h3, h4 { color: var(--ink); font-weight: 600; margin: 0; letter-spacing: -0.02em; line-height: 1.2; text-wrap: balance; }
+p { margin: 0; }
+a { color: var(--green); text-underline-offset: 3px; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--green-mid); outline-offset: 2px; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; }
+.wrap.wide { max-width: 1080px; }
+
+/* Nav */
+.nav .wrap { max-width: 1120px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 500; min-width: 0; }
+.brand svg { width: 44px; height: auto; color: var(--logo); flex: none; }
+.brand .sep { width: 1px; height: 18px; background: var(--line-strong); flex: none; }
+.brand span:last-child { white-space: nowrap; }
+.country { position: relative; }
+.country-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px 7px 10px; font-size: 14px; font-weight: 500; color: var(--ink); }
+.country-btn:hover { border-color: var(--line-strong); }
+.country-btn svg { width: 16px; height: 16px; color: var(--muted); }
+.country-menu { position: absolute; right: 0; top: calc(100% + 8px); background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--float); padding: 6px; min-width: 200px; z-index: 30; }
+.country-menu button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 10px; text-align: left; background: transparent; border: 0; border-radius: 8px; padding: 9px 10px; font-size: 15px; color: var(--ink); }
+.country-menu button:hover { background: var(--sunk); }
+.country-menu .tick { width: 16px; height: 16px; color: var(--green); }
+
+/* Hero: the question, answered by the timeline */
+.hero { padding-block: 60px 12px; background: radial-gradient(60% 120% at 50% 0%, var(--glow), transparent 70%); }
+.hero h1 { font-size: clamp(30px, 4.8vw, 46px); letter-spacing: -0.035em; text-align: center; }
+
+.tl { margin-top: 56px; display: flex; align-items: flex-start; }
+.tl-nav { flex: none; width: 32px; height: 32px; margin-top: -8px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--ink); display: grid; place-items: center; }
+.tl-nav:hover { border-color: var(--ink); }
+.tl-nav[disabled] { visibility: hidden; }
+.tl-nav svg { width: 16px; height: 16px; }
+.tl-nav span { display: none; }
+.tl-nav.prev { margin-right: 12px; }
+.tl-nav.next { margin-left: 12px; }
+
+.kd { position: relative; flex: 1 1 0; min-width: 0; text-align: left; background: none; border: 0; padding: 30px 20px 0 0; display: grid; gap: 2px; align-content: start; color: inherit; }
+.kd.lead { flex-grow: 1.35; }
+.kd::before { content: ""; position: absolute; top: 7px; left: 0; right: 0; height: 2px; background: var(--green-mid); }
+.kd.future::before { background: repeating-linear-gradient(90deg, var(--line-strong) 0 6px, transparent 6px 11px); }
+.kd .dot { position: absolute; top: 1px; left: 0; width: 14px; height: 14px; border-radius: 50%; background: var(--green-mid); box-shadow: 0 0 0 4px var(--page); }
+.kd.future .dot { background: var(--page); border: 2px solid var(--indigo); }
+.kd.lead .dot { top: -1px; width: 18px; height: 18px; box-shadow: 0 0 0 4px var(--green-tint); }
+.kd.lead.future .dot { border-width: 3px; box-shadow: 0 0 0 4px var(--indigo-tint); }
+.kd .lbl { font-size: 12px; color: var(--muted); }
+.kd.lead .lbl { font-size: 13px; font-weight: 600; color: var(--green); }
+.kd.lead.future .lbl { color: var(--indigo); }
+.kd b { font-size: 15px; color: var(--ink); font-weight: 600; letter-spacing: -0.01em; }
+.kd.lead b { font-size: 24px; letter-spacing: -0.03em; line-height: 1.2; }
+.kd .t { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.kd.lead .t { font-size: 16px; color: var(--ink); font-weight: 500; line-height: 1.35; margin-top: 2px; }
+.kd small { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.kd:hover .t { color: var(--green); }
+.kd.lead.future:hover .t { color: var(--indigo); }
+
+.today { position: relative; flex: 0 0 92px; padding: 30px 0 0; display: grid; justify-items: center; align-content: start; }
+.today::before { content: ""; position: absolute; top: 7px; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--green-mid) 50%, transparent 50%), repeating-linear-gradient(90deg, var(--line-strong) 0 6px, transparent 6px 11px); }
+.today::after { content: ""; position: absolute; top: -6px; left: 50%; width: 2px; height: 28px; margin-left: -1px; background: var(--ink); border-radius: 2px; }
+.today b { font-size: 12px; color: var(--ink); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+.today small { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.tl-empty { margin-top: 40px; text-align: center; color: var(--muted); }
+
+/* Section head */
+.sec { padding-top: 64px; }
+.sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 16px; margin-bottom: 16px; }
+.sec-head h2 { font-size: 20px; }
+.search { position: relative; flex: 0 1 280px; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--muted); }
+.search input { width: 100%; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 8px 14px 8px 34px; font-size: 14px; color: var(--ink); }
+.search input::placeholder { color: var(--muted); }
+.search input:focus { outline: none; border-color: var(--line-strong); }
+
+/* Filters (plain, no box) */
+.tabs-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 0 11px; margin-bottom: -1px; font-size: 15px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tabs button .n { font-size: 12px; color: var(--muted); margin-left: 4px; font-weight: 400; }
+.tabs button:hover { color: var(--ink); }
+.tabs button[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.selects { display: flex; gap: 16px; padding-bottom: 6px; }
+.sel { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); min-width: 0; }
+.sel select { border: 0; background: transparent; font-size: 14px; color: var(--ink); font-weight: 500; padding: 4px 18px 4px 0; appearance: none; background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 9px) 55%, calc(100% - 4px) 55%; background-size: 5px 5px; background-repeat: no-repeat; cursor: pointer; field-sizing: content; max-width: 100%; }
+.firm { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-block: 16px 18px; }
+.firm-label { font-size: 14px; color: var(--muted); margin-right: 4px; }
+.fchip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 14px; color: var(--body); }
+.fchip:hover { border-color: var(--line-strong); }
+.fchip svg { width: 13px; height: 13px; display: none; }
+.fchip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
+.fchip[aria-pressed="true"] svg { display: block; }
+.clear { background: none; border: 0; padding: 0 4px; font-size: 14px; color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+
+/* List panel */
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+.panel-head { display: grid; grid-template-columns: 92px 1fr auto; gap: 16px; padding: 10px 22px; font-size: 12px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.row { width: 100%; background: transparent; border: 0; border-bottom: 1px solid var(--line); text-align: left; display: grid; grid-template-columns: 92px 1fr auto; gap: 16px; padding: 20px 22px; align-items: start; }
+.row:hover { background: var(--page); }
+.row:last-child { border-bottom: 0; }
+.when { display: grid; gap: 0; padding-top: 1px; }
+.when b { font-size: 17px; color: var(--ink); font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; }
+.when small { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.what { display: grid; gap: 5px; min-width: 0; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 13px; color: var(--muted); }
+.what h3 { font-size: 17px; font-weight: 600; line-height: 1.3; }
+.what p { font-size: 15px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.applies { font-size: 13px; color: var(--muted); }
+.applies b { color: var(--body); font-weight: 500; }
+.go { width: 18px; height: 18px; color: var(--line-strong); margin-top: 3px; }
+.row:hover .go { color: var(--ink); }
+.more-btn { width: 100%; border: 0; border-top: 1px solid var(--line); background: var(--card); padding: 16px; font-size: 14px; font-weight: 500; color: var(--ink); }
+.more-btn:hover { background: var(--page); }
+.empty { padding: 36px 22px; text-align: center; color: var(--muted); font-size: 15px; }
+
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill.s0 { background: var(--amber-surface); color: var(--amber); }
+.pill.s1 { background: var(--indigo-surface); color: var(--indigo); }
+.pill.s2 { background: var(--green-surface); color: var(--green); }
+.pill.sg { background: var(--blue-surface); color: var(--blue); }
+
+footer { padding-block: 40px 56px; }
+footer p { font-size: 13px; color: var(--muted); max-width: 72ch; }
+footer p + p { margin-top: 6px; }
+
+/* Drawer */
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 100%); background: var(--card); z-index: 41; box-shadow: var(--float); display: flex; flex-direction: column; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.drawer-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+.drawer-bar .crumb { font-size: 13px; color: var(--muted); }
+.x { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); display: grid; place-items: center; color: var(--ink); }
+.x svg { width: 16px; height: 16px; }
+.x:hover { border-color: var(--ink); }
+.drawer-body { overflow-y: auto; padding: 24px 24px 32px; display: grid; gap: 24px; align-content: start; }
+.d-head { display: grid; gap: 10px; }
+.d-head h2 { font-size: 26px; letter-spacing: -0.03em; }
+.d-head .short { font-size: 16px; color: var(--body); }
+.d-sec h4, .who h4 { font-size: 12px; font-family: var(--mono); font-weight: 400; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin: 0 0 8px; }
+.d-sec ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink); }
+.who { background: var(--sunk); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; }
+.who h4 { margin: 0; }
+.who p { color: var(--ink); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 13px; background: var(--card); color: var(--body); border-radius: 6px; padding: 2px 8px; }
+.tag.all { background: var(--green-surface); color: var(--green); }
+.timeline { display: grid; grid-template-columns: repeat(3, 1fr); }
+.t-step { position: relative; padding: 20px 8px 0 0; }
+.t-step::before { content: ""; position: absolute; top: 5px; left: 0; right: 0; height: 2px; background: var(--line); }
+.t-step::after { content: ""; position: absolute; top: 0; left: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--card); border: 2px solid var(--line-strong); }
+.t-step.on::before { background: var(--green-mid); }
+.t-step.on::after { background: var(--green-mid); border-color: var(--green-mid); }
+.t-step.now::after { box-shadow: 0 0 0 4px var(--green-tint); }
+.t-step b { display: block; font-size: 14px; color: var(--ink); font-weight: 500; }
+.t-step span { font-size: 13px; color: var(--muted); }
+.note { font-size: 14px; color: var(--muted); }
+.src-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+.src-row span { font-size: 13px; color: var(--muted); }
+.btn { display: inline-flex; align-items: center; gap: 6px; border-radius: 6px; padding: 9px 16px; font-size: 14px; font-weight: 500; text-decoration: none; border: 1px solid var(--line-strong); background: var(--card); color: var(--ink); }
+.btn:hover { border-color: var(--ink); }
+.btn-dark { background: var(--btn); border-color: var(--btn); color: var(--btn-ink); }
+.btn-dark:hover { opacity: 0.88; }
+.btn svg { width: 14px; height: 14px; }
+.hook { background: var(--green-surface); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+.hook p { color: var(--ink); font-size: 15px; }
+.hook .row-end { display: flex; justify-content: flex-end; }
+
+@media (max-width: 720px) {
+  .hero { padding-block: 40px 4px; }
+  .brand span:last-child, .brand .sep { display: none; }
+  .tl { margin-top: 36px; flex-direction: column; align-items: stretch; }
+  .tl-nav { width: auto; height: auto; margin: 0 0 14px 30px; align-self: flex-start; border: 0; border-radius: 0; background: none; color: var(--green); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+  .tl-nav.next { margin: 0 0 0 30px; }
+  .tl-nav svg { display: none; }
+  .tl-nav span { display: inline; }
+  .tl-nav[disabled] { display: none; }
+  .kd, .kd.lead { flex: none; padding: 0 0 22px 32px; }
+  .kd::before { top: 0; bottom: 0; left: 8px; right: auto; width: 2px; height: auto; }
+  .kd.future::before { background: repeating-linear-gradient(180deg, var(--line-strong) 0 6px, transparent 6px 11px); }
+  .kd .dot { top: 3px; left: 2px; }
+  .kd.lead .dot { top: 2px; left: 0; }
+  .today { flex: none; padding: 2px 0 22px 32px; justify-items: start; grid-auto-flow: column; gap: 8px; align-items: baseline; justify-content: start; }
+  .today::before { top: 0; bottom: 0; left: 8px; right: auto; width: 2px; height: auto; background: linear-gradient(180deg, var(--green-mid) 50%, transparent 50%), repeating-linear-gradient(180deg, var(--line-strong) 0 6px, transparent 6px 11px); }
+  .today::after { top: 11px; left: -1px; width: 20px; height: 2px; margin-left: 0; }
+  .sec { padding-top: 44px; }
+  .search { flex: 1 1 100%; }
+  .selects { width: 100%; flex-wrap: wrap; gap: 8px 20px; padding-bottom: 10px; }
+  .panel-head { display: none; }
+  .row { grid-template-columns: 1fr auto; padding: 18px 16px; gap: 8px 10px; }
+  .when { grid-column: 1 / -1; grid-auto-flow: column; justify-content: start; gap: 6px; align-items: baseline; }
+  .when b { font-size: 14px; }
+  .go { grid-column: 2; grid-row: 2; }
+  .drawer-body { padding: 20px 16px 28px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .drawer { animation: slide .22s ease-out; }
+  @keyframes slide { from { transform: translateX(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 268 151" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Legl">
+        <path d="M137.239 97.061C138.113 94.4298 134.62 90.483 132.291 91.7986C128.653 93.8451 116.719 100.131 106.968 100.131C97.0716 100.131 92.1234 96.9148 89.6493 94.2836C88.7761 93.2604 88.0485 92.091 87.3208 90.6292C86.7387 89.0213 86.302 87.2672 86.011 85.2207L140.15 85.2207C140.15 85.2207 140.441 80.6892 140.441 77.0348C140.441 54.6699 124.869 39.6137 102.311 39.6137C79.753 39.6137 61.27 54.0852 61.27 79.3736C61.27 83.1742 61.7066 86.8286 62.4343 90.0445C67.6736 106.562 83.1003 118.549 101.292 118.549C116.864 118.549 130.254 109.778 137.239 97.061ZM101.874 55.8393C112.207 55.8393 117.301 64.1713 117.447 71.1878L86.011 71.1878C86.4476 63.879 91.6868 55.8393 101.874 55.8393Z" fill="currentColor"/>
+        <path d="M231.837 39.9061C231.837 39.029 231.109 38.2982 230.236 38.2982C221.795 38.2982 213.936 40.9293 207.533 45.607C207.096 45.8993 206.805 46.3378 206.805 46.9225L206.805 54.3775C202.73 49.2614 195.599 43.5605 183.083 43.5605C164.454 43.5605 147.136 56.5702 147.136 81.274C147.136 105.978 164.454 118.987 183.083 118.987C195.017 118.987 202.439 114.164 206.951 108.17L207.242 108.17L207.242 110.655C207.242 117.526 205.204 122.934 202.585 125.858C199.965 128.635 194.871 131.851 184.684 131.851C174.496 131.851 162.271 125.273 158.487 123.227C154.995 121.326 152.229 129.512 153.394 131.412C160.962 143.545 174.351 151 189.341 151C189.632 151 189.923 151 190.214 151C194.144 150.708 197.782 150.123 200.984 149.392C214.518 145.591 225.288 135.359 229.945 122.057C231.109 117.526 231.692 112.263 231.692 105.978L231.692 48.969L231.837 39.9061ZM190.214 99.9845C179.299 99.9845 172.313 91.9448 172.313 81.4201C172.313 71.0416 179.299 63.0019 190.214 63.0019C201.129 63.0019 207.969 71.0416 207.969 81.4201C207.969 91.9448 201.129 99.9845 190.214 99.9845Z" fill="currentColor"/>
+        <path d="M265.747 6.4364e-08C256.724 4.1163e-08 248.428 2.77735 241.588 7.60116C241.151 7.89351 240.715 8.47822 240.715 8.91675L240.715 117.672C240.715 118.549 241.443 119.28 242.461 119.28C251.484 119.28 259.925 116.502 266.766 111.679C267.202 111.386 267.493 110.802 267.493 110.363L267.493 1.60794C267.493 0.730881 266.766 6.69834e-08 265.747 6.4364e-08Z" fill="currentColor"/>
+        <path d="M55.7399 96.4763C55.5944 96.184 55.1578 96.0378 54.8667 96.0378L25.032 96.0378L25.032 95.8916L25.032 10.9632C25.032 10.2324 24.4499 9.50148 23.5767 9.64766C3.92945 9.79384 0 19.5876 0 19.5876L0.145535 19.5876L0 19.5876L0 110.363C0 113.871 2.9107 116.795 6.40354 116.795L60.397 116.649C61.1247 116.649 61.7068 116.064 61.7068 115.333C61.7068 108.317 59.5238 101.739 55.7399 96.4763Z" fill="currentColor"/>
+      </svg>
+      <span class="sep" aria-hidden="true"></span>
+      <span>Regulation tracker</span>
+    </div>
+    <div class="country">
+      <button type="button" class="country-btn" id="country-btn" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></svg>
+        <span id="country-name">United Kingdom</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="country-menu" id="country-menu" role="menu" hidden>
+        <button type="button" role="menuitemradio" data-country="uk">United Kingdom<svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+        <button type="button" role="menuitemradio" data-country="au">Australia<svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap wide">
+      <h1 id="hero-title">What's changed in UK legal regulation?</h1>
+      <div id="tl-holder"></div>
+    </div>
+  </section>
+
+  <section class="wrap sec">
+    <div class="sec-head">
+      <h2>All changes</h2>
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="search" placeholder="Search changes" autocomplete="off" aria-label="Search changes">
+      </label>
+    </div>
+    <div class="tabs-row">
+      <div class="tabs" id="tabs" role="group" aria-label="Stage"></div>
+      <div class="selects">
+        <label class="sel" for="topic">Topic <select id="topic"></select></label>
+        <label class="sel" for="sort">Sort <select id="sort"><option value="recent">Most recent</option><option value="soon">Takes effect soonest</option></select></label>
+      </div>
+    </div>
+    <div class="firm" id="firm"></div>
+    <div class="panel">
+      <div class="panel-head"><span>Date</span><span>Change</span><span></span></div>
+      <div id="list"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p id="sources-line"></p>
+    <p id="checked-line"></p>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden></aside>
+
+<script>
+(function () {
+  var PAGE = 5;
+  var WINDOW = 5;
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var STAGE = { proposed: 'Proposed', decided: 'Decided', in_force: 'In force', guidance: 'Guidance' };
+  var STAGE_CLASS = { proposed: 's0', decided: 's1', in_force: 's2', guidance: 'sg' };
+  var STAGE_DATE = { proposed: 'proposed', decided: 'decided', in_force: 'in_force', guidance: 'published' };
+
+  /* TRACKER-DATA:START */
+  var DATA = {
+ "countries": {
+  "uk": {
+   "name": "United Kingdom",
+   "adj": "UK",
+   "sources": "SRA, Legal Services Board, HM Treasury, Companies House, OFSI and legislation.gov.uk",
+   "applies_to": {
+    "all": {
+     "label": "All firms"
+    },
+    "money": {
+     "label": "Firms holding client money",
+     "chip": "Hold client money"
+    },
+    "aml": {
+     "label": "AML-regulated work",
+     "chip": "Do AML-regulated work"
+    },
+    "corporate": {
+     "label": "Corporate work",
+     "chip": "Act for companies"
+    },
+    "claims": {
+     "label": "Consumer claims",
+     "chip": "Run consumer claims"
+    },
+    "large": {
+     "label": "Large firms",
+     "chip": "Have 250+ staff"
+    }
+   }
+  },
+  "au": {
+   "name": "Australia",
+   "adj": "Australian",
+   "sources": "Attorney-General's Department, Legal Services Council, VLSB+C, Legal Practice Board of WA and Queensland Law Society",
+   "applies_to": {
+    "all": {
+     "label": "All firms"
+    },
+    "designated": {
+     "label": "Property, trust or company work",
+     "chip": "Do property, trust or company work"
+    },
+    "trust": {
+     "label": "Firms holding trust money",
+     "chip": "Hold trust money"
+    },
+    "uniform": {
+     "label": "NSW, Victoria and WA",
+     "chip": "Practise in NSW, Victoria or WA",
+     "includes": [
+      "nsw",
+      "vic",
+      "wa"
+     ]
+    },
+    "turnover": {
+     "label": "Turnover over $3m",
+     "chip": "Turn over more than $3m"
+    },
+    "nsw": {
+     "label": "New South Wales"
+    },
+    "vic": {
+     "label": "Victoria"
+    },
+    "wa": {
+     "label": "Western Australia"
+    },
+    "qld": {
+     "label": "Queensland",
+     "chip": "Practise in Queensland"
+    }
+   }
+  }
+ },
+ "records": [
+  {
+   "id": "uk-ch-identity-verification",
+   "country": "uk",
+   "status": "live",
+   "regulator": "Companies House",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "Identity verification required for directors, PSCs and authorised agents",
+   "summary": "Since 18 November 2025, directors, people with significant control and authorised agents must verify their identity with Companies House. The 12-month transition period has ended. Failing to comply may be an offence.",
+   "what_changes": [
+    "Directors and their equivalents, including LLP members, and PSCs must verify their identity and link their personal code to each role.",
+    "New directors must give their personal code when appointed. New PSCs must give it when added to the register or within 14 days.",
+    "Authorised Corporate Service Providers (ACSPs) must be AML-supervised and registered with Companies House to verify identities for others.",
+    "Acting as a director without verifying is an offence. Penalties include prosecution, fines or financial penalties."
+   ],
+   "applies_to": [
+    "corporate",
+    "aml"
+   ],
+   "who_it_applies_to": "Firms acting for companies or acting as Companies House authorised agents, and LLP firms whose members must verify their identity.",
+   "dates": {
+    "in_force": "2025-11-18"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-dbt-overseas-entities-annotation",
+   "country": "uk",
+   "status": "live",
+   "regulator": "Department for Business and Trade",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "Companies House can annotate the Register of Overseas Entities",
+   "summary": "Since 30 June 2025, Companies House can add notes to the Register of Overseas Entities. This includes where a person who verified an entity's information does not show that they are AML-supervised when asked.",
+   "what_changes": [
+    "The registrar may note on the register where an overseas entity appears to have been dissolved, wound up or otherwise ceased to exist.",
+    "The registrar may note where a person has not fully complied with an information notice under section 1092A of the Companies Act 2006.",
+    "The registrar may note where a verifying agent does not reply in time to a request to show that a supervisory authority supervises them."
+   ],
+   "applies_to": [
+    "corporate",
+    "aml"
+   ],
+   "who_it_applies_to": "Firms that verify information for overseas entities on the Register of Overseas Entities, and firms acting for those entities.",
+   "dates": {
+    "decided": "2025-06-02",
+    "in_force": "2025-06-30"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/651/made"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-dbt-psc-register-notices",
+   "country": "uk",
+   "status": "live",
+   "regulator": "Department for Business and Trade",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "New company duties to notify Companies House about PSC information",
+   "summary": "Since 18 November 2025, companies must give Companies House more detail in PSC notices. They must also report restrictions notices, and tell it when PSC information they sent earlier is no longer true.",
+   "what_changes": [
+    "PSC notices to Companies House must include key dates, such as when the company had confirmation of a person's status or a change.",
+    "Companies must notify the registrar within 14 days of giving or withdrawing a restrictions notice, or of a court order ending restrictions.",
+    "Companies must notify the registrar within 14 days when PSC information they delivered earlier is no longer true.",
+    "Companies must notify the registrar if they know or have cause to believe they have no PSC, whether or not they had one before."
+   ],
+   "applies_to": [
+    "corporate"
+   ],
+   "who_it_applies_to": "Firms that file PSC information with Companies House for client companies, and incorporated firms with their own PSC notification duties.",
+   "dates": {
+    "decided": "2025-09-18",
+    "in_force": "2025-11-18"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/1036/2026-01-23"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-fcdo-libya-sanctions-amendment",
+   "country": "uk",
+   "status": "live",
+   "regulator": "FCDO",
+   "topic": "Sanctions",
+   "stage": "decided",
+   "title": "Libya sanctions amended: new offence of receiving frozen Libyan funds",
+   "summary": "From 16 December 2026, it is an offence under the Libya sanctions to receive frozen funds of a designated person in response to a payment request. The changes also add a targeted arms embargo and new grounds for designation.",
+   "what_changes": [
+    "It is an offence to receive frozen funds of a designated person in response to a payment request, if the receiver knows or suspects their source.",
+    "The explanatory note says this covers funds of the Libyan Investment Authority and the Libyan Africa Investment Portfolio.",
+    "A new power allows designations for a targeted arms embargo covering goods, technology, technical assistance, finance and brokering.",
+    "New designation grounds include illicitly exporting crude oil, refined petroleum products or other natural resources from Libya."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All UK law firms, as UK persons bound by the Libya sanctions, especially firms that may receive payments linked to Libyan state investment bodies.",
+   "dates": {
+    "decided": "2026-11-24",
+    "in_force": "2026-12-16"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2026/1236/made"
+   },
+   "last_checked": "2026-11-27"
+  },
+  {
+   "id": "uk-fcdo-single-sanctions-list",
+   "country": "uk",
+   "status": "live",
+   "regulator": "FCDO",
+   "topic": "Sanctions",
+   "stage": "guidance",
+   "title": "UK Sanctions List becomes the single source for sanctions designations",
+   "summary": "Since 28 January 2026, the UK Sanctions List has been the only list of UK sanctions designations. The OFSI Consolidated List is no longer updated, and the guidance says screening systems need to use the UK Sanctions List.",
+   "what_changes": [
+    "The OFSI Consolidated List of Asset Freeze Targets and its search tool stopped being updated on 28 January 2026.",
+    "The guidance says systems that screen against the OFSI Consolidated List need to switch to UK Sanctions List data.",
+    "People designated from 28 January 2026 get only a UK Sanctions List 'Unique ID', not an 'OFSI Group ID'. Historic Group IDs remain valid.",
+    "The guidance recommends that firms using third-party screening providers ask them about the impact on the data they receive."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All UK law firms that carry out sanctions screening, including those using specialist screening tools or third-party data providers.",
+   "dates": {
+    "published": "2026-01-28"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/guidance/moving-to-a-single-list-for-uk-sanctions-designations-28-january-2026"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-gov-global-human-rights-ihl-sanctions",
+   "country": "uk",
+   "status": "live",
+   "regulator": "UK Government",
+   "topic": "Sanctions",
+   "stage": "in_force",
+   "title": "New sanctions regime for human rights and humanitarian law violations",
+   "summary": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 came into force on 15 October 2026. They allow asset freezes and other sanctions against people involved in serious abuses.",
+   "what_changes": [
+    "People can be designated for serious human rights violations, serious breaches of international humanitarian law or obstructing humanitarian aid.",
+    "Designated persons can face asset freezes, director disqualification sanctions and immigration restrictions.",
+    "An urgent procedure allows designation for an initial 56 days where the US, EU, Australia or Canada has similar sanctions.",
+    "The finance prohibitions and information requirements apply to UK persons for conduct wholly or partly outside the UK."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All UK law firms, as UK persons bound by the asset-freeze prohibitions and the information requirements in the Regulations.",
+   "dates": {
+    "decided": "2026-10-12",
+    "in_force": "2026-10-15"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2026/1071/2026-10-15"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-gov-irregular-migration-trafficking-sanctions",
+   "country": "uk",
+   "status": "live",
+   "regulator": "UK Government",
+   "topic": "Sanctions",
+   "stage": "in_force",
+   "title": "New sanctions regime targeting people smuggling and human trafficking",
+   "summary": "The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025 came into force on 23 July 2025. They allow asset freezes and other sanctions against people involved in people smuggling or trafficking.",
+   "what_changes": [
+    "People can be designated for involvement in people smuggling, trafficking in persons or using migration to destabilise other countries.",
+    "Designated persons can face asset freezes, director disqualification sanctions and immigration restrictions.",
+    "An urgent procedure allows designation for an initial 56 days where the US, EU, Australia or Canada has similar sanctions.",
+    "The finance prohibitions and information requirements apply to UK persons for conduct wholly or partly outside the UK."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All UK law firms, as UK persons bound by the asset-freeze prohibitions and the information requirements in the Regulations.",
+   "dates": {
+    "decided": "2025-07-21",
+    "in_force": "2025-07-23"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/902/2026-05-13"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-hmt-digital-identity-mlr",
+   "country": "uk",
+   "status": "live",
+   "regulator": "HM Treasury",
+   "topic": "AML and ID checks",
+   "stage": "guidance",
+   "title": "Guidance on using digital identity services for AML customer due diligence",
+   "summary": "Government guidance explains how firms can use digital verification services for identity checks under the Money Laundering Regulations. The services must be certified under the UK digital verification services trust framework.",
+   "what_changes": [
+    "The guidance explains how digital verification services can be used for identity checks required under the Money Laundering Regulations.",
+    "Services must be on the GOV.UK register certified against the UK digital verification services trust framework.",
+    "The guidance supplements but does not replace firms' obligations under the Money Laundering Regulations.",
+    "It is jointly published by HM Treasury and the Department for Science, Innovation and Technology."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "published": "2026-02-26"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/using-digital-identities-with-the-money-laundering-regulations"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-hmt-fca-aml-supervision-reform",
+   "country": "uk",
+   "status": "live",
+   "regulator": "HM Treasury",
+   "topic": "AML and ID checks",
+   "stage": "decided",
+   "title": "FCA to take over AML supervision of law firms: final policy set",
+   "summary": "The government has set its final policy on how the FCA will supervise anti-money laundering compliance in professional services firms, including law firms. Legislation is still needed and no start date has been given.",
+   "what_changes": [
+    "The FCA will take over AML/CTF supervision of legal, accountancy, and trust and company service providers.",
+    "The final policy covers registration and gatekeeping, supervisory powers, guidance, information-sharing and enforcement.",
+    "It also covers funding, transition arrangements and how the FCA will be held accountable.",
+    "Legislative changes are still needed before the new supervisory model takes effect."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "proposed": "2025-11-06",
+    "decided": "2026-06-18"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/consultations/anti-money-laundering-and-counter-terrorist-financing-supervision-reform-duties-powers-and-accountability-consultation"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-hmt-high-risk-third-countries",
+   "country": "uk",
+   "status": "live",
+   "regulator": "HM Treasury",
+   "topic": "AML and ID checks",
+   "stage": "guidance",
+   "title": "High Risk Third Countries list updated after FATF plenary",
+   "summary": "HM Treasury has updated its advisory notice on High Risk Third Countries under the Money Laundering Regulations. The update reflects changes to the FATF lists agreed at its October 2026 plenary.",
+   "what_changes": [
+    "The advisory notice sets out which countries are High Risk Third Countries, as defined in the Money Laundering Regulations.",
+    "High Risk Third Countries are the countries listed by the Financial Action Task Force (FATF).",
+    "The 11 November 2026 update reflects changes to the FATF lists made at its October 2026 plenary."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "published": "2026-11-11"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "uk-hmt-mlr-effectiveness-changes",
+   "country": "uk",
+   "status": "live",
+   "regulator": "HM Treasury",
+   "topic": "AML and ID checks",
+   "stage": "decided",
+   "title": "Changes to the Money Laundering Regulations confirmed",
+   "summary": "The government has confirmed it will amend the Money Laundering Regulations to close loopholes, clarify requirements and focus customer due diligence on high-risk activity. The source gives no start date.",
+   "what_changes": [
+    "The Money Laundering Regulations will be amended to close loopholes and clarify requirements.",
+    "Customer due diligence is to be more proportionate and targeted at high-risk activity.",
+    "The consultation also covered system coordination, the scope of the Regulations and Trust Registration Service registration.",
+    "Other issues will be dealt with through guidance, written with AML supervisors."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "proposed": "2024-03-11",
+    "decided": "2025-07-17"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/consultations/improving-the-effectiveness-of-the-money-laundering-regulations"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-homeoffice-eccta-information-sharing",
+   "country": "uk",
+   "status": "live",
+   "regulator": "Home Office",
+   "topic": "Fraud and economic crime",
+   "stage": "guidance",
+   "title": "Guidance on sharing information to prevent economic crime",
+   "summary": "Government guidance explains how businesses in the AML regulated sector can share information with each other under the Economic Crime and Corporate Transparency Act 2023 to prevent and detect economic crime.",
+   "what_changes": [
+    "The Act allows direct and indirect information sharing between businesses in the AML regulated sector.",
+    "Sharing is for preventing, detecting and helping investigate economic crime.",
+    "The guidance covers practical points for businesses, including how to share information across sectors.",
+    "It also covers law enforcement reporting, UK GDPR compliance and customer redress."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Law firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "published": "2025-10-03"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/information-sharing-measures-in-the-economic-crime-and-corporate-transparency-act"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-homeoffice-poca-threshold-amount",
+   "country": "uk",
+   "status": "live",
+   "regulator": "Home Office",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "POCA threshold for returning client property raised from £1,000 to £3,000",
+   "summary": "Since 31 July 2025, regulated-sector businesses can return criminal property worth less than £3,000 to a client to end the business relationship without committing a POCA money laundering offence. The limit was £1,000.",
+   "what_changes": [
+    "The threshold amount in section 339A(6A) of the Proceeds of Crime Act 2002 rose from £1,000 to £3,000.",
+    "Below this threshold, a regulated-sector business can return money or property to a client to end the relationship without a section 327-329 offence.",
+    "The separate threshold for banks and similar firms operating customer accounts also rose from £1,000 to £3,000."
+   ],
+   "applies_to": [
+    "aml"
+   ],
+   "who_it_applies_to": "Law firms carrying on business in the regulated sector under the Proceeds of Crime Act 2002, such as firms doing work in scope of the Money Laundering Regulations.",
+   "dates": {
+    "decided": "2025-07-10",
+    "in_force": "2025-07-31"
+   },
+   "source": {
+    "name": "legislation.gov.uk",
+    "url": "http://www.legislation.gov.uk/uksi/2025/877/made"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-lsb-professional-ethical-duties",
+   "country": "uk",
+   "status": "live",
+   "regulator": "LSB",
+   "topic": "Firm management",
+   "stage": "decided",
+   "title": "Stronger ethics expectations for legal regulators and lawyers",
+   "summary": "The LSB has set final policy requiring legal regulators to put professional ethical duties at the heart of how lawyers must behave. It confirms that duties to the court and the rule of law come before duties to the client.",
+   "what_changes": [
+    "Where duties conflict, lawyers must put their duties to the court and the rule of law ahead of their duty to their client.",
+    "Regulators must provide more consistent education and training in ethics.",
+    "Regulators must provide clearer and more practical guidance, and stronger workplace support for lawyers upholding standards.",
+    "Regulators had up to six months to develop plans to meet the new expectations for those they regulate."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All regulated law firms and lawyers, through changes their regulators make to meet the LSB's expectations.",
+   "dates": {
+    "decided": "2026-03-26"
+   },
+   "source": {
+    "name": "LSB",
+    "url": "https://legalservicesboard.org.uk/news/lsb-leads-sector-wide-effort-to-strengthen-legal-ethics"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-ofsi-frozen-asset-review",
+   "country": "uk",
+   "status": "live",
+   "regulator": "OFSI",
+   "topic": "Sanctions",
+   "stage": "guidance",
+   "title": "Annual reporting of frozen assets held for designated persons",
+   "summary": "Anyone holding or controlling funds or economic resources of a designated person must complete OFSI's frozen asset reporting form for the 2026 review by 30 November 2026.",
+   "what_changes": [
+    "HM Treasury runs a frozen asset review every year to update its records of changes to accounts.",
+    "Holders of funds or economic resources of a designated person must complete the reporting form.",
+    "For the 2026 exercise, the form must reach OFSI by 30 November 2026.",
+    "The 2026 reporting notice and reporting template were updated on 30 September 2026."
+   ],
+   "applies_to": [
+    "money"
+   ],
+   "who_it_applies_to": "Firms that hold or control funds or economic resources belonging to a person designated under UK financial sanctions.",
+   "dates": {
+    "published": "2026-09-30"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/annual-frozen-asset-review-and-reporting-form"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "uk-ofsi-legal-services-general-licence",
+   "country": "uk",
+   "status": "live",
+   "regulator": "OFSI",
+   "topic": "Sanctions",
+   "stage": "in_force",
+   "title": "New general licence for legal fees paid by designated persons",
+   "summary": "OFSI has issued Legal Services General Licence INT/2026/11112108, which expires on 28 April 2027. It lets UK law firms and counsel be paid by a designated person for legal advice without a specific licence, if its terms are met.",
+   "what_changes": [
+    "UK law firms and UK counsel who advised a designated person can receive payment from that person without an OFSI specific licence.",
+    "Payment is permitted only if the terms of General Licence INT/2026/11112108 are met.",
+    "The licence covers most UK autonomous sanctions regimes, listed in Annex 1 of the licence.",
+    "It replaces General Licence INT/2026/9512597, which expired on 28 October 2026, and itself expires on 28 April 2027."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "UK law firms and counsel who give legal advice to people designated under the UK autonomous sanctions regimes listed in Annex 1.",
+   "dates": {
+    "decided": "2026-10-26",
+    "in_force": "2026-10"
+   },
+   "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611112108"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "uk-sra-accountants-reports-submission",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Client money",
+   "stage": "proposed",
+   "title": "All firms holding client money to submit annual accountants' reports",
+   "summary": "The SRA has asked the LSB to approve rules requiring every firm that holds client money to submit an annual accountants' report and declaration to the SRA. Fixed penalties would apply for late or missing reports.",
+   "what_changes": [
+    "All firms that hold client money would have to submit annual accountants' reports to the SRA.",
+    "Firms would also have to give key further information through a declaration.",
+    "Firms relying on an exemption would have to give information on their exemption status.",
+    "Fixed financial penalties would be extended to late submission or non-submission."
+   ],
+   "applies_to": [
+    "money"
+   ],
+   "who_it_applies_to": "SRA-regulated firms that hold client money, including those claiming an exemption from the accountants' report requirement.",
+   "dates": {
+    "proposed": "2025-12",
+    "in_force_text": "By early 2027, if approved"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/safeguards-protect-client-money"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-ai-warning-notice",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Technology and AI",
+   "stage": "guidance",
+   "title": "Warning notice on safe and responsible use of AI by law firms",
+   "summary": "The SRA has issued a warning notice about misuse of AI. It reminds firms that their professional obligations stay the same when they use AI, and that it expects them to have proper oversight and controls.",
+   "what_changes": [
+    "The SRA warns about AI-generated inaccuracies ('hallucinations') in legal research, advice, analysis and court submissions.",
+    "It warns about confidential client information being entered into AI tools that lack appropriate safeguards.",
+    "The SRA expects firms and solicitors to have appropriate oversight and controls over their use of AI.",
+    "Individuals remain responsible for the work and advice they produce, whether or not AI is used."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All SRA-regulated firms and solicitors, especially those using AI for research, drafting, document review or admin.",
+   "dates": {
+    "published": "2026-08-17"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/responsible-use-ai"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-complaints-handling-rules",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Complaints",
+   "stage": "proposed",
+   "title": "New rules on keeping clients informed about their complaints proposed",
+   "summary": "The SRA has proposed rules that would require firms to give clients a timeline for resolving a complaint and regular updates on its progress. Final proposals go to the LSB for approval.",
+   "what_changes": [
+    "When a complaint is first made, firms would have to give the client a timeline for resolving it.",
+    "Firms would have to give clients regular updates on how their complaint is progressing.",
+    "A new Complaints Handling Requirements Statement would explain the existing and new complaints rules.",
+    "These rules add to 2025 proposals that would make firms' complaints information clearer and easier for clients to find."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All SRA-regulated law firms that deal with complaints from clients.",
+   "dates": {
+    "proposed": "2026-07-03"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/first-tier-complaints-consultation-2026"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-compliance-role-separation",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Firm management",
+   "stage": "proposed",
+   "title": "Separating compliance officer roles from controlling individuals put on hold",
+   "summary": "The SRA has paused its proposed rules requiring firms to separate compliance officer roles from individuals with unilateral control. The rules will not start in January as originally planned.",
+   "what_changes": [
+    "The proposed rules would separate compliance roles from people with significant power over, or control of, a firm.",
+    "The SRA will not bring in the rules in January as originally planned.",
+    "The SRA is working with stakeholders to test alternatives, after feedback about the effect on smaller firms and sole practices.",
+    "The SRA says firms will get a suitable lead-in time once it decides on future requirements."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "SRA-regulated firms where one person has significant power or control, especially smaller firms and sole practices.",
+   "dates": {
+    "proposed": "2026",
+    "in_force_text": "Paused; no date set"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/firm-governance"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "uk-sra-continuing-competence-rules",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Firm management",
+   "stage": "proposed",
+   "title": "Mandatory learning records and annual ethics discussions for solicitors proposed",
+   "summary": "The SRA has proposed rules requiring solicitors to record their learning and development and take part in annual ethics discussions. Any rule changes would need Legal Services Board approval.",
+   "what_changes": [
+    "Solicitors would have to record how they identified and addressed their learning needs, and keep evidence for at least three years.",
+    "Solicitors would have to take part in at least three hours of facilitated professional ethics discussions each year.",
+    "The SRA could require solicitors, or non-authorised staff in firms, to do specific training where it finds a competence concern.",
+    "The recording rule is proposed to start from the 2027/28 practising year, with a stronger practising certificate declaration."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "Solicitors and registered European, foreign or Swiss lawyers covered by SRA competence requirements, and the SRA-regulated firms that employ them.",
+   "dates": {
+    "proposed": "2026-04-22",
+    "in_force_text": "2027/28 practising year"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/sra/consultations/consultation-listing/continuing-competence-2026/?s=c"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-litigation-funding-claims",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Consumer claims",
+   "stage": "proposed",
+   "title": "Stronger rules on third-party litigation funding proposed",
+   "summary": "The SRA has proposed new rules for firms that use or arrange third-party litigation funding. Most apply only to consumer claims, but core conduct duties would apply to all funded claims. The consultation closed on 17 September 2026.",
+   "what_changes": [
+    "For any type of funded claim, firms would have to stay independent of funders and share client information only with informed consent.",
+    "For consumer claims, firms would have to notify the SRA and give clients a funding information document before they sign a funding agreement.",
+    "Firms would have to keep a funding risk assessment, updated every six months and approved by the firm's head and compliance officers.",
+    "Some firms would also need an orderly closure plan. Personal injury, clinical negligence and CAT collective actions are excluded."
+   ],
+   "applies_to": [
+    "claims"
+   ],
+   "who_it_applies_to": "SRA-regulated firms that use or arrange third-party litigation funding. Most proposals cover consumer claims only, excluding personal injury and clinical negligence.",
+   "dates": {
+    "proposed": "2026-07-09"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/consults-new-proposals-consumer-claims"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-motor-finance-claims-warning",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Consumer claims",
+   "stage": "guidance",
+   "title": "Joint FCA and SRA warning on motor finance claims and termination fees",
+   "summary": "The FCA and SRA have jointly warned firms handling motor finance commission claims. They expect checks that clients have no other representative, and any termination fee to be reasonable.",
+   "what_changes": [
+    "The regulators expect firms to have robust checks to confirm a client has not already instructed another representative.",
+    "Fees for switching or ending an agreement must be reasonable and reflect the work done.",
+    "Law firms can only bill in line with the agreement signed before work started, and any termination fee must have been stated up front.",
+    "The regulators expect duplicate claims to be resolved through efficient, cost-effective co-operation between firms."
+   ],
+   "applies_to": [
+    "claims"
+   ],
+   "who_it_applies_to": "SRA-regulated law firms that act for consumers in motor finance commission claims.",
+   "dates": {
+    "published": "2026-02-04"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/fca-sra-joint-warning-motor-finance-commission-claims"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-no-win-no-fee-warning",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Consumer claims",
+   "stage": "guidance",
+   "title": "Warning notice on 'no win, no fee' marketing and client information",
+   "summary": "The SRA has issued a warning notice on 'no win, no fee' arrangements in consumer claims. It covers how these claims are marketed and the clear information on costs and risks it expects firms to give clients.",
+   "what_changes": [
+    "The SRA warns firms to be cautious when using the term 'no win, no fee' in marketing or advertising.",
+    "It expects firms to be clear about fees payable if a claim wins and costs the client faces if it loses.",
+    "It expects firms to check clients understand how these claims work and to give them chances to ask questions.",
+    "It warns about poor due diligence on third-party referrers and poor handling of 'no win, no fee' financial safeguards."
+   ],
+   "applies_to": [
+    "claims"
+   ],
+   "who_it_applies_to": "SRA-regulated firms and solicitors that run consumer claims on a 'no win, no fee' basis, especially in high-volume claims.",
+   "dates": {
+    "published": "2026-01-28"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/nwnf-warning"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-solicitor-competence-statement",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Other",
+   "stage": "proposed",
+   "title": "Updates to the Statement of Solicitor Competence and FLK proposed",
+   "summary": "The SRA is consulting on updates to the Statement of Solicitor Competence, which sets the competence standards expected of all solicitors throughout their careers, and to the SQE functioning legal knowledge.",
+   "what_changes": [
+    "Proposed competence updates cover use of technology and AI, supervision, health and wellbeing, and professional conduct and ethics.",
+    "Proposed changes to functioning legal knowledge (FLK) would add clarity and add or remove content.",
+    "The consultation runs until 3 December.",
+    "The SRA plans to publish the final statement and FLK in April, taking effect from September."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All SRA-regulated solicitors and the firms that employ and supervise them, plus SQE candidates.",
+   "dates": {
+    "proposed": "2026-10-08",
+    "in_force_text": "September; year not stated"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/competence-framework"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "uk-sra-supervision-guidance-mazur",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Firm management",
+   "stage": "guidance",
+   "title": "Expanded supervision guidance for litigation work after Mazur judgment",
+   "summary": "The SRA has expanded its supervision guidance after the Court of Appeal ruled in Mazur on what non-regulated staff can do under supervision when conducting litigation. It advises firms to check their arrangements are lawful.",
+   "what_changes": [
+    "The guidance covers how and when tasks are delegated to non-regulated staff.",
+    "It explains how a solicitor can show responsibility through direction, management, supervision and control.",
+    "It adds expanded sections for supervisors and supervisees, with case studies.",
+    "The SRA expects firms to take a risk-based approach to supervision, tailored to their circumstances."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "SRA-regulated firms that delegate work to non-regulated staff, especially firms conducting litigation.",
+   "dates": {
+    "published": "2026-06-12"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/supervision-guidance-updated"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "uk-sra-whistleblowing-prescribed-person",
+   "country": "uk",
+   "status": "live",
+   "regulator": "SRA",
+   "topic": "Other",
+   "stage": "in_force",
+   "title": "Whistleblowing reports to the SRA protected under PIDA",
+   "summary": "The SRA is a prescribed person under the Public Interest Disclosure Act 1998. This means people who work for or with SRA-regulated firms are legally protected when they report wrongdoing to the SRA.",
+   "what_changes": [
+    "The SRA has been designated as a prescribed person under the Public Interest Disclosure Act 1998.",
+    "Protection covers anyone working for or with an SRA-regulated firm or individual, including paralegals, clerks, trainees and agency workers.",
+    "The person making the report must reasonably believe they are acting in the public interest.",
+    "Protected disclosures must relate to wrongdoing by people or firms the SRA regulates, whether past, current or likely in future."
+   ],
+   "applies_to": [
+    "all"
+   ],
+   "who_it_applies_to": "All SRA-regulated firms and individuals, and the employees and agency workers who work for or with them.",
+   "dates": {
+    "in_force": "2026-06-02"
+   },
+   "source": {
+    "name": "SRA",
+    "url": "https://www.sra.org.uk/news/news/releases/pida-status"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-austrac-amlctf-legal-services",
+   "country": "au",
+   "status": "live",
+   "regulator": "AUSTRAC",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "AML/CTF obligations extended to lawyers providing designated services",
+   "summary": "From 1 July 2026, law practices and lawyers providing designated services must enrol with AUSTRAC and comply with the anti-money laundering and counter-terrorism financing regime.",
+   "what_changes": [
+    "Firms providing designated services must enrol with AUSTRAC and have an AML/CTF program in place.",
+    "Firms must appoint an AML/CTF compliance officer.",
+    "Staff must be trained on the program, internal processes and relevant AML/CTF risks.",
+    "Firms must carry out customer due diligence and report suspicious matters."
+   ],
+   "applies_to": [
+    "designated"
+   ],
+   "who_it_applies_to": "Law practices and lawyers that provide AML/CTF designated services.",
+   "dates": {
+    "in_force": "2026-07-01"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-june-2026"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-lsc-amlctf-conduct-rules",
+   "country": "au",
+   "status": "live",
+   "regulator": "LSC",
+   "topic": "AML and ID checks",
+   "stage": "in_force",
+   "title": "Solicitors' conduct rules amended to fit AML/CTF obligations",
+   "summary": "From 1 July 2026, new Legal Services Council rules deal with conflicts between solicitors' AML/CTF obligations and their ethical duties, including confidentiality and loyalty to clients.",
+   "what_changes": [
+    "Solicitors must only accept and follow lawful, proper and competent client instructions.",
+    "The rules clarify when a solicitor may have just cause to terminate an engagement.",
+    "Retainer agreements should explain relevant statutory disclosure obligations and when a retainer may need to be terminated."
+   ],
+   "applies_to": [
+    "uniform"
+   ],
+   "who_it_applies_to": "Solicitors and law practices in Uniform Law states, in particular those with AML/CTF obligations.",
+   "dates": {
+    "in_force": "2026-07-01"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/commissioner-update-november-2026"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "au-lsc-amlctf-costs-guidance",
+   "country": "au",
+   "status": "live",
+   "regulator": "LSC",
+   "topic": "Costs and billing",
+   "stage": "guidance",
+   "title": "Guidance on passing AML/CTF compliance costs on to clients",
+   "summary": "The Legal Services Council has published an information sheet on how law practices treat AML/CTF compliance costs and when they can pass them on to clients.",
+   "what_changes": [
+    "Covers how AML/CTF compliance costs should be treated.",
+    "Sets out factors on when and how AML/CTF costs can be passed on to clients.",
+    "Stresses transparency, proportionality and disclosure when charging these costs.",
+    "Developed with regulators in Western Australia, Victoria and New South Wales."
+   ],
+   "applies_to": [
+    "uniform"
+   ],
+   "who_it_applies_to": "Law practices in NSW, Victoria and WA, in particular those with AML/CTF obligations that may charge compliance costs to clients.",
+   "dates": {
+    "published": "2026-07-16"
+   },
+   "source": {
+    "name": "Legal Practice Board of WA",
+    "url": "https://www.lpbwa.org.au/information-sheet-on-charging-aml-ctf-costs"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-lsc-costs-disclosure-threshold",
+   "country": "au",
+   "status": "live",
+   "regulator": "LSC",
+   "topic": "Costs and billing",
+   "stage": "proposed",
+   "title": "Higher costs disclosure threshold and updated shortform disclosure forms",
+   "summary": "The Legal Services Council has proposed raising the upper costs disclosure threshold to $10,000 and replacing the shortform disclosure forms under the Uniform General Rules.",
+   "what_changes": [
+    "Upper costs disclosure threshold would rise to $10,000, excluding GST and disbursements.",
+    "Trustees in bankruptcy would be added to the clients exempt from Part 4.3 costs disclosure.",
+    "Overseas-registered foreign law practices and some government-controlled companies would also be exempt.",
+    "Shortform disclosure Forms 1 and 2 would be replaced with redesigned, user-tested versions."
+   ],
+   "applies_to": [
+    "uniform"
+   ],
+   "who_it_applies_to": "Law practices in NSW, Victoria and WA that are subject to the Uniform Law costs disclosure obligations.",
+   "dates": {
+    "proposed": "2026"
+   },
+   "source": {
+    "name": "Legal Services Council",
+    "url": "https://legalservicescouncil.org.au/highlights/consultation-on-the-costs-disclosure-amendment-rule-.html"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-vlsbc-ai-use-guidance",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Technology and AI",
+   "stage": "guidance",
+   "title": "Guidance and checklists on using AI in legal practice in Victoria",
+   "summary": "The VLSB+C has published guidance and checklists on using AI safely. It states that lawyers remain responsible for AI-assisted work and must keep it consistent with their professional duties, including confidentiality.",
+   "what_changes": [
+    "New checklist for law practice leaders and principals on introducing and managing AI in a practice.",
+    "New checklist for lawyers on using AI in line with their professional obligations.",
+    "Regulator flags unchecked AI output, including hallucinated cases in court documents, and seniors not checking juniors' AI work.",
+    "Regulator warns against uploading sensitive client information into public-facing AI tools."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian lawyers and law practices, with the regulator noting particular value for small practices and sole practitioners.",
+   "dates": {
+    "published": "2026-11-09"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/new-resources-support-lawyers-use-artificial-intelligence"
+   },
+   "last_checked": "2026-11-16"
+  },
+  {
+   "id": "au-vlsbc-claim-farming-redress",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Consumer claims",
+   "stage": "guidance",
+   "title": "Warning on claim farming involving people eligible for government redress",
+   "summary": "The VLSB+C has issued guidance warning that lawyer involvement in claim farming is unacceptable. It warns this can amount to unsatisfactory professional conduct or professional misconduct.",
+   "what_changes": [
+    "Sets out the regulator's expectations of lawyers acting for people eligible for redress, with examples of good and bad practice.",
+    "Warns about cold-call claim farming aimed at abuse victim-survivors and Stolen Generations members, with claims sold on to lawyers.",
+    "Raises concern about misleading clients into thinking they need a lawyer, or hiding that a referrer was paid.",
+    "The regulator states it will treat complaints about overcharging in redress matters seriously."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian lawyers and law practices that act for, or are referred, people eligible for government redress schemes.",
+   "dates": {
+    "published": "2025-06-13"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/legal-regulators-move-safeguard-victorians-eligible-government-redress"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-vlsbc-escrow-scam-warning",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Fraud and economic crime",
+   "stage": "guidance",
+   "title": "Warning on escrow agreements used for investment scams and money laundering",
+   "summary": "The VLSB+C warns that scammers posing as clients and investors are using law practices' trust accounts and escrow services to make investment scams and money laundering look legitimate.",
+   "what_changes": [
+    "Warns against relying on introductions from third parties or existing clients to verify new clients and investors.",
+    "Expects thorough identity checks on the client and, where possible, the investor, and an assessment of their ML/TF risk.",
+    "Recommends executing escrow agreements directly with the investor and checking investor details with any broker.",
+    "Recommends reporting suspected scams to the bank, AUSTRAC, Victoria Police, Scamwatch and the VLSB+C."
+   ],
+   "applies_to": [
+    "vic",
+    "trust"
+   ],
+   "who_it_applies_to": "Victorian law practices that hold trust money, in particular those preparing escrow agreements or holding and paying out funds as agents.",
+   "dates": {
+    "published": "2025-12-10"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/warning-escrow-agreements-used-potential-investment-scams-and-money-laundering"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-vlsbc-legal-mail-custody",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Other",
+   "stage": "guidance",
+   "title": "Warning on law practice details misused to smuggle contraband into prisons",
+   "summary": "The VLSB+C warns that people are using law practices' names and letterheads to disguise contraband as legal mail sent into prisons. It recommends steps to make genuine legal mail easy to verify.",
+   "what_changes": [
+    "Corrections Victoria has intercepted contraband packaged as legal mail using law practices' details, with no evidence the practices knew.",
+    "Recommends consistent letterhead, packaging, return address and a practice-specific identifier on mail to people in custody.",
+    "Recommends keeping accurate records of items sent to clients in custody and using tamper-proof packaging where practical.",
+    "Practices that learn their details may have been misused are expected to contact Corrections Victoria directly."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian law practices that send legal mail to clients in custody.",
+   "dates": {
+    "published": "2026-11-23"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/help-protect-integrity-legal-mail-sent-people-custody"
+   },
+   "last_checked": "2026-11-23"
+  },
+  {
+   "id": "au-vlsbc-motor-accident-claims",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Consumer claims",
+   "stage": "guidance",
+   "title": "Guidance on acting in motor vehicle accident claims and 'car napping'",
+   "summary": "The VLSB+C has updated its guidance for lawyers acting in motor vehicle accident claims. It warns that acting without a client's knowledge through 'Authority to Act' forms is unacceptable and may lead to disciplinary action.",
+   "what_changes": [
+    "Sets out the obligations lawyers must meet, the regulator's minimum expectations and unacceptable practices in these claims.",
+    "Warns about 'car napping', where businesses offer 'free' towing, repairs or hire cars and pass the claim to lawyers.",
+    "Warns against treating an 'Authority to Act' form as a standing authority to act without taking further steps.",
+    "Regulator flags legal work, such as starting proceedings or settling claims, done without the client's knowledge."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian lawyers and law practices that act in motor vehicle accident claims, including those engaged through referring businesses.",
+   "dates": {
+    "published": "2025-12-12"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/new-guidance-lawyers-who-act-motor-vehicle-accident-claims"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-vlsbc-nda-sexual-harassment",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Other",
+   "stage": "guidance",
+   "title": "Updated guidance on NDAs in workplace sexual harassment matters",
+   "summary": "The VLSB+C has updated its guidance on NDAs in workplace sexual harassment matters after a new Victorian Act commenced on 1 July 2026. It warns that lawyers who breach the Act's requirements could face disciplinary action.",
+   "what_changes": [
+    "Under the Act, an NDA is enforceable only if the complainant initiates it and is not influenced or pressured into signing.",
+    "The complainant must receive a mandatory information statement and a 21-day review period in which to get legal advice.",
+    "Each party must confirm on an approved form that the preconditions were met.",
+    "The regulator states that lawyers who draft, negotiate or advise on NDAs must be familiar with the Act."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian lawyers who draft, negotiate or advise on NDAs in workplace sexual harassment matters.",
+   "dates": {
+    "published": "2026-07-01"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/updated-guidance-non-disclosure-agreements"
+   },
+   "last_checked": "2026-11-20"
+  },
+  {
+   "id": "au-vlsbc-reporting-serious-misconduct",
+   "country": "au",
+   "status": "live",
+   "regulator": "VLSB+C",
+   "topic": "Other",
+   "stage": "guidance",
+   "title": "Regulator expects lawyers to report serious misconduct by other lawyers",
+   "summary": "The VLSB+C expects lawyers to tell it when they reasonably believe a Victorian lawyer is engaging in serious misconduct. Its statement sets out what to report and how.",
+   "what_changes": [
+    "The regulator expects reports where a lawyer reasonably believes a Victorian lawyer is engaging in serious misconduct.",
+    "Covers conduct that calls a lawyer's fundamental integrity into question or could lead to a miscarriage of justice.",
+    "Also covers conduct that otherwise undermines the integrity of the justice system.",
+    "Reports go to seriousmisconduct@lsbc.vic.gov.au or, from 5 January 2026, by phone on (03) 9679 8092."
+   ],
+   "applies_to": [
+    "vic"
+   ],
+   "who_it_applies_to": "Victorian lawyers who reasonably believe another Victorian lawyer is engaging in serious misconduct.",
+   "dates": {
+    "published": "2025-12-17"
+   },
+   "source": {
+    "name": "VLSB+C",
+    "url": "https://lsbc.vic.gov.au/news-updates/news/telling-us-about-serious-misconduct-lawyers"
+   },
+   "last_checked": "2026-11-20"
+  }
+ ]
+};
+  /* TRACKER-DATA:END */
+
+  var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+  var now = new Date();
+  var TODAY = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+
+  var state = { c: 'uk', stage: 'all', topic: 'all', sort: 'recent', firm: [], q: '', shown: PAGE, start: null, lastFocus: null };
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]; }); }
+
+  /* Dates can be a day (2026-07-31), a month (2027-01) or a year (2029). */
+  function periodStart(d) { return d.length === 4 ? d + '-01-01' : d.length === 7 ? d + '-01' : d; }
+  function fmt(d) {
+    var p = d.split('-');
+    if (p.length === 1) return p[0];
+    if (p.length === 2) return MONTHS[+p[1] - 1] + ' ' + p[0];
+    return (+p[2]) + ' ' + MONTHS[+p[1] - 1] + ' ' + p[0];
+  }
+  function startText(r) { return r.dates.in_force_text || fmt(r.dates.in_force); }
+  function relative(d) {
+    if (d.length < 10) return '';
+    var days = Math.round((Date.parse(d) - Date.parse(TODAY)) / 864e5);
+    var n = Math.abs(days);
+    if (n === 0) return 'Today';
+    var count = n < 45 ? n : n < 700 ? Math.round(n / 30.4) : Math.round(n / 365);
+    var unit = n < 45 ? 'day' : n < 700 ? 'month' : 'year';
+    var text = count + ' ' + unit + (count === 1 ? '' : 's');
+    return days > 0 ? 'In ' + text : text + ' ago';
+  }
+
+  function byId(id) { return DATA.records.filter(function (r) { return r.id === id; })[0] || null; }
+  function mine() { return DATA.records.filter(function (r) { return r.country === state.c && r.status === 'live'; }); }
+  function stageDate(r) { return r.dates[STAGE_DATE[r.stage]] || ''; }
+  function pill(r) { return '<span class="pill ' + STAGE_CLASS[r.stage] + '"><span class="dot"></span>' + STAGE[r.stage] + '</span>'; }
+  function lowerFirst(s) { return s.charAt(0).toLowerCase() + s.slice(1); }
+  function startLine(r) {
+    if (r.stage === 'decided') return r.dates.in_force ? (r.dates.in_force_text ? 'Expected ' + lowerFirst(r.dates.in_force_text) : 'Starts ' + fmt(r.dates.in_force)) : 'Start date not set';
+    if (r.stage === 'proposed') return 'Start date not set';
+    return '';
+  }
+  function dateCol(r) {
+    var p = stageDate(r).split('-');
+    if (p.length === 1) return '<b>' + esc(p[0]) + '</b><small></small>';
+    if (p.length === 2) return '<b>' + MONTHS[+p[1] - 1] + '</b><small>' + p[0] + '</small>';
+    return '<b>' + (+p[2]) + ' ' + MONTHS[+p[1] - 1] + '</b><small>' + p[0] + '</small>';
+  }
+  function hay(r) { return [r.regulator, r.topic, r.title, r.summary, r.who_it_applies_to, r.what_changes.join(' '), STAGE[r.stage]].join(' ').toLowerCase(); }
+
+  function filtered() {
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    var list = mine().filter(function (r) {
+      if (state.stage !== 'all' && r.stage !== state.stage) return false;
+      if (state.topic !== 'all' && r.topic !== state.topic) return false;
+      if (state.firm.length && r.applies_to.indexOf('all') === -1) {
+        // A chip can stand for several keys: "NSW, Victoria or WA" also finds a change that applies in Victoria alone.
+        var keys = DATA.countries[state.c].applies_to;
+        var wanted = [];
+        state.firm.forEach(function (k) { wanted = wanted.concat([k], (keys[k] && keys[k].includes) || []); });
+        if (!r.applies_to.some(function (k) { return wanted.indexOf(k) !== -1; })) return false;
+      }
+      if (words.length) { var h = hay(r); if (!words.every(function (w) { return h.indexOf(w) !== -1; })) return false; }
+      return true;
+    });
+    var soon = function (r) { return r.stage === 'decided' && r.dates.in_force ? periodStart(r.dates.in_force) : '9999'; };
+    list.sort(function (a, b) {
+      if (state.sort === 'soon' && soon(a) !== soon(b)) return soon(a) < soon(b) ? -1 : 1;
+      return periodStart(stageDate(a)) < periodStart(stageDate(b)) ? 1 : -1;
+    });
+    return list;
+  }
+
+  /* Timeline: everything in force, oldest to newest, then today, then every decided change by start date. */
+  function sequence() {
+    var past = mine().filter(function (r) { return r.stage === 'in_force' && r.dates.in_force; })
+      .sort(function (a, b) { return periodStart(a.dates.in_force) < periodStart(b.dates.in_force) ? -1 : 1; });
+    var future = mine().filter(function (r) { return r.stage === 'decided' && r.dates.in_force; })
+      .sort(function (a, b) { return periodStart(a.dates.in_force) < periodStart(b.dates.in_force) ? -1 : 1; });
+    var seq = past.map(function (r, i) { return { r: r, future: false, lead: i === past.length - 1 }; });
+    seq.push({ today: true });
+    return seq.concat(future.map(function (r, i) { return { r: r, future: true, lead: i === 0 }; }));
+  }
+
+  function renderTimeline() {
+    var seq = sequence();
+    if (seq.length === 1) { $('tl-holder').innerHTML = '<p class="tl-empty">No key dates yet.</p>'; return; }
+    var todayAt = seq.findIndex(function (s) { return s.today; });
+    var maxStart = Math.max(0, seq.length - WINDOW);
+    if (state.start === null) state.start = Math.min(maxStart, Math.max(0, todayAt - 2));
+    state.start = Math.min(maxStart, Math.max(0, state.start));
+    var view = seq.slice(state.start, state.start + WINDOW);
+    var t = TODAY.split('-');
+    var arrow = function (d) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + d + '"/></svg>'; };
+    var html = '<button type="button" class="tl-nav prev" data-shift="-1" aria-label="Earlier dates"' + (state.start > 0 ? '' : ' disabled') + '>' + arrow('m15 6-6 6 6 6') + '<span>Show earlier</span></button>';
+    html += view.map(function (s) {
+      if (s.today) return '<div class="today"><b>Today</b><small>' + (+t[2]) + ' ' + MONTHS[+t[1] - 1] + '</small></div>';
+      var r = s.r;
+      var label = s.future ? (s.lead ? 'Next up' : 'Coming up') : (s.lead ? 'Latest in force' : 'In force');
+      var rel = s.lead ? relative(r.dates.in_force) : '';
+      return '<button type="button" class="kd' + (s.future ? ' future' : '') + (s.lead ? ' lead' : '') + '" data-open="' + r.id + '"><span class="dot"></span>' +
+        '<span class="lbl">' + label + '</span><b>' + esc(s.future ? startText(r) : fmt(r.dates.in_force)) + '</b>' +
+        '<span class="t">' + esc(r.title) + '</span><small>' + esc(r.regulator) + (rel ? ' · ' + rel : '') + '</small></button>';
+    }).join('');
+    html += '<button type="button" class="tl-nav next" data-shift="1" aria-label="Later dates"' + (state.start < maxStart ? '' : ' disabled') + '>' + arrow('m9 6 6 6-6 6') + '<span>Show later</span></button>';
+    $('tl-holder').innerHTML = '<div class="tl" role="group" aria-label="Key dates">' + html + '</div>';
+  }
+
+  function renderTop() {
+    var C = DATA.countries[state.c];
+    $('country-name').textContent = C.name;
+    $('hero-title').textContent = 'What’s changed in ' + C.adj + ' legal regulation?';
+    $('sources-line').textContent = 'Sources: ' + C.sources + '.';
+    var checked = mine().map(function (r) { return r.last_checked; }).sort().pop();
+    $('checked-line').textContent = 'Checked every morning against the official source' + (checked ? ', last on ' + fmt(checked) : '') + '. Summaries are for information only and are not legal advice.';
+    // Only countries that have changes are offered.
+    document.querySelector('.country').hidden = Object.keys(DATA.countries).length < 2;
+    document.querySelectorAll('[data-country]').forEach(function (b) {
+      var on = b.getAttribute('data-country') === state.c;
+      b.hidden = !DATA.countries[b.getAttribute('data-country')];
+      b.querySelector('.tick').style.visibility = on ? 'visible' : 'hidden';
+      b.setAttribute('aria-checked', String(on));
+    });
+  }
+
+  function renderFilters() {
+    var all = mine();
+    var counts = { all: all.length, in_force: 0, decided: 0, proposed: 0, guidance: 0 };
+    all.forEach(function (r) { counts[r.stage]++; });
+    var tabs = [['all', 'All'], ['in_force', 'In force'], ['decided', 'Decided'], ['proposed', 'Proposed'], ['guidance', 'Guidance']];
+    $('tabs').innerHTML = tabs.filter(function (t) { return t[0] === 'all' || counts[t[0]]; }).map(function (t) {
+      return '<button type="button" data-stage="' + t[0] + '" aria-pressed="' + (state.stage === t[0]) + '">' + t[1] + '<span class="n">' + counts[t[0]] + '</span></button>';
+    }).join('');
+    var topics = {};
+    all.forEach(function (r) { topics[r.topic] = true; });
+    var tl = Object.keys(topics).sort();
+    if (state.topic !== 'all' && tl.indexOf(state.topic) === -1) state.topic = 'all';
+    $('topic').innerHTML = '<option value="all">All</option>' + tl.map(function (t) { return '<option' + (t === state.topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join('');
+    $('sort').value = state.sort;
+    var tick = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>';
+    var keys = DATA.countries[state.c].applies_to;
+    var any = state.stage !== 'all' || state.topic !== 'all' || state.firm.length || state.sort !== 'recent' || state.q;
+    $('firm').innerHTML = '<span class="firm-label">My firm does this:</span>' + Object.keys(keys).filter(function (k) { return keys[k].chip; }).map(function (k) {
+      return '<button type="button" class="fchip" data-firm="' + k + '" aria-pressed="' + (state.firm.indexOf(k) !== -1) + '">' + tick + esc(keys[k].chip) + '</button>';
+    }).join('') + (any ? '<button type="button" class="clear" id="clear">Clear</button>' : '');
+  }
+
+  function renderList() {
+    var list = filtered();
+    var A = DATA.countries[state.c].applies_to;
+    var arrow = '<svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
+    if (!list.length) { $('list').innerHTML = '<div class="empty">No changes match. Try removing a filter.</div>'; return; }
+    var rows = list.slice(0, state.shown).map(function (r) {
+      var start = startLine(r);
+      return '<button type="button" class="row" data-open="' + r.id + '">' +
+        '<span class="when">' + dateCol(r) + '</span>' +
+        '<span class="what"><span class="meta">' + pill(r) + '<span>' + esc(r.regulator) + (start ? ' · ' + esc(start) : '') + '</span></span>' +
+        '<h3>' + esc(r.title) + '</h3><p>' + esc(r.summary) + '</p>' +
+        '<span class="applies">Applies to <b>' + r.applies_to.map(function (k) { return esc(A[k].label); }).join(', ') + '</b></span></span>' +
+        arrow + '</button>';
+    }).join('');
+    var left = list.length - state.shown;
+    $('list').innerHTML = rows + (left > 0 ? '<button type="button" class="more-btn" id="more">Show ' + Math.min(left, PAGE) + ' more</button>' : '');
+  }
+
+  function renderAll() { renderTop(); renderTimeline(); renderFilters(); renderList(); }
+
+  /* Drawer */
+  function openDrawer(id) {
+    var r = byId(id);
+    if (!r) return;
+    state.lastFocus = document.activeElement;
+    var C = DATA.countries[r.country];
+    var takesEffect = r.stage === 'guidance' ? 'Applies now' : r.dates.in_force ? startText(r) : 'Not set yet';
+    var timeline;
+    if (r.stage === 'guidance') {
+      timeline = '<p class="note">This is guidance, not a new rule. It explains how the regulator expects firms to act.</p>';
+    } else {
+      var order = ['proposed', 'decided', 'in_force'];
+      var reached = order.indexOf(r.stage);
+      timeline = '<div class="d-sec"><h4>Where it is</h4><div class="timeline">' + order.map(function (key, i) {
+        var when = key === 'in_force' && r.dates.in_force ? startText(r) : r.dates[key] ? fmt(r.dates[key]) : '—';
+        return '<div class="t-step' + (i <= reached ? ' on' : '') + (i === reached ? ' now' : '') + '"><b>' + STAGE[key] + '</b><span>' + esc(when) + '</span></div>';
+      }).join('') + '</div></div>';
+    }
+    $('drawer').innerHTML =
+      '<div class="drawer-bar"><span class="crumb">' + esc(C.name) + ' · ' + esc(r.regulator) + '</span>' +
+      '<button type="button" class="x" id="close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>' +
+      '<div class="drawer-body">' +
+        '<div class="d-head"><div class="meta">' + pill(r) + '<span>' + esc(fmt(stageDate(r))) + '</span></div><h2 id="d-title">' + esc(r.title) + '</h2><p class="short">' + esc(r.summary) + '</p></div>' +
+        '<div class="who"><h4>Who it applies to</h4><p>' + esc(r.who_it_applies_to) + '</p>' +
+          '<div class="tags">' + r.applies_to.map(function (k) { return '<span class="tag' + (k === 'all' ? ' all' : '') + '">' + esc(C.applies_to[k].label) + '</span>'; }).join('') + '</div></div>' +
+        timeline +
+        '<div class="d-sec"><h4>What changes</h4><ul>' + r.what_changes.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></div>' +
+        '<div class="src-row"><span>Takes effect: ' + esc(takesEffect) + ' · Checked ' + fmt(r.last_checked) + '</span>' +
+          '<a class="btn" href="' + esc(r.source.url) + '" target="_blank" rel="noopener">Read on ' + esc(r.source.name) + ' <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>' +
+        '<div class="hook"><p>Getting your firm ready for changes like this? Legl helps law firms onboard clients, run AML checks and take payments in one place.</p><div class="row-end"><a class="btn btn-dark" href="https://www.legl.com" target="_blank" rel="noopener">See how Legl helps</a></div></div>' +
+      '</div>';
+    $('drawer').hidden = false;
+    $('scrim').hidden = false;
+    document.body.classList.add('locked');
+    $('close').focus();
+  }
+  function closeDrawer() {
+    $('drawer').hidden = true;
+    $('scrim').hidden = true;
+    document.body.classList.remove('locked');
+    if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+  }
+
+  /* Country */
+  function setCountry(c) {
+    if (!DATA.countries[c]) return;
+    state.c = c; state.stage = 'all'; state.topic = 'all'; state.firm = []; state.sort = 'recent'; state.q = ''; state.shown = PAGE; state.start = null;
+    $('search').value = '';
+    try { localStorage.setItem('legl-tracker-country', c); } catch (e) {}
+    renderAll();
+  }
+  function toggleMenu(open) {
+    $('country-menu').hidden = !open;
+    $('country-btn').setAttribute('aria-expanded', String(open));
+  }
+  function refreshList() { state.shown = PAGE; renderFilters(); renderList(); }
+
+  /* Events */
+  $('country-btn').addEventListener('click', function (e) { e.stopPropagation(); toggleMenu($('country-menu').hidden); });
+  $('search').addEventListener('input', function (e) {
+    var had = Boolean(state.q);
+    state.q = e.target.value.trim();
+    state.shown = PAGE;
+    if (had !== Boolean(state.q)) renderFilters();
+    renderList();
+  });
+  $('topic').addEventListener('change', function (e) { state.topic = e.target.value; refreshList(); });
+  $('sort').addEventListener('change', function (e) { state.sort = e.target.value; refreshList(); });
+  $('scrim').addEventListener('click', closeDrawer);
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t.closest('.country')) toggleMenu(false);
+    var cb = t.closest('[data-country]');
+    if (cb) { toggleMenu(false); setCountry(cb.getAttribute('data-country')); return; }
+    var shift = t.closest('[data-shift]');
+    if (shift) {
+      var dir = +shift.getAttribute('data-shift');
+      state.start += dir;
+      renderTimeline();
+      var same = document.querySelector('[data-shift="' + dir + '"]');
+      (same && !same.disabled ? same : document.querySelector('[data-shift="' + (-dir) + '"]')).focus();
+      return;
+    }
+    var op = t.closest('[data-open]');
+    if (op) { openDrawer(op.getAttribute('data-open')); return; }
+    if (t.closest('#close')) { closeDrawer(); return; }
+    var st = t.closest('[data-stage]');
+    if (st) { state.stage = st.getAttribute('data-stage'); refreshList(); return; }
+    var fm = t.closest('[data-firm]');
+    if (fm) {
+      var k = fm.getAttribute('data-firm'), i = state.firm.indexOf(k);
+      if (i === -1) state.firm.push(k); else state.firm.splice(i, 1);
+      refreshList(); return;
+    }
+    if (t.closest('#clear')) { state.stage = 'all'; state.topic = 'all'; state.firm = []; state.sort = 'recent'; state.q = ''; $('search').value = ''; refreshList(); return; }
+    if (t.closest('#more')) { state.shown += PAGE; renderList(); return; }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { toggleMenu(false); if (!$('drawer').hidden) closeDrawer(); }
+  });
+
+  var start = Object.keys(DATA.countries)[0];
+  var h = (location.hash || '').replace('#', '');
+  if (DATA.countries[h]) start = h;
+  else { try { var saved = localStorage.getItem('legl-tracker-country'); if (DATA.countries[saved]) start = saved; } catch (e) {} }
+  state.c = start;
+  renderAll();
+})();
+</script>
+</body>
+</html>
